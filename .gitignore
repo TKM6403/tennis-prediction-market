@@ -1,0 +1,23 @@
+# data — never commit raw or processed data
+data/raw/
+data/processed/
+
+# env
+.env
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
