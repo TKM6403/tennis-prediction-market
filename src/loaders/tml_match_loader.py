@@ -479,7 +479,8 @@ class TMLMatchLoader:
 
         # Resolve match_date
         if fetch_tennis_data:
-            years = sorted(set(pd.to_datetime(df["tourney_date"]).dt.year))
+            years_raw = pd.to_datetime(df["tourney_date"]).dt.year
+            years = sorted({int(y) for y in years_raw if pd.notna(y)})
             tennis_data_df = self._fetch_tennis_data(years)
             exact_lookup = self._build_exact_lookup(tennis_data_df)
             empirical_offsets = self._build_empirical_offsets(tennis_data_df)

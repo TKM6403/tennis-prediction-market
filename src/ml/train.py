@@ -80,10 +80,17 @@ logger = logging.getLogger(__name__)
 # Constants — frozen for all experiments
 # ============================================================================
 
-TRAIN_END   = pd.Timestamp("2022-12-31")
-VAL_START   = pd.Timestamp("2023-01-01")
-VAL_END     = pd.Timestamp("2023-12-31")
-TEST_START  = pd.Timestamp("2024-01-01")
+# NEW SPLIT — post-Big-3 era (Sep 2025 update):
+#   train: 2021-01-01 to 2023-12-31  (post-COVID, modern tour)
+#   val:   2024
+#   test:  2025
+# Pre-2021 data is loaded as feature history but not used for supervision.
+TRAIN_START = pd.Timestamp("2021-01-01")
+TRAIN_END   = pd.Timestamp("2023-12-31")
+VAL_START   = pd.Timestamp("2024-01-01")
+VAL_END     = pd.Timestamp("2024-12-31")
+TEST_START  = pd.Timestamp("2025-01-01")
+TEST_END    = pd.Timestamp("2025-12-31")
 
 # Grid search values for logistic regression C (inverse regularization strength)
 C_GRID = [0.01, 0.05, 0.1, 0.5, 1.0, 5.0, 10.0]
@@ -263,11 +270,18 @@ def time_split(df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFra
     """
     Apply the frozen date-based split.
 
+    train: 2021-01-01 ≤ match_date ≤ 2023-12-31
+    val:   2024-01-01 ≤ match_date ≤ 2024-12-31
+    test:  2025-01-01 ≤ match_date ≤ 2025-12-31
+
+    Pre-2021 rows are NOT used for supervision but ARE present in the
+    DataFrame so feature computation has the historical context.
+
     Returns (train, val, test) DataFrames.
     """
-    train = df[df["match_date"] <= TRAIN_END].reset_index(drop=True)
-    val   = df[(df["match_date"] >= VAL_START) & (df["match_date"] <= VAL_END)].reset_index(drop=True)
-    test  = df[df["match_date"] >= TEST_START].reset_index(drop=True)
+    train = df[(df["match_date"] >= TRAIN_START) & (df["match_date"] <= TRAIN_END)].reset_index(drop=True)
+    val   = df[(df["match_date"] >= VAL_START)   & (df["match_date"] <= VAL_END)].reset_index(drop=True)
+    test  = df[(df["match_date"] >= TEST_START)  & (df["match_date"] <= TEST_END)].reset_index(drop=True)
     logger.info(
         f"Split sizes — train: {len(train):,}  val: {len(val):,}  test: {len(test):,}"
     )
