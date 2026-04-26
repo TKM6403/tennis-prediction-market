@@ -234,13 +234,21 @@ def _parse_kalshi_title(title: str) -> dict:
 
 def _extract_tournament_from_rules(rules_primary) -> Optional[str]:
     """
-    Extract tournament name from Kalshi rules_primary field.
+    Extract tournament name from Kalshi rules_primary field, normalized
+    to TML format (no "ATP" / "WTA" / "Challenger" prefixes).
 
-    Example input:
-        "If Luciano Darderi wins the Cerundolo vs Darderi professional tennis
-         match in the 2026 ATP Madrid Round Of 64 after a ball has been played..."
+    Example inputs and outputs:
+        "...in the 2026 ATP Madrid Round Of 64..."
+            → "Madrid"
+        "...in the 2026 ATP Challenger Kigali 2 Round Of 16..."
+            → "Kigali 2"
+        "...in the 2026 WTA Challenger Buenos Aires Quarterfinal..."
+            → "Buenos Aires"
 
-    Returns: "ATP Madrid" or None
+    The TML database stores tournament names without these tour/level
+    prefixes, so we strip them here for consistent joining.
+
+    Returns: tournament name (string) or None.
     """
     if not isinstance(rules_primary, str):
         return None
@@ -249,9 +257,26 @@ def _extract_tournament_from_rules(rules_primary) -> Optional[str]:
         rules_primary,
         re.IGNORECASE,
     )
-    if m:
-        return m.group(1).strip()
-    return None
+    if not m:
+        return None
+    name = m.group(1).strip()
+
+    # Strip leading tour/level qualifier prefixes. Keep the rest verbatim
+    # because TML preserves city + suffix like "Kigali 2", "Oeiras 3".
+    # Order matters: strip combined prefixes before single ones.
+    PREFIXES = [
+        "ATP Challenger",
+        "WTA Challenger",
+        "ATP",
+        "WTA",
+        "Challenger",
+    ]
+    for prefix in PREFIXES:
+        if name.lower().startswith(prefix.lower() + " "):
+            name = name[len(prefix):].strip()
+            break
+
+    return name or None
 
 
 # ============================================================================
@@ -449,15 +474,17 @@ class KalshiLoader(PredictionMarketLoader):
             else None
         )
 
-        # Event date ──────────────────────────────────────────────────────
-        if "occurrence_datetime" in df.columns:
-            out["event_date"] = pd.to_datetime(
-                df["occurrence_datetime"], errors="coerce", utc=True
-            ).dt.date
-        else:
-            out["event_date"] = pd.to_datetime(
-                df.get("close_time"), errors="coerce", utc=True
-            ).dt.date
+        # Event date — prefer occurrence_datetime, fall back to close_time
+        # (occurrence_datetime exists as a column on most markets but is
+        # populated only on recently-listed events; close_time is always set)
+        ev_dt = pd.to_datetime(
+            df.get("occurrence_datetime"), errors="coerce", utc=True
+        ) if "occurrence_datetime" in df.columns else pd.Series(pd.NaT, index=df.index)
+        ct = pd.to_datetime(
+            df.get("close_time"), errors="coerce", utc=True
+        ) if "close_time" in df.columns else pd.Series(pd.NaT, index=df.index)
+        # Use close_time wherever occurrence_datetime is missing
+        out["event_date"] = ev_dt.fillna(ct).dt.date
 
         # Entry prices — NaN until enrich_entry_prices() is called.
         # yes_ask  = what you pay to buy YES

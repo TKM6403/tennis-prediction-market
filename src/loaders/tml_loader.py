@@ -11,6 +11,7 @@ Key design decisions:
 """
 
 import requests
+import time
 import pandas as pd
 from pathlib import Path
 from datetime import datetime, timedelta
@@ -44,7 +45,12 @@ def _cache_path(year: int, challenger: bool = False) -> Path:
 
 
 def _download(year: int, challenger: bool = False) -> Path:
-    """Download a single year CSV and cache it. Re-downloads current year always."""
+    """Download a single year CSV and cache it. Re-downloads current year always.
+
+    If the network call fails but a cached version exists, falls back to cache
+    with a warning. This handles transient TML server errors (503) without
+    breaking the pipeline when we have valid cached data.
+    """
     suffix = "_challenger" if challenger else ""
     url = f"{BASE_URL}/{year}{suffix}.csv"
     path = _cache_path(year, challenger)
@@ -57,9 +63,21 @@ def _download(year: int, challenger: bool = False) -> Path:
         return path
 
     logger.info(f"Downloading {url}")
-    resp = requests.get(url, timeout=30)
-    resp.raise_for_status()
-    path.write_bytes(resp.content)
+    try:
+        resp = requests.get(
+            url,
+            timeout=30,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; tennis-prediction-market)"},
+        )
+        resp.raise_for_status()
+        path.write_bytes(resp.content)
+    except requests.HTTPError as e:
+        if path.exists():
+            logger.warning(
+                f"Network failed ({e}); falling back to cached {path.name}"
+            )
+            return path
+        raise
     return path
 
 
@@ -116,12 +134,29 @@ def load_matches(
 
     frames = []
     for year in range(start_year, end_year + 1):
-        try:
-            frames.append(_load_year(year, challenger=False))
-            if include_challenger:
-                frames.append(_load_year(year, challenger=True))
-        except requests.HTTPError as e:
-            logger.warning(f"Could not load year {year}: {e}")
+        # Try tour and challenger separately so one 503 doesn't kill both.
+        # Retry on 503 (transient) up to 3 times with backoff.
+        for is_challenger in ([False, True] if include_challenger else [False]):
+            for attempt in range(3):
+                try:
+                    frames.append(_load_year(year, challenger=is_challenger))
+                    break
+                except requests.HTTPError as e:
+                    code = e.response.status_code if e.response is not None else 0
+                    if code == 503 and attempt < 2:
+                        wait = 2 ** attempt
+                        logger.warning(
+                            f"Transient 503 on {year} "
+                            f"({'challenger' if is_challenger else 'tour'}); "
+                            f"retrying in {wait}s"
+                        )
+                        time.sleep(wait)
+                        continue
+                    logger.warning(
+                        f"Could not load year {year} "
+                        f"({'challenger' if is_challenger else 'tour'}): {e}"
+                    )
+                    break
 
     if not frames:
         raise ValueError("No data loaded. Check year range.")
