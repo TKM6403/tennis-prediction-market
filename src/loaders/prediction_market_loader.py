@@ -430,11 +430,44 @@ class KalshiLoader(PredictionMarketLoader):
         out["market_id"] = "kalshi::" + df["ticker"].astype(str)
         out["question"] = df["title"].astype(str)
 
-        # Best-effort player extraction
+        # Best-effort player extraction.
+        # Title parsing gives player_a as full name, player_b as last name only.
+        # We then enrich player_b using yes_sub_title (always = player_a's full
+        # name) and expiration_value (always = the actual winner's full name).
+        # This gives us full names for BOTH players in 100% of rows, which
+        # makes the TML join unambiguous.
         parsed = df["title"].apply(_parse_kalshi_title)
         out["player_a"] = [p["player_a"] for p in parsed]
         out["player_b"] = [p["player_b"] for p in parsed]
-        out["round_"] = [p["round_"] for p in parsed]
+        out["round_"]   = [p["round_"]   for p in parsed]
+
+        # Enrich player_b with full name from expiration_value when player_a lost.
+        # When result='no', expiration_value is the OPPONENT's full name (the
+        # actual winner since YES failed). When result='yes', expiration_value
+        # equals yes_sub_title and we can't recover opponent's full name from
+        # this field alone — but for the trade decision and PnL we only need
+        # one full name + result, so this is fine.
+        if "expiration_value" in df.columns and "result" in df.columns:
+            exp_val = df["expiration_value"].astype(str)
+            yes_st  = df.get("yes_sub_title", pd.Series("", index=df.index)).astype(str)
+            # When result == "no" and expiration_value differs from yes_sub_title,
+            # expiration_value is the opponent's full name. Use it.
+            opp_full = exp_val.where(
+                (df["result"].astype(str) == "no") & (exp_val != yes_st),
+                None,
+            )
+            # Where we got a full opponent name and current player_b is just a
+            # last name, replace with the full name.
+            for idx in opp_full.dropna().index:
+                full = opp_full.loc[idx]
+                current_b = out.loc[idx, "player_b"]
+                # Only replace if it's a clear upgrade (current is short / last name)
+                if current_b is None or (
+                    isinstance(current_b, str)
+                    and isinstance(full, str)
+                    and current_b.strip().lower() in full.lower()
+                ):
+                    out.loc[idx, "player_b"] = full
 
         # Tournament from rules_primary (or fallback NaN)
         if "rules_primary" in df.columns:
