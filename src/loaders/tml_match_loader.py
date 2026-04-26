@@ -189,6 +189,50 @@ def _level_bucket(tml_level: str) -> str:
     return "A"  # safe default
 
 
+# Tournaments with non-standard scheduling where round-offset heuristics are
+# meaningless and match dates cannot be reliably inferred.
+#
+# BETTING SAFETY: these are also excluded from inference — attempting to run
+# prediction on a match from one of these events will raise IrregularFormatError.
+# This prevents accidental bets on markets where our model has no calibrated
+# prior.
+#
+# Davis Cup (D):    Team event, captain selections, surface chosen per tie,
+#                   scheduling across multiple days with no fixed round pattern.
+# Tour Finals (F):  Round-robin then knockout. Round labels (RR, SF, F) don't
+#                   map to fixed offsets from tourney_date.
+# Olympics (O):     4-year irregular cycle, compressed schedule with different
+#                   seeding rules and no ranking implications.
+IRREGULAR_FORMAT_LEVELS = frozenset({"D", "F", "O"})
+
+IRREGULAR_FORMAT_TOURNAMENTS = frozenset({
+    "atp cup",
+    "united cup",
+    "laver cup",
+    "hopman cup",
+    "world team cup",
+})
+
+
+class IrregularFormatError(ValueError):
+    """
+    Raised when inference is attempted on a tournament type that has been
+    explicitly excluded from the model due to non-standard scheduling,
+    team-based format, or other structural incompatibilities.
+
+    This is a hard safety guard — do not catch and suppress this error.
+    If you are trying to place a bet and see this, stop.
+
+    Tournament types that trigger this:
+        Davis Cup, Tour Finals, Olympics, ATP Cup, United Cup, Laver Cup.
+
+    Why: our model is calibrated on standard ATP tour matches. These events
+    have different formats, scheduling, surface selection, and player
+    incentives. The model's probability estimates are not valid here.
+    """
+    pass
+
+
 # ============================================================================
 # Helpers
 # ============================================================================
@@ -225,13 +269,24 @@ def _normalize_tournament(name) -> str:
 
 
 def _parse_td_date(s) -> Optional[pd.Timestamp]:
-    """Parse 'dd/mm/yyyy' from tennis-data.co.uk."""
+    """
+    Parse tennis-data.co.uk date. The site uses two formats inconsistently:
+        'dd/mm/yyyy'  (4-digit year, used in 2019+ files)
+        'dd/mm/yy'    (2-digit year, used in 2018 and earlier files)
+
+    Returns NaT if neither format matches.
+    """
     if not isinstance(s, str):
         return None
-    try:
-        return pd.to_datetime(s, format="%d/%m/%Y", errors="coerce")
-    except Exception:
-        return None
+    # Try 4-digit year first (most common)
+    parsed = pd.to_datetime(s, format="%d/%m/%Y", errors="coerce")
+    if pd.notna(parsed):
+        return parsed
+    # Fall back to 2-digit year
+    parsed = pd.to_datetime(s, format="%d/%m/%y", errors="coerce")
+    if pd.notna(parsed):
+        return parsed
+    return None
 
 
 # ============================================================================
@@ -421,10 +476,65 @@ class TMLMatchLoader:
 
     def feature_engineer(self, df: pd.DataFrame) -> pd.DataFrame:
         """
-        Stub. Will compute fatigue, surface form, h2h, etc. from the
-        normalized output. Returns df unchanged for now.
+        Add engineered features. Delegates to src/ml/features/feature_engineer.
+
+        Returns df with new feature columns appended.
         """
-        return df
+        from src.ml.features.feature_engineer import compute_all
+        return compute_all(df)
+
+    @staticmethod
+    def check_inference_safe(
+        tournament: str,
+        tourney_level: str,
+        raise_on_unsafe: bool = True,
+    ) -> bool:
+        """
+        Check whether it is safe to run model inference for a given match.
+
+        Call this before computing features or generating a probability
+        estimate for any live match. If the tournament is in the excluded
+        set, inference is not valid and you should not place a bet.
+
+        Args:
+            tournament:       Tournament name (e.g. "Davis Cup", "ATP Cup").
+            tourney_level:    TML-style level code (e.g. "D", "F", "O", "G").
+            raise_on_unsafe:  If True (default), raise IrregularFormatError
+                              when the match is unsafe. If False, return bool.
+
+        Returns:
+            True if safe to proceed. Never returns False — raises instead
+            unless raise_on_unsafe=False.
+
+        Raises:
+            IrregularFormatError: if the tournament format makes model
+                                  inference unreliable.
+
+        Example:
+            # Before placing a bet
+            TMLMatchLoader.check_inference_safe(
+                tournament="Davis Cup",
+                tourney_level="D",
+            )
+            # → raises IrregularFormatError — do not proceed
+        """
+        tournament_key = _normalize_tournament(tournament)
+        is_irregular = (
+            tourney_level in IRREGULAR_FORMAT_LEVELS
+            or tournament_key in IRREGULAR_FORMAT_TOURNAMENTS
+        )
+        if is_irregular:
+            msg = (
+                f"BETTING BLOCKED: '{tournament}' (level='{tourney_level}') is an "
+                f"irregular-format tournament. The model is not calibrated for this "
+                f"event type and probability estimates are not valid.\n"
+                f"Blocked levels:      {sorted(IRREGULAR_FORMAT_LEVELS)}\n"
+                f"Blocked tournaments: {sorted(IRREGULAR_FORMAT_TOURNAMENTS)}"
+            )
+            if raise_on_unsafe:
+                raise IrregularFormatError(msg)
+            return False
+        return True
 
     # ------------------------------------------------------------------
     # Tennis-data.co.uk fetching
@@ -499,7 +609,7 @@ class TMLMatchLoader:
             if not winner_key or not loser_key:
                 continue
             date = _parse_td_date(row.get("Date"))
-            if date is None:
+            if date is None or pd.isna(date):
                 continue
             year = int(row["_td_year"])
             slug = row["_td_slug"]
@@ -621,12 +731,20 @@ class TMLMatchLoader:
         if offset is not None:
             return ((tourney_date + timedelta(days=offset)).date(), "empirical")
 
-        # 3. Heuristic table
+        # 3. Check for irregular format BEFORE falling to heuristic.
+        # These tournaments have non-standard scheduling — heuristic offsets
+        # would be wrong by multiple days and the model is not calibrated
+        # for these event types regardless.
+        raw_level = str(tml_row.get("tourney_level", ""))
+        if raw_level in IRREGULAR_FORMAT_LEVELS or tournament_key in IRREGULAR_FORMAT_TOURNAMENTS:
+            return (tourney_date.date(), "irregular_format")
+
+        # 4. Heuristic table
         offset = HEURISTIC_ROUND_OFFSETS.get((level, round_))
         if offset is not None:
             return ((tourney_date + timedelta(days=offset)).date(), "heuristic")
 
-        # 4. Last resort: tourney_date itself
+        # 5. Last resort: tourney_date itself
         return (tourney_date.date(), "heuristic")
 
 
@@ -820,6 +938,93 @@ def _test_cutoff_applied_to_match_date():
     print("  PASSED ✓")
 
 
+def _test_irregular_format_flagged():
+    print("\n" + "=" * 60)
+    print("irregular_format — flagged in normalize()")
+    print("=" * 60)
+
+    loader = TMLMatchLoader()
+    raw = pd.DataFrame([
+        # Davis Cup match — should get irregular_format
+        {
+            "tourney_id": "2024-D001", "match_num": 1,
+            "tourney_name": "Davis Cup", "tourney_level": "D",
+            "tourney_date": pd.Timestamp("2024-09-10"),
+            "surface": "Hard", "indoor": "I", "round": "RR",
+            "winner_name": "Player A", "loser_name": "Player B",
+        },
+        # ATP Cup — should get irregular_format
+        {
+            "tourney_id": "2024-AC01", "match_num": 1,
+            "tourney_name": "ATP Cup", "tourney_level": "A",
+            "tourney_date": pd.Timestamp("2024-01-01"),
+            "surface": "Hard", "indoor": "I", "round": "RR",
+            "winner_name": "Player C", "loser_name": "Player D",
+        },
+        # Tour Finals — should get irregular_format
+        {
+            "tourney_id": "2024-F001", "match_num": 1,
+            "tourney_name": "Tour Finals", "tourney_level": "F",
+            "tourney_date": pd.Timestamp("2024-11-10"),
+            "surface": "Hard", "indoor": "I", "round": "RR",
+            "winner_name": "Player E", "loser_name": "Player F",
+        },
+        # Normal match — should get heuristic (not in tennis-data)
+        {
+            "tourney_id": "2024-M001", "match_num": 1,
+            "tourney_name": "Some 250", "tourney_level": "250",
+            "tourney_date": pd.Timestamp("2024-03-04"),
+            "surface": "Hard", "indoor": "O", "round": "R32",
+            "winner_name": "Player G", "loser_name": "Player H",
+        },
+    ])
+
+    out = loader.normalize(raw, fetch_tennis_data=False)
+    print(f"  date_confidence values: {list(out['date_confidence'])}")
+    assert out.iloc[0]["date_confidence"] == "irregular_format", "Davis Cup should be irregular_format"
+    assert out.iloc[1]["date_confidence"] == "irregular_format", "ATP Cup should be irregular_format"
+    assert out.iloc[2]["date_confidence"] == "irregular_format", "Tour Finals should be irregular_format"
+    assert out.iloc[3]["date_confidence"] == "heuristic",        "Normal match should be heuristic"
+    print("  PASSED ✓")
+
+
+def _test_check_inference_safe():
+    print("\n" + "=" * 60)
+    print("check_inference_safe — hard betting guard")
+    print("=" * 60)
+
+    # These should raise
+    for tourney, level in [
+        ("Davis Cup", "D"),
+        ("Tour Finals", "F"),
+        ("Tokyo Olympics", "O"),
+        ("ATP Cup", "A"),
+        ("Laver Cup", "A"),
+    ]:
+        try:
+            TMLMatchLoader.check_inference_safe(tourney, level)
+            print(f"  FAILED — should have raised for {tourney}")
+        except IrregularFormatError as e:
+            print(f"  ✓ Blocked {tourney!r} correctly")
+
+    # These should pass
+    for tourney, level in [
+        ("Madrid", "M"),
+        ("Australian Open", "G"),
+        ("Rotterdam", "500"),
+        ("Delray Beach", "250"),
+    ]:
+        result = TMLMatchLoader.check_inference_safe(tourney, level)
+        assert result is True
+        print(f"  ✓ Allowed {tourney!r} correctly")
+
+    # raise_on_unsafe=False returns False instead of raising
+    result = TMLMatchLoader.check_inference_safe("Davis Cup", "D", raise_on_unsafe=False)
+    assert result is False
+    print(f"  ✓ raise_on_unsafe=False returns False correctly")
+    print("  PASSED ✓")
+
+
 if __name__ == "__main__":
     _test_normalize_name()
     _test_resolve_match_date_exact()
@@ -827,6 +1032,8 @@ if __name__ == "__main__":
     _test_resolve_match_date_heuristic()
     _test_normalize_dummy_tml()
     _test_cutoff_applied_to_match_date()
+    _test_irregular_format_flagged()
+    _test_check_inference_safe()
     print("\n" + "=" * 60)
     print("All TMLMatchLoader tests passed.")
     print("=" * 60)
