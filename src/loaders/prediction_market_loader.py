@@ -74,7 +74,13 @@ STANDARD_SCHEMA = {
     "tournament":   "string",
     "round_":       "string",
     "event_date":   "date",
-    "entry_price":  "float",
+    # Opening prices from the first hourly candle after market open.
+    # Use yes_ask when buying YES, (1 - yes_bid) when buying NO.
+    # Both NaN until enrich_entry_prices() is called.
+    # Do NOT use a mid price for trading decisions — spreads are 20-40¢
+    # on challenger markets and mid significantly understates entry cost.
+    "yes_ask":      "float",   # price to buy YES (what you pay)
+    "yes_bid":      "float",   # price buyers will pay for YES (your sell price)
     "resolution":   "float",
     "source":       "string",
 }
@@ -145,18 +151,16 @@ class PredictionMarketLoader(ABC):
         if len(df) == 0:
             return
 
-        # 2. entry_price in [0, 1] or NaN
-        bad_price = df[
-            df["entry_price"].notna()
-            & ((df["entry_price"] < 0) | (df["entry_price"] > 1))
-        ]
-        if len(bad_price) > 0:
-            first = bad_price.iloc[0]
-            raise ValueError(
-                f"entry_price out of [0, 1] range on {len(bad_price)} row(s).\n"
-                f"First bad row: market_id={first['market_id']}, "
-                f"entry_price={first['entry_price']}"
-            )
+        # 2. yes_ask and yes_bid in [0, 1] or NaN
+        for col in ("yes_ask", "yes_bid"):
+            if col not in df.columns:
+                continue
+            bad = df[df[col].notna() & ((df[col] < 0) | (df[col] > 1))]
+            if len(bad):
+                raise ValueError(
+                    f"{col} out of [0,1] on {len(bad)} row(s). "
+                    f"First: market_id={bad.iloc[0]['market_id']}, {col}={bad.iloc[0][col]}"
+                )
 
         # 3. resolution must be 1.0, 0.0, or NaN
         valid = {0.0, 1.0}
@@ -455,10 +459,11 @@ class KalshiLoader(PredictionMarketLoader):
                 df.get("close_time"), errors="coerce", utc=True
             ).dt.date
 
-        # Entry price ─────────────────────────────────────────────────────
-        # NaN placeholder — call enrich_entry_prices() to populate with
-        # real opening mid prices from the candlestick API.
-        out["entry_price"] = np.nan
+        # Entry prices — NaN until enrich_entry_prices() is called.
+        # yes_ask  = what you pay to buy YES
+        # yes_bid  = what buyers will pay (your sell price / cost of NO)
+        out["yes_ask"] = np.nan
+        out["yes_bid"] = np.nan
 
         # Resolution ──────────────────────────────────────────────────────
         out["resolution"] = (
@@ -496,34 +501,34 @@ class KalshiLoader(PredictionMarketLoader):
         verbose: bool = True,
     ) -> pd.DataFrame:
         """
-        Populate entry_price from the Kalshi candlestick API.
+        Populate yes_ask and yes_bid from the Kalshi candlestick API.
 
-        Takes the mid of the first hourly candle after each market opens —
-        i.e. the price ~1h after market creation, which is a realistic
-        pre-match entry price (markets open 3-4 days before the match).
+        Takes the close values of yes_ask and yes_bid from the first hourly
+        candle after each market opens. These are the prices you would
+        realistically pay or receive ~1h after the market was created.
 
-        Requires norm_df to have _ticker, _open_time, and _series columns,
-        which normalize() always produces.
+        WHY BID AND ASK SEPARATELY (not mid)
+        -------------------------------------
+        On Kalshi challenger markets, spreads are typically 20-40¢. Using
+        a mid price would materially misstate entry cost. The correct edge
+        calculation is:
+            Buy YES:  edge = theo - yes_ask     (you pay the ask)
+            Buy NO:   edge = yes_bid - theo     (market pays you the bid)
+        Both sides are NaN until this method is called.
 
         Args:
             norm_df:        DataFrame from normalize().
-            sleep_between:  Seconds between API calls. 0.3s keeps us well
-                            below Kalshi's rate limit of ~300 req/min.
+            sleep_between:  Seconds between API calls (~300 req/min limit).
             verbose:        Log progress every 50 markets.
 
         Returns:
-            norm_df with entry_price column filled. Rows where the
-            candlestick API returns no data stay NaN.
-
-        Example:
-            norm = loader.normalize(raw)
-            norm = loader.enrich_entry_prices(norm)
-            # norm["entry_price"] is now a realistic pre-match mid price
+            norm_df with yes_ask and yes_bid filled where data is available.
+            Rows with no candle data stay NaN.
         """
         import time as _time
 
-        df  = norm_df.copy()
-        n   = len(df)
+        df     = norm_df.copy()
+        n      = len(df)
         filled = 0
 
         for i, (idx, row) in enumerate(df.iterrows()):
@@ -534,25 +539,30 @@ class KalshiLoader(PredictionMarketLoader):
             if not series or not ticker or pd.isna(open_ts):
                 continue
 
-            mid = self._fetch_opening_mid(series, ticker, open_ts)
-            if mid is not None:
-                df.at[idx, "entry_price"] = mid
+            bid, ask = self._fetch_opening_prices(series, ticker, open_ts)
+
+            if ask is not None:
+                df.at[idx, "yes_ask"] = ask
                 filled += 1
+            if bid is not None:
+                df.at[idx, "yes_bid"] = bid
 
             if verbose and (i + 1) % 50 == 0:
                 pct = (i + 1) / n * 100
                 print(
                     f"  enrich_entry_prices: {i+1}/{n} ({pct:.0f}%)"
-                    f"  filled={filled}",
+                    f"  ask_filled={filled}",
                     flush=True,
                 )
             _time.sleep(sleep_between)
 
         if verbose:
-            nn = df["entry_price"].isna().sum()
+            nan_ask = df["yes_ask"].isna().sum()
+            nan_bid = df["yes_bid"].isna().sum()
             print(
-                f"  enrich_entry_prices done: {filled}/{n} filled"
-                f", {nn} still NaN",
+                f"  enrich_entry_prices done: "
+                f"yes_ask filled={n-nan_ask}/{n}, "
+                f"yes_bid filled={n-nan_bid}/{n}",
                 flush=True,
             )
 
@@ -684,58 +694,62 @@ class KalshiLoader(PredictionMarketLoader):
         return data.get("candlesticks", [])
 
     @staticmethod
-    def _mid_from_candle(candle: dict) -> Optional[float]:
+    def _prices_from_candle(candle: dict) -> tuple:
         """
-        Extract mid price from a single candlestick dict.
+        Extract (yes_bid, yes_ask) close prices from a candlestick dict.
 
-        Uses the close values of yes_bid and yes_ask from the candle.
-        If only one side is available, returns that value alone.
-        Returns None if both are absent or zero.
+        Returns a (bid, ask) tuple of floats. Either value is None if
+        that side has no data (zero or missing). Callers should handle
+        None values — they indicate a one-sided or empty market at that time.
 
         Args:
-            candle: Single dict from the candlesticks response, e.g.
+            candle: Single dict from the Kalshi candlesticks response:
                 {
-                    "yes_ask": {"close_dollars": "0.62", ...},
-                    "yes_bid": {"close_dollars": "0.55", ...},
+                    "yes_ask": {"close_dollars": "0.63", ...},
+                    "yes_bid": {"close_dollars": "0.30", ...},
                     ...
                 }
 
         Returns:
-            float in (0, 1] or None.
-        """
-        ask = float((candle.get("yes_ask") or {}).get("close_dollars") or 0)
-        bid = float((candle.get("yes_bid") or {}).get("close_dollars") or 0)
-        if ask <= 0 and bid <= 0:
-            return None
-        if ask <= 0:
-            return bid
-        if bid <= 0:
-            return ask
-        return (ask + bid) / 2.0
+            (bid, ask) where each is a float in (0, 1) or None.
 
-    def _fetch_opening_mid(
+        Example:
+            bid, ask = KalshiLoader._prices_from_candle(candle)
+            # bid=0.30, ask=0.63
+            # To buy YES: pay ask (0.63)
+            # To buy NO:  pay (1 - bid) = 0.70
+            # Edge for buying YES: theo - ask
+            # Edge for buying NO:  bid - theo
+        """
+        ask_raw = (candle.get("yes_ask") or {}).get("close_dollars")
+        bid_raw = (candle.get("yes_bid") or {}).get("close_dollars")
+
+        ask = float(ask_raw) if ask_raw not in (None, "", "0", 0) else None
+        bid = float(bid_raw) if bid_raw not in (None, "", "0", 0) else None
+
+        # Sanity bounds — Kalshi prices are always in (0, 1)
+        if ask is not None and not (0 < ask < 1):
+            ask = None
+        if bid is not None and not (0 < bid < 1):
+            bid = None
+
+        return bid, ask
+
+    def _fetch_opening_prices(
         self,
         series_ticker: str,
         market_ticker: str,
         open_time: "pd.Timestamp",
         window_hours: int = 6,
-    ) -> Optional[float]:
+    ) -> tuple:
         """
-        Return the mid price from the first hourly candle after market open.
+        Return (yes_bid, yes_ask) from the first hourly candle after open.
 
-        Fetches candles in [open_time, open_time + window_hours) and takes
-        the first one, which represents the price ~1h after the market was
-        created. This is a realistic pre-match entry price since Kalshi
-        challenger markets open 3-4 days before the match.
+        Fetches the [open_time, open_time + window_hours) window and takes
+        the first available candle. This is ~1h after market creation —
+        a realistic pre-match quote since markets open 3-4 days early.
 
-        Args:
-            series_ticker:  e.g. "KXATPCHALLENGERMATCH"
-            market_ticker:  e.g. "KXATPCHALLENGERMATCH-26FEB22KOUDRO-KOU"
-            open_time:      tz-aware Timestamp of market open.
-            window_hours:   How many hours after open to search for candles.
-
-        Returns:
-            float mid price in (0, 1], or None if no candle data available.
+        Returns (None, None) if no candle data is available.
         """
         start_ts = int(open_time.timestamp())
         end_ts   = int((open_time + pd.Timedelta(hours=window_hours)).timestamp())
@@ -744,9 +758,9 @@ class KalshiLoader(PredictionMarketLoader):
             series_ticker, market_ticker, start_ts, end_ts
         )
         if not candles:
-            return None
+            return None, None
 
-        return self._mid_from_candle(candles[0])
+        return self._prices_from_candle(candles[0])
 
 
 # ============================================================================
