@@ -20,8 +20,8 @@ LOOKAHEAD GUARD (per CLAUDE.md)
     strict `<` filter — never `<=`.
 
 THE 6 FEATURES IMPLEMENTED IN THIS PASS
-    fatigue_minutes_7d        — minutes played in last 7 days
-    fatigue_minutes_14d       — minutes played in last 14 days
+    fatigue_minutes_21d       — minutes played in last 21 days
+    fatigue_minutes_28d       — minutes played in last 28 days
     days_since_last_match     — recovery time since previous match
     surface_win_rate_52w      — win rate on this surface over last year
     recent_form_10m           — win rate over last 10 matches (any surface)
@@ -76,8 +76,8 @@ def compute_all(
 
     Returns:
         Same DataFrame with these new columns added:
-            fatigue_minutes_7d_w / _l
-            fatigue_minutes_14d_w / _l
+            fatigue_minutes_21d_w / _l
+            fatigue_minutes_28d_w / _l
             days_since_last_match_w / _l
             surface_win_rate_52w_w / _l
             recent_form_10m_w / _l
@@ -147,20 +147,24 @@ def compute_all(
     history["surface_win_rate_52w"] = history["_pos"].map(swr_aligned)
 
     # ── 4. fatigue_minutes_Xd: time-based rolling sum per player
+    # Windows: 21D captures current tournament + previous event (~85% of cases).
+    #          28D captures two full events for nearly everyone.
+    # 7D and 14D were too short — inter-tournament gaps average 12 days so
+    # a 7D window missed the entire prior event load for most players.
     def _time_rolling_sum(group_df, value_col, window):
         s = group_df[value_col].fillna(0)
         rolled = s.rolling(window, closed="left").sum()
         return pd.DataFrame({"_pos": group_df["_pos"].values,
                              "_val": rolled.values})
 
-    fat7_parts, fat14_parts = [], []
+    fat21_parts, fat28_parts = [], []
     for _player, grp in history_dt.groupby("player", sort=False):
-        fat7_parts.append(_time_rolling_sum(grp, "minutes", "7D"))
-        fat14_parts.append(_time_rolling_sum(grp, "minutes", "14D"))
-    fat7_aligned = pd.concat(fat7_parts, ignore_index=True).set_index("_pos")["_val"]
-    fat14_aligned = pd.concat(fat14_parts, ignore_index=True).set_index("_pos")["_val"]
-    history["fatigue_minutes_7d"] = history["_pos"].map(fat7_aligned)
-    history["fatigue_minutes_14d"] = history["_pos"].map(fat14_aligned)
+        fat21_parts.append(_time_rolling_sum(grp, "minutes", "21D"))
+        fat28_parts.append(_time_rolling_sum(grp, "minutes", "28D"))
+    fat21_aligned = pd.concat(fat21_parts, ignore_index=True).set_index("_pos")["_val"]
+    fat28_aligned = pd.concat(fat28_parts, ignore_index=True).set_index("_pos")["_val"]
+    history["fatigue_minutes_21d"] = history["_pos"].map(fat21_aligned)
+    history["fatigue_minutes_28d"] = history["_pos"].map(fat28_aligned)
 
     # ── 5. h2h_surface_advantage: per (player, opponent, surface), expanding
     # mean using only matches strictly before current date. We can't use
@@ -182,13 +186,119 @@ def compute_all(
         .apply(_h2h)
     )
 
+    # ── 6. Player identity features: rolling serve/return stats over 52w
+    #
+    # These capture stable player-style differences (Karlovic-type big servers,
+    # Schwartzman-type great returners) that ranking alone doesn't encode.
+    # ICC analysis showed ace_rate has 0.44 between-player vs within-player
+    # variance — i.e. nearly half the variation is genuine player identity.
+    #
+    # Rolling sums of RAW COUNTS (then divided), not means of per-match rates.
+    # Otherwise a 50-point match weighs the same as a 200-point match, which
+    # is wrong for stat estimation.
+    def _time_rolling_sum_col(group_df, value_col, window):
+        s = group_df[value_col].fillna(0)
+        rolled = s.rolling(window, closed="left").sum()
+        return pd.DataFrame({"_pos": group_df["_pos"].values,
+                             "_val": rolled.values})
+
+    # Numerators and denominators for each rate
+    serve_stats = ["ace", "double_fault", "svpt", "first_in", "first_won",
+                   "second_won", "opp_svpt", "opp_1st_in", "opp_1st_won",
+                   "opp_2nd_won"]
+    rolled_sums = {col: [] for col in serve_stats}
+
+    for _player, grp in history_dt.groupby("player", sort=False):
+        for col in serve_stats:
+            rolled_sums[col].append(_time_rolling_sum_col(grp, col, "365D"))
+
+    # Align back to history rows
+    aligned = {}
+    for col in serve_stats:
+        s = pd.concat(rolled_sums[col], ignore_index=True).set_index("_pos")["_val"]
+        aligned[col] = history["_pos"].map(s)
+
+    # Now derive the actual identity features from the rolled sums.
+    # Use a min-svpt threshold so noisy players with <100 service points
+    # in their history get NaN (caller will impute).
+    MIN_SVPT = 100.0
+    svpt = aligned["svpt"]
+    insufficient = svpt < MIN_SVPT
+
+    # Ace rate: aces per service point. Karlovic ~25%, tour avg ~8%.
+    history["ace_rate_52w"] = np.where(
+        insufficient, np.nan, aligned["ace"] / svpt.replace(0, np.nan)
+    )
+
+    # Double-fault rate: similar interpretation, different sign of value.
+    history["df_rate_52w"] = np.where(
+        insufficient, np.nan, aligned["double_fault"] / svpt.replace(0, np.nan)
+    )
+
+    # First-serve % in: fraction of first serves that go in.
+    history["first_in_pct_52w"] = np.where(
+        insufficient, np.nan, aligned["first_in"] / svpt.replace(0, np.nan)
+    )
+
+    # First-serve win %: when first serve goes in, how often you win the point.
+    history["first_won_pct_52w"] = np.where(
+        insufficient | (aligned["first_in"] < 50),
+        np.nan,
+        aligned["first_won"] / aligned["first_in"].replace(0, np.nan),
+    )
+
+    # Second-serve win %: how often you win when forced to second serve.
+    second_serves = svpt - aligned["first_in"]
+    history["second_won_pct_52w"] = np.where(
+        insufficient | (second_serves < 50),
+        np.nan,
+        aligned["second_won"] / second_serves.replace(0, np.nan),
+    )
+
+    # Serve dominance: combined hold-strength estimator.
+    # = first_in% × first_won% + (1 - first_in%) × second_won%
+    # This is the probability of winning a service point. Karlovic ~78%,
+    # tour avg ~67%, Schwartzman ~58%. One number summarising hold ability.
+    fi = aligned["first_in"] / svpt.replace(0, np.nan)
+    fw = aligned["first_won"] / aligned["first_in"].replace(0, np.nan)
+    sw = aligned["second_won"] / second_serves.replace(0, np.nan)
+    history["serve_dominance_52w"] = np.where(
+        insufficient | (aligned["first_in"] < 50) | (second_serves < 50),
+        np.nan,
+        fi * fw + (1 - fi) * sw,
+    )
+
+    # Return dominance: how well opponents perform on serve against this
+    # player. Lower = this player is a tougher returner.
+    # = (opp's points won on serve) / (opp's total service points faced)
+    # Schwartzman forces opponents to ~62%; tour avg ~67%.
+    opp_svpt = aligned["opp_svpt"]
+    opp_pts_won = aligned["opp_1st_won"] + aligned["opp_2nd_won"]
+    history["return_dominance_52w"] = np.where(
+        opp_svpt < MIN_SVPT,
+        np.nan,
+        opp_pts_won / opp_svpt.replace(0, np.nan),
+    )
+
+    # Height (constant per player, but carried in history for the merge).
+    # We use the median height across the player's history to handle the
+    # rare TML rows that have NaN ht. Unlike rolling features this doesn't
+    # need a closed='left' guard — height doesn't change between matches.
+    player_ht = history.groupby("player")["ht"].transform("median")
+    history["height_cm"] = player_ht
+
     # ── Now project history features back onto df via merge.
     # For each match in df, we look up the row in history that corresponds
     # to (winner_name, match_date, won=True) — and (loser_name, match_date, won=False).
 
     feat_cols = [
         "days_since_last", "recent_form_10m", "surface_win_rate_52w",
-        "fatigue_minutes_7d", "fatigue_minutes_14d", "h2h_surface_advantage",
+        "fatigue_minutes_21d", "fatigue_minutes_28d", "h2h_surface_advantage",
+        # Player identity
+        "ace_rate_52w", "df_rate_52w",
+        "first_in_pct_52w", "first_won_pct_52w", "second_won_pct_52w",
+        "serve_dominance_52w", "return_dominance_52w",
+        "height_cm",
     ]
 
     # Deduplicate on key (rare same-day same-pair matches in TML); keep first
@@ -209,12 +319,20 @@ def compute_all(
 
     # Attach to df with _w / _l suffix
     name_map = {
-        "fatigue_minutes_7d":     "fatigue_minutes_7d",
-        "fatigue_minutes_14d":    "fatigue_minutes_14d",
+        "fatigue_minutes_21d":    "fatigue_minutes_21d",
+        "fatigue_minutes_28d":    "fatigue_minutes_28d",
         "days_since_last":        "days_since_last_match",
         "surface_win_rate_52w":   "surface_win_rate_52w",
         "recent_form_10m":        "recent_form_10m",
         "h2h_surface_advantage":  "h2h_surface_advantage",
+        "ace_rate_52w":           "ace_rate_52w",
+        "df_rate_52w":            "df_rate_52w",
+        "first_in_pct_52w":       "first_in_pct_52w",
+        "first_won_pct_52w":      "first_won_pct_52w",
+        "second_won_pct_52w":     "second_won_pct_52w",
+        "serve_dominance_52w":    "serve_dominance_52w",
+        "return_dominance_52w":   "return_dominance_52w",
+        "height_cm":              "height_cm",
     }
     for i, c in enumerate(feat_cols):
         out_name = name_map[c]
@@ -290,20 +408,19 @@ FEATURE_NULL_THRESHOLDS: dict = {
         "structural_max": 0.40,
         "note": "Null = <3 matches in history. >20% = too little history to train on.",
     },
-    # Fatigue 7d: null when player had ZERO matches in past 7 days.
-    # This is expected to be high — ~45% — because most players have a week
-    # off between tournaments. NaN here means 0 minutes fatigue, which the
-    # imputer fills correctly.
-    "fatigue_diff_7d": {
-        "warn_above":     0.70,
-        "structural_max": 0.85,
-        "note": "Null = no matches in prior 7 days. ~45% expected. >70% = minutes data missing.",
+    # Fatigue 21d: null when player had ZERO matches in past 21 days.
+    # 21d window captures ~85% of inter-tournament gaps, so null rate
+    # should be lower than the old 7d (~45%) — expect ~25-30%.
+    "fatigue_diff_21d": {
+        "warn_above":     0.50,
+        "structural_max": 0.70,
+        "note": "Null = no matches in prior 21 days. ~30% expected. >50% = minutes data missing.",
     },
-    # Fatigue 14d: same logic, slightly lower expected null rate (~33%).
-    "fatigue_diff_14d": {
-        "warn_above":     0.60,
-        "structural_max": 0.80,
-        "note": "Null = no matches in prior 14 days. ~33% expected. >60% = minutes data missing.",
+    # Fatigue 28d: same logic, 28d captures ~89% of gaps. Expect ~20%.
+    "fatigue_diff_28d": {
+        "warn_above":     0.45,
+        "structural_max": 0.65,
+        "note": "Null = no matches in prior 28 days. ~20% expected. >45% = minutes data missing.",
     },
     # Days since last match: null only on debut match. Expected <5%.
     "days_rest_diff": {
@@ -317,6 +434,49 @@ FEATURE_NULL_THRESHOLDS: dict = {
         "warn_above":     0.90,
         "structural_max": 0.97,
         "note": "Null = never met on this surface. ~83% expected. >90% = surface join broken.",
+    },
+    # ── Player identity (serve / return / physical) ──
+    # All require ≥100 service points in prior 52w → null for new players.
+    # Expected null ~25-30% (similar to surface_win_rate).
+    "ace_rate_diff": {
+        "warn_above":     0.40,
+        "structural_max": 0.60,
+        "note": "Null = <100 svpt in prior 52w. >40% = serve stat data missing.",
+    },
+    "df_rate_diff": {
+        "warn_above":     0.40,
+        "structural_max": 0.60,
+        "note": "Null = <100 svpt in prior 52w. >40% = serve stat data missing.",
+    },
+    "serve_dominance_diff": {
+        "warn_above":     0.45,
+        "structural_max": 0.65,
+        "note": "Null = <100 svpt or <50 first-serves-in. Slightly higher null than ace_rate.",
+    },
+    "return_dominance_diff": {
+        "warn_above":     0.45,
+        "structural_max": 0.65,
+        "note": "Null = opponent svpt < 100 in prior 52w.",
+    },
+    "first_in_pct_diff": {
+        "warn_above":     0.40,
+        "structural_max": 0.60,
+        "note": "Null = <100 svpt in prior 52w.",
+    },
+    "first_won_pct_diff": {
+        "warn_above":     0.45,
+        "structural_max": 0.65,
+        "note": "Null = <50 first serves in prior 52w.",
+    },
+    "second_won_pct_diff": {
+        "warn_above":     0.45,
+        "structural_max": 0.65,
+        "note": "Null = <50 second serves in prior 52w.",
+    },
+    "height_diff": {
+        "warn_above":     0.05,
+        "structural_max": 0.15,
+        "note": "Null = height missing for one player. >5% = TML height data degrading.",
     },
 }
 
@@ -473,23 +633,62 @@ def _build_player_history(df: pd.DataFrame) -> pd.DataFrame:
     Convert match-level DF (winner-first) into long-form per-player history.
     Each match becomes 2 rows: one from winner POV, one from loser POV.
 
-    Columns: player, opponent, match_date, surface, minutes, won
+    Carries per-match serve stats so we can compute rolling player identity
+    features (ace_rate, first_serve_in_pct, hold_pct, etc.) per player.
+
+    Columns: player, opponent, match_date, surface, minutes, won, ht,
+             ace, df, svpt, first_in, first_won, second_won, sv_gms,
+             bp_saved, bp_faced, opp_2nd_won, opp_svpt, opp_1st_in
     """
+    # Helper to safely get a column or fill with NaN if missing
+    def col(name, default=np.nan):
+        return df[name] if name in df.columns else default
+
     winner_view = pd.DataFrame({
-        "player":     df["winner_name"],
-        "opponent":   df["loser_name"],
-        "match_date": df["match_date"],
-        "surface":    df["surface"],
-        "minutes":    df["minutes"],
-        "won":        True,
+        "player":        df["winner_name"],
+        "opponent":      df["loser_name"],
+        "match_date":    df["match_date"],
+        "surface":       df["surface"],
+        "minutes":       df["minutes"],
+        "won":           True,
+        "ht":            col("winner_ht"),
+        # Player's own serve stats this match
+        "ace":           col("w_ace"),
+        "double_fault":  col("w_df"),
+        "svpt":          col("w_svpt"),
+        "first_in":      col("w_1stIn"),
+        "first_won":     col("w_1stWon"),
+        "second_won":    col("w_2ndWon"),
+        "sv_gms":        col("w_SvGms"),
+        "bp_saved":      col("w_bpSaved"),
+        "bp_faced":      col("w_bpFaced"),
+        # Opponent's serve stats — for return-pressure features
+        "opp_svpt":      col("l_svpt"),
+        "opp_1st_in":    col("l_1stIn"),
+        "opp_1st_won":   col("l_1stWon"),
+        "opp_2nd_won":   col("l_2ndWon"),
     })
     loser_view = pd.DataFrame({
-        "player":     df["loser_name"],
-        "opponent":   df["winner_name"],
-        "match_date": df["match_date"],
-        "surface":    df["surface"],
-        "minutes":    df["minutes"],
-        "won":        False,
+        "player":        df["loser_name"],
+        "opponent":      df["winner_name"],
+        "match_date":    df["match_date"],
+        "surface":       df["surface"],
+        "minutes":       df["minutes"],
+        "won":           False,
+        "ht":            col("loser_ht"),
+        "ace":           col("l_ace"),
+        "double_fault":  col("l_df"),
+        "svpt":          col("l_svpt"),
+        "first_in":      col("l_1stIn"),
+        "first_won":     col("l_1stWon"),
+        "second_won":    col("l_2ndWon"),
+        "sv_gms":        col("l_SvGms"),
+        "bp_saved":      col("l_bpSaved"),
+        "bp_faced":      col("l_bpFaced"),
+        "opp_svpt":      col("w_svpt"),
+        "opp_1st_in":    col("w_1stIn"),
+        "opp_1st_won":   col("w_1stWon"),
+        "opp_2nd_won":   col("w_2ndWon"),
     })
     history = pd.concat([winner_view, loser_view], ignore_index=True)
     history = history.sort_values(["player", "match_date"]).reset_index(drop=True)
@@ -786,12 +985,12 @@ def _test_compute_all_endtoend():
     out = compute_all(matches)
     last = out.iloc[-1]
 
-    print(f"  fatigue_minutes_7d_w (Darderi):  {last['fatigue_minutes_7d_w']}  (expected 215.0)")
-    print(f"  fatigue_minutes_7d_l (Cerundolo):{last['fatigue_minutes_7d_l']}  (expected 100.0)")
-    print(f"  days_since_last_match_w:         {last['days_since_last_match_w']}  (expected 3.0)")
-    print(f"  days_since_last_match_l:         {last['days_since_last_match_l']}  (expected 2.0)")
-    assert last["fatigue_minutes_7d_w"] == 215.0
-    assert last["fatigue_minutes_7d_l"] == 100.0
+    print(f"  fatigue_minutes_21d_w (Darderi):  {last['fatigue_minutes_21d_w']}  (expected 215.0)")
+    print(f"  fatigue_minutes_21d_l (Cerundolo):{last['fatigue_minutes_21d_l']}  (expected 100.0)")
+    print(f"  days_since_last_match_w:          {last['days_since_last_match_w']}  (expected 3.0)")
+    print(f"  days_since_last_match_l:          {last['days_since_last_match_l']}  (expected 2.0)")
+    assert last["fatigue_minutes_21d_w"] == 215.0, f"Got {last['fatigue_minutes_21d_w']}"
+    assert last["fatigue_minutes_21d_l"] == 100.0, f"Got {last['fatigue_minutes_21d_l']}"
     assert last["days_since_last_match_w"] == 3.0
     assert last["days_since_last_match_l"] == 2.0
     print("  PASSED ✓")
@@ -826,8 +1025,8 @@ def _test_no_same_day_leak():
 
     # PlayerA appears in all 3 matches. None of these minutes (100, 80, 60)
     # should appear in any fatigue feature for PlayerA.
-    a_fatigues_w = out["fatigue_minutes_7d_w"][out["winner_name"] == "PlayerA"]
-    a_fatigues_l = out["fatigue_minutes_7d_l"][out["loser_name"] == "PlayerA"]
+    a_fatigues_w = out["fatigue_minutes_21d_w"][out["winner_name"] == "PlayerA"]
+    a_fatigues_l = out["fatigue_minutes_21d_l"][out["loser_name"] == "PlayerA"]
 
     print(f"  PlayerA fatigue values when winner: {list(a_fatigues_w.values)}")
     print(f"  PlayerA fatigue values when loser:  {list(a_fatigues_l.values)}")
@@ -865,8 +1064,8 @@ def _test_distributional_sanity():
     matches = pd.DataFrame(rows)
     out = compute_all(matches)
 
-    mean_w = out["fatigue_minutes_7d_w"].mean()
-    mean_l = out["fatigue_minutes_7d_l"].mean()
+    mean_w = out["fatigue_minutes_21d_w"].mean()
+    mean_l = out["fatigue_minutes_21d_l"].mean()
     diff = mean_w - mean_l
     print(f"  Mean winner fatigue: {mean_w:.2f}")
     print(f"  Mean loser fatigue:  {mean_l:.2f}")
@@ -890,23 +1089,40 @@ def _test_feature_quality_gate():
                                            rng.uniform(-0.5, 0.5, n)),
         "recent_form_diff":      np.where(rng.random(n) < 0.08, np.nan,
                                            rng.uniform(-0.5, 0.5, n)),
-        "fatigue_diff_7d":       np.where(rng.random(n) < 0.45, np.nan,
+        "fatigue_diff_21d":      np.where(rng.random(n) < 0.45, np.nan,
                                            rng.uniform(-200, 200, n)),
-        "fatigue_diff_14d":      np.where(rng.random(n) < 0.33, np.nan,
+        "fatigue_diff_28d":      np.where(rng.random(n) < 0.33, np.nan,
                                            rng.uniform(-300, 300, n)),
         "days_rest_diff":        np.where(rng.random(n) < 0.03, np.nan,
                                            rng.uniform(-10, 10, n)),
         "h2h_surface_diff":      np.where(rng.random(n) < 0.83, np.nan,
                                            rng.uniform(-1, 1, n)),
+        # Player identity features — synthetic data with realistic null rates
+        "ace_rate_diff":         np.where(rng.random(n) < 0.25, np.nan,
+                                           rng.uniform(-0.10, 0.10, n)),
+        "df_rate_diff":          np.where(rng.random(n) < 0.25, np.nan,
+                                           rng.uniform(-0.05, 0.05, n)),
+        "serve_dominance_diff":  np.where(rng.random(n) < 0.30, np.nan,
+                                           rng.uniform(-0.10, 0.10, n)),
+        "return_dominance_diff": np.where(rng.random(n) < 0.30, np.nan,
+                                           rng.uniform(-0.10, 0.10, n)),
+        "first_in_pct_diff":     np.where(rng.random(n) < 0.25, np.nan,
+                                           rng.uniform(-0.08, 0.08, n)),
+        "first_won_pct_diff":    np.where(rng.random(n) < 0.30, np.nan,
+                                           rng.uniform(-0.10, 0.10, n)),
+        "second_won_pct_diff":   np.where(rng.random(n) < 0.30, np.nan,
+                                           rng.uniform(-0.12, 0.12, n)),
+        "height_diff":           np.where(rng.random(n) < 0.02, np.nan,
+                                           rng.uniform(-15, 15, n)),
     })
     report = assert_feature_quality(good_df, context="test-good")
     assert (report["status"] != "error").all(), "Good dataset should have no errors"
     print(f"  ✓ Good dataset: no errors ({(report['status']=='ok').sum()} ok, "
           f"{(report['status']=='warn').sum()} warn)")
 
-    # ── 2. Broken feature: fatigue_diff_7d is 90% null (above structural_max=0.85) ─
+    # ── 2. Broken feature: fatigue_diff_21d is 80% null (above structural_max=0.70) ─
     bad_df = good_df.copy()
-    bad_df["fatigue_diff_7d"] = np.where(rng.random(n) < 0.90, np.nan,
+    bad_df["fatigue_diff_21d"] = np.where(rng.random(n) < 0.80, np.nan,
                                           rng.uniform(-200, 200, n))
     try:
         assert_feature_quality(bad_df, context="test-bad")

@@ -91,12 +91,22 @@ C_GRID = [0.01, 0.05, 0.1, 0.5, 1.0, 5.0, 10.0]
 BASELINE_FEATURES   = ["rank_ratio_a"]
 AUGMENTED_FEATURES  = [
     "rank_ratio_a",
+    # Form & fatigue
     "surface_win_rate_diff",
     "recent_form_diff",
-    "fatigue_diff_7d",
-    "fatigue_diff_14d",
+    "fatigue_diff_21d",
+    "fatigue_diff_28d",
     "days_rest_diff",
     "h2h_surface_diff",
+    # Player identity (serve / return / physical)
+    "ace_rate_diff",
+    "df_rate_diff",
+    "serve_dominance_diff",
+    "return_dominance_diff",
+    "first_in_pct_diff",
+    "first_won_pct_diff",
+    "second_won_pct_diff",
+    "height_diff",
 ]
 
 
@@ -223,9 +233,24 @@ def build_features(df: pd.DataFrame) -> pd.DataFrame:
     out["recent_form_diff"]      = _feat_a("recent_form_10m")      - _feat_b("recent_form_10m")
     out["h2h_surface_diff"]      = _feat_a("h2h_surface_advantage")- _feat_b("h2h_surface_advantage")
     # Fatigue: positive diff means player_b played MORE minutes recently → edge for a
-    out["fatigue_diff_7d"]       = _feat_b("fatigue_minutes_7d")   - _feat_a("fatigue_minutes_7d")
-    out["fatigue_diff_14d"]      = _feat_b("fatigue_minutes_14d")  - _feat_a("fatigue_minutes_14d")
+    out["fatigue_diff_21d"]      = _feat_b("fatigue_minutes_21d")   - _feat_a("fatigue_minutes_21d")
+    out["fatigue_diff_28d"]      = _feat_b("fatigue_minutes_28d")  - _feat_a("fatigue_minutes_28d")
     out["days_rest_diff"]        = _feat_a("days_since_last_match")- _feat_b("days_since_last_match")
+
+    # ── Player identity diffs ──
+    # All "rate-style" features are simple a - b. Higher diff = a's stat is
+    # better/larger/more dominant than b's. Sign convention is consistent
+    # with surface_win_rate_diff (positive → a is better).
+    out["ace_rate_diff"]         = _feat_a("ace_rate_52w")          - _feat_b("ace_rate_52w")
+    # df_rate sign flipped: low DF rate is good, so positive diff = a has FEWER DFs
+    out["df_rate_diff"]          = _feat_b("df_rate_52w")           - _feat_a("df_rate_52w")
+    out["serve_dominance_diff"]  = _feat_a("serve_dominance_52w")   - _feat_b("serve_dominance_52w")
+    # return_dominance: lower = better returner. Flip sign so positive = a returns better.
+    out["return_dominance_diff"] = _feat_b("return_dominance_52w")  - _feat_a("return_dominance_52w")
+    out["first_in_pct_diff"]     = _feat_a("first_in_pct_52w")      - _feat_b("first_in_pct_52w")
+    out["first_won_pct_diff"]    = _feat_a("first_won_pct_52w")     - _feat_b("first_won_pct_52w")
+    out["second_won_pct_diff"]   = _feat_a("second_won_pct_52w")    - _feat_b("second_won_pct_52w")
+    out["height_diff"]           = _feat_a("height_cm")             - _feat_b("height_cm")
 
     return out
 
