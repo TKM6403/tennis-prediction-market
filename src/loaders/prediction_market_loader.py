@@ -254,48 +254,62 @@ def _extract_tournament_from_rules(rules_primary) -> Optional[str]:
 # KalshiLoader
 # ============================================================================
 
+# ============================================================================
+# KalshiLoader
+# ============================================================================
+
 class KalshiLoader(PredictionMarketLoader):
     """
     Loads tennis prediction market data from the Kalshi REST API.
 
     Kalshi's tennis markets come in pairs — one YES contract per player per
     match. We return both rows; deduplication to the side our model predicts
-    happens in the feature pipeline downstream.
+    happens downstream.
 
-    Prices come from the API in dollars already (0.62 = 62 cents = 62%).
-    No conversion needed beyond range validation.
+    TYPICAL USAGE
+    -------------
+    For backtesting against real entry prices:
 
-    Series tickers passed via series_tickers (defaults to a curated list of
-    tennis series). Each is fetched independently with pagination.
+        loader = KalshiLoader(series_tickers=["KXATPCHALLENGERMATCH"])
+        raw  = loader.load(status="settled")
+        norm = loader.normalize(raw)          # entry_price is NaN here
+        norm = loader.enrich_entry_prices(norm)  # fills entry_price via candlesticks
+        # norm is now ready for MarketMatchJoiner
 
-    Dummy example (normalize):
-        Raw row:
-            ticker:                    "KXATPMATCH-26APR25CERDAR-DAR"
-            title:                     "Will Luciano Darderi win the Cerundolo vs Darderi: Round Of 64 match?"
-            previous_yes_ask_dollars:  0.63
-            result:                    "yes"
-            occurrence_datetime:       "2026-04-25T12:00:00Z"
-            rules_primary:             "...the 2026 ATP Madrid Round Of 64..."
+    For just checking market coverage (no price fetch needed):
 
-        Normalized output row:
-            market_id:    "kalshi::KXATPMATCH-26APR25CERDAR-DAR"
-            question:     "Will Luciano Darderi win the Cerundolo vs Darderi: Round Of 64 match?"
-            player_a:     "Luciano Darderi"
-            player_b:     "Cerundolo"            (last name only — TML join enriches)
-            tournament:   "ATP Madrid"
-            round_:       "Round Of 64"
-            event_date:   date(2026, 4, 25)
-            entry_price:  0.63
-            resolution:   1.0
-            source:       "kalshi"
+        raw  = loader.load(status="settled")
+        norm = loader.normalize(raw)          # entry_price stays NaN
+
+    WHY TWO-STEP PRICE ENRICHMENT
+    ------------------------------
+    The settled-markets endpoint only carries settlement-time prices (0.01/0.99),
+    not pre-match prices. Real pre-match prices come from the candlestick API.
+    Separating normalize() from enrich_entry_prices() means:
+      - normalize() is always fast (no extra API calls)
+      - callers only pay for candlestick fetches when they need real prices
+      - the cost is visible: ~0.3s per market × n_markets
+
+    SERIES TICKERS
+    --------------
+    KXATPMATCH            — ATP tour match markets
+    KXATPCHALLENGERMATCH  — ATP Challenger match markets (confirmed March 2026)
+    Others in DEFAULT_TENNIS_SERIES — Grand Slams, WTA, etc.
+
+    KALSHI FEE FORMULA
+    ------------------
+    Taker fee = 7% × p × (1 − p) per contract, charged at entry.
+    Maximum fee at p=0.50: 1.75¢. At p=0.90: 0.63¢.
+    PnL calculations must deduct this from every trade.
     """
 
     BASE_URL = "https://api.elections.kalshi.com/trade-api/v2"
 
+    # Default curated list of tennis series tickers
     DEFAULT_TENNIS_SERIES = [
-        # Tour-level match markets
-        "KXATPMATCH",
-        "KXWTAMATCH",
+        "KXATPMATCH",             # ATP tour match markets
+        "KXATPCHALLENGERMATCH",   # ATP Challenger match markets
+        "KXWTAMATCH",             # WTA match markets
         "KXATPGRANDSLAM",
         "KXWTAGRANDSLAM",
         "KXATPGAME",
@@ -313,11 +327,9 @@ class KalshiLoader(PredictionMarketLoader):
         "KXATPMAD",
         "KXDDFMENSINGLES",
         "KXDDFWOMENSINGLES",
-        # Challenger match markets — confirmed via API March 2026
-        "KXATPCHALLENGERMATCH",
     ]
 
-    # Series tickers that are challenger-level (used for backtest routing)
+    # Series that are challenger-tier — used by callers for routing/filtering
     CHALLENGER_SERIES = {"KXATPCHALLENGERMATCH"}
 
     def __init__(
@@ -334,6 +346,10 @@ class KalshiLoader(PredictionMarketLoader):
             self.cache_dir = Path(cache_dir)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
 
+    # ------------------------------------------------------------------ #
+    #  Public interface                                                    #
+    # ------------------------------------------------------------------ #
+
     def load(
         self,
         cutoff_date=None,
@@ -341,18 +357,17 @@ class KalshiLoader(PredictionMarketLoader):
         status: Optional[str] = None,
     ) -> pd.DataFrame:
         """
-        Fetch markets for all configured series tickers.
+        Fetch raw markets for all configured series tickers.
 
         Args:
-            cutoff_date: If given, drop rows with event_date >= cutoff.
+            cutoff_date: Drop rows where event_date >= this date.
                          REQUIRED for backtest correctness.
-            limit:       Max markets per series. None = fetch all.
-            status:      Filter by Kalshi status ("settled", "finalized",
-                         "open", or None for all).
+            limit:       Max markets per series. None = all.
+            status:      "settled", "finalized", "open", or None for all.
 
         Returns:
-            Raw DataFrame with Kalshi-native columns. Caller should pass
-            this to normalize().
+            Raw DataFrame with Kalshi-native columns.
+            Pass to normalize() to get STANDARD_SCHEMA.
         """
         all_rows = []
         for series in self.series_tickers:
@@ -364,7 +379,6 @@ class KalshiLoader(PredictionMarketLoader):
 
         df = pd.DataFrame(all_rows)
 
-        # Lookahead guard
         if cutoff_date is not None and "occurrence_datetime" in df.columns:
             event_dates = pd.to_datetime(
                 df["occurrence_datetime"], errors="coerce", utc=True
@@ -373,25 +387,243 @@ class KalshiLoader(PredictionMarketLoader):
 
         return df
 
+    def normalize(self, raw: pd.DataFrame) -> pd.DataFrame:
+        """
+        Transform raw Kalshi data to STANDARD_SCHEMA.
+
+        entry_price is NaN after this call — call enrich_entry_prices()
+        separately when you need real pre-match prices.
+
+        The returned DataFrame has extra private columns _ticker and
+        _open_time (prefixed with _ to signal they are non-schema extras)
+        so that enrich_entry_prices() can find them without requiring the
+        caller to pass them separately.
+        """
+        if raw.empty:
+            return pd.DataFrame(columns=REQUIRED_COLUMNS)
+
+        df  = raw.copy()
+        out = pd.DataFrame(index=df.index)
+
+        out["market_id"] = "kalshi::" + df["ticker"].astype(str)
+        out["question"]  = df["title"].astype(str)
+
+        # Player names ────────────────────────────────────────────────────
+        # Title parsing gives player_a (full name) and player_b (last name
+        # only from the "X vs Y" clause). We upgrade player_b to full name
+        # when possible using expiration_value, which Kalshi always sets to
+        # the actual winner's full name.
+        parsed       = df["title"].apply(_parse_kalshi_title)
+        out["player_a"] = [p["player_a"] for p in parsed]
+        out["player_b"] = [p["player_b"] for p in parsed]
+        out["round_"]   = [p["round_"]   for p in parsed]
+
+        if "expiration_value" in df.columns and "result" in df.columns:
+            exp_val = df["expiration_value"].astype(str)
+            yes_st  = df.get("yes_sub_title",
+                             pd.Series("", index=df.index)).astype(str)
+            # result=='no' means YES side lost → expiration_value is the
+            # opponent's full name (the actual winner)
+            opp_full = exp_val.where(
+                (df["result"].astype(str) == "no") & (exp_val != yes_st),
+                None,
+            )
+            for idx in opp_full.dropna().index:
+                full      = opp_full.loc[idx]
+                current_b = out.loc[idx, "player_b"]
+                if current_b is None or (
+                    isinstance(current_b, str)
+                    and isinstance(full, str)
+                    and current_b.strip().lower() in full.lower()
+                ):
+                    out.loc[idx, "player_b"] = full
+
+        # Tournament ──────────────────────────────────────────────────────
+        out["tournament"] = (
+            df["rules_primary"].apply(_extract_tournament_from_rules)
+            if "rules_primary" in df.columns
+            else None
+        )
+
+        # Event date ──────────────────────────────────────────────────────
+        if "occurrence_datetime" in df.columns:
+            out["event_date"] = pd.to_datetime(
+                df["occurrence_datetime"], errors="coerce", utc=True
+            ).dt.date
+        else:
+            out["event_date"] = pd.to_datetime(
+                df.get("close_time"), errors="coerce", utc=True
+            ).dt.date
+
+        # Entry price ─────────────────────────────────────────────────────
+        # NaN placeholder — call enrich_entry_prices() to populate with
+        # real opening mid prices from the candlestick API.
+        out["entry_price"] = np.nan
+
+        # Resolution ──────────────────────────────────────────────────────
+        out["resolution"] = (
+            df["result"].map({"yes": 1.0, "no": 0.0}).astype(float)
+        )
+
+        out["source"] = "kalshi"
+
+        # Private columns for enrich_entry_prices() ───────────────────────
+        # Prefixed _ to signal these are non-schema implementation details.
+        # enrich_entry_prices() reads these; callers should not depend on them.
+        out["_ticker"]    = df["ticker"].astype(str)
+        out["_open_time"] = pd.to_datetime(
+            df.get("open_time"), errors="coerce", utc=True
+        )
+        out["_series"] = df.get("series_ticker", pd.Series(dtype=str))
+        # Fall back: derive series from ticker prefix. Kalshi tickers are
+        # formatted as SERIESNAME-YYMMMDDXXX, e.g.:
+        #   KXATPCHALLENGERMATCH-26APR26SVRGUE-SVR
+        # Split on the first segment that looks like a date (2 digits + 3 letters)
+        missing_series = out["_series"].isna() | (out["_series"] == "")
+        if missing_series.any():
+            derived = out.loc[missing_series, "_ticker"].str.extract(
+                r"^([A-Z0-9]+)-\d{2}[A-Z]{3}", expand=False
+            )
+            out.loc[missing_series, "_series"] = derived
+
+        self.validate(out[REQUIRED_COLUMNS])
+        return out
+
+    def enrich_entry_prices(
+        self,
+        norm_df: pd.DataFrame,
+        sleep_between: float = 0.3,
+        verbose: bool = True,
+    ) -> pd.DataFrame:
+        """
+        Populate entry_price from the Kalshi candlestick API.
+
+        Takes the mid of the first hourly candle after each market opens —
+        i.e. the price ~1h after market creation, which is a realistic
+        pre-match entry price (markets open 3-4 days before the match).
+
+        Requires norm_df to have _ticker, _open_time, and _series columns,
+        which normalize() always produces.
+
+        Args:
+            norm_df:        DataFrame from normalize().
+            sleep_between:  Seconds between API calls. 0.3s keeps us well
+                            below Kalshi's rate limit of ~300 req/min.
+            verbose:        Log progress every 50 markets.
+
+        Returns:
+            norm_df with entry_price column filled. Rows where the
+            candlestick API returns no data stay NaN.
+
+        Example:
+            norm = loader.normalize(raw)
+            norm = loader.enrich_entry_prices(norm)
+            # norm["entry_price"] is now a realistic pre-match mid price
+        """
+        import time as _time
+
+        df  = norm_df.copy()
+        n   = len(df)
+        filled = 0
+
+        for i, (idx, row) in enumerate(df.iterrows()):
+            series  = row.get("_series")
+            ticker  = row.get("_ticker")
+            open_ts = row.get("_open_time")
+
+            if not series or not ticker or pd.isna(open_ts):
+                continue
+
+            mid = self._fetch_opening_mid(series, ticker, open_ts)
+            if mid is not None:
+                df.at[idx, "entry_price"] = mid
+                filled += 1
+
+            if verbose and (i + 1) % 50 == 0:
+                pct = (i + 1) / n * 100
+                print(
+                    f"  enrich_entry_prices: {i+1}/{n} ({pct:.0f}%)"
+                    f"  filled={filled}",
+                    flush=True,
+                )
+            _time.sleep(sleep_between)
+
+        if verbose:
+            nn = df["entry_price"].isna().sum()
+            print(
+                f"  enrich_entry_prices done: {filled}/{n} filled"
+                f", {nn} still NaN",
+                flush=True,
+            )
+
+        self.validate(df[REQUIRED_COLUMNS])
+        return df
+
+    # ------------------------------------------------------------------ #
+    #  Private API helpers                                                 #
+    # ------------------------------------------------------------------ #
+
+    def _api_get(
+        self,
+        url: str,
+        params: dict,
+        max_retries: int = 4,
+        base_wait: float = 10.0,
+    ) -> Optional[dict]:
+        """
+        Single HTTP GET with exponential-backoff retry on 429.
+
+        All network calls in this class go through here so rate-limit
+        handling and timeouts are consistent.
+
+        Returns parsed JSON dict, or None on non-retryable failure.
+        Raises requests.HTTPError on 4xx/5xx other than 429.
+        """
+        import requests, time as _time
+
+        for attempt in range(max_retries):
+            r = requests.get(
+                url,
+                params=params,
+                headers={"accept": "application/json"},
+                timeout=30,
+            )
+            if r.status_code == 429:
+                wait = base_wait * (2 ** attempt)
+                if attempt < max_retries - 1:
+                    _time.sleep(wait)
+                    continue
+                return None
+            if r.status_code in (404, 503):
+                return None
+            r.raise_for_status()
+            return r.json()
+
+        return None
+
     def _fetch_series(
         self,
         series_ticker: str,
         limit: Optional[int] = None,
         status: Optional[str] = None,
     ) -> list:
-        import requests
+        """
+        Paginate through all markets for a series ticker.
 
-        cache_key = f"{series_ticker}_{status or 'all'}"
+        Results are cached to disk for settled/finalized queries so
+        subsequent runs don't re-hit the API.
+        """
+        cache_key  = f"{series_ticker}_{status or 'all'}"
         cache_path = self.cache_dir / f"{cache_key}.json"
 
         if cache_path.exists() and status in ("settled", "finalized"):
             with open(cache_path) as f:
                 return json.load(f)
 
-        rows = []
-        cursor = None
+        rows      = []
+        cursor    = None
         page_size = min(100, limit) if limit else 100
-        fetched = 0
+        fetched   = 0
 
         while True:
             params = {"limit": page_size, "series_ticker": series_ticker}
@@ -400,14 +632,9 @@ class KalshiLoader(PredictionMarketLoader):
             if cursor:
                 params["cursor"] = cursor
 
-            resp = requests.get(
-                f"{self.BASE_URL}/markets",
-                params=params,
-                headers={"accept": "application/json"},
-                timeout=30,
-            )
-            resp.raise_for_status()
-            data = resp.json()
+            data = self._api_get(f"{self.BASE_URL}/markets", params)
+            if data is None:
+                break
 
             batch = data.get("markets", [])
             rows.extend(batch)
@@ -426,177 +653,100 @@ class KalshiLoader(PredictionMarketLoader):
 
         return rows
 
-    def get_opening_mid(
+    def _fetch_candlesticks(
+        self,
+        series_ticker: str,
+        market_ticker: str,
+        start_ts: int,
+        end_ts: int,
+        period_minutes: int = 60,
+    ) -> list:
+        """
+        Fetch OHLC candlestick data for a single market.
+
+        URL: /series/{series}/markets/{ticker}/candlesticks
+        Period values: 1, 60, or 1440 minutes (Kalshi constraint).
+
+        Returns list of candlestick dicts, or [] on any failure.
+        """
+        url = (
+            f"{self.BASE_URL}/series/{series_ticker}"
+            f"/markets/{market_ticker}/candlesticks"
+        )
+        params = {
+            "period_interval": period_minutes,
+            "start_ts": start_ts,
+            "end_ts":   end_ts,
+        }
+        data = self._api_get(url, params)
+        if data is None:
+            return []
+        return data.get("candlesticks", [])
+
+    @staticmethod
+    def _mid_from_candle(candle: dict) -> Optional[float]:
+        """
+        Extract mid price from a single candlestick dict.
+
+        Uses the close values of yes_bid and yes_ask from the candle.
+        If only one side is available, returns that value alone.
+        Returns None if both are absent or zero.
+
+        Args:
+            candle: Single dict from the candlesticks response, e.g.
+                {
+                    "yes_ask": {"close_dollars": "0.62", ...},
+                    "yes_bid": {"close_dollars": "0.55", ...},
+                    ...
+                }
+
+        Returns:
+            float in (0, 1] or None.
+        """
+        ask = float((candle.get("yes_ask") or {}).get("close_dollars") or 0)
+        bid = float((candle.get("yes_bid") or {}).get("close_dollars") or 0)
+        if ask <= 0 and bid <= 0:
+            return None
+        if ask <= 0:
+            return bid
+        if bid <= 0:
+            return ask
+        return (ask + bid) / 2.0
+
+    def _fetch_opening_mid(
         self,
         series_ticker: str,
         market_ticker: str,
         open_time: "pd.Timestamp",
-        hours: int = 6,
-        retry_on_429: int = 3,
+        window_hours: int = 6,
     ) -> Optional[float]:
         """
-        Fetch the mid price from the first complete hourly candle after market open.
+        Return the mid price from the first hourly candle after market open.
 
-        Uses the series/{series_ticker}/markets/{ticker}/candlesticks endpoint
-        which returns OHLC yes_bid and yes_ask data. The mid of the first candle's
-        close values represents "what you would have paid ~1h after market open" —
-        a realistic pre-match entry assumption given markets open 3-4 days early.
-
-        Returns mid price float in [0, 1] or None if unavailable.
-        """
-        import requests, time as _time
-
-        start_ts = int(open_time.timestamp())
-        end_ts   = int((open_time + pd.Timedelta(hours=hours)).timestamp())
-        url = (f"{self.BASE_URL}/series/{series_ticker}"
-               f"/markets/{market_ticker}/candlesticks")
-        params = {"period_interval": 60, "start_ts": start_ts, "end_ts": end_ts}
-
-        for attempt in range(retry_on_429 + 1):
-            try:
-                r = requests.get(url, params=params,
-                                 headers={"accept": "application/json"}, timeout=20)
-                if r.status_code == 429:
-                    _time.sleep(10 * (attempt + 1))
-                    continue
-                if r.status_code != 200:
-                    return None
-                candles = r.json().get("candlesticks", [])
-                if not candles:
-                    return None
-                c   = candles[0]
-                ask = float((c.get("yes_ask") or {}).get("close_dollars") or 0)
-                bid = float((c.get("yes_bid") or {}).get("close_dollars") or 0)
-                if ask <= 0 and bid <= 0:
-                    return None
-                if ask <= 0: return bid
-                if bid <= 0: return ask
-                return (ask + bid) / 2
-            except Exception:
-                return None
-        return None
-
-    def get_opening_mids_batch(
-        self,
-        markets: "pd.DataFrame",
-        series_ticker: str,
-        sleep_between: float = 0.3,
-    ) -> "pd.Series":
-        """
-        Fetch opening mid prices for a batch of markets.
+        Fetches candles in [open_time, open_time + window_hours) and takes
+        the first one, which represents the price ~1h after the market was
+        created. This is a realistic pre-match entry price since Kalshi
+        challenger markets open 3-4 days before the match.
 
         Args:
-            markets:        DataFrame with 'ticker' and 'open_time' columns.
-            series_ticker:  Series ticker for all rows.
-            sleep_between:  Seconds to sleep between API calls (rate limit safety).
+            series_ticker:  e.g. "KXATPCHALLENGERMATCH"
+            market_ticker:  e.g. "KXATPCHALLENGERMATCH-26FEB22KOUDRO-KOU"
+            open_time:      tz-aware Timestamp of market open.
+            window_hours:   How many hours after open to search for candles.
 
         Returns:
-            pd.Series indexed like markets with float mid prices (NaN = unavailable).
+            float mid price in (0, 1], or None if no candle data available.
         """
-        import time as _time
+        start_ts = int(open_time.timestamp())
+        end_ts   = int((open_time + pd.Timedelta(hours=window_hours)).timestamp())
 
-        results = []
-        for i, (_, row) in enumerate(markets.iterrows()):
-            mid = self.get_opening_mid(
-                series_ticker, row["ticker"], row["open_time"]
-            )
-            results.append(mid)
-            if (i + 1) % 50 == 0:
-                print(f"  fetched {i+1}/{len(markets)} opening mids...", flush=True)
-            _time.sleep(sleep_between)
-        return pd.Series(results, index=markets.index, dtype=float)
-
-    def normalize(self, raw: pd.DataFrame) -> pd.DataFrame:
-        if raw.empty:
-            return pd.DataFrame(columns=REQUIRED_COLUMNS)
-
-        df = raw.copy()
-        out = pd.DataFrame(index=df.index)
-
-        out["market_id"] = "kalshi::" + df["ticker"].astype(str)
-        out["question"] = df["title"].astype(str)
-
-        # Best-effort player extraction.
-        # Title parsing gives player_a as full name, player_b as last name only.
-        # We then enrich player_b using yes_sub_title (always = player_a's full
-        # name) and expiration_value (always = the actual winner's full name).
-        # This gives us full names for BOTH players in 100% of rows, which
-        # makes the TML join unambiguous.
-        parsed = df["title"].apply(_parse_kalshi_title)
-        out["player_a"] = [p["player_a"] for p in parsed]
-        out["player_b"] = [p["player_b"] for p in parsed]
-        out["round_"]   = [p["round_"]   for p in parsed]
-
-        # Enrich player_b with full name from expiration_value when player_a lost.
-        # When result='no', expiration_value is the OPPONENT's full name (the
-        # actual winner since YES failed). When result='yes', expiration_value
-        # equals yes_sub_title and we can't recover opponent's full name from
-        # this field alone — but for the trade decision and PnL we only need
-        # one full name + result, so this is fine.
-        if "expiration_value" in df.columns and "result" in df.columns:
-            exp_val = df["expiration_value"].astype(str)
-            yes_st  = df.get("yes_sub_title", pd.Series("", index=df.index)).astype(str)
-            # When result == "no" and expiration_value differs from yes_sub_title,
-            # expiration_value is the opponent's full name. Use it.
-            opp_full = exp_val.where(
-                (df["result"].astype(str) == "no") & (exp_val != yes_st),
-                None,
-            )
-            # Where we got a full opponent name and current player_b is just a
-            # last name, replace with the full name.
-            for idx in opp_full.dropna().index:
-                full = opp_full.loc[idx]
-                current_b = out.loc[idx, "player_b"]
-                # Only replace if it's a clear upgrade (current is short / last name)
-                if current_b is None or (
-                    isinstance(current_b, str)
-                    and isinstance(full, str)
-                    and current_b.strip().lower() in full.lower()
-                ):
-                    out.loc[idx, "player_b"] = full
-
-        # Tournament from rules_primary (or fallback NaN)
-        if "rules_primary" in df.columns:
-            out["tournament"] = df["rules_primary"].apply(_extract_tournament_from_rules)
-        else:
-            out["tournament"] = None
-
-        # event_date: prefer occurrence_datetime, fallback close_time
-        if "occurrence_datetime" in df.columns:
-            out["event_date"] = pd.to_datetime(
-                df["occurrence_datetime"], errors="coerce", utc=True
-            ).dt.date
-        else:
-            out["event_date"] = pd.to_datetime(
-                df.get("close_time"), errors="coerce", utc=True
-            ).dt.date
-
-        # entry_price: for settled markets, previous_yes_ask_dollars snaps to
-        # 0.01 or 0.99 at settlement — NOT a valid pre-match price.
-        # Callers should populate this with real opening mid prices via
-        # get_opening_mids_batch() before running the PnL backtest.
-        # We set a placeholder of NaN here so callers know it needs enriching.
-        out["entry_price"] = np.nan
-
-        # Carry ticker and open_time for downstream get_opening_mids_batch call.
-        # These are NOT in REQUIRED_COLUMNS (which defines the trading schema)
-        # but are needed to fetch candlestick prices.
-        out["_ticker"]    = df["ticker"].astype(str)
-        out["_open_time"] = pd.to_datetime(
-            df.get("open_time"), errors="coerce", utc=True
+        candles = self._fetch_candlesticks(
+            series_ticker, market_ticker, start_ts, end_ts
         )
+        if not candles:
+            return None
 
-        # resolution: yes -> 1.0, no -> 0.0, "" -> NaN
-        result_map = {"yes": 1.0, "no": 0.0}
-        out["resolution"] = df["result"].map(result_map).astype(float)
-
-        out["source"] = "kalshi"
-
-        # Validate against REQUIRED_COLUMNS (private _ticker/_open_time excluded)
-        validated = out[REQUIRED_COLUMNS].copy()
-        self.validate(validated)
-        # Return full df including private columns for downstream enrichment
-        return out
+        return self._mid_from_candle(candles[0])
 
 
 # ============================================================================
