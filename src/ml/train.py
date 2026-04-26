@@ -66,7 +66,7 @@ if str(_REPO) not in sys.path:
     sys.path.insert(0, str(_REPO))
 
 from src.loaders.tml_match_loader import TMLMatchLoader
-from src.ml.features.feature_engineer import compute_all
+from src.ml.features.feature_engineer import compute_all, assert_feature_quality, feature_quality_report, FeatureQualityError
 
 logging.basicConfig(
     level=logging.INFO,
@@ -333,6 +333,23 @@ def eval_metrics(pipe: Pipeline, X: np.ndarray, y: np.ndarray, label: str) -> Di
 # Main experiment
 # ============================================================================
 
+def _format_quality_report(report: "pd.DataFrame") -> str:
+    """Format a feature_quality_report DataFrame as a readable table string."""
+    STATUS_ICON = {"ok": "✓", "warn": "⚠", "error": "✗"}
+    lines = [
+        f"  {'feature':30}  {'null_rate':>9}  {'warn@':>6}  {'max@':>5}  status",
+        "  " + "─" * 65,
+    ]
+    for _, row in report.iterrows():
+        icon = STATUS_ICON.get(row["status"], "?")
+        lines.append(
+            f"  {row['feature']:30}  {row['null_rate']:9.1%}  "
+            f"{row['warn_above']:6.0%}  {row['structural_max']:5.0%}  "
+            f"{icon} {row['status']}"
+        )
+    return "\n".join(lines)
+
+
 def run_experiment(
     start_year: int = 2018,
     end_year: int = 2024,
@@ -351,8 +368,26 @@ def run_experiment(
     # ── 3. Engineer features ───────────────────────────────────────────────
     df = build_features(df_raw)
 
-    # ── 4. Split ───────────────────────────────────────────────────────────
+    # ── 4. Feature quality gate ────────────────────────────────────────────
+    # Checks null rates against per-feature thresholds. Raises
+    # FeatureQualityError if any feature is structurally broken (e.g. column
+    # missing, join failure, minutes data absent). Logs warnings for features
+    # that are sparse but within expected bounds (h2h, fatigue).
+    #
+    # This runs on the FULL dataset before splitting so a broken feature
+    # can't silently slip into just the test set.
+    logger.info("Running feature quality check...")
+    quality_report = assert_feature_quality(df, context="full dataset")
+    logger.info("\n" + _format_quality_report(quality_report))
+
+    # ── 5. Split ───────────────────────────────────────────────────────────
     train, val, test = time_split(df)
+
+    # Per-split quality checks — catches edge cases where one split has
+    # dramatically different null rates (e.g. test set is a new year with
+    # no historical surface data yet, or val split is very small).
+    for split_name, split_df in [("train", train), ("val", val), ("test", test)]:
+        assert_feature_quality(split_df, context=split_name)
 
     # Sanity check: no label imbalance (should be ~50/50 after A/B flip)
     for name, split in [("train", train), ("val", val), ("test", test)]:

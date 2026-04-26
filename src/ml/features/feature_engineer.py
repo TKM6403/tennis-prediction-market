@@ -225,6 +225,246 @@ def compute_all(
 
 
 # ============================================================================
+# Feature quality gate
+# ============================================================================
+
+class FeatureQualityError(ValueError):
+    """
+    Raised when a feature's null rate exceeds its allowed threshold.
+
+    This is a hard training gate — if you see this, do NOT proceed to
+    fit a model. Either the feature pipeline broke (join failure, wrong
+    column name, upstream data issue) or you're attempting to train on
+    a dataset that is too small / too early to have meaningful history.
+
+    Two thresholds exist per feature (see FEATURE_NULL_THRESHOLDS):
+
+        structural_max  — the highest null rate we ever expect for this
+                          feature, even with sparse data. Exceeding this
+                          means something is structurally broken, not just
+                          sparse. Hard stop.
+
+        warn_above      — null rate where we log a warning but still allow
+                          training. Useful for features that are legitimately
+                          sparse early in the dataset (e.g. h2h on challengers).
+
+    Example:
+        surface_win_rate_diff is NaN when a player has <3 surface matches.
+        Expected null rate on our full dataset: ~20%. If it suddenly hits
+        80% something broke (surface column missing, wrong join key, etc).
+        → structural_max = 0.50, warn_above = 0.25
+
+        h2h_surface_diff is NaN for ~83% of rows — most matchups are first
+        meetings. That's expected and fine; we always impute it.
+        → structural_max = 0.95, warn_above = 0.85
+    """
+    pass
+
+
+# Per-feature null-rate thresholds.
+# Keys are the FINAL column names in the output of build_features() in train.py
+# (the diff/ratio columns, not the raw _w/_l columns from compute_all).
+# Two keys per entry: warn_above (log warning) and structural_max (raise error).
+#
+# How to read:
+#   If null_rate > structural_max → FeatureQualityError (block training)
+#   If null_rate > warn_above     → log warning (training proceeds)
+#   Otherwise                     → silent pass
+FEATURE_NULL_THRESHOLDS: dict = {
+    # Rank ratio: only null when BOTH players are unranked. Should be <2%.
+    "rank_ratio_a": {
+        "warn_above":     0.05,
+        "structural_max": 0.15,
+        "note": "Null = player unranked. >5% suggests ranking data not loaded.",
+    },
+    # Surface win rate: null when player has <3 surface matches in window.
+    # Expected ~20% on full dataset; higher early in training window.
+    "surface_win_rate_diff": {
+        "warn_above":     0.35,
+        "structural_max": 0.60,
+        "note": "Null = <3 surface matches in 52w window. >35% = very sparse history.",
+    },
+    # Recent form: null when player has <3 matches total. Expected ~8%.
+    "recent_form_diff": {
+        "warn_above":     0.20,
+        "structural_max": 0.40,
+        "note": "Null = <3 matches in history. >20% = too little history to train on.",
+    },
+    # Fatigue 7d: null when player had ZERO matches in past 7 days.
+    # This is expected to be high — ~45% — because most players have a week
+    # off between tournaments. NaN here means 0 minutes fatigue, which the
+    # imputer fills correctly.
+    "fatigue_diff_7d": {
+        "warn_above":     0.70,
+        "structural_max": 0.85,
+        "note": "Null = no matches in prior 7 days. ~45% expected. >70% = minutes data missing.",
+    },
+    # Fatigue 14d: same logic, slightly lower expected null rate (~33%).
+    "fatigue_diff_14d": {
+        "warn_above":     0.60,
+        "structural_max": 0.80,
+        "note": "Null = no matches in prior 14 days. ~33% expected. >60% = minutes data missing.",
+    },
+    # Days since last match: null only on debut match. Expected <5%.
+    "days_rest_diff": {
+        "warn_above":     0.10,
+        "structural_max": 0.25,
+        "note": "Null = no prior match found. >10% = too many debut rows or date issue.",
+    },
+    # H2H surface: null when players have never met on this surface (~83%).
+    # This is normal. Imputer fills with 0 (neutral prior).
+    "h2h_surface_diff": {
+        "warn_above":     0.90,
+        "structural_max": 0.97,
+        "note": "Null = never met on this surface. ~83% expected. >90% = surface join broken.",
+    },
+}
+
+
+def feature_quality_report(
+    df: pd.DataFrame,
+    feature_cols: Optional[list] = None,
+) -> pd.DataFrame:
+    """
+    Compute a null-rate report for every feature column in `df`.
+
+    Args:
+        df:            DataFrame produced by build_features() in train.py,
+                       or any DataFrame with known feature columns.
+        feature_cols:  Which columns to check. Defaults to all keys in
+                       FEATURE_NULL_THRESHOLDS that are present in df.
+
+    Returns:
+        DataFrame with columns:
+            feature        feature name
+            n_total        total rows
+            n_null         rows where feature is null
+            null_rate      fraction null
+            warn_above     warning threshold (from FEATURE_NULL_THRESHOLDS)
+            structural_max hard-stop threshold
+            status         "ok" | "warn" | "error"
+            note           human-readable explanation
+
+    Example output:
+        feature                null_rate   status   note
+        rank_ratio_a           0.004       ok       Null = player unranked...
+        h2h_surface_diff       0.828       ok       Null = never met on surface...
+        fatigue_diff_7d        0.452       ok       Null = no matches in prior 7d...
+    """
+    if feature_cols is None:
+        # Check ALL known features, not just ones present in df.
+        # A missing column is itself an error condition.
+        feature_cols = list(FEATURE_NULL_THRESHOLDS.keys())
+
+    rows = []
+    for feat in feature_cols:
+        if feat not in df.columns:
+            rows.append({
+                "feature":       feat,
+                "n_total":       len(df),
+                "n_null":        len(df),
+                "null_rate":     1.0,
+                "warn_above":    FEATURE_NULL_THRESHOLDS.get(feat, {}).get("warn_above", 0.5),
+                "structural_max":FEATURE_NULL_THRESHOLDS.get(feat, {}).get("structural_max", 0.9),
+                "status":        "error",
+                "note":          f"Column '{feat}' is missing entirely from DataFrame.",
+            })
+            continue
+
+        n_null    = int(df[feat].isna().sum())
+        n_total   = len(df)
+        null_rate = n_null / n_total if n_total > 0 else 1.0
+        thresholds = FEATURE_NULL_THRESHOLDS.get(feat, {})
+        warn_above     = thresholds.get("warn_above",     0.50)
+        structural_max = thresholds.get("structural_max", 0.90)
+        note           = thresholds.get("note", "")
+
+        if null_rate > structural_max:
+            status = "error"
+        elif null_rate > warn_above:
+            status = "warn"
+        else:
+            status = "ok"
+
+        rows.append({
+            "feature":        feat,
+            "n_total":        n_total,
+            "n_null":         n_null,
+            "null_rate":      round(null_rate, 4),
+            "warn_above":     warn_above,
+            "structural_max": structural_max,
+            "status":         status,
+            "note":           note,
+        })
+
+    return pd.DataFrame(rows)
+
+
+def assert_feature_quality(
+    df: pd.DataFrame,
+    feature_cols: Optional[list] = None,
+    context: str = "",
+) -> pd.DataFrame:
+    """
+    Run feature_quality_report() and raise FeatureQualityError if any
+    feature exceeds its structural_max threshold.
+
+    Call this BEFORE fitting any model. It is a hard gate.
+
+    Args:
+        df:            DataFrame to check (output of build_features()).
+        feature_cols:  Columns to check. Defaults to FEATURE_NULL_THRESHOLDS keys.
+        context:       Optional label for the error message, e.g. "train split".
+
+    Returns:
+        The quality report DataFrame (so callers can log or display it).
+
+    Raises:
+        FeatureQualityError: if any feature's null_rate > structural_max.
+
+    Example:
+        report = assert_feature_quality(train_df, context="train")
+        # → raises if fatigue_diff_7d is suddenly 90% null
+        # → logs warnings for h2h_surface_diff at 83% (expected)
+        # → silent for rank_ratio_a at 0.4%
+    """
+    import logging as _logging
+    _log = _logging.getLogger(__name__)
+
+    report = feature_quality_report(df, feature_cols)
+    ctx = f" [{context}]" if context else ""
+
+    errors = report[report["status"] == "error"]
+    warns  = report[report["status"] == "warn"]
+
+    for _, row in warns.iterrows():
+        _log.warning(
+            f"Feature quality WARN{ctx}: {row['feature']} null_rate={row['null_rate']:.1%} "
+            f"(warn_above={row['warn_above']:.0%}, structural_max={row['structural_max']:.0%}) — "
+            f"{row['note']}"
+        )
+
+    if not errors.empty:
+        lines = [f"Feature quality check FAILED{ctx} — training blocked:\n"]
+        for _, row in errors.iterrows():
+            lines.append(
+                f"  {row['feature']:30} null_rate={row['null_rate']:.1%}  "
+                f"structural_max={row['structural_max']:.0%}\n"
+                f"    → {row['note']}"
+            )
+        raise FeatureQualityError("\n".join(lines))
+
+    _log.info(
+        f"Feature quality check passed{ctx}: "
+        f"{len(report)} features, "
+        f"{(report['status']=='ok').sum()} ok, "
+        f"{len(warns)} warn, "
+        f"0 errors"
+    )
+    return report
+
+
+# ============================================================================
 # History table builder
 # ============================================================================
 
@@ -636,6 +876,66 @@ def _test_distributional_sanity():
     print("  PASSED ✓ — no systematic leak detected")
 
 
+def _test_feature_quality_gate():
+    print("\n" + "=" * 60)
+    print("feature_quality_report + assert_feature_quality")
+    print("=" * 60)
+
+    # ── 1. All-good dataset: nulls within expected bounds ──────────────────
+    n = 1000
+    rng = np.random.default_rng(0)
+    good_df = pd.DataFrame({
+        "rank_ratio_a":          rng.uniform(0.1, 10, n),
+        "surface_win_rate_diff": np.where(rng.random(n) < 0.20, np.nan,
+                                           rng.uniform(-0.5, 0.5, n)),
+        "recent_form_diff":      np.where(rng.random(n) < 0.08, np.nan,
+                                           rng.uniform(-0.5, 0.5, n)),
+        "fatigue_diff_7d":       np.where(rng.random(n) < 0.45, np.nan,
+                                           rng.uniform(-200, 200, n)),
+        "fatigue_diff_14d":      np.where(rng.random(n) < 0.33, np.nan,
+                                           rng.uniform(-300, 300, n)),
+        "days_rest_diff":        np.where(rng.random(n) < 0.03, np.nan,
+                                           rng.uniform(-10, 10, n)),
+        "h2h_surface_diff":      np.where(rng.random(n) < 0.83, np.nan,
+                                           rng.uniform(-1, 1, n)),
+    })
+    report = assert_feature_quality(good_df, context="test-good")
+    assert (report["status"] != "error").all(), "Good dataset should have no errors"
+    print(f"  ✓ Good dataset: no errors ({(report['status']=='ok').sum()} ok, "
+          f"{(report['status']=='warn').sum()} warn)")
+
+    # ── 2. Broken feature: fatigue_diff_7d is 90% null (above structural_max=0.85) ─
+    bad_df = good_df.copy()
+    bad_df["fatigue_diff_7d"] = np.where(rng.random(n) < 0.90, np.nan,
+                                          rng.uniform(-200, 200, n))
+    try:
+        assert_feature_quality(bad_df, context="test-bad")
+        print("  FAILED — should have raised FeatureQualityError")
+    except FeatureQualityError as e:
+        print(f"  ✓ Correctly raised FeatureQualityError for 90% null fatigue:")
+        # Print first feature-level line from the error message
+        detail = next((l for l in str(e).splitlines() if "fatigue" in l.lower()), str(e)[:80])
+        print(f"    {detail.strip()}")
+
+    # ── 3. Missing column entirely ─────────────────────────────────────────
+    missing_col_df = good_df.drop(columns=["rank_ratio_a"])
+    try:
+        assert_feature_quality(missing_col_df, context="test-missing-col")
+        print("  FAILED — should have raised for missing column")
+    except FeatureQualityError as e:
+        print(f"  ✓ Correctly raised FeatureQualityError for missing column")
+
+    # ── 4. Report structure ────────────────────────────────────────────────
+    report = feature_quality_report(good_df)
+    assert set(report.columns) == {
+        "feature", "n_total", "n_null", "null_rate",
+        "warn_above", "structural_max", "status", "note"
+    }, f"Unexpected report columns: {set(report.columns)}"
+    assert len(report) == len(FEATURE_NULL_THRESHOLDS)
+    print(f"  ✓ Report has {len(report)} rows, correct columns")
+    print("  PASSED ✓")
+
+
 if __name__ == "__main__":
     _test_fatigue_minutes()
     _test_days_since_last()
@@ -645,6 +945,7 @@ if __name__ == "__main__":
     _test_compute_all_endtoend()
     _test_no_same_day_leak()
     _test_distributional_sanity()
+    _test_feature_quality_gate()
     print("\n" + "=" * 60)
     print("All feature_engineer tests passed.")
     print("=" * 60)
