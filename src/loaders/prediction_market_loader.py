@@ -293,6 +293,7 @@ class KalshiLoader(PredictionMarketLoader):
     BASE_URL = "https://api.elections.kalshi.com/trade-api/v2"
 
     DEFAULT_TENNIS_SERIES = [
+        # Tour-level match markets
         "KXATPMATCH",
         "KXWTAMATCH",
         "KXATPGRANDSLAM",
@@ -312,7 +313,12 @@ class KalshiLoader(PredictionMarketLoader):
         "KXATPMAD",
         "KXDDFMENSINGLES",
         "KXDDFWOMENSINGLES",
+        # Challenger match markets — confirmed via API March 2026
+        "KXATPCHALLENGERMATCH",
     ]
+
+    # Series tickers that are challenger-level (used for backtest routing)
+    CHALLENGER_SERIES = {"KXATPCHALLENGERMATCH"}
 
     def __init__(
         self,
@@ -420,6 +426,86 @@ class KalshiLoader(PredictionMarketLoader):
 
         return rows
 
+    def get_opening_mid(
+        self,
+        series_ticker: str,
+        market_ticker: str,
+        open_time: "pd.Timestamp",
+        hours: int = 6,
+        retry_on_429: int = 3,
+    ) -> Optional[float]:
+        """
+        Fetch the mid price from the first complete hourly candle after market open.
+
+        Uses the series/{series_ticker}/markets/{ticker}/candlesticks endpoint
+        which returns OHLC yes_bid and yes_ask data. The mid of the first candle's
+        close values represents "what you would have paid ~1h after market open" —
+        a realistic pre-match entry assumption given markets open 3-4 days early.
+
+        Returns mid price float in [0, 1] or None if unavailable.
+        """
+        import requests, time as _time
+
+        start_ts = int(open_time.timestamp())
+        end_ts   = int((open_time + pd.Timedelta(hours=hours)).timestamp())
+        url = (f"{self.BASE_URL}/series/{series_ticker}"
+               f"/markets/{market_ticker}/candlesticks")
+        params = {"period_interval": 60, "start_ts": start_ts, "end_ts": end_ts}
+
+        for attempt in range(retry_on_429 + 1):
+            try:
+                r = requests.get(url, params=params,
+                                 headers={"accept": "application/json"}, timeout=20)
+                if r.status_code == 429:
+                    _time.sleep(10 * (attempt + 1))
+                    continue
+                if r.status_code != 200:
+                    return None
+                candles = r.json().get("candlesticks", [])
+                if not candles:
+                    return None
+                c   = candles[0]
+                ask = float((c.get("yes_ask") or {}).get("close_dollars") or 0)
+                bid = float((c.get("yes_bid") or {}).get("close_dollars") or 0)
+                if ask <= 0 and bid <= 0:
+                    return None
+                if ask <= 0: return bid
+                if bid <= 0: return ask
+                return (ask + bid) / 2
+            except Exception:
+                return None
+        return None
+
+    def get_opening_mids_batch(
+        self,
+        markets: "pd.DataFrame",
+        series_ticker: str,
+        sleep_between: float = 0.3,
+    ) -> "pd.Series":
+        """
+        Fetch opening mid prices for a batch of markets.
+
+        Args:
+            markets:        DataFrame with 'ticker' and 'open_time' columns.
+            series_ticker:  Series ticker for all rows.
+            sleep_between:  Seconds to sleep between API calls (rate limit safety).
+
+        Returns:
+            pd.Series indexed like markets with float mid prices (NaN = unavailable).
+        """
+        import time as _time
+
+        results = []
+        for i, (_, row) in enumerate(markets.iterrows()):
+            mid = self.get_opening_mid(
+                series_ticker, row["ticker"], row["open_time"]
+            )
+            results.append(mid)
+            if (i + 1) % 50 == 0:
+                print(f"  fetched {i+1}/{len(markets)} opening mids...", flush=True)
+            _time.sleep(sleep_between)
+        return pd.Series(results, index=markets.index, dtype=float)
+
     def normalize(self, raw: pd.DataFrame) -> pd.DataFrame:
         if raw.empty:
             return pd.DataFrame(columns=REQUIRED_COLUMNS)
@@ -485,16 +571,20 @@ class KalshiLoader(PredictionMarketLoader):
                 df.get("close_time"), errors="coerce", utc=True
             ).dt.date
 
-        # entry_price: pre-match ask. previous_yes_ask_dollars is the meaningful
-        # quote for settled markets (live ask snaps to 0/1 at settlement).
-        # For markets that never had a previous quote, fall back to yes_ask_dollars.
-        prev_ask = pd.to_numeric(
-            df.get("previous_yes_ask_dollars", np.nan), errors="coerce"
+        # entry_price: for settled markets, previous_yes_ask_dollars snaps to
+        # 0.01 or 0.99 at settlement — NOT a valid pre-match price.
+        # Callers should populate this with real opening mid prices via
+        # get_opening_mids_batch() before running the PnL backtest.
+        # We set a placeholder of NaN here so callers know it needs enriching.
+        out["entry_price"] = np.nan
+
+        # Carry ticker and open_time for downstream get_opening_mids_batch call.
+        # These are NOT in REQUIRED_COLUMNS (which defines the trading schema)
+        # but are needed to fetch candlestick prices.
+        out["_ticker"]    = df["ticker"].astype(str)
+        out["_open_time"] = pd.to_datetime(
+            df.get("open_time"), errors="coerce", utc=True
         )
-        live_ask = pd.to_numeric(
-            df.get("yes_ask_dollars", np.nan), errors="coerce"
-        )
-        out["entry_price"] = prev_ask.where(prev_ask > 0, live_ask)
 
         # resolution: yes -> 1.0, no -> 0.0, "" -> NaN
         result_map = {"yes": 1.0, "no": 0.0}
@@ -502,8 +592,10 @@ class KalshiLoader(PredictionMarketLoader):
 
         out["source"] = "kalshi"
 
-        out = out[REQUIRED_COLUMNS].copy()
-        self.validate(out)
+        # Validate against REQUIRED_COLUMNS (private _ticker/_open_time excluded)
+        validated = out[REQUIRED_COLUMNS].copy()
+        self.validate(validated)
+        # Return full df including private columns for downstream enrichment
         return out
 
 
