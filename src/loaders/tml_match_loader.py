@@ -108,7 +108,8 @@ TENNIS_DATA_SLUGS: Dict[str, str] = {
     "dubai":                   "dubai",
     "barcelona":               "barcelona",
     "hamburg":                 "hamburg",
-    "queens club":             "queensclub",
+    "queens club":             "queens",
+    "queen's club":            "queens",
     "halle":                   "halle",
     "washington":              "washington",
     "beijing":                 "beijing",
@@ -156,8 +157,23 @@ TENNIS_DATA_SLUGS: Dict[str, str] = {
     "los cabos":               "loscabos",
     "mallorca":                "mallorca",
     "dallas":                  "dallas",
-    # Not on tennis-data.co.uk — Sydney, Antalya, St. Petersburg, Moscow,
-    # Belgrade will remain on heuristic fallback permanently.
+    # High-volume 250/500s confirmed via URL probe (2019-2023 coverage)
+    "acapulco":                "acapulco",
+    "rio de janeiro":          "riodejaneiro",
+    "rio de janeiro":          "riodejaneiro",   # TML alternate casing
+    "st. petersburg":          "stpetersburg",
+    "adelaide-2":              "adelaide2",
+    "adelaide 2":              "adelaide2",
+    "nur-sultan":              "nursultan",
+    "nur sultan":              "nursultan",
+    "astana":                  "nursultan",      # same venue, rebranded
+    "san diego":               "sandiego",
+    "sao paulo":               "saopaulo",
+    "budapest":                "budapest",
+    "new york":                "newyork",
+    "new york open":           "newyork",
+    # Not on tennis-data.co.uk — Sydney, Antalya, Moscow, Belgrade,
+    # and most Asian 250s will remain on heuristic fallback permanently.
 }
 
 # Hard-coded round-to-day-offset fallback when we have NO tennis-data for
