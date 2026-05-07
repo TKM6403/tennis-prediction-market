@@ -1,0 +1,1003 @@
+"""
+src/paper_trader.py
+
+PaperTrader — runs the trained Theo model live against currently-open
+Kalshi challenger markets, records best-edge bets to a paper-trade log,
+and settles them once Kalshi resolves the underlying matches.
+
+PUBLIC API
+----------
+    PaperTrader(model_path=..., log_dir=..., tml_df=None)
+
+    .scan()             — pull open markets, evaluate, append eligible bets
+                          to pending.csv. Markets that fail any filter are
+                          appended to dropped.csv with a reason code.
+    .settle_pending()   — for each row in pending.csv, refetch the underlying
+                          Kalshi market; if it has resolved, compute realized
+                          PnL net of fees and move the row to settled.csv.
+
+LOG FILES (data/paper_trades/)
+------------------------------
+    pending.csv   — currently-open paper bets, one row each.
+    settled.csv   — resolved bets with realized PnL.
+    dropped.csv   — every market we inspected and rejected, with reason.
+
+BET RULE (what scan() does)
+---------------------------
+For each match (mirror markets grouped by sorted (player_a_id, player_b_id)
+and event_date):
+
+  1. Build TWO synthetic TML rows — one per player perspective.
+  2. Run the model on both → theo_a (P player_a wins), theo_b (P player_b wins).
+  3. Enumerate the 4 candidate trades:
+       - Buy YES on Market A:  cost = yes_ask_a,   wins iff player_a wins
+       - Buy NO  on Market A:  cost = 1 - yes_bid_a, wins iff player_a loses
+       - Buy YES on Market B:  cost = yes_ask_b,   wins iff player_b wins
+       - Buy NO  on Market B:  cost = 1 - yes_bid_b, wins iff player_b loses
+     For each, edge = (model's P bet wins) - cost.
+  4. Pick the candidate with the largest edge.
+  5. Eligibility: edge ≥ MIN_EDGE. If it passes, append to pending.csv.
+     Otherwise drop with reason. (No tails-only filter — the model is
+     best-calibrated in [0.3, 0.7] per the test-set reliability diagram,
+     so restricting to extremes would only ever drop our most trustworthy
+     bets. MIN_EDGE alone handles model-noise filtering.)
+
+LOOKAHEAD / ORIENTATION
+-----------------------
+Synthetic rows are constructed so that winner_name = the side we're
+asking about. matches_to_feature_matrix then produces theo for that side
+directly — no orientation flip downstream. PlayerResolver upgrades
+Kalshi's last-name-only player_b to TML's canonical full name AND emits
+a stable player_id, so name-string drift can't silently NaN out features.
+"""
+
+from __future__ import annotations
+
+import json
+import logging
+import pickle
+import sys
+import time
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Iterable, Optional, Tuple
+
+import numpy as np
+import pandas as pd
+
+REPO = Path(__file__).resolve().parents[1]
+if str(REPO) not in sys.path:
+    sys.path.insert(0, str(REPO))
+
+from src.loaders.market_match_joiner import _normalize_tournament
+from src.loaders.player_resolver import PlayerResolver
+from src.loaders.prediction_market_loader import KalshiLoader
+from src.loaders.tml_match_loader import TMLMatchLoader
+from src.ml.train import AUGMENTED_FEATURES, compute_feature_attribution, matches_to_feature_matrix
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s  %(levelname)-8s  %(message)s",
+    datefmt="%H:%M:%S",
+)
+logger = logging.getLogger(__name__)
+
+
+# ============================================================================
+# Constants — bet rule and filters
+# ============================================================================
+
+MIN_EDGE       = 0.05   # 5¢ minimum edge after spread (model_p - cost)
+MAX_SPREAD     = 0.50   # markets with (yes_ask - yes_bid) above this are
+                        # treated as empty-book and skipped
+KALSHI_FEE_PCT = 0.07   # taker fee = 7% × p × (1-p) per contract
+
+DEFAULT_MODEL_PATH = REPO / "data" / "processed" / "model_augmented_beta.pkl"
+DEFAULT_LOG_DIR    = REPO / "data" / "paper_trades"
+
+
+# Reason codes for dropped markets — kept short so they're greppable in the CSV.
+REASON_MISSING_ID   = "missing_player_id"
+REASON_WIDE_SPREAD  = "wide_spread"
+REASON_NO_TOURNEY   = "tournament_not_in_tml"
+REASON_THIN_HISTORY = "thin_player_history"
+REASON_BELOW_EDGE   = "below_min_edge"
+REASON_DUPLICATE    = "duplicate_match"
+
+
+# ============================================================================
+# Helpers
+# ============================================================================
+
+def _kalshi_url(ticker: str) -> str:
+    """
+    Build a deep link to the Kalshi UI for a given market ticker.
+
+    Kalshi tickers look like "KXATPCHALLENGERMATCH-26MAY03MARPAO-MAR":
+      - series       : everything before the first dash
+      - event ticker : everything except the trailing player segment
+    The UI uses lowercase paths.
+    """
+    if not isinstance(ticker, str) or "-" not in ticker:
+        return ""
+    parts = ticker.split("-")
+    series = parts[0].lower()
+    event = "-".join(parts[:-1]).lower()
+    return f"https://kalshi.com/markets/{series}/{event}"
+
+
+def _match_key(market_id) -> Optional[str]:
+    """
+    Stable key identifying a match across mirror markets and re-scans.
+
+    Uses the Kalshi event-ticker prefix — i.e. the ticker with its trailing
+    per-player segment removed. Mirror markets for the same match share this
+    prefix (e.g. KXATPCHALLENGERMATCH-26MAY07GEEVAS-GEE and -VAS both have
+    prefix KXATPCHALLENGERMATCH-26MAY07GEEVAS).
+
+    Robust to PlayerResolver inconsistencies that resolve the same Kalshi
+    player to different TML ids across mirrors (e.g. the Vasa brothers, when
+    Kalshi sends "Eero Vasa" in one mirror's title and "Iiro Vasa" in the
+    other). Player-id-based keys would emit two bets on one real match;
+    ticker-prefix dedup catches it.
+
+    Returns None if market_id is malformed or missing.
+    """
+    if not isinstance(market_id, str) or not market_id:
+        return None
+    ticker = market_id.replace("kalshi::", "")
+    parts = ticker.split("-")
+    if len(parts) < 2:
+        return None
+    return "-".join(parts[:-1])
+
+
+def _pick_primary_mirror(group: list) -> dict:
+    """
+    Choose the cleanest mirror from a group sharing a match_key.
+
+    Kalshi mirrors sometimes disagree on metadata (e.g. one has both full names,
+    another has a last-name-only player_b that the resolver maps to the wrong
+    sibling). Score each mirror by: (1) both player_ids non-null, (2) player_a
+    has a first name, (3) player_b has a first name. Highest score wins; ties
+    broken by original group order so re-runs are deterministic.
+    """
+    def score(m: dict) -> int:
+        s = 0
+        if pd.notna(m.get("player_a_id")) and pd.notna(m.get("player_b_id")):
+            s += 1
+        pa = m.get("player_a")
+        pb = m.get("player_b")
+        if isinstance(pa, str) and len(pa.split()) > 1:
+            s += 1
+        if isinstance(pb, str) and len(pb.split()) > 1:
+            s += 1
+        return s
+
+    best_idx = 0
+    best_score = score(group[0])
+    for i in range(1, len(group)):
+        s = score(group[i])
+        if s > best_score:
+            best_score = s
+            best_idx = i
+    return group[best_idx]
+
+
+def _kalshi_fee(entry_price: float) -> float:
+    """Kalshi taker fee per contract: 7% × p × (1-p)."""
+    if pd.isna(entry_price):
+        return np.nan
+    p = float(entry_price)
+    return KALSHI_FEE_PCT * p * (1.0 - p)
+
+
+def _build_synthetic_row(
+    *, market_id, player_a, player_b, player_a_id, player_b_id,
+    tournament, surface, tourney_level, event_date,
+    rank_a, rank_b, round_,
+) -> dict:
+    """
+    Construct a TML-shape row so compute_all can produce features for the
+    upcoming match. winner_name = the player we want a probability for;
+    set winner_rank / loser_rank from latest TML lookups (NaN if no history).
+    Stat columns are NaN — compute_all uses prior-match stats only, never
+    this row's own.
+    """
+    return {
+        "tml_match_id":      f"synthetic::{market_id}::{player_a_id}",
+        "winner_name":       player_a,
+        "loser_name":        player_b,
+        "winner_id":         player_a_id,
+        "loser_id":          player_b_id,
+        "match_date":        pd.Timestamp(event_date),
+        "tournament":        tournament,
+        "tourney_level":     tourney_level if tourney_level is not None else "C",
+        "surface":           surface,
+        "round_":            round_,
+        "indoor":            False,
+        "minutes":           np.nan,
+        "winner_rank":       rank_a,
+        "loser_rank":        rank_b,
+        "winner_rank_points": np.nan, "loser_rank_points": np.nan,
+        "winner_age":        np.nan, "loser_age": np.nan,
+        "winner_hand":       "U",   "loser_hand": "U",
+        "winner_ht":         np.nan, "loser_ht": np.nan,
+        "winner_ioc":        "",     "loser_ioc": "",
+        "score":             "",     "best_of": 3,
+        "w_ace": np.nan, "w_df": np.nan, "w_svpt": np.nan,
+        "w_1stIn": np.nan, "w_1stWon": np.nan, "w_2ndWon": np.nan,
+        "w_SvGms": np.nan, "w_bpSaved": np.nan, "w_bpFaced": np.nan,
+        "l_ace": np.nan, "l_df": np.nan, "l_svpt": np.nan,
+        "l_1stIn": np.nan, "l_1stWon": np.nan, "l_2ndWon": np.nan,
+        "l_SvGms": np.nan, "l_bpSaved": np.nan, "l_bpFaced": np.nan,
+    }
+
+
+# ============================================================================
+# PaperTrader
+# ============================================================================
+
+class PaperTrader:
+
+    PENDING_COLS = [
+        "timestamp_recorded", "match_key", "market_id", "kalshi_url",
+        "player_a", "player_a_id", "player_b", "player_b_id",
+        "tournament", "surface", "tourney_level", "event_date",
+        "theo_a", "theo_b",
+        "yes_ask_a", "yes_bid_a", "yes_ask_b", "yes_bid_b",
+        "chosen_market_id", "chosen_direction",  # YES or NO
+        "chosen_player_name", "chosen_player_id",  # the player whose win we're betting on
+        "entry_price", "theo_chosen", "edge", "fee",
+        # JSON dict of {feature_name: signed_log_odds_shift} from the
+        # perspective of the player we're betting on. Frozen at scan time
+        # so weekly_report attribution can't drift if the model is retrained.
+        "feature_shifts_json",
+    ]
+    SETTLED_COLS = PENDING_COLS + [
+        "timestamp_settled", "resolution", "bet_won", "gross_pnl", "net_pnl",
+    ]
+    DROPPED_COLS = [
+        "timestamp", "market_id", "kalshi_url",
+        "player_a", "player_a_id", "player_b", "player_b_id",
+        "tournament", "event_date",
+        "yes_ask", "yes_bid",
+        "reason", "reason_detail",
+    ]
+
+    # ------------------------------------------------------------------ #
+    # Construction
+    # ------------------------------------------------------------------ #
+
+    def __init__(
+        self,
+        model_path: Path = DEFAULT_MODEL_PATH,
+        log_dir: Path = DEFAULT_LOG_DIR,
+        tml_df: Optional[pd.DataFrame] = None,
+        verbose: bool = True,
+    ):
+        """
+        Args:
+            model_path: pickled sklearn pipeline that takes AUGMENTED_FEATURES
+                        and returns calibrated P(player_a wins).
+            log_dir:    where pending/settled/dropped CSVs live.
+            tml_df:     pre-loaded TMLMatchLoader.normalize() output. If None,
+                        loaded internally on construction (slow ~70s cold cache).
+            verbose:    log progress lines during scan/settle.
+        """
+        self.verbose = verbose
+        self.log_dir = Path(log_dir)
+        self.log_dir.mkdir(parents=True, exist_ok=True)
+
+        self.pending_path = self.log_dir / "pending.csv"
+        self.settled_path = self.log_dir / "settled.csv"
+        self.dropped_path = self.log_dir / "dropped.csv"
+
+        if tml_df is None:
+            tml_df = self._load_tml()
+        self.tml_df = (
+            tml_df[tml_df["date_confidence"] != "irregular_format"]
+            .reset_index(drop=True)
+            .copy()
+        )
+
+        self.resolver = PlayerResolver(self.tml_df)
+        self.kalshi = KalshiLoader(
+            series_tickers=["KXATPCHALLENGERMATCH"],
+            player_resolver=self.resolver,
+        )
+        with open(model_path, "rb") as f:
+            self.model = pickle.load(f)
+        if verbose:
+            logger.info(f"PaperTrader ready (model={model_path.name}, "
+                        f"tml_rows={len(self.tml_df):,})")
+
+    @staticmethod
+    def _load_tml() -> pd.DataFrame:
+        loader = TMLMatchLoader()
+        raw = loader.load(start_year=2018, end_year=2026, include_challenger=True)
+        return loader.normalize(raw)
+
+    # ------------------------------------------------------------------ #
+    # scan()
+    # ------------------------------------------------------------------ #
+
+    def scan(self) -> dict:
+        """
+        Pull all currently-open challenger markets, run the model, and
+        record best-edge bets that pass the tails + edge filters.
+
+        Returns a small summary dict with counts. Side-effect is appending
+        to pending.csv and dropped.csv.
+        """
+        t0 = time.time()
+        ts = datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+        # ── 1. Pull + normalize open markets ──────────────────────────────
+        raw = self.kalshi.load(status="open", limit=500)
+        if raw.empty:
+            logger.info("scan(): no open challenger markets right now.")
+            return {"scanned": 0, "bets": 0, "dropped": 0, "reasons": {}}
+        norm = self.kalshi.normalize(raw)
+        n_total = len(norm)
+
+        # ── 2. Per-market filters (id resolution, spread) ─────────────────
+        already_open_keys = self._load_existing_match_keys()
+        kept_markets = []
+        dropped_rows = []
+        reason_counts: dict = {}
+
+        for _, m in norm.iterrows():
+            ticker = m.get("_ticker") or m.get("market_id", "").replace("kalshi::", "")
+            url = _kalshi_url(ticker)
+            base_drop = {
+                "timestamp":   ts,
+                "market_id":   m["market_id"],
+                "kalshi_url":  url,
+                "player_a":    m.get("player_a"),
+                "player_a_id": m.get("player_a_id"),
+                "player_b":    m.get("player_b"),
+                "player_b_id": m.get("player_b_id"),
+                "tournament":  m.get("tournament"),
+                "event_date":  m.get("event_date"),
+                "yes_ask":     m.get("yes_ask"),
+                "yes_bid":     m.get("yes_bid"),
+            }
+
+            # Filter: missing player ids
+            if pd.isna(m.get("player_a_id")) or pd.isna(m.get("player_b_id")):
+                detail = (
+                    f"player_a_id={m.get('player_a_id')!r}, "
+                    f"player_b_id={m.get('player_b_id')!r}"
+                )
+                dropped_rows.append({**base_drop,
+                                     "reason": REASON_MISSING_ID,
+                                     "reason_detail": detail})
+                reason_counts[REASON_MISSING_ID] = reason_counts.get(REASON_MISSING_ID, 0) + 1
+                continue
+
+            # Filter: wide spread (empty book)
+            ask = m.get("yes_ask")
+            bid = m.get("yes_bid")
+            if pd.notna(ask) and pd.notna(bid) and (ask - bid) > MAX_SPREAD:
+                dropped_rows.append({**base_drop,
+                                     "reason": REASON_WIDE_SPREAD,
+                                     "reason_detail": f"spread={ask-bid:.2f}"})
+                reason_counts[REASON_WIDE_SPREAD] = reason_counts.get(REASON_WIDE_SPREAD, 0) + 1
+                continue
+
+            # Filter: duplicate (already have a bet on this match)
+            mk = _match_key(m.get("market_id"))
+            if mk and mk in already_open_keys:
+                dropped_rows.append({**base_drop,
+                                     "reason": REASON_DUPLICATE,
+                                     "reason_detail": f"match_key={mk}"})
+                reason_counts[REASON_DUPLICATE] = reason_counts.get(REASON_DUPLICATE, 0) + 1
+                continue
+
+            kept_markets.append(m)
+
+        if self.verbose:
+            logger.info(f"scan(): {n_total} markets → "
+                        f"{len(kept_markets)} after per-market filters")
+
+        # ── 3. Group remaining markets by match_key ───────────────────────
+        match_groups: dict = {}
+        for m in kept_markets:
+            mk = _match_key(m["market_id"])
+            match_groups.setdefault(mk, []).append(m)
+
+        # ── 4a. Build synthetic rows for every match (BOTH perspectives) ──
+        # We score in a single compute_all pass at the end, not per-match,
+        # because compute_all rebuilds player history from the whole TML
+        # corpus (~10s per call) and that work is shared across rows.
+        synth_rows = []           # list[dict] — TML-shape synthetic rows
+        synth_meta = {}           # synthetic_id -> match-evaluation context
+        for mk, group in match_groups.items():
+            primary = _pick_primary_mirror(group)
+            tournament = primary.get("tournament")
+            surface, level = self._infer_surface_and_level(tournament)
+            if surface is None:
+                detail = f"tournament={tournament!r}"
+                for m in group:
+                    ticker = (m.get("_ticker")
+                              or m.get("market_id", "").replace("kalshi::", ""))
+                    dropped_rows.append({
+                        "timestamp": ts, "market_id": m["market_id"],
+                        "kalshi_url": _kalshi_url(ticker),
+                        "player_a": m.get("player_a"), "player_a_id": m.get("player_a_id"),
+                        "player_b": m.get("player_b"), "player_b_id": m.get("player_b_id"),
+                        "tournament": tournament, "event_date": m.get("event_date"),
+                        "yes_ask": m.get("yes_ask"), "yes_bid": m.get("yes_bid"),
+                        "reason": REASON_NO_TOURNEY, "reason_detail": detail,
+                    })
+                    reason_counts[REASON_NO_TOURNEY] = reason_counts.get(REASON_NO_TOURNEY, 0) + 1
+                continue
+
+            pa, pb = primary["player_a"], primary["player_b"]
+            pa_id, pb_id = primary["player_a_id"], primary["player_b_id"]
+            event_date = primary["event_date"]
+            round_ = primary.get("round_")
+            rank_a = self._latest_rank(pa_id, pa, event_date)
+            rank_b = self._latest_rank(pb_id, pb, event_date)
+
+            row_a = _build_synthetic_row(
+                market_id=primary["market_id"], player_a=pa, player_b=pb,
+                player_a_id=pa_id, player_b_id=pb_id,
+                tournament=primary["tournament"], surface=surface, tourney_level=level,
+                event_date=event_date, rank_a=rank_a, rank_b=rank_b, round_=round_,
+            )
+            row_b = _build_synthetic_row(
+                market_id=primary["market_id"], player_a=pb, player_b=pa,
+                player_a_id=pb_id, player_b_id=pa_id,
+                tournament=primary["tournament"], surface=surface, tourney_level=level,
+                event_date=event_date, rank_a=rank_b, rank_b=rank_a, round_=round_,
+            )
+            id_a = f"{row_a['tml_match_id']}::A"
+            id_b = f"{row_b['tml_match_id']}::B"
+            row_a["tml_match_id"] = id_a
+            row_b["tml_match_id"] = id_b
+            synth_rows.append(row_a)
+            synth_rows.append(row_b)
+            synth_meta[mk] = {
+                "group":      group,
+                "primary":    primary,
+                "surface":    surface,
+                "level":      level,
+                "id_a":       id_a,
+                "id_b":       id_b,
+                "rank_a":     rank_a,
+                "rank_b":     rank_b,
+            }
+
+        # ── 4b. One compute_all pass over (TML + all synthetic rows) ──────
+        bets = []
+        if synth_rows:
+            t_feat = time.time()
+            tml_renamed = self.tml_df.rename(columns={"player_a": "winner_name",
+                                                       "player_b": "loser_name"})
+            combined = pd.concat([tml_renamed, pd.DataFrame(synth_rows)],
+                                 ignore_index=True, sort=False)
+            t_concat = time.time()
+            feats_all = matches_to_feature_matrix(combined)
+            t_features = time.time()
+            feat_idx = feats_all.set_index("tml_match_id")
+            if self.verbose:
+                logger.info(
+                    f"  features: concat={t_concat-t_feat:.1f}s, "
+                    f"compute_all={t_features-t_concat:.1f}s, "
+                    f"matches={len(synth_meta)}, synth_rows={len(synth_rows)}"
+                )
+
+            for mk, meta in synth_meta.items():
+                eval_result = self._score_match_from_features(
+                    meta=meta, feat_idx=feat_idx, ts=ts,
+                )
+                if eval_result["status"] == "bet":
+                    bets.append(eval_result["row"])
+                elif eval_result["status"] == "drop":
+                    dropped_rows.extend(eval_result["dropped"])
+                    for d in eval_result["dropped"]:
+                        reason_counts[d["reason"]] = reason_counts.get(d["reason"], 0) + 1
+
+        # ── 5. Persist ────────────────────────────────────────────────────
+        if bets:
+            self._append_csv(self.pending_path, bets, self.PENDING_COLS)
+        if dropped_rows:
+            self._append_csv(self.dropped_path, dropped_rows, self.DROPPED_COLS)
+        self._refresh_markdown()
+
+        if self.verbose:
+            logger.info(
+                f"scan() done in {time.time()-t0:.1f}s: "
+                f"{n_total} scanned, {len(bets)} bets recorded, "
+                f"{len(dropped_rows)} dropped"
+            )
+            for reason, cnt in sorted(reason_counts.items(), key=lambda x: -x[1]):
+                logger.info(f"  drop[{reason}]: {cnt}")
+        return {
+            "scanned": n_total,
+            "bets":    len(bets),
+            "dropped": len(dropped_rows),
+            "reasons": reason_counts,
+        }
+
+    # ------------------------------------------------------------------ #
+    # _evaluate_match — synthetic rows + model + best-edge for one match
+    # ------------------------------------------------------------------ #
+
+    def _score_match_from_features(
+        self,
+        meta: dict,
+        feat_idx: pd.DataFrame,
+        ts: str,
+    ) -> dict:
+        """
+        Score one match given the precomputed feature matrix indexed by
+        tml_match_id. Apply the bet rule. Returns {"status": "bet", "row": ...}
+        or {"status": "drop", "dropped": [...]} for the dropped.csv writer.
+        """
+        group = meta["group"]
+        primary = meta["primary"]
+        surface = meta["surface"]
+        level = meta["level"]
+        id_a, id_b = meta["id_a"], meta["id_b"]
+        rank_a, rank_b = meta["rank_a"], meta["rank_b"]
+
+        pa = primary["player_a"]
+        pb = primary["player_b"]
+        pa_id = primary["player_a_id"]
+        pb_id = primary["player_b_id"]
+        event_date = primary["event_date"]
+
+        if id_a not in feat_idx.index or id_b not in feat_idx.index:
+            return self._drop_group(group, ts, REASON_THIN_HISTORY,
+                                    "synthetic rows missing from feature matrix")
+
+        feat_a = feat_idx.loc[id_a, AUGMENTED_FEATURES]
+        feat_b = feat_idx.loc[id_b, AUGMENTED_FEATURES]
+
+        # Thin-history guard: if rank_ratio_a (the structural feature) is NaN
+        # for either side, the mean-imputer fills it but the theo is junk.
+        if pd.isna(feat_a["rank_ratio_a"]) or pd.isna(feat_b["rank_ratio_a"]):
+            return self._drop_group(
+                group, ts, REASON_THIN_HISTORY,
+                f"rank_ratio_a NaN (rank_a={rank_a}, rank_b={rank_b})",
+            )
+
+        # Predict
+        X = np.vstack([feat_a.values.astype(float), feat_b.values.astype(float)])
+        theos = self.model.predict_proba(X)[:, 1]
+        theo_a, theo_b = float(theos[0]), float(theos[1])
+
+        # Build the candidate-bet table — up to 4 (per market × YES/NO),
+        # but only as many actual markets as the mirror group contains.
+        candidates = []
+        for m in group:
+            ask = m.get("yes_ask")
+            bid = m.get("yes_bid")
+            # Determine which player this market is the YES side for
+            if m["player_a_id"] == pa_id:
+                theo_yes = theo_a
+            elif m["player_a_id"] == pb_id:
+                theo_yes = theo_b
+            else:
+                # Should never happen given the match_key grouping
+                continue
+            theo_no = 1.0 - theo_yes
+            # Player we're betting on for this candidate:
+            #   YES on market m  → bet that m["player_a"] wins
+            #   NO  on market m  → bet that m["player_a"] loses (= player_b wins)
+            yes_player_name = m["player_a"]
+            yes_player_id   = m["player_a_id"]
+            no_player_name  = m["player_b"]
+            no_player_id    = m["player_b_id"]
+            if pd.notna(ask):
+                candidates.append({
+                    "market_id":   m["market_id"],
+                    "direction":   "YES",
+                    "cost":        float(ask),
+                    "theo":        theo_yes,
+                    "edge":        theo_yes - float(ask),
+                    "ask":         float(ask),
+                    "bid":         float(bid) if pd.notna(bid) else np.nan,
+                    "ticker":      m.get("_ticker"),
+                    "player_name": yes_player_name,
+                    "player_id":   yes_player_id,
+                })
+            if pd.notna(bid):
+                candidates.append({
+                    "market_id":   m["market_id"],
+                    "direction":   "NO",
+                    "cost":        1.0 - float(bid),
+                    "theo":        theo_no,
+                    "edge":        theo_no - (1.0 - float(bid)),
+                    "ask":         float(ask) if pd.notna(ask) else np.nan,
+                    "bid":         float(bid),
+                    "ticker":      m.get("_ticker"),
+                    "player_name": no_player_name,
+                    "player_id":   no_player_id,
+                })
+        if not candidates:
+            return self._drop_group(group, ts, REASON_WIDE_SPREAD,
+                                    "no quoted ask/bid on any mirror")
+
+        # Pick best edge
+        best = max(candidates, key=lambda c: c["edge"])
+
+        # Eligibility filters
+        if best["edge"] < MIN_EDGE:
+            return self._drop_group(
+                group, ts, REASON_BELOW_EDGE,
+                f"best_edge={best['edge']:.3f} on {best['direction']} @ "
+                f"theo={best['theo']:.3f}",
+            )
+
+        # Eligible — record one row to pending
+        ask_a = bid_a = ask_b = bid_b = np.nan
+        for m in group:
+            if m["player_a_id"] == pa_id:
+                ask_a, bid_a = m.get("yes_ask"), m.get("yes_bid")
+            elif m["player_a_id"] == pb_id:
+                ask_b, bid_b = m.get("yes_ask"), m.get("yes_bid")
+
+        # Per-feature signed log-odds shifts, in the perspective of the
+        # player we're betting ON winning (so positive = pushed toward bet).
+        # We use the synthetic row whose winner_name == that player.
+        bet_feat = feat_a if best["player_id"] == pa_id else feat_b
+        try:
+            shifts = compute_feature_attribution(
+                self.model, bet_feat.values.astype(float), AUGMENTED_FEATURES,
+            )
+            shifts_json = json.dumps({k: round(v, 6) for k, v in shifts.items()})
+        except Exception as e:
+            logger.warning(f"feature attribution failed: {e}")
+            shifts_json = ""
+
+        row = {
+            "timestamp_recorded":   ts,
+            "match_key":            _match_key(primary["market_id"]),
+            "market_id":            best["market_id"],          # the market we BET on
+            "kalshi_url":           _kalshi_url(best.get("ticker")),
+            "player_a":             pa,  "player_a_id": pa_id,
+            "player_b":             pb,  "player_b_id": pb_id,
+            "tournament":           primary["tournament"],
+            "surface":              surface,
+            "tourney_level":        level,
+            "event_date":           event_date,
+            "theo_a":               theo_a,
+            "theo_b":               theo_b,
+            "yes_ask_a":            ask_a, "yes_bid_a": bid_a,
+            "yes_ask_b":            ask_b, "yes_bid_b": bid_b,
+            "chosen_market_id":     best["market_id"],
+            "chosen_direction":     best["direction"],
+            "chosen_player_name":   best["player_name"],
+            "chosen_player_id":     best["player_id"],
+            "entry_price":          best["cost"],
+            "theo_chosen":          best["theo"],
+            "edge":                 best["edge"],
+            "fee":                  _kalshi_fee(best["cost"]),
+            "feature_shifts_json":  shifts_json,
+        }
+        return {"status": "bet", "row": row}
+
+    # ------------------------------------------------------------------ #
+    # settle_pending()
+    # ------------------------------------------------------------------ #
+
+    def settle_pending(self) -> dict:
+        """
+        Refetch settled Kalshi markets and resolve any pending paper bets.
+        Settled rows are appended to settled.csv and removed from pending.
+        """
+        if not self.pending_path.exists():
+            return {"settled": 0, "still_open": 0}
+
+        pending = pd.read_csv(self.pending_path)
+        if pending.empty:
+            return {"settled": 0, "still_open": 0}
+
+        # Pull settled markets. force_refresh bypasses KalshiLoader's
+        # disk cache — without it, the cache would return yesterday's
+        # snapshot and today's resolutions would be invisible.
+        raw_settled = self.kalshi.load(status="settled", limit=2000, force_refresh=True)
+        if raw_settled.empty:
+            return {"settled": 0, "still_open": int(len(pending))}
+        norm_settled = self.kalshi.normalize(raw_settled)
+        res_by_market = norm_settled.set_index("market_id")["resolution"]
+
+        ts = datetime.now(timezone.utc).isoformat(timespec="seconds")
+        newly_settled = []
+        still_open = []
+
+        for _, row in pending.iterrows():
+            market_id = row["chosen_market_id"]
+            if market_id not in res_by_market.index:
+                still_open.append(row)
+                continue
+            resolution = res_by_market.loc[market_id]
+            if pd.isna(resolution):
+                still_open.append(row)
+                continue
+
+            direction = row["chosen_direction"]
+            cost = float(row["entry_price"])
+            # YES bet wins iff resolution == 1; NO bet wins iff resolution == 0
+            yes_won = float(resolution) >= 0.5
+            bet_won = (direction == "YES" and yes_won) or (direction == "NO" and not yes_won)
+            gross_pnl = (1.0 - cost) if bet_won else (-cost)
+            fee = float(row["fee"]) if pd.notna(row["fee"]) else _kalshi_fee(cost)
+            net_pnl = gross_pnl - fee
+
+            settled_row = row.to_dict()
+            settled_row.update({
+                "timestamp_settled": ts,
+                "resolution":        float(resolution),
+                "bet_won":           bool(bet_won),
+                "gross_pnl":         gross_pnl,
+                "net_pnl":           net_pnl,
+            })
+            newly_settled.append(settled_row)
+
+        # Persist
+        if newly_settled:
+            self._append_csv(self.settled_path, newly_settled, self.SETTLED_COLS)
+        # Rewrite pending with only the still-open rows
+        if still_open:
+            still_open_df = pd.DataFrame(still_open)[self.PENDING_COLS]
+            still_open_df.to_csv(self.pending_path, index=False)
+        else:
+            self.pending_path.unlink(missing_ok=True)
+        self._refresh_markdown()
+
+        if self.verbose:
+            wins = sum(1 for r in newly_settled if r["bet_won"])
+            net = sum(r["net_pnl"] for r in newly_settled)
+            logger.info(
+                f"settle_pending(): {len(newly_settled)} newly settled "
+                f"({wins} wins, net_pnl={net:+.3f})  still_open={len(still_open)}"
+            )
+        return {
+            "settled":    len(newly_settled),
+            "still_open": len(still_open),
+        }
+
+    # ------------------------------------------------------------------ #
+    # Internal helpers
+    # ------------------------------------------------------------------ #
+
+    def _drop_group(self, group: list, ts: str, reason: str, detail: str) -> dict:
+        """Build a dropped-rows payload for every market in a mirror group."""
+        rows = []
+        for m in group:
+            ticker = m.get("_ticker") or m.get("market_id", "").replace("kalshi::", "")
+            rows.append({
+                "timestamp":   ts,
+                "market_id":   m["market_id"],
+                "kalshi_url":  _kalshi_url(ticker),
+                "player_a":    m.get("player_a"),
+                "player_a_id": m.get("player_a_id"),
+                "player_b":    m.get("player_b"),
+                "player_b_id": m.get("player_b_id"),
+                "tournament":  m.get("tournament"),
+                "event_date":  m.get("event_date"),
+                "yes_ask":     m.get("yes_ask"),
+                "yes_bid":     m.get("yes_bid"),
+                "reason":      reason,
+                "reason_detail": detail,
+            })
+        return {"status": "drop", "dropped": rows}
+
+    def _load_existing_match_keys(self) -> set:
+        """
+        Read pending.csv (if present) and return the set of match_keys for
+        already-recorded bets — so scan() doesn't re-bet the same match
+        when the mirror appears, or re-bet on subsequent re-scans.
+        """
+        if not self.pending_path.exists():
+            return set()
+        try:
+            df = pd.read_csv(self.pending_path)
+            return set(df["match_key"].dropna().astype(str).tolist())
+        except Exception as e:
+            logger.warning(f"failed to read pending.csv: {e}")
+            return set()
+
+    def _latest_rank(self, player_id, player_name: str, cutoff) -> float:
+        """Most recent ATP rank for the player strictly before cutoff."""
+        cutoff = pd.Timestamp(cutoff)
+        md = pd.to_datetime(self.tml_df["match_date"])
+        if pd.notna(player_id) and "winner_id" in self.tml_df.columns:
+            mask = (
+                ((self.tml_df["winner_id"] == player_id)
+                 | (self.tml_df["loser_id"] == player_id))
+                & (md < cutoff)
+            )
+            side_winner = self.tml_df["winner_id"] == player_id
+        elif isinstance(player_name, str) and player_name:
+            mask = (
+                ((self.tml_df["player_a"] == player_name)
+                 | (self.tml_df["player_b"] == player_name))
+                & (md < cutoff)
+            )
+            side_winner = self.tml_df["player_a"] == player_name
+        else:
+            return np.nan
+        hits = self.tml_df.loc[mask].assign(_md=md[mask]).sort_values(
+            "_md", ascending=False)
+        if hits.empty:
+            return np.nan
+        last = hits.iloc[0]
+        return float(last["winner_rank"]) if side_winner.loc[last.name] else float(last["loser_rank"])
+
+    def _infer_surface_and_level(self, tournament: str) -> Tuple[Optional[str], Optional[str]]:
+        """Look up surface + tourney_level from prior TML rows for this tournament."""
+        if not isinstance(tournament, str) or not tournament:
+            return None, None
+        target = _normalize_tournament(tournament)
+        if not target:
+            return None, None
+        norm_tml = self.tml_df["tournament"].astype(str).map(_normalize_tournament)
+        rows = self.tml_df[norm_tml == target]
+        if rows.empty:
+            return None, None
+        surface = rows["surface"].mode()
+        level = rows["tourney_level"].mode()
+        return (
+            surface.iloc[0] if len(surface) else None,
+            level.iloc[0] if len(level) else None,
+        )
+
+    @staticmethod
+    def _append_csv(path: Path, rows: Iterable[dict], columns: list) -> None:
+        df = pd.DataFrame(list(rows))
+        for c in columns:
+            if c not in df.columns:
+                df[c] = np.nan
+        df = df[columns]
+        if path.exists():
+            df.to_csv(path, mode="a", header=False, index=False)
+        else:
+            df.to_csv(path, index=False)
+
+    # ------------------------------------------------------------------ #
+    # Markdown rendering — friendlier eyeballing of the CSVs.
+    # Re-generated from the source CSV on every scan/settle so it always
+    # reflects current state; never appended to.
+    # ------------------------------------------------------------------ #
+
+    def _refresh_markdown(self) -> None:
+        ts = datetime.now(timezone.utc).isoformat(timespec="seconds")
+        self._write_pending_md(ts)
+        self._write_dropped_md(ts)
+        self._write_settled_md(ts)
+
+    def _write_pending_md(self, ts: str) -> None:
+        path = self.log_dir / "pending.md"
+        if not self.pending_path.exists():
+            path.write_text(f"# Pending paper bets\n\n_No open bets._  \n_(generated {ts})_\n")
+            return
+        df = pd.read_csv(self.pending_path)
+        if df.empty:
+            path.write_text(f"# Pending paper bets\n\n_No open bets._  \n_(generated {ts})_\n")
+            return
+        df = df.sort_values("edge", ascending=False)
+        lines = [
+            f"# Pending paper bets ({len(df)})",
+            "",
+            f"_Generated {ts}_",
+            "",
+            "| Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |",
+            "|---|---|---|---|---|---|---|---|---|",
+        ]
+        for _, r in df.iterrows():
+            chosen = r.get("chosen_player_name") or "?"
+            match = f"**{chosen}** ({r['chosen_direction']}) vs {r['player_b'] if chosen == r['player_a'] else r['player_a']}"
+            lines.append(
+                f"| {match} | {r['tournament']} | {r['event_date']} "
+                f"| {r['chosen_direction']} {chosen} "
+                f"| {float(r['entry_price']):.2f} "
+                f"| {float(r['theo_chosen']):.3f} "
+                f"| {float(r['edge']):+.3f} "
+                f"| {float(r['fee']):.4f} "
+                f"| [link]({r['kalshi_url']}) |"
+            )
+        path.write_text("\n".join(lines) + "\n")
+
+    def _write_dropped_md(self, ts: str) -> None:
+        path = self.log_dir / "dropped.md"
+        if not self.dropped_path.exists():
+            path.write_text(f"# Dropped markets\n\n_No drops yet._  \n_(generated {ts})_\n")
+            return
+        df = pd.read_csv(self.dropped_path)
+        if df.empty:
+            path.write_text(f"# Dropped markets\n\n_No drops yet._  \n_(generated {ts})_\n")
+            return
+        lines = [
+            f"# Dropped markets ({len(df)})",
+            "",
+            f"_Generated {ts}_",
+            "",
+            "## Summary by reason",
+            "",
+            "| Reason | Count |",
+            "|---|---|",
+        ]
+        for reason, count in df["reason"].value_counts().items():
+            lines.append(f"| `{reason}` | {count} |")
+        lines += [
+            "",
+            "## Detail",
+            "",
+            "| Match | Tournament | Date | Ask / Bid | Reason | Detail | Market |",
+            "|---|---|---|---|---|---|---|",
+        ]
+        for _, r in df.sort_values(["reason", "tournament"]).iterrows():
+            ask = r.get("yes_ask"); bid = r.get("yes_bid")
+            ab = f"{float(ask):.2f} / {float(bid):.2f}" if pd.notna(ask) and pd.notna(bid) else "—"
+            match = f"{r['player_a']} vs {r['player_b']}"
+            lines.append(
+                f"| {match} | {r['tournament']} | {r['event_date']} "
+                f"| {ab} | `{r['reason']}` | {r['reason_detail']} "
+                f"| [link]({r['kalshi_url']}) |"
+            )
+        path.write_text("\n".join(lines) + "\n")
+
+    def _write_settled_md(self, ts: str) -> None:
+        path = self.log_dir / "settled.md"
+        if not self.settled_path.exists():
+            path.write_text(f"# Settled paper bets\n\n_None yet._  \n_(generated {ts})_\n")
+            return
+        df = pd.read_csv(self.settled_path)
+        if df.empty:
+            path.write_text(f"# Settled paper bets\n\n_None yet._  \n_(generated {ts})_\n")
+            return
+        df = df.sort_values("timestamp_settled", ascending=False)
+        n_bets = len(df)
+        wins   = int(df["bet_won"].sum()) if "bet_won" in df.columns else 0
+        net    = float(df["net_pnl"].sum()) if "net_pnl" in df.columns else 0.0
+        lines = [
+            f"# Settled paper bets ({n_bets})",
+            "",
+            f"_Generated {ts}_",
+            "",
+            f"**Wins:** {wins} / {n_bets}  ({(wins/n_bets if n_bets else 0):.1%})  ",
+            f"**Net PnL (per contract):** {net:+.3f}",
+            "",
+            "| Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |",
+            "|---|---|---|---|---|---|---|---|---|",
+        ]
+        for _, r in df.iterrows():
+            chosen = r.get("chosen_player_name") or "?"
+            won = "✓" if bool(r.get("bet_won")) else "✗"
+            lines.append(
+                f"| {chosen} ({r['chosen_direction']}) vs "
+                f"{r['player_b'] if chosen == r['player_a'] else r['player_a']} "
+                f"| {r['tournament']} | {r['event_date']} "
+                f"| {r['chosen_direction']} {chosen} "
+                f"| {float(r['entry_price']):.2f} "
+                f"| {float(r['theo_chosen']):.3f} "
+                f"| {won} "
+                f"| {float(r['net_pnl']):+.3f} "
+                f"| [link]({r['kalshi_url']}) |"
+            )
+        path.write_text("\n".join(lines) + "\n")
+
+
+# ============================================================================
+# CLI: run scan() then settle_pending()
+# ============================================================================
+
+if __name__ == "__main__":
+    import argparse
+
+    p = argparse.ArgumentParser(description="Run a paper-trading scan + settle pass")
+    p.add_argument("--scan-only",   action="store_true")
+    p.add_argument("--settle-only", action="store_true")
+    args = p.parse_args()
+
+    pt = PaperTrader()
+    if not args.settle_only:
+        pt.scan()
+    if not args.scan_only:
+        pt.settle_pending()

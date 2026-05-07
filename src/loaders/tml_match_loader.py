@@ -499,6 +499,10 @@ class TMLMatchLoader:
 
         # Pass through all the stats we want available downstream
         passthrough = [
+            # Sackmann player IDs — stable integer keys per player. Use these
+            # for joining to Kalshi (via PlayerResolver) instead of name strings;
+            # avoids ambiguity on shared last names, diacritics, name changes.
+            "winner_id", "loser_id",
             "minutes",
             "winner_rank", "loser_rank",
             "winner_rank_points", "loser_rank_points",
@@ -515,6 +519,18 @@ class TMLMatchLoader:
         for c in passthrough:
             if c in df.columns:
                 out[c] = df[c].values
+
+        # Drop rows without a resolvable match_date. Two known sources:
+        #   1. A literal header row that occasionally leaks through tml_loader.py
+        #      (tourney_id == "tourney_id"). Pre-existing upstream bug.
+        #   2. Future events listed without a tourney_date yet (Sackmann sometimes
+        #      ships challenger rows before the schedule is finalised).
+        # Either way these rows have NaT match_date and break time-indexed rolling
+        # in compute_all. Drop here so downstream sees a clean invariant.
+        nat = pd.to_datetime(out["match_date"], errors="coerce").isna()
+        if nat.any():
+            logger.info(f"Dropped {int(nat.sum())} rows with unresolvable match_date")
+            out = out[~nat].reset_index(drop=True)
 
         # Apply cutoff to match_date if set
         cutoff = getattr(self, "_cutoff_date", None)

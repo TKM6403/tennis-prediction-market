@@ -365,8 +365,21 @@ class KalshiLoader(PredictionMarketLoader):
         self,
         series_tickers: Optional[List[str]] = None,
         cache_dir: Optional[str] = None,
+        player_resolver=None,
     ):
+        """
+        Args:
+            series_tickers:   Kalshi series to fetch. Default = DEFAULT_TENNIS_SERIES.
+            cache_dir:        Disk cache root for raw payloads.
+            player_resolver:  Optional PlayerResolver (from src/loaders/player_resolver.py).
+                              When set, normalize() upgrades player_a/player_b to
+                              TML's canonical full names and emits player_a_id /
+                              player_b_id integer columns. Without it, names come
+                              out as Kalshi-native (player_a full, player_b last-
+                              name only) and the id columns are NaN.
+        """
         self.series_tickers = series_tickers or self.DEFAULT_TENNIS_SERIES
+        self.player_resolver = player_resolver
 
         if cache_dir is None:
             repo_root = Path(__file__).resolve().parents[2]
@@ -384,15 +397,21 @@ class KalshiLoader(PredictionMarketLoader):
         cutoff_date=None,
         limit: Optional[int] = None,
         status: Optional[str] = None,
+        force_refresh: bool = False,
     ) -> pd.DataFrame:
         """
         Fetch raw markets for all configured series tickers.
 
         Args:
-            cutoff_date: Drop rows where event_date >= this date.
-                         REQUIRED for backtest correctness.
-            limit:       Max markets per series. None = all.
-            status:      "settled", "finalized", "open", or None for all.
+            cutoff_date:   Drop rows where event_date >= this date.
+                           REQUIRED for backtest correctness.
+            limit:         Max markets per series. None = all.
+            status:        "settled", "finalized", "open", or None for all.
+            force_refresh: Bypass the on-disk cache for settled/finalized
+                           queries and re-fetch from the API. Required when
+                           you need today's settlements (the cache is
+                           otherwise sticky and would return yesterday's
+                           snapshot).
 
         Returns:
             Raw DataFrame with Kalshi-native columns.
@@ -400,7 +419,9 @@ class KalshiLoader(PredictionMarketLoader):
         """
         all_rows = []
         for series in self.series_tickers:
-            rows = self._fetch_series(series, limit=limit, status=status)
+            rows = self._fetch_series(
+                series, limit=limit, status=status, force_refresh=force_refresh,
+            )
             all_rows.extend(rows)
 
         if not all_rows:
@@ -467,6 +488,35 @@ class KalshiLoader(PredictionMarketLoader):
                 ):
                     out.loc[idx, "player_b"] = full
 
+        # Player ID resolution ────────────────────────────────────────────
+        # If a PlayerResolver is configured, upgrade player_a / player_b to
+        # TML's canonical full names and emit integer ids. Empty inputs and
+        # un-resolvable names pass through unchanged with id=NaN.
+        if self.player_resolver is not None:
+            new_a, new_b, ids_a, ids_b = [], [], [], []
+            for pa, pb in zip(out["player_a"], out["player_b"]):
+                if isinstance(pa, str) and pa.strip():
+                    id_a, full_a = self.player_resolver.resolve(pa)
+                    new_a.append(full_a)
+                    ids_a.append(id_a)
+                else:
+                    new_a.append(pa)
+                    ids_a.append(None)
+                if isinstance(pb, str) and pb.strip():
+                    id_b, full_b = self.player_resolver.resolve(pb)
+                    new_b.append(full_b)
+                    ids_b.append(id_b)
+                else:
+                    new_b.append(pb)
+                    ids_b.append(None)
+            out["player_a"]    = new_a
+            out["player_b"]    = new_b
+            out["player_a_id"] = ids_a
+            out["player_b_id"] = ids_b
+        else:
+            out["player_a_id"] = np.nan
+            out["player_b_id"] = np.nan
+
         # Tournament ──────────────────────────────────────────────────────
         out["tournament"] = (
             df["rules_primary"].apply(_extract_tournament_from_rules)
@@ -486,11 +536,18 @@ class KalshiLoader(PredictionMarketLoader):
         # Use close_time wherever occurrence_datetime is missing
         out["event_date"] = ev_dt.fillna(ct).dt.date
 
-        # Entry prices — NaN until enrich_entry_prices() is called.
-        # yes_ask  = what you pay to buy YES
-        # yes_bid  = what buyers will pay (your sell price / cost of NO)
-        out["yes_ask"] = np.nan
-        out["yes_bid"] = np.nan
+        # Entry prices.
+        #
+        # For OPEN markets, /markets returns live yes_ask_dollars / yes_bid_dollars
+        # — preserve them so paper-trading code can read a current quote without
+        # an extra candlestick fetch.
+        #
+        # For SETTLED markets, the same fields hold settlement values (~0.99/0.01)
+        # and are useless as entry prices. Backtest code should overwrite them by
+        # calling enrich_entry_prices(), which fetches the first hourly candle
+        # after market open — a realistic pre-match quote.
+        out["yes_ask"] = pd.to_numeric(df.get("yes_ask_dollars"), errors="coerce")
+        out["yes_bid"] = pd.to_numeric(df.get("yes_bid_dollars"), errors="coerce")
 
         # Resolution ──────────────────────────────────────────────────────
         out["resolution"] = (
@@ -643,17 +700,25 @@ class KalshiLoader(PredictionMarketLoader):
         series_ticker: str,
         limit: Optional[int] = None,
         status: Optional[str] = None,
+        force_refresh: bool = False,
     ) -> list:
         """
         Paginate through all markets for a series ticker.
 
         Results are cached to disk for settled/finalized queries so
-        subsequent runs don't re-hit the API.
+        subsequent runs don't re-hit the API. Pass force_refresh=True
+        to bypass the cache and re-fetch (paper_trader.settle_pending
+        does this so today's resolutions don't get masked by yesterday's
+        snapshot).
         """
         cache_key  = f"{series_ticker}_{status or 'all'}"
         cache_path = self.cache_dir / f"{cache_key}.json"
 
-        if cache_path.exists() and status in ("settled", "finalized"):
+        if (
+            cache_path.exists()
+            and status in ("settled", "finalized")
+            and not force_refresh
+        ):
             with open(cache_path) as f:
                 return json.load(f)
 

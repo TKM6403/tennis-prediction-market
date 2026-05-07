@@ -1,6 +1,7 @@
 # data — never commit raw or processed data
 data/raw/
 data/processed/
+data/paper_trades/
 
 # env
 .env
