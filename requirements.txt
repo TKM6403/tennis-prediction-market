@@ -5,3 +5,4 @@ scikit-learn>=1.3.0
 pyarrow>=12.0.0
 python-dotenv>=1.0.0
 matplotlib>=3.7.0
+betacal>=1.1.0

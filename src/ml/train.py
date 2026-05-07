@@ -66,6 +66,7 @@ if str(_REPO) not in sys.path:
     sys.path.insert(0, str(_REPO))
 
 from src.loaders.tml_match_loader import TMLMatchLoader
+from src.ml.calibration_methods import BetaCalibratedClassifier
 from src.ml.features.feature_engineer import compute_all, assert_feature_quality, feature_quality_report, FeatureQualityError
 
 logging.basicConfig(
@@ -182,22 +183,78 @@ def filter_irregular(df: pd.DataFrame) -> pd.DataFrame:
 # Feature construction
 # ============================================================================
 
+def _assemble_features(df: pd.DataFrame, flip: np.ndarray) -> pd.DataFrame:
+    """
+    Take a DataFrame that has already been through compute_all() (so has
+    all the `_w` / `_l` feature columns + winner_rank / loser_rank) and
+    build the model-ready 15-feature matrix.
+
+    `flip` is a boolean array of length len(df). Where True, the row's
+    winner moves to slot "b" and the loser moves to slot "a"; where False,
+    winner is "a" and loser is "b". For training, pass a random ~50/50
+    mask so the label is balanced. For inference, pass np.zeros(n, bool)
+    so winner is always "a" — i.e. the caller has set winner_name to the
+    side they want a probability for, and the model output is theo for
+    that side directly.
+
+    This split matters because at training time we want to defeat the
+    "winner is always position-a" leak; at inference time there IS no
+    label to leak so a deterministic perspective is correct AND
+    necessary (otherwise a random flip would silently invert theos for
+    half the predictions).
+
+    Returns: DataFrame with all AUGMENTED_FEATURES + label + metadata
+    (match_date, tournament, surface, tourney_level). At inference the
+    label column is always 1 and should be ignored.
+    """
+    out = pd.DataFrame()
+    if "tml_match_id" in df.columns:
+        out["tml_match_id"] = df["tml_match_id"].values  # carries through for debug/join
+    out["match_date"]    = pd.to_datetime(df["match_date"])
+    out["tournament"]    = df["tournament"]
+    out["surface"]       = df["surface"]
+    out["tourney_level"] = df["tourney_level"]
+    out["label"]         = np.where(flip, 0, 1).astype(int)  # 1 = player_a won (training)
+
+    # Ranks (lower number = better player). Add eps to avoid div/0 on unranked players.
+    rank_a = np.where(flip, df["loser_rank"].values,  df["winner_rank"].values).astype(float)
+    rank_b = np.where(flip, df["winner_rank"].values, df["loser_rank"].values).astype(float)
+    out["rank_ratio_a"] = rank_a / (rank_b + 1e-6)
+
+    def _feat_a(col):
+        return np.where(flip, df[col + "_l"].values, df[col + "_w"].values).astype(float)
+
+    def _feat_b(col):
+        return np.where(flip, df[col + "_w"].values, df[col + "_l"].values).astype(float)
+
+    out["surface_win_rate_diff"] = _feat_a("surface_win_rate_52w") - _feat_b("surface_win_rate_52w")
+    out["recent_form_diff"]      = _feat_a("recent_form_10m")      - _feat_b("recent_form_10m")
+    out["h2h_surface_diff"]      = _feat_a("h2h_surface_advantage")- _feat_b("h2h_surface_advantage")
+    # Fatigue: positive diff means player_b played MORE minutes recently → edge for a
+    out["fatigue_diff_21d"]      = _feat_b("fatigue_minutes_21d")  - _feat_a("fatigue_minutes_21d")
+    out["fatigue_diff_28d"]      = _feat_b("fatigue_minutes_28d")  - _feat_a("fatigue_minutes_28d")
+    out["days_rest_diff"]        = _feat_a("days_since_last_match")- _feat_b("days_since_last_match")
+
+    # Player identity diffs. Higher = a is better. df_rate and return_dominance
+    # are inverted because lower-is-better for those.
+    out["ace_rate_diff"]         = _feat_a("ace_rate_52w")          - _feat_b("ace_rate_52w")
+    out["df_rate_diff"]          = _feat_b("df_rate_52w")           - _feat_a("df_rate_52w")
+    out["serve_dominance_diff"]  = _feat_a("serve_dominance_52w")   - _feat_b("serve_dominance_52w")
+    out["return_dominance_diff"] = _feat_b("return_dominance_52w")  - _feat_a("return_dominance_52w")
+    out["first_in_pct_diff"]     = _feat_a("first_in_pct_52w")      - _feat_b("first_in_pct_52w")
+    out["first_won_pct_diff"]    = _feat_a("first_won_pct_52w")     - _feat_b("first_won_pct_52w")
+    out["second_won_pct_diff"]   = _feat_a("second_won_pct_52w")    - _feat_b("second_won_pct_52w")
+    out["height_diff"]           = _feat_a("height_cm")             - _feat_b("height_cm")
+
+    return out
+
+
 def build_features(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Run compute_all() then build the symmetric (A/B) prediction problem.
-
-    TML is winner-first by definition, which would leak the label into the
-    feature matrix if we used winner/loser directly. We randomly flip ~50%
-    of rows so that player_a is the winner only half the time.
-
-    Returns a DataFrame ready for sklearn with columns:
-        - All AUGMENTED_FEATURES
-        - label  (1 = player_a won, 0 = player_b won)
-        - match_date, tournament, surface, tourney_level  (metadata)
+    Training-time feature builder. Renames player_a/player_b to TML's
+    winner_name/loser_name, runs compute_all, then applies the symmetric
+    random A/B flip so the label is ~50/50 in training data.
     """
-    # The normalized DF has player_a/player_b (player_a_won=True always).
-    # compute_all() expects winner_name/loser_name — rename, run, then
-    # do the random A/B flip AFTER features are computed.
     df = df.rename(columns={"player_a": "winner_name", "player_b": "loser_name"})
 
     logger.info("Computing engineered features...")
@@ -205,60 +262,43 @@ def build_features(df: pd.DataFrame) -> pd.DataFrame:
     df = compute_all(df)
     logger.info(f"  Features computed in {time.time()-t0:.1f}s")
 
-    # ── Symmetric A/B flip ──────────────────────────────────────────────────
-    # Randomly assign winner→a or winner→b so the label is ~50/50.
-    # This prevents the model from learning "a always wins" artifacts.
     rng = np.random.default_rng(42)
-    flip = rng.random(len(df)) < 0.5   # True = flip (loser → a, winner → b)
+    flip = rng.random(len(df)) < 0.5   # True = swap winner→b, loser→a
+    return _assemble_features(df, flip)
 
-    out = pd.DataFrame()
-    out["match_date"]    = pd.to_datetime(df["match_date"])
-    out["tournament"]    = df["tournament"]
-    out["surface"]       = df["surface"]
-    out["tourney_level"] = df["tourney_level"]
-    out["label"]         = np.where(flip, 0, 1).astype(int)  # 1 = player_a won
 
-    # Ranks (lower number = better player)
-    rank_a = np.where(flip, df["loser_rank"].values,  df["winner_rank"].values).astype(float)
-    rank_b = np.where(flip, df["winner_rank"].values, df["loser_rank"].values).astype(float)
-    # rank_ratio_a: rank_a / rank_b. Values < 1 mean player_a is better-ranked.
-    # Add small epsilon to avoid div/0 on unranked players.
-    out["rank_ratio_a"] = rank_a / (rank_b + 1e-6)
+def matches_to_feature_matrix(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Inference-time feature builder. Same shape as build_features() but
+    with NO random flip — winner_name is always slot "a", so when you
+    set winner_name = the player you want a probability for, the model
+    output is that player's theo directly.
 
-    # Engineered feature diffs (a - b, or b - a for fatigue where higher = bad)
-    def _feat_a(col):
-        w_col = col + "_w"
-        l_col = col + "_l"
-        return np.where(flip, df[l_col].values, df[w_col].values).astype(float)
+    Accepts either TML-native (winner_name / loser_name) OR
+    TMLMatchLoader.normalize() output (player_a / player_b). For live
+    scoring of unplayed matches, inject synthetic rows with winner_name
+    set to the YES side of the market you're scoring.
 
-    def _feat_b(col):
-        w_col = col + "_w"
-        l_col = col + "_l"
-        return np.where(flip, df[w_col].values, df[l_col].values).astype(float)
+    Required columns (one of the two name conventions, plus): match_date,
+    surface, tournament, tourney_level, winner_rank, loser_rank, plus the
+    raw stat columns compute_all() reads (w_ace, l_ace, w_svpt, ...).
 
-    out["surface_win_rate_diff"] = _feat_a("surface_win_rate_52w") - _feat_b("surface_win_rate_52w")
-    out["recent_form_diff"]      = _feat_a("recent_form_10m")      - _feat_b("recent_form_10m")
-    out["h2h_surface_diff"]      = _feat_a("h2h_surface_advantage")- _feat_b("h2h_surface_advantage")
-    # Fatigue: positive diff means player_b played MORE minutes recently → edge for a
-    out["fatigue_diff_21d"]      = _feat_b("fatigue_minutes_21d")   - _feat_a("fatigue_minutes_21d")
-    out["fatigue_diff_28d"]      = _feat_b("fatigue_minutes_28d")  - _feat_a("fatigue_minutes_28d")
-    out["days_rest_diff"]        = _feat_a("days_since_last_match")- _feat_b("days_since_last_match")
+    Returns:
+        DataFrame with all AUGMENTED_FEATURES (the 15 features) plus
+        match_date / tournament / surface / tourney_level. No label.
 
-    # ── Player identity diffs ──
-    # All "rate-style" features are simple a - b. Higher diff = a's stat is
-    # better/larger/more dominant than b's. Sign convention is consistent
-    # with surface_win_rate_diff (positive → a is better).
-    out["ace_rate_diff"]         = _feat_a("ace_rate_52w")          - _feat_b("ace_rate_52w")
-    # df_rate sign flipped: low DF rate is good, so positive diff = a has FEWER DFs
-    out["df_rate_diff"]          = _feat_b("df_rate_52w")           - _feat_a("df_rate_52w")
-    out["serve_dominance_diff"]  = _feat_a("serve_dominance_52w")   - _feat_b("serve_dominance_52w")
-    # return_dominance: lower = better returner. Flip sign so positive = a returns better.
-    out["return_dominance_diff"] = _feat_b("return_dominance_52w")  - _feat_a("return_dominance_52w")
-    out["first_in_pct_diff"]     = _feat_a("first_in_pct_52w")      - _feat_b("first_in_pct_52w")
-    out["first_won_pct_diff"]    = _feat_a("first_won_pct_52w")     - _feat_b("first_won_pct_52w")
-    out["second_won_pct_diff"]   = _feat_a("second_won_pct_52w")    - _feat_b("second_won_pct_52w")
-    out["height_diff"]           = _feat_a("height_cm")             - _feat_b("height_cm")
-
+    Sign convention reminder:
+        Predict on AUGMENTED_FEATURES → P(winner_name beats loser_name).
+        If you set winner_name = Kalshi's player_a, this IS theo for
+        Kalshi's player_a — no orientation flip needed downstream.
+    """
+    if "player_a" in df.columns and "winner_name" not in df.columns:
+        df = df.rename(columns={"player_a": "winner_name", "player_b": "loser_name"})
+    df = compute_all(df)
+    flip = np.zeros(len(df), dtype=bool)
+    out = _assemble_features(df, flip)
+    # No meaningful label at inference time
+    out = out.drop(columns=["label"])
     return out
 
 
@@ -292,15 +332,22 @@ def time_split(df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFra
 # Model building
 # ============================================================================
 
-def _make_pipeline(C: float) -> Pipeline:
+def _make_pipeline(C: float, cal_method: str = "isotonic") -> Pipeline:
     """
-    Logistic regression pipeline: impute → scale → LR → isotonic calibration.
+    Logistic regression pipeline: impute → scale → LR → calibration.
 
-    Imputation: mean on train set. Scaling: standard (zero mean, unit var).
-    Calibration: isotonic regression on a held-out 20% of the training fold.
+    cal_method:
+        'isotonic' — non-parametric stepwise (CalibratedClassifierCV, cv=5).
+        'sigmoid'  — Platt scaling             (CalibratedClassifierCV, cv=5).
+        'beta'     — Beta calibration          (BetaCalibratedClassifier, cv=5).
     """
     lr = LogisticRegression(C=C, max_iter=1000, random_state=42, solver="lbfgs")
-    cal = CalibratedClassifierCV(lr, cv=5, method="isotonic")
+    if cal_method == "beta":
+        cal = BetaCalibratedClassifier(lr, cv=5)
+    elif cal_method in ("isotonic", "sigmoid"):
+        cal = CalibratedClassifierCV(lr, cv=5, method=cal_method)
+    else:
+        raise ValueError(f"Unknown cal_method={cal_method!r}")
     pipe = Pipeline([
         ("impute", SimpleImputer(strategy="mean")),
         ("scale",  StandardScaler()),
@@ -309,11 +356,55 @@ def _make_pipeline(C: float) -> Pipeline:
     return pipe
 
 
+def compute_feature_attribution(
+    pipe: Pipeline,
+    feature_row: np.ndarray,
+    feature_names: List[str],
+) -> Dict[str, float]:
+    """
+    Decompose a single prediction into per-feature signed log-odds shifts.
+
+    For an LR in standardized space:  logit(p) = b + Σᵢ wᵢ·zᵢ
+    where zᵢ = (xᵢ − μᵢ) / σᵢ. Each feature's contribution is wᵢ·zᵢ
+    — positive means "pushes toward player_a wins" given the orientation
+    of `feature_row`. Sum of shifts ≈ logit(p) − b.
+
+    Computed on the LR layer BEFORE the post-hoc calibrator. The
+    calibrator is a feature-agnostic monotonic transform; attributing
+    its nudge to features would be misleading.
+
+    Handles both calibration wrappers used in this repo:
+      • BetaCalibratedClassifier  → single base_estimator_
+      • CalibratedClassifierCV    → average over the K cv-fold estimators
+    """
+    imputer = pipe.named_steps["impute"]
+    scaler  = pipe.named_steps["scale"]
+    model   = pipe.named_steps["model"]
+
+    x = np.asarray(feature_row, dtype=float).reshape(1, -1)
+    z = scaler.transform(imputer.transform(x)).ravel()
+
+    if isinstance(model, BetaCalibratedClassifier):
+        coef = model.base_estimator_.coef_.ravel()
+    elif hasattr(model, "calibrated_classifiers_"):
+        coefs = []
+        for cc in model.calibrated_classifiers_:
+            est = getattr(cc, "estimator", None) or getattr(cc, "base_estimator", None)
+            coefs.append(est.coef_.ravel())
+        coef = np.mean(coefs, axis=0)
+    else:
+        coef = model.coef_.ravel()
+
+    shifts = coef * z
+    return {name: float(shifts[i]) for i, name in enumerate(feature_names)}
+
+
 def grid_search(
     train: pd.DataFrame,
     val: pd.DataFrame,
     features: List[str],
     label: str = "label",
+    cal_method: str = "isotonic",
 ) -> Tuple[float, Pipeline, Dict]:
     """
     Search over C_GRID; pick the C that minimises val log-loss.
@@ -328,7 +419,7 @@ def grid_search(
 
     results = []
     for C in C_GRID:
-        pipe = _make_pipeline(C)
+        pipe = _make_pipeline(C, cal_method=cal_method)
         pipe.fit(X_train, y_train)
         probs = pipe.predict_proba(X_val)[:, 1]
         ll = log_loss(y_val, probs)
@@ -341,7 +432,7 @@ def grid_search(
     logger.info(f"  → Best C = {best_C}")
 
     # Refit on full train at best C
-    pipe = _make_pipeline(best_C)
+    pipe = _make_pipeline(best_C, cal_method=cal_method)
     pipe.fit(X_train, y_train)
     return best_C, pipe, {r["C"]: r for r in results}
 
@@ -394,6 +485,8 @@ def run_experiment(
     end_year: int = 2024,
     fetch_tennis_data: bool = True,
     save_model: bool = False,
+    cal_method: str = "isotonic",
+    run_eval: bool = True,
 ) -> Dict:
     """
     End-to-end experiment. Returns results dict for downstream use.
@@ -433,16 +526,18 @@ def run_experiment(
         pos_rate = split["label"].mean()
         logger.info(f"  {name} label balance: {pos_rate:.3f} (target ~0.5)")
 
+    logger.info(f"\nCalibration method: {cal_method}")
+
     # ── 5. Grid search — baseline ──────────────────────────────────────────
     logger.info("\n── BASELINE (rank_ratio only) ──")
     best_C_base, pipe_base, gs_base = grid_search(
-        train, val, BASELINE_FEATURES
+        train, val, BASELINE_FEATURES, cal_method=cal_method
     )
 
     # ── 6. Grid search — augmented ─────────────────────────────────────────
     logger.info("\n── AUGMENTED (rank + 6 features) ──")
     best_C_aug, pipe_aug, gs_aug = grid_search(
-        train, val, AUGMENTED_FEATURES
+        train, val, AUGMENTED_FEATURES, cal_method=cal_method
     )
 
     # ── 7. Val metrics ─────────────────────────────────────────────────────
@@ -478,10 +573,19 @@ def run_experiment(
         out_dir = _REPO / "data" / "processed"
         out_dir.mkdir(parents=True, exist_ok=True)
         for name, pipe in [("baseline", pipe_base), ("augmented", pipe_aug)]:
-            path = out_dir / f"model_{name}.pkl"
+            path = out_dir / f"model_{name}_{cal_method}.pkl"
             with open(path, "wb") as f:
                 pickle.dump(pipe, f)
             logger.info(f"Saved {path}")
+
+    if run_eval:
+        # Generate calibration tables, reliability diagram, simulated PnL.
+        # Imported here (not at top) to avoid a circular import — evaluate.py
+        # imports from train.py for feature lists.
+        from src.ml.evaluate import run_evaluation
+        results["cal_method"] = cal_method
+        eval_out = run_evaluation(results)
+        results.update(eval_out)
 
     return results
 
@@ -496,6 +600,11 @@ if __name__ == "__main__":
                         help="Skip tennis-data.co.uk fetch (use heuristic dates only)")
     parser.add_argument("--save-model", action="store_true",
                         help="Pickle fitted pipelines to data/processed/")
+    parser.add_argument("--cal-method", choices=["isotonic", "sigmoid", "beta"],
+                        default="beta",
+                        help="Calibration method (default: beta — Kull et al. 2017)")
+    parser.add_argument("--no-eval", action="store_true",
+                        help="Skip post-train calibration tables + plots")
     parser.add_argument("--start-year", type=int, default=2018)
     parser.add_argument("--end-year",   type=int, default=2024)
     args = parser.parse_args()
@@ -505,6 +614,8 @@ if __name__ == "__main__":
         end_year=args.end_year,
         fetch_tennis_data=not args.no_network,
         save_model=args.save_model,
+        cal_method=args.cal_method,
+        run_eval=not args.no_eval,
     )
 
     print("\n" + "=" * 60)

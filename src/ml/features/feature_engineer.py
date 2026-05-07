@@ -153,7 +153,14 @@ def compute_all(
     # a 7D window missed the entire prior event load for most players.
     def _time_rolling_sum(group_df, value_col, window):
         s = group_df[value_col].fillna(0)
-        rolled = s.rolling(window, closed="left").sum()
+        # Empty time-windows: pandas returns NaN by default. For minutes-played
+        # the right answer is 0 (the player simply did not play in the window),
+        # so post-fill the rolled output. NaN here would propagate into the
+        # fatigue_diff feature and silently hand it to the mean-imputer, which
+        # is wrong: imputing the train mean (~150 min) tells the model "we
+        # don't know how rested they are," when we actually do know — they're
+        # fully rested.
+        rolled = s.rolling(window, closed="left").sum().fillna(0)
         return pd.DataFrame({"_pos": group_df["_pos"].values,
                              "_val": rolled.values})
 
@@ -198,7 +205,12 @@ def compute_all(
     # is wrong for stat estimation.
     def _time_rolling_sum_col(group_df, value_col, window):
         s = group_df[value_col].fillna(0)
-        rolled = s.rolling(window, closed="left").sum()
+        # Same fix as _time_rolling_sum: empty time-windows should yield 0
+        # for a sum, not NaN. Identity features (ace_rate etc.) end up the
+        # right answer either way because their `insufficient = svpt < 100`
+        # check propagates correctly when svpt is NaN (NaN < 100 is False),
+        # but explicit-zero is more honest and survives any future logic change.
+        rolled = s.rolling(window, closed="left").sum().fillna(0)
         return pd.DataFrame({"_pos": group_df["_pos"].values,
                              "_val": rolled.values})
 

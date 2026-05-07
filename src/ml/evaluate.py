@@ -58,6 +58,7 @@ import pandas as pd
 import matplotlib
 matplotlib.use("Agg")   # headless — no display required
 import matplotlib.pyplot as plt
+from sklearn.metrics import brier_score_loss, log_loss
 from sklearn.pipeline import Pipeline
 
 _REPO = Path(__file__).resolve().parents[2]
@@ -366,18 +367,34 @@ def run_evaluation(results: Dict, edge_threshold: float = 0.05) -> Dict:
     print_pnl_summary(sim_aug,  f"PnL — Augmented — Test 2024 (n_test={len(labels):,})")
 
     # ── Save calibration plot ──────────────────────────────────────────────
+    cal_method = results.get("cal_method", "isotonic")
+    suffix = f"_{cal_method}"
     out_dir = _REPO / "data" / "processed"
     out_dir.mkdir(parents=True, exist_ok=True)
     plot_calibration(
         {"baseline": cal_base, "augmented": cal_aug},
-        save_path=out_dir / "calibration_plot.png",
+        save_path=out_dir / f"calibration_plot{suffix}.png",
     )
 
     # Save calibration tables to CSV
     for name, table in [("baseline", cal_base), ("augmented", cal_aug)]:
-        path = out_dir / f"calibration_{name}.csv"
+        path = out_dir / f"calibration_{name}{suffix}.csv"
         table.to_csv(path, index=False)
         logger.info(f"Calibration table saved → {path}")
+
+    # One-line summary of headline metrics — easy to grep across runs.
+    def _summary(probs, labels):
+        return {
+            "log_loss": float(log_loss(labels, probs)),
+            "brier":    float(brier_score_loss(labels, probs)),
+        }
+    print(f"\n── HEADLINE METRICS (cal_method={cal_method}) ──")
+    base_h = _summary(probs_base, labels)
+    aug_h  = _summary(probs_aug,  labels)
+    base_ece = (cal_base.dropna()["abs_gap"] * cal_base.dropna()["n"]).sum() / cal_base.dropna()["n"].sum()
+    aug_ece  = (cal_aug.dropna()["abs_gap"]  * cal_aug.dropna()["n"]).sum()  / cal_aug.dropna()["n"].sum()
+    print(f"  baseline:  log_loss={base_h['log_loss']:.4f}  brier={base_h['brier']:.4f}  ECE={base_ece:.4f}")
+    print(f"  augmented: log_loss={aug_h['log_loss']:.4f}  brier={aug_h['brier']:.4f}  ECE={aug_ece:.4f}")
 
     return {
         "cal_baseline":  cal_base,
