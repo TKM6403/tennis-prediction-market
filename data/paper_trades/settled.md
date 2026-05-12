@@ -1,12 +1,25 @@
-# Settled paper bets (63)
+# Settled paper bets (76)
 
-_Generated 2026-05-12T14:34:34+00:00_
+_Generated 2026-05-12T17:16:58+00:00_
 
-**Wins:** 18 / 63  (28.6%)  
-**Net PnL (per contract):** -4.365
+**Wins:** 21 / 76  (27.6%)  
+**Net PnL (per contract):** -6.649
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Juan Carlos Prado Angelo (YES) vs Leandro Riedi | Valencia | 2026-05-12 | YES Juan Carlos Prado Angelo | 0.33 | 0.475 | ✗ | -0.345 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12prarie) |
+| Edas Butvilas (YES) vs Kimmer Coppejans | Tunis | 2026-05-12 | YES Edas Butvilas | 0.48 | 0.558 | ✗ | -0.497 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12copbut) |
+| Yi Zhou (YES) vs Ulises Blanch | Tunis | 2026-05-12 | YES Yi Zhou | 0.23 | 0.726 | ✗ | -0.242 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12zhobla) |
+| Nicolas Mejia (YES) vs Benjamin Hassan | Oeiras 4 | 2026-05-12 | YES Nicolas Mejia | 0.65 | 0.725 | ✗ | -0.666 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12hasmej) |
+| Gustavo Heide (YES) vs Laslo Djere | Oeiras 4 | 2026-05-12 | YES Gustavo Heide | 0.41 | 0.718 | ✗ | -0.427 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12djehei) |
+| Juan Estevez (YES) vs Andrea Collarini | Cordoba | 2026-05-12 | YES Juan Estevez | 0.35 | 0.437 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12estcol) |
+| Pablo Carreno Busta (YES) vs Francisco Comesana | Valencia | 2026-05-12 | YES Pablo Carreno Busta | 0.56 | 0.660 | ✓ | +0.423 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12carcom) |
+| Titouan Droguet (YES) vs Jacob Fearnley | Bordeaux | 2026-05-12 | YES Titouan Droguet | 0.66 | 0.758 | ✓ | +0.324 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12drofea) |
+| Renzo Olivo (YES) vs Luciano Emanuel Ambrogi | Cordoba | 2026-05-12 | YES Renzo Olivo | 0.18 | 0.324 | ✗ | -0.190 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12amboli) |
+| Rinky Hijikata (YES) vs Aleksandar Vukic | Bordeaux | 2026-05-12 | YES Rinky Hijikata | 0.60 | 0.672 | ✗ | -0.617 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12hijvuk) |
+| Samuel Alejandro Linde Palacios (YES) vs Tomas Farjat | Cordoba | 2026-05-12 | YES Samuel Alejandro Linde Palacios | 0.43 | 0.608 | ✓ | +0.553 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12linfar) |
+| Ignacio Monzon (YES) vs Nicolas Kicker | Cordoba | 2026-05-12 | YES Ignacio Monzon | 0.20 | 0.394 | ✗ | -0.211 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12monkic) |
+| Tiago Torres (YES) vs Jaime Faria | Oeiras 4 | 2026-05-12 | YES Tiago Torres | 0.02 | 0.223 | ✗ | -0.021 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12torfar) |
 | Sho Shimabukuro (YES) vs Quentin Halys | Bordeaux | 2026-05-12 | YES Sho Shimabukuro | 0.34 | 0.635 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12shihal) |
 | Moez Echargui (YES) vs Jay Clarke | Tunis | 2026-05-12 | YES Moez Echargui | 0.38 | 0.452 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12claech) |
 | Dusan Lajovic (YES) vs Christopher O'Connell | Valencia | 2026-05-12 | YES Dusan Lajovic | 0.60 | 0.675 | ✓ | +0.383 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12lajoco) |
