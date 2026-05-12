@@ -1,12 +1,20 @@
-# Settled paper bets (41)
+# Settled paper bets (49)
 
-_Generated 2026-05-12T06:20:59+00:00_
+_Generated 2026-05-12T11:27:09+00:00_
 
-**Wins:** 11 / 41  (26.8%)  
-**Net PnL (per contract):** -2.510
+**Wins:** 12 / 49  (24.5%)  
+**Net PnL (per contract):** -4.369
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Chun-Hsin Tseng (YES) vs Pedro Sakamoto | Bordeaux Qualification | 2026-05-12 | YES Chun-Hsin Tseng | 0.50 | 0.684 | ✗ | -0.517 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12saktse) |
+| Jenson Brooksby (YES) vs Alex Molcan | Bordeaux | 2026-05-12 | YES Jenson Brooksby | 0.32 | 0.383 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12bromol) |
+| Skander Mansouri (YES) vs Emilio Gomez | Tunis | 2026-05-12 | YES Skander Mansouri | 0.16 | 0.692 | ✗ | -0.169 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12mangom) |
+| Harold Mayot (YES) vs Gilles Arnaud Bailly | Tunis | 2026-05-12 | YES Harold Mayot | 0.42 | 0.608 | ✗ | -0.437 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12arnmay) |
+| Stefan Kozlov (YES) vs Alejo Sanchez Quilez | Valencia Qualification | 2026-05-12 | YES Stefan Kozlov | 0.46 | 0.610 | ✗ | -0.477 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12sankoz) |
+| Tommy Paul (NO) vs Jakub Paul | Valencia Qualification | 2026-05-12 | NO Tommy Paul | 0.22 | 0.381 | ✗ | -0.232 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12budpau) |
+| Nicolas Alvarez Varona (NO) vs Jan-Lennard Struff | Valencia | 2026-05-12 | NO Nicolas Alvarez Varona | 0.25 | 0.345 | ✓ | +0.737 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12stralv) |
+| Elias Ymer (YES) vs Alex Bogomolov Jr. | Bordeaux Qualification | 2026-05-12 | YES Elias Ymer | 0.41 | 1.000 | ✗ | -0.427 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12damyme) |
 | Jie Cui (YES) vs Yunchaokete Bu | Wuxi | 2026-05-09 | YES Jie Cui | 0.19 | 0.293 | ✗ | -0.201 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may09yuncui) |
 | Franco Roncadelli (NO) vs Matheus Pucinelli De Almeida | Santos | 2026-05-09 | NO Franco Roncadelli | 0.37 | 0.574 | ✓ | +0.614 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may09pdaron) |
 | Ivan Marrero Curbelo (YES) vs Calvin Hemery | Brazzaville | 2026-05-09 | YES Ivan Marrero Curbelo | 0.19 | 0.384 | ✗ | -0.201 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may09hemmar) |
