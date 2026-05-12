@@ -1,12 +1,22 @@
-# Settled paper bets (76)
+# Settled paper bets (86)
 
-_Generated 2026-05-12T17:16:58+00:00_
+_Generated 2026-05-12T19:58:37+00:00_
 
-**Wins:** 21 / 76  (27.6%)  
-**Net PnL (per contract):** -6.649
+**Wins:** 23 / 86  (26.7%)  
+**Net PnL (per contract):** -7.939
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Charles Broom (YES) vs Pol Martin Tiffon | Tunis | 2026-05-12 | YES Charles Broom | 0.24 | 0.576 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12marbro) |
+| Zdenek Kolar (YES) vs Zhizhen Zhang | Oeiras 4 | 2026-05-12 | YES Zdenek Kolar | 0.47 | 0.671 | ✓ | +0.513 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12kolzha) |
+| David Jorda Sanchis (YES) vs Eero Vasa | Oeiras 4 | 2026-05-12 | YES David Jorda Sanchis | 0.59 | 0.651 | ✗ | -0.607 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12jorvas) |
+| Facundo Diaz Acosta (YES) vs Hugo Dellien | Oeiras 4 | 2026-05-11 | YES Facundo Diaz Acosta | 0.57 | 0.622 | ✗ | -0.587 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may11diadel) |
+| Frederico Ferreira Silva (YES) vs Vilius Gaubas | Oeiras 4 | 2026-05-11 | YES Frederico Ferreira Silva | 0.31 | 0.589 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may11gaufer) |
+| Hugo Gaston (YES) vs Alexander Shevchenko | Bordeaux | 2026-05-12 | YES Hugo Gaston | 0.41 | 0.467 | ✗ | -0.427 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12shegas) |
+| Bruno Fernandez (YES) vs Juan Bautista Torres | Cordoba | 2026-05-12 | YES Bruno Fernandez | 0.21 | 0.393 | ✗ | -0.222 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12torfer) |
+| Bernabe Zapata Miralles (YES) vs Adolfo Daniel Vallejo | Valencia | 2026-05-12 | YES Bernabe Zapata Miralles | 0.08 | 0.190 | ✗ | -0.085 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12zapval) |
+| Thiago Cigarran (YES) vs Gonzalo Villanueva | Cordoba | 2026-05-12 | YES Thiago Cigarran | 0.17 | 0.311 | ✗ | -0.180 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12cigvil) |
+| Arklon Huertas Del Pino Cordova (YES) vs Juan Pablo Varillas | Cordoba | 2026-05-12 | YES Arklon Huertas Del Pino Cordova | 0.11 | 0.329 | ✓ | +0.883 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12huevar) |
 | Juan Carlos Prado Angelo (YES) vs Leandro Riedi | Valencia | 2026-05-12 | YES Juan Carlos Prado Angelo | 0.33 | 0.475 | ✗ | -0.345 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12prarie) |
 | Edas Butvilas (YES) vs Kimmer Coppejans | Tunis | 2026-05-12 | YES Edas Butvilas | 0.48 | 0.558 | ✗ | -0.497 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12copbut) |
 | Yi Zhou (YES) vs Ulises Blanch | Tunis | 2026-05-12 | YES Yi Zhou | 0.23 | 0.726 | ✗ | -0.242 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12zhobla) |
