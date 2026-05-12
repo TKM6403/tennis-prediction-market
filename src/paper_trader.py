@@ -244,6 +244,13 @@ class PaperTrader:
         "timestamp_recorded", "match_key", "market_id", "kalshi_url",
         "player_a", "player_a_id", "player_b", "player_b_id",
         "tournament", "surface", "tourney_level", "event_date",
+        # Full timestamps for cadence analysis — derived from Kalshi metadata.
+        # `market_open_time` = when Kalshi opened the contract for trading;
+        # `match_start_time` = scheduled tip-off (occurrence_datetime). The
+        # gap (timestamp_recorded - market_open_time) is "scan latency"; the
+        # gap (match_start_time - timestamp_recorded) is "lead time before
+        # match." Used to study whether scan timing affects PnL.
+        "market_open_time", "match_start_time",
         "theo_a", "theo_b",
         "yes_ask_a", "yes_bid_a", "yes_ask_b", "yes_bid_b",
         "chosen_market_id", "chosen_direction",  # YES or NO
@@ -654,6 +661,18 @@ class PaperTrader:
             logger.warning(f"feature attribution failed: {e}")
             shifts_json = ""
 
+        # Pull the timestamps from whichever mirror has them (both should
+        # agree across mirrors of the same match). Coerce to ISO strings
+        # for clean CSV round-tripping.
+        def _iso(v):
+            if v is None or pd.isna(v):
+                return ""
+            return pd.Timestamp(v).isoformat()
+        market_open = next((m.get("_open_time") for m in group
+                            if pd.notna(m.get("_open_time"))), None)
+        match_start = next((m.get("_event_datetime") for m in group
+                            if pd.notna(m.get("_event_datetime"))), None)
+
         row = {
             "timestamp_recorded":   ts,
             "match_key":            _match_key(primary["market_id"]),
@@ -665,6 +684,8 @@ class PaperTrader:
             "surface":              surface,
             "tourney_level":        level,
             "event_date":           event_date,
+            "market_open_time":     _iso(market_open),
+            "match_start_time":     _iso(match_start),
             "theo_a":               theo_a,
             "theo_b":               theo_b,
             "yes_ask_a":            ask_a, "yes_bid_a": bid_a,
@@ -742,9 +763,15 @@ class PaperTrader:
         # Persist
         if newly_settled:
             self._append_csv(self.settled_path, newly_settled, self.SETTLED_COLS)
-        # Rewrite pending with only the still-open rows
+        # Rewrite pending with only the still-open rows. Backfill any
+        # PENDING_COLS columns missing from older rows (e.g. when new
+        # columns are added in code after rows were already written).
         if still_open:
-            still_open_df = pd.DataFrame(still_open)[self.PENDING_COLS]
+            still_open_df = pd.DataFrame(still_open)
+            for c in self.PENDING_COLS:
+                if c not in still_open_df.columns:
+                    still_open_df[c] = ""
+            still_open_df = still_open_df[self.PENDING_COLS]
             still_open_df.to_csv(self.pending_path, index=False)
         else:
             self.pending_path.unlink(missing_ok=True)
@@ -850,15 +877,33 @@ class PaperTrader:
 
     @staticmethod
     def _append_csv(path: Path, rows: Iterable[dict], columns: list) -> None:
-        df = pd.DataFrame(list(rows))
+        new_df = pd.DataFrame(list(rows))
         for c in columns:
-            if c not in df.columns:
-                df[c] = np.nan
-        df = df[columns]
-        if path.exists():
-            df.to_csv(path, mode="a", header=False, index=False)
-        else:
-            df.to_csv(path, index=False)
+            if c not in new_df.columns:
+                new_df[c] = np.nan
+        new_df = new_df[columns]
+
+        if not path.exists():
+            new_df.to_csv(path, index=False)
+            return
+
+        # File exists. If its header is a subset of our `columns`, we can
+        # append rows directly. Otherwise the on-disk schema is older —
+        # migrate the file in place by re-reading, adding missing columns
+        # (filled with empty), and writing back with the unified schema
+        # before appending.
+        existing_header = pd.read_csv(path, nrows=0).columns.tolist()
+        if existing_header == columns:
+            new_df.to_csv(path, mode="a", header=False, index=False)
+            return
+
+        existing_df = pd.read_csv(path)
+        for c in columns:
+            if c not in existing_df.columns:
+                existing_df[c] = ""
+        existing_df = existing_df[columns]
+        merged = pd.concat([existing_df, new_df], ignore_index=True)
+        merged.to_csv(path, index=False)
 
     # ------------------------------------------------------------------ #
     # Markdown rendering — friendlier eyeballing of the CSVs.

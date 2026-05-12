@@ -535,6 +535,10 @@ class KalshiLoader(PredictionMarketLoader):
         ) if "close_time" in df.columns else pd.Series(pd.NaT, index=df.index)
         # Use close_time wherever occurrence_datetime is missing
         out["event_date"] = ev_dt.fillna(ct).dt.date
+        # Full match-start timestamp. Useful for paper-trader bookkeeping
+        # ("how many hours before tip-off did we place this bet?") — kept
+        # alongside event_date which is just the date for joining/grouping.
+        out["_event_datetime"] = ev_dt.fillna(ct)
 
         # Entry prices.
         #
