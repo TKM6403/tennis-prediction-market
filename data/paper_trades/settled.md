@@ -1,12 +1,26 @@
-# Settled paper bets (49)
+# Settled paper bets (63)
 
-_Generated 2026-05-12T11:27:09+00:00_
+_Generated 2026-05-12T14:34:34+00:00_
 
-**Wins:** 12 / 49  (24.5%)  
-**Net PnL (per contract):** -4.369
+**Wins:** 18 / 63  (28.6%)  
+**Net PnL (per contract):** -4.365
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Sho Shimabukuro (YES) vs Quentin Halys | Bordeaux | 2026-05-12 | YES Sho Shimabukuro | 0.34 | 0.635 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12shihal) |
+| Moez Echargui (YES) vs Jay Clarke | Tunis | 2026-05-12 | YES Moez Echargui | 0.38 | 0.452 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12claech) |
+| Dusan Lajovic (YES) vs Christopher O'Connell | Valencia | 2026-05-12 | YES Dusan Lajovic | 0.60 | 0.675 | ✓ | +0.383 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12lajoco) |
+| Henri Squire (YES) vs Timofey Skatov | Valencia Qualification | 2026-05-12 | YES Henri Squire | 0.45 | 0.513 | ✓ | +0.533 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12skasqu) |
+| Sumit Nagal (YES) vs Geoffrey Blancaneaux | Bordeaux Qualification | 2026-05-12 | YES Sumit Nagal | 0.57 | 0.621 | ✗ | -0.587 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12blanag) |
+| Pierre Delage (NO) vs Ugo Blanchet | Bordeaux Qualification | 2026-05-12 | NO Pierre Delage | 0.29 | 0.350 | ✓ | +0.696 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12bladel) |
+| Alex Barrena (NO) vs Inaki Montes-De La Torre | Tunis | 2026-05-12 | NO Alex Barrena | 0.38 | 0.635 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12monbar) |
+| Bernard Tomic (YES) vs Aziz Ouakaa | Tunis | 2026-05-12 | YES Bernard Tomic | 0.77 | 0.944 | ✓ | +0.218 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12tomoua) |
+| Taro Daniel (NO) vs Carlos Sanchez Jover | Valencia Qualification | 2026-05-12 | NO Taro Daniel | 0.41 | 0.607 | ✓ | +0.573 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12sandan) |
+| Roberto Carballes Baena (YES) vs Sebastian Baez | Valencia | 2026-05-12 | YES Roberto Carballes Baena | 0.29 | 0.427 | ✗ | -0.304 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12baecar) |
+| Ilia Simakin (YES) vs Laurent Lokoli | Tunis | 2026-05-12 | YES Ilia Simakin | 0.39 | 0.738 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12simlok) |
+| Lautaro Midon (YES) vs Cristian Garin | Oeiras 4 | 2026-05-11 | YES Lautaro Midon | 0.18 | 0.349 | ✓ | +0.810 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may11garmid) |
+| Genaro Alberto Olivieri (YES) vs Nishesh Basavareddy | Oeiras 4 | 2026-05-11 | YES Genaro Alberto Olivieri | 0.27 | 0.411 | ✗ | -0.284 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may11olibas) |
+| Gastao Elias (YES) vs Tiago Pereira | Oeiras 4 | 2026-05-11 | YES Gastao Elias | 0.46 | 0.770 | ✗ | -0.477 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may11pereli) |
 | Chun-Hsin Tseng (YES) vs Pedro Sakamoto | Bordeaux Qualification | 2026-05-12 | YES Chun-Hsin Tseng | 0.50 | 0.684 | ✗ | -0.517 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12saktse) |
 | Jenson Brooksby (YES) vs Alex Molcan | Bordeaux | 2026-05-12 | YES Jenson Brooksby | 0.32 | 0.383 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12bromol) |
 | Skander Mansouri (YES) vs Emilio Gomez | Tunis | 2026-05-12 | YES Skander Mansouri | 0.16 | 0.692 | ✗ | -0.169 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12mangom) |
