@@ -1,0 +1,73 @@
+name: paper-trader
+
+# Runs `python -m src.paper_trader` (= settle + scan) on a cron, then
+# commits any new bets / settlements back to main. No Kalshi credentials
+# needed — read-only market endpoints don't require auth.
+#
+# Cadence: every 3 hours UTC. Captures Asian-morning / European-afternoon
+# / Americas-evening Challenger waves without spamming the API.
+#
+# Manual trigger: GitHub UI → Actions → paper-trader → "Run workflow",
+# or via the GitHub mobile app's workflow_dispatch button.
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+
+# Required so the workflow can git push back to main.
+permissions:
+  contents: write
+
+# If a run is still in flight when the next cron fires, skip the new one
+# rather than queue it — avoids racing the same scan twice.
+concurrency:
+  group: paper-trader
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install requirements
+        run: pip install -r requirements.txt
+
+      # TML CSVs are downloaded on-demand from tennismylife.org. Cache the
+      # `data/raw/tml/` directory by ISO week so subsequent runs in the
+      # same week skip the ~20s of downloads.
+      - name: Cache TML data
+        uses: actions/cache@v4
+        with:
+          path: data/raw/tml
+          key: tml-${{ github.run_id }}
+          restore-keys: |
+            tml-
+
+      - name: Run paper trader (settle + scan)
+        run: python -m src.paper_trader
+
+      - name: Commit paper-trade updates
+        run: |
+          git config user.name  "paper-trader-bot"
+          git config user.email "paper-trader-bot@users.noreply.github.com"
+          git add data/paper_trades/
+          if git diff --staged --quiet; then
+            echo "No paper-trade changes; nothing to commit."
+            exit 0
+          fi
+          git commit -m "auto(paper-trader): $(date -u +%FT%TZ) scan/settle"
+          # Pull-rebase before push in case main moved while we ran.
+          git pull --rebase origin main
+          git push origin main
