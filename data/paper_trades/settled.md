@@ -1,12 +1,13 @@
-# Settled paper bets (86)
+# Settled paper bets (87)
 
-_Generated 2026-05-12T19:58:37+00:00_
+_Generated 2026-05-12T22:17:18+00:00_
 
-**Wins:** 23 / 86  (26.7%)  
-**Net PnL (per contract):** -7.939
+**Wins:** 23 / 87  (26.4%)  
+**Net PnL (per contract):** -8.253
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Pedro Sakamoto (YES) vs Franco Roncadelli | Cordoba | 2026-05-12 | YES Pedro Sakamoto | 0.30 | 0.397 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12ronsak) |
 | Charles Broom (YES) vs Pol Martin Tiffon | Tunis | 2026-05-12 | YES Charles Broom | 0.24 | 0.576 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12marbro) |
 | Zdenek Kolar (YES) vs Zhizhen Zhang | Oeiras 4 | 2026-05-12 | YES Zdenek Kolar | 0.47 | 0.671 | ✓ | +0.513 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12kolzha) |
 | David Jorda Sanchis (YES) vs Eero Vasa | Oeiras 4 | 2026-05-12 | YES David Jorda Sanchis | 0.59 | 0.651 | ✗ | -0.607 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12jorvas) |
