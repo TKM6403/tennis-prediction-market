@@ -1,12 +1,30 @@
-# Settled paper bets (94)
+# Settled paper bets (112)
 
-_Generated 2026-05-13T11:36:37+00:00_
+_Generated 2026-05-13T14:40:52+00:00_
 
-**Wins:** 23 / 94  (24.5%)  
-**Net PnL (per contract):** -11.420
+**Wins:** 31 / 112  (27.7%)  
+**Net PnL (per contract):** -10.328
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Stefan Dostanic (YES) vs Chris Rodesch | Zagreb | 2026-05-12 | YES Stefan Dostanic | 0.32 | 0.478 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12dosrod) |
+| Nerman Fatic (YES) vs Elmer Moller | Zagreb | 2026-05-12 | YES Nerman Fatic | 0.39 | 0.652 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12fatmol) |
+| Emanuel Ivanisevic (YES) vs Diego Dedura | Zagreb | 2026-05-12 | YES Emanuel Ivanisevic | 0.05 | 0.222 | ✗ | -0.053 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12dediva) |
+| Andres Andrade (YES) vs Thiago Monteiro | Zagreb | 2026-05-12 | YES Andres Andrade | 0.34 | 0.460 | ✓ | +0.644 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12monand) |
+| Aleksandar Kovacevic (YES) vs Daniel Merida | Valencia | 2026-05-13 | YES Aleksandar Kovacevic | 0.34 | 0.415 | ✓ | +0.644 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13kovmer) |
+| Roman Safiullin (YES) vs Laslo Djere | Oeiras 4 | 2026-05-13 | YES Roman Safiullin | 0.54 | 0.756 | ✗ | -0.557 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13safdje) |
+| Emilio Nava (YES) vs Tiago Pereira | Oeiras 4 | 2026-05-13 | YES Emilio Nava | 0.83 | 0.925 | ✓ | +0.160 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13pernav) |
+| Rei Sakamoto (YES) vs Alexandre Muller | Bordeaux | 2026-05-13 | YES Rei Sakamoto | 0.48 | 0.649 | ✓ | +0.503 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13sakmul) |
+| Laurent Lokoli (YES) vs Emilio Gomez | Tunis | 2026-05-13 | YES Laurent Lokoli | 0.44 | 0.716 | ✓ | +0.543 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13lokgom) |
+| Lautaro Midon (YES) vs Benjamin Hassan | Oeiras 4 | 2026-05-13 | YES Lautaro Midon | 0.58 | 0.645 | ✗ | -0.597 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13midhas) |
+| Keegan Smith (NO) vs Jack Pinnington Jones | Oeiras 4 | 2026-05-13 | NO Keegan Smith | 0.34 | 0.593 | ✓ | +0.644 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13smipin) |
+| Eero Vasa (YES) vs Jaime Faria | Oeiras 4 | 2026-05-13 | YES Eero Vasa | 0.12 | 0.294 | ✗ | -0.127 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13vasfar) |
+| Geoffrey Blancaneaux (YES) vs Raphael Collignon | Bordeaux | 2026-05-13 | YES Geoffrey Blancaneaux | 0.12 | 0.277 | ✗ | -0.127 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13colbla) |
+| Henri Squire (NO) vs Daniel Altmaier | Valencia | 2026-05-13 | NO Henri Squire | 0.29 | 0.504 | ✗ | -0.304 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13squalt) |
+| Jay Clarke (YES) vs Pol Martin Tiffon | Tunis | 2026-05-13 | YES Jay Clarke | 0.40 | 0.580 | ✓ | +0.583 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13marcla) |
+| Guy Den Ouden (YES) vs Ulises Blanch | Tunis | 2026-05-13 | YES Guy Den Ouden | 0.64 | 0.786 | ✗ | -0.656 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13denbla) |
+| Bernard Tomic (YES) vs Kimmer Coppejans | Tunis | 2026-05-13 | YES Bernard Tomic | 0.22 | 0.524 | ✗ | -0.232 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13tomcop) |
+| Giovanni Mpetshi Perricard (YES) vs Otto Virtanen | Bordeaux | 2026-05-13 | YES Giovanni Mpetshi Perricard | 0.22 | 0.514 | ✓ | +0.768 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13virmpe) |
 | Juan Pablo Ficovich (YES) vs Jan Choinski | Zagreb | 2026-05-12 | YES Juan Pablo Ficovich | 0.32 | 0.432 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12chofic) |
 | Thiago Seyboth Wild (YES) vs Daniel Elahi Galan | Zagreb | 2026-05-12 | YES Thiago Seyboth Wild | 0.57 | 0.657 | ✗ | -0.587 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12seygal) |
 | Jonas Forejtek (YES) vs Zsombor Piros | Zagreb | 2026-05-12 | YES Jonas Forejtek | 0.35 | 0.408 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12pirfor) |
