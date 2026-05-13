@@ -39,10 +39,18 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: 'pip'
+          # Intentionally NOT caching pip — a stale wheel cache silently
+          # restored an older sklearn (1.4.x) on the first run, which
+                # made the pickle load with the wrong `_fill_dtype`/`_fit_dtype`
+          # attribute name. Pin in requirements.txt + fresh install
+          # keeps train-time and load-time identical.
 
-      - name: Install requirements
-        run: pip install -r requirements.txt
+      - name: Install requirements (no cache)
+        run: pip install --no-cache-dir -r requirements.txt
+
+      - name: Verify sklearn version matches pickle
+        run: |
+          python -c "import sklearn; v = sklearn.__version__; assert v == '1.5.1', f'expected sklearn 1.5.1 but got {v}'; print('sklearn', v, 'OK')"
 
       # TML CSVs are downloaded on-demand from tennismylife.org. Cache the
       # `data/raw/tml/` directory by ISO week so subsequent runs in the
