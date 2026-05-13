@@ -1,12 +1,15 @@
-# Settled paper bets (128)
+# Settled paper bets (131)
 
-_Generated 2026-05-13T20:02:20+00:00_
+_Generated 2026-05-13T22:19:21+00:00_
 
-**Wins:** 37 / 128  (28.9%)  
-**Net PnL (per contract):** -10.268
+**Wins:** 39 / 131  (29.8%)  
+**Net PnL (per contract):** -9.493
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Francisco Cerundolo (NO) vs Luca Van Assche | Bordeaux | 2026-05-13 | NO Francisco Cerundolo | 0.57 | 0.630 | ✓ | +0.413 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13vancer) |
+| Franco Roncadelli (NO) vs Matheus Pucinelli De Almeida | Cordoba | 2026-05-13 | NO Franco Roncadelli | 0.41 | 0.614 | ✓ | +0.573 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13ronpda) |
+| Ryan Dickerson (YES) vs Nicolas Kicker | Cordoba | 2026-05-14 | YES Ryan Dickerson | 0.20 | 0.410 | ✗ | -0.211 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13dickic) |
 | August Holmgren (YES) vs Matej Dodig | Zagreb | 2026-05-12 | YES August Holmgren | 0.57 | 0.723 | ✓ | +0.413 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12dodhol) |
 | Grigor Dimitrov (YES) vs Alex Bogomolov Jr. | Bordeaux | 2026-05-13 | YES Grigor Dimitrov | 0.65 | 1.000 | ✗ | -0.666 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13damdim) |
 | Zdenek Kolar (YES) vs Hugo Dellien | Oeiras 4 | 2026-05-13 | YES Zdenek Kolar | 0.39 | 0.553 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13koldel) |
