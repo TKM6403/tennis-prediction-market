@@ -1,12 +1,18 @@
-# Settled paper bets (88)
+# Settled paper bets (94)
 
-_Generated 2026-05-13T08:51:25+00:00_
+_Generated 2026-05-13T11:36:37+00:00_
 
-**Wins:** 23 / 88  (26.1%)  
-**Net PnL (per contract):** -8.670
+**Wins:** 23 / 94  (24.5%)  
+**Net PnL (per contract):** -11.420
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Juan Pablo Ficovich (YES) vs Jan Choinski | Zagreb | 2026-05-12 | YES Juan Pablo Ficovich | 0.32 | 0.432 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12chofic) |
+| Thiago Seyboth Wild (YES) vs Daniel Elahi Galan | Zagreb | 2026-05-12 | YES Thiago Seyboth Wild | 0.57 | 0.657 | ✗ | -0.587 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12seygal) |
+| Jonas Forejtek (YES) vs Zsombor Piros | Zagreb | 2026-05-12 | YES Jonas Forejtek | 0.35 | 0.408 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12pirfor) |
+| Daniil Glinka (YES) vs Gilles Arnaud Bailly | Tunis | 2026-05-13 | YES Daniil Glinka | 0.48 | 0.676 | ✗ | -0.497 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13arngli) |
+| Max Houkes (NO) vs Inaki Montes-De La Torre | Tunis | 2026-05-13 | NO Max Houkes | 0.51 | 0.638 | ✗ | -0.527 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13houmon) |
+| Nicolai Budkov Kjaer (YES) vs Miomir Kecmanovic | Valencia | 2026-05-13 | YES Nicolai Budkov Kjaer | 0.42 | 0.564 | ✗ | -0.437 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13budkec) |
 | Hernan Casanova (NO) vs Matheus Pucinelli De Almeida | Cordoba | 2026-05-13 | NO Hernan Casanova | 0.40 | 0.551 | ✗ | -0.417 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12pdacas) |
 | Pedro Sakamoto (YES) vs Franco Roncadelli | Cordoba | 2026-05-12 | YES Pedro Sakamoto | 0.30 | 0.397 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12ronsak) |
 | Charles Broom (YES) vs Pol Martin Tiffon | Tunis | 2026-05-12 | YES Charles Broom | 0.24 | 0.576 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12marbro) |
