@@ -1,12 +1,18 @@
-# Settled paper bets (122)
+# Settled paper bets (128)
 
-_Generated 2026-05-13T17:22:44+00:00_
+_Generated 2026-05-13T20:02:20+00:00_
 
-**Wins:** 35 / 122  (28.7%)  
-**Net PnL (per contract):** -9.950
+**Wins:** 37 / 128  (28.9%)  
+**Net PnL (per contract):** -10.268
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| August Holmgren (YES) vs Matej Dodig | Zagreb | 2026-05-12 | YES August Holmgren | 0.57 | 0.723 | ✓ | +0.413 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12dodhol) |
+| Grigor Dimitrov (YES) vs Alex Bogomolov Jr. | Bordeaux | 2026-05-13 | YES Grigor Dimitrov | 0.65 | 1.000 | ✗ | -0.666 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13damdim) |
+| Zdenek Kolar (YES) vs Hugo Dellien | Oeiras 4 | 2026-05-13 | YES Zdenek Kolar | 0.39 | 0.553 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13koldel) |
+| Taro Daniel (YES) vs Matteo Berrettini | Valencia | 2026-05-13 | YES Taro Daniel | 0.15 | 0.317 | ✗ | -0.159 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13berdan) |
+| Juan Manuel La Serna (YES) vs Gonzalo Villanueva | Cordoba | 2026-05-13 | YES Juan Manuel La Serna | 0.45 | 0.666 | ✓ | +0.533 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13lavil) |
+| Arklon Huertas Del Pino Cordova (YES) vs Valerio Aboian | Cordoba | 2026-05-13 | YES Arklon Huertas Del Pino Cordova | 0.03 | 0.393 | ✗ | -0.032 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13abohue) |
 | Mili Poljicak (YES) vs Dominic Stricker | Zagreb | 2026-05-12 | YES Mili Poljicak | 0.42 | 0.602 | ✗ | -0.437 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12polstr) |
 | Justin Engel (YES) vs Luka Mikrut | Zagreb | 2026-05-12 | YES Justin Engel | 0.36 | 0.433 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12mikeng) |
 | Roberto Bautista Agut (YES) vs Pedro Martinez | Valencia | 2026-05-13 | YES Roberto Bautista Agut | 0.52 | 0.586 | ✓ | +0.463 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13baumar) |
