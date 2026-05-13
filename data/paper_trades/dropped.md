@@ -1,17 +1,17 @@
-# Dropped markets (523)
+# Dropped markets (585)
 
-_Generated 2026-05-12T22:17:18+00:00_
+_Generated 2026-05-13T03:36:42+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `duplicate_match` | 307 |
-| `missing_player_id` | 68 |
-| `below_min_edge` | 61 |
-| `tournament_not_in_tml` | 52 |
+| `duplicate_match` | 340 |
+| `missing_player_id` | 81 |
+| `below_min_edge` | 67 |
+| `tournament_not_in_tml` | 60 |
 | `wide_spread` | 21 |
-| `thin_player_history` | 14 |
+| `thin_player_history` | 16 |
 
 ## Detail
 
@@ -24,6 +24,8 @@ _Generated 2026-05-12T22:17:18+00:00_
 | Benjamin Bonzi vs Moise Kouame | Bordeaux | 2026-05-12 | 0.68 / 0.67 | `below_min_edge` | best_edge=0.034 on NO @ theo=0.364 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12koubon) |
 | Moise Kouame vs Benjamin Bonzi | Bordeaux | 2026-05-12 | 0.32 / 0.31 | `below_min_edge` | best_edge=0.044 on NO @ theo=0.364 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12koubon) |
 | Benjamin Bonzi vs Moise Kouame | Bordeaux | 2026-05-12 | 0.69 / 0.68 | `below_min_edge` | best_edge=0.044 on NO @ theo=0.364 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12koubon) |
+| Otto Virtanen vs Giovanni Mpetshi Perricard | Bordeaux | 2026-05-13 | 0.47 / 0.45 | `below_min_edge` | best_edge=0.026 on NO @ theo=0.486 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13virmpe) |
+| Giovanni Mpetshi Perricard vs Otto Virtanen | Bordeaux | 2026-05-13 | 0.56 / 0.54 | `below_min_edge` | best_edge=0.026 on NO @ theo=0.486 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13virmpe) |
 | Santiago De La Fuente vs Hugo Dellien | Cordoba | 2026-05-11 | 0.25 / 0.24 | `below_min_edge` | best_edge=-0.004 on NO @ theo=0.756 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may11dlfdev) |
 | Murkel Dellien vs Santiago De La Fuente | Cordoba | 2026-05-11 | 0.77 / 0.75 | `below_min_edge` | best_edge=-0.004 on NO @ theo=0.756 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may11dlfdev) |
 | Lorenzo Joaquin Rodriguez vs Guido Ivan Justo | Cordoba | 2026-05-12 | 0.46 / 0.43 | `below_min_edge` | best_edge=0.012 on YES @ theo=0.472 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12jusrod) |
@@ -36,6 +38,8 @@ _Generated 2026-05-12T22:17:18+00:00_
 | Murkel Dellien vs Santiago De La Fuente | Cordoba | 2026-05-11 | 0.77 / 0.76 | `below_min_edge` | best_edge=-0.004 on NO @ theo=0.756 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may11dlfdev) |
 | Juan Pablo Varillas vs Arklon Huertas Del Pino Cordova | Cordoba | 2026-05-12 | 0.75 / 0.68 | `below_min_edge` | best_edge=0.019 on YES @ theo=0.329 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12huevar) |
 | Arklon Huertas Del Pino Cordova vs Juan Pablo Varillas | Cordoba | 2026-05-12 | 0.31 / 0.24 | `below_min_edge` | best_edge=0.019 on YES @ theo=0.329 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12huevar) |
+| Arklon Huertas Del Pino Cordova vs Valerio Aboian | Cordoba | 2026-05-13 | 0.38 / 0.35 | `below_min_edge` | best_edge=0.013 on YES @ theo=0.393 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13abohue) |
+| Valerio Aboian vs Arklon Huertas Del Pino Cordova | Cordoba | 2026-05-13 | 0.64 / 0.62 | `below_min_edge` | best_edge=0.013 on YES @ theo=0.393 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13abohue) |
 | Ryan Seggerman vs Juan Carlos Prado Angelo | Francavilla | 2026-05-07 | 0.30 / 0.28 | `below_min_edge` | best_edge=0.035 on YES @ theo=0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may07praseg) |
 | Juan Carlos Prado Angelo vs Ryan Seggerman | Francavilla | 2026-05-07 | 0.72 / 0.71 | `below_min_edge` | best_edge=0.035 on YES @ theo=0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may07praseg) |
 | Tiago Torres vs Jaime Faria | Oeiras 4 | 2026-05-12 | 0.24 / 0.21 | `below_min_edge` | best_edge=0.043 on YES @ theo=0.833 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12torfar) |
@@ -58,6 +62,8 @@ _Generated 2026-05-12T22:17:18+00:00_
 | Franco Agamenone vs Joel Schwaerzler | Tunis | 2026-05-12 | 0.41 / 0.34 | `below_min_edge` | best_edge=0.036 on YES @ theo=0.676 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12schaga) |
 | Joel Schwaerzler vs Federico Cina | Tunis | 2026-05-13 | 0.57 / 0.55 | `below_min_edge` | best_edge=0.013 on YES @ theo=0.463 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13schcin) |
 | Federico Cina vs Joel Schwaerzler | Tunis | 2026-05-13 | 0.45 / 0.43 | `below_min_edge` | best_edge=0.013 on YES @ theo=0.463 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13schcin) |
+| Joel Schwaerzler vs Federico Cina | Tunis | 2026-05-13 | 0.58 / 0.57 | `below_min_edge` | best_edge=0.023 on YES @ theo=0.463 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13schcin) |
+| Federico Cina vs Joel Schwaerzler | Tunis | 2026-05-13 | 0.44 / 0.42 | `below_min_edge` | best_edge=0.023 on YES @ theo=0.463 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13schcin) |
 | Akira Santillan vs Jack Pinnington Jones | Wuxi | 2026-05-07 | 0.51 / 0.50 | `below_min_edge` | best_edge=0.015 on YES @ theo=0.525 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may07jonsan) |
 | Maximus Jones vs Akira Santillan | Wuxi | 2026-05-07 | 0.50 / 0.48 | `below_min_edge` | best_edge=0.015 on YES @ theo=0.525 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may07jonsan) |
 | Mark Lajal vs Soonwoo Kwon | Wuxi | 2026-05-09 | 0.39 / 0.37 | `below_min_edge` | best_edge=0.012 on YES @ theo=0.402 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may09lajkwon) |
@@ -98,6 +104,8 @@ _Generated 2026-05-12T22:17:18+00:00_
 | Rinky Hijikata vs Aleksandar Vukic | Bordeaux | 2026-05-12 | 0.10 / 0.09 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12HIJVUK | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12hijvuk) |
 | Alexander Shevchenko vs Hugo Gaston | Bordeaux | 2026-05-12 | 0.61 / 0.60 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12SHEGAS | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12shegas) |
 | Hugo Gaston vs Alexander Shevchenko | Bordeaux | 2026-05-12 | 0.41 / 0.40 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12SHEGAS | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12shegas) |
+| Rei Sakamoto vs Alexandre Muller | Bordeaux | 2026-05-13 | 0.42 / 0.40 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY13SAKMUL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13sakmul) |
+| Alexandre Muller vs Pedro Sakamoto | Bordeaux | 2026-05-13 | 0.60 / 0.58 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY13SAKMUL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13sakmul) |
 | Sumit Nagal vs Geoffrey Blancaneaux | Bordeaux Qualification | 2026-05-12 | 0.63 / 0.61 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12BLANAG | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12blanag) |
 | Geoffrey Blancaneaux vs Sumit Nagal | Bordeaux Qualification | 2026-05-12 | 0.39 / 0.37 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12BLANAG | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12blanag) |
 | Pierre Delage vs Ugo Blanchet | Bordeaux Qualification | 2026-05-12 | 0.20 / 0.19 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12BLADEL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12bladel) |
@@ -202,6 +210,10 @@ _Generated 2026-05-12T22:17:18+00:00_
 | Facundo Diaz Acosta vs Hugo Dellien | Oeiras 4 | 2026-05-11 | 0.27 / 0.26 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY11DIADEL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may11diadel) |
 | Hugo Dellien vs Facundo Diaz Acosta | Oeiras 4 | 2026-05-11 | 0.74 / 0.73 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY11DIADEL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may11diadel) |
 | Frederico Ferreira Silva vs Vilius Gaubas | Oeiras 4 | 2026-05-11 | 0.14 / 0.11 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY11GAUFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may11gaufer) |
+| Roman Safiullin vs Laslo Djere | Oeiras 4 | 2026-05-13 | 0.56 / 0.54 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY13SAFDJE | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13safdje) |
+| Laslo Djere vs Roman Safiullin | Oeiras 4 | 2026-05-13 | 0.46 / 0.44 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY13SAFDJE | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13safdje) |
+| Tiago Pereira vs Emilio Nava | Oeiras 4 | 2026-05-13 | 0.21 / 0.19 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY13PERNAV | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13pernav) |
+| Emilio Nava vs Jose Pereira | Oeiras 4 | 2026-05-13 | 0.82 / 0.80 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY13PERNAV | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13pernav) |
 | Matheus Pucinelli De Almeida vs Franco Roncadelli | Santos | 2026-05-09 | 0.73 / 0.71 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY09PDARON | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may09pdaron) |
 | Matheus Pucinelli De Almeida vs Franco Roncadelli | Santos | 2026-05-09 | 0.72 / 0.70 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY09PDARON | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may09pdaron) |
 | Matheus Pucinelli De Almeida vs Franco Roncadelli | Santos | 2026-05-09 | 0.75 / 0.71 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY09PDARON | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may09pdaron) |
@@ -243,6 +255,9 @@ _Generated 2026-05-12T22:17:18+00:00_
 | Dali Blanch vs Yi Zhou | Tunis | 2026-05-12 | 0.80 / 0.78 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12ZHOBLA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12zhobla) |
 | Pol Martin Tiffon vs Charles Broom | Tunis | 2026-05-12 | 0.93 / 0.92 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12MARBRO | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12marbro) |
 | Charles Broom vs Pol Martin Tiffon | Tunis | 2026-05-12 | 0.08 / 0.07 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12MARBRO | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12marbro) |
+| Daniil Glinka vs Gilles Arnaud Bailly | Tunis | 2026-05-13 | 0.48 / 0.46 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY13ARNGLI | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13arngli) |
+| Gilles Arnaud Bailly vs Daniil Glinka | Tunis | 2026-05-13 | 0.54 / 0.53 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY13ARNGLI | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13arngli) |
+| Inaki Montes-De La Torre vs Max Houkes | Tunis | 2026-05-13 | 0.48 / 0.47 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY13HOUMON | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13houmon) |
 | Leandro Riedi vs Juan Carlos Prado Angelo | Valencia | 2026-05-12 | 0.69 / 0.68 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12PRARIE | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12prarie) |
 | Juan Carlos Prado Angelo vs Leandro Riedi | Valencia | 2026-05-12 | 0.32 / 0.30 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12PRARIE | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12prarie) |
 | Christopher O'Connell vs Dusan Lajovic | Valencia | 2026-05-12 | 0.42 / 0.40 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12LAJOCO | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12lajoco) |
@@ -267,6 +282,10 @@ _Generated 2026-05-12T22:17:18+00:00_
 | Juan Carlos Prado Angelo vs Leandro Riedi | Valencia | 2026-05-12 | 0.46 / 0.45 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12PRARIE | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12prarie) |
 | Bernabe Zapata Miralles vs Adolfo Daniel Vallejo | Valencia | 2026-05-12 | 0.02 / 0.01 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12ZAPVAL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12zapval) |
 | Adolfo Daniel Vallejo vs Bernabe Zapata Miralles | Valencia | 2026-05-12 | 0.99 / 0.98 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12ZAPVAL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12zapval) |
+| Daniel Merida vs Aleksandar Kovacevic | Valencia | 2026-05-13 | 0.72 / 0.70 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY13KOVMER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13kovmer) |
+| Aleksandar Kovacevic vs Daniel Merida | Valencia | 2026-05-13 | 0.30 / 0.28 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY13KOVMER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13kovmer) |
+| Miomir Kecmanovic vs Nicolai Budkov Kjaer | Valencia | 2026-05-13 | 0.63 / 0.61 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY13BUDKEC | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13budkec) |
+| Nicolai Budkov Kjaer vs Miomir Kecmanovic | Valencia | 2026-05-13 | 0.41 / 0.40 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY13BUDKEC | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13budkec) |
 | Henri Squire vs Timofey Skatov | Valencia Qualification | 2026-05-12 | 0.43 / 0.41 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12SKASQU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12skasqu) |
 | Timofey Skatov vs Henri Squire | Valencia Qualification | 2026-05-12 | 0.59 / 0.56 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12SKASQU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12skasqu) |
 | Carlos Sanchez Jover vs Taro Daniel | Valencia Qualification | 2026-05-12 | 0.57 / 0.54 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12SANDAN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12sandan) |
@@ -385,6 +404,26 @@ _Generated 2026-05-12T22:17:18+00:00_
 | Nerman Fatic vs Elmer Moller | Zagreb | 2026-05-12 | 0.22 / 0.20 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12FATMOL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12fatmol) |
 | Zsombor Piros vs Jonas Forejtek | Zagreb | 2026-05-12 | 0.65 / 0.64 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12PIRFOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12pirfor) |
 | Jonas Forejtek vs Zsombor Piros | Zagreb | 2026-05-12 | 0.36 / 0.35 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12PIRFOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12pirfor) |
+| Dominic Stricker vs Mili Poljicak | Zagreb | 2026-05-12 | 0.59 / 0.57 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12POLSTR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12polstr) |
+| Mili Poljicak vs Dominic Stricker | Zagreb | 2026-05-12 | 0.43 / 0.42 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12POLSTR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12polstr) |
+| Juan Pablo Ficovich vs Jan Choinski | Zagreb | 2026-05-12 | 0.31 / 0.30 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12CHOFIC | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12chofic) |
+| Jan Choinski vs Juan Pablo Ficovich | Zagreb | 2026-05-12 | 0.70 / 0.69 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12CHOFIC | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12chofic) |
+| August Holmgren vs Matej Dodig | Zagreb | 2026-05-12 | 0.54 / 0.53 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12DODHOL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12dodhol) |
+| Matej Dodig vs August Holmgren | Zagreb | 2026-05-12 | 0.47 / 0.46 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12DODHOL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12dodhol) |
+| Emanuel Ivanisevic vs Diego Dedura | Zagreb | 2026-05-12 | 0.07 / 0.05 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12DEDIVA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12dediva) |
+| Diego Dedura vs Emanuel Ivanisevic | Zagreb | 2026-05-12 | 0.94 / 0.93 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12DEDIVA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12dediva) |
+| Thiago Seyboth Wild vs Daniel Elahi Galan | Zagreb | 2026-05-12 | 0.56 / 0.55 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12SEYGAL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12seygal) |
+| Daniel Elahi Galan vs Thiago Seyboth Wild | Zagreb | 2026-05-12 | 0.45 / 0.44 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12SEYGAL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12seygal) |
+| Luka Mikrut vs Justin Engel | Zagreb | 2026-05-12 | 0.63 / 0.62 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12MIKENG | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12mikeng) |
+| Justin Engel vs Luka Mikrut | Zagreb | 2026-05-12 | 0.38 / 0.37 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12MIKENG | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12mikeng) |
+| Chris Rodesch vs Stefan Dostanic | Zagreb | 2026-05-12 | 0.66 / 0.65 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12DOSROD | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12dosrod) |
+| Stefan Dostanic vs Chris Rodesch | Zagreb | 2026-05-12 | 0.36 / 0.34 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12DOSROD | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12dosrod) |
+| Thiago Monteiro vs Andres Andrade | Zagreb | 2026-05-12 | 0.63 / 0.62 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12MONAND | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12monand) |
+| Andres Andrade vs Thiago Monteiro | Zagreb | 2026-05-12 | 0.38 / 0.37 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12MONAND | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12monand) |
+| Elmer Moller vs Nerman Fatic | Zagreb | 2026-05-12 | 0.80 / 0.78 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12FATMOL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12fatmol) |
+| Nerman Fatic vs Elmer Moller | Zagreb | 2026-05-12 | 0.22 / 0.20 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12FATMOL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12fatmol) |
+| Zsombor Piros vs Jonas Forejtek | Zagreb | 2026-05-12 | 0.65 / 0.63 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12PIRFOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12pirfor) |
+| Jonas Forejtek vs Zsombor Piros | Zagreb | 2026-05-12 | 0.37 / 0.36 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12PIRFOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12pirfor) |
 | Amit Vales vs Aditya Vishal Balsekar | Bengaluru 2 | 2026-05-12 | 0.76 / 0.72 | `missing_player_id` | player_a_id=None, player_b_id='V0GI' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12valbal) |
 | Aditya Vishal Balsekar vs Vales | Bengaluru 2 | 2026-05-12 | 0.28 / 0.24 | `missing_player_id` | player_a_id='V0GI', player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12valbal) |
 | Christopher Papa vs Ryuki Matsuda | Bengaluru 2 | 2026-05-12 | 0.40 / 0.38 | `missing_player_id` | player_a_id=None, player_b_id='M0G0' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12matpap) |
@@ -417,6 +456,14 @@ _Generated 2026-05-12T22:17:18+00:00_
 | Maximus Jones vs Vales | Bengaluru 2 | 2026-05-13 | 0.66 / 0.63 | `missing_player_id` | player_a_id='J0D2', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13jonval) |
 | Hamish Stewart vs Mukund | Bengaluru 2 | 2026-05-13 | 0.83 / 0.82 | `missing_player_id` | player_a_id='S0EX', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13mukste) |
 | Sasikumar Mukund vs Hamish Stewart | Bengaluru 2 | 2026-05-13 | 0.18 / 0.16 | `missing_player_id` | player_a_id=nan, player_b_id='S0EX' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13mukste) |
+| Kriish Tyagi vs Kawahashi | Bengaluru 2 | 2026-05-13 | 0.39 / 0.37 | `missing_player_id` | player_a_id=nan, player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13kawtya) |
+| Yuta Kawahashi vs Tyagi | Bengaluru 2 | 2026-05-13 | 0.62 / 0.61 | `missing_player_id` | player_a_id=nan, player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13kawtya) |
+| Philip Sekulic vs Papa | Bengaluru 2 | 2026-05-13 | 0.93 / 0.92 | `missing_player_id` | player_a_id='S0TI', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13papsek) |
+| Christopher Papa vs Philip Sekulic | Bengaluru 2 | 2026-05-13 | 0.09 / 0.07 | `missing_player_id` | player_a_id=nan, player_b_id='S0TI' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13papsek) |
+| Amit Vales vs Jack Pinnington Jones | Bengaluru 2 | 2026-05-13 | 0.36 / 0.35 | `missing_player_id` | player_a_id=nan, player_b_id='P0HT' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13jonval) |
+| Maximus Jones vs Vales | Bengaluru 2 | 2026-05-13 | 0.65 / 0.63 | `missing_player_id` | player_a_id='J0D2', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13jonval) |
+| Hamish Stewart vs Mukund | Bengaluru 2 | 2026-05-13 | 0.83 / 0.82 | `missing_player_id` | player_a_id='S0EX', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13mukste) |
+| Sasikumar Mukund vs Hamish Stewart | Bengaluru 2 | 2026-05-13 | 0.18 / 0.17 | `missing_player_id` | player_a_id=nan, player_b_id='S0EX' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13mukste) |
 | Miguel Tobon vs Goity Zapico | Cordoba | 2026-05-12 | 0.93 / 0.07 | `missing_player_id` | player_a_id='T133', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12goitob) |
 | Segundo Goity Zapico vs Miguel Tobon | Cordoba | 2026-05-12 | 0.93 / 0.07 | `missing_player_id` | player_a_id=nan, player_b_id='T133' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12goitob) |
 | Hernan Casanova vs Pucinelli de Almeida | Cordoba | 2026-05-13 | 0.41 / 0.37 | `missing_player_id` | player_a_id='CG07', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12pdacas) |
@@ -438,6 +485,9 @@ _Generated 2026-05-12T22:17:18+00:00_
 | Vilius Gaubas vs Ferreira Silva | Oeiras 4 | 2026-05-11 | 0.88 / 0.86 | `missing_player_id` | player_a_id='G0FW', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may11gaufer) |
 | Nishesh Basavareddy vs Barrios Vera | Oeiras 4 | 2026-05-13 | 0.47 / 0.42 | `missing_player_id` | player_a_id='B0NN', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13barbas) |
 | Marcelo Tomas Barrios Vera vs Nishesh Basavareddy | Oeiras 4 | 2026-05-13 | 0.60 / 0.50 | `missing_player_id` | player_a_id=nan, player_b_id='B0NN' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13barbas) |
+| Colton Smith vs Pinnington Jones | Oeiras 4 | 2026-05-13 | 0.34 / 0.32 | `missing_player_id` | player_a_id='S0ZE', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13smipin) |
+| Nishesh Basavareddy vs Barrios Vera | Oeiras 4 | 2026-05-13 | 0.37 / 0.36 | `missing_player_id` | player_a_id='B0NN', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13barbas) |
+| Marcelo Tomas Barrios Vera vs Nishesh Basavareddy | Oeiras 4 | 2026-05-13 | 0.64 / 0.63 | `missing_player_id` | player_a_id=nan, player_b_id='B0NN' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13barbas) |
 | Valerio Aboian vs Pucinelli de Almeida | Santos | 2026-05-07 | 0.28 / 0.27 | `missing_player_id` | player_a_id='A0G7', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may07pdaabo) |
 | Franco Roncadelli vs Pucinelli de Almeida | Santos | 2026-05-09 | 0.37 / 0.34 | `missing_player_id` | player_a_id='R0BT', player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may09pdaron) |
 | Franco Roncadelli vs Pucinelli de Almeida | Santos | 2026-05-09 | 0.29 / 0.27 | `missing_player_id` | player_a_id='R0BT', player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may09pdaron) |
@@ -447,6 +497,8 @@ _Generated 2026-05-12T22:17:18+00:00_
 | Alex Barrena vs Montes-de la Torre | Tunis | 2026-05-12 | 0.36 / 0.35 | `missing_player_id` | player_a_id='B0GY', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12monbar) |
 | Alex Barrena vs Montes-de la Torre | Tunis | 2026-05-12 | 0.36 / 0.33 | `missing_player_id` | player_a_id='B0GY', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12monbar) |
 | Max Houkes vs Montes-de la Torre | Tunis | 2026-05-13 | 0.51 / 0.49 | `missing_player_id` | player_a_id='H0CX', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13houmon) |
+| Dali Blanch vs Den Ouden | Tunis | 2026-05-13 | 0.38 / 0.36 | `missing_player_id` | player_a_id='B0JP', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13denbla) |
+| Max Houkes vs Montes-de la Torre | Tunis | 2026-05-13 | 0.53 / 0.52 | `missing_player_id` | player_a_id='H0CX', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13houmon) |
 | Sebastian Baez vs Carballes Baena | Valencia | 2026-05-12 | 0.74 / 0.73 | `missing_player_id` | player_a_id='B0BI', player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12baecar) |
 | Sebastian Baez vs Carballes Baena | Valencia | 2026-05-12 | 0.74 / 0.73 | `missing_player_id` | player_a_id='B0BI', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12baecar) |
 | Sebastian Baez vs Carballes Baena | Valencia | 2026-05-12 | 0.84 / 0.83 | `missing_player_id` | player_a_id='B0BI', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12baecar) |
@@ -464,6 +516,8 @@ _Generated 2026-05-12T22:17:18+00:00_
 | Thanasi Kokkinakis vs Yannick Theodor Alexandrescou | Zagreb | 2026-05-12 | 0.88 / 0.86 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=1268.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12alekok) |
 | Yannick Theodor Alexandrescou vs Thanasi Kokkinakis | Zagreb | 2026-05-12 | 0.14 / 0.12 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=1268.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12alekok) |
 | Thanasi Kokkinakis vs Yannick Theodor Alexandrescou | Zagreb | 2026-05-12 | 0.88 / 0.87 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=1268.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12alekok) |
+| Yannick Theodor Alexandrescou vs Thanasi Kokkinakis | Zagreb | 2026-05-12 | 0.14 / 0.12 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=1268.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12alekok) |
+| Thanasi Kokkinakis vs Yannick Theodor Alexandrescou | Zagreb | 2026-05-12 | 0.88 / 0.86 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=1268.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12alekok) |
 | Yannick Theodor Alexandrescou vs Thanasi Kokkinakis | Zagreb | 2026-05-12 | 0.14 / 0.12 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=1268.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12alekok) |
 | Thanasi Kokkinakis vs Yannick Theodor Alexandrescou | Zagreb | 2026-05-12 | 0.88 / 0.86 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=1268.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12alekok) |
 | Yannick Theodor Alexandrescou vs Thanasi Kokkinakis | Zagreb | 2026-05-12 | 0.14 / 0.12 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=1268.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12alekok) |
@@ -519,6 +573,14 @@ _Generated 2026-05-12T22:17:18+00:00_
 | Dominik Palan vs Keegan Smith | Bengaluru 2 | 2026-05-13 | 0.19 / 0.16 | `tournament_not_in_tml` | tournament='Bengaluru 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13smipal) |
 | Ognjen Milic vs Joshua Charlton | Bengaluru 2 | 2026-05-13 | 0.81 / 0.78 | `tournament_not_in_tml` | tournament='Bengaluru 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13chamil) |
 | Joshua Charlton vs Ognjen Milic | Bengaluru 2 | 2026-05-13 | 0.22 / 0.19 | `tournament_not_in_tml` | tournament='Bengaluru 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13chamil) |
+| Manish Sureshkumar vs Alastair Gray | Bengaluru 2 | 2026-05-13 | 0.13 / 0.11 | `tournament_not_in_tml` | tournament='Bengaluru 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13grasur) |
+| Alastair Gray vs Manish Sureshkumar | Bengaluru 2 | 2026-05-13 | 0.89 / 0.87 | `tournament_not_in_tml` | tournament='Bengaluru 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13grasur) |
+| Ilya Ivashka vs Kokoro Isomura | Bengaluru 2 | 2026-05-13 | 0.80 / 0.79 | `tournament_not_in_tml` | tournament='Bengaluru 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13ivaiso) |
+| Kokoro Isomura vs Ilya Ivashka | Bengaluru 2 | 2026-05-13 | 0.21 / 0.20 | `tournament_not_in_tml` | tournament='Bengaluru 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13ivaiso) |
+| Keegan Smith vs Dominik Palan | Bengaluru 2 | 2026-05-13 | 0.83 / 0.81 | `tournament_not_in_tml` | tournament='Bengaluru 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13smipal) |
+| Dominik Palan vs Keegan Smith | Bengaluru 2 | 2026-05-13 | 0.19 / 0.18 | `tournament_not_in_tml` | tournament='Bengaluru 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13smipal) |
+| Ognjen Milic vs Joshua Charlton | Bengaluru 2 | 2026-05-13 | 0.81 / 0.80 | `tournament_not_in_tml` | tournament='Bengaluru 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13chamil) |
+| Joshua Charlton vs Ognjen Milic | Bengaluru 2 | 2026-05-13 | 0.21 / 0.20 | `tournament_not_in_tml` | tournament='Bengaluru 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13chamil) |
 | Quentin Halys vs Sho Shimabukuro | Bordeaux | 2026-05-12 | 0.73 / 0.01 | `wide_spread` | spread=0.72 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12shihal) |
 | Rinky Hijikata vs Aleksandar Vukic | Bordeaux | 2026-05-12 | 0.61 / 0.01 | `wide_spread` | spread=0.60 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12hijvuk) |
 | Juan Pablo Varillas vs Arklon Huertas Del Pino Cordova | Cordoba | 2026-05-12 | 0.94 / 0.06 | `wide_spread` | spread=0.88 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12huevar) |

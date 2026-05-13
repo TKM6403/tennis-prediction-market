@@ -1,12 +1,13 @@
-# Settled paper bets (87)
+# Settled paper bets (88)
 
-_Generated 2026-05-12T22:17:18+00:00_
+_Generated 2026-05-13T03:36:42+00:00_
 
-**Wins:** 23 / 87  (26.4%)  
-**Net PnL (per contract):** -8.253
+**Wins:** 23 / 88  (26.1%)  
+**Net PnL (per contract):** -8.670
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Hernan Casanova (NO) vs Matheus Pucinelli De Almeida | Cordoba | 2026-05-13 | NO Hernan Casanova | 0.40 | 0.551 | ✗ | -0.417 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12pdacas) |
 | Pedro Sakamoto (YES) vs Franco Roncadelli | Cordoba | 2026-05-12 | YES Pedro Sakamoto | 0.30 | 0.397 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12ronsak) |
 | Charles Broom (YES) vs Pol Martin Tiffon | Tunis | 2026-05-12 | YES Charles Broom | 0.24 | 0.576 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12marbro) |
 | Zdenek Kolar (YES) vs Zhizhen Zhang | Oeiras 4 | 2026-05-12 | YES Zdenek Kolar | 0.47 | 0.671 | ✓ | +0.513 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12kolzha) |
