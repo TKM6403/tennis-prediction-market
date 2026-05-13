@@ -1,12 +1,22 @@
-# Settled paper bets (112)
+# Settled paper bets (122)
 
-_Generated 2026-05-13T14:40:52+00:00_
+_Generated 2026-05-13T17:22:44+00:00_
 
-**Wins:** 31 / 112  (27.7%)  
-**Net PnL (per contract):** -10.328
+**Wins:** 35 / 122  (28.7%)  
+**Net PnL (per contract):** -9.950
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Mili Poljicak (YES) vs Dominic Stricker | Zagreb | 2026-05-12 | YES Mili Poljicak | 0.42 | 0.602 | ✗ | -0.437 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12polstr) |
+| Justin Engel (YES) vs Luka Mikrut | Zagreb | 2026-05-12 | YES Justin Engel | 0.36 | 0.433 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12mikeng) |
+| Roberto Bautista Agut (YES) vs Pedro Martinez | Valencia | 2026-05-13 | YES Roberto Bautista Agut | 0.52 | 0.586 | ✓ | +0.463 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13baumar) |
+| Hugo Dellien (NO) vs Eduardo Ribeiro | Cordoba | 2026-05-13 | NO Hugo Dellien | 0.51 | 0.663 | ✗ | -0.527 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13ribdev) |
+| Guido Ivan Justo (YES) vs Luciano Emanuel Ambrogi | Cordoba | 2026-05-13 | YES Guido Ivan Justo | 0.57 | 0.660 | ✓ | +0.413 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13jusamb) |
+| Pierre Delage (NO) vs Roman Andres Burruchaga | Bordeaux | 2026-05-13 | NO Pierre Delage | 0.14 | 0.281 | ✗ | -0.148 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13delbur) |
+| Petr Brunclik (NO) vs Vilius Gaubas | Oeiras 4 | 2026-05-13 | NO Petr Brunclik | 0.30 | 0.491 | ✓ | +0.685 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13gaubru) |
+| Alejo Sanchez Quilez (NO) vs Damir Dzumhur | Valencia | 2026-05-13 | NO Alejo Sanchez Quilez | 0.36 | 0.498 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13dzusan) |
+| Tristan Boyer (YES) vs Dalibor Svrcina | Tunis | 2026-05-13 | YES Tristan Boyer | 0.21 | 0.326 | ✓ | +0.778 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13svrboy) |
+| Samuel Alejandro Linde Palacios (YES) vs Juan Bautista Torres | Cordoba | 2026-05-13 | YES Samuel Alejandro Linde Palacios | 0.09 | 0.228 | ✗ | -0.096 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13torlin) |
 | Stefan Dostanic (YES) vs Chris Rodesch | Zagreb | 2026-05-12 | YES Stefan Dostanic | 0.32 | 0.478 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12dosrod) |
 | Nerman Fatic (YES) vs Elmer Moller | Zagreb | 2026-05-12 | YES Nerman Fatic | 0.39 | 0.652 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12fatmol) |
 | Emanuel Ivanisevic (YES) vs Diego Dedura | Zagreb | 2026-05-12 | YES Emanuel Ivanisevic | 0.05 | 0.222 | ✗ | -0.053 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12dediva) |
