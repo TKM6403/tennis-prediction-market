@@ -1,12 +1,14 @@
-# Settled paper bets (157)
+# Settled paper bets (159)
 
-_Generated 2026-05-14T17:06:19+00:00_
+_Generated 2026-05-14T19:52:30+00:00_
 
-**Wins:** 46 / 157  (29.3%)  
-**Net PnL (per contract):** -12.024
+**Wins:** 47 / 159  (29.6%)  
+**Net PnL (per contract):** -11.755
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Jan Choinski (YES) vs Chris Rodesch | Zagreb | 2026-05-14 | YES Jan Choinski | 0.42 | 0.548 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14chorod) |
+| Eduardo Ribeiro (YES) vs Guido Ivan Justo | Cordoba | 2026-05-14 | YES Eduardo Ribeiro | 0.28 | 0.426 | ✗ | -0.294 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14jusrib) |
 | Titouan Droguet (YES) vs Terence Atmane | Bordeaux | 2026-05-14 | YES Titouan Droguet | 0.50 | 0.569 | ✓ | +0.482 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14droatm) |
 | Rei Sakamoto (YES) vs Alex Molcan | Bordeaux | 2026-05-14 | YES Rei Sakamoto | 0.35 | 0.443 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14molsak) |
 | Damir Dzumhur (YES) vs Jaume Munar | Valencia | 2026-05-14 | YES Damir Dzumhur | 0.32 | 0.388 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14dzumun) |
