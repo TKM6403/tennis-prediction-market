@@ -1,15 +1,15 @@
-# Dropped markets (1080)
+# Dropped markets (1092)
 
-_Generated 2026-05-14T19:52:30+00:00_
+_Generated 2026-05-14T22:17:10+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `duplicate_match` | 672 |
+| `duplicate_match` | 680 |
 | `below_min_edge` | 153 |
-| `missing_player_id` | 125 |
-| `tournament_not_in_tml` | 86 |
+| `missing_player_id` | 127 |
+| `tournament_not_in_tml` | 88 |
 | `wide_spread` | 26 |
 | `thin_player_history` | 18 |
 
@@ -266,6 +266,12 @@ _Generated 2026-05-14T19:52:30+00:00_
 | Alex Bogomolov Jr. vs Arthur Rinderknech | Bordeaux | 2026-05-14 | 0.38 / 0.35 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY14RINDAM | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14rindam) |
 | Juan Manuel Cerundolo vs Roman Andres Burruchaga | Bordeaux | 2026-05-14 | 0.60 / 0.59 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY14CERBUR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14cerbur) |
 | Roman Andres Burruchaga vs Francisco Cerundolo | Bordeaux | 2026-05-14 | 0.42 / 0.40 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY14CERBUR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14cerbur) |
+| Botic van de Zandschulp vs Quentin Halys | Bordeaux | 2026-05-14 | 0.08 / 0.07 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY14VANHAL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14vanhal) |
+| Quentin Halys vs Botic van de Zandschulp | Bordeaux | 2026-05-14 | 0.93 / 0.92 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY14VANHAL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14vanhal) |
+| Arthur Rinderknech vs Alex Bogomolov Jr. | Bordeaux | 2026-05-14 | 0.66 / 0.63 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY14RINDAM | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14rindam) |
+| Alex Bogomolov Jr. vs Arthur Rinderknech | Bordeaux | 2026-05-14 | 0.35 / 0.34 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY14RINDAM | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14rindam) |
+| Juan Manuel Cerundolo vs Roman Andres Burruchaga | Bordeaux | 2026-05-14 | 0.60 / 0.59 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY14CERBUR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14cerbur) |
+| Roman Andres Burruchaga vs Francisco Cerundolo | Bordeaux | 2026-05-14 | 0.41 / 0.40 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY14CERBUR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14cerbur) |
 | Botic van de Zandschulp vs Quentin Halys | Bordeaux | 2026-05-14 | 0.08 / 0.07 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY14VANHAL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14vanhal) |
 | Quentin Halys vs Botic van de Zandschulp | Bordeaux | 2026-05-14 | 0.93 / 0.92 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY14VANHAL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14vanhal) |
 | Sumit Nagal vs Geoffrey Blancaneaux | Bordeaux Qualification | 2026-05-12 | 0.63 / 0.61 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12BLANAG | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12blanag) |
@@ -842,6 +848,8 @@ _Generated 2026-05-14T19:52:30+00:00_
 | Jan Choinski vs Chris Rodesch | Zagreb | 2026-05-14 | 0.40 / 0.39 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY14CHOROD | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14chorod) |
 | Zsombor Piros vs Lukas Neumayer | Zagreb | 2026-05-14 | 0.66 / 0.64 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY14PIRNEU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14pirneu) |
 | Lukas Neumayer vs Zsombor Piros | Zagreb | 2026-05-14 | 0.35 / 0.34 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY14PIRNEU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14pirneu) |
+| Zsombor Piros vs Lukas Neumayer | Zagreb | 2026-05-14 | 0.67 / 0.66 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY14PIRNEU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14pirneu) |
+| Lukas Neumayer vs Zsombor Piros | Zagreb | 2026-05-14 | 0.34 / 0.33 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY14PIRNEU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14pirneu) |
 | Amit Vales vs Aditya Vishal Balsekar | Bengaluru 2 | 2026-05-12 | 0.76 / 0.72 | `missing_player_id` | player_a_id=None, player_b_id='V0GI' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12valbal) |
 | Aditya Vishal Balsekar vs Vales | Bengaluru 2 | 2026-05-12 | 0.28 / 0.24 | `missing_player_id` | player_a_id='V0GI', player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12valbal) |
 | Christopher Papa vs Ryuki Matsuda | Bengaluru 2 | 2026-05-12 | 0.40 / 0.38 | `missing_player_id` | player_a_id=None, player_b_id='M0G0' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12matpap) |
@@ -898,6 +906,8 @@ _Generated 2026-05-14T19:52:30+00:00_
 | Hamish Stewart vs Tyagi | Bengaluru 2 | 2026-05-14 | 0.87 / 0.86 | `missing_player_id` | player_a_id='S0EX', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14tyaste) |
 | Kriish Tyagi vs Hamish Stewart | Bengaluru 2 | 2026-05-14 | 0.32 / 0.31 | `missing_player_id` | player_a_id=nan, player_b_id='S0EX' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14tyaste) |
 | Hamish Stewart vs Tyagi | Bengaluru 2 | 2026-05-14 | 0.69 / 0.68 | `missing_player_id` | player_a_id='S0EX', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14tyaste) |
+| Kriish Tyagi vs Philip Sekulic | Bengaluru 2 | 2026-05-15 | 0.71 / 0.17 | `missing_player_id` | player_a_id=nan, player_b_id='S0TI' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15sektya) |
+| Philip Sekulic vs Tyagi | Bengaluru 2 | 2026-05-15 | 0.81 / 0.77 | `missing_player_id` | player_a_id='S0TI', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15sektya) |
 | Miguel Tobon vs Goity Zapico | Cordoba | 2026-05-12 | 0.93 / 0.07 | `missing_player_id` | player_a_id='T133', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12goitob) |
 | Segundo Goity Zapico vs Miguel Tobon | Cordoba | 2026-05-12 | 0.93 / 0.07 | `missing_player_id` | player_a_id=nan, player_b_id='T133' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12goitob) |
 | Hernan Casanova vs Pucinelli de Almeida | Cordoba | 2026-05-13 | 0.41 / 0.37 | `missing_player_id` | player_a_id='CG07', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12pdacas) |
@@ -1071,6 +1081,8 @@ _Generated 2026-05-14T19:52:30+00:00_
 | Ilya Ivashka vs Manish Sureshkumar | Bengaluru 2 | 2026-05-14 | 0.90 / 0.82 | `tournament_not_in_tml` | tournament='Bengaluru 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14suriva) |
 | Philip Sekulic vs Jack Pinnington Jones | Bengaluru 2 | 2026-05-14 | 0.40 / 0.39 | `tournament_not_in_tml` | tournament='Bengaluru 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14jonsek) |
 | Maximus Jones vs Philip Sekulic | Bengaluru 2 | 2026-05-14 | 0.61 / 0.60 | `tournament_not_in_tml` | tournament='Bengaluru 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14jonsek) |
+| Keegan Smith vs Ilya Ivashka | Bengaluru 2 | 2026-05-15 | 0.48 / 0.45 | `tournament_not_in_tml` | tournament='Bengaluru 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15smiiva) |
+| Ilya Ivashka vs Keegan Smith | Bengaluru 2 | 2026-05-15 | 0.55 / 0.52 | `tournament_not_in_tml` | tournament='Bengaluru 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15smiiva) |
 | Quentin Halys vs Sho Shimabukuro | Bordeaux | 2026-05-12 | 0.73 / 0.01 | `wide_spread` | spread=0.72 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12shihal) |
 | Rinky Hijikata vs Aleksandar Vukic | Bordeaux | 2026-05-12 | 0.61 / 0.01 | `wide_spread` | spread=0.60 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12hijvuk) |
 | Juan Pablo Varillas vs Arklon Huertas Del Pino Cordova | Cordoba | 2026-05-12 | 0.94 / 0.06 | `wide_spread` | spread=0.88 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12huevar) |

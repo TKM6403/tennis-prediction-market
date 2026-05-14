@@ -1,12 +1,14 @@
-# Settled paper bets (159)
+# Settled paper bets (161)
 
-_Generated 2026-05-14T19:52:30+00:00_
+_Generated 2026-05-14T22:17:10+00:00_
 
-**Wins:** 47 / 159  (29.6%)  
-**Net PnL (per contract):** -11.755
+**Wins:** 49 / 161  (30.4%)  
+**Net PnL (per contract):** -10.800
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Franco Roncadelli (YES) vs Nicolas Kicker | Cordoba | 2026-05-14 | YES Franco Roncadelli | 0.57 | 0.648 | ✓ | +0.413 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14ronkic) |
+| Pablo Carreno Busta (YES) vs Sebastian Baez | Valencia | 2026-05-14 | YES Pablo Carreno Busta | 0.44 | 0.696 | ✓ | +0.543 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14baecar) |
 | Jan Choinski (YES) vs Chris Rodesch | Zagreb | 2026-05-14 | YES Jan Choinski | 0.42 | 0.548 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14chorod) |
 | Eduardo Ribeiro (YES) vs Guido Ivan Justo | Cordoba | 2026-05-14 | YES Eduardo Ribeiro | 0.28 | 0.426 | ✗ | -0.294 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14jusrib) |
 | Titouan Droguet (YES) vs Terence Atmane | Bordeaux | 2026-05-14 | YES Titouan Droguet | 0.50 | 0.569 | ✓ | +0.482 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14droatm) |
