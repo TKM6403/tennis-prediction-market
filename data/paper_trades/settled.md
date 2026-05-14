@@ -1,12 +1,21 @@
-# Settled paper bets (148)
+# Settled paper bets (157)
 
-_Generated 2026-05-14T14:19:17+00:00_
+_Generated 2026-05-14T17:06:19+00:00_
 
-**Wins:** 43 / 148  (29.1%)  
-**Net PnL (per contract):** -11.712
+**Wins:** 46 / 157  (29.3%)  
+**Net PnL (per contract):** -12.024
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Titouan Droguet (YES) vs Terence Atmane | Bordeaux | 2026-05-14 | YES Titouan Droguet | 0.50 | 0.569 | ✓ | +0.482 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14droatm) |
+| Rei Sakamoto (YES) vs Alex Molcan | Bordeaux | 2026-05-14 | YES Rei Sakamoto | 0.35 | 0.443 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14molsak) |
+| Damir Dzumhur (YES) vs Jaume Munar | Valencia | 2026-05-14 | YES Damir Dzumhur | 0.32 | 0.388 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14dzumun) |
+| Petr Brunclik (YES) vs Jaime Faria | Oeiras 4 | 2026-05-14 | YES Petr Brunclik | 0.24 | 0.431 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14brufar) |
+| Giovanni Mpetshi Perricard (YES) vs Aleksandar Vukic | Bordeaux | 2026-05-14 | YES Giovanni Mpetshi Perricard | 0.64 | 0.712 | ✓ | +0.344 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14vukmpe) |
+| Dusan Lajovic (NO) vs Daniel Altmaier | Valencia | 2026-05-14 | NO Dusan Lajovic | 0.42 | 0.520 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14lajalt) |
+| Yannick Theodor Alexandrescou (NO) vs Arthur Fery | Zagreb | 2026-05-14 | NO Yannick Theodor Alexandrescou | 0.26 | 0.414 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14ferale) |
+| Laurent Lokoli (YES) vs Tristan Boyer | Tunis | 2026-05-14 | YES Laurent Lokoli | 0.18 | 0.441 | ✗ | -0.190 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14boylok) |
+| Benjamin Bonzi (NO) vs Tallon Griekspoor | Bordeaux | 2026-05-14 | NO Benjamin Bonzi | 0.27 | 0.459 | ✗ | -0.284 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14bongri) |
 | Colton Smith (YES) vs Laslo Djere | Oeiras 4 | 2026-05-14 | YES Colton Smith | 0.25 | 0.462 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14djesmi) |
 | Jay Clarke (YES) vs Ulises Blanch | Tunis | 2026-05-14 | YES Jay Clarke | 0.60 | 0.783 | ✗ | -0.617 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14blacla) |
 | Josip Simundza (YES) vs Zsombor Piros | Zagreb | 2026-05-14 | YES Josip Simundza | 0.07 | 0.195 | ✗ | -0.075 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14pirsim) |
