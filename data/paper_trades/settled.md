@@ -1,12 +1,19 @@
-# Settled paper bets (131)
+# Settled paper bets (138)
 
-_Generated 2026-05-14T08:45:02+00:00_
+_Generated 2026-05-14T11:18:55+00:00_
 
-**Wins:** 39 / 131  (29.8%)  
-**Net PnL (per contract):** -9.493
+**Wins:** 42 / 138  (30.4%)  
+**Net PnL (per contract):** -9.318
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Chris Rodesch (YES) vs Luka Mikrut | Zagreb | 2026-05-14 | YES Chris Rodesch | 0.45 | 0.525 | ✓ | +0.533 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14mikrod) |
+| Leandro Riedi (YES) vs Miomir Kecmanovic | Valencia | 2026-05-14 | YES Leandro Riedi | 0.40 | 0.611 | ✗ | -0.417 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14riekec) |
+| Aleksandar Kovacevic (YES) vs Alejandro Tabilo | Valencia | 2026-05-14 | YES Aleksandar Kovacevic | 0.24 | 0.298 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14tabkov) |
+| Arthur Fery (YES) vs Dominic Stricker | Zagreb | 2026-05-14 | YES Arthur Fery | 0.53 | 0.681 | ✓ | +0.453 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14ferstr) |
+| Yannick Theodor Alexandrescou (NO) vs August Holmgren | Zagreb | 2026-05-14 | NO Yannick Theodor Alexandrescou | 0.15 | 0.306 | ✓ | +0.841 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14alehol) |
+| Marco Cecchinato (YES) vs Andres Andrade | Zagreb | 2026-05-14 | YES Marco Cecchinato | 0.62 | 0.716 | ✗ | -0.636 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14cecand) |
+| Joao Lucas Reis Da Silva (YES) vs Elmer Moller | Zagreb | 2026-05-14 | YES Joao Lucas Reis Da Silva | 0.33 | 0.669 | ✗ | -0.345 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14reimol) |
 | Francisco Cerundolo (NO) vs Luca Van Assche | Bordeaux | 2026-05-13 | NO Francisco Cerundolo | 0.57 | 0.630 | ✓ | +0.413 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13vancer) |
 | Franco Roncadelli (NO) vs Matheus Pucinelli De Almeida | Cordoba | 2026-05-13 | NO Franco Roncadelli | 0.41 | 0.614 | ✓ | +0.573 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13ronpda) |
 | Ryan Dickerson (YES) vs Nicolas Kicker | Cordoba | 2026-05-14 | YES Ryan Dickerson | 0.20 | 0.410 | ✗ | -0.211 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13dickic) |
