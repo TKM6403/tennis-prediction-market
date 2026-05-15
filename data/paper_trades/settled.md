@@ -1,12 +1,13 @@
-# Settled paper bets (175)
+# Settled paper bets (176)
 
-_Generated 2026-05-15T16:58:31+00:00_
+_Generated 2026-05-15T19:43:34+00:00_
 
-**Wins:** 55 / 175  (31.4%)  
-**Net PnL (per contract):** -10.752
+**Wins:** 56 / 176  (31.8%)  
+**Net PnL (per contract):** -10.270
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Franco Roncadelli (YES) vs Guido Ivan Justo | Cordoba | 2026-05-15 | YES Franco Roncadelli | 0.50 | 0.558 | ✓ | +0.482 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15jusron) |
 | Tallon Griekspoor (NO) vs Alex Molcan | Bordeaux | 2026-05-15 | NO Tallon Griekspoor | 0.46 | 0.583 | ✓ | +0.523 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15molgri) |
 | Juan Manuel La Serna (YES) vs Juan Bautista Torres | Cordoba | 2026-05-15 | YES Juan Manuel La Serna | 0.26 | 0.580 | ✓ | +0.727 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15lator) |
 | Tristan Boyer (NO) vs Inaki Montes-De La Torre | Tunis | 2026-05-15 | NO Tristan Boyer | 0.33 | 0.561 | ✓ | +0.655 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15boymon) |
