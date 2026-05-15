@@ -1,12 +1,12 @@
-# Dropped markets (1201)
+# Dropped markets (1207)
 
-_Generated 2026-05-15T14:13:14+00:00_
+_Generated 2026-05-15T16:58:31+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `duplicate_match` | 757 |
+| `duplicate_match` | 763 |
 | `below_min_edge` | 167 |
 | `missing_player_id` | 137 |
 | `tournament_not_in_tml` | 94 |
@@ -312,6 +312,8 @@ _Generated 2026-05-15T14:13:14+00:00_
 | Raphael Collignon vs Titouan Droguet | Bordeaux | 2026-05-15 | 0.68 / 0.67 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15COLDRO | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15coldro) |
 | Alex Molcan vs Tallon Griekspoor | Bordeaux | 2026-05-15 | 0.56 / 0.55 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15MOLGRI | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15molgri) |
 | Tallon Griekspoor vs Alex Molcan | Bordeaux | 2026-05-15 | 0.46 / 0.45 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15MOLGRI | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15molgri) |
+| Titouan Droguet vs Raphael Collignon | Bordeaux | 2026-05-15 | 0.33 / 0.32 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15COLDRO | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15coldro) |
+| Raphael Collignon vs Titouan Droguet | Bordeaux | 2026-05-15 | 0.69 / 0.68 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15COLDRO | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15coldro) |
 | Sumit Nagal vs Geoffrey Blancaneaux | Bordeaux Qualification | 2026-05-12 | 0.63 / 0.61 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12BLANAG | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12blanag) |
 | Geoffrey Blancaneaux vs Sumit Nagal | Bordeaux Qualification | 2026-05-12 | 0.39 / 0.37 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12BLANAG | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12blanag) |
 | Pierre Delage vs Ugo Blanchet | Bordeaux Qualification | 2026-05-12 | 0.20 / 0.19 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12BLADEL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12bladel) |
@@ -414,6 +416,8 @@ _Generated 2026-05-15T14:13:14+00:00_
 | Guido Ivan Justo vs Franco Roncadelli | Cordoba | 2026-05-15 | 0.55 / 0.54 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15JUSRON | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15jusron) |
 | Juan Bautista Torres vs Juan Manuel La Serna | Cordoba | 2026-05-15 | 0.77 / 0.75 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15LATOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15lator) |
 | Juan Manuel La Serna vs Juan Bautista Torres | Cordoba | 2026-05-15 | 0.26 / 0.24 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15LATOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15lator) |
+| Franco Roncadelli vs Guido Ivan Justo | Cordoba | 2026-05-15 | 0.94 / 0.92 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15JUSRON | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15jusron) |
+| Guido Ivan Justo vs Franco Roncadelli | Cordoba | 2026-05-15 | 0.08 / 0.06 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15JUSRON | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15jusron) |
 | Nicolas Mejia vs Benjamin Hassan | Oeiras 4 | 2026-05-12 | 0.59 / 0.56 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12HASMEJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12hasmej) |
 | Benjamin Hassan vs Nicolas Mejia | Oeiras 4 | 2026-05-12 | 0.43 / 0.41 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12HASMEJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12hasmej) |
 | Zhizhen Zhang vs Zdenek Kolar | Oeiras 4 | 2026-05-12 | 0.48 / 0.43 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12KOLZHA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12kolzha) |
@@ -941,6 +945,8 @@ _Generated 2026-05-15T14:13:14+00:00_
 | Jan Choinski vs Arthur Fery | Zagreb | 2026-05-15 | 0.58 / 0.57 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15CHOFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15chofer) |
 | Arthur Fery vs Jan Choinski | Zagreb | 2026-05-15 | 0.42 / 0.41 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15CHOFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15chofer) |
 | Jan Choinski vs Arthur Fery | Zagreb | 2026-05-15 | 0.60 / 0.58 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15CHOFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15chofer) |
+| Arthur Fery vs Jan Choinski | Zagreb | 2026-05-15 | 0.29 / 0.28 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15CHOFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15chofer) |
+| Jan Choinski vs Arthur Fery | Zagreb | 2026-05-15 | 0.72 / 0.71 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15CHOFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15chofer) |
 | Amit Vales vs Aditya Vishal Balsekar | Bengaluru 2 | 2026-05-12 | 0.76 / 0.72 | `missing_player_id` | player_a_id=None, player_b_id='V0GI' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12valbal) |
 | Aditya Vishal Balsekar vs Vales | Bengaluru 2 | 2026-05-12 | 0.28 / 0.24 | `missing_player_id` | player_a_id='V0GI', player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12valbal) |
 | Christopher Papa vs Ryuki Matsuda | Bengaluru 2 | 2026-05-12 | 0.40 / 0.38 | `missing_player_id` | player_a_id=None, player_b_id='M0G0' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12matpap) |

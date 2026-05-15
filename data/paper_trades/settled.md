@@ -1,12 +1,17 @@
-# Settled paper bets (170)
+# Settled paper bets (175)
 
-_Generated 2026-05-15T14:13:14+00:00_
+_Generated 2026-05-15T16:58:31+00:00_
 
-**Wins:** 51 / 170  (30.0%)  
-**Net PnL (per contract):** -12.665
+**Wins:** 55 / 175  (31.4%)  
+**Net PnL (per contract):** -10.752
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Tallon Griekspoor (NO) vs Alex Molcan | Bordeaux | 2026-05-15 | NO Tallon Griekspoor | 0.46 | 0.583 | ✓ | +0.523 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15molgri) |
+| Juan Manuel La Serna (YES) vs Juan Bautista Torres | Cordoba | 2026-05-15 | YES Juan Manuel La Serna | 0.26 | 0.580 | ✓ | +0.727 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15lator) |
+| Tristan Boyer (NO) vs Inaki Montes-De La Torre | Tunis | 2026-05-15 | NO Tristan Boyer | 0.33 | 0.561 | ✓ | +0.655 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15boymon) |
+| Francisco Cerundolo (NO) vs Alex Bogomolov Jr. | Bordeaux | 2026-05-15 | NO Francisco Cerundolo | 0.65 | 0.929 | ✓ | +0.334 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15damcer) |
+| Giovanni Mpetshi Perricard (YES) vs Quentin Halys | Bordeaux | 2026-05-15 | YES Giovanni Mpetshi Perricard | 0.31 | 0.581 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15halmpe) |
 | Roman Andres Burruchaga (YES) vs Juan Manuel Cerundolo | Bordeaux | 2026-05-14 | YES Roman Andres Burruchaga | 0.52 | 0.617 | ✗ | -0.537 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14cerbur) |
 | Kimmer Coppejans (YES) vs Ulises Blanch | Tunis | 2026-05-15 | YES Kimmer Coppejans | 0.63 | 0.757 | ✗ | -0.646 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15copbla) |
 | Dusan Lajovic (NO) vs Alejandro Tabilo | Valencia | 2026-05-15 | NO Dusan Lajovic | 0.25 | 0.347 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15tablaj) |
