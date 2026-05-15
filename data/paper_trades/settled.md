@@ -1,12 +1,17 @@
-# Settled paper bets (165)
+# Settled paper bets (170)
 
-_Generated 2026-05-15T11:27:52+00:00_
+_Generated 2026-05-15T14:13:14+00:00_
 
-**Wins:** 50 / 165  (30.3%)  
-**Net PnL (per contract):** -11.273
+**Wins:** 51 / 170  (30.0%)  
+**Net PnL (per contract):** -12.665
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Roman Andres Burruchaga (YES) vs Juan Manuel Cerundolo | Bordeaux | 2026-05-14 | YES Roman Andres Burruchaga | 0.52 | 0.617 | ✗ | -0.537 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14cerbur) |
+| Kimmer Coppejans (YES) vs Ulises Blanch | Tunis | 2026-05-15 | YES Kimmer Coppejans | 0.63 | 0.757 | ✗ | -0.646 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15copbla) |
+| Dusan Lajovic (NO) vs Alejandro Tabilo | Valencia | 2026-05-15 | NO Dusan Lajovic | 0.25 | 0.347 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15tablaj) |
+| Emilio Nava (YES) vs Jaime Faria | Oeiras 4 | 2026-05-15 | YES Emilio Nava | 0.46 | 0.521 | ✓ | +0.523 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15farnav) |
+| Camilo Ugo Carabelli (YES) vs Miomir Kecmanovic | Valencia | 2026-05-15 | YES Camilo Ugo Carabelli | 0.45 | 0.538 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15ugokec) |
 | Arthur Rinderknech (YES) vs Alex Bogomolov Jr. | Bordeaux | 2026-05-14 | YES Arthur Rinderknech | 0.63 | 1.000 | ✗ | -0.646 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14rindam) |
 | Zsombor Piros (YES) vs Lukas Neumayer | Zagreb | 2026-05-14 | YES Zsombor Piros | 0.33 | 0.597 | ✓ | +0.655 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14pirneu) |
 | Botic van de Zandschulp (YES) vs Quentin Halys | Bordeaux | 2026-05-14 | YES Botic van de Zandschulp | 0.09 | 0.615 | ✗ | -0.096 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14vanhal) |
