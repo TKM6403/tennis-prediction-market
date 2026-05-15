@@ -1,12 +1,16 @@
-# Settled paper bets (161)
+# Settled paper bets (165)
 
-_Generated 2026-05-15T08:54:53+00:00_
+_Generated 2026-05-15T11:27:52+00:00_
 
-**Wins:** 49 / 161  (30.4%)  
-**Net PnL (per contract):** -10.800
+**Wins:** 50 / 165  (30.3%)  
+**Net PnL (per contract):** -11.273
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Arthur Rinderknech (YES) vs Alex Bogomolov Jr. | Bordeaux | 2026-05-14 | YES Arthur Rinderknech | 0.63 | 1.000 | ✗ | -0.646 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14rindam) |
+| Zsombor Piros (YES) vs Lukas Neumayer | Zagreb | 2026-05-14 | YES Zsombor Piros | 0.33 | 0.597 | ✓ | +0.655 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14pirneu) |
+| Botic van de Zandschulp (YES) vs Quentin Halys | Bordeaux | 2026-05-14 | YES Botic van de Zandschulp | 0.09 | 0.615 | ✗ | -0.096 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14vanhal) |
+| Hugo Dellien (YES) vs Laslo Djere | Oeiras 4 | 2026-05-15 | YES Hugo Dellien | 0.37 | 0.586 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15deldje) |
 | Franco Roncadelli (YES) vs Nicolas Kicker | Cordoba | 2026-05-14 | YES Franco Roncadelli | 0.57 | 0.648 | ✓ | +0.413 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14ronkic) |
 | Pablo Carreno Busta (YES) vs Sebastian Baez | Valencia | 2026-05-14 | YES Pablo Carreno Busta | 0.44 | 0.696 | ✓ | +0.543 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14baecar) |
 | Jan Choinski (YES) vs Chris Rodesch | Zagreb | 2026-05-14 | YES Jan Choinski | 0.42 | 0.548 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14chorod) |

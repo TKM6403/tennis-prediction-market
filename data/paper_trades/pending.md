@@ -1,16 +1,12 @@
-# Pending paper bets (16)
+# Pending paper bets (12)
 
-_Generated 2026-05-15T08:54:53+00:00_
+_Generated 2026-05-15T11:27:52+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
-| **Botic van de Zandschulp** (YES) vs Quentin Halys | Bordeaux | 2026-05-14 | YES Botic van de Zandschulp | 0.09 | 0.615 | +0.525 | 0.0057 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14vanhal) |
-| **Arthur Rinderknech** (YES) vs Alex Bogomolov Jr. | Bordeaux | 2026-05-14 | YES Arthur Rinderknech | 0.63 | 1.000 | +0.370 | 0.0163 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14rindam) |
 | **Juan Manuel La Serna** (YES) vs Juan Bautista Torres | Cordoba | 2026-05-15 | YES Juan Manuel La Serna | 0.26 | 0.580 | +0.320 | 0.0135 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15lator) |
-| **Zsombor Piros** (YES) vs Lukas Neumayer | Zagreb | 2026-05-14 | YES Zsombor Piros | 0.33 | 0.597 | +0.267 | 0.0155 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may14pirneu) |
 | **Tristan Boyer** (NO) vs Inaki Montes-De La Torre | Tunis | 2026-05-15 | NO Tristan Boyer | 0.33 | 0.561 | +0.231 | 0.0155 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15boymon) |
 | **Titouan Droguet** (YES) vs Raphael Collignon | Bordeaux | 2026-05-15 | YES Titouan Droguet | 0.35 | 0.567 | +0.217 | 0.0159 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15coldro) |
-| **Hugo Dellien** (YES) vs Laslo Djere | Oeiras 4 | 2026-05-15 | YES Hugo Dellien | 0.37 | 0.586 | +0.216 | 0.0163 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15deldje) |
 | **Kimmer Coppejans** (YES) vs Ulises Blanch | Tunis | 2026-05-15 | YES Kimmer Coppejans | 0.63 | 0.757 | +0.127 | 0.0163 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15copbla) |
 | **Tallon Griekspoor** (NO) vs Alex Molcan | Bordeaux | 2026-05-15 | NO Tallon Griekspoor | 0.46 | 0.583 | +0.123 | 0.0174 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15molgri) |
 | **Pablo Carreno Busta** (NO) vs Jaume Munar | Valencia | 2026-05-15 | NO Pablo Carreno Busta | 0.44 | 0.549 | +0.109 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15carmun) |
