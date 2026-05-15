@@ -87,10 +87,19 @@ logger = logging.getLogger(__name__)
 # Constants — bet rule and filters
 # ============================================================================
 
-MIN_EDGE       = 0.05   # 5¢ minimum edge after spread (model_p - cost)
-MAX_SPREAD     = 0.50   # markets with (yes_ask - yes_bid) above this are
-                        # treated as empty-book and skipped
-KALSHI_FEE_PCT = 0.07   # taker fee = 7% × p × (1-p) per contract
+MIN_EDGE              = 0.05   # 5¢ minimum edge after spread (model_p - cost)
+MAX_SPREAD            = 0.50   # markets with (yes_ask - yes_bid) above this are
+                               # treated as empty-book and skipped
+KALSHI_FEE_PCT        = 0.07   # taker fee = 7% × p × (1-p) per contract
+MAX_IMPUTED_FEATURES  = 3      # drop bet if >MAX features were NaN at scan time.
+                               # Diagnostic from n=175 showed the 0.30+ edge
+                               # bucket loses 63% — driven by bets where 10+ of
+                               # 15 features are mean-imputed and rank_ratio_a
+                               # dominates the (noisy) prediction.
+MIN_TOURNEY_YEARS     = 3      # for Challenger events, require ≥N years of TML
+                               # history at this tournament. Wuxi/Tunis/Oeiras 4
+                               # / Francavilla had thin coverage and accounted
+                               # for the bulk of losses.
 
 DEFAULT_MODEL_PATH = REPO / "data" / "processed" / "model_augmented_beta.pkl"
 DEFAULT_LOG_DIR    = REPO / "data" / "paper_trades"
@@ -100,9 +109,11 @@ DEFAULT_LOG_DIR    = REPO / "data" / "paper_trades"
 REASON_MISSING_ID   = "missing_player_id"
 REASON_WIDE_SPREAD  = "wide_spread"
 REASON_NO_TOURNEY   = "tournament_not_in_tml"
-REASON_THIN_HISTORY = "thin_player_history"
-REASON_BELOW_EDGE   = "below_min_edge"
-REASON_DUPLICATE    = "duplicate_match"
+REASON_THIN_HISTORY  = "thin_player_history"
+REASON_BELOW_EDGE    = "below_min_edge"
+REASON_DUPLICATE     = "duplicate_match"
+REASON_HIGH_IMPUTED  = "high_imputation"
+REASON_THIN_TOURNEY  = "thin_tournament_history"
 
 
 # ============================================================================
@@ -572,6 +583,33 @@ class PaperTrader:
                 f"rank_ratio_a NaN (rank_a={rank_a}, rank_b={rank_b})",
             )
 
+        # High-imputation guard: if either player has too many features
+        # mean-imputed, the model's theo is dominated by whatever is non-NaN
+        # (usually just rank_ratio_a). This was the n=175 diagnostic finding —
+        # bets in the 0.30+ edge bucket lost 63% ROI because they were
+        # disproportionately matches where 10+ features were imputed.
+        n_imp_a = int(feat_a.isna().sum())
+        n_imp_b = int(feat_b.isna().sum())
+        if n_imp_a > MAX_IMPUTED_FEATURES or n_imp_b > MAX_IMPUTED_FEATURES:
+            return self._drop_group(
+                group, ts, REASON_HIGH_IMPUTED,
+                f"n_imputed_a={n_imp_a} n_imputed_b={n_imp_b} "
+                f"(threshold {MAX_IMPUTED_FEATURES})",
+            )
+
+        # Tournament-history guard: for Challenger events specifically,
+        # require ≥MIN_TOURNEY_YEARS of TML history at this tournament.
+        # The "cursed 4" (Wuxi/Tunis/Oeiras 4/Francavilla) at n=175 had
+        # thin or one-time appearances in TML and concentrated the losses.
+        if level == "C":
+            n_years = self._tournament_history_years(primary["tournament"])
+            if n_years < MIN_TOURNEY_YEARS:
+                return self._drop_group(
+                    group, ts, REASON_THIN_TOURNEY,
+                    f"{primary['tournament']!r} has {n_years} years in TML "
+                    f"(need {MIN_TOURNEY_YEARS})",
+                )
+
         # Predict
         X = np.vstack([feat_a.values.astype(float), feat_b.values.astype(float)])
         theos = self.model.predict_proba(X)[:, 1]
@@ -856,6 +894,29 @@ class PaperTrader:
             return np.nan
         last = hits.iloc[0]
         return float(last["winner_rank"]) if side_winner.loc[last.name] else float(last["loser_rank"])
+
+    def _tournament_history_years(self, tournament: str) -> int:
+        """
+        Count how many distinct calendar years this tournament appears in TML.
+
+        Used by the Challenger-tier guard in _score_match_from_features:
+        a Challenger event with only 0–2 years of TML history is likely a
+        one-off / regional event where our features (built from match
+        history) are thin and the market may price local knowledge we
+        can't see. The "cursed 4" tournaments from the n=175 diagnostic
+        had thin coverage and accounted for ~all the loss.
+        """
+        if not isinstance(tournament, str) or not tournament:
+            return 0
+        target = _normalize_tournament(tournament)
+        if not target:
+            return 0
+        norm_tml = self.tml_df["tournament"].astype(str).map(_normalize_tournament)
+        matched = self.tml_df.loc[norm_tml == target, "match_date"]
+        if matched.empty:
+            return 0
+        years = pd.to_datetime(matched, errors="coerce").dt.year.dropna().unique()
+        return int(len(years))
 
     def _infer_surface_and_level(self, tournament: str) -> Tuple[Optional[str], Optional[str]]:
         """Look up surface + tourney_level from prior TML rows for this tournament."""

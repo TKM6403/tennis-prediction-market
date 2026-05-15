@@ -1,12 +1,12 @@
-# Dropped markets (1213)
+# Dropped markets (1211)
 
-_Generated 2026-05-15T19:43:34+00:00_
+_Generated 2026-05-15T20:44:57+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `duplicate_match` | 769 |
+| `duplicate_match` | 767 |
 | `below_min_edge` | 167 |
 | `missing_player_id` | 137 |
 | `tournament_not_in_tml` | 94 |
@@ -314,8 +314,6 @@ _Generated 2026-05-15T19:43:34+00:00_
 | Tallon Griekspoor vs Alex Molcan | Bordeaux | 2026-05-15 | 0.46 / 0.45 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15MOLGRI | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15molgri) |
 | Titouan Droguet vs Raphael Collignon | Bordeaux | 2026-05-15 | 0.33 / 0.32 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15COLDRO | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15coldro) |
 | Raphael Collignon vs Titouan Droguet | Bordeaux | 2026-05-15 | 0.69 / 0.68 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15COLDRO | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15coldro) |
-| Titouan Droguet vs Raphael Collignon | Bordeaux | 2026-05-15 | 0.01 / 0.00 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15COLDRO | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15coldro) |
-| Raphael Collignon vs Titouan Droguet | Bordeaux | 2026-05-15 | 1.00 / 0.99 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15COLDRO | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15coldro) |
 | Sumit Nagal vs Geoffrey Blancaneaux | Bordeaux Qualification | 2026-05-12 | 0.63 / 0.61 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12BLANAG | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12blanag) |
 | Geoffrey Blancaneaux vs Sumit Nagal | Bordeaux Qualification | 2026-05-12 | 0.39 / 0.37 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12BLANAG | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12blanag) |
 | Pierre Delage vs Ugo Blanchet | Bordeaux Qualification | 2026-05-12 | 0.20 / 0.19 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12BLADEL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12bladel) |
@@ -949,8 +947,8 @@ _Generated 2026-05-15T19:43:34+00:00_
 | Jan Choinski vs Arthur Fery | Zagreb | 2026-05-15 | 0.60 / 0.58 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15CHOFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15chofer) |
 | Arthur Fery vs Jan Choinski | Zagreb | 2026-05-15 | 0.29 / 0.28 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15CHOFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15chofer) |
 | Jan Choinski vs Arthur Fery | Zagreb | 2026-05-15 | 0.72 / 0.71 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15CHOFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15chofer) |
-| Zsombor Piros vs Elmer Moller | Zagreb | 2026-05-15 | 0.73 / 0.72 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15MOLPIR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15molpir) |
-| Elmer Moller vs Zsombor Piros | Zagreb | 2026-05-15 | 0.28 / 0.27 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15MOLPIR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15molpir) |
+| Zsombor Piros vs Elmer Moller | Zagreb | 2026-05-15 | 0.74 / 0.71 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15MOLPIR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15molpir) |
+| Elmer Moller vs Zsombor Piros | Zagreb | 2026-05-15 | 0.27 / 0.25 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15MOLPIR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15molpir) |
 | Arthur Fery vs Jan Choinski | Zagreb | 2026-05-15 | 0.31 / 0.30 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15CHOFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15chofer) |
 | Jan Choinski vs Arthur Fery | Zagreb | 2026-05-15 | 0.70 / 0.69 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15CHOFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15chofer) |
 | Amit Vales vs Aditya Vishal Balsekar | Bengaluru 2 | 2026-05-12 | 0.76 / 0.72 | `missing_player_id` | player_a_id=None, player_b_id='V0GI' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12valbal) |
