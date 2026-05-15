@@ -1,12 +1,12 @@
-# Dropped markets (1211)
+# Dropped markets (1215)
 
-_Generated 2026-05-15T20:44:57+00:00_
+_Generated 2026-05-15T22:05:42+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `duplicate_match` | 767 |
+| `duplicate_match` | 771 |
 | `below_min_edge` | 167 |
 | `missing_player_id` | 137 |
 | `tournament_not_in_tml` | 94 |
@@ -951,6 +951,10 @@ _Generated 2026-05-15T20:44:57+00:00_
 | Elmer Moller vs Zsombor Piros | Zagreb | 2026-05-15 | 0.27 / 0.25 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15MOLPIR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15molpir) |
 | Arthur Fery vs Jan Choinski | Zagreb | 2026-05-15 | 0.31 / 0.30 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15CHOFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15chofer) |
 | Jan Choinski vs Arthur Fery | Zagreb | 2026-05-15 | 0.70 / 0.69 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15CHOFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15chofer) |
+| Zsombor Piros vs Elmer Moller | Zagreb | 2026-05-15 | 0.73 / 0.72 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15MOLPIR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15molpir) |
+| Elmer Moller vs Zsombor Piros | Zagreb | 2026-05-15 | 0.28 / 0.26 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15MOLPIR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15molpir) |
+| Arthur Fery vs Jan Choinski | Zagreb | 2026-05-15 | 0.31 / 0.30 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15CHOFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15chofer) |
+| Jan Choinski vs Arthur Fery | Zagreb | 2026-05-15 | 0.69 / 0.68 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15CHOFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15chofer) |
 | Amit Vales vs Aditya Vishal Balsekar | Bengaluru 2 | 2026-05-12 | 0.76 / 0.72 | `missing_player_id` | player_a_id=None, player_b_id='V0GI' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12valbal) |
 | Aditya Vishal Balsekar vs Vales | Bengaluru 2 | 2026-05-12 | 0.28 / 0.24 | `missing_player_id` | player_a_id='V0GI', player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12valbal) |
 | Christopher Papa vs Ryuki Matsuda | Bengaluru 2 | 2026-05-12 | 0.40 / 0.38 | `missing_player_id` | player_a_id=None, player_b_id='M0G0' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12matpap) |
