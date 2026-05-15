@@ -100,6 +100,19 @@ MIN_TOURNEY_YEARS     = 3      # for Challenger events, require ≥N years of TM
                                # history at this tournament. Wuxi/Tunis/Oeiras 4
                                # / Francavilla had thin coverage and accounted
                                # for the bulk of losses.
+MIN_PLAYER_COVERAGE   = 15     # require ≥N matches in TML in the 52w preceding
+                               # event_date for BOTH players. Counterfactual on
+                               # n=176 settled bets: 60 of 94 would-be-dropped
+                               # bets failed this (typically cov_b=0 from a
+                               # resolver miss). Catches the "phantom matchup"
+                               # bets where the opponent has no recent record.
+MAX_MIRROR_SUM_DEV    = 0.03   # require |yes_ask_a + yes_ask_b - 1.0| ≤ MAX.
+                               # Tight mirrors = market-makers know what they
+                               # quote. Loose mirrors (sum 1.04-1.12) are thin
+                               # books with phantom edges; 55 of 94 would-be
+                               # drops failed this gate alone.
+MIN_OPEN_INTEREST     = 0.0    # placeholder — OI not yet plumbed from Kalshi
+                               # normalize. Set to 500 once we surface it.
 
 DEFAULT_MODEL_PATH = REPO / "data" / "processed" / "model_augmented_beta.pkl"
 DEFAULT_LOG_DIR    = REPO / "data" / "paper_trades"
@@ -114,6 +127,8 @@ REASON_BELOW_EDGE    = "below_min_edge"
 REASON_DUPLICATE     = "duplicate_match"
 REASON_HIGH_IMPUTED  = "high_imputation"
 REASON_THIN_TOURNEY  = "thin_tournament_history"
+REASON_LOW_COVERAGE  = "low_player_coverage"
+REASON_LOOSE_MIRROR  = "loose_mirror_sum"
 
 
 # ============================================================================
@@ -583,6 +598,22 @@ class PaperTrader:
                 f"rank_ratio_a NaN (rank_a={rank_a}, rank_b={rank_b})",
             )
 
+        # Player-coverage gate: require both players to have ≥N matches in
+        # the 52w preceding event_date. Catches the cov_b=0 failure mode
+        # where the resolver mapped Kalshi's player_b to a TML id with no
+        # recent record (counterfactual on n=176 settled bets: 60 / 94
+        # would-be-dropped bets failed this leg). Strictly tighter than
+        # high-imputation in many cases because imputation looks only at
+        # AUGMENTED_FEATURES, while coverage looks at raw match presence.
+        cov_a = self._player_coverage(pa_id, event_date)
+        cov_b = self._player_coverage(pb_id, event_date)
+        if cov_a < MIN_PLAYER_COVERAGE or cov_b < MIN_PLAYER_COVERAGE:
+            return self._drop_group(
+                group, ts, REASON_LOW_COVERAGE,
+                f"cov_a={cov_a} cov_b={cov_b} "
+                f"(min {MIN_PLAYER_COVERAGE})",
+            )
+
         # High-imputation guard: if either player has too many features
         # mean-imputed, the model's theo is dominated by whatever is non-NaN
         # (usually just rank_ratio_a). This was the n=175 diagnostic finding —
@@ -678,13 +709,28 @@ class PaperTrader:
                 f"theo={best['theo']:.3f}",
             )
 
-        # Eligible — record one row to pending
+        # Collect quotes from both mirrors before the mirror-sum gate.
         ask_a = bid_a = ask_b = bid_b = np.nan
         for m in group:
             if m["player_a_id"] == pa_id:
                 ask_a, bid_a = m.get("yes_ask"), m.get("yes_bid")
             elif m["player_a_id"] == pb_id:
                 ask_b, bid_b = m.get("yes_ask"), m.get("yes_bid")
+
+        # Mirror-sum gate: yes_ask_A + yes_ask_B should sum to ~1.0 (plus
+        # a small spread) for tight, well-quoted books. Loose mirrors
+        # (sum 1.04-1.12) signal phantom edges from thin liquidity; 55 of
+        # 94 would-be-dropped bets in the counterfactual failed this leg.
+        # Skip the check if either ask is missing (single-sided market).
+        if pd.notna(ask_a) and pd.notna(ask_b):
+            mirror_dev = abs((float(ask_a) + float(ask_b)) - 1.0)
+            if mirror_dev > MAX_MIRROR_SUM_DEV:
+                return self._drop_group(
+                    group, ts, REASON_LOOSE_MIRROR,
+                    f"yes_ask_a={ask_a:.2f} + yes_ask_b={ask_b:.2f} "
+                    f"= {ask_a+ask_b:.3f} (dev {mirror_dev:.3f} > "
+                    f"{MAX_MIRROR_SUM_DEV})",
+                )
 
         # Per-feature signed log-odds shifts, in the perspective of the
         # player we're betting ON winning (so positive = pushed toward bet).
@@ -894,6 +940,29 @@ class PaperTrader:
             return np.nan
         last = hits.iloc[0]
         return float(last["winner_rank"]) if side_winner.loc[last.name] else float(last["loser_rank"])
+
+    def _player_coverage(self, player_id, cutoff) -> int:
+        """
+        Count matches for `player_id` in the 52w window immediately before
+        cutoff (the match date). Strict < cutoff — never counts the match
+        we're scoring.
+
+        Returns 0 if player_id is missing OR if the resolver mapped to a
+        TML id with no recent matches (the cov_b=0 failure mode that
+        drives the worst counterfactual drops).
+        """
+        if pd.isna(player_id):
+            return 0
+        cutoff = pd.Timestamp(cutoff)
+        win_start = cutoff - pd.Timedelta(days=365)
+        md = pd.to_datetime(self.tml_df["match_date"], errors="coerce")
+        mask = (
+            ((self.tml_df["winner_id"] == player_id)
+             | (self.tml_df["loser_id"] == player_id))
+            & (md < cutoff)
+            & (md >= win_start)
+        )
+        return int(mask.sum())
 
     def _tournament_history_years(self, tournament: str) -> int:
         """
