@@ -1,12 +1,13 @@
-# Settled paper bets (177)
+# Settled paper bets (178)
 
-_Generated 2026-05-16T10:21:46+00:00_
+_Generated 2026-05-16T13:29:20+00:00_
 
-**Wins:** 56 / 177  (31.6%)  
-**Net PnL (per contract):** -10.636
+**Wins:** 57 / 178  (32.0%)  
+**Net PnL (per contract):** -10.253
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Francisco Cerundolo (NO) vs Quentin Halys | Bordeaux | 2026-05-16 | NO Francisco Cerundolo | 0.60 | 0.656 | ✓ | +0.383 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16cerhal) |
 | Titouan Droguet (YES) vs Raphael Collignon | Bordeaux | 2026-05-15 | YES Titouan Droguet | 0.35 | 0.567 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15coldro) |
 | Franco Roncadelli (YES) vs Guido Ivan Justo | Cordoba | 2026-05-15 | YES Franco Roncadelli | 0.50 | 0.558 | ✓ | +0.482 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15jusron) |
 | Tallon Griekspoor (NO) vs Alex Molcan | Bordeaux | 2026-05-15 | NO Tallon Griekspoor | 0.46 | 0.583 | ✓ | +0.523 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15molgri) |
