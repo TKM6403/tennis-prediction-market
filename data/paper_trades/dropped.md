@@ -1,13 +1,13 @@
-# Dropped markets (1299)
+# Dropped markets (1309)
 
-_Generated 2026-05-16T13:29:20+00:00_
+_Generated 2026-05-16T16:03:15+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `duplicate_match` | 809 |
-| `below_min_edge` | 181 |
+| `duplicate_match` | 817 |
+| `below_min_edge` | 183 |
 | `missing_player_id` | 137 |
 | `tournament_not_in_tml` | 102 |
 | `wide_spread` | 28 |
@@ -172,6 +172,8 @@ _Generated 2026-05-16T13:29:20+00:00_
 | Adolfo Daniel Vallejo vs Jaume Munar | Valencia | 2026-05-16 | 0.53 / 0.52 | `below_min_edge` | best_edge=0.004 on NO @ theo=0.484 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16valmun) |
 | Jaume Munar vs Adolfo Daniel Vallejo | Valencia | 2026-05-16 | 0.49 / 0.47 | `below_min_edge` | best_edge=0.004 on NO @ theo=0.484 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16valmun) |
 | Adolfo Daniel Vallejo vs Jaume Munar | Valencia | 2026-05-16 | 0.52 / 0.51 | `below_min_edge` | best_edge=0.018 on NO @ theo=0.528 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16valmun) |
+| Jaume Munar vs Adolfo Daniel Vallejo | Valencia | 2026-05-16 | 0.50 / 0.49 | `below_min_edge` | best_edge=0.018 on NO @ theo=0.528 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16valmun) |
+| Adolfo Daniel Vallejo vs Jaume Munar | Valencia | 2026-05-16 | 0.51 / 0.50 | `below_min_edge` | best_edge=0.018 on NO @ theo=0.528 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16valmun) |
 | Jaume Munar vs Adolfo Daniel Vallejo | Valencia | 2026-05-16 | 0.50 / 0.49 | `below_min_edge` | best_edge=0.018 on NO @ theo=0.528 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16valmun) |
 | Akira Santillan vs Jack Pinnington Jones | Wuxi | 2026-05-07 | 0.51 / 0.50 | `below_min_edge` | best_edge=0.015 on YES @ theo=0.525 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may07jonsan) |
 | Maximus Jones vs Akira Santillan | Wuxi | 2026-05-07 | 0.50 / 0.48 | `below_min_edge` | best_edge=0.015 on YES @ theo=0.525 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may07jonsan) |
@@ -447,6 +449,8 @@ _Generated 2026-05-16T13:29:20+00:00_
 | Juan Manuel La Serna vs Franco Roncadelli | Cordoba | 2026-05-16 | 0.37 / 0.36 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY16RONLA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16ronla) |
 | Franco Roncadelli vs Juan Manuel La Serna | Cordoba | 2026-05-16 | 0.63 / 0.62 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY16RONLA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16ronla) |
 | Juan Manuel La Serna vs Franco Roncadelli | Cordoba | 2026-05-16 | 0.37 / 0.36 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY16RONLA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16ronla) |
+| Franco Roncadelli vs Juan Manuel La Serna | Cordoba | 2026-05-16 | 0.72 / 0.69 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY16RONLA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16ronla) |
+| Juan Manuel La Serna vs Franco Roncadelli | Cordoba | 2026-05-16 | 0.29 / 0.28 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY16RONLA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16ronla) |
 | Nicolas Mejia vs Benjamin Hassan | Oeiras 4 | 2026-05-12 | 0.59 / 0.56 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12HASMEJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12hasmej) |
 | Benjamin Hassan vs Nicolas Mejia | Oeiras 4 | 2026-05-12 | 0.43 / 0.41 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12HASMEJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12hasmej) |
 | Zhizhen Zhang vs Zdenek Kolar | Oeiras 4 | 2026-05-12 | 0.48 / 0.43 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12KOLZHA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12kolzha) |
@@ -751,6 +755,8 @@ _Generated 2026-05-16T13:29:20+00:00_
 | Miomir Kecmanovic vs Alejandro Tabilo | Valencia | 2026-05-16 | 0.44 / 0.43 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY16TABKEC | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16tabkec) |
 | Alejandro Tabilo vs Miomir Kecmanovic | Valencia | 2026-05-16 | 0.56 / 0.55 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY16TABKEC | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16tabkec) |
 | Miomir Kecmanovic vs Alejandro Tabilo | Valencia | 2026-05-16 | 0.46 / 0.45 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY16TABKEC | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16tabkec) |
+| Alejandro Tabilo vs Miomir Kecmanovic | Valencia | 2026-05-16 | 0.50 / 0.49 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY16TABKEC | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16tabkec) |
+| Miomir Kecmanovic vs Alejandro Tabilo | Valencia | 2026-05-16 | 0.53 / 0.48 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY16TABKEC | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16tabkec) |
 | Henri Squire vs Timofey Skatov | Valencia Qualification | 2026-05-12 | 0.43 / 0.41 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12SKASQU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12skasqu) |
 | Timofey Skatov vs Henri Squire | Valencia Qualification | 2026-05-12 | 0.59 / 0.56 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12SKASQU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12skasqu) |
 | Carlos Sanchez Jover vs Taro Daniel | Valencia Qualification | 2026-05-12 | 0.57 / 0.54 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12SANDAN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12sandan) |
@@ -1010,6 +1016,10 @@ _Generated 2026-05-16T13:29:20+00:00_
 | Elmer Moller vs Zsombor Piros | Zagreb | 2026-05-15 | 0.26 / 0.21 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15MOLPIR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15molpir) |
 | Arthur Fery vs Jan Choinski | Zagreb | 2026-05-15 | 0.58 / 0.57 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15CHOFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15chofer) |
 | Jan Choinski vs Arthur Fery | Zagreb | 2026-05-15 | 0.42 / 0.41 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15CHOFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15chofer) |
+| Zsombor Piros vs Elmer Moller | Zagreb | 2026-05-15 | 0.79 / 0.75 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15MOLPIR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15molpir) |
+| Elmer Moller vs Zsombor Piros | Zagreb | 2026-05-15 | 0.24 / 0.21 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15MOLPIR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15molpir) |
+| Arthur Fery vs Jan Choinski | Zagreb | 2026-05-15 | 0.63 / 0.61 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15CHOFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15chofer) |
+| Jan Choinski vs Arthur Fery | Zagreb | 2026-05-15 | 0.39 / 0.37 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY15CHOFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15chofer) |
 | Tallon Griekspoor vs Raphael Collignon | Bordeaux | 2026-05-16 | 0.40 / 0.36 | `loose_mirror_sum` | yes_ask_a=0.40 + yes_ask_b=0.64 = 1.040 (dev 0.040 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16colgri) |
 | Raphael Collignon vs Tallon Griekspoor | Bordeaux | 2026-05-16 | 0.64 / 0.63 | `loose_mirror_sum` | yes_ask_a=0.40 + yes_ask_b=0.64 = 1.040 (dev 0.040 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16colgri) |
 | Tallon Griekspoor vs Raphael Collignon | Bordeaux | 2026-05-16 | 0.40 / 0.39 | `loose_mirror_sum` | yes_ask_a=0.40 + yes_ask_b=0.64 = 1.040 (dev 0.040 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16colgri) |
