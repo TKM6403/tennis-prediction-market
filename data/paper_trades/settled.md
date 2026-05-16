@@ -1,12 +1,13 @@
-# Settled paper bets (181)
+# Settled paper bets (182)
 
-_Generated 2026-05-16T19:10:41+00:00_
+_Generated 2026-05-16T21:55:52+00:00_
 
-**Wins:** 58 / 181  (32.0%)  
-**Net PnL (per contract):** -10.622
+**Wins:** 59 / 182  (32.4%)  
+**Net PnL (per contract):** -9.917
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Adolfo Daniel Vallejo (NO) vs Jaume Munar | Valencia | 2026-05-16 | NO Adolfo Daniel Vallejo | 0.28 | 0.528 | ✓ | +0.706 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16valmun) |
 | Alejandro Tabilo (YES) vs Miomir Kecmanovic | Valencia | 2026-05-16 | YES Alejandro Tabilo | 0.57 | 0.787 | ✗ | -0.587 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16tabkec) |
 | Juan Manuel La Serna (YES) vs Franco Roncadelli | Cordoba | 2026-05-16 | YES Juan Manuel La Serna | 0.37 | 0.421 | ✓ | +0.614 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16ronla) |
 | Tallon Griekspoor (YES) vs Raphael Collignon | Bordeaux | 2026-05-16 | YES Tallon Griekspoor | 0.38 | 0.493 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16colgri) |
