@@ -1,12 +1,14 @@
-# Settled paper bets (179)
+# Settled paper bets (181)
 
-_Generated 2026-05-16T16:03:15+00:00_
+_Generated 2026-05-16T19:10:41+00:00_
 
-**Wins:** 57 / 179  (31.8%)  
-**Net PnL (per contract):** -10.649
+**Wins:** 58 / 181  (32.0%)  
+**Net PnL (per contract):** -10.622
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Alejandro Tabilo (YES) vs Miomir Kecmanovic | Valencia | 2026-05-16 | YES Alejandro Tabilo | 0.57 | 0.787 | ✗ | -0.587 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16tabkec) |
+| Juan Manuel La Serna (YES) vs Franco Roncadelli | Cordoba | 2026-05-16 | YES Juan Manuel La Serna | 0.37 | 0.421 | ✓ | +0.614 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16ronla) |
 | Tallon Griekspoor (YES) vs Raphael Collignon | Bordeaux | 2026-05-16 | YES Tallon Griekspoor | 0.38 | 0.493 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16colgri) |
 | Francisco Cerundolo (NO) vs Quentin Halys | Bordeaux | 2026-05-16 | NO Francisco Cerundolo | 0.60 | 0.656 | ✓ | +0.383 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16cerhal) |
 | Titouan Droguet (YES) vs Raphael Collignon | Bordeaux | 2026-05-15 | YES Titouan Droguet | 0.35 | 0.567 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15coldro) |
