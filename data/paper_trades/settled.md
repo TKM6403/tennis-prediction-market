@@ -1,12 +1,14 @@
-# Settled paper bets (182)
+# Settled paper bets (184)
 
-_Generated 2026-05-17T08:27:15+00:00_
+_Generated 2026-05-17T10:27:58+00:00_
 
-**Wins:** 59 / 182  (32.4%)  
-**Net PnL (per contract):** -9.917
+**Wins:** 59 / 184  (32.1%)  
+**Net PnL (per contract):** -10.648
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Arthur Fery (YES) vs Jan Choinski | Zagreb | 2026-05-15 | YES Arthur Fery | 0.43 | 0.504 | ✗ | -0.447 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15chofer) |
+| Elmer Moller (YES) vs Zsombor Piros | Zagreb | 2026-05-15 | YES Elmer Moller | 0.27 | 0.343 | ✗ | -0.284 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15molpir) |
 | Adolfo Daniel Vallejo (NO) vs Jaume Munar | Valencia | 2026-05-16 | NO Adolfo Daniel Vallejo | 0.28 | 0.528 | ✓ | +0.706 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16valmun) |
 | Alejandro Tabilo (YES) vs Miomir Kecmanovic | Valencia | 2026-05-16 | YES Alejandro Tabilo | 0.57 | 0.787 | ✗ | -0.587 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16tabkec) |
 | Juan Manuel La Serna (YES) vs Franco Roncadelli | Cordoba | 2026-05-16 | YES Juan Manuel La Serna | 0.37 | 0.421 | ✓ | +0.614 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16ronla) |
