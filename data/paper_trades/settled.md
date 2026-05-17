@@ -1,12 +1,14 @@
-# Settled paper bets (185)
+# Settled paper bets (187)
 
-_Generated 2026-05-17T16:04:18+00:00_
+_Generated 2026-05-17T19:15:01+00:00_
 
-**Wins:** 59 / 185  (31.9%)  
-**Net PnL (per contract):** -11.013
+**Wins:** 60 / 187  (32.1%)  
+**Net PnL (per contract):** -10.725
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Adolfo Daniel Vallejo (YES) vs Miomir Kecmanovic | Valencia | 2026-05-17 | YES Adolfo Daniel Vallejo | 0.36 | 0.630 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17kecval) |
+| Francisco Cerundolo (NO) vs Raphael Collignon | Bordeaux | 2026-05-17 | NO Francisco Cerundolo | 0.32 | 0.570 | ✓ | +0.665 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17cercol) |
 | Zsombor Piros (YES) vs Jan Choinski | Zagreb | 2026-05-17 | YES Zsombor Piros | 0.35 | 0.490 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17chopir) |
 | Arthur Fery (YES) vs Jan Choinski | Zagreb | 2026-05-15 | YES Arthur Fery | 0.43 | 0.504 | ✗ | -0.447 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15chofer) |
 | Elmer Moller (YES) vs Zsombor Piros | Zagreb | 2026-05-15 | YES Elmer Moller | 0.27 | 0.343 | ✗ | -0.284 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15molpir) |
