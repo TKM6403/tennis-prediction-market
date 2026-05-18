@@ -1,12 +1,14 @@
-# Settled paper bets (189)
+# Settled paper bets (191)
 
-_Generated 2026-05-18T15:39:41+00:00_
+_Generated 2026-05-18T19:50:51+00:00_
 
-**Wins:** 60 / 189  (31.7%)  
-**Net PnL (per contract):** -11.648
+**Wins:** 61 / 191  (31.9%)  
+**Net PnL (per contract):** -11.172
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Maxim Mrva (YES) vs Jonas Forejtek | Istanbul | 2026-05-18 | YES Maxim Mrva | 0.40 | 0.464 | ✓ | +0.583 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18mrvfor) |
+| Carlos Sanchez Jover (YES) vs Nikolas Sanchez Izquierdo | Istanbul | 2026-05-18 | YES Carlos Sanchez Jover | 0.10 | 0.291 | ✗ | -0.106 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18sansai) |
 | Andres Martin (YES) vs David Jorda Sanchis | Istanbul | 2026-05-18 | YES Andres Martin | 0.36 | 0.527 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18marjor) |
 | Marat Sharipov (YES) vs Daniel Michalski | Istanbul | 2026-05-18 | YES Marat Sharipov | 0.53 | 0.667 | ✗ | -0.547 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18micsha) |
 | Adolfo Daniel Vallejo (YES) vs Miomir Kecmanovic | Valencia | 2026-05-17 | YES Adolfo Daniel Vallejo | 0.36 | 0.630 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17kecval) |
