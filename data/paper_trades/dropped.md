@@ -1,19 +1,19 @@
-# Dropped markets (1675)
+# Dropped markets (1737)
 
-_Generated 2026-05-17T22:01:27+00:00_
+_Generated 2026-05-18T03:50:00+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
 | `duplicate_match` | 849 |
-| `missing_player_id` | 277 |
-| `tournament_not_in_tml` | 210 |
-| `below_min_edge` | 183 |
-| `low_player_coverage` | 68 |
+| `missing_player_id` | 291 |
+| `tournament_not_in_tml` | 242 |
+| `below_min_edge` | 186 |
+| `low_player_coverage` | 79 |
 | `wide_spread` | 54 |
 | `thin_player_history` | 18 |
-| `loose_mirror_sum` | 8 |
+| `loose_mirror_sum` | 10 |
 | `thin_tournament_history` | 8 |
 
 ## Detail
@@ -113,6 +113,9 @@ _Generated 2026-05-17T22:01:27+00:00_
 | Juan Manuel La Serna vs Franco Roncadelli | Cordoba | 2026-05-16 | 0.38 / 0.36 | `below_min_edge` | best_edge=0.041 on YES @ theo=0.421 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16ronla) |
 | Ryan Seggerman vs Juan Carlos Prado Angelo | Francavilla | 2026-05-07 | 0.30 / 0.28 | `below_min_edge` | best_edge=0.035 on YES @ theo=0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may07praseg) |
 | Juan Carlos Prado Angelo vs Ryan Seggerman | Francavilla | 2026-05-07 | 0.72 / 0.71 | `below_min_edge` | best_edge=0.035 on YES @ theo=0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may07praseg) |
+| Maxim Mrva vs Jonas Forejtek | Istanbul | 2026-05-18 | 0.42 / 0.39 | `below_min_edge` | best_edge=0.044 on YES @ theo=0.464 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18mrvfor) |
+| Jonas Forejtek vs Maxim Mrva | Istanbul | 2026-05-18 | 0.59 / 0.58 | `below_min_edge` | best_edge=0.044 on YES @ theo=0.464 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18mrvfor) |
+| Carlos Sanchez Jover vs Nikolas Sanchez Izquierdo | Istanbul | 2026-05-18 | 0.34 / 0.32 | `below_min_edge` | best_edge=0.029 on NO @ theo=0.709 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18sansai) |
 | Tiago Torres vs Jaime Faria | Oeiras 4 | 2026-05-12 | 0.24 / 0.21 | `below_min_edge` | best_edge=0.043 on YES @ theo=0.833 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12torfar) |
 | Jaime Faria vs Juan Bautista Torres | Oeiras 4 | 2026-05-12 | 0.79 / 0.76 | `below_min_edge` | best_edge=0.043 on YES @ theo=0.833 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12torfar) |
 | Tiago Torres vs Jaime Faria | Oeiras 4 | 2026-05-12 | 0.19 / 0.17 | `below_min_edge` | best_edge=0.033 on YES @ theo=0.223 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12torfar) |
@@ -1056,10 +1059,16 @@ _Generated 2026-05-17T22:01:27+00:00_
 | Raphael Collignon vs Tallon Griekspoor | Bordeaux | 2026-05-16 | 0.64 / 0.63 | `loose_mirror_sum` | yes_ask_a=0.40 + yes_ask_b=0.64 = 1.040 (dev 0.040 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16colgri) |
 | Tallon Griekspoor vs Raphael Collignon | Bordeaux | 2026-05-16 | 0.40 / 0.39 | `loose_mirror_sum` | yes_ask_a=0.40 + yes_ask_b=0.64 = 1.040 (dev 0.040 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16colgri) |
 | Raphael Collignon vs Tallon Griekspoor | Bordeaux | 2026-05-16 | 0.64 / 0.63 | `loose_mirror_sum` | yes_ask_a=0.40 + yes_ask_b=0.64 = 1.040 (dev 0.040 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16colgri) |
+| Marat Sharipov vs Daniel Michalski | Istanbul | 2026-05-18 | 0.54 / 0.51 | `loose_mirror_sum` | yes_ask_a=0.54 + yes_ask_b=0.49 = 1.030 (dev 0.030 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18micsha) |
+| Daniel Michalski vs Marat Sharipov | Istanbul | 2026-05-18 | 0.49 / 0.46 | `loose_mirror_sum` | yes_ask_a=0.54 + yes_ask_b=0.49 = 1.030 (dev 0.030 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18micsha) |
 | Alejandro Tabilo vs Miomir Kecmanovic | Valencia | 2026-05-16 | 0.59 / 0.56 | `loose_mirror_sum` | yes_ask_a=0.59 + yes_ask_b=0.44 = 1.030 (dev 0.030 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16tabkec) |
 | Miomir Kecmanovic vs Alejandro Tabilo | Valencia | 2026-05-16 | 0.44 / 0.41 | `loose_mirror_sum` | yes_ask_a=0.59 + yes_ask_b=0.44 = 1.030 (dev 0.030 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16tabkec) |
 | Zsombor Piros vs Jan Choinski | Zagreb | 2026-05-17 | 0.71 / 0.54 | `loose_mirror_sum` | yes_ask_a=0.71 + yes_ask_b=0.49 = 1.200 (dev 0.200 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17chopir) |
 | Jan Choinski vs Zsombor Piros | Zagreb | 2026-05-17 | 0.49 / 0.36 | `loose_mirror_sum` | yes_ask_a=0.71 + yes_ask_b=0.49 = 1.200 (dev 0.200 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17chopir) |
+| Pol Martin Tiffon vs Yannick Theodor Alexandrescou | Istanbul | 2026-05-18 | 0.81 / 0.78 | `low_player_coverage` | cov_a=43 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18marale) |
+| Yannick Theodor Alexandrescou vs Pol Martin Tiffon | Istanbul | 2026-05-18 | 0.22 / 0.19 | `low_player_coverage` | cov_a=43 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18marale) |
+| Tuncay Duran vs Franco Agamenone | Istanbul | 2026-05-18 | 0.19 / 0.17 | `low_player_coverage` | cov_a=0 cov_b=32 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18duraga) |
+| Franco Agamenone vs Tuncay Duran | Istanbul | 2026-05-18 | 0.83 / 0.81 | `low_player_coverage` | cov_a=0 cov_b=32 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18duraga) |
 | Imanol Lopez Morillo vs Alafia Ayeni | Istanbul Qualification | 2026-05-17 | 0.71 / 0.65 | `low_player_coverage` | cov_a=1 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17avelop) |
 | Alafia Ayeni vs Imanol Lopez Morillo | Istanbul Qualification | 2026-05-17 | 0.34 / 0.29 | `low_player_coverage` | cov_a=1 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17avelop) |
 | Anton Matusevich vs Ergi Kirkin | Istanbul Qualification | 2026-05-17 | 0.60 / 0.55 | `low_player_coverage` | cov_a=7 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17matkir) |
@@ -1118,6 +1127,13 @@ _Generated 2026-05-17T22:01:27+00:00_
 | Karim Bennani vs Aleksandr Braynin | Istanbul Qualification | 2026-05-17 | 0.76 / 0.75 | `low_player_coverage` | cov_a=2 cov_b=7 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17braben) |
 | Reda Bennani vs Alafia Ayeni | Istanbul Qualification | 2026-05-18 | 0.67 / 0.62 | `low_player_coverage` | cov_a=4 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18aveben) |
 | Alafia Ayeni vs Karim Bennani | Istanbul Qualification | 2026-05-18 | 0.38 / 0.33 | `low_player_coverage` | cov_a=4 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18aveben) |
+| Alejo Sanchez Quilez vs Karim Bennani | Istanbul Qualification | 2026-05-18 | 0.76 / 0.72 | `low_player_coverage` | cov_a=11 cov_b=7 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18sanben) |
+| Karim Bennani vs Alejo Sanchez Quilez | Istanbul Qualification | 2026-05-18 | 0.27 / 0.24 | `low_player_coverage` | cov_a=11 cov_b=7 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18sanben) |
+| Lucas Poullain vs Vladyslav Orlov | Istanbul Qualification | 2026-05-18 | 0.69 / 0.68 | `low_player_coverage` | cov_a=15 cov_b=7 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18pouorl) |
+| Vladyslav Orlov vs Lucas Poullain | Istanbul Qualification | 2026-05-18 | 0.32 / 0.31 | `low_player_coverage` | cov_a=15 cov_b=7 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18pouorl) |
+| Daniel Dutra da Silva vs Georgii Kravchenko | Istanbul Qualification | 2026-05-18 | 0.63 / 0.61 | `low_player_coverage` | cov_a=32 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18dutkra) |
+| Reda Bennani vs Alafia Ayeni | Istanbul Qualification | 2026-05-18 | 0.63 / 0.61 | `low_player_coverage` | cov_a=4 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18aveben) |
+| Alafia Ayeni vs Karim Bennani | Istanbul Qualification | 2026-05-18 | 0.37 / 0.35 | `low_player_coverage` | cov_a=4 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18aveben) |
 | Tristan Boyer vs Ulises Blanch | Tunis | 2026-05-16 | 0.49 / 0.46 | `low_player_coverage` | cov_a=22 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16boybla) |
 | Dali Blanch vs Tristan Boyer | Tunis | 2026-05-16 | 0.54 / 0.51 | `low_player_coverage` | cov_a=22 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16boybla) |
 | Tristan Boyer vs Ulises Blanch | Tunis | 2026-05-16 | 0.51 / 0.50 | `low_player_coverage` | cov_a=22 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16boybla) |
@@ -1194,6 +1210,8 @@ _Generated 2026-05-17T22:01:27+00:00_
 | Philip Sekulic vs Tyagi | Bengaluru 2 | 2026-05-15 | 0.82 / 0.81 | `missing_player_id` | player_a_id='S0TI', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15sektya) |
 | Sasikumar Mukund vs Jack Pinnington Jones | Bengaluru 3 | 2026-05-18 | 0.41 / 0.28 | `missing_player_id` | player_a_id=nan, player_b_id='P0HT' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18jonmuk) |
 | Maximus Jones vs Mukund | Bengaluru 3 | 2026-05-18 | 0.74 / 0.66 | `missing_player_id` | player_a_id='J0D2', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18jonmuk) |
+| Sasikumar Mukund vs Jack Pinnington Jones | Bengaluru 3 | 2026-05-18 | 0.32 / 0.31 | `missing_player_id` | player_a_id=nan, player_b_id='P0HT' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18jonmuk) |
+| Maximus Jones vs Mukund | Bengaluru 3 | 2026-05-18 | 0.71 / 0.69 | `missing_player_id` | player_a_id='J0D2', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18jonmuk) |
 | Aradhya Kshitij vs Moerani Bouzige | Bengaluru 3 Qualification | 2026-05-17 | 0.94 / 0.05 | `missing_player_id` | player_a_id=nan, player_b_id='B0EK' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17bouksh) |
 | Moerani Bouzige vs Kshitij | Bengaluru 3 Qualification | 2026-05-17 | 0.94 / 0.05 | `missing_player_id` | player_a_id='B0EK', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17bouksh) |
 | Nitin Kumar Sinha vs Masabayashi | Bengaluru 3 Qualification | 2026-05-17 | 0.94 / 0.05 | `missing_player_id` | player_a_id='SY50', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17massin) |
@@ -1276,6 +1294,9 @@ _Generated 2026-05-17T22:01:27+00:00_
 | Joshua Charlton vs Papa | Bengaluru 3 Qualification | 2026-05-18 | 0.68 / 0.66 | `missing_player_id` | player_a_id='C09Y', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18chapap) |
 | Amit Vales vs Naoya Honda | Bengaluru 3 Qualification | 2026-05-18 | 0.50 / 0.49 | `missing_player_id` | player_a_id=nan, player_b_id='H0J1' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18valhon) |
 | Naoya Honda vs Vales | Bengaluru 3 Qualification | 2026-05-18 | 0.51 / 0.47 | `missing_player_id` | player_a_id='H0J1', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18valhon) |
+| Nitin Kumar Sinha vs Kshitij | Bengaluru 3 Qualification | 2026-05-18 | 0.70 / 0.66 | `missing_player_id` | player_a_id='SY50', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18kshsin) |
+| Aradhya Kshitij vs Nitin Kumar Sinha | Bengaluru 3 Qualification | 2026-05-18 | 0.33 / 0.31 | `missing_player_id` | player_a_id=nan, player_b_id='SY50' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18kshsin) |
+| Cezar Cretu (b. 2001) vs Cezar Cretu | Cervia | 2026-05-18 | 0.55 / 0.52 | `missing_player_id` | player_a_id=nan, player_b_id='C0B2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18gadcre) |
 | Tommaso Compagnucci vs Balestrieri | Cervia Qualification | 2026-05-17 | 0.94 / 0.04 | `missing_player_id` | player_a_id='C0BB', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17combal) |
 | Alessio Balestrieri vs Tommaso Compagnucci | Cervia Qualification | 2026-05-17 | 0.94 / 0.04 | `missing_player_id` | player_a_id=nan, player_b_id='C0BB' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17combal) |
 | Sebastian Sorger vs Bagnolini | Cervia Qualification | 2026-05-17 | 0.94 / 0.04 | `missing_player_id` | player_a_id='S0QZ', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17bagsor) |
@@ -1298,6 +1319,9 @@ _Generated 2026-05-17T22:01:27+00:00_
 | Carl Emil Overbeck vs Dalla Valle | Cervia Qualification | 2026-05-17 | 0.35 / 0.31 | `missing_player_id` | player_a_id='O0BI', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17ovedal) |
 | Tommaso Compagnucci vs Bagnolini | Cervia Qualification | 2026-05-18 | 0.86 / 0.81 | `missing_player_id` | player_a_id='C0BB', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18combag) |
 | Daniel Bagnolini vs Tommaso Compagnucci | Cervia Qualification | 2026-05-18 | 0.17 / 0.14 | `missing_player_id` | player_a_id=nan, player_b_id='C0BB' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18combag) |
+| Luca Potenza vs Dalla Valle | Cervia Qualification | 2026-05-18 | 0.20 / 0.19 | `missing_player_id` | player_a_id='P0B2', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18dalpot) |
+| Tommaso Compagnucci vs Bagnolini | Cervia Qualification | 2026-05-18 | 0.85 / 0.82 | `missing_player_id` | player_a_id='C0BB', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18combag) |
+| Daniel Bagnolini vs Tommaso Compagnucci | Cervia Qualification | 2026-05-18 | 0.16 / 0.15 | `missing_player_id` | player_a_id=nan, player_b_id='C0BB' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18combag) |
 | Miguel Tobon vs Goity Zapico | Cordoba | 2026-05-12 | 0.93 / 0.07 | `missing_player_id` | player_a_id='T133', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12goitob) |
 | Segundo Goity Zapico vs Miguel Tobon | Cordoba | 2026-05-12 | 0.93 / 0.07 | `missing_player_id` | player_a_id=nan, player_b_id='T133' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12goitob) |
 | Hernan Casanova vs Pucinelli de Almeida | Cordoba | 2026-05-13 | 0.41 / 0.37 | `missing_player_id` | player_a_id='CG07', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12pdacas) |
@@ -1317,6 +1341,7 @@ _Generated 2026-05-17T22:01:27+00:00_
 | Franco Roncadelli vs Pucinelli de Almeida | Cordoba | 2026-05-13 | 0.42 / 0.40 | `missing_player_id` | player_a_id='R0BT', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13ronpda) |
 | Franco Roncadelli vs Pucinelli de Almeida | Cordoba | 2026-05-13 | 1.00 / 0.99 | `missing_player_id` | player_a_id='R0BT', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may13ronpda) |
 | Chun-Hsin Tseng vs Ferreira Silva | Francavilla | 2026-05-07 | 0.56 / 0.55 | `missing_player_id` | player_a_id='T0AP', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may07fertse) |
+| Nikolas Sanchez Izquierdo vs Sanchez Jover | Istanbul | 2026-05-18 | 0.67 / 0.64 | `missing_player_id` | player_a_id='S0GZ', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18sansai) |
 | Paulo Andre Saraiva Dos Santos vs Avcibasi | Istanbul Qualification | 2026-05-17 | 0.90 / 0.07 | `missing_player_id` | player_a_id='S0IV', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17saravc) |
 | Toprak Avcibasi vs Saraiva Dos Santos | Istanbul Qualification | 2026-05-17 | 0.18 / 0.04 | `missing_player_id` | player_a_id=nan, player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17saravc) |
 | Lukas Pokorny vs Kosaner | Istanbul Qualification | 2026-05-17 | 0.94 / 0.07 | `missing_player_id` | player_a_id='P0HP', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17kospok) |
@@ -1351,6 +1376,11 @@ _Generated 2026-05-17T22:01:27+00:00_
 | Kaan Isik Kosaner vs Anton Matusevich | Istanbul Qualification | 2026-05-18 | 0.11 / 0.04 | `missing_player_id` | player_a_id=nan, player_b_id='M0FA' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18matkos) |
 | Paulo Andre Saraiva Dos Santos vs Anavatan | Istanbul Qualification | 2026-05-18 | 0.83 / 0.78 | `missing_player_id` | player_a_id='S0IV', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18sarana) |
 | Melih Anavatan vs Saraiva Dos Santos | Istanbul Qualification | 2026-05-18 | 0.22 / 0.17 | `missing_player_id` | player_a_id=nan, player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18sarana) |
+| Georgii Kravchenko vs Dutra Da Silva | Istanbul Qualification | 2026-05-18 | 0.41 / 0.38 | `missing_player_id` | player_a_id='K0BJ', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18dutkra) |
+| Anton Matusevich vs Kosaner | Istanbul Qualification | 2026-05-18 | 0.92 / 0.91 | `missing_player_id` | player_a_id='M0FA', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18matkos) |
+| Kaan Isik Kosaner vs Anton Matusevich | Istanbul Qualification | 2026-05-18 | 0.08 / 0.06 | `missing_player_id` | player_a_id=nan, player_b_id='M0FA' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18matkos) |
+| Paulo Andre Saraiva Dos Santos vs Anavatan | Istanbul Qualification | 2026-05-18 | 0.80 / 0.77 | `missing_player_id` | player_a_id='S0IV', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18sarana) |
+| Melih Anavatan vs Saraiva Dos Santos | Istanbul Qualification | 2026-05-18 | 0.22 / 0.20 | `missing_player_id` | player_a_id=nan, player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18sarana) |
 | Vilius Gaubas vs Ferreira Silva | Oeiras 4 | 2026-05-11 | 0.70 / 0.69 | `missing_player_id` | player_a_id='G0FW', player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may11gaufer) |
 | Vilius Gaubas vs Ferreira Silva | Oeiras 4 | 2026-05-11 | 0.71 / 0.70 | `missing_player_id` | player_a_id='G0FW', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may11gaufer) |
 | Vilius Gaubas vs Ferreira Silva | Oeiras 4 | 2026-05-11 | 0.68 / 0.67 | `missing_player_id` | player_a_id='G0FW', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may11gaufer) |
@@ -1541,6 +1571,14 @@ _Generated 2026-05-17T22:01:27+00:00_
 | Ryuki Matsuda vs Yusuke Takahashi | Bengaluru 3 | 2026-05-18 | 0.26 / 0.23 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18mattak) |
 | Dominik Palan vs Kokoro Isomura | Bengaluru 3 | 2026-05-18 | 0.53 / 0.51 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18paliso) |
 | Kokoro Isomura vs Dominik Palan | Bengaluru 3 | 2026-05-18 | 0.51 / 0.47 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18paliso) |
+| Leo Vithoontien vs Karan Singh | Bengaluru 3 | 2026-05-18 | 0.43 / 0.42 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18sinvit) |
+| Digvijaypratap Singh vs Leo Vithoontien | Bengaluru 3 | 2026-05-18 | 0.60 / 0.57 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18sinvit) |
+| Karan Singh vs Mitsuki Wei Kang Leong | Bengaluru 3 | 2026-05-18 | 0.49 / 0.47 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18sinleo) |
+| Mitsuki Wei Kang Leong vs Karan Singh | Bengaluru 3 | 2026-05-18 | 0.53 / 0.51 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18sinleo) |
+| Yusuke Takahashi vs Ryuki Matsuda | Bengaluru 3 | 2026-05-18 | 0.77 / 0.74 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18mattak) |
+| Ryuki Matsuda vs Yusuke Takahashi | Bengaluru 3 | 2026-05-18 | 0.26 / 0.25 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18mattak) |
+| Dominik Palan vs Kokoro Isomura | Bengaluru 3 | 2026-05-18 | 0.52 / 0.51 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18paliso) |
+| Kokoro Isomura vs Dominik Palan | Bengaluru 3 | 2026-05-18 | 0.51 / 0.50 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18paliso) |
 | Aryan Lakshmanan vs Cannon Kingsley | Bengaluru 3 Qualification | 2026-05-17 | 0.26 / 0.25 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17lakkar) |
 | Aryan Lakshmanan vs Cannon Kingsley | Bengaluru 3 Qualification | 2026-05-17 | 0.21 / 0.17 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17lakkar) |
 | Cannon Kingsley vs Aryan Lakshmanan | Bengaluru 3 Qualification | 2026-05-17 | 0.83 / 0.79 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17lakkar) |
@@ -1569,6 +1607,21 @@ _Generated 2026-05-17T22:01:27+00:00_
 | Thanapet Chanta vs Dev Javia | Bengaluru 3 Qualification | 2026-05-18 | 0.53 / 0.50 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18chajav) |
 | Ryotaro Taguchi vs Grigoriy Lomakin | Bengaluru 3 Qualification | 2026-05-18 | 0.81 / 0.74 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18taglom) |
 | Grigoriy Lomakin vs Ryotaro Taguchi | Bengaluru 3 Qualification | 2026-05-18 | 0.24 / 0.19 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18taglom) |
+| Dev Javia vs Thanapet Chanta | Bengaluru 3 Qualification | 2026-05-18 | 0.49 / 0.47 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18chajav) |
+| Thanapet Chanta vs Dev Javia | Bengaluru 3 Qualification | 2026-05-18 | 0.53 / 0.52 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18chajav) |
+| Taiyo Yamanaka vs Cannon Kingsley | Bengaluru 3 Qualification | 2026-05-18 | 0.54 / 0.50 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18yamkar) |
+| Cannon Kingsley vs Taiyo Yamanaka | Bengaluru 3 Qualification | 2026-05-18 | 0.50 / 0.47 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18yamkar) |
+| Ryotaro Taguchi vs Grigoriy Lomakin | Bengaluru 3 Qualification | 2026-05-18 | 0.81 / 0.78 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18taglom) |
+| Grigoriy Lomakin vs Ryotaro Taguchi | Bengaluru 3 Qualification | 2026-05-18 | 0.22 / 0.19 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18taglom) |
+| Christopher Papa vs Joshua Charlton | Bengaluru 3 Qualification | 2026-05-18 | 0.33 / 0.31 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18chapap) |
+| Joshua Charlton vs Christopher Papa | Bengaluru 3 Qualification | 2026-05-18 | 0.69 / 0.67 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18chapap) |
+| Amit Vales vs Naoya Honda | Bengaluru 3 Qualification | 2026-05-18 | 0.49 / 0.47 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18valhon) |
+| Naoya Honda vs Amit Vales | Bengaluru 3 Qualification | 2026-05-18 | 0.54 / 0.51 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18valhon) |
+| Santiago Rodriguez Taverna vs Gabi Adrian Boitan | Cervia | 2026-05-18 | 0.45 / 0.42 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18boirod) |
+| Gabi Adrian Boitan vs Santiago Rodriguez Taverna | Cervia | 2026-05-18 | 0.58 / 0.55 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18boirod) |
+| Sandro Kopp vs Max Alcala Gurri | Cervia | 2026-05-18 | 0.41 / 0.38 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18kopalc) |
+| Max Alcala Gurri vs Sandro Kopp | Cervia | 2026-05-18 | 0.62 / 0.59 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18kopalc) |
+| Buvaysar Gadamauri vs Cezar Cretu | Cervia | 2026-05-18 | 0.48 / 0.45 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18gadcre) |
 | Samuel Vincent Ruggeri vs Lorenzo Carboni | Cervia Qualification | 2026-05-17 | 0.23 / 0.19 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17vincar) |
 | Lorenzo Carboni vs Samuel Vincent Ruggeri | Cervia Qualification | 2026-05-17 | 0.78 / 0.69 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17vincar) |
 | Enrico Dalla Valle vs Carl Emil Overbeck | Cervia Qualification | 2026-05-17 | 0.60 / 0.59 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17ovedal) |
@@ -1640,6 +1693,15 @@ _Generated 2026-05-17T22:01:27+00:00_
 | Petr Nesterov vs Federico Iannaccone | Cervia Qualification | 2026-05-18 | 0.59 / 0.55 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18nesian) |
 | Federico Iannaccone vs Petr Nesterov | Cervia Qualification | 2026-05-18 | 0.45 / 0.39 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18nesian) |
 | Giorgio Tabacco vs Andrea Arnaboldi | Cervia Qualification | 2026-05-18 | 0.33 / 0.29 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18arntab) |
+| Federico Arnaboldi vs Fausto Tabacco | Cervia Qualification | 2026-05-18 | 0.71 / 0.67 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18arntab) |
+| Giovanni Oradini vs Manuel Mazza | Cervia Qualification | 2026-05-18 | 0.34 / 0.32 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18oramaz) |
+| Manuel Mazza vs Giovanni Oradini | Cervia Qualification | 2026-05-18 | 0.68 / 0.66 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18oramaz) |
+| Francesco Forti vs Lorenzo Carboni | Cervia Qualification | 2026-05-18 | 0.59 / 0.57 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18forcar) |
+| Lorenzo Carboni vs Francesco Forti | Cervia Qualification | 2026-05-18 | 0.42 / 0.40 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18forcar) |
+| Enrico Dalla Valle vs Luca Potenza | Cervia Qualification | 2026-05-18 | 0.81 / 0.79 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18dalpot) |
+| Petr Nesterov vs Federico Iannaccone | Cervia Qualification | 2026-05-18 | 0.58 / 0.55 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18nesian) |
+| Federico Iannaccone vs Petr Nesterov | Cervia Qualification | 2026-05-18 | 0.44 / 0.41 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18nesian) |
+| Giorgio Tabacco vs Andrea Arnaboldi | Cervia Qualification | 2026-05-18 | 0.32 / 0.30 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18arntab) |
 | Federico Arnaboldi vs Fausto Tabacco | Cervia Qualification | 2026-05-18 | 0.71 / 0.67 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18arntab) |
 | Omni Kumar vs Thanapet Chanta | Bengaluru 3 Qualification | 2026-05-17 | 0.94 / 0.05 | `wide_spread` | spread=0.89 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17chasen) |
 | Thanapet Chanta vs Omni Kumar | Bengaluru 3 Qualification | 2026-05-17 | 0.94 / 0.05 | `wide_spread` | spread=0.89 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17chasen) |
