@@ -1,12 +1,14 @@
-# Settled paper bets (187)
+# Settled paper bets (189)
 
-_Generated 2026-05-18T10:11:29+00:00_
+_Generated 2026-05-18T15:39:41+00:00_
 
-**Wins:** 60 / 187  (32.1%)  
-**Net PnL (per contract):** -10.725
+**Wins:** 60 / 189  (31.7%)  
+**Net PnL (per contract):** -11.648
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Andres Martin (YES) vs David Jorda Sanchis | Istanbul | 2026-05-18 | YES Andres Martin | 0.36 | 0.527 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18marjor) |
+| Marat Sharipov (YES) vs Daniel Michalski | Istanbul | 2026-05-18 | YES Marat Sharipov | 0.53 | 0.667 | ✗ | -0.547 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18micsha) |
 | Adolfo Daniel Vallejo (YES) vs Miomir Kecmanovic | Valencia | 2026-05-17 | YES Adolfo Daniel Vallejo | 0.36 | 0.630 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17kecval) |
 | Francisco Cerundolo (NO) vs Raphael Collignon | Bordeaux | 2026-05-17 | NO Francisco Cerundolo | 0.32 | 0.570 | ✓ | +0.665 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17cercol) |
 | Zsombor Piros (YES) vs Jan Choinski | Zagreb | 2026-05-17 | YES Zsombor Piros | 0.35 | 0.490 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17chopir) |
