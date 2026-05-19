@@ -114,6 +114,11 @@ MAX_MIRROR_SUM_DEV    = 0.03   # require |yes_ask_a + yes_ask_b - 1.0| ≤ MAX.
 MIN_OPEN_INTEREST     = 0.0    # placeholder — OI not yet plumbed from Kalshi
                                # normalize. Set to 500 once we surface it.
 
+# Bet-rule version — stamped on every recorded bet so weekly_report can
+# slice PnL by rule version without timestamp math. See BET_RULES.md
+# at the repo root for the full version history & what each cut changed.
+GATE_VERSION          = "v2.1"
+
 DEFAULT_MODEL_PATH = REPO / "data" / "processed" / "model_augmented_beta.pkl"
 DEFAULT_LOG_DIR    = REPO / "data" / "paper_trades"
 
@@ -286,6 +291,8 @@ class PaperTrader:
         # perspective of the player we're betting on. Frozen at scan time
         # so weekly_report attribution can't drift if the model is retrained.
         "feature_shifts_json",
+        # Bet-rule version this bet was placed under. See BET_RULES.md.
+        "gate_version",
     ]
     SETTLED_COLS = PENDING_COLS + [
         "timestamp_settled", "resolution", "bet_won", "gross_pnl", "net_pnl",
@@ -783,6 +790,7 @@ class PaperTrader:
             "edge":                 best["edge"],
             "fee":                  _kalshi_fee(best["cost"]),
             "feature_shifts_json":  shifts_json,
+            "gate_version":         GATE_VERSION,
         }
         return {"status": "bet", "row": row}
 
