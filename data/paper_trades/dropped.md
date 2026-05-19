@@ -1,13 +1,13 @@
-# Dropped markets (1999)
+# Dropped markets (2005)
 
-_Generated 2026-05-19T09:49:17+00:00_
+_Generated 2026-05-19T15:29:10+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
 | `duplicate_match` | 861 |
-| `tournament_not_in_tml` | 416 |
+| `tournament_not_in_tml` | 422 |
 | `missing_player_id` | 331 |
 | `below_min_edge` | 187 |
 | `low_player_coverage` | 107 |
@@ -1872,6 +1872,12 @@ _Generated 2026-05-19T09:49:17+00:00_
 | Gabriele Piraino vs Lorenzo Rottoli | Cervia | 2026-05-19 | 0.78 / 0.71 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19rotpir) |
 | Juan Cruz Martin Manzano vs Federico Iannaccone | Cervia | 2026-05-19 | 0.43 / 0.39 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19ianmar) |
 | Federico Iannaccone vs Juan Cruz Martin Manzano | Cervia | 2026-05-19 | 0.63 / 0.56 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19ianmar) |
+| Luca Potenza vs Ivan Ivanov | Cervia | 2026-05-19 | 0.34 / 0.06 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19ivapot) |
+| Ivan Ivanov vs Luca Potenza | Cervia | 2026-05-19 | 0.95 / 0.65 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19ivapot) |
+| Jacopo Vasami vs Moise Kouame | Cervia | 2026-05-19 | 0.52 / 0.50 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19kouvas) |
+| Moise Kouame vs Jacopo Vasami | Cervia | 2026-05-19 | 0.50 / 0.49 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19kouvas) |
+| Giovanni Oradini vs Guido Ivan Justo | Cervia | 2026-05-19 | 0.07 / 0.06 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19orajus) |
+| Guido Ivan Justo vs Giovanni Oradini | Cervia | 2026-05-19 | 0.94 / 0.93 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19orajus) |
 | Samuel Vincent Ruggeri vs Lorenzo Carboni | Cervia Qualification | 2026-05-17 | 0.23 / 0.19 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17vincar) |
 | Lorenzo Carboni vs Samuel Vincent Ruggeri | Cervia Qualification | 2026-05-17 | 0.78 / 0.69 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17vincar) |
 | Enrico Dalla Valle vs Carl Emil Overbeck | Cervia Qualification | 2026-05-17 | 0.60 / 0.59 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17ovedal) |

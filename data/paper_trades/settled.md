@@ -1,12 +1,17 @@
-# Settled paper bets (191)
+# Settled paper bets (196)
 
-_Generated 2026-05-19T09:49:17+00:00_
+_Generated 2026-05-19T15:29:10+00:00_
 
-**Wins:** 61 / 191  (31.9%)  
-**Net PnL (per contract):** -11.172
+**Wins:** 63 / 196  (32.1%)  
+**Net PnL (per contract):** -10.887
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Daniel Dutra da Silva (YES) vs Hynek Barton | Istanbul | 2026-05-19 | YES Daniel Dutra da Silva | 0.29 | 0.411 | ✗ | -0.304 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19bardut) |
+| Benjamin Hassan (YES) vs Filip Cristian Jianu | Istanbul | 2026-05-19 | YES Benjamin Hassan | 0.35 | 0.434 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19hasjia) |
+| Dimitar Kuzmanov (YES) vs Daniel Rincon | Istanbul | 2026-05-19 | YES Dimitar Kuzmanov | 0.43 | 0.549 | ✓ | +0.553 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19kuzrin) |
+| Sergey Fomin (YES) vs Andrej Nedic | Istanbul | 2026-05-19 | YES Sergey Fomin | 0.32 | 0.467 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19nedfom) |
+| Lucas Poullain (YES) vs Mili Poljicak | Istanbul | 2026-05-19 | YES Lucas Poullain | 0.25 | 0.334 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19poupol) |
 | Maxim Mrva (YES) vs Jonas Forejtek | Istanbul | 2026-05-18 | YES Maxim Mrva | 0.40 | 0.464 | ✓ | +0.583 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18mrvfor) |
 | Carlos Sanchez Jover (YES) vs Nikolas Sanchez Izquierdo | Istanbul | 2026-05-18 | YES Carlos Sanchez Jover | 0.10 | 0.291 | ✗ | -0.106 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18sansai) |
 | Andres Martin (YES) vs David Jorda Sanchis | Istanbul | 2026-05-18 | YES Andres Martin | 0.36 | 0.527 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18marjor) |
