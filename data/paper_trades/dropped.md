@@ -1,14 +1,14 @@
-# Dropped markets (2005)
+# Dropped markets (2021)
 
-_Generated 2026-05-19T15:29:10+00:00_
+_Generated 2026-05-19T19:57:02+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
 | `duplicate_match` | 861 |
-| `tournament_not_in_tml` | 422 |
-| `missing_player_id` | 331 |
+| `tournament_not_in_tml` | 436 |
+| `missing_player_id` | 333 |
 | `below_min_edge` | 187 |
 | `low_player_coverage` | 107 |
 | `wide_spread` | 57 |
@@ -1275,6 +1275,8 @@ _Generated 2026-05-19T15:29:10+00:00_
 | Maximus Jones vs Mukund | Bengaluru 3 | 2026-05-18 | 0.74 / 0.72 | `missing_player_id` | player_a_id='J0D2', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18jonmuk) |
 | Sasikumar Mukund vs Jack Pinnington Jones | Bengaluru 3 | 2026-05-18 | 0.92 / 0.89 | `missing_player_id` | player_a_id=nan, player_b_id='P0HT' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18jonmuk) |
 | Maximus Jones vs Mukund | Bengaluru 3 | 2026-05-18 | 0.10 / 0.08 | `missing_player_id` | player_a_id='J0D2', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18jonmuk) |
+| Taiyo Yamanaka vs Mukund | Bengaluru 3 | 2026-05-20 | 0.38 / 0.35 | `missing_player_id` | player_a_id='Y0A8', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20mukyam) |
+| Sasikumar Mukund vs Taiyo Yamanaka | Bengaluru 3 | 2026-05-20 | 0.64 / 0.62 | `missing_player_id` | player_a_id=nan, player_b_id='Y0A8' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20mukyam) |
 | Aradhya Kshitij vs Moerani Bouzige | Bengaluru 3 Qualification | 2026-05-17 | 0.94 / 0.05 | `missing_player_id` | player_a_id=nan, player_b_id='B0EK' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17bouksh) |
 | Moerani Bouzige vs Kshitij | Bengaluru 3 Qualification | 2026-05-17 | 0.94 / 0.05 | `missing_player_id` | player_a_id='B0EK', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17bouksh) |
 | Nitin Kumar Sinha vs Masabayashi | Bengaluru 3 Qualification | 2026-05-17 | 0.94 / 0.05 | `missing_player_id` | player_a_id='SY50', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17massin) |
@@ -1766,6 +1768,20 @@ _Generated 2026-05-19T15:29:10+00:00_
 | Kuan-Yi Lee vs Kriish Tyagi | Bengaluru 3 | 2026-05-19 | 0.60 / 0.59 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19leetya) |
 | Taiyo Yamanaka vs Takuya Kumasaka | Bengaluru 3 | 2026-05-19 | 0.40 / 0.38 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19kumyam) |
 | Takuya Kumasaka vs Taiyo Yamanaka | Bengaluru 3 | 2026-05-19 | 0.63 / 0.58 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19kumyam) |
+| Leo Vithoontien vs Petr Bar Biryukov | Bengaluru 3 | 2026-05-20 | 0.20 / 0.18 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20vitbar) |
+| Petr Bar Biryukov vs Leo Vithoontien | Bengaluru 3 | 2026-05-20 | 0.82 / 0.80 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20vitbar) |
+| Sidharth Rawat vs Ognjen Milic | Bengaluru 3 | 2026-05-20 | 0.25 / 0.22 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20rawmil) |
+| Ognjen Milic vs Sidharth Rawat | Bengaluru 3 | 2026-05-20 | 0.78 / 0.74 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20rawmil) |
+| Yusuke Takahashi vs Mitsuki Wei Kang Leong | Bengaluru 3 | 2026-05-20 | 0.52 / 0.51 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20leotak) |
+| Mitsuki Wei Kang Leong vs Yusuke Takahashi | Bengaluru 3 | 2026-05-20 | 0.48 / 0.47 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20leotak) |
+| Naoya Honda vs Alex Hernandez | Bengaluru 3 | 2026-05-20 | 0.50 / 0.47 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20herhon) |
+| Alex Hernandez vs Naoya Honda | Bengaluru 3 | 2026-05-20 | 0.53 / 0.50 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20herhon) |
+| Kriish Tyagi vs Hamish Stewart | Bengaluru 3 | 2026-05-20 | 0.29 / 0.27 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20stetya) |
+| Hamish Stewart vs Kriish Tyagi | Bengaluru 3 | 2026-05-20 | 0.73 / 0.71 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20stetya) |
+| Manish Sureshkumar vs Ilya Ivashka | Bengaluru 3 | 2026-05-20 | 0.18 / 0.16 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20suriva) |
+| Ilya Ivashka vs Manish Sureshkumar | Bengaluru 3 | 2026-05-20 | 0.83 / 0.81 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20suriva) |
+| Dominik Palan vs Alastair Gray | Bengaluru 3 | 2026-05-20 | 0.18 / 0.16 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20palgra) |
+| Alastair Gray vs Dominik Palan | Bengaluru 3 | 2026-05-20 | 0.84 / 0.82 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20palgra) |
 | Aryan Lakshmanan vs Cannon Kingsley | Bengaluru 3 Qualification | 2026-05-17 | 0.26 / 0.25 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17lakkar) |
 | Aryan Lakshmanan vs Cannon Kingsley | Bengaluru 3 Qualification | 2026-05-17 | 0.21 / 0.17 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17lakkar) |
 | Cannon Kingsley vs Aryan Lakshmanan | Bengaluru 3 Qualification | 2026-05-17 | 0.83 / 0.79 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17lakkar) |
