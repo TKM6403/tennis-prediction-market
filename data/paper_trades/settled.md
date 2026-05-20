@@ -1,12 +1,13 @@
-# Settled paper bets (196)
+# Settled paper bets (197)
 
-_Generated 2026-05-20T09:40:18+00:00_
+_Generated 2026-05-20T15:27:24+00:00_
 
-**Wins:** 63 / 196  (32.1%)  
-**Net PnL (per contract):** -10.887
+**Wins:** 63 / 197  (32.0%)  
+**Net PnL (per contract):** -11.253
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Denis Yevseyev (YES) vs David Jorda Sanchis | Istanbul | 2026-05-20 | YES Denis Yevseyev | 0.35 | 0.441 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20joryev) |
 | Daniel Dutra da Silva (YES) vs Hynek Barton | Istanbul | 2026-05-19 | YES Daniel Dutra da Silva | 0.29 | 0.411 | ✗ | -0.304 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19bardut) |
 | Benjamin Hassan (YES) vs Filip Cristian Jianu | Istanbul | 2026-05-19 | YES Benjamin Hassan | 0.35 | 0.434 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19hasjia) |
 | Dimitar Kuzmanov (YES) vs Daniel Rincon | Istanbul | 2026-05-19 | YES Dimitar Kuzmanov | 0.43 | 0.549 | ✓ | +0.553 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19kuzrin) |
