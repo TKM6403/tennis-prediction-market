@@ -1,12 +1,14 @@
-# Settled paper bets (199)
+# Settled paper bets (201)
 
-_Generated 2026-05-21T09:47:29+00:00_
+_Generated 2026-05-21T15:35:06+00:00_
 
-**Wins:** 64 / 199  (32.2%)  
-**Net PnL (per contract):** -11.368
+**Wins:** 65 / 201  (32.3%)  
+**Net PnL (per contract):** -11.301
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Mili Poljicak (YES) vs Maxim Mrva | Istanbul | 2026-05-20 | YES Mili Poljicak | 0.54 | 0.622 | ✓ | +0.443 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20polmrv) |
+| Mert Alkaya (YES) vs Andrej Nedic | Istanbul | 2026-05-20 | YES Mert Alkaya | 0.36 | 0.527 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20nedalk) |
 | Nikolas Sanchez Izquierdo (YES) vs Dimitar Kuzmanov | Istanbul | 2026-05-20 | YES Nikolas Sanchez Izquierdo | 0.58 | 0.687 | ✓ | +0.403 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20kuzsai) |
 | Pol Martin Tiffon (YES) vs Thiago Monteiro | Istanbul | 2026-05-20 | YES Pol Martin Tiffon | 0.50 | 0.586 | ✗ | -0.517 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20marmon) |
 | Denis Yevseyev (YES) vs David Jorda Sanchis | Istanbul | 2026-05-20 | YES Denis Yevseyev | 0.35 | 0.441 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20joryev) |

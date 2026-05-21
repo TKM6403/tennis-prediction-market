@@ -1,13 +1,13 @@
-# Dropped markets (2331)
+# Dropped markets (2333)
 
-_Generated 2026-05-21T09:47:29+00:00_
+_Generated 2026-05-21T15:35:06+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
 | `duplicate_match` | 935 |
-| `tournament_not_in_tml` | 579 |
+| `tournament_not_in_tml` | 581 |
 | `missing_player_id` | 356 |
 | `below_min_edge` | 208 |
 | `low_player_coverage` | 151 |
@@ -2202,6 +2202,8 @@ _Generated 2026-05-21T09:47:29+00:00_
 | Petr Nesterov vs Buvaysar Gadamauri | Cervia | 2026-05-21 | 0.36 / 0.35 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may21gadnes) |
 | Buvaysar Gadamauri vs Petr Nesterov | Cervia | 2026-05-21 | 0.65 / 0.64 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may21gadnes) |
 | Enrico Dalla Valle vs Tommaso Compagnucci | Cervia | 2026-05-21 | 0.58 / 0.57 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may21dalcom) |
+| Andrea Guerrieri vs Carlo Alberto Caniato | Cervia | 2026-05-21 | 0.89 / 0.88 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may21guecan) |
+| Carlo Alberto Caniato vs Andrea Guerrieri | Cervia | 2026-05-21 | 0.13 / 0.12 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may21guecan) |
 | Samuel Vincent Ruggeri vs Lorenzo Carboni | Cervia Qualification | 2026-05-17 | 0.23 / 0.19 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17vincar) |
 | Lorenzo Carboni vs Samuel Vincent Ruggeri | Cervia Qualification | 2026-05-17 | 0.78 / 0.69 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17vincar) |
 | Enrico Dalla Valle vs Carl Emil Overbeck | Cervia Qualification | 2026-05-17 | 0.60 / 0.59 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17ovedal) |
