@@ -113,11 +113,18 @@ MAX_MIRROR_SUM_DEV    = 0.03   # require |yes_ask_a + yes_ask_b - 1.0| ≤ MAX.
                                # drops failed this gate alone.
 MIN_OPEN_INTEREST     = 0.0    # placeholder — OI not yet plumbed from Kalshi
                                # normalize. Set to 500 once we surface it.
+DROP_YES_ON_CHALLENGER = True  # v2.2 direction-asymmetry guard. Diagnostic on
+                               # n=197 settled bets (auto-review 2026-05-20):
+                               # YES bets bleed −29.2% ROI (n=160) while NO bets
+                               # earn +47.5% (n=37); within Challenger (n=176,
+                               # ROI −20.6%) the YES∩C intersection is n=142
+                               # at ROI −36.7%. ATP-250+ (n=21, +32.3%) and
+                               # NO-on-Challenger (n=37) are preserved.
 
 # Bet-rule version — stamped on every recorded bet so weekly_report can
 # slice PnL by rule version without timestamp math. See BET_RULES.md
 # at the repo root for the full version history & what each cut changed.
-GATE_VERSION          = "v2.1"
+GATE_VERSION          = "v2.2"
 
 DEFAULT_MODEL_PATH = REPO / "data" / "processed" / "model_augmented_beta.pkl"
 DEFAULT_LOG_DIR    = REPO / "data" / "paper_trades"
@@ -134,6 +141,7 @@ REASON_HIGH_IMPUTED  = "high_imputation"
 REASON_THIN_TOURNEY  = "thin_tournament_history"
 REASON_LOW_COVERAGE  = "low_player_coverage"
 REASON_LOOSE_MIRROR  = "loose_mirror_sum"
+REASON_YES_ON_CHALL  = "yes_on_challenger"
 
 
 # ============================================================================
@@ -707,6 +715,18 @@ class PaperTrader:
 
         # Pick best edge
         best = max(candidates, key=lambda c: c["edge"])
+
+        # v2.2 direction-asymmetry guard. See BET_RULES.md v2.2 / auto-review
+        # 2026-05-20. YES picks on Challenger events ran at −36.7% ROI on
+        # n=142 (within v2.1 still −44.7% on n=14); NO-on-Challenger and
+        # ATP-250+ picks are preserved. Both `direction` and `level` are
+        # scan-time known (no lookahead).
+        if DROP_YES_ON_CHALLENGER and best["direction"] == "YES" and level == "C":
+            return self._drop_group(
+                group, ts, REASON_YES_ON_CHALL,
+                f"best={best['direction']} on Challenger "
+                f"(theo={best['theo']:.3f}, edge={best['edge']:.3f})",
+            )
 
         # Eligibility filters
         if best["edge"] < MIN_EDGE:

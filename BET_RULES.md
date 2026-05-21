@@ -129,9 +129,9 @@ Why these specifically:
 
 ---
 
-## v2.1 — convergent gate (coverage + mirror-sum sanity) — CURRENT
+## v2.1 — convergent gate (coverage + mirror-sum sanity)
 
-**Active:** `2026-05-15T22:15:19Z` to present
+**Active:** `2026-05-15T22:15:19Z` to `2026-05-20` (superseded by v2.2)
 **Commit:** `dc65d0d paper_trader: ship convergent gate (coverage + mirror-sum sanity)`
 
 Adds two more filters on top of v2.0:
@@ -166,6 +166,58 @@ Open-interest leg (open contracts on the market — a proxy for real money
 at stake; see glossary) is **placeholder** (`MIN_OPEN_INTEREST = 0.0`) —
 not yet plumbed from `KalshiLoader.normalize`. Closing that gap is the
 smallest remaining piece of the convergent gate.
+
+---
+
+## v2.2 — direction-asymmetry guard (drop YES-on-Challenger) — CURRENT
+
+**Active:** `2026-05-20` to present
+**Origin:** auto-review 2026-05-20 (3-agent committee). See
+`data/analyses/2026-05-20/` for the diagnostic, proposal, and devil's-advocate
+critique.
+
+Adds one filter on top of v2.1:
+
+- **`yes_on_challenger`**: drop the bet if the best-edge candidate is
+  `direction == "YES"` AND `tourney_level == "C"`. NO bets on Challenger
+  and any bet on ATP-250+ events are preserved.
+  - Constant: `DROP_YES_ON_CHALLENGER = True`
+  - Both gating fields are scan-time known (no lookahead): `direction`
+    comes from the candidate table built off live Kalshi quotes, and
+    `level` is resolved via `_infer_surface_and_level` from TML rows
+    strictly before `event_date`.
+
+Diagnostic that motivated this (n=197 settled, 179 v1.0 + 18 v2.1):
+- **YES bets**: n=160, ROI **−29.2%**, win-rate 27.5% vs avg theo 53.3%
+  (z = −7.30 against calibration).
+- **NO bets**: n=37, ROI **+47.5%**, well calibrated.
+- **Challenger (level=C)**: n=176, ROI **−20.6%** (z = −6.61).
+- **ATP-250 (level=A)**: n=21, ROI **+32.3%** (gap −0.05, clean).
+- **Intersection YES ∩ Challenger**: n=142, ROI **−36.7%**, net −$19.70.
+- **Within v2.1's 18 bets**: YES-on-C is still bleeding (n=14, ROI
+  −44.7%); the +1.7% v2.1 overall ROI is an artifact of 4 lucky non-YES-on-C
+  bets covering the still-broken cohort. v2.1's coverage + mirror-sum
+  gates do not arrest the direction-asymmetry failure mode.
+
+Mechanism (hypothesis): the public-stats features systematically
+overrate the nominal favorite on thin Challenger fields, so any
+favorite-YES pick inherits the bias. NO-side picks (typically betting
+against an over-priced favorite) don't.
+
+Worst-case opportunity cost if the YES-on-C pattern reverses out of
+sample: small. Counterfactual kept set (n=55) ran at +47.5% ROI; even
+a 20pp reversal of the dropped slice would only zero out, not exceed,
+the historical bleed it prevents.
+
+Volume cost: high. Historically 142/197 = **72.1%** of placed bets
+would have been dropped; within v2.1 specifically it's 14/18 = 77.8%.
+Trades volume for sign given a negative-ROI baseline; if forward
+Challenger flow stays near 80% of book, v2.2 will functionally be a
+NO-only-or-ATP-250 bot. Acceptable trade — betting less is not a cost
+when the bets we'd drop have negative expectation — but worth watching
+in the next review.
+
+Rollback: set `DROP_YES_ON_CHALLENGER = False` (single-constant flip).
 
 ---
 
