@@ -59,19 +59,23 @@ Kalshi feed itself is occasionally null on the B-side).
 
 ## Label / inference inconsistencies
 
-**v2.2-style bug, still latent in settled data.** Of 197 settled bets, 197
-have `kalshi_series == KXATPCHALLENGERMATCH` (every settled bet to date is
-a Challenger market). But `tourney_level` says **C for 176 and "250" for
-21 — all 21 are Cordoba**. So `_infer_surface_and_level` is currently
-labeling Cordoba (a real Challenger event in the Kalshi Challenger series)
-as ATP-250, presumably because TML carries a same-name "Cordoba" 250
-historically. This is exactly the misclassification class that motivated
-the v2.2 revert. Crucially, the diagnostic/proposal treated those 21
-Cordoba rows as a **clean ATP-250 cohort (+32.3% ROI)** and the critique
-used them as the headline "preserved profitable" slice. If they are
-actually mislabeled Challengers, the +32.3% is being read off the wrong
-bucket and the v2.3 logic (`kalshi_series` as source-of-truth for tier)
-has not been propagated back through the analysis pipeline.
+**v2.2-style bug, still latent in settled data — and now confirmed not
+hypothetical.** The scanner is hardcoded to `series_tickers=
+["KXATPCHALLENGERMATCH"]` (`src/paper_trader.py:393`,
+`src/loaders/prediction_market_loader.py:302`), so by construction
+**every market we have ever scanned, dropped, or settled is a Challenger**
+— there is no ATP-250 cohort in this dataset, full stop. Confirmed in
+data: 197 / 197 settled rows have `kalshi_series == KXATPCHALLENGERMATCH`.
+But `tourney_level` from `_infer_surface_and_level` says C for 176 and
+**"250" for 21 — all 21 are Cordoba**, where TML carries a same-name
+"Cordoba" 250 historically and the inference snaps to it. This is the
+same misclassification class that motivated the v2.2 revert. Crucially,
+the diagnostic/proposal treated those 21 Cordoba rows as a **clean
+ATP-250 cohort (+32.3% ROI)** and the critique used them as the headline
+"preserved profitable" slice — that cohort does not exist. The +32.3%
+is 21 mislabeled Challengers, and v2.3's own source-of-truth
+(`kalshi_series`) has not been propagated back through the analysis
+pipeline that produced the diagnostic.
 
 Surface inference: 0 NaN this scan. Good. But surface is 100% Clay or
 Hard with zero Grass/Carpet so we have no out-of-sample signal on the
@@ -100,10 +104,14 @@ bug found twice). The join layer is fragile.
 
 ## Suggested follow-ups
 
-- **(SEV-1)** Verify whether the 21 settled "Cordoba ATP-250" rows are
-  actually mislabeled Challengers; if so, the diagnostic's +32.3% clean
-  ATP-250 slice does not exist and every downstream decision (including
-  the v2.2 propose-then-revert cycle) was made against a phantom cohort.
+- **(SEV-1)** The scanner only fetches `KXATPCHALLENGERMATCH`, so by
+  construction there is no ATP-250 data in this dataset. The 21 "Cordoba
+  ATP-250" rows are mislabeled Challengers, the diagnostic's +32.3%
+  clean ATP-250 slice does not exist, and every downstream decision
+  (including the v2.2 propose-then-revert cycle) was made against a
+  phantom cohort. The analysis pipeline still consults `tourney_level`
+  from `_infer_surface_and_level` instead of `kalshi_series` — that
+  needs fixing before the next committee review.
 - **(SEV-1)** ~45% of recent scanned markets (`tournament_not_in_tml` +
   `missing_player_id` + `low_player_coverage` = 952 / 1,786) are silently
   dropped on the Challenger circuit — investigate whether Bengaluru 2/3,
