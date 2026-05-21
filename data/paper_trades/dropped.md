@@ -1,13 +1,13 @@
-# Dropped markets (2333)
+# Dropped markets (2335)
 
-_Generated 2026-05-21T15:35:06+00:00_
+_Generated 2026-05-21T19:58:27+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
 | `duplicate_match` | 935 |
-| `tournament_not_in_tml` | 581 |
+| `tournament_not_in_tml` | 583 |
 | `missing_player_id` | 356 |
 | `below_min_edge` | 208 |
 | `low_player_coverage` | 151 |
@@ -2015,6 +2015,8 @@ _Generated 2026-05-21T15:35:06+00:00_
 | Ognjen Milic vs Hamish Stewart | Bengaluru 3 | 2026-05-21 | 0.59 / 0.58 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may21stemil) |
 | Mitsuki Wei Kang Leong vs Petr Bar Biryukov | Bengaluru 3 | 2026-05-21 | 0.32 / 0.31 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may21leobar) |
 | Petr Bar Biryukov vs Mitsuki Wei Kang Leong | Bengaluru 3 | 2026-05-21 | 0.69 / 0.68 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may21leobar) |
+| Hamish Stewart vs Ilya Ivashka | Bengaluru 3 | 2026-05-22 | 0.39 / 0.37 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22ivaste) |
+| Ilya Ivashka vs Hamish Stewart | Bengaluru 3 | 2026-05-22 | 0.63 / 0.61 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22ivaste) |
 | Aryan Lakshmanan vs Cannon Kingsley | Bengaluru 3 Qualification | 2026-05-17 | 0.26 / 0.25 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17lakkar) |
 | Aryan Lakshmanan vs Cannon Kingsley | Bengaluru 3 Qualification | 2026-05-17 | 0.21 / 0.17 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17lakkar) |
 | Cannon Kingsley vs Aryan Lakshmanan | Bengaluru 3 Qualification | 2026-05-17 | 0.83 / 0.79 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17lakkar) |
