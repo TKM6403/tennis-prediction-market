@@ -504,7 +504,9 @@ class PaperTrader:
         for mk, group in match_groups.items():
             primary = _pick_primary_mirror(group)
             tournament = primary.get("tournament")
-            surface, level = self._infer_surface_and_level(tournament)
+            series = _series_from_market_id(primary.get("market_id"))
+            tier_hint = "C" if series == "KXATPCHALLENGERMATCH" else None
+            surface, level = self._infer_surface_and_level(tournament, tier=tier_hint)
             if surface is None:
                 detail = f"tournament={tournament!r}"
                 for m in group:
@@ -1058,15 +1060,34 @@ class PaperTrader:
         years = pd.to_datetime(matched, errors="coerce").dt.year.dropna().unique()
         return int(len(years))
 
-    def _infer_surface_and_level(self, tournament: str) -> Tuple[Optional[str], Optional[str]]:
-        """Look up surface + tourney_level from prior TML rows for this tournament."""
+    def _infer_surface_and_level(
+        self,
+        tournament: str,
+        tier: Optional[str] = None,
+    ) -> Tuple[Optional[str], Optional[str]]:
+        """Look up surface + tourney_level from prior TML rows for this tournament.
+
+        When `tier` is provided (e.g. "C" for Challenger), restrict the TML
+        pool to rows with `tourney_level == tier` before name-matching. This
+        disambiguates name-collision tournaments where the same string maps
+        to multiple tiers in TML (canonical case: "Cordoba" has 162 ATP-250
+        rows and 62 Challenger rows — without tier filtering, mode-lookup
+        returns "250" because that's the bigger pile, and a Kalshi
+        KXATPCHALLENGERMATCH Cordoba market gets mislabeled). The scanner
+        derives `tier` from `kalshi_series` (v2.3 source of truth).
+        """
         if not isinstance(tournament, str) or not tournament:
             return None, None
         target = _normalize_tournament(tournament)
         if not target:
             return None, None
-        norm_tml = self.tml_df["tournament"].astype(str).map(_normalize_tournament)
-        rows = self.tml_df[norm_tml == target]
+        pool = self.tml_df
+        if tier is not None:
+            pool = pool[pool["tourney_level"] == tier]
+            if pool.empty:
+                return None, None
+        norm_tml = pool["tournament"].astype(str).map(_normalize_tournament)
+        rows = pool[norm_tml == target]
         if rows.empty:
             return None, None
         surface = rows["surface"].mode()
