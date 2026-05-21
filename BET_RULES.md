@@ -169,9 +169,9 @@ smallest remaining piece of the convergent gate.
 
 ---
 
-## v2.2 — direction-asymmetry guard (drop YES-on-Challenger) — CURRENT
+## v2.2 — direction-asymmetry guard (drop YES-on-Challenger) — REVERTED
 
-**Active:** `2026-05-20` to present
+**Active:** `2026-05-20` only (shipped and reverted same day in v2.3)
 **Origin:** auto-review 2026-05-20 (3-agent committee). See
 `data/analyses/2026-05-20/` for the diagnostic, proposal, and devil's-advocate
 critique.
@@ -218,6 +218,82 @@ when the bets we'd drop have negative expectation — but worth watching
 in the next review.
 
 Rollback: set `DROP_YES_ON_CHALLENGER = False` (single-constant flip).
+
+**Why it was reverted (same-day, in v2.3):**
+
+The filter gates on `tourney_level == "C"`. That field is **not** sourced
+from the live Kalshi market — it comes from `_infer_surface_and_level`,
+which takes the `mode()` of `tourney_level` from all TML rows matching the
+tournament *name string*. For tournaments whose name collides with a
+tour-level event of the same name, the mode picks the bigger TML cohort.
+
+Concrete bug: the live ingest is Challenger-only (`paper_trader.py` constructs
+`KalshiLoader(series_tickers=["KXATPCHALLENGERMATCH"])`, so 100% of placed
+bets are by ticker `KXATPCHALLENGERMATCH-…`). But TML's *Cordoba* rows
+break down as 162 ATP-250 (the Argentina clay ATP-250) vs 62 Challenger,
+so the mode resolves to `"250"`. All 21 Cordoba settled bets were
+*Cordoba Challenger* markets mis-labeled `tourney_level == "250"` in our
+own logs.
+
+Consequence for the diagnostic that motivated v2.2: the n=21 "ATP-250
+cohort" that the agents trusted as "clean +32.3% ROI, must preserve" was
+actually 21 mis-labeled Challenger bets from a single tournament on the
+clay swing. There is no ATP-250 cohort in our live data. The
+direction-asymmetry finding (YES n=160 ROI −29.2% vs NO n=37 ROI +47.5%)
+is still real, but the gate as written would (a) leak YES bets on any
+Challenger whose name collides with a tour-level event (Cordoba, and
+others not yet observed) and (b) was greenlit on a partly-fictitious
+"clean preserved cohort" rather than on the underlying YES-only signal.
+
+Pulled rather than patched in-place because the audit-trail story is
+cleaner: v2.2 shipped, a real bug was found within hours, v2.3 reverts
+behaviour to v2.1 and lands the plumbing fix that lets a future agent
+review re-examine the YES-on-Challenger pattern on correctly-labeled
+data. The dropped YES bets the bot would *not* have placed on 2026-05-20
+to 2026-05-21 are <1 expected lost dollar — pulling is cheap, leaving a
+known-flawed filter live is not.
+
+---
+
+## v2.3 — Kalshi series-ticker plumbing + v2.2 rollback — CURRENT
+
+**Active:** `2026-05-20` to present
+**Shipped:** same day as v2.2 (within hours), as a hand-applied bugfix
+outside the auto-review cadence.
+
+**No behavioural change to bet selection.** v2.3 reverts v2.2's filter
+(`DROP_YES_ON_CHALLENGER = False`) and adds data-plumbing only:
+
+- **New column `kalshi_series`** in `pending.csv`, `settled.csv`, and
+  `dropped.csv`. Populated at scan time from the market_id prefix
+  via `_series_from_market_id()`. Always reflects the actual Kalshi
+  series ticker the bet was placed on (`KXATPCHALLENGERMATCH`,
+  `KXATPMATCH`, etc.). No name-mode lookup, no TML coupling, no
+  lookahead.
+- **Backfilled** for all 197 settled, 5 pending, and 2249 dropped
+  historical rows. Result: every historical bet is series
+  `KXATPCHALLENGERMATCH` (as expected, since the live `KalshiLoader` is
+  hardcoded to that series).
+- **`tourney_level` is preserved** in the row (still useful as a feature
+  signal — the TML mode catches things like surface/round shape) but is
+  no longer considered authoritative for tier. The auto-review process
+  doc should treat `kalshi_series` as the source of truth for any future
+  tier-based filter.
+- v2.2's filter code path is left in place (just behind a `False` flag)
+  so re-enabling it on the correct field is a small, reviewable patch
+  next cycle rather than a re-implementation from scratch.
+
+This is the smallest diff that (a) lands the rollback the auto-review
+process needs and (b) hands the next reviewer correctly-labeled data so
+the YES-on-Challenger question can be re-examined cleanly. No retrain.
+No threshold changes. `MIN_EDGE` / `MAX_SPREAD` untouched.
+
+**Why this isn't an auto-review change:** the bug was found by the user
+inspecting the diagnostic, not by the 3-agent committee. The committee
+*can't* find this class of bug because the labels are wrong in the same
+direction in both the diagnostic's input and any cross-checks it would
+do. Future similar issues are best caught the same way — by reviewing
+the diagnostic before assuming its slices are correct.
 
 ---
 

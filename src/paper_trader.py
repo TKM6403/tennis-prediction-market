@@ -113,18 +113,24 @@ MAX_MIRROR_SUM_DEV    = 0.03   # require |yes_ask_a + yes_ask_b - 1.0| ≤ MAX.
                                # drops failed this gate alone.
 MIN_OPEN_INTEREST     = 0.0    # placeholder — OI not yet plumbed from Kalshi
                                # normalize. Set to 500 once we surface it.
-DROP_YES_ON_CHALLENGER = True  # v2.2 direction-asymmetry guard. Diagnostic on
-                               # n=197 settled bets (auto-review 2026-05-20):
-                               # YES bets bleed −29.2% ROI (n=160) while NO bets
-                               # earn +47.5% (n=37); within Challenger (n=176,
-                               # ROI −20.6%) the YES∩C intersection is n=142
-                               # at ROI −36.7%. ATP-250+ (n=21, +32.3%) and
-                               # NO-on-Challenger (n=37) are preserved.
+DROP_YES_ON_CHALLENGER = False # v2.2 direction-asymmetry guard — REVERTED in
+                               # v2.3. The original filter gated on
+                               # `tourney_level == "C"`, but `tourney_level` is
+                               # inferred from a TML mode-lookup on tournament
+                               # NAME (see `_infer_surface_and_level`), which
+                               # mislabels Challenger markets whose name
+                               # collides with a tour-level event (Cordoba was
+                               # the obvious case: 162 ATP-250 rows + 62 Chall.
+                               # rows → mode = "250"). v2.3 surfaces the true
+                               # tier via the Kalshi series ticker
+                               # (`kalshi_series` column); a properly-gated
+                               # version of this filter is expected next
+                               # review.
 
 # Bet-rule version — stamped on every recorded bet so weekly_report can
 # slice PnL by rule version without timestamp math. See BET_RULES.md
 # at the repo root for the full version history & what each cut changed.
-GATE_VERSION          = "v2.2"
+GATE_VERSION          = "v2.3"
 
 DEFAULT_MODEL_PATH = REPO / "data" / "processed" / "model_augmented_beta.pkl"
 DEFAULT_LOG_DIR    = REPO / "data" / "paper_trades"
@@ -223,6 +229,32 @@ def _pick_primary_mirror(group: list) -> dict:
     return group[best_idx]
 
 
+def _series_from_market_id(market_id) -> str:
+    """
+    Extract the Kalshi series ticker prefix from a fully-qualified market_id.
+
+    Examples:
+        "kalshi::KXATPCHALLENGERMATCH-26MAY12ESTCOL-EST" → "KXATPCHALLENGERMATCH"
+        "kalshi::KXATPMATCH-26APR25CERDAR-DAR"           → "KXATPMATCH"
+        "KXATPCHALLENGERMATCH-..."                       → "KXATPCHALLENGERMATCH"
+
+    Returns "" if the input is empty/NaN or has no recognisable prefix.
+    The series ticker is the only reliable scan-time tier signal — tier
+    inferred from tournament-name mode-lookup in TML is unreliable for
+    name-collision tournaments (see v2.3 in BET_RULES.md).
+    """
+    if market_id is None:
+        return ""
+    s = str(market_id)
+    if not s or s.lower() == "nan":
+        return ""
+    # Drop the "kalshi::" prefix if present.
+    if "::" in s:
+        s = s.split("::", 1)[1]
+    # The series ticker is everything before the first '-'.
+    return s.split("-", 1)[0]
+
+
 def _kalshi_fee(entry_price: float) -> float:
     """Kalshi taker fee per contract: 7% × p × (1-p)."""
     if pd.isna(entry_price):
@@ -281,6 +313,13 @@ class PaperTrader:
 
     PENDING_COLS = [
         "timestamp_recorded", "match_key", "market_id", "kalshi_url",
+        # Kalshi series ticker for the market (e.g. "KXATPCHALLENGERMATCH",
+        # "KXATPMATCH"). This is the ONLY scan-time source of truth for
+        # market tier — `tourney_level` further down is an inferred-from-TML
+        # mode lookup on tournament name and can mislabel Challenger markets
+        # whose name collides with a tour-level event (added in v2.3 after
+        # auto-review 2026-05-20 found Cordoba Challengers labeled as 250).
+        "kalshi_series",
         "player_a", "player_a_id", "player_b", "player_b_id",
         "tournament", "surface", "tourney_level", "event_date",
         # Full timestamps for cadence analysis — derived from Kalshi metadata.
@@ -306,7 +345,7 @@ class PaperTrader:
         "timestamp_settled", "resolution", "bet_won", "gross_pnl", "net_pnl",
     ]
     DROPPED_COLS = [
-        "timestamp", "market_id", "kalshi_url",
+        "timestamp", "market_id", "kalshi_series", "kalshi_url",
         "player_a", "player_a_id", "player_b", "player_b_id",
         "tournament", "event_date",
         "yes_ask", "yes_bid",
@@ -401,6 +440,7 @@ class PaperTrader:
             base_drop = {
                 "timestamp":   ts,
                 "market_id":   m["market_id"],
+                "kalshi_series": _series_from_market_id(m.get("market_id")),
                 "kalshi_url":  url,
                 "player_a":    m.get("player_a"),
                 "player_a_id": m.get("player_a_id"),
@@ -472,6 +512,7 @@ class PaperTrader:
                               or m.get("market_id", "").replace("kalshi::", ""))
                     dropped_rows.append({
                         "timestamp": ts, "market_id": m["market_id"],
+                        "kalshi_series": _series_from_market_id(m.get("market_id")),
                         "kalshi_url": _kalshi_url(ticker),
                         "player_a": m.get("player_a"), "player_a_id": m.get("player_a_id"),
                         "player_b": m.get("player_b"), "player_b_id": m.get("player_b_id"),
@@ -788,6 +829,7 @@ class PaperTrader:
             "timestamp_recorded":   ts,
             "match_key":            _match_key(primary["market_id"]),
             "market_id":            best["market_id"],          # the market we BET on
+            "kalshi_series":        _series_from_market_id(best["market_id"]),
             "kalshi_url":           _kalshi_url(best.get("ticker")),
             "player_a":             pa,  "player_a_id": pa_id,
             "player_b":             pb,  "player_b_id": pb_id,
@@ -913,6 +955,7 @@ class PaperTrader:
             rows.append({
                 "timestamp":   ts,
                 "market_id":   m["market_id"],
+                "kalshi_series": _series_from_market_id(m.get("market_id")),
                 "kalshi_url":  _kalshi_url(ticker),
                 "player_a":    m.get("player_a"),
                 "player_a_id": m.get("player_a_id"),
