@@ -1,15 +1,15 @@
-# Dropped markets (2351)
+# Dropped markets (2361)
 
-_Generated 2026-05-22T03:47:35+00:00_
+_Generated 2026-05-22T09:29:52+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
 | `duplicate_match` | 935 |
-| `tournament_not_in_tml` | 595 |
+| `tournament_not_in_tml` | 603 |
 | `missing_player_id` | 356 |
-| `below_min_edge` | 210 |
+| `below_min_edge` | 212 |
 | `low_player_coverage` | 151 |
 | `wide_spread` | 58 |
 | `thin_player_history` | 18 |
@@ -141,6 +141,8 @@ _Generated 2026-05-22T03:47:35+00:00_
 | Benjamin Hassan vs Daniel Michalski | Istanbul | 2026-05-20 | 0.48 / 0.45 | `below_min_edge` | best_edge=0.013 on YES @ theo=0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20michas) |
 | Andrej Nedic vs Franco Agamenone | Istanbul | 2026-05-22 | 0.62 / 0.61 | `below_min_edge` | best_edge=0.033 on YES @ theo=0.433 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22aganed) |
 | Franco Agamenone vs Andrej Nedic | Istanbul | 2026-05-22 | 0.40 / 0.38 | `below_min_edge` | best_edge=0.033 on YES @ theo=0.433 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22aganed) |
+| Andrej Nedic vs Franco Agamenone | Istanbul | 2026-05-22 | 0.59 / 0.58 | `below_min_edge` | best_edge=0.013 on YES @ theo=0.433 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22aganed) |
+| Franco Agamenone vs Andrej Nedic | Istanbul | 2026-05-22 | 0.42 / 0.41 | `below_min_edge` | best_edge=0.013 on YES @ theo=0.433 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22aganed) |
 | Tiago Torres vs Jaime Faria | Oeiras 4 | 2026-05-12 | 0.24 / 0.21 | `below_min_edge` | best_edge=0.043 on YES @ theo=0.833 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12torfar) |
 | Jaime Faria vs Juan Bautista Torres | Oeiras 4 | 2026-05-12 | 0.79 / 0.76 | `below_min_edge` | best_edge=0.043 on YES @ theo=0.833 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12torfar) |
 | Tiago Torres vs Jaime Faria | Oeiras 4 | 2026-05-12 | 0.19 / 0.17 | `below_min_edge` | best_edge=0.033 on YES @ theo=0.223 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12torfar) |
@@ -2029,6 +2031,10 @@ _Generated 2026-05-22T03:47:35+00:00_
 | Petr Bar Biryukov vs Alastair Gray | Bengaluru 3 | 2026-05-22 | 0.47 / 0.46 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22bargra) |
 | Hamish Stewart vs Ilya Ivashka | Bengaluru 3 | 2026-05-22 | 0.40 / 0.39 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22ivaste) |
 | Ilya Ivashka vs Hamish Stewart | Bengaluru 3 | 2026-05-22 | 0.61 / 0.60 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22ivaste) |
+| Alastair Gray vs Petr Bar Biryukov | Bengaluru 3 | 2026-05-22 | 0.56 / 0.54 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22bargra) |
+| Petr Bar Biryukov vs Alastair Gray | Bengaluru 3 | 2026-05-22 | 0.46 / 0.45 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22bargra) |
+| Hamish Stewart vs Ilya Ivashka | Bengaluru 3 | 2026-05-22 | 0.35 / 0.34 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22ivaste) |
+| Ilya Ivashka vs Hamish Stewart | Bengaluru 3 | 2026-05-22 | 0.65 / 0.64 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22ivaste) |
 | Aryan Lakshmanan vs Cannon Kingsley | Bengaluru 3 Qualification | 2026-05-17 | 0.26 / 0.25 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17lakkar) |
 | Aryan Lakshmanan vs Cannon Kingsley | Bengaluru 3 Qualification | 2026-05-17 | 0.21 / 0.17 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17lakkar) |
 | Cannon Kingsley vs Aryan Lakshmanan | Bengaluru 3 Qualification | 2026-05-17 | 0.83 / 0.79 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17lakkar) |
@@ -2222,6 +2228,10 @@ _Generated 2026-05-22T03:47:35+00:00_
 | Max Alcala Gurri vs Andrea Guerrieri | Cervia | 2026-05-22 | 0.48 / 0.47 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22guealc) |
 | Buvaysar Gadamauri vs Tommaso Compagnucci | Cervia | 2026-05-22 | 0.69 / 0.68 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22gadcom) |
 | Tommaso Compagnucci vs Buvaysar Gadamauri | Cervia | 2026-05-22 | 0.32 / 0.31 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22gadcom) |
+| Andrea Guerrieri vs Max Alcala Gurri | Cervia | 2026-05-22 | 0.55 / 0.54 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22guealc) |
+| Max Alcala Gurri vs Andrea Guerrieri | Cervia | 2026-05-22 | 0.46 / 0.45 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22guealc) |
+| Buvaysar Gadamauri vs Tommaso Compagnucci | Cervia | 2026-05-22 | 0.67 / 0.66 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22gadcom) |
+| Tommaso Compagnucci vs Buvaysar Gadamauri | Cervia | 2026-05-22 | 0.35 / 0.33 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22gadcom) |
 | Samuel Vincent Ruggeri vs Lorenzo Carboni | Cervia Qualification | 2026-05-17 | 0.23 / 0.19 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17vincar) |
 | Lorenzo Carboni vs Samuel Vincent Ruggeri | Cervia Qualification | 2026-05-17 | 0.78 / 0.69 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17vincar) |
 | Enrico Dalla Valle vs Carl Emil Overbeck | Cervia Qualification | 2026-05-17 | 0.60 / 0.59 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17ovedal) |
