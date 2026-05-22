@@ -1,13 +1,13 @@
-# Dropped markets (2361)
+# Dropped markets (2365)
 
-_Generated 2026-05-22T09:29:52+00:00_
+_Generated 2026-05-22T14:44:24+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `duplicate_match` | 935 |
-| `tournament_not_in_tml` | 603 |
+| `duplicate_match` | 937 |
+| `tournament_not_in_tml` | 605 |
 | `missing_player_id` | 356 |
 | `below_min_edge` | 212 |
 | `low_player_coverage` | 151 |
@@ -575,6 +575,8 @@ _Generated 2026-05-22T09:29:52+00:00_
 | Maxim Mrva vs Mili Poljicak | Istanbul | 2026-05-20 | 0.12 / 0.09 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY20POLMRV | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20polmrv) |
 | Andrej Nedic vs Mert Alkaya | Istanbul | 2026-05-20 | 0.93 / 0.92 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY20NEDALK | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20nedalk) |
 | Mert Alkaya vs Andrej Nedic | Istanbul | 2026-05-20 | 0.08 / 0.07 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY20NEDALK | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20nedalk) |
+| David Jorda Sanchis vs Hynek Barton | Istanbul | 2026-05-22 | 0.69 / 0.68 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY22BARJOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22barjor) |
+| Hynek Barton vs David Jorda Sanchis | Istanbul | 2026-05-22 | 0.32 / 0.31 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY22BARJOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22barjor) |
 | Nicolas Mejia vs Benjamin Hassan | Oeiras 4 | 2026-05-12 | 0.59 / 0.56 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12HASMEJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12hasmej) |
 | Benjamin Hassan vs Nicolas Mejia | Oeiras 4 | 2026-05-12 | 0.43 / 0.41 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12HASMEJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12hasmej) |
 | Zhizhen Zhang vs Zdenek Kolar | Oeiras 4 | 2026-05-12 | 0.48 / 0.43 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12KOLZHA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12kolzha) |
@@ -2232,6 +2234,8 @@ _Generated 2026-05-22T09:29:52+00:00_
 | Max Alcala Gurri vs Andrea Guerrieri | Cervia | 2026-05-22 | 0.46 / 0.45 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22guealc) |
 | Buvaysar Gadamauri vs Tommaso Compagnucci | Cervia | 2026-05-22 | 0.67 / 0.66 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22gadcom) |
 | Tommaso Compagnucci vs Buvaysar Gadamauri | Cervia | 2026-05-22 | 0.35 / 0.33 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22gadcom) |
+| Andrea Guerrieri vs Max Alcala Gurri | Cervia | 2026-05-22 | 0.29 / 0.28 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22guealc) |
+| Max Alcala Gurri vs Andrea Guerrieri | Cervia | 2026-05-22 | 0.72 / 0.71 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22guealc) |
 | Samuel Vincent Ruggeri vs Lorenzo Carboni | Cervia Qualification | 2026-05-17 | 0.23 / 0.19 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17vincar) |
 | Lorenzo Carboni vs Samuel Vincent Ruggeri | Cervia Qualification | 2026-05-17 | 0.78 / 0.69 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17vincar) |
 | Enrico Dalla Valle vs Carl Emil Overbeck | Cervia Qualification | 2026-05-17 | 0.60 / 0.59 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17ovedal) |
