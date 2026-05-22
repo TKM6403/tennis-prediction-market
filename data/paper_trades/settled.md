@@ -1,12 +1,13 @@
-# Settled paper bets (202)
+# Settled paper bets (203)
 
-_Generated 2026-05-22T14:44:24+00:00_
+_Generated 2026-05-22T17:14:27+00:00_
 
-**Wins:** 65 / 202  (32.2%)  
-**Net PnL (per contract):** -11.450
+**Wins:** 66 / 203  (32.5%)  
+**Net PnL (per contract):** -10.775
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| David Jorda Sanchis (YES) vs Hynek Barton | Istanbul | 2026-05-22 | YES David Jorda Sanchis | 0.31 | 0.457 | ✓ | +0.675 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22barjor) |
 | Daniel Michalski (YES) vs Hynek Barton | Istanbul | 2026-05-21 | YES Daniel Michalski | 0.14 | 0.444 | ✗ | -0.148 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may21barmic) |
 | Mili Poljicak (YES) vs Maxim Mrva | Istanbul | 2026-05-20 | YES Mili Poljicak | 0.54 | 0.622 | ✓ | +0.443 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20polmrv) |
 | Mert Alkaya (YES) vs Andrej Nedic | Istanbul | 2026-05-20 | YES Mert Alkaya | 0.36 | 0.527 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20nedalk) |
