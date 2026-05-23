@@ -1,13 +1,13 @@
-# Dropped markets (2367)
+# Dropped markets (2371)
 
-_Generated 2026-05-22T22:12:38+00:00_
+_Generated 2026-05-23T03:26:08+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
 | `duplicate_match` | 937 |
-| `tournament_not_in_tml` | 607 |
+| `tournament_not_in_tml` | 611 |
 | `missing_player_id` | 356 |
 | `below_min_edge` | 212 |
 | `low_player_coverage` | 151 |
@@ -2039,6 +2039,8 @@ _Generated 2026-05-22T22:12:38+00:00_
 | Ilya Ivashka vs Hamish Stewart | Bengaluru 3 | 2026-05-22 | 0.65 / 0.64 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22ivaste) |
 | Ilya Ivashka vs Petr Bar Biryukov | Bengaluru 3 | 2026-05-23 | 0.69 / 0.68 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may23ivabar) |
 | Petr Bar Biryukov vs Ilya Ivashka | Bengaluru 3 | 2026-05-23 | 0.32 / 0.31 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may23ivabar) |
+| Ilya Ivashka vs Petr Bar Biryukov | Bengaluru 3 | 2026-05-23 | 0.70 / 0.67 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may23ivabar) |
+| Petr Bar Biryukov vs Ilya Ivashka | Bengaluru 3 | 2026-05-23 | 0.33 / 0.31 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may23ivabar) |
 | Aryan Lakshmanan vs Cannon Kingsley | Bengaluru 3 Qualification | 2026-05-17 | 0.26 / 0.25 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17lakkar) |
 | Aryan Lakshmanan vs Cannon Kingsley | Bengaluru 3 Qualification | 2026-05-17 | 0.21 / 0.17 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17lakkar) |
 | Cannon Kingsley vs Aryan Lakshmanan | Bengaluru 3 Qualification | 2026-05-17 | 0.83 / 0.79 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17lakkar) |
@@ -2238,6 +2240,8 @@ _Generated 2026-05-22T22:12:38+00:00_
 | Tommaso Compagnucci vs Buvaysar Gadamauri | Cervia | 2026-05-22 | 0.35 / 0.33 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22gadcom) |
 | Andrea Guerrieri vs Max Alcala Gurri | Cervia | 2026-05-22 | 0.29 / 0.28 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22guealc) |
 | Max Alcala Gurri vs Andrea Guerrieri | Cervia | 2026-05-22 | 0.72 / 0.71 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22guealc) |
+| Buvaysar Gadamauri vs Max Alcala Gurri | Cervia | 2026-05-23 | 0.42 / 0.40 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may23alcgad) |
+| Max Alcala Gurri vs Buvaysar Gadamauri | Cervia | 2026-05-23 | 0.59 / 0.58 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may23alcgad) |
 | Samuel Vincent Ruggeri vs Lorenzo Carboni | Cervia Qualification | 2026-05-17 | 0.23 / 0.19 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17vincar) |
 | Lorenzo Carboni vs Samuel Vincent Ruggeri | Cervia Qualification | 2026-05-17 | 0.78 / 0.69 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17vincar) |
 | Enrico Dalla Valle vs Carl Emil Overbeck | Cervia Qualification | 2026-05-17 | 0.60 / 0.59 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17ovedal) |
