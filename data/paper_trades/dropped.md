@@ -1,13 +1,13 @@
-# Dropped markets (2371)
+# Dropped markets (2377)
 
-_Generated 2026-05-23T03:26:08+00:00_
+_Generated 2026-05-23T08:26:30+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `duplicate_match` | 937 |
-| `tournament_not_in_tml` | 611 |
+| `duplicate_match` | 939 |
+| `tournament_not_in_tml` | 615 |
 | `missing_player_id` | 356 |
 | `below_min_edge` | 212 |
 | `low_player_coverage` | 151 |
@@ -577,6 +577,8 @@ _Generated 2026-05-23T03:26:08+00:00_
 | Mert Alkaya vs Andrej Nedic | Istanbul | 2026-05-20 | 0.08 / 0.07 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY20NEDALK | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may20nedalk) |
 | David Jorda Sanchis vs Hynek Barton | Istanbul | 2026-05-22 | 0.69 / 0.68 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY22BARJOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22barjor) |
 | Hynek Barton vs David Jorda Sanchis | Istanbul | 2026-05-22 | 0.32 / 0.31 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY22BARJOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22barjor) |
+| Andrej Nedic vs David Jorda Sanchis | Istanbul | 2026-05-23 | 0.68 / 0.67 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY23NEDJOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may23nedjor) |
+| David Jorda Sanchis vs Andrej Nedic | Istanbul | 2026-05-23 | 0.33 / 0.32 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY23NEDJOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may23nedjor) |
 | Nicolas Mejia vs Benjamin Hassan | Oeiras 4 | 2026-05-12 | 0.59 / 0.56 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12HASMEJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12hasmej) |
 | Benjamin Hassan vs Nicolas Mejia | Oeiras 4 | 2026-05-12 | 0.43 / 0.41 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12HASMEJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12hasmej) |
 | Zhizhen Zhang vs Zdenek Kolar | Oeiras 4 | 2026-05-12 | 0.48 / 0.43 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12KOLZHA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12kolzha) |
@@ -2041,6 +2043,8 @@ _Generated 2026-05-23T03:26:08+00:00_
 | Petr Bar Biryukov vs Ilya Ivashka | Bengaluru 3 | 2026-05-23 | 0.32 / 0.31 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may23ivabar) |
 | Ilya Ivashka vs Petr Bar Biryukov | Bengaluru 3 | 2026-05-23 | 0.70 / 0.67 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may23ivabar) |
 | Petr Bar Biryukov vs Ilya Ivashka | Bengaluru 3 | 2026-05-23 | 0.33 / 0.31 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may23ivabar) |
+| Ilya Ivashka vs Petr Bar Biryukov | Bengaluru 3 | 2026-05-23 | 0.68 / 0.67 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may23ivabar) |
+| Petr Bar Biryukov vs Ilya Ivashka | Bengaluru 3 | 2026-05-23 | 0.34 / 0.33 | `tournament_not_in_tml` | tournament='Bengaluru 3' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may23ivabar) |
 | Aryan Lakshmanan vs Cannon Kingsley | Bengaluru 3 Qualification | 2026-05-17 | 0.26 / 0.25 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17lakkar) |
 | Aryan Lakshmanan vs Cannon Kingsley | Bengaluru 3 Qualification | 2026-05-17 | 0.21 / 0.17 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17lakkar) |
 | Cannon Kingsley vs Aryan Lakshmanan | Bengaluru 3 Qualification | 2026-05-17 | 0.83 / 0.79 | `tournament_not_in_tml` | tournament='Bengaluru 3 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17lakkar) |
@@ -2242,6 +2246,8 @@ _Generated 2026-05-23T03:26:08+00:00_
 | Max Alcala Gurri vs Andrea Guerrieri | Cervia | 2026-05-22 | 0.72 / 0.71 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22guealc) |
 | Buvaysar Gadamauri vs Max Alcala Gurri | Cervia | 2026-05-23 | 0.42 / 0.40 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may23alcgad) |
 | Max Alcala Gurri vs Buvaysar Gadamauri | Cervia | 2026-05-23 | 0.59 / 0.58 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may23alcgad) |
+| Buvaysar Gadamauri vs Max Alcala Gurri | Cervia | 2026-05-23 | 0.42 / 0.41 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may23alcgad) |
+| Max Alcala Gurri vs Buvaysar Gadamauri | Cervia | 2026-05-23 | 0.60 / 0.58 | `tournament_not_in_tml` | tournament='Cervia' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may23alcgad) |
 | Samuel Vincent Ruggeri vs Lorenzo Carboni | Cervia Qualification | 2026-05-17 | 0.23 / 0.19 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17vincar) |
 | Lorenzo Carboni vs Samuel Vincent Ruggeri | Cervia Qualification | 2026-05-17 | 0.78 / 0.69 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17vincar) |
 | Enrico Dalla Valle vs Carl Emil Overbeck | Cervia Qualification | 2026-05-17 | 0.60 / 0.59 | `tournament_not_in_tml` | tournament='Cervia Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17ovedal) |
