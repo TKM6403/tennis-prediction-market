@@ -1,6 +1,6 @@
 # Pending paper bets (1)
 
-_Generated 2026-05-23T19:15:33+00:00_
+_Generated 2026-05-23T22:02:31+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
