@@ -1,12 +1,13 @@
-# Settled paper bets (204)
+# Settled paper bets (205)
 
-_Generated 2026-05-24T10:46:54+00:00_
+_Generated 2026-05-24T13:32:19+00:00_
 
-**Wins:** 67 / 204  (32.8%)  
-**Net PnL (per contract):** -10.151
+**Wins:** 68 / 205  (33.2%)  
+**Net PnL (per contract):** -9.414
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Pietro Fellin (NO) vs Carlos Sanchez Jover | Vicenza Qualification | 2026-05-24 | NO Pietro Fellin | 0.25 | 0.551 | ✓ | +0.737 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24sanfel) |
 | David Jorda Sanchis (YES) vs Andrej Nedic | Istanbul | 2026-05-23 | YES David Jorda Sanchis | 0.36 | 0.467 | ✓ | +0.624 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may23nedjor) |
 | David Jorda Sanchis (YES) vs Hynek Barton | Istanbul | 2026-05-22 | YES David Jorda Sanchis | 0.31 | 0.457 | ✓ | +0.675 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22barjor) |
 | Daniel Michalski (YES) vs Hynek Barton | Istanbul | 2026-05-21 | YES Daniel Michalski | 0.14 | 0.444 | ✗ | -0.148 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may21barmic) |
