@@ -1,12 +1,14 @@
-# Settled paper bets (207)
+# Settled paper bets (209)
 
-_Generated 2026-05-25T14:59:51+00:00_
+_Generated 2026-05-25T17:12:04+00:00_
 
-**Wins:** 68 / 207  (32.9%)  
-**Net PnL (per contract):** -9.981
+**Wins:** 69 / 209  (33.0%)  
+**Net PnL (per contract):** -9.734
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Miguel Damas (YES) vs Tristan Boyer | Vicenza | 2026-05-25 | YES Miguel Damas | 0.35 | 0.462 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25boydam) |
+| Manas Dhamne (NO) vs Frederico Ferreira Silva | Vicenza | 2026-05-25 | NO Manas Dhamne | 0.37 | 0.480 | ✓ | +0.614 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25dhafer) |
 | Ioannis Xilas (NO) vs Enrico Dalla Valle | Vicenza Qualification | 2026-05-25 | NO Ioannis Xilas | 0.24 | 0.458 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25xildal) |
 | Laurent Lokoli (YES) vs Mika Brunold | Vicenza Qualification | 2026-05-25 | YES Laurent Lokoli | 0.30 | 0.400 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25brulok) |
 | Pietro Fellin (NO) vs Carlos Sanchez Jover | Vicenza Qualification | 2026-05-24 | NO Pietro Fellin | 0.25 | 0.551 | ✓ | +0.737 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24sanfel) |
