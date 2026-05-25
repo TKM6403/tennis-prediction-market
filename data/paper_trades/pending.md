@@ -1,12 +1,10 @@
-# Pending paper bets (6)
+# Pending paper bets (4)
 
-_Generated 2026-05-25T17:12:04+00:00_
+_Generated 2026-05-25T19:47:18+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
-| **Li Tu** (YES) vs Lukas Neumayer | Vicenza | 2026-05-25 | YES Li Tu | 0.12 | 0.378 | +0.258 | 0.0074 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25neutul) |
-| **Raul Brancaccio** (YES) vs Diego Dedura | Vicenza | 2026-05-25 | YES Raul Brancaccio | 0.43 | 0.589 | +0.159 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25dedbra) |
-| **Andrew Fenty** (YES) vs Justin Boulais | Little Rock Qualification | 2026-05-25 | YES Andrew Fenty | 0.53 | 0.668 | +0.138 | 0.0174 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25fenbou) |
 | **Hayato Matsuoka** (YES) vs Michael Mmoh | Little Rock | 2026-05-26 | YES Hayato Matsuoka | 0.28 | 0.415 | +0.135 | 0.0141 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25mmomat) |
 | **Pablo Carreno Busta** (NO) vs Jaume Munar | Valencia | 2026-05-15 | NO Pablo Carreno Busta | 0.44 | 0.549 | +0.109 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15carmun) |
+| **Bernard Tomic** (YES) vs Blaise Bicknell | Little Rock | 2026-05-25 | YES Bernard Tomic | 0.53 | 0.624 | +0.094 | 0.0174 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25bictom) |
 | **Yuta Shimizu** (YES) vs Andrej Martin | Little Rock | 2026-05-25 | YES Yuta Shimizu | 0.46 | 0.513 | +0.053 | 0.0174 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25marshi) |
