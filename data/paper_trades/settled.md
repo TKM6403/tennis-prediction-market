@@ -1,12 +1,14 @@
-# Settled paper bets (205)
+# Settled paper bets (207)
 
-_Generated 2026-05-25T10:12:29+00:00_
+_Generated 2026-05-25T14:59:51+00:00_
 
-**Wins:** 68 / 205  (33.2%)  
-**Net PnL (per contract):** -9.414
+**Wins:** 68 / 207  (32.9%)  
+**Net PnL (per contract):** -9.981
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Ioannis Xilas (NO) vs Enrico Dalla Valle | Vicenza Qualification | 2026-05-25 | NO Ioannis Xilas | 0.24 | 0.458 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25xildal) |
+| Laurent Lokoli (YES) vs Mika Brunold | Vicenza Qualification | 2026-05-25 | YES Laurent Lokoli | 0.30 | 0.400 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25brulok) |
 | Pietro Fellin (NO) vs Carlos Sanchez Jover | Vicenza Qualification | 2026-05-24 | NO Pietro Fellin | 0.25 | 0.551 | ✓ | +0.737 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24sanfel) |
 | David Jorda Sanchis (YES) vs Andrej Nedic | Istanbul | 2026-05-23 | YES David Jorda Sanchis | 0.36 | 0.467 | ✓ | +0.624 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may23nedjor) |
 | David Jorda Sanchis (YES) vs Hynek Barton | Istanbul | 2026-05-22 | YES David Jorda Sanchis | 0.31 | 0.457 | ✓ | +0.675 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may22barjor) |
