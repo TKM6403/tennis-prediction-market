@@ -1,12 +1,14 @@
-# Settled paper bets (212)
+# Settled paper bets (214)
 
-_Generated 2026-05-25T19:47:18+00:00_
+_Generated 2026-05-25T22:15:06+00:00_
 
-**Wins:** 69 / 212  (32.5%)  
-**Net PnL (per contract):** -10.856
+**Wins:** 71 / 214  (33.2%)  
+**Net PnL (per contract):** -9.881
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Yuta Shimizu (YES) vs Andrej Martin | Little Rock | 2026-05-25 | YES Yuta Shimizu | 0.46 | 0.513 | ✓ | +0.523 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25marshi) |
+| Bernard Tomic (YES) vs Blaise Bicknell | Little Rock | 2026-05-25 | YES Bernard Tomic | 0.53 | 0.624 | ✓ | +0.453 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25bictom) |
 | Andrew Fenty (YES) vs Justin Boulais | Little Rock Qualification | 2026-05-25 | YES Andrew Fenty | 0.53 | 0.668 | ✗ | -0.547 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25fenbou) |
 | Li Tu (YES) vs Lukas Neumayer | Vicenza | 2026-05-25 | YES Li Tu | 0.12 | 0.378 | ✗ | -0.127 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25neutul) |
 | Raul Brancaccio (YES) vs Diego Dedura | Vicenza | 2026-05-25 | YES Raul Brancaccio | 0.43 | 0.589 | ✗ | -0.447 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25dedbra) |
