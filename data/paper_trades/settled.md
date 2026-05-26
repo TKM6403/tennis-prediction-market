@@ -1,12 +1,14 @@
-# Settled paper bets (214)
+# Settled paper bets (216)
 
-_Generated 2026-05-25T22:15:06+00:00_
+_Generated 2026-05-26T03:41:54+00:00_
 
-**Wins:** 71 / 214  (33.2%)  
-**Net PnL (per contract):** -9.881
+**Wins:** 72 / 216  (33.3%)  
+**Net PnL (per contract):** -9.612
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Hayato Matsuoka (YES) vs Michael Mmoh | Little Rock | 2026-05-26 | YES Hayato Matsuoka | 0.28 | 0.415 | ✗ | -0.294 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25mmomat) |
+| Andre Ilagan (YES) vs Yasutaka Uchiyama | Little Rock | 2026-05-25 | YES Andre Ilagan | 0.42 | 0.518 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25ilauch) |
 | Yuta Shimizu (YES) vs Andrej Martin | Little Rock | 2026-05-25 | YES Yuta Shimizu | 0.46 | 0.513 | ✓ | +0.523 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25marshi) |
 | Bernard Tomic (YES) vs Blaise Bicknell | Little Rock | 2026-05-25 | YES Bernard Tomic | 0.53 | 0.624 | ✓ | +0.453 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25bictom) |
 | Andrew Fenty (YES) vs Justin Boulais | Little Rock Qualification | 2026-05-25 | YES Andrew Fenty | 0.53 | 0.668 | ✗ | -0.547 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25fenbou) |
