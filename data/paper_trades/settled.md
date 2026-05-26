@@ -1,12 +1,14 @@
-# Settled paper bets (216)
+# Settled paper bets (218)
 
-_Generated 2026-05-26T10:04:20+00:00_
+_Generated 2026-05-26T15:37:07+00:00_
 
-**Wins:** 72 / 216  (33.3%)  
-**Net PnL (per contract):** -9.612
+**Wins:** 73 / 218  (33.5%)  
+**Net PnL (per contract):** -9.209
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Yu Hsiou Hsu (YES) vs Marco Cecchinato | Vicenza | 2026-05-26 | YES Yu Hsiou Hsu | 0.20 | 0.428 | ✓ | +0.789 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26cechsu) |
+| Moez Echargui (YES) vs Remy Bertola | Vicenza | 2026-05-26 | YES Moez Echargui | 0.37 | 0.553 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26berech) |
 | Hayato Matsuoka (YES) vs Michael Mmoh | Little Rock | 2026-05-26 | YES Hayato Matsuoka | 0.28 | 0.415 | ✗ | -0.294 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25mmomat) |
 | Andre Ilagan (YES) vs Yasutaka Uchiyama | Little Rock | 2026-05-25 | YES Andre Ilagan | 0.42 | 0.518 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25ilauch) |
 | Yuta Shimizu (YES) vs Andrej Martin | Little Rock | 2026-05-25 | YES Yuta Shimizu | 0.46 | 0.513 | ✓ | +0.523 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25marshi) |
