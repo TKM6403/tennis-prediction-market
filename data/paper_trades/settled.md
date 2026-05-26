@@ -1,12 +1,16 @@
-# Settled paper bets (218)
+# Settled paper bets (222)
 
-_Generated 2026-05-26T15:37:07+00:00_
+_Generated 2026-05-26T20:14:15+00:00_
 
-**Wins:** 73 / 218  (33.5%)  
-**Net PnL (per contract):** -9.209
+**Wins:** 74 / 222  (33.3%)  
+**Net PnL (per contract):** -9.558
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Enrico Dalla Valle (YES) vs Joel Schwaerzler | Vicenza | 2026-05-26 | YES Enrico Dalla Valle | 0.37 | 0.426 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26dalsch) |
+| Pietro Fellin (YES) vs Pol Martin Tiffon | Vicenza | 2026-05-26 | YES Pietro Fellin | 0.18 | 0.382 | ✗ | -0.190 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26felmar) |
+| Daniel Milavsky (YES) vs Tung-Lin Wu | Little Rock | 2026-05-26 | YES Daniel Milavsky | 0.37 | 0.429 | ✓ | +0.614 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26miltun) |
+| Blake Ellis (YES) vs Tyler Zink | Little Rock | 2026-05-26 | YES Blake Ellis | 0.37 | 0.501 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26ellzin) |
 | Yu Hsiou Hsu (YES) vs Marco Cecchinato | Vicenza | 2026-05-26 | YES Yu Hsiou Hsu | 0.20 | 0.428 | ✓ | +0.789 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26cechsu) |
 | Moez Echargui (YES) vs Remy Bertola | Vicenza | 2026-05-26 | YES Moez Echargui | 0.37 | 0.553 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26berech) |
 | Hayato Matsuoka (YES) vs Michael Mmoh | Little Rock | 2026-05-26 | YES Hayato Matsuoka | 0.28 | 0.415 | ✗ | -0.294 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25mmomat) |
