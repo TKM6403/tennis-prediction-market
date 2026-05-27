@@ -1,12 +1,13 @@
-# Settled paper bets (222)
+# Settled paper bets (223)
 
-_Generated 2026-05-26T22:26:28+00:00_
+_Generated 2026-05-27T04:00:37+00:00_
 
-**Wins:** 74 / 222  (33.3%)  
-**Net PnL (per contract):** -9.558
+**Wins:** 75 / 223  (33.6%)  
+**Net PnL (per contract):** -8.924
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Nicolas Mejia (YES) vs Henry Searle | Little Rock | 2026-05-26 | YES Nicolas Mejia | 0.35 | 0.589 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26seamej) |
 | Enrico Dalla Valle (YES) vs Joel Schwaerzler | Vicenza | 2026-05-26 | YES Enrico Dalla Valle | 0.37 | 0.426 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26dalsch) |
 | Pietro Fellin (YES) vs Pol Martin Tiffon | Vicenza | 2026-05-26 | YES Pietro Fellin | 0.18 | 0.382 | ✗ | -0.190 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26felmar) |
 | Daniel Milavsky (YES) vs Tung-Lin Wu | Little Rock | 2026-05-26 | YES Daniel Milavsky | 0.37 | 0.429 | ✓ | +0.614 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26miltun) |
