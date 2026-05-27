@@ -1,18 +1,18 @@
-# Dropped markets (3517)
+# Dropped markets (3533)
 
-_Generated 2026-05-27T09:56:48+00:00_
+_Generated 2026-05-27T15:47:59+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `duplicate_match` | 990 |
-| `tournament_not_in_tml` | 910 |
-| `missing_player_id` | 687 |
-| `low_player_coverage` | 459 |
+| `duplicate_match` | 996 |
+| `tournament_not_in_tml` | 912 |
+| `missing_player_id` | 689 |
+| `low_player_coverage` | 463 |
 | `below_min_edge` | 261 |
 | `wide_spread` | 82 |
-| `thin_tournament_history` | 78 |
+| `thin_tournament_history` | 80 |
 | `loose_mirror_sum` | 30 |
 | `thin_player_history` | 18 |
 | `yes_on_challenger` | 2 |
@@ -650,6 +650,10 @@ _Generated 2026-05-27T09:56:48+00:00_
 | Nicolas Mejia vs Henry Searle | Little Rock | 2026-05-26 | 0.36 / 0.34 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY26SEAMEJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26seamej) |
 | Henry Searle vs Nicolas Mejia | Little Rock | 2026-05-26 | 0.39 / 0.37 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY26SEAMEJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26seamej) |
 | Nicolas Mejia vs Henry Searle | Little Rock | 2026-05-26 | 0.62 / 0.60 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY26SEAMEJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26seamej) |
+| Colton Smith vs Daniel Milavsky | Little Rock | 2026-05-27 | 0.76 / 0.74 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY27SMIMIL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27smimil) |
+| Daniel Milavsky vs Keegan Smith | Little Rock | 2026-05-27 | 0.25 / 0.24 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY27SMIMIL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27smimil) |
+| Bernard Tomic vs Yuta Shimizu | Little Rock | 2026-05-27 | 0.53 / 0.52 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY27SHITOM | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27shitom) |
+| Yuta Shimizu vs Bernard Tomic | Little Rock | 2026-05-27 | 0.49 / 0.48 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY27SHITOM | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27shitom) |
 | Andrew Fenty vs Justin Boulais | Little Rock Qualification | 2026-05-25 | 0.54 / 0.52 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY25FENBOU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25fenbou) |
 | Justin Boulais vs Andrew Fenty | Little Rock Qualification | 2026-05-25 | 0.47 / 0.45 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY25FENBOU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25fenbou) |
 | Andrew Fenty vs Justin Boulais | Little Rock Qualification | 2026-05-25 | 0.14 / 0.12 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY25FENBOU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25fenbou) |
@@ -1000,6 +1004,8 @@ _Generated 2026-05-27T09:56:48+00:00_
 | Pietro Fellin vs Pol Martin Tiffon | Vicenza | 2026-05-26 | 0.02 / 0.01 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY26FELMAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26felmar) |
 | Manas Dhamne vs Remy Bertola | Vicenza | 2026-05-27 | 0.41 / 0.40 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY27DHABER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27dhaber) |
 | Remy Bertola vs Manas Dhamne | Vicenza | 2026-05-27 | 0.61 / 0.60 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY27DHABER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27dhaber) |
+| Lukas Neumayer vs Tristan Boyer | Vicenza | 2026-05-27 | 0.69 / 0.67 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY27NEUBOY | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27neuboy) |
+| Tristan Boyer vs Lukas Neumayer | Vicenza | 2026-05-27 | 0.32 / 0.30 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY27NEUBOY | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27neuboy) |
 | Carlos Sanchez Jover vs Pietro Fellin | Vicenza Qualification | 2026-05-24 | 0.78 / 0.76 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY24SANFEL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24sanfel) |
 | Carlos Sanchez Jover vs Pietro Fellin | Vicenza Qualification | 2026-05-24 | 0.79 / 0.76 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY24SANFEL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24sanfel) |
 | Enrico Dalla Valle vs Ioannis Xilas | Vicenza Qualification | 2026-05-25 | 0.79 / 0.72 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY25XILDAL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25xildal) |
@@ -1553,6 +1559,8 @@ _Generated 2026-05-27T09:56:48+00:00_
 | Edas Butvilas vs Aidan Mayo | Little Rock | 2026-05-26 | 0.67 / 0.66 | `low_player_coverage` | cov_a=13 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26maybut) |
 | Michael Mmoh vs Timo Legout | Little Rock | 2026-05-27 | 0.81 / 0.78 | `low_player_coverage` | cov_a=37 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27mmoleg) |
 | Timo Legout vs Michael Mmoh | Little Rock | 2026-05-27 | 0.22 / 0.20 | `low_player_coverage` | cov_a=37 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27mmoleg) |
+| Michael Mmoh vs Timo Legout | Little Rock | 2026-05-27 | 0.80 / 0.79 | `low_player_coverage` | cov_a=37 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27mmoleg) |
+| Timo Legout vs Michael Mmoh | Little Rock | 2026-05-27 | 0.21 / 0.20 | `low_player_coverage` | cov_a=37 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27mmoleg) |
 | Johannus Monday vs Adhithya Ganesan | Little Rock Qualification | 2026-05-24 | 0.74 / 0.69 | `low_player_coverage` | cov_a=43 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24mongan) |
 | Adhithya Ganesan vs Johannus Monday | Little Rock Qualification | 2026-05-24 | 0.27 / 0.26 | `low_player_coverage` | cov_a=43 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24mongan) |
 | Masamichi Imamura vs Enzo Aguiard | Little Rock Qualification | 2026-05-24 | 0.68 / 0.64 | `low_player_coverage` | cov_a=18 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24aguima) |
@@ -1709,6 +1717,8 @@ _Generated 2026-05-27T09:56:48+00:00_
 | Diego Dedura vs Samuele Pieri | Vicenza | 2026-05-27 | 0.69 / 0.66 | `low_player_coverage` | cov_a=7 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27dedpie) |
 | Samuele Pieri vs Diego Dedura | Vicenza | 2026-05-27 | 0.33 / 0.32 | `low_player_coverage` | cov_a=7 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27dedpie) |
 | Diego Dedura vs Samuele Pieri | Vicenza | 2026-05-27 | 0.69 / 0.66 | `low_player_coverage` | cov_a=7 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27dedpie) |
+| Samuele Pieri vs Diego Dedura | Vicenza | 2026-05-27 | 0.16 / 0.07 | `low_player_coverage` | cov_a=7 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27dedpie) |
+| Diego Dedura vs Samuele Pieri | Vicenza | 2026-05-27 | 0.91 / 0.86 | `low_player_coverage` | cov_a=7 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27dedpie) |
 | Enrico Dalla Valle vs Francesco Forti | Vicenza Qualification | 2026-05-24 | 0.48 / 0.45 | `low_player_coverage` | cov_a=20 cov_b=12 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24dalfor) |
 | Jelle Sels vs Yanis Ghazouani Durand | Vicenza Qualification | 2026-05-24 | 0.68 / 0.63 | `low_player_coverage` | cov_a=21 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24ghasel) |
 | Yanis Ghazouani Durand vs Jelle Sels | Vicenza Qualification | 2026-05-24 | 0.36 / 0.32 | `low_player_coverage` | cov_a=21 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24ghasel) |
@@ -2309,6 +2319,8 @@ _Generated 2026-05-27T09:56:48+00:00_
 | Murphy Cassone vs Hohmann | Little Rock | 2026-05-26 | 0.81 / 0.80 | `missing_player_id` | player_a_id='C0HT', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26hohcas) |
 | Tyler Zink vs Hohmann | Little Rock | 2026-05-27 | 0.82 / 0.80 | `missing_player_id` | player_a_id='Z0AK', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27zinhoh) |
 | Ronald Hohmann vs Tyler Zink | Little Rock | 2026-05-27 | 0.20 / 0.18 | `missing_player_id` | player_a_id=nan, player_b_id='Z0AK' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27zinhoh) |
+| Tyler Zink vs Hohmann | Little Rock | 2026-05-27 | 0.82 / 0.81 | `missing_player_id` | player_a_id='Z0AK', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27zinhoh) |
+| Ronald Hohmann vs Tyler Zink | Little Rock | 2026-05-27 | 0.20 / 0.18 | `missing_player_id` | player_a_id=nan, player_b_id='Z0AK' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27zinhoh) |
 | Dan Martin vs Hohmann | Little Rock Qualification | 2026-05-24 | 0.94 / 0.04 | `missing_player_id` | player_a_id='M0C2', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24hohmar) |
 | Ronald Hohmann vs Andrej Martin | Little Rock Qualification | 2026-05-24 | 0.94 / 0.04 | `missing_player_id` | player_a_id=nan, player_b_id='MF35' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24hohmar) |
 | Jerry Roddick vs Christian Langmo | Little Rock Qualification | 2026-05-24 | 0.30 / 0.27 | `missing_player_id` | player_a_id=nan, player_b_id='LI10' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24rodlan) |
@@ -2536,6 +2548,8 @@ _Generated 2026-05-27T09:56:48+00:00_
 | Genaro Alberto Olivieri vs Elias Ymer | Chisinau | 2026-05-27 | 0.68 / 0.67 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27ymeoli) |
 | Luca Nardi vs Lorenzo Giustino | Chisinau | 2026-05-27 | 0.36 / 0.35 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27giunar) |
 | Lorenzo Giustino vs Luca Nardi | Chisinau | 2026-05-27 | 0.65 / 0.64 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27giunar) |
+| Sumit Nagal vs Zdenek Kolar | Chisinau | 2026-05-27 | 0.81 / 0.80 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27nagkol) |
+| Zdenek Kolar vs Sumit Nagal | Chisinau | 2026-05-27 | 0.20 / 0.19 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27nagkol) |
 | Emilio Nava vs Laslo Djere | Oeiras 4 | 2026-05-16 | 0.42 / 0.40 | `thin_tournament_history` | 'Oeiras 4' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16djenav) |
 | Laslo Djere vs Emilio Nava | Oeiras 4 | 2026-05-16 | 0.61 / 0.58 | `thin_tournament_history` | 'Oeiras 4' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16djenav) |
 | Emilio Nava vs Laslo Djere | Oeiras 4 | 2026-05-16 | 0.45 / 0.44 | `thin_tournament_history` | 'Oeiras 4' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16djenav) |
@@ -3381,6 +3395,8 @@ _Generated 2026-05-27T09:56:48+00:00_
 | Taro Daniel vs Lilian Marmousez | Kosice | 2026-05-27 | 0.45 / 0.44 | `tournament_not_in_tml` | tournament='Kosice' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27mardan) |
 | Andrej Martin vs Milos Karol | Kosice | 2026-05-27 | 0.51 / 0.47 | `tournament_not_in_tml` | tournament='Kosice' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27karmar) |
 | Milos Karol vs Andrej Martin | Kosice | 2026-05-27 | 0.53 / 0.52 | `tournament_not_in_tml` | tournament='Kosice' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27karmar) |
+| Lukas Pokorny vs Martin Krumich | Kosice | 2026-05-27 | 0.39 / 0.36 | `tournament_not_in_tml` | tournament='Kosice' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27pokkru) |
+| Martin Krumich vs Lukas Pokorny | Kosice | 2026-05-27 | 0.64 / 0.61 | `tournament_not_in_tml` | tournament='Kosice' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27pokkru) |
 | Pedro Sakamoto vs Lorenzo Angelini | Kosice Qualification | 2026-05-24 | 0.89 / 0.49 | `tournament_not_in_tml` | tournament='Kosice Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24sakang) |
 | Daniele Rapagnetta vs Imanol Lopez Morillo | Kosice Qualification | 2026-05-24 | 0.89 / 0.39 | `tournament_not_in_tml` | tournament='Kosice Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24raplop) |
 | Alafia Ayeni vs Ethan Cook | Kosice Qualification | 2026-05-24 | 0.94 / 0.82 | `tournament_not_in_tml` | tournament='Kosice Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24avecoo) |
