@@ -1,6 +1,6 @@
-# Pending paper bets (4)
+# Pending paper bets (5)
 
-_Generated 2026-05-28T04:54:27+00:00_
+_Generated 2026-05-28T10:08:37+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
@@ -8,3 +8,4 @@ _Generated 2026-05-28T04:54:27+00:00_
 | **Lautaro Midon** (YES) vs Chun-Hsin Tseng | Vicenza | 2026-05-28 | YES Lautaro Midon | 0.36 | 0.469 | +0.109 | 0.0161 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28tsemid) |
 | **Yu Hsiou Hsu** (YES) vs Mika Brunold | Vicenza | 2026-05-28 | YES Yu Hsiou Hsu | 0.38 | 0.453 | +0.073 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28hsubru) |
 | **Philip Sekulic** (YES) vs Mitchell Krueger | Little Rock | 2026-05-26 | YES Philip Sekulic | 0.38 | 0.450 | +0.070 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26sekkru) |
+| **Nicolas Mejia** (YES) vs Justin Boulais | Little Rock | 2026-05-28 | YES Nicolas Mejia | 0.66 | 0.729 | +0.069 | 0.0157 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28boumej) |
