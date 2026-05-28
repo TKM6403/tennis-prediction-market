@@ -1,12 +1,13 @@
-# Settled paper bets (227)
+# Settled paper bets (228)
 
-_Generated 2026-05-28T10:08:37+00:00_
+_Generated 2026-05-28T16:02:09+00:00_
 
-**Wins:** 76 / 227  (33.5%)  
-**Net PnL (per contract):** -9.487
+**Wins:** 77 / 228  (33.8%)  
+**Net PnL (per contract):** -8.884
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Yu Hsiou Hsu (YES) vs Mika Brunold | Vicenza | 2026-05-28 | YES Yu Hsiou Hsu | 0.38 | 0.453 | ✓ | +0.604 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28hsubru) |
 | Daniel Milavsky (YES) vs Colton Smith | Little Rock | 2026-05-27 | YES Daniel Milavsky | 0.24 | 0.426 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27smimil) |
 | Bernard Tomic (YES) vs Yuta Shimizu | Little Rock | 2026-05-27 | YES Bernard Tomic | 0.52 | 0.654 | ✓ | +0.463 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27shitom) |
 | Tristan Boyer (YES) vs Lukas Neumayer | Vicenza | 2026-05-27 | YES Tristan Boyer | 0.33 | 0.425 | ✗ | -0.345 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may27neuboy) |
