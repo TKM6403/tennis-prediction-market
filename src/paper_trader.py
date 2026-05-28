@@ -115,17 +115,41 @@ MIN_OPEN_INTEREST     = 0.0    # placeholder — OI not yet plumbed from Kalshi
                                # normalize. Set to 500 once we surface it.
 DROP_YES_ON_CHALLENGER = False # v2.2 direction-asymmetry guard — REVERTED in
                                # v2.3. The original filter gated on
-                               # `tourney_level == "C"`, but `tourney_level` is
-                               # inferred from a TML mode-lookup on tournament
-                               # NAME (see `_infer_surface_and_level`), which
-                               # mislabels Challenger markets whose name
-                               # collides with a tour-level event (Cordoba was
-                               # the obvious case: 162 ATP-250 rows + 62 Chall.
-                               # rows → mode = "250"). v2.3 surfaces the true
-                               # tier via the Kalshi series ticker
-                               # (`kalshi_series` column); a properly-gated
-                               # version of this filter is expected next
-                               # review.
+                               # `tourney_level == "C"`, but `tourney_level`
+                               # was inferred via TML mode-lookup on tournament
+                               # name and mislabeled name-collision tournaments
+                               # (canonical case: Cordoba had 162 ATP-250 rows
+                               # vs 62 Challenger rows → mode = "250"). As of
+                               # v2.3+ `tourney_level` on every scan row is
+                               # derived directly from `kalshi_series` (see
+                               # TIER_FROM_SERIES below), so the tier-gating
+                               # bug is structurally impossible. A re-enabled
+                               # version of this filter could ship in a future
+                               # review, but per the 2026-05-27 critique the
+                               # current evidence is dominated by a single-
+                               # tournament Vicenza blow-up — not yet a real
+                               # signal.
+
+# Canonical tier code per Kalshi series. This is the SINGLE SOURCE OF TRUTH
+# for `tourney_level` on every scan row: previously we inferred it from a
+# TML mode-lookup on tournament name (see `_infer_surface_and_level`), which
+# silently mislabeled name-collision tournaments. Now the scan path looks
+# `tier` up directly from the market's `kalshi_series` and stamps it on the
+# synthetic TML row + on the persisted bet. Surface still comes from TML
+# (we can't read surface off the Kalshi ticker), but tier does not.
+#
+# Add a new entry here whenever Kalshi launches a new series we want to
+# trade. TML's own code book is {C, 250, 500, M, G, A, O, F, D} — pick the
+# matching code so that the model (which was trained on TML's `tourney_level`)
+# sees a value it has actually seen during training.
+TIER_FROM_SERIES = {
+    "KXATPCHALLENGERMATCH": "C",
+    # KXATPMATCH is the main-tour ATP series. It spans 250 / 500 / Masters /
+    # Slams — the right tier depends on the specific event, not the series.
+    # Until we wire per-event lookup, leave it `None` and fall back to the
+    # TML mode-lookup; safe because main-tour name collisions are rare.
+    "KXATPMATCH": None,
+}
 
 # Bet-rule version — stamped on every recorded bet so weekly_report can
 # slice PnL by rule version without timestamp math. See BET_RULES.md
@@ -505,7 +529,7 @@ class PaperTrader:
             primary = _pick_primary_mirror(group)
             tournament = primary.get("tournament")
             series = _series_from_market_id(primary.get("market_id"))
-            tier_hint = "C" if series == "KXATPCHALLENGERMATCH" else None
+            tier_hint = TIER_FROM_SERIES.get(series)
             surface, level = self._infer_surface_and_level(tournament, tier=tier_hint)
             if surface is None:
                 detail = f"tournament={tournament!r}"
@@ -1067,14 +1091,15 @@ class PaperTrader:
     ) -> Tuple[Optional[str], Optional[str]]:
         """Look up surface + tourney_level from prior TML rows for this tournament.
 
-        When `tier` is provided (e.g. "C" for Challenger), restrict the TML
-        pool to rows with `tourney_level == tier` before name-matching. This
-        disambiguates name-collision tournaments where the same string maps
-        to multiple tiers in TML (canonical case: "Cordoba" has 162 ATP-250
-        rows and 62 Challenger rows — without tier filtering, mode-lookup
-        returns "250" because that's the bigger pile, and a Kalshi
-        KXATPCHALLENGERMATCH Cordoba market gets mislabeled). The scanner
-        derives `tier` from `kalshi_series` (v2.3 source of truth).
+        When `tier` is provided (a TML-style level code such as "C" for
+        Challenger, sourced from `kalshi_series` via `TIER_FROM_SERIES`), it
+        is treated as the canonical answer for `tourney_level` — the returned
+        level is forced to `tier`, regardless of what a TML mode-lookup would
+        say. The TML pool is still filtered to `tier`-matching rows before the
+        surface lookup so that name-collision tournaments (e.g. Cordoba 250 vs
+        Cordoba Challenger) return the Challenger surface and not the main-
+        tour one. When `tier` is None, level is inferred from the TML mode
+        as before.
         """
         if not isinstance(tournament, str) or not tournament:
             return None, None
@@ -1091,11 +1116,11 @@ class PaperTrader:
         if rows.empty:
             return None, None
         surface = rows["surface"].mode()
+        surface_out = surface.iloc[0] if len(surface) else None
+        if tier is not None:
+            return surface_out, tier
         level = rows["tourney_level"].mode()
-        return (
-            surface.iloc[0] if len(surface) else None,
-            level.iloc[0] if len(level) else None,
-        )
+        return surface_out, (level.iloc[0] if len(level) else None)
 
     @staticmethod
     def _append_csv(path: Path, rows: Iterable[dict], columns: list) -> None:
