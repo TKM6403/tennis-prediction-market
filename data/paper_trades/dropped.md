@@ -1,17 +1,17 @@
-# Dropped markets (3719)
+# Dropped markets (3751)
 
-_Generated 2026-05-28T22:46:42+00:00_
+_Generated 2026-05-29T03:45:54+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
 | `duplicate_match` | 1014 |
-| `tournament_not_in_tml` | 979 |
-| `missing_player_id` | 703 |
-| `low_player_coverage` | 503 |
-| `below_min_edge` | 269 |
-| `thin_tournament_history` | 116 |
+| `tournament_not_in_tml` | 995 |
+| `missing_player_id` | 704 |
+| `low_player_coverage` | 510 |
+| `below_min_edge` | 271 |
+| `thin_tournament_history` | 122 |
 | `wide_spread` | 83 |
 | `loose_mirror_sum` | 32 |
 | `thin_player_history` | 18 |
@@ -261,6 +261,8 @@ _Generated 2026-05-28T22:46:42+00:00_
 | Pol Martin Tiffon vs Joel Schwaerzler | Vicenza | 2026-05-28 | 0.46 / 0.45 | `below_min_edge` | best_edge=0.023 on YES @ theo=0.483 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28marsch) |
 | Joel Schwaerzler vs Pol Martin Tiffon | Vicenza | 2026-05-28 | 0.56 / 0.55 | `below_min_edge` | best_edge=0.023 on YES @ theo=0.483 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28marsch) |
 | Pol Martin Tiffon vs Joel Schwaerzler | Vicenza | 2026-05-28 | 0.46 / 0.45 | `below_min_edge` | best_edge=0.023 on YES @ theo=0.483 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28marsch) |
+| Chun-Hsin Tseng vs Pol Martin Tiffon | Vicenza | 2026-05-29 | 0.50 / 0.49 | `below_min_edge` | best_edge=0.040 on YES @ theo=0.540 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29tsemar) |
+| Pol Martin Tiffon vs Chun-Hsin Tseng | Vicenza | 2026-05-29 | 0.51 / 0.49 | `below_min_edge` | best_edge=0.040 on YES @ theo=0.540 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29tsemar) |
 | Enrico Dalla Valle vs Ioannis Xilas | Vicenza Qualification | 2026-05-25 | 0.80 / 0.55 | `below_min_edge` | best_edge=0.008 on NO @ theo=0.458 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25xildal) |
 | Akira Santillan vs Jack Pinnington Jones | Wuxi | 2026-05-07 | 0.51 / 0.50 | `below_min_edge` | best_edge=0.015 on YES @ theo=0.525 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may07jonsan) |
 | Maximus Jones vs Akira Santillan | Wuxi | 2026-05-07 | 0.50 / 0.48 | `below_min_edge` | best_edge=0.015 on YES @ theo=0.525 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may07jonsan) |
@@ -1367,6 +1369,7 @@ _Generated 2026-05-28T22:46:42+00:00_
 | Pavel Kotov vs Cezar Cretu | Chisinau | 2026-05-28 | 0.63 / 0.60 | `low_player_coverage` | cov_a=28 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28crekot) |
 | Liam Broady vs Cezar Cretu | Chisinau | 2026-05-29 | 0.93 / 0.49 | `low_player_coverage` | cov_a=29 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29brocre) |
 | Liam Broady vs Cezar Cretu | Chisinau | 2026-05-29 | 0.50 / 0.49 | `low_player_coverage` | cov_a=29 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29brocre) |
+| Liam Broady vs Cezar Cretu | Chisinau | 2026-05-29 | 0.51 / 0.50 | `low_player_coverage` | cov_a=29 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29brocre) |
 | Arjun Kadhe vs Maxime Janvier | Chisinau Qualification | 2026-05-24 | 0.19 / 0.01 | `low_player_coverage` | cov_a=0 cov_b=12 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24kadjan) |
 | Dimitar Kuzmanov vs Szymon Kielan | Chisinau Qualification | 2026-05-24 | 0.94 / 0.84 | `low_player_coverage` | cov_a=56 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24kuzkie) |
 | Szymon Kielan vs Dimitar Kuzmanov | Chisinau Qualification | 2026-05-24 | 0.07 / 0.05 | `low_player_coverage` | cov_a=56 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24kuzkie) |
@@ -1621,6 +1624,12 @@ _Generated 2026-05-28T22:46:42+00:00_
 | Aidan Mayo vs Johannus Monday | Little Rock | 2026-05-28 | 0.40 / 0.38 | `low_player_coverage` | cov_a=43 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28monmay) |
 | Fajing Sun vs Jay Friend | Little Rock | 2026-05-28 | 0.59 / 0.56 | `low_player_coverage` | cov_a=41 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28sunhar) |
 | Jay Friend vs Fajing Sun | Little Rock | 2026-05-28 | 0.45 / 0.41 | `low_player_coverage` | cov_a=41 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28sunhar) |
+| Andre Ilagan vs Enzo Aguiard | Little Rock | 2026-05-28 | 0.72 / 0.68 | `low_player_coverage` | cov_a=39 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28aguila) |
+| Enzo Aguiard vs Andre Ilagan | Little Rock | 2026-05-28 | 0.31 / 0.28 | `low_player_coverage` | cov_a=39 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28aguila) |
+| Johannus Monday vs Aidan Mayo | Little Rock | 2026-05-28 | 0.60 / 0.58 | `low_player_coverage` | cov_a=43 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28monmay) |
+| Aidan Mayo vs Johannus Monday | Little Rock | 2026-05-28 | 0.41 / 0.40 | `low_player_coverage` | cov_a=43 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28monmay) |
+| Fajing Sun vs Jay Friend | Little Rock | 2026-05-28 | 0.48 / 0.45 | `low_player_coverage` | cov_a=41 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28sunhar) |
+| Jay Friend vs Fajing Sun | Little Rock | 2026-05-28 | 0.55 / 0.51 | `low_player_coverage` | cov_a=41 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28sunhar) |
 | Johannus Monday vs Adhithya Ganesan | Little Rock Qualification | 2026-05-24 | 0.74 / 0.69 | `low_player_coverage` | cov_a=43 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24mongan) |
 | Adhithya Ganesan vs Johannus Monday | Little Rock Qualification | 2026-05-24 | 0.27 / 0.26 | `low_player_coverage` | cov_a=43 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24mongan) |
 | Masamichi Imamura vs Enzo Aguiard | Little Rock Qualification | 2026-05-24 | 0.68 / 0.64 | `low_player_coverage` | cov_a=18 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24aguima) |
@@ -2205,6 +2214,7 @@ _Generated 2026-05-28T22:46:42+00:00_
 | Cezar Cretu (b. 2001) vs Pavel Kotov | Chisinau | 2026-05-28 | 0.40 / 0.37 | `missing_player_id` | player_a_id=nan, player_b_id='K09F' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28crekot) |
 | Cezar Cretu (b. 2001) vs Cezar Cretu | Chisinau | 2026-05-29 | 0.93 / 0.41 | `missing_player_id` | player_a_id=nan, player_b_id='C0B2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29brocre) |
 | Cezar Cretu (b. 2001) vs Cezar Cretu | Chisinau | 2026-05-29 | 0.51 / 0.49 | `missing_player_id` | player_a_id=nan, player_b_id='C0B2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29brocre) |
+| Cezar Cretu (b. 2001) vs Cezar Cretu | Chisinau | 2026-05-29 | 0.52 / 0.51 | `missing_player_id` | player_a_id=nan, player_b_id='C0B2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29brocre) |
 | Alex Martinez vs Banthia | Chisinau Qualification | 2026-05-24 | 0.95 / 0.01 | `missing_player_id` | player_a_id='M0GB', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24marban) |
 | Siddhant Banthia vs Pedro Martinez | Chisinau Qualification | 2026-05-24 | 0.12 / 0.01 | `missing_player_id` | player_a_id=nan, player_b_id='MO44' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24marban) |
 | Mathys Braun vs Stefan Adrian Andreescu | Chisinau Qualification | 2026-05-24 | 0.09 / 0.01 | `missing_player_id` | player_a_id=nan, player_b_id='A0J5' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24braand) |
@@ -2668,6 +2678,12 @@ _Generated 2026-05-28T22:46:42+00:00_
 | Sumit Nagal vs Stefanos Sakellaridis | Chisinau | 2026-05-29 | 0.48 / 0.45 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29saknag) |
 | Radu Albot vs Franco Agamenone | Chisinau | 2026-05-29 | 0.26 / 0.24 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29agaalb) |
 | Franco Agamenone vs Radu Albot | Chisinau | 2026-05-29 | 0.77 / 0.74 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29agaalb) |
+| Genaro Alberto Olivieri vs Luca Nardi | Chisinau | 2026-05-29 | 0.35 / 0.34 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29olinar) |
+| Luca Nardi vs Genaro Alberto Olivieri | Chisinau | 2026-05-29 | 0.67 / 0.65 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29olinar) |
+| Stefanos Sakellaridis vs Sumit Nagal | Chisinau | 2026-05-29 | 0.56 / 0.53 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29saknag) |
+| Sumit Nagal vs Stefanos Sakellaridis | Chisinau | 2026-05-29 | 0.46 / 0.44 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29saknag) |
+| Radu Albot vs Franco Agamenone | Chisinau | 2026-05-29 | 0.29 / 0.28 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29agaalb) |
+| Franco Agamenone vs Radu Albot | Chisinau | 2026-05-29 | 0.72 / 0.71 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29agaalb) |
 | Emilio Nava vs Laslo Djere | Oeiras 4 | 2026-05-16 | 0.42 / 0.40 | `thin_tournament_history` | 'Oeiras 4' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16djenav) |
 | Laslo Djere vs Emilio Nava | Oeiras 4 | 2026-05-16 | 0.61 / 0.58 | `thin_tournament_history` | 'Oeiras 4' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16djenav) |
 | Emilio Nava vs Laslo Djere | Oeiras 4 | 2026-05-16 | 0.45 / 0.44 | `thin_tournament_history` | 'Oeiras 4' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16djenav) |
@@ -3158,6 +3174,14 @@ _Generated 2026-05-28T22:46:42+00:00_
 | Eliakim Coulibaly vs Semen Pankin | Centurion | 2026-05-29 | 0.69 / 0.60 | `tournament_not_in_tml` | tournament='Centurion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29pancou) |
 | Orel Kimhi vs Giles Hussey | Centurion | 2026-05-29 | 0.34 / 0.32 | `tournament_not_in_tml` | tournament='Centurion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29kimhus) |
 | Giles Hussey vs Orel Kimhi | Centurion | 2026-05-29 | 0.68 / 0.66 | `tournament_not_in_tml` | tournament='Centurion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29kimhus) |
+| Edward Winter vs Robert Strombachs | Centurion | 2026-05-29 | 0.49 / 0.45 | `tournament_not_in_tml` | tournament='Centurion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29winstr) |
+| Robert Strombachs vs Edward Winter | Centurion | 2026-05-29 | 0.54 / 0.51 | `tournament_not_in_tml` | tournament='Centurion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29winstr) |
+| Stefano Napolitano vs Philip Henning | Centurion | 2026-05-29 | 0.47 / 0.43 | `tournament_not_in_tml` | tournament='Centurion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29hennap) |
+| Philip Henning vs Stefano Napolitano | Centurion | 2026-05-29 | 0.55 / 0.54 | `tournament_not_in_tml` | tournament='Centurion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29hennap) |
+| Semen Pankin vs Eliakim Coulibaly | Centurion | 2026-05-29 | 0.37 / 0.33 | `tournament_not_in_tml` | tournament='Centurion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29pancou) |
+| Eliakim Coulibaly vs Semen Pankin | Centurion | 2026-05-29 | 0.67 / 0.63 | `tournament_not_in_tml` | tournament='Centurion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29pancou) |
+| Orel Kimhi vs Giles Hussey | Centurion | 2026-05-29 | 0.33 / 0.32 | `tournament_not_in_tml` | tournament='Centurion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29kimhus) |
+| Giles Hussey vs Orel Kimhi | Centurion | 2026-05-29 | 0.68 / 0.67 | `tournament_not_in_tml` | tournament='Centurion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29kimhus) |
 | Peter Buldorini vs Dustin Brown | Centurion Qualification | 2026-05-24 | 0.93 / 0.58 | `tournament_not_in_tml` | tournament='Centurion Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24brobul) |
 | Stefan Vujic vs Gray Voelzke | Centurion Qualification | 2026-05-24 | 0.93 / 0.72 | `tournament_not_in_tml` | tournament='Centurion Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24voevuj) |
 | Naoya Honda vs Arthur Fery | Centurion Qualification | 2026-05-24 | 0.94 / 0.82 | `tournament_not_in_tml` | tournament='Centurion Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24bechon) |
@@ -3582,6 +3606,14 @@ _Generated 2026-05-28T22:46:42+00:00_
 | Peter Fajta vs Franco Roncadelli | Kosice | 2026-05-28 | 0.94 / 0.92 | `tournament_not_in_tml` | tournament='Kosice' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28fajron) |
 | Peter Fajta vs Ulises Blanch | Kosice | 2026-05-29 | 0.25 / 0.22 | `tournament_not_in_tml` | tournament='Kosice' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29blafaj) |
 | Dali Blanch vs Peter Fajta | Kosice | 2026-05-29 | 0.78 / 0.76 | `tournament_not_in_tml` | tournament='Kosice' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29blafaj) |
+| Andrej Martin vs Martin Krumich | Kosice | 2026-05-29 | 0.34 / 0.31 | `tournament_not_in_tml` | tournament='Kosice' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29markru) |
+| Martin Krumich vs Andrej Martin | Kosice | 2026-05-29 | 0.69 / 0.65 | `tournament_not_in_tml` | tournament='Kosice' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29markru) |
+| Mathys Erhard vs Taro Daniel | Kosice | 2026-05-29 | 0.39 / 0.37 | `tournament_not_in_tml` | tournament='Kosice' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29danerh) |
+| Taro Daniel vs Mathys Erhard | Kosice | 2026-05-29 | 0.61 / 0.60 | `tournament_not_in_tml` | tournament='Kosice' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29danerh) |
+| Kilian Feldbausch vs Hynek Barton | Kosice | 2026-05-29 | 0.50 / 0.48 | `tournament_not_in_tml` | tournament='Kosice' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29barfel) |
+| Hynek Barton vs Kilian Feldbausch | Kosice | 2026-05-29 | 0.51 / 0.50 | `tournament_not_in_tml` | tournament='Kosice' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29barfel) |
+| Peter Fajta vs Ulises Blanch | Kosice | 2026-05-29 | 0.27 / 0.24 | `tournament_not_in_tml` | tournament='Kosice' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29blafaj) |
+| Dali Blanch vs Peter Fajta | Kosice | 2026-05-29 | 0.76 / 0.73 | `tournament_not_in_tml` | tournament='Kosice' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29blafaj) |
 | Pedro Sakamoto vs Lorenzo Angelini | Kosice Qualification | 2026-05-24 | 0.89 / 0.49 | `tournament_not_in_tml` | tournament='Kosice Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24sakang) |
 | Daniele Rapagnetta vs Imanol Lopez Morillo | Kosice Qualification | 2026-05-24 | 0.89 / 0.39 | `tournament_not_in_tml` | tournament='Kosice Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24raplop) |
 | Alafia Ayeni vs Ethan Cook | Kosice Qualification | 2026-05-24 | 0.94 / 0.82 | `tournament_not_in_tml` | tournament='Kosice Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24avecoo) |
