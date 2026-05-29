@@ -1,12 +1,13 @@
-# Settled paper bets (230)
+# Settled paper bets (231)
 
-_Generated 2026-05-29T10:01:45+00:00_
+_Generated 2026-05-29T15:39:39+00:00_
 
-**Wins:** 77 / 230  (33.5%)  
-**Net PnL (per contract):** -9.935
+**Wins:** 77 / 231  (33.3%)  
+**Net PnL (per contract):** -10.157
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Remy Bertola (YES) vs Lukas Neumayer | Vicenza | 2026-05-29 | YES Remy Bertola | 0.21 | 0.346 | ✗ | -0.222 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29neuber) |
 | Lautaro Midon (YES) vs Chun-Hsin Tseng | Vicenza | 2026-05-28 | YES Lautaro Midon | 0.36 | 0.469 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28tsemid) |
 | Nicolas Mejia (YES) vs Justin Boulais | Little Rock | 2026-05-28 | YES Nicolas Mejia | 0.66 | 0.729 | ✗ | -0.676 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28boumej) |
 | Yu Hsiou Hsu (YES) vs Mika Brunold | Vicenza | 2026-05-28 | YES Yu Hsiou Hsu | 0.38 | 0.453 | ✓ | +0.604 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may28hsubru) |
