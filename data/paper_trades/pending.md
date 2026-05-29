@@ -1,9 +1,10 @@
-# Pending paper bets (3)
+# Pending paper bets (4)
 
-_Generated 2026-05-29T20:31:29+00:00_
+_Generated 2026-05-29T22:42:57+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
 | **Bernard Tomic** (YES) vs Michael Mmoh | Little Rock | 2026-05-29 | YES Bernard Tomic | 0.30 | 0.508 | +0.208 | 0.0147 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29mmotom) |
 | **Pablo Carreno Busta** (NO) vs Jaume Munar | Valencia | 2026-05-15 | NO Pablo Carreno Busta | 0.44 | 0.549 | +0.109 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15carmun) |
 | **Philip Sekulic** (YES) vs Mitchell Krueger | Little Rock | 2026-05-26 | YES Philip Sekulic | 0.38 | 0.450 | +0.070 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26sekkru) |
+| **Tyler Zink** (YES) vs Keegan Smith | Little Rock | 2026-05-29 | YES Tyler Zink | 0.26 | 0.316 | +0.056 | 0.0135 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29smizin) |
