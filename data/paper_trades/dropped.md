@@ -1,15 +1,15 @@
-# Dropped markets (3913)
+# Dropped markets (3917)
 
-_Generated 2026-05-30T16:10:34+00:00_
+_Generated 2026-05-30T19:21:41+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `duplicate_match` | 1054 |
+| `duplicate_match` | 1056 |
 | `tournament_not_in_tml` | 1047 |
 | `missing_player_id` | 709 |
-| `low_player_coverage` | 547 |
+| `low_player_coverage` | 549 |
 | `below_min_edge` | 283 |
 | `thin_tournament_history` | 138 |
 | `wide_spread` | 83 |
@@ -702,6 +702,8 @@ _Generated 2026-05-30T16:10:34+00:00_
 | Justin Boulais vs Michael Mmoh | Little Rock | 2026-05-30 | 0.24 / 0.23 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY30MMOBOU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may30mmobou) |
 | Tyler Zink vs Keegan Smith | Little Rock | 2026-05-29 | 0.11 / 0.08 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY29SMIZIN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29smizin) |
 | Colton Smith vs Tyler Zink | Little Rock | 2026-05-29 | 0.90 / 0.88 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY29SMIZIN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29smizin) |
+| Michael Mmoh vs Justin Boulais | Little Rock | 2026-05-30 | 0.76 / 0.75 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY30MMOBOU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may30mmobou) |
+| Justin Boulais vs Michael Mmoh | Little Rock | 2026-05-30 | 0.26 / 0.25 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY30MMOBOU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may30mmobou) |
 | Andrew Fenty vs Justin Boulais | Little Rock Qualification | 2026-05-25 | 0.54 / 0.52 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY25FENBOU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25fenbou) |
 | Justin Boulais vs Andrew Fenty | Little Rock Qualification | 2026-05-25 | 0.47 / 0.45 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY25FENBOU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25fenbou) |
 | Andrew Fenty vs Justin Boulais | Little Rock Qualification | 2026-05-25 | 0.14 / 0.12 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY25FENBOU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25fenbou) |
@@ -1719,6 +1721,8 @@ _Generated 2026-05-30T16:10:34+00:00_
 | Andre Ilagan vs Aidan Mayo | Little Rock | 2026-05-30 | 0.46 / 0.45 | `low_player_coverage` | cov_a=13 cov_b=39 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29ilamay) |
 | Aidan Mayo vs Andre Ilagan | Little Rock | 2026-05-30 | 0.57 / 0.54 | `low_player_coverage` | cov_a=13 cov_b=39 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29ilamay) |
 | Andre Ilagan vs Aidan Mayo | Little Rock | 2026-05-30 | 0.46 / 0.42 | `low_player_coverage` | cov_a=13 cov_b=39 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29ilamay) |
+| Aidan Mayo vs Andre Ilagan | Little Rock | 2026-05-30 | 0.22 / 0.21 | `low_player_coverage` | cov_a=13 cov_b=39 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29ilamay) |
+| Andre Ilagan vs Aidan Mayo | Little Rock | 2026-05-30 | 0.79 / 0.78 | `low_player_coverage` | cov_a=13 cov_b=39 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29ilamay) |
 | Johannus Monday vs Adhithya Ganesan | Little Rock Qualification | 2026-05-24 | 0.74 / 0.69 | `low_player_coverage` | cov_a=43 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24mongan) |
 | Adhithya Ganesan vs Johannus Monday | Little Rock Qualification | 2026-05-24 | 0.27 / 0.26 | `low_player_coverage` | cov_a=43 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24mongan) |
 | Masamichi Imamura vs Enzo Aguiard | Little Rock Qualification | 2026-05-24 | 0.68 / 0.64 | `low_player_coverage` | cov_a=18 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24aguima) |

@@ -1,12 +1,14 @@
-# Settled paper bets (235)
+# Settled paper bets (237)
 
-_Generated 2026-05-30T16:10:34+00:00_
+_Generated 2026-05-30T19:21:41+00:00_
 
-**Wins:** 78 / 235  (33.2%)  
-**Net PnL (per contract):** -10.680
+**Wins:** 78 / 237  (32.9%)  
+**Net PnL (per contract):** -11.551
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Tyler Zink (YES) vs Keegan Smith | Little Rock | 2026-05-29 | YES Tyler Zink | 0.26 | 0.316 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29smizin) |
+| Stefano Travaglia (YES) vs Jacopo Vasami | Vicenza | 2026-05-30 | YES Stefano Travaglia | 0.58 | 0.681 | ✗ | -0.597 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may30travas) |
 | Chun-Hsin Tseng (YES) vs Lukas Neumayer | Vicenza | 2026-05-30 | YES Chun-Hsin Tseng | 0.34 | 0.465 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may30tseneu) |
 | Bernard Tomic (YES) vs Michael Mmoh | Little Rock | 2026-05-29 | YES Bernard Tomic | 0.30 | 0.508 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29mmotom) |
 | Stefano Travaglia (YES) vs Diego Dedura | Vicenza | 2026-05-29 | YES Stefano Travaglia | 0.50 | 0.632 | ✓ | +0.482 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29traded) |
