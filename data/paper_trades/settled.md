@@ -1,12 +1,13 @@
-# Settled paper bets (234)
+# Settled paper bets (235)
 
-_Generated 2026-05-30T13:46:08+00:00_
+_Generated 2026-05-30T16:10:34+00:00_
 
-**Wins:** 78 / 234  (33.3%)  
-**Net PnL (per contract):** -10.324
+**Wins:** 78 / 235  (33.2%)  
+**Net PnL (per contract):** -10.680
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Chun-Hsin Tseng (YES) vs Lukas Neumayer | Vicenza | 2026-05-30 | YES Chun-Hsin Tseng | 0.34 | 0.465 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may30tseneu) |
 | Bernard Tomic (YES) vs Michael Mmoh | Little Rock | 2026-05-29 | YES Bernard Tomic | 0.30 | 0.508 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29mmotom) |
 | Stefano Travaglia (YES) vs Diego Dedura | Vicenza | 2026-05-29 | YES Stefano Travaglia | 0.50 | 0.632 | ✓ | +0.482 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29traded) |
 | Yu Hsiou Hsu (YES) vs Jacopo Vasami | Vicenza | 2026-05-29 | YES Yu Hsiou Hsu | 0.32 | 0.542 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29hsuvas) |
