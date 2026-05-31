@@ -1,12 +1,13 @@
-# Settled paper bets (239)
+# Settled paper bets (240)
 
-_Generated 2026-05-31T13:52:20+00:00_
+_Generated 2026-05-31T16:15:17+00:00_
 
-**Wins:** 78 / 239  (32.6%)  
-**Net PnL (per contract):** -12.240
+**Wins:** 79 / 240  (32.9%)  
+**Net PnL (per contract):** -11.545
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Pietro Fellin (YES) vs Manas Dhamne | Perugia Qualification | 2026-05-31 | YES Pietro Fellin | 0.29 | 0.408 | ✓ | +0.696 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31feldha) |
 | Li Tu (YES) vs Lorenzo Carboni | Perugia Qualification | 2026-05-31 | YES Li Tu | 0.42 | 0.687 | ✗ | -0.437 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31tulcar) |
 | Justin Boulais (YES) vs Michael Mmoh | Little Rock | 2026-05-30 | YES Justin Boulais | 0.24 | 0.298 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may30mmobou) |
 | Tyler Zink (YES) vs Keegan Smith | Little Rock | 2026-05-29 | YES Tyler Zink | 0.26 | 0.316 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29smizin) |
