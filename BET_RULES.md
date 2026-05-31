@@ -297,9 +297,9 @@ the diagnostic before assuming its slices are correct.
 
 ---
 
-## v2.4 — direction-asymmetry guard, re-enabled on canonical series — CURRENT
+## v2.4 — direction-asymmetry guard, re-enabled on canonical series — REVERTED
 
-**Active:** `2026-05-31` to present
+**Active:** `2026-05-31` only (same-day human revert in v2.5)
 **Origin:** auto-review 2026-05-31 (3-agent committee, run under an explicit
 user cadence override). See `data/analyses/2026-05-31/` for the diagnostic,
 proposal, and devil's-advocate critique.
@@ -346,6 +346,45 @@ holds its calibration out of sample, and whether flow collapses to near-zero.
 
 Rollback: set `DROP_YES_ON_CHALLENGER = False` (single-constant flip).
 `MIN_EDGE` / `MAX_SPREAD` untouched. No retrain. No threshold changes.
+
+---
+
+## v2.5 — revert v2.4; treat YES overconfidence as a model problem — CURRENT
+
+**Active:** `2026-05-31` to present
+**Origin:** human decision, same day as v2.4 (not an auto-review committee
+change). Flips `DROP_YES_ON_CHALLENGER` back to `False`.
+
+**No behavioural change vs v2.3.** v2.5 re-enables YES (back-the-favorite)
+betting on Challengers — i.e. it removes the v2.4 guard. Behaviour is identical
+to v2.3; the only difference is the corrected `kalshi_series`-gated guard code
+introduced in v2.4 is left in place but dormant behind the `False` flag (a
+one-line flip to re-enable, exactly as v2.3 left v2.2's code).
+
+**Why revert a filter that demonstrably worked:**
+
+The v2.4 guard was statistically sound — YES-on-Challenger ran −25.2% ROI on
+n=200 (Wilson-95 CI excludes its 0.528 avg theo) vs NO at +52.6% on n=40, a sign
+that held across four weekly diagnostics. The devil's-advocate approved it but
+explicitly flagged that it *patches a calibration artifact at the execution
+layer instead of fixing the model*. On reflection that is the deciding factor:
+
+- The root cause is a **model deficiency** — the logistic-regression Theo
+  systematically overrates the nominal favorite on thin Challenger fields (where
+  the public-stats features are sparse and `rank_ratio_a` dominates). The right
+  fix lives in the model: better calibration, surface-Elo features that decay to
+  a prior for unknown players, or a retrain — not a blanket ban on a whole bet
+  direction.
+- With 100% of live flow on Challengers, the guard turned the system into a
+  **NO-only bot**, which (a) discards ~80% of volume and (b) hides the
+  overconfidence symptom we actually want to see and fix. Masking the metric we
+  use to diagnose the model is counterproductive while model work is the focus.
+- Forward priority is **model quality over execution-layer filtering**. We would
+  rather keep placing YES bets, keep the loss signal visible, and fix the
+  calibration that causes it.
+
+`MIN_EDGE` / `MAX_SPREAD` untouched. No retrain in this change. Rollback (if we
+ever want the guard back): set `DROP_YES_ON_CHALLENGER = True`.
 
 ---
 

@@ -113,22 +113,23 @@ MAX_MIRROR_SUM_DEV    = 0.03   # require |yes_ask_a + yes_ask_b - 1.0| ≤ MAX.
                                # drops failed this gate alone.
 MIN_OPEN_INTEREST     = 0.0    # placeholder — OI not yet plumbed from Kalshi
                                # normalize. Set to 500 once we surface it.
-DROP_YES_ON_CHALLENGER = True  # v2.2 direction-asymmetry guard — RE-ENABLED in
-                               # v2.4 (2026-05-31). v2.2's original filter gated
-                               # on `tourney_level == "C"`, a TML mode-lookup on
-                               # tournament name that mislabeled name-collision
-                               # tournaments (Cordoba: 162 ATP-250 rows vs 62
-                               # Challenger rows → mode = "250"), so it was
-                               # REVERTED in v2.3. v2.4 re-enables it gating on
-                               # the canonical `kalshi_series` field instead (see
-                               # the guard in _score_match_from_features), so the
-                               # tier-mislabel bug is structurally impossible.
-                               # Evidence: YES-on-Challenger ran −25.2% ROI on
-                               # n=200 (Wilson-95 CI excludes its 0.528 avg theo)
-                               # vs NO-on-Challenger +52.6% on n=40 — a sign that
-                               # has held across four weekly diagnostics. With all
-                               # live flow on KXATPCHALLENGERMATCH this makes the
-                               # bot effectively NO-only; flagged for next review.
+DROP_YES_ON_CHALLENGER = False # v2.2 direction-asymmetry guard — RE-DISABLED in
+                               # v2.5 (2026-05-31), a same-day human revert of
+                               # v2.4. The guard (drop every YES/back-the-favorite
+                               # bet on a Challenger) does work — YES-on-Challenger
+                               # ran −25.2% ROI on n=200 vs NO +52.6% on n=40 — but
+                               # it patches a MODEL-CALIBRATION deficiency at the
+                               # execution layer: the model overrates favorites on
+                               # thin Challenger fields, and dropping those bets
+                               # masks that symptom rather than fixing it. With all
+                               # live flow on Challengers the guard also turned the
+                               # bot NO-only. Deliberate decision (see BET_RULES
+                               # v2.5): re-enable YES betting and address the
+                               # overconfidence in the model itself (better
+                               # calibration / Elo features / retrain), not by
+                               # vetoing a whole bet direction. The gate code below
+                               # is left dormant behind this flag so it stays a
+                               # one-line flip if we ever want it back.
 
 # Canonical tier code per Kalshi series. This is the SINGLE SOURCE OF TRUTH
 # for `tourney_level` on every scan row: previously we inferred it from a
@@ -154,7 +155,7 @@ TIER_FROM_SERIES = {
 # Bet-rule version — stamped on every recorded bet so weekly_report can
 # slice PnL by rule version without timestamp math. See BET_RULES.md
 # at the repo root for the full version history & what each cut changed.
-GATE_VERSION          = "v2.4"
+GATE_VERSION          = "v2.5"
 
 DEFAULT_MODEL_PATH = REPO / "data" / "processed" / "model_augmented_beta.pkl"
 DEFAULT_LOG_DIR    = REPO / "data" / "paper_trades"
