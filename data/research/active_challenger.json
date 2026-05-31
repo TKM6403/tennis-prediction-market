@@ -1,0 +1,7 @@
+{
+  "challenger_id": null,
+  "pickle": null,
+  "registered_at": null,
+  "hypothesis": null,
+  "_comment": "Champion/challenger SHADOW A/B slot (see docs/MODEL_RESEARCH_AGENT.md and src/paper_trader.py). When challenger_id is null/empty, there is NO active challenger and the shadow path in paper_trader is a complete no-op. To activate a challenger: set challenger_id to a unique id, point `pickle` at its (gitignored) artifact under data/research/candidates/<id>.pkl, and fill registered_at (ISO) + hypothesis. The challenger is scored on the same markets/timestamps/features as the champion and logged to the gitignored data/research/shadow/<id>.csv; it never affects the live paper-trade logs and never places a real bet."
+}

@@ -3,6 +3,11 @@
 # the paper-trade log (so phone/laptop/VPS share one settled.csv history).
 data/raw/
 data/processed/
+# model-research: candidate pickles + shadow A/B logs are DATA (gitignored).
+# The active-challenger registry json and any tracked ledger markdown under
+# data/research/ stay TRACKED (not matched by these patterns).
+data/research/candidates/
+data/research/shadow/
 
 # env
 .env

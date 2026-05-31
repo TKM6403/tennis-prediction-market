@@ -160,6 +160,22 @@ GATE_VERSION          = "v2.5"
 DEFAULT_MODEL_PATH = REPO / "data" / "processed" / "model_augmented_beta.pkl"
 DEFAULT_LOG_DIR    = REPO / "data" / "paper_trades"
 
+# ── Champion / challenger SHADOW A/B plumbing ──────────────────────────────
+# A "challenger" is a candidate Theo the model-research agent built (see
+# docs/MODEL_RESEARCH_AGENT.md). When one is registered, EVERY scan also runs
+# the challenger over the EXACT SAME markets/timestamps/features the champion
+# saw and logs its would-be bets to a separate shadow CSV — without ever
+# touching the live paper-trade logs or placing a real bet. This is what lets
+# the weekly review score challenger calibration vs champion on forward,
+# out-of-sample data. When no challenger is registered the whole path is a
+# complete no-op.
+#
+# The registry is a TRACKED json file (so the active slot is auditable);
+# the pickle it points to and the shadow CSVs are GITIGNORED (they are data,
+# per CLAUDE.md #4).
+ACTIVE_CHALLENGER_PATH = REPO / "data" / "research" / "active_challenger.json"
+SHADOW_DIR             = REPO / "data" / "research" / "shadow"
+
 
 # Reason codes for dropped markets — kept short so they're greppable in the CSV.
 REASON_MISSING_ID   = "missing_player_id"
@@ -420,15 +436,98 @@ class PaperTrader:
         )
         with open(model_path, "rb") as f:
             self.model = pickle.load(f)
+
+        # SHADOW A/B: load the active challenger model, if one is registered.
+        # On any failure (missing registry, null id, missing/unloadable pickle)
+        # this leaves challenger_id/model as None and the shadow path no-ops.
+        # It must NEVER crash or degrade the live scan.
+        self.challenger_id: Optional[str] = None
+        self.challenger_model = None
+        self.shadow_pending_path: Optional[Path] = None
+        self.shadow_settled_path: Optional[Path] = None
+        self._load_active_challenger()
+
         if verbose:
             logger.info(f"PaperTrader ready (model={model_path.name}, "
                         f"tml_rows={len(self.tml_df):,})")
+            if self.challenger_id:
+                logger.info(f"  shadow challenger active: {self.challenger_id}")
 
     @staticmethod
     def _load_tml() -> pd.DataFrame:
         loader = TMLMatchLoader()
         raw = loader.load(start_year=2018, end_year=2026, include_challenger=True)
         return loader.normalize(raw)
+
+    # Shadow log column schemas mirror the champion's pending/settled schemas
+    # exactly (so calibration is scored with identical fields), plus a
+    # `challenger_id` provenance column.
+    @property
+    def SHADOW_PENDING_COLS(self) -> list:
+        return ["challenger_id"] + self.PENDING_COLS
+
+    @property
+    def SHADOW_SETTLED_COLS(self) -> list:
+        return ["challenger_id"] + self.SETTLED_COLS
+
+    def _load_active_challenger(self) -> None:
+        """
+        Read data/research/active_challenger.json and, if it names a usable
+        challenger, load its pickle via the SAME code path the champion uses
+        (pickle.load) and wire up the shadow log path.
+
+        No-op (and never raises) in every degraded case:
+          - registry file absent
+          - `challenger_id` null / empty / missing
+          - `pickle` path missing / unreadable / not a valid model
+
+        On a missing/unloadable pickle for a named challenger we log a WARNING
+        and skip shadow entirely, so the live scan is never affected.
+        """
+        path = ACTIVE_CHALLENGER_PATH
+        if not path.exists():
+            return
+        try:
+            reg = json.loads(path.read_text())
+        except Exception as e:
+            logger.warning(f"shadow: could not parse {path.name}: {e} — "
+                           "skipping challenger.")
+            return
+
+        cid = reg.get("challenger_id")
+        if not cid or not str(cid).strip():
+            # Explicit "no challenger" state — silent no-op.
+            return
+        cid = str(cid).strip()
+
+        pkl_rel = reg.get("pickle")
+        if not pkl_rel:
+            logger.warning(f"shadow: challenger {cid!r} has no 'pickle' path — "
+                           "skipping.")
+            return
+        pkl_path = Path(pkl_rel)
+        if not pkl_path.is_absolute():
+            pkl_path = REPO / pkl_path
+        if not pkl_path.exists():
+            logger.warning(f"shadow: challenger {cid!r} pickle not found at "
+                           f"{pkl_path} — skipping shadow.")
+            return
+        try:
+            with open(pkl_path, "rb") as f:
+                challenger_model = pickle.load(f)
+        except Exception as e:
+            logger.warning(f"shadow: failed to load challenger {cid!r} pickle "
+                           f"({pkl_path}): {e} — skipping shadow.")
+            return
+
+        self.challenger_id = cid
+        self.challenger_model = challenger_model
+        SHADOW_DIR.mkdir(parents=True, exist_ok=True)
+        # `<cid>.csv` holds open would-be bets; `<cid>_settled.csv` holds the
+        # resolved ones (mirrors the champion's pending/settled split so the
+        # exact same settle logic can be reused).
+        self.shadow_pending_path = SHADOW_DIR / f"{cid}.csv"
+        self.shadow_settled_path = SHADOW_DIR / f"{cid}_settled.csv"
 
     # ------------------------------------------------------------------ #
     # scan()
@@ -616,6 +715,13 @@ class PaperTrader:
                     for d in eval_result["dropped"]:
                         reason_counts[d["reason"]] = reason_counts.get(d["reason"], 0) + 1
 
+            # ── 4c. SHADOW A/B pass (no-op if no active challenger) ────────
+            # Re-score the SAME matches/features with the challenger model and
+            # log its would-be bets to the shadow CSV. This never touches
+            # `bets`/`dropped_rows`/`reason_counts`, so the champion logs are
+            # byte-for-byte identical to a no-challenger run.
+            self._run_shadow_scan(synth_meta, feat_idx, ts)
+
         # ── 5. Persist ────────────────────────────────────────────────────
         if bets:
             self._append_csv(self.pending_path, bets, self.PENDING_COLS)
@@ -647,12 +753,22 @@ class PaperTrader:
         meta: dict,
         feat_idx: pd.DataFrame,
         ts: str,
+        model=None,
     ) -> dict:
         """
         Score one match given the precomputed feature matrix indexed by
         tml_match_id. Apply the bet rule. Returns {"status": "bet", "row": ...}
         or {"status": "drop", "dropped": [...]} for the dropped.csv writer.
+
+        `model` selects which Theo to score with. It defaults to the champion
+        (`self.model`); the SHADOW A/B path passes the active challenger here so
+        the challenger runs through the IDENTICAL feature assembly and bet gates
+        as the champion (we are A/B-testing the model, not the bet rules). Every
+        gate/threshold below is shared — only `predict_proba` and the feature
+        attribution use the supplied model.
         """
+        if model is None:
+            model = self.model
         group = meta["group"]
         primary = meta["primary"]
         surface = meta["surface"]
@@ -726,7 +842,7 @@ class PaperTrader:
 
         # Predict
         X = np.vstack([feat_a.values.astype(float), feat_b.values.astype(float)])
-        theos = self.model.predict_proba(X)[:, 1]
+        theos = model.predict_proba(X)[:, 1]
         theo_a, theo_b = float(theos[0]), float(theos[1])
 
         # Build the candidate-bet table — up to 4 (per market × YES/NO),
@@ -838,7 +954,7 @@ class PaperTrader:
         bet_feat = feat_a if best["player_id"] == pa_id else feat_b
         try:
             shifts = compute_feature_attribution(
-                self.model, bet_feat.values.astype(float), AUGMENTED_FEATURES,
+                model, bet_feat.values.astype(float), AUGMENTED_FEATURES,
             )
             shifts_json = json.dumps({k: round(v, 6) for k, v in shifts.items()})
         except Exception as e:
@@ -889,6 +1005,56 @@ class PaperTrader:
         return {"status": "bet", "row": row}
 
     # ------------------------------------------------------------------ #
+    # SHADOW A/B — challenger scoring on the same scan
+    # ------------------------------------------------------------------ #
+
+    def _run_shadow_scan(
+        self,
+        synth_meta: dict,
+        feat_idx: pd.DataFrame,
+        ts: str,
+    ) -> None:
+        """
+        Score the active challenger over the EXACT same matches/timestamps/
+        features the champion just saw, and append its would-be bets to the
+        shadow CSV. Complete no-op when no challenger is active.
+
+        Reuses `_score_match_from_features` with the challenger model swapped
+        in, so the challenger passes through the identical feature assembly and
+        identical bet gates as the champion — we A/B-test the MODEL, not the
+        bet rules. The challenger NEVER writes the champion's logs and NEVER
+        places a real bet. Wrapped in a broad try/except so a challenger fault
+        can never break the live scan.
+        """
+        if not self.challenger_id or self.challenger_model is None:
+            return
+        try:
+            already_open = self._load_match_keys(self.shadow_pending_path)
+            shadow_bets = []
+            for mk, meta in synth_meta.items():
+                # Same dedup discipline the champion uses: one open shadow bet
+                # per match_key.
+                match_key = _match_key(meta["primary"].get("market_id"))
+                if match_key and match_key in already_open:
+                    continue
+                result = self._score_match_from_features(
+                    meta=meta, feat_idx=feat_idx, ts=ts,
+                    model=self.challenger_model,
+                )
+                if result["status"] == "bet":
+                    row = {"challenger_id": self.challenger_id, **result["row"]}
+                    shadow_bets.append(row)
+            if shadow_bets:
+                self._append_csv(self.shadow_pending_path, shadow_bets,
+                                 self.SHADOW_PENDING_COLS)
+            if self.verbose:
+                logger.info(f"  shadow[{self.challenger_id}]: "
+                            f"{len(shadow_bets)} would-be bets logged")
+        except Exception as e:
+            # Never let a challenger fault degrade the live scan.
+            logger.warning(f"shadow scan for {self.challenger_id!r} failed: {e}")
+
+    # ------------------------------------------------------------------ #
     # settle_pending()
     # ------------------------------------------------------------------ #
 
@@ -897,11 +1063,19 @@ class PaperTrader:
         Refetch settled Kalshi markets and resolve any pending paper bets.
         Settled rows are appended to settled.csv and removed from pending.
         """
-        if not self.pending_path.exists():
-            return {"settled": 0, "still_open": 0}
-
-        pending = pd.read_csv(self.pending_path)
-        if pending.empty:
+        champ_has_pending = self.pending_path.exists()
+        if champ_has_pending:
+            pending = pd.read_csv(self.pending_path)
+            champ_has_pending = not pending.empty
+        # The shadow log may have open rows even when the champion does not
+        # (e.g. a challenger that bets matches the champion gated out). Only
+        # bail entirely if NEITHER has anything to settle.
+        shadow_has_pending = (
+            self.challenger_id
+            and self.shadow_pending_path is not None
+            and self.shadow_pending_path.exists()
+        )
+        if not champ_has_pending and not shadow_has_pending:
             return {"settled": 0, "still_open": 0}
 
         # Pull settled markets. force_refresh bypasses KalshiLoader's
@@ -909,14 +1083,62 @@ class PaperTrader:
         # snapshot and today's resolutions would be invisible.
         raw_settled = self.kalshi.load(status="settled", limit=2000, force_refresh=True)
         if raw_settled.empty:
-            return {"settled": 0, "still_open": int(len(pending))}
+            n_open = int(len(pending)) if champ_has_pending else 0
+            return {"settled": 0, "still_open": n_open}
         norm_settled = self.kalshi.normalize(raw_settled)
         res_by_market = norm_settled.set_index("market_id")["resolution"]
 
         ts = datetime.now(timezone.utc).isoformat(timespec="seconds")
+        if champ_has_pending:
+            newly_settled, still_open = self._resolve_rows(pending, res_by_market, ts)
+        else:
+            newly_settled, still_open = [], []
+
+        # Persist
+        if newly_settled:
+            self._append_csv(self.settled_path, newly_settled, self.SETTLED_COLS)
+        # Rewrite pending with only the still-open rows. Backfill any
+        # PENDING_COLS columns missing from older rows (e.g. when new
+        # columns are added in code after rows were already written).
+        if still_open:
+            still_open_df = pd.DataFrame(still_open)
+            for c in self.PENDING_COLS:
+                if c not in still_open_df.columns:
+                    still_open_df[c] = ""
+            still_open_df = still_open_df[self.PENDING_COLS]
+            still_open_df.to_csv(self.pending_path, index=False)
+        else:
+            self.pending_path.unlink(missing_ok=True)
+
+        # SHADOW A/B: settle the active challenger's shadow pending rows using
+        # the SAME resolution index, so the weekly review can score challenger
+        # calibration vs champion. No-op if no challenger / no shadow pending.
+        self._settle_shadow(res_by_market, ts)
+
+        self._refresh_markdown()
+
+        if self.verbose:
+            wins = sum(1 for r in newly_settled if r["bet_won"])
+            net = sum(r["net_pnl"] for r in newly_settled)
+            logger.info(
+                f"settle_pending(): {len(newly_settled)} newly settled "
+                f"({wins} wins, net_pnl={net:+.3f})  still_open={len(still_open)}"
+            )
+        return {
+            "settled":    len(newly_settled),
+            "still_open": len(still_open),
+        }
+
+    def _resolve_rows(self, pending: pd.DataFrame, res_by_market: pd.Series,
+                      ts: str) -> Tuple[list, list]:
+        """
+        Split a pending DataFrame into (newly_settled, still_open) using the
+        Kalshi resolution index. Shared by the champion settle and the shadow
+        settle so they use IDENTICAL resolution / PnL logic. Pure on its inputs
+        — does not read or write any file.
+        """
         newly_settled = []
         still_open = []
-
         for _, row in pending.iterrows():
             market_id = row["chosen_market_id"]
             if market_id not in res_by_market.index:
@@ -945,35 +1167,47 @@ class PaperTrader:
                 "net_pnl":           net_pnl,
             })
             newly_settled.append(settled_row)
+        return newly_settled, still_open
 
-        # Persist
-        if newly_settled:
-            self._append_csv(self.settled_path, newly_settled, self.SETTLED_COLS)
-        # Rewrite pending with only the still-open rows. Backfill any
-        # PENDING_COLS columns missing from older rows (e.g. when new
-        # columns are added in code after rows were already written).
-        if still_open:
-            still_open_df = pd.DataFrame(still_open)
-            for c in self.PENDING_COLS:
-                if c not in still_open_df.columns:
-                    still_open_df[c] = ""
-            still_open_df = still_open_df[self.PENDING_COLS]
-            still_open_df.to_csv(self.pending_path, index=False)
-        else:
-            self.pending_path.unlink(missing_ok=True)
-        self._refresh_markdown()
-
-        if self.verbose:
-            wins = sum(1 for r in newly_settled if r["bet_won"])
-            net = sum(r["net_pnl"] for r in newly_settled)
-            logger.info(
-                f"settle_pending(): {len(newly_settled)} newly settled "
-                f"({wins} wins, net_pnl={net:+.3f})  still_open={len(still_open)}"
-            )
-        return {
-            "settled":    len(newly_settled),
-            "still_open": len(still_open),
-        }
+    def _settle_shadow(self, res_by_market: pd.Series, ts: str) -> None:
+        """
+        Settle the active challenger's shadow pending rows against the same
+        Kalshi resolution index the champion used, moving resolved rows from
+        `<cid>.csv` to `<cid>_settled.csv`. Complete no-op when no challenger
+        is active or no shadow pending file exists. Wrapped so a shadow fault
+        can never break the live settle.
+        """
+        if (not self.challenger_id
+                or self.shadow_pending_path is None
+                or not self.shadow_pending_path.exists()):
+            return
+        try:
+            pending = pd.read_csv(self.shadow_pending_path)
+            if pending.empty:
+                return
+            newly_settled, still_open = self._resolve_rows(pending, res_by_market, ts)
+            if newly_settled:
+                self._append_csv(self.shadow_settled_path, newly_settled,
+                                 self.SHADOW_SETTLED_COLS)
+            if still_open:
+                still_open_df = pd.DataFrame(still_open)
+                for c in self.SHADOW_PENDING_COLS:
+                    if c not in still_open_df.columns:
+                        still_open_df[c] = ""
+                still_open_df = still_open_df[self.SHADOW_PENDING_COLS]
+                still_open_df.to_csv(self.shadow_pending_path, index=False)
+            else:
+                self.shadow_pending_path.unlink(missing_ok=True)
+            if self.verbose and newly_settled:
+                wins = sum(1 for r in newly_settled if r["bet_won"])
+                net = sum(r["net_pnl"] for r in newly_settled)
+                logger.info(
+                    f"  shadow[{self.challenger_id}] settle: "
+                    f"{len(newly_settled)} settled ({wins} wins, "
+                    f"net_pnl={net:+.3f}) still_open={len(still_open)}"
+                )
+        except Exception as e:
+            logger.warning(f"shadow settle for {self.challenger_id!r} failed: {e}")
 
     # ------------------------------------------------------------------ #
     # Internal helpers
@@ -1008,13 +1242,20 @@ class PaperTrader:
         already-recorded bets — so scan() doesn't re-bet the same match
         when the mirror appears, or re-bet on subsequent re-scans.
         """
-        if not self.pending_path.exists():
+        return self._load_match_keys(self.pending_path)
+
+    @staticmethod
+    def _load_match_keys(path: Optional[Path]) -> set:
+        """Return the set of `match_key` values in a pending CSV, or empty set
+        if the file is absent/unreadable. Used for both the champion and the
+        shadow pending logs to enforce one-open-bet-per-match dedup."""
+        if path is None or not Path(path).exists():
             return set()
         try:
-            df = pd.read_csv(self.pending_path)
+            df = pd.read_csv(path)
             return set(df["match_key"].dropna().astype(str).tolist())
         except Exception as e:
-            logger.warning(f"failed to read pending.csv: {e}")
+            logger.warning(f"failed to read {Path(path).name}: {e}")
             return set()
 
     def _latest_rank(self, player_id, player_name: str, cutoff) -> float:
