@@ -269,15 +269,36 @@ and cheap; raise it once the loop has proven its leakage discipline.
   registry → complete no-op (champion logs byte-for-byte unchanged). The
   challenger runs the identical bet gates — only the model differs.
 
-## Still open (decide before first real cycle)
+## Build status (updated)
 
-- **Cold start:** the very first cycle has no challenger that's been shadowing
-  yet, so it can only *deploy* one, not *evaluate* one. Default plan: seed the
-  first challenger with the **surface-Elo feature** already on the planned-next
-  list in `BET_RULES.md`, to exercise the loop end-to-end on a known, wanted
-  experiment rather than something free-styled. (Change this if you'd rather the
-  agent pick its own first hypothesis off the diagnostic.)
-- **The research agent itself** is not built yet — only the shadow *plumbing*
-  it will use. The agent (hypothesis register, sandbox training, the weekly
-  scoring/proposal step) is the next thing to build on top of this.
+- **Shadow plumbing — IMPLEMENTED** in `src/paper_trader.py` (above).
+- **Candidate-training harness — IMPLEMENTED:** `src/ml/research/train_candidate.py`
+  turns a hypothesis into a shadow-compatible candidate pickle + calibration-first
+  metrics, reusing `train.py`'s frozen split. Custom transformers live in
+  `src/ml/research/transformers.py` (so candidate pickles unpickle cleanly inside
+  paper_trader — see the `__main__`-pickling note there). The full-15-feature case
+  emits a pure-sklearn pipeline.
+- **Agent playbook — IMPLEMENTED:** `.claude/commands/model-research.md` runs one
+  weekly cycle (intake → evaluate prior challenger → hypothesis → train →
+  leakage-veto → deploy shadow → report), mirroring `/auto-review`.
+
+### v1 candidate surface
+
+Candidates vary **model class / calibration method / regularization /
+feature-subset over the existing 15 `AUGMENTED_FEATURES`** — these are
+shadow-testable today (the shadow scan feeds the fixed 15-feature matrix, and the
+harness emits a pipeline that accepts those 15 columns). A genuinely NEW feature
+(e.g. surface-Elo) also needs inference-side plumbing in `matches_to_feature_matrix`
++ the shadow path before the loop can test it — a separate build.
+
+## Still open
+
+- **Cold start:** the first cycle has no prior challenger to evaluate. Seed the
+  first hypothesis with a same-feature variant (a calibration-method or
+  regularization A/B) so the loop is exercised on something immediately
+  shadow-testable. (Surface-Elo — originally floated as the seed — turns out to
+  need the inference-side feature plumbing first, so it is NOT the right cold-start
+  experiment.)
+- **First real run:** the agent is built but has not been run. Running it deploys
+  the first live shadow challenger.
 ```
