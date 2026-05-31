@@ -255,9 +255,9 @@ known-flawed filter live is not.
 
 ---
 
-## v2.3 — Kalshi series-ticker plumbing + v2.2 rollback — CURRENT
+## v2.3 — Kalshi series-ticker plumbing + v2.2 rollback
 
-**Active:** `2026-05-20` to present
+**Active:** `2026-05-20` to `2026-05-31` (superseded by v2.4)
 **Shipped:** same day as v2.2 (within hours), as a hand-applied bugfix
 outside the auto-review cadence.
 
@@ -294,6 +294,58 @@ inspecting the diagnostic, not by the 3-agent committee. The committee
 direction in both the diagnostic's input and any cross-checks it would
 do. Future similar issues are best caught the same way — by reviewing
 the diagnostic before assuming its slices are correct.
+
+---
+
+## v2.4 — direction-asymmetry guard, re-enabled on canonical series — CURRENT
+
+**Active:** `2026-05-31` to present
+**Origin:** auto-review 2026-05-31 (3-agent committee, run under an explicit
+user cadence override). See `data/analyses/2026-05-31/` for the diagnostic,
+proposal, and devil's-advocate critique.
+
+Re-enables the v2.2 direction-asymmetry guard that was reverted in v2.3 — but
+gates on the **canonical `kalshi_series` field**, not the TML-mode `tourney_level`
+that caused the v2.2 bug:
+
+- **`yes_on_challenger` (corrected)**: drop the bet if the best-edge candidate
+  is `direction == "YES"` AND `kalshi_series == "KXATPCHALLENGERMATCH"`. NO bets
+  on Challengers and any bet on a future main-tour `KXATPMATCH` series are
+  preserved.
+  - Constant: `DROP_YES_ON_CHALLENGER = True` (flipped from `False`).
+  - Gate now derives `series = _series_from_market_id(primary["market_id"])`
+    instead of reading `level`. `_series_from_market_id` reads the market_id
+    prefix off the live Kalshi quote — scan-time known, no TML coupling, no
+    name-mode lookup, structurally immune to the Cordoba-style mislabel that
+    sank v2.2.
+
+Diagnostic that motivated this (n=240 settled, all `KXATPCHALLENGERMATCH`):
+- **YES bets**: n=200, ROI **−25.2%**, win-rate 29.0% vs avg theo 52.8%.
+  Wilson-95 CI [0.232, 0.356] lies entirely below avg theo — structural
+  overconfidence, not noise.
+- **NO bets**: n=40, ROI **+52.6%**, win-rate 52.5% vs avg theo 51.7% — well
+  calibrated. Devil's-advocate confirmed this survives dropping the top 5
+  winners (+25.8% on n=35), spreads across ~14 tournaments / 4 weeks, and is
+  not stake-inflated (equal-weighted median per-bet ROI +58%).
+- The sign has held across **all four** weekly diagnostics (2026-05-20: YES
+  −29.2% / NO +47.5%; 2026-05-27 and 2026-05-31 unchanged). Acting on the
+  n=200/n=40 split, NOT the noisy n=18 current-period slice (−29.6%, CI still
+  covers avg theo) which the diagnostic flags as within-noise.
+
+Why it's safe to ship now when v2.2 was pulled: v2.3 made `kalshi_series` the
+single source of truth for tier and confirmed all 240 live rows are
+`KXATPCHALLENGERMATCH` — there is no real ATP-250 cohort to protect (v2.2's
+"clean +32.3% on n=21" was 21 mislabeled Cordoba Challengers). The plumbing
+that made v2.2 unsafe is now in place; the filter lands on the bug-free field.
+
+Volume cost (high, and the main risk): historically ~80% of placed bets are
+YES-on-Challenger, so v2.4 is functionally a NO-only bot until a main-tour
+series appears in the live ingest. Acceptable — the dropped cohort has negative
+expectation — but **flagged for next review**: watch whether the kept NO cohort
+holds its calibration out of sample, and whether flow collapses to near-zero.
+
+Rollback: set `DROP_YES_ON_CHALLENGER = False` (single-constant flip).
+`MIN_EDGE` / `MAX_SPREAD` untouched. No retrain. No threshold changes.
 
 ---
 

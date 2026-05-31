@@ -113,22 +113,22 @@ MAX_MIRROR_SUM_DEV    = 0.03   # require |yes_ask_a + yes_ask_b - 1.0| ≤ MAX.
                                # drops failed this gate alone.
 MIN_OPEN_INTEREST     = 0.0    # placeholder — OI not yet plumbed from Kalshi
                                # normalize. Set to 500 once we surface it.
-DROP_YES_ON_CHALLENGER = False # v2.2 direction-asymmetry guard — REVERTED in
-                               # v2.3. The original filter gated on
-                               # `tourney_level == "C"`, but `tourney_level`
-                               # was inferred via TML mode-lookup on tournament
-                               # name and mislabeled name-collision tournaments
-                               # (canonical case: Cordoba had 162 ATP-250 rows
-                               # vs 62 Challenger rows → mode = "250"). As of
-                               # v2.3+ `tourney_level` on every scan row is
-                               # derived directly from `kalshi_series` (see
-                               # TIER_FROM_SERIES below), so the tier-gating
-                               # bug is structurally impossible. A re-enabled
-                               # version of this filter could ship in a future
-                               # review, but per the 2026-05-27 critique the
-                               # current evidence is dominated by a single-
-                               # tournament Vicenza blow-up — not yet a real
-                               # signal.
+DROP_YES_ON_CHALLENGER = True  # v2.2 direction-asymmetry guard — RE-ENABLED in
+                               # v2.4 (2026-05-31). v2.2's original filter gated
+                               # on `tourney_level == "C"`, a TML mode-lookup on
+                               # tournament name that mislabeled name-collision
+                               # tournaments (Cordoba: 162 ATP-250 rows vs 62
+                               # Challenger rows → mode = "250"), so it was
+                               # REVERTED in v2.3. v2.4 re-enables it gating on
+                               # the canonical `kalshi_series` field instead (see
+                               # the guard in _score_match_from_features), so the
+                               # tier-mislabel bug is structurally impossible.
+                               # Evidence: YES-on-Challenger ran −25.2% ROI on
+                               # n=200 (Wilson-95 CI excludes its 0.528 avg theo)
+                               # vs NO-on-Challenger +52.6% on n=40 — a sign that
+                               # has held across four weekly diagnostics. With all
+                               # live flow on KXATPCHALLENGERMATCH this makes the
+                               # bot effectively NO-only; flagged for next review.
 
 # Canonical tier code per Kalshi series. This is the SINGLE SOURCE OF TRUTH
 # for `tourney_level` on every scan row: previously we inferred it from a
@@ -154,7 +154,7 @@ TIER_FROM_SERIES = {
 # Bet-rule version — stamped on every recorded bet so weekly_report can
 # slice PnL by rule version without timestamp math. See BET_RULES.md
 # at the repo root for the full version history & what each cut changed.
-GATE_VERSION          = "v2.3"
+GATE_VERSION          = "v2.4"
 
 DEFAULT_MODEL_PATH = REPO / "data" / "processed" / "model_augmented_beta.pkl"
 DEFAULT_LOG_DIR    = REPO / "data" / "paper_trades"
@@ -783,15 +783,20 @@ class PaperTrader:
         # Pick best edge
         best = max(candidates, key=lambda c: c["edge"])
 
-        # v2.2 direction-asymmetry guard. See BET_RULES.md v2.2 / auto-review
-        # 2026-05-20. YES picks on Challenger events ran at −36.7% ROI on
-        # n=142 (within v2.1 still −44.7% on n=14); NO-on-Challenger and
-        # ATP-250+ picks are preserved. Both `direction` and `level` are
-        # scan-time known (no lookahead).
-        if DROP_YES_ON_CHALLENGER and best["direction"] == "YES" and level == "C":
+        # v2.2 direction-asymmetry guard, re-enabled in v2.4 (see BET_RULES.md
+        # v2.4 / auto-review 2026-05-31). Gates on the canonical `kalshi_series`
+        # field — NOT `level`, which is a TML mode-lookup that mislabeled
+        # name-collision Challengers and got v2.2 reverted. YES picks on
+        # Challenger markets ran −25.2% ROI on n=200 (Wilson-95 CI excludes the
+        # 0.528 avg theo); NO-on-Challenger (+52.6%, n=40) and any future
+        # main-tour KXATPMATCH series are preserved. Both `direction` and
+        # `series` are scan-time known (no lookahead).
+        series = _series_from_market_id(primary["market_id"])
+        if DROP_YES_ON_CHALLENGER and best["direction"] == "YES" \
+                and series == "KXATPCHALLENGERMATCH":
             return self._drop_group(
                 group, ts, REASON_YES_ON_CHALL,
-                f"best={best['direction']} on Challenger "
+                f"best={best['direction']} on {series} "
                 f"(theo={best['theo']:.3f}, edge={best['edge']:.3f})",
             )
 
