@@ -1,12 +1,13 @@
-# Settled paper bets (237)
+# Settled paper bets (238)
 
-_Generated 2026-05-30T22:07:35+00:00_
+_Generated 2026-05-31T04:00:22+00:00_
 
-**Wins:** 78 / 237  (32.9%)  
-**Net PnL (per contract):** -11.551
+**Wins:** 78 / 238  (32.8%)  
+**Net PnL (per contract):** -11.803
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Justin Boulais (YES) vs Michael Mmoh | Little Rock | 2026-05-30 | YES Justin Boulais | 0.24 | 0.298 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may30mmobou) |
 | Tyler Zink (YES) vs Keegan Smith | Little Rock | 2026-05-29 | YES Tyler Zink | 0.26 | 0.316 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may29smizin) |
 | Stefano Travaglia (YES) vs Jacopo Vasami | Vicenza | 2026-05-30 | YES Stefano Travaglia | 0.58 | 0.681 | ✗ | -0.597 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may30travas) |
 | Chun-Hsin Tseng (YES) vs Lukas Neumayer | Vicenza | 2026-05-30 | YES Chun-Hsin Tseng | 0.34 | 0.465 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may30tseneu) |
