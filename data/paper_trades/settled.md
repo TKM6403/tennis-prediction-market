@@ -1,12 +1,15 @@
-# Settled paper bets (241)
+# Settled paper bets (244)
 
-_Generated 2026-06-01T04:14:38+00:00_
+_Generated 2026-06-01T11:40:29+00:00_
 
-**Wins:** 79 / 241  (32.8%)  
-**Net PnL (per contract):** -12.022
+**Wins:** 79 / 244  (32.4%)  
+**Net PnL (per contract):** -13.047
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Daniel Dutra da Silva (YES) vs Andrej Martin | Prostejov Qualification | 2026-06-01 | YES Daniel Dutra da Silva | 0.45 | 0.529 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01dutmar) |
+| Jelle Sels (YES) vs Lorenzo Carboni | Perugia Qualification | 2026-06-01 | YES Jelle Sels | 0.27 | 0.540 | ✗ | -0.284 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01carsel) |
+| Alafia Ayeni (YES) vs Carlo Alberto Caniato | Prostejov Qualification | 2026-06-01 | YES Alafia Ayeni | 0.26 | 0.475 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01canave) |
 | Michael Mmoh (YES) vs Colton Smith | Little Rock | 2026-05-31 | YES Michael Mmoh | 0.46 | 0.524 | ✗ | -0.477 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31smimmo) |
 | Pietro Fellin (YES) vs Manas Dhamne | Perugia Qualification | 2026-05-31 | YES Pietro Fellin | 0.29 | 0.408 | ✓ | +0.696 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31feldha) |
 | Li Tu (YES) vs Lorenzo Carboni | Perugia Qualification | 2026-05-31 | YES Li Tu | 0.42 | 0.687 | ✗ | -0.437 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31tulcar) |
