@@ -1,12 +1,13 @@
-# Settled paper bets (240)
+# Settled paper bets (241)
 
-_Generated 2026-05-31T22:05:10+00:00_
+_Generated 2026-06-01T04:14:38+00:00_
 
-**Wins:** 79 / 240  (32.9%)  
-**Net PnL (per contract):** -11.545
+**Wins:** 79 / 241  (32.8%)  
+**Net PnL (per contract):** -12.022
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Michael Mmoh (YES) vs Colton Smith | Little Rock | 2026-05-31 | YES Michael Mmoh | 0.46 | 0.524 | ✗ | -0.477 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31smimmo) |
 | Pietro Fellin (YES) vs Manas Dhamne | Perugia Qualification | 2026-05-31 | YES Pietro Fellin | 0.29 | 0.408 | ✓ | +0.696 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31feldha) |
 | Li Tu (YES) vs Lorenzo Carboni | Perugia Qualification | 2026-05-31 | YES Li Tu | 0.42 | 0.687 | ✗ | -0.437 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31tulcar) |
 | Justin Boulais (YES) vs Michael Mmoh | Little Rock | 2026-05-30 | YES Justin Boulais | 0.24 | 0.298 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may30mmobou) |
