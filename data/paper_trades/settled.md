@@ -1,12 +1,19 @@
-# Settled paper bets (244)
+# Settled paper bets (251)
 
-_Generated 2026-06-01T11:40:29+00:00_
+_Generated 2026-06-01T17:45:15+00:00_
 
-**Wins:** 79 / 244  (32.4%)  
-**Net PnL (per contract):** -13.047
+**Wins:** 82 / 251  (32.7%)  
+**Net PnL (per contract):** -12.906
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Ilia Simakin (YES) vs Marco Cecchinato | Perugia | 2026-06-01 | YES Ilia Simakin | 0.25 | 0.479 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01cecsim) |
+| Tristan Boyer (YES) vs Filip Cristian Jianu | Prostejov | 2026-06-01 | YES Tristan Boyer | 0.56 | 0.625 | ✓ | +0.423 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01boyjia) |
+| Yosuke Watanuki (YES) vs Pedro Boscardin Dias | Prostejov | 2026-06-01 | YES Yosuke Watanuki | 0.37 | 0.567 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01watbos) |
+| Zdenek Kolar (YES) vs Lautaro Midon | Prostejov | 2026-06-01 | YES Zdenek Kolar | 0.59 | 0.641 | ✗ | -0.607 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01midkol) |
+| Timofey Skatov (YES) vs Vilius Gaubas | Perugia | 2026-06-01 | YES Timofey Skatov | 0.35 | 0.441 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01skagau) |
+| Viktor Durasovic (YES) vs Daniel Michalski | Prostejov Qualification | 2026-06-01 | YES Viktor Durasovic | 0.26 | 0.470 | ✓ | +0.727 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01micdur) |
+| Marek Gengel (YES) vs Milos Karol | Prostejov Qualification | 2026-06-01 | YES Marek Gengel | 0.37 | 0.473 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01genkar) |
 | Daniel Dutra da Silva (YES) vs Andrej Martin | Prostejov Qualification | 2026-06-01 | YES Daniel Dutra da Silva | 0.45 | 0.529 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01dutmar) |
 | Jelle Sels (YES) vs Lorenzo Carboni | Perugia Qualification | 2026-06-01 | YES Jelle Sels | 0.27 | 0.540 | ✗ | -0.284 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01carsel) |
 | Alafia Ayeni (YES) vs Carlo Alberto Caniato | Prostejov Qualification | 2026-06-01 | YES Alafia Ayeni | 0.26 | 0.475 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01canave) |
