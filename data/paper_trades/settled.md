@@ -1,12 +1,15 @@
-# Settled paper bets (251)
+# Settled paper bets (254)
 
-_Generated 2026-06-01T17:45:15+00:00_
+_Generated 2026-06-01T21:38:30+00:00_
 
-**Wins:** 82 / 251  (32.7%)  
-**Net PnL (per contract):** -12.906
+**Wins:** 82 / 254  (32.3%)  
+**Net PnL (per contract):** -13.937
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Michele Ribecai (YES) vs Pablo Llamas Ruiz | Perugia | 2026-06-01 | YES Michele Ribecai | 0.16 | 0.319 | ✗ | -0.169 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01llarib) |
+| Hayato Matsuoka (YES) vs Masamichi Imamura | Tyler Qualification | 2026-06-01 | YES Hayato Matsuoka | 0.56 | 0.630 | ✗ | -0.577 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01matima) |
+| Raul Brancaccio (YES) vs Alexander Shevchenko | Prostejov | 2026-06-01 | YES Raul Brancaccio | 0.27 | 0.400 | ✗ | -0.284 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01shebra) |
 | Ilia Simakin (YES) vs Marco Cecchinato | Perugia | 2026-06-01 | YES Ilia Simakin | 0.25 | 0.479 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01cecsim) |
 | Tristan Boyer (YES) vs Filip Cristian Jianu | Prostejov | 2026-06-01 | YES Tristan Boyer | 0.56 | 0.625 | ✓ | +0.423 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01boyjia) |
 | Yosuke Watanuki (YES) vs Pedro Boscardin Dias | Prostejov | 2026-06-01 | YES Yosuke Watanuki | 0.37 | 0.567 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01watbos) |
