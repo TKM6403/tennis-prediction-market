@@ -1,12 +1,23 @@
-# Settled paper bets (256)
+# Settled paper bets (267)
 
-_Generated 2026-06-02T10:29:41+00:00_
+_Generated 2026-06-02T16:31:12+00:00_
 
-**Wins:** 82 / 256  (32.0%)  
-**Net PnL (per contract):** -14.359
+**Wins:** 86 / 267  (32.2%)  
+**Net PnL (per contract):** -13.863
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Liam Broady (YES) vs David Jorda Sanchis | Perugia | 2026-06-02 | YES Liam Broady | 0.50 | 0.598 | ✓ | +0.482 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02brojor) |
+| Miguel Damas (NO) vs Damir Dzumhur | Prostejov | 2026-06-02 | NO Miguel Damas | 0.27 | 0.488 | ✗ | -0.284 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02damdzu) |
+| Enrico Dalla Valle (YES) vs Henrique Rocha | Perugia | 2026-06-02 | YES Enrico Dalla Valle | 0.31 | 0.423 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02rocdal) |
+| Taro Daniel (YES) vs Jonas Forejtek | Prostejov | 2026-06-02 | YES Taro Daniel | 0.42 | 0.565 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02danfor) |
+| Andrej Martin (NO) vs Vit Kopriva | Prostejov | 2026-06-02 | NO Andrej Martin | 0.16 | 0.478 | ✗ | -0.169 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02markop) |
+| Cezar Cretu (NO) vs Jacopo Vasami | Perugia | 2026-06-02 | NO Cezar Cretu | 0.42 | 0.494 | ✗ | -0.437 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02crevas) |
+| Nicolas Alvarez Varona (NO) vs Valentin Royer | Perugia | 2026-06-02 | NO Nicolas Alvarez Varona | 0.24 | 0.360 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02royalv) |
+| Daniel Milavsky (YES) vs Christian Langmo | Tyler Qualification | 2026-06-01 | YES Daniel Milavsky | 0.29 | 0.615 | ✓ | +0.696 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01millan) |
+| Gonzalo Bueno (YES) vs Dusan Lajovic | Perugia | 2026-06-02 | YES Gonzalo Bueno | 0.33 | 0.417 | ✗ | -0.345 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02buelaj) |
+| Maxim Mrva (YES) vs Dalibor Svrcina | Prostejov | 2026-06-02 | YES Maxim Mrva | 0.29 | 0.386 | ✓ | +0.696 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02mrvsvr) |
+| Luka Pavlovic (YES) vs Nikolas Sanchez Izquierdo | Prostejov | 2026-06-02 | YES Luka Pavlovic | 0.12 | 0.403 | ✗ | -0.127 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02saipav) |
 | Sascha Gueymard Wayenburg (YES) vs Sebastian Baez | Prostejov | 2026-06-02 | YES Sascha Gueymard Wayenburg | 0.17 | 0.385 | ✗ | -0.180 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02baegue) |
 | Moez Echargui (YES) vs Chun-Hsin Tseng | Perugia | 2026-06-02 | YES Moez Echargui | 0.23 | 0.403 | ✗ | -0.242 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02echtse) |
 | Michele Ribecai (YES) vs Pablo Llamas Ruiz | Perugia | 2026-06-01 | YES Michele Ribecai | 0.16 | 0.319 | ✗ | -0.169 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01llarib) |
