@@ -1,12 +1,13 @@
-# Settled paper bets (271)
+# Settled paper bets (272)
 
-_Generated 2026-06-02T20:54:40+00:00_
+_Generated 2026-06-02T23:08:23+00:00_
 
-**Wins:** 88 / 271  (32.5%)  
-**Net PnL (per contract):** -13.641
+**Wins:** 88 / 272  (32.4%)  
+**Net PnL (per contract):** -13.956
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Maks Kasnikowski (YES) vs Andrea Pellegrino | Perugia | 2026-06-02 | YES Maks Kasnikowski | 0.30 | 0.371 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02pelkas) |
 | Viktor Durasovic (YES) vs Norbert Gombos | Prostejov | 2026-06-02 | YES Viktor Durasovic | 0.41 | 0.470 | ✗ | -0.427 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02durgom) |
 | Milos Karol (YES) vs Carlo Alberto Caniato | Prostejov | 2026-06-02 | YES Milos Karol | 0.42 | 0.491 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02karcan) |
 | Hynek Barton (NO) vs Roberto Bautista Agut | Prostejov | 2026-06-02 | NO Hynek Barton | 0.48 | 0.556 | ✓ | +0.503 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02baubar) |

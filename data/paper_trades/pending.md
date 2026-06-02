@@ -1,6 +1,6 @@
-# Pending paper bets (9)
+# Pending paper bets (8)
 
-_Generated 2026-06-02T20:54:40+00:00_
+_Generated 2026-06-02T23:08:23+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
@@ -11,5 +11,4 @@ _Generated 2026-06-02T20:54:40+00:00_
 | **Pablo Carreno Busta** (NO) vs Jaume Munar | Valencia | 2026-05-15 | NO Pablo Carreno Busta | 0.44 | 0.549 | +0.109 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15carmun) |
 | **Blake Ellis** (YES) vs Andres Martin | Tyler | 2026-06-01 | YES Blake Ellis | 0.36 | 0.455 | +0.095 | 0.0161 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01marell) |
 | **Fajing Sun** (YES) vs Andre Ilagan | Tyler | 2026-06-01 | YES Fajing Sun | 0.46 | 0.537 | +0.077 | 0.0174 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01sunila) |
-| **Maks Kasnikowski** (YES) vs Andrea Pellegrino | Perugia | 2026-06-02 | YES Maks Kasnikowski | 0.30 | 0.371 | +0.071 | 0.0147 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02pelkas) |
 | **Philip Sekulic** (YES) vs Mitchell Krueger | Little Rock | 2026-05-26 | YES Philip Sekulic | 0.38 | 0.450 | +0.070 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26sekkru) |
