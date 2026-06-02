@@ -1,12 +1,14 @@
-# Settled paper bets (254)
+# Settled paper bets (256)
 
-_Generated 2026-06-02T04:09:52+00:00_
+_Generated 2026-06-02T10:29:41+00:00_
 
-**Wins:** 82 / 254  (32.3%)  
-**Net PnL (per contract):** -13.937
+**Wins:** 82 / 256  (32.0%)  
+**Net PnL (per contract):** -14.359
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Sascha Gueymard Wayenburg (YES) vs Sebastian Baez | Prostejov | 2026-06-02 | YES Sascha Gueymard Wayenburg | 0.17 | 0.385 | ✗ | -0.180 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02baegue) |
+| Moez Echargui (YES) vs Chun-Hsin Tseng | Perugia | 2026-06-02 | YES Moez Echargui | 0.23 | 0.403 | ✗ | -0.242 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02echtse) |
 | Michele Ribecai (YES) vs Pablo Llamas Ruiz | Perugia | 2026-06-01 | YES Michele Ribecai | 0.16 | 0.319 | ✗ | -0.169 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01llarib) |
 | Hayato Matsuoka (YES) vs Masamichi Imamura | Tyler Qualification | 2026-06-01 | YES Hayato Matsuoka | 0.56 | 0.630 | ✗ | -0.577 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01matima) |
 | Raul Brancaccio (YES) vs Alexander Shevchenko | Prostejov | 2026-06-01 | YES Raul Brancaccio | 0.27 | 0.400 | ✗ | -0.284 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01shebra) |
