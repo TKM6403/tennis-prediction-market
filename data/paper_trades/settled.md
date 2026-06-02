@@ -1,12 +1,16 @@
-# Settled paper bets (267)
+# Settled paper bets (271)
 
-_Generated 2026-06-02T16:31:12+00:00_
+_Generated 2026-06-02T20:54:40+00:00_
 
-**Wins:** 86 / 267  (32.2%)  
-**Net PnL (per contract):** -13.863
+**Wins:** 88 / 271  (32.5%)  
+**Net PnL (per contract):** -13.641
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Viktor Durasovic (YES) vs Norbert Gombos | Prostejov | 2026-06-02 | YES Viktor Durasovic | 0.41 | 0.470 | ✗ | -0.427 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02durgom) |
+| Milos Karol (YES) vs Carlo Alberto Caniato | Prostejov | 2026-06-02 | YES Milos Karol | 0.42 | 0.491 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02karcan) |
+| Hynek Barton (NO) vs Roberto Bautista Agut | Prostejov | 2026-06-02 | NO Hynek Barton | 0.48 | 0.556 | ✓ | +0.503 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02baubar) |
+| Zsombor Piros (YES) vs Alex Molcan | Prostejov | 2026-06-02 | YES Zsombor Piros | 0.40 | 0.464 | ✗ | -0.417 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02molpir) |
 | Liam Broady (YES) vs David Jorda Sanchis | Perugia | 2026-06-02 | YES Liam Broady | 0.50 | 0.598 | ✓ | +0.482 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02brojor) |
 | Miguel Damas (NO) vs Damir Dzumhur | Prostejov | 2026-06-02 | NO Miguel Damas | 0.27 | 0.488 | ✗ | -0.284 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02damdzu) |
 | Enrico Dalla Valle (YES) vs Henrique Rocha | Perugia | 2026-06-02 | YES Enrico Dalla Valle | 0.31 | 0.423 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02rocdal) |
