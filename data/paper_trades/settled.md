@@ -1,12 +1,17 @@
-# Settled paper bets (279)
+# Settled paper bets (284)
 
-_Generated 2026-06-03T16:55:13+00:00_
+_Generated 2026-06-03T21:00:58+00:00_
 
-**Wins:** 90 / 279  (32.3%)  
-**Net PnL (per contract):** -14.699
+**Wins:** 91 / 284  (32.0%)  
+**Net PnL (per contract):** -15.718
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Tung-Lin Wu (YES) vs Adam Walton | Tyler | 2026-06-01 | YES Tung-Lin Wu | 0.25 | 0.388 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01waltun) |
+| Blake Ellis (YES) vs Andres Martin | Tyler | 2026-06-01 | YES Blake Ellis | 0.36 | 0.455 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01marell) |
+| Blaise Bicknell (YES) vs Johannus Monday | Tyler | 2026-06-01 | YES Blaise Bicknell | 0.34 | 0.461 | ✓ | +0.644 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01bicmon) |
+| Dane Sweeny (YES) vs Yuta Shimizu | Tyler | 2026-06-01 | YES Dane Sweeny | 0.58 | 0.693 | ✗ | -0.597 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01shiswe) |
+| Mitchell Krueger (YES) vs Henry Searle | Tyler | 2026-06-01 | YES Mitchell Krueger | 0.41 | 0.634 | ✗ | -0.427 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01seakru) |
 | Fajing Sun (YES) vs Andre Ilagan | Tyler | 2026-06-01 | YES Fajing Sun | 0.46 | 0.537 | ✗ | -0.477 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01sunila) |
 | Genaro Alberto Olivieri (YES) vs Lautaro Midon | Prostejov | 2026-06-03 | YES Genaro Alberto Olivieri | 0.40 | 0.492 | ✗ | -0.417 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03olimid) |
 | Jacopo Vasami (NO) vs Pablo Llamas Ruiz | Perugia | 2026-06-03 | NO Jacopo Vasami | 0.29 | 0.348 | ✗ | -0.304 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03llavas) |
