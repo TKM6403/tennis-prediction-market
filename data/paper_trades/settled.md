@@ -1,12 +1,15 @@
-# Settled paper bets (284)
+# Settled paper bets (287)
 
-_Generated 2026-06-03T21:00:58+00:00_
+_Generated 2026-06-03T23:11:29+00:00_
 
-**Wins:** 91 / 284  (32.0%)  
-**Net PnL (per contract):** -15.718
+**Wins:** 91 / 287  (31.7%)  
+**Net PnL (per contract):** -17.025
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Liam Broady (YES) vs Daniel Merida | Perugia | 2026-06-03 | YES Liam Broady | 0.25 | 0.575 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03bromer) |
+| Chun-Hsin Tseng (YES) vs Timofey Skatov | Perugia | 2026-06-03 | YES Chun-Hsin Tseng | 0.56 | 0.615 | ✗ | -0.577 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03tseska) |
+| Daniel Milavsky (YES) vs Murphy Cassone | Tyler | 2026-06-03 | YES Daniel Milavsky | 0.45 | 0.510 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03casmil) |
 | Tung-Lin Wu (YES) vs Adam Walton | Tyler | 2026-06-01 | YES Tung-Lin Wu | 0.25 | 0.388 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01waltun) |
 | Blake Ellis (YES) vs Andres Martin | Tyler | 2026-06-01 | YES Blake Ellis | 0.36 | 0.455 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01marell) |
 | Blaise Bicknell (YES) vs Johannus Monday | Tyler | 2026-06-01 | YES Blaise Bicknell | 0.34 | 0.461 | ✓ | +0.644 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01bicmon) |
