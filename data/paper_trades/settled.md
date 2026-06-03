@@ -1,12 +1,13 @@
-# Settled paper bets (272)
+# Settled paper bets (273)
 
-_Generated 2026-06-03T04:17:01+00:00_
+_Generated 2026-06-03T11:05:09+00:00_
 
-**Wins:** 88 / 272  (32.4%)  
-**Net PnL (per contract):** -13.956
+**Wins:** 89 / 273  (32.6%)  
+**Net PnL (per contract):** -13.393
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Nikolas Sanchez Izquierdo (NO) vs Alexander Shevchenko | Prostejov | 2026-06-03 | NO Nikolas Sanchez Izquierdo | 0.42 | 0.524 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03shesai) |
 | Maks Kasnikowski (YES) vs Andrea Pellegrino | Perugia | 2026-06-02 | YES Maks Kasnikowski | 0.30 | 0.371 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02pelkas) |
 | Viktor Durasovic (YES) vs Norbert Gombos | Prostejov | 2026-06-02 | YES Viktor Durasovic | 0.41 | 0.470 | ✗ | -0.427 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02durgom) |
 | Milos Karol (YES) vs Carlo Alberto Caniato | Prostejov | 2026-06-02 | YES Milos Karol | 0.42 | 0.491 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02karcan) |
