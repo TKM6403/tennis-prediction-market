@@ -1,12 +1,18 @@
-# Settled paper bets (273)
+# Settled paper bets (279)
 
-_Generated 2026-06-03T11:05:09+00:00_
+_Generated 2026-06-03T16:55:13+00:00_
 
-**Wins:** 89 / 273  (32.6%)  
-**Net PnL (per contract):** -13.393
+**Wins:** 90 / 279  (32.3%)  
+**Net PnL (per contract):** -14.699
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Fajing Sun (YES) vs Andre Ilagan | Tyler | 2026-06-01 | YES Fajing Sun | 0.46 | 0.537 | ✗ | -0.477 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01sunila) |
+| Genaro Alberto Olivieri (YES) vs Lautaro Midon | Prostejov | 2026-06-03 | YES Genaro Alberto Olivieri | 0.40 | 0.492 | ✗ | -0.417 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03olimid) |
+| Jacopo Vasami (NO) vs Pablo Llamas Ruiz | Perugia | 2026-06-03 | NO Jacopo Vasami | 0.29 | 0.348 | ✗ | -0.304 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03llavas) |
+| Pedro Boscardin Dias (YES) vs Maxim Mrva | Prostejov | 2026-06-03 | YES Pedro Boscardin Dias | 0.44 | 0.503 | ✗ | -0.457 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03bosmrv) |
+| Marco Cecchinato (NO) vs Valentin Royer | Perugia | 2026-06-03 | NO Marco Cecchinato | 0.35 | 0.461 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03roycec) |
+| Tristan Boyer (NO) vs Sebastian Baez | Prostejov | 2026-06-03 | NO Tristan Boyer | 0.27 | 0.549 | ✗ | -0.284 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03baeboy) |
 | Nikolas Sanchez Izquierdo (NO) vs Alexander Shevchenko | Prostejov | 2026-06-03 | NO Nikolas Sanchez Izquierdo | 0.42 | 0.524 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03shesai) |
 | Maks Kasnikowski (YES) vs Andrea Pellegrino | Perugia | 2026-06-02 | YES Maks Kasnikowski | 0.30 | 0.371 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02pelkas) |
 | Viktor Durasovic (YES) vs Norbert Gombos | Prostejov | 2026-06-02 | YES Viktor Durasovic | 0.41 | 0.470 | ✗ | -0.427 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02durgom) |
