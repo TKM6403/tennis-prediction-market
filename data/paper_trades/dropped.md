@@ -1,16 +1,16 @@
-# Dropped markets (5552)
+# Dropped markets (5580)
 
-_Generated 2026-06-04T10:03:29+00:00_
+_Generated 2026-06-04T15:22:18+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `tournament_not_in_tml` | 1506 |
-| `duplicate_match` | 1263 |
-| `missing_player_id` | 982 |
-| `low_player_coverage` | 809 |
-| `thin_tournament_history` | 385 |
+| `tournament_not_in_tml` | 1510 |
+| `duplicate_match` | 1274 |
+| `missing_player_id` | 987 |
+| `low_player_coverage` | 813 |
+| `thin_tournament_history` | 389 |
 | `below_min_edge` | 342 |
 | `wide_spread` | 129 |
 | `loose_mirror_sum` | 94 |
@@ -916,6 +916,9 @@ _Generated 2026-06-04T10:03:29+00:00_
 | Liam Broady vs Daniel Merida | Perugia | 2026-06-03 | 0.23 / 0.22 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN03BROMER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03bromer) |
 | Chun-Hsin Tseng vs Timofey Skatov | Perugia | 2026-06-03 | 0.62 / 0.61 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN03TSESKA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03tseska) |
 | Timofey Skatov vs Chun-Hsin Tseng | Perugia | 2026-06-03 | 0.39 / 0.38 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN03TSESKA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03tseska) |
+| Luca Nardi vs Remy Bertola | Perugia | 2026-06-04 | 0.69 / 0.68 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN04NARBER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04narber) |
+| Remy Bertola vs Luca Nardi | Perugia | 2026-06-04 | 0.31 / 0.30 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN04NARBER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04narber) |
+| Roberto Carballes Baena vs Andrea Pellegrino | Perugia | 2026-06-04 | 0.37 / 0.36 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN04PELCAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04pelcar) |
 | Li Tu vs Lorenzo Carboni | Perugia Qualification | 2026-05-31 | 0.41 / 0.40 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY31TULCAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31tulcar) |
 | Lorenzo Carboni vs Li Tu | Perugia Qualification | 2026-05-31 | 0.60 / 0.59 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY31TULCAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31tulcar) |
 | Pietro Fellin vs Manas Dhamne | Perugia Qualification | 2026-05-31 | 0.33 / 0.32 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY31FELDHA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31feldha) |
@@ -961,6 +964,10 @@ _Generated 2026-06-04T10:03:29+00:00_
 | Milos Karol vs Alex Molcan | Prostejov | 2026-06-04 | 0.14 / 0.13 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN04MOLKAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04molkar) |
 | Vitaliy Sachko vs Vit Kopriva | Prostejov | 2026-06-04 | 0.62 / 0.61 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN04SACKOP | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04sackop) |
 | Vit Kopriva vs Vitaliy Sachko | Prostejov | 2026-06-04 | 0.39 / 0.38 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN04SACKOP | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04sackop) |
+| Norbert Gombos vs Hynek Barton | Prostejov | 2026-06-04 | 0.24 / 0.23 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN04BARGOM | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04bargom) |
+| Hynek Barton vs Norbert Gombos | Prostejov | 2026-06-04 | 0.77 / 0.76 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN04BARGOM | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04bargom) |
+| Damir Dzumhur vs Taro Daniel | Prostejov | 2026-06-04 | 0.42 / 0.41 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN04DANDZU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04dandzu) |
+| Taro Daniel vs Damir Dzumhur | Prostejov | 2026-06-04 | 0.59 / 0.58 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN04DANDZU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04dandzu) |
 | Daniel Dutra da Silva vs Andrej Martin | Prostejov Qualification | 2026-06-01 | 0.45 / 0.42 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN01DUTMAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01dutmar) |
 | Daniel Michalski vs Viktor Durasovic | Prostejov Qualification | 2026-06-01 | 0.40 / 0.38 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN01MICDUR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01micdur) |
 | Viktor Durasovic vs Daniel Michalski | Prostejov Qualification | 2026-06-01 | 0.61 / 0.59 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN01MICDUR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01micdur) |
@@ -1164,6 +1171,10 @@ _Generated 2026-06-04T10:03:29+00:00_
 | Yuta Shimizu vs Dane Sweeny | Tyler | 2026-06-01 | 0.44 / 0.42 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN01SHISWE | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01shiswe) |
 | Colton Smith vs Masamichi Imamura | Tyler | 2026-06-03 | 0.85 / 0.83 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN03IMASMI | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03imasmi) |
 | Masamichi Imamura vs Keegan Smith | Tyler | 2026-06-03 | 0.17 / 0.15 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN03IMASMI | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03imasmi) |
+| Adam Walton vs Andrej Martin | Tyler | 2026-06-04 | 0.75 / 0.74 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN04WALMAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04walmar) |
+| Andres Martin vs Adam Walton | Tyler | 2026-06-04 | 0.25 / 0.24 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN04WALMAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04walmar) |
+| Yuta Shimizu vs Murphy Cassone | Tyler | 2026-06-04 | 0.46 / 0.43 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN04CASSHI | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04casshi) |
+| Murphy Cassone vs Yuta Shimizu | Tyler | 2026-06-04 | 0.56 / 0.54 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN04CASSHI | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04casshi) |
 | Hayato Matsuoka vs Masamichi Imamura | Tyler Qualification | 2026-06-01 | 0.25 / 0.24 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN01MATIMA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01matima) |
 | Masamichi Imamura vs Hayato Matsuoka | Tyler Qualification | 2026-06-01 | 0.77 / 0.76 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN01MATIMA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01matima) |
 | Daniel Milavsky vs Christian Langmo | Tyler Qualification | 2026-06-01 | 0.25 / 0.23 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN01MILLAN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01millan) |
@@ -2403,6 +2414,10 @@ _Generated 2026-06-04T10:03:29+00:00_
 | Blaise Bicknell vs Karl Poling | Tyler | 2026-06-04 | 0.68 / 0.67 | `low_player_coverage` | cov_a=12 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04bicpol) |
 | Braden Shick vs Masamichi Imamura | Tyler | 2026-06-04 | 0.54 / 0.53 | `low_player_coverage` | cov_a=9 cov_b=16 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04shiima) |
 | Masamichi Imamura vs Braden Shick | Tyler | 2026-06-04 | 0.47 / 0.46 | `low_player_coverage` | cov_a=9 cov_b=16 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04shiima) |
+| Karl Poling vs Blaise Bicknell | Tyler | 2026-06-04 | 0.32 / 0.31 | `low_player_coverage` | cov_a=12 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04bicpol) |
+| Blaise Bicknell vs Karl Poling | Tyler | 2026-06-04 | 0.69 / 0.68 | `low_player_coverage` | cov_a=12 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04bicpol) |
+| Braden Shick vs Masamichi Imamura | Tyler | 2026-06-04 | 0.55 / 0.54 | `low_player_coverage` | cov_a=9 cov_b=16 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04shiima) |
+| Masamichi Imamura vs Braden Shick | Tyler | 2026-06-04 | 0.45 / 0.44 | `low_player_coverage` | cov_a=9 cov_b=16 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04shiima) |
 | Andrew Fenty vs Kody Pearson | Tyler Qualification | 2026-05-31 | 0.94 / 0.60 | `low_player_coverage` | cov_a=16 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31peafen) |
 | Aidan Kim vs Hiroki Moriya | Tyler Qualification | 2026-05-31 | 0.88 / 0.50 | `low_player_coverage` | cov_a=4 cov_b=19 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31kimmor) |
 | Kody Pearson vs Andrew Fenty | Tyler Qualification | 2026-05-31 | 0.44 / 0.08 | `low_player_coverage` | cov_a=3 cov_b=16 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31peafen) |
@@ -3323,6 +3338,7 @@ _Generated 2026-06-04T10:03:29+00:00_
 | Cezar Cretu (b. 2001) vs Jacopo Vasami | Perugia | 2026-06-02 | 0.42 / 0.40 | `missing_player_id` | player_a_id=nan, player_b_id='V0J1' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02crevas) |
 | Henrique Rocha vs Dalla Valle | Perugia | 2026-06-02 | 0.59 / 0.58 | `missing_player_id` | player_a_id='R0GO', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02rocdal) |
 | Andrea Pellegrino vs Carballes Baena | Perugia | 2026-06-04 | 0.64 / 0.63 | `missing_player_id` | player_a_id='PH64', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04pelcar) |
+| Andrea Pellegrino vs Carballes Baena | Perugia | 2026-06-04 | 0.65 / 0.63 | `missing_player_id` | player_a_id='PH64', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04pelcar) |
 | David Jorda Sanchis vs Fornaci | Perugia Qualification | 2026-05-31 | 0.94 / 0.05 | `missing_player_id` | player_a_id='J476', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31jorfor) |
 | Diego Fornaci vs David Jorda Sanchis | Perugia Qualification | 2026-05-31 | 0.94 / 0.05 | `missing_player_id` | player_a_id=nan, player_b_id='J476' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31jorfor) |
 | Jelle Sels vs Betti | Perugia Qualification | 2026-05-31 | 0.94 / 0.05 | `missing_player_id` | player_a_id='SO20', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31betsel) |
@@ -3411,6 +3427,10 @@ _Generated 2026-06-04T10:03:29+00:00_
 | Landon Ardila vs Timo Legout | Tyler | 2026-06-04 | 0.36 / 0.32 | `missing_player_id` | player_a_id=nan, player_b_id='L0ER' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04ardleg) |
 | Sebastian Gorzny vs Liam Draxl | Tyler | 2026-06-04 | 0.21 / 0.20 | `missing_player_id` | player_a_id=nan, player_b_id='D0DP' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04dragor) |
 | Liam Draxl vs Gorzny | Tyler | 2026-06-04 | 0.80 / 0.78 | `missing_player_id` | player_a_id='D0DP', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04dragor) |
+| Timo Legout vs Ardila | Tyler | 2026-06-04 | 0.63 / 0.62 | `missing_player_id` | player_a_id='L0ER', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04ardleg) |
+| Landon Ardila vs Timo Legout | Tyler | 2026-06-04 | 0.37 / 0.36 | `missing_player_id` | player_a_id=nan, player_b_id='L0ER' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04ardleg) |
+| Sebastian Gorzny vs Liam Draxl | Tyler | 2026-06-04 | 0.23 / 0.22 | `missing_player_id` | player_a_id=nan, player_b_id='D0DP' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04dragor) |
+| Liam Draxl vs Gorzny | Tyler | 2026-06-04 | 0.78 / 0.76 | `missing_player_id` | player_a_id='D0DP', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04dragor) |
 | Sebastian Baez vs Carballes Baena | Valencia | 2026-05-12 | 0.74 / 0.73 | `missing_player_id` | player_a_id='B0BI', player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12baecar) |
 | Sebastian Baez vs Carballes Baena | Valencia | 2026-05-12 | 0.74 / 0.73 | `missing_player_id` | player_a_id='B0BI', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12baecar) |
 | Sebastian Baez vs Carballes Baena | Valencia | 2026-05-12 | 0.84 / 0.83 | `missing_player_id` | player_a_id='B0BI', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12baecar) |
@@ -3758,6 +3778,10 @@ _Generated 2026-06-04T10:03:29+00:00_
 | Billy Harris vs Yunchaokete Bu | Birmingham | 2026-06-03 | 0.46 / 0.45 | `thin_tournament_history` | 'Birmingham' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03haryun) |
 | Harry Wendelken vs Mark Lajal | Birmingham | 2026-06-03 | 0.35 / 0.34 | `thin_tournament_history` | 'Birmingham' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03wenlaj) |
 | Mark Lajal vs Harry Wendelken | Birmingham | 2026-06-03 | 0.67 / 0.66 | `thin_tournament_history` | 'Birmingham' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03wenlaj) |
+| Arthur Fery vs Alex Bolt | Birmingham | 2026-06-03 | 0.55 / 0.54 | `thin_tournament_history` | 'Birmingham' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03bolfer) |
+| Alex Bolt vs Arthur Fery | Birmingham | 2026-06-03 | 0.46 / 0.45 | `thin_tournament_history` | 'Birmingham' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03bolfer) |
+| Harry Wendelken vs Mark Lajal | Birmingham | 2026-06-03 | 0.35 / 0.33 | `thin_tournament_history` | 'Birmingham' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03wenlaj) |
+| Mark Lajal vs Harry Wendelken | Birmingham | 2026-06-03 | 0.67 / 0.65 | `thin_tournament_history` | 'Birmingham' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03wenlaj) |
 | Keegan Smith vs Jack Pinnington Jones | Birmingham Qualification | 2026-05-31 | 0.81 / 0.77 | `thin_tournament_history` | 'Birmingham Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31jonsmi) |
 | Ben Jones vs Keegan Smith | Birmingham Qualification | 2026-05-31 | 0.22 / 0.19 | `thin_tournament_history` | 'Birmingham Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31jonsmi) |
 | Marc-Andrea Huesler vs Alexis Galarneau | Birmingham Qualification | 2026-05-31 | 0.56 / 0.54 | `thin_tournament_history` | 'Birmingham Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31galhue) |
@@ -4031,6 +4055,8 @@ _Generated 2026-06-04T10:03:29+00:00_
 | Luka Mikrut vs Jan Choinski | Bad Rappenau | 2026-06-04 | 0.37 / 0.36 | `tournament_not_in_tml` | tournament='Bad Rappenau' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04chomik) |
 | Jan Choinski vs Luka Mikrut | Bad Rappenau | 2026-06-04 | 0.64 / 0.63 | `tournament_not_in_tml` | tournament='Bad Rappenau' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04chomik) |
 | Joao Lucas Reis Da Silva vs Diego Dedura | Bad Rappenau | 2026-06-04 | 0.39 / 0.35 | `tournament_not_in_tml` | tournament='Bad Rappenau' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04dedrei) |
+| Max Hans Rehberg vs Marvin Moeller | Bad Rappenau | 2026-06-04 | 0.55 / 0.54 | `tournament_not_in_tml` | tournament='Bad Rappenau' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04rehmoe) |
+| Marvin Moeller vs Max Hans Rehberg | Bad Rappenau | 2026-06-04 | 0.45 / 0.44 | `tournament_not_in_tml` | tournament='Bad Rappenau' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04rehmoe) |
 | Sumit Nagal vs Mariano Kestelboim | Bad Rappenau Qualification | 2026-05-31 | 0.94 / 0.51 | `tournament_not_in_tml` | tournament='Bad Rappenau Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31nagkes) |
 | Dominic Stricker vs Adrian Oetzbach | Bad Rappenau Qualification | 2026-05-31 | 0.92 / 0.89 | `tournament_not_in_tml` | tournament='Bad Rappenau Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31stroet) |
 | Adrian Oetzbach vs Dominic Stricker | Bad Rappenau Qualification | 2026-05-31 | 0.11 / 0.09 | `tournament_not_in_tml` | tournament='Bad Rappenau Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31stroet) |
@@ -4780,6 +4806,8 @@ _Generated 2026-06-04T10:03:29+00:00_
 | Philip Henning vs Robert Strombachs | Centurion 2 | 2026-06-04 | 0.72 / 0.71 | `tournament_not_in_tml` | tournament='Centurion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04strhen) |
 | Edward Winter vs Alexander Donski | Centurion 2 | 2026-06-04 | 0.36 / 0.33 | `tournament_not_in_tml` | tournament='Centurion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04donwin) |
 | Alexander Donski vs Edward Winter | Centurion 2 | 2026-06-04 | 0.65 / 0.63 | `tournament_not_in_tml` | tournament='Centurion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04donwin) |
+| Giles Hussey vs Robin Bertrand | Centurion 2 | 2026-06-04 | 0.79 / 0.77 | `tournament_not_in_tml` | tournament='Centurion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04berhus) |
+| Robin Bertrand vs Giles Hussey | Centurion 2 | 2026-06-04 | 0.23 / 0.21 | `tournament_not_in_tml` | tournament='Centurion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04berhus) |
 | Alexander Zgirovsky vs Alec Beckley | Centurion 2 Qualification | 2026-05-31 | 0.32 / 0.21 | `tournament_not_in_tml` | tournament='Centurion 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31beczgi) |
 | Alec Beckley vs Alexander Zgirovsky | Centurion 2 Qualification | 2026-05-31 | 0.80 / 0.74 | `tournament_not_in_tml` | tournament='Centurion 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31beczgi) |
 | Stefan Vujic vs Tuncay Duran | Centurion 2 Qualification | 2026-05-31 | 0.29 / 0.24 | `tournament_not_in_tml` | tournament='Centurion 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31durvuj) |

@@ -1,12 +1,14 @@
-# Settled paper bets (288)
+# Settled paper bets (290)
 
-_Generated 2026-06-04T10:03:29+00:00_
+_Generated 2026-06-04T15:22:18+00:00_
 
-**Wins:** 92 / 288  (31.9%)  
-**Net PnL (per contract):** -16.184
+**Wins:** 93 / 290  (32.1%)  
+**Net PnL (per contract):** -15.554
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Milos Karol (YES) vs Alex Molcan | Prostejov | 2026-06-04 | YES Milos Karol | 0.13 | 0.340 | ✗ | -0.138 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04molkar) |
+| Vitaliy Sachko (NO) vs Vit Kopriva | Prostejov | 2026-06-04 | NO Vitaliy Sachko | 0.22 | 0.427 | ✓ | +0.768 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04sackop) |
 | Masamichi Imamura (YES) vs Colton Smith | Tyler | 2026-06-03 | YES Masamichi Imamura | 0.15 | 0.302 | ✓ | +0.841 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03imasmi) |
 | Liam Broady (YES) vs Daniel Merida | Perugia | 2026-06-03 | YES Liam Broady | 0.25 | 0.575 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03bromer) |
 | Chun-Hsin Tseng (YES) vs Timofey Skatov | Perugia | 2026-06-03 | YES Chun-Hsin Tseng | 0.56 | 0.615 | ✗ | -0.577 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03tseska) |
