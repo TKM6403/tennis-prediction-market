@@ -1,12 +1,20 @@
-# Settled paper bets (290)
+# Settled paper bets (298)
 
-_Generated 2026-06-04T15:22:18+00:00_
+_Generated 2026-06-04T22:26:33+00:00_
 
-**Wins:** 93 / 290  (32.1%)  
-**Net PnL (per contract):** -15.554
+**Wins:** 97 / 298  (32.6%)  
+**Net PnL (per contract):** -14.106
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Remy Bertola (YES) vs Luca Nardi | Perugia | 2026-06-04 | YES Remy Bertola | 0.32 | 0.405 | ✓ | +0.665 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04narber) |
+| Roberto Carballes Baena (YES) vs Andrea Pellegrino | Perugia | 2026-06-04 | YES Roberto Carballes Baena | 0.37 | 0.450 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04pelcar) |
+| Yuta Shimizu (YES) vs Murphy Cassone | Tyler | 2026-06-04 | YES Yuta Shimizu | 0.43 | 0.487 | ✓ | +0.553 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04casshi) |
+| Norbert Gombos (YES) vs Hynek Barton | Prostejov | 2026-06-04 | YES Norbert Gombos | 0.26 | 0.360 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04bargom) |
+| Taro Daniel (NO) vs Damir Dzumhur | Prostejov | 2026-06-04 | NO Taro Daniel | 0.34 | 0.562 | ✓ | +0.644 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04dandzu) |
+| Andre Ilagan (YES) vs Edas Butvilas | Tyler | 2026-06-04 | YES Andre Ilagan | 0.37 | 0.483 | ✓ | +0.614 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04butila) |
+| Hayato Matsuoka (YES) vs Henry Searle | Tyler | 2026-06-04 | YES Hayato Matsuoka | 0.31 | 0.549 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04matsea) |
+| Dusan Lajovic (YES) vs Henrique Rocha | Perugia | 2026-06-04 | YES Dusan Lajovic | 0.04 | 0.534 | ✗ | -0.043 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04roclaj) |
 | Milos Karol (YES) vs Alex Molcan | Prostejov | 2026-06-04 | YES Milos Karol | 0.13 | 0.340 | ✗ | -0.138 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04molkar) |
 | Vitaliy Sachko (NO) vs Vit Kopriva | Prostejov | 2026-06-04 | NO Vitaliy Sachko | 0.22 | 0.427 | ✓ | +0.768 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04sackop) |
 | Masamichi Imamura (YES) vs Colton Smith | Tyler | 2026-06-03 | YES Masamichi Imamura | 0.15 | 0.302 | ✓ | +0.841 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03imasmi) |
