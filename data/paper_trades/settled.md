@@ -1,12 +1,13 @@
-# Settled paper bets (287)
+# Settled paper bets (288)
 
-_Generated 2026-06-03T23:11:29+00:00_
+_Generated 2026-06-04T10:03:29+00:00_
 
-**Wins:** 91 / 287  (31.7%)  
-**Net PnL (per contract):** -17.025
+**Wins:** 92 / 288  (31.9%)  
+**Net PnL (per contract):** -16.184
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Masamichi Imamura (YES) vs Colton Smith | Tyler | 2026-06-03 | YES Masamichi Imamura | 0.15 | 0.302 | ✓ | +0.841 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03imasmi) |
 | Liam Broady (YES) vs Daniel Merida | Perugia | 2026-06-03 | YES Liam Broady | 0.25 | 0.575 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03bromer) |
 | Chun-Hsin Tseng (YES) vs Timofey Skatov | Perugia | 2026-06-03 | YES Chun-Hsin Tseng | 0.56 | 0.615 | ✗ | -0.577 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03tseska) |
 | Daniel Milavsky (YES) vs Murphy Cassone | Tyler | 2026-06-03 | YES Daniel Milavsky | 0.45 | 0.510 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03casmil) |
