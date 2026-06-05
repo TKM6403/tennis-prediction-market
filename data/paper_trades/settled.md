@@ -1,12 +1,15 @@
-# Settled paper bets (301)
+# Settled paper bets (304)
 
-_Generated 2026-06-05T14:57:22+00:00_
+_Generated 2026-06-05T17:25:54+00:00_
 
-**Wins:** 97 / 301  (32.2%)  
-**Net PnL (per contract):** -15.009
+**Wins:** 97 / 304  (31.9%)  
+**Net PnL (per contract):** -16.033
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Remy Bertola (YES) vs Henrique Rocha | Perugia | 2026-06-05 | YES Remy Bertola | 0.30 | 0.415 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun05rocber) |
+| Maxim Mrva (NO) vs Sebastian Baez | Prostejov | 2026-06-05 | NO Maxim Mrva | 0.23 | 0.428 | ✗ | -0.242 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun05baemrv) |
+| Lautaro Midon (YES) vs Nikolas Sanchez Izquierdo | Prostejov | 2026-06-05 | YES Lautaro Midon | 0.45 | 0.541 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun05saimid) |
 | Vitaliy Sachko (YES) vs Alex Molcan | Prostejov | 2026-06-05 | YES Vitaliy Sachko | 0.26 | 0.363 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun05molsac) |
 | Taro Daniel (YES) vs Hynek Barton | Prostejov | 2026-06-05 | YES Taro Daniel | 0.34 | 0.457 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun05bardan) |
 | Andrej Martin (NO) vs Adam Walton | Tyler | 2026-06-04 | NO Andrej Martin | 0.26 | 0.447 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04walmar) |
