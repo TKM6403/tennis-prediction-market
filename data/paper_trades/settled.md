@@ -1,12 +1,13 @@
-# Settled paper bets (298)
+# Settled paper bets (299)
 
-_Generated 2026-06-04T22:26:33+00:00_
+_Generated 2026-06-05T09:57:38+00:00_
 
-**Wins:** 97 / 298  (32.6%)  
-**Net PnL (per contract):** -14.106
+**Wins:** 97 / 299  (32.4%)  
+**Net PnL (per contract):** -14.380
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Andrej Martin (NO) vs Adam Walton | Tyler | 2026-06-04 | NO Andrej Martin | 0.26 | 0.447 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04walmar) |
 | Remy Bertola (YES) vs Luca Nardi | Perugia | 2026-06-04 | YES Remy Bertola | 0.32 | 0.405 | ✓ | +0.665 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04narber) |
 | Roberto Carballes Baena (YES) vs Andrea Pellegrino | Perugia | 2026-06-04 | YES Roberto Carballes Baena | 0.37 | 0.450 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04pelcar) |
 | Yuta Shimizu (YES) vs Murphy Cassone | Tyler | 2026-06-04 | YES Yuta Shimizu | 0.43 | 0.487 | ✓ | +0.553 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04casshi) |
