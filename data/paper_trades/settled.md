@@ -1,12 +1,14 @@
-# Settled paper bets (299)
+# Settled paper bets (301)
 
-_Generated 2026-06-05T09:57:38+00:00_
+_Generated 2026-06-05T14:57:22+00:00_
 
-**Wins:** 97 / 299  (32.4%)  
-**Net PnL (per contract):** -14.380
+**Wins:** 97 / 301  (32.2%)  
+**Net PnL (per contract):** -15.009
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Vitaliy Sachko (YES) vs Alex Molcan | Prostejov | 2026-06-05 | YES Vitaliy Sachko | 0.26 | 0.363 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun05molsac) |
+| Taro Daniel (YES) vs Hynek Barton | Prostejov | 2026-06-05 | YES Taro Daniel | 0.34 | 0.457 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun05bardan) |
 | Andrej Martin (NO) vs Adam Walton | Tyler | 2026-06-04 | NO Andrej Martin | 0.26 | 0.447 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04walmar) |
 | Remy Bertola (YES) vs Luca Nardi | Perugia | 2026-06-04 | YES Remy Bertola | 0.32 | 0.405 | ✓ | +0.665 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04narber) |
 | Roberto Carballes Baena (YES) vs Andrea Pellegrino | Perugia | 2026-06-04 | YES Roberto Carballes Baena | 0.37 | 0.450 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun04pelcar) |
