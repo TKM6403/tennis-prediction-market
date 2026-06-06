@@ -1,12 +1,14 @@
-# Settled paper bets (307)
+# Settled paper bets (309)
 
-_Generated 2026-06-06T16:10:44+00:00_
+_Generated 2026-06-06T19:28:54+00:00_
 
-**Wins:** 98 / 307  (31.9%)  
-**Net PnL (per contract):** -16.188
+**Wins:** 98 / 309  (31.7%)  
+**Net PnL (per contract):** -16.920
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Timofey Skatov (YES) vs Henrique Rocha | Perugia | 2026-06-06 | YES Timofey Skatov | 0.36 | 0.458 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun06skaroc) |
+| Liam Draxl (YES) vs Adam Walton | Tyler | 2026-06-06 | YES Liam Draxl | 0.34 | 0.537 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun06waldra) |
 | Nikolas Sanchez Izquierdo (NO) vs Sebastian Baez | Prostejov | 2026-06-06 | NO Nikolas Sanchez Izquierdo | 0.25 | 0.533 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun06baesai) |
 | Andre Ilagan (YES) vs Yuta Shimizu | Tyler | 2026-06-05 | YES Andre Ilagan | 0.56 | 0.639 | ✓ | +0.423 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun05ilashi) |
 | Pablo Llamas Ruiz (YES) vs Daniel Merida | Perugia | 2026-06-05 | YES Pablo Llamas Ruiz | 0.30 | 0.599 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun05llamer) |
