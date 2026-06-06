@@ -1,12 +1,13 @@
-# Settled paper bets (306)
+# Settled paper bets (307)
 
-_Generated 2026-06-06T11:00:14+00:00_
+_Generated 2026-06-06T13:50:56+00:00_
 
-**Wins:** 98 / 306  (32.0%)  
-**Net PnL (per contract):** -15.925
+**Wins:** 98 / 307  (31.9%)  
+**Net PnL (per contract):** -16.188
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Nikolas Sanchez Izquierdo (NO) vs Sebastian Baez | Prostejov | 2026-06-06 | NO Nikolas Sanchez Izquierdo | 0.25 | 0.533 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun06baesai) |
 | Andre Ilagan (YES) vs Yuta Shimizu | Tyler | 2026-06-05 | YES Andre Ilagan | 0.56 | 0.639 | ✓ | +0.423 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun05ilashi) |
 | Pablo Llamas Ruiz (YES) vs Daniel Merida | Perugia | 2026-06-05 | YES Pablo Llamas Ruiz | 0.30 | 0.599 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun05llamer) |
 | Remy Bertola (YES) vs Henrique Rocha | Perugia | 2026-06-05 | YES Remy Bertola | 0.30 | 0.415 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun05rocber) |
