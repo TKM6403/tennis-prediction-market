@@ -1,12 +1,14 @@
-# Settled paper bets (304)
+# Settled paper bets (306)
 
-_Generated 2026-06-05T17:25:54+00:00_
+_Generated 2026-06-06T03:38:22+00:00_
 
-**Wins:** 97 / 304  (31.9%)  
-**Net PnL (per contract):** -16.033
+**Wins:** 98 / 306  (32.0%)  
+**Net PnL (per contract):** -15.925
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Andre Ilagan (YES) vs Yuta Shimizu | Tyler | 2026-06-05 | YES Andre Ilagan | 0.56 | 0.639 | ✓ | +0.423 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun05ilashi) |
+| Pablo Llamas Ruiz (YES) vs Daniel Merida | Perugia | 2026-06-05 | YES Pablo Llamas Ruiz | 0.30 | 0.599 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun05llamer) |
 | Remy Bertola (YES) vs Henrique Rocha | Perugia | 2026-06-05 | YES Remy Bertola | 0.30 | 0.415 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun05rocber) |
 | Maxim Mrva (NO) vs Sebastian Baez | Prostejov | 2026-06-05 | NO Maxim Mrva | 0.23 | 0.428 | ✗ | -0.242 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun05baemrv) |
 | Lautaro Midon (YES) vs Nikolas Sanchez Izquierdo | Prostejov | 2026-06-05 | YES Lautaro Midon | 0.45 | 0.541 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun05saimid) |
