@@ -1,12 +1,14 @@
-# Settled paper bets (310)
+# Settled paper bets (312)
 
-_Generated 2026-06-07T04:05:10+00:00_
+_Generated 2026-06-10T10:07:33+00:00_
 
-**Wins:** 98 / 310  (31.6%)  
-**Net PnL (per contract):** -17.347
+**Wins:** 99 / 312  (31.7%)  
+**Net PnL (per contract):** -17.292
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Alex Molcan (YES) vs Sebastian Baez | Prostejov | 2026-06-07 | YES Alex Molcan | 0.48 | 0.639 | ✗ | -0.497 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07baemol) |
+| Andrej Martin (YES) vs Daniel Michalski | Bratislava Qualification | 2026-06-07 | YES Andrej Martin | 0.43 | 0.549 | ✓ | +0.553 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07micmar) |
 | Andrea Pellegrino (YES) vs Daniel Merida | Perugia | 2026-06-06 | YES Andrea Pellegrino | 0.41 | 0.542 | ✗ | -0.427 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun06merpel) |
 | Timofey Skatov (YES) vs Henrique Rocha | Perugia | 2026-06-06 | YES Timofey Skatov | 0.36 | 0.458 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun06skaroc) |
 | Liam Draxl (YES) vs Adam Walton | Tyler | 2026-06-06 | YES Liam Draxl | 0.34 | 0.537 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun06waldra) |
