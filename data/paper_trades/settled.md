@@ -1,12 +1,14 @@
-# Settled paper bets (321)
+# Settled paper bets (323)
 
-_Generated 2026-06-13T14:06:33+00:00_
+_Generated 2026-06-13T16:19:12+00:00_
 
-**Wins:** 101 / 321  (31.5%)  
-**Net PnL (per contract):** -18.421
+**Wins:** 103 / 323  (31.9%)  
+**Net PnL (per contract):** -17.204
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| David Jorda Sanchis (YES) vs Tristan Boyer | Lyon | 2026-06-13 | YES David Jorda Sanchis | 0.35 | 0.537 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13jorboy) |
+| Taro Daniel (YES) vs Federico Cina | Bratislava | 2026-06-13 | YES Taro Daniel | 0.40 | 0.559 | ✓ | +0.583 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13cindan) |
 | Marco Trungelliti (YES) vs Daniel Elahi Galan | Lyon | 2026-06-10 | YES Marco Trungelliti | 0.64 | 0.767 | ✗ | -0.656 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun10trugal) |
 | Matteo Martineau (YES) vs Tristan Boyer | Lyon | 2026-06-10 | YES Matteo Martineau | 0.30 | 0.357 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun10boymar) |
 | Alexander Donski (NO) vs Joao Lucas Reis Da Silva | Bratislava | 2026-06-10 | NO Alexander Donski | 0.24 | 0.372 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun10reidon) |

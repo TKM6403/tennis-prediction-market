@@ -1,19 +1,19 @@
-# Dropped markets (5979)
+# Dropped markets (6001)
 
-_Generated 2026-06-13T14:06:33+00:00_
+_Generated 2026-06-13T16:19:12+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `tournament_not_in_tml` | 1596 |
-| `duplicate_match` | 1304 |
-| `missing_player_id` | 1059 |
-| `low_player_coverage` | 918 |
-| `thin_tournament_history` | 433 |
+| `tournament_not_in_tml` | 1605 |
+| `duplicate_match` | 1306 |
+| `missing_player_id` | 1064 |
+| `low_player_coverage` | 920 |
+| `thin_tournament_history` | 435 |
 | `below_min_edge` | 359 |
 | `wide_spread` | 146 |
-| `loose_mirror_sum` | 120 |
+| `loose_mirror_sum` | 122 |
 | `thin_player_history` | 42 |
 | `yes_on_challenger` | 2 |
 
@@ -636,6 +636,8 @@ _Generated 2026-06-13T14:06:33+00:00_
 | Juan Manuel La Serna vs Franco Roncadelli | Cordoba | 2026-05-16 | 0.37 / 0.36 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY16RONLA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16ronla) |
 | Franco Roncadelli vs Juan Manuel La Serna | Cordoba | 2026-05-16 | 0.72 / 0.69 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY16RONLA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16ronla) |
 | Juan Manuel La Serna vs Franco Roncadelli | Cordoba | 2026-05-16 | 0.29 / 0.28 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY16RONLA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16ronla) |
+| Yunchaokete Bu vs Dane Sweeny | Ilkley | 2026-06-13 | 1.00 / 0.99 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN13SWEYUN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13sweyun) |
+| Dane Sweeny vs Yunchaokete Bu | Ilkley | 2026-06-13 | 0.01 / 0.00 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN13SWEYUN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13sweyun) |
 | Andres Martin vs David Jorda Sanchis | Istanbul | 2026-05-18 | 0.35 / 0.34 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY18MARJOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18marjor) |
 | David Jorda Sanchis vs Andrej Martin | Istanbul | 2026-05-18 | 0.66 / 0.65 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY18MARJOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18marjor) |
 | Maxim Mrva vs Jonas Forejtek | Istanbul | 2026-05-18 | 0.17 / 0.16 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY18MRVFOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may18mrvfor) |
@@ -1704,6 +1706,8 @@ _Generated 2026-06-13T14:06:33+00:00_
 | Paul Jubb vs Tristan Schoolkate | Ilkley | 2026-06-09 | 0.22 / 0.19 | `loose_mirror_sum` | yes_ask_a=0.81 + yes_ask_b=0.22 = 1.030 (dev 0.030 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun09schjub) |
 | Filippo Romano vs Jacob Fearnley | Ilkley | 2026-06-13 | 0.36 / 0.33 | `loose_mirror_sum` | yes_ask_a=0.36 + yes_ask_b=0.67 = 1.030 (dev 0.030 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13fearom) |
 | Jacob Fearnley vs Filippo Romano | Ilkley | 2026-06-13 | 0.67 / 0.64 | `loose_mirror_sum` | yes_ask_a=0.36 + yes_ask_b=0.67 = 1.030 (dev 0.030 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13fearom) |
+| Filippo Romano vs Jacob Fearnley | Ilkley | 2026-06-13 | 0.34 / 0.32 | `loose_mirror_sum` | yes_ask_a=0.34 + yes_ask_b=0.69 = 1.030 (dev 0.030 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13fearom) |
+| Jacob Fearnley vs Filippo Romano | Ilkley | 2026-06-13 | 0.69 / 0.67 | `loose_mirror_sum` | yes_ask_a=0.34 + yes_ask_b=0.69 = 1.030 (dev 0.030 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13fearom) |
 | Alexander Blockx vs Antoine Ghibaudo | Ilkley Qualification | 2026-06-07 | 0.25 / 0.15 | `loose_mirror_sum` | yes_ask_a=0.25 + yes_ask_b=0.92 = 1.170 (dev 0.170 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07okoghi) |
 | Antoine Ghibaudo vs Alexander Blockx | Ilkley Qualification | 2026-06-07 | 0.92 / 0.78 | `loose_mirror_sum` | yes_ask_a=0.25 + yes_ask_b=0.92 = 1.170 (dev 0.170 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07okoghi) |
 | Edward Winter vs Alastair Gray | Ilkley Qualification | 2026-06-07 | 0.36 / 0.29 | `loose_mirror_sum` | yes_ask_a=0.36 + yes_ask_b=0.72 = 1.080 (dev 0.080 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07wingra) |
@@ -2325,6 +2329,8 @@ _Generated 2026-06-13T14:06:33+00:00_
 | Erik Arutiunian vs Bruno Kuzuhara | Little Rock Qualification | 2026-05-25 | 0.98 / 0.97 | `low_player_coverage` | cov_a=9 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25kuzaru) |
 | Daniel Elahi Galan vs Felix Balshaw | Lyon | 2026-06-13 | 0.45 / 0.43 | `low_player_coverage` | cov_a=26 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13galbal) |
 | Felix Balshaw vs Daniel Elahi Galan | Lyon | 2026-06-13 | 0.57 / 0.56 | `low_player_coverage` | cov_a=26 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13galbal) |
+| Daniel Elahi Galan vs Felix Balshaw | Lyon | 2026-06-13 | 0.63 / 0.62 | `low_player_coverage` | cov_a=26 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13galbal) |
+| Felix Balshaw vs Daniel Elahi Galan | Lyon | 2026-06-13 | 0.37 / 0.36 | `low_player_coverage` | cov_a=26 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13galbal) |
 | David Jorda Sanchis vs S D Prajwal Dev | Lyon Qualification | 2026-06-07 | 0.95 / 0.82 | `low_player_coverage` | cov_a=35 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07jordev) |
 | S D Prajwal Dev vs David Jorda Sanchis | Lyon Qualification | 2026-06-07 | 0.18 / 0.09 | `low_player_coverage` | cov_a=35 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07jordev) |
 | Leo Raquillet vs Svyatoslav Gulin | Lyon Qualification | 2026-06-07 | 0.33 / 0.26 | `low_player_coverage` | cov_a=2 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07raqgul) |
@@ -3000,6 +3006,7 @@ _Generated 2026-06-13T14:06:33+00:00_
 | Francesco Forti vs Carballes Baena | Cattolica | 2026-06-13 | 0.35 / 0.33 | `missing_player_id` | player_a_id='F0A4', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13carfor) |
 | Jesper de Jong vs Dalla Valle | Cattolica | 2026-06-13 | 0.33 / 0.32 | `missing_player_id` | player_a_id='D0C1', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13dejdal) |
 | Enrico Dalla Valle vs De Jong | Cattolica | 2026-06-13 | 0.69 / 0.66 | `missing_player_id` | player_a_id='DG80', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13dejdal) |
+| Francesco Forti vs Carballes Baena | Cattolica | 2026-06-13 | 0.35 / 0.34 | `missing_player_id` | player_a_id='F0A4', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13carfor) |
 | Carlos Sanchez Jover vs Campana Lee | Cattolica Qualification | 2026-06-07 | 0.96 / 0.04 | `missing_player_id` | player_a_id='S0CG', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07sancam) |
 | Gerard Campana Lee vs Sanchez Jover | Cattolica Qualification | 2026-06-07 | 0.96 / 0.04 | `missing_player_id` | player_a_id='C0MH', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07sancam) |
 | Lucio Ratti vs Mazzola | Cattolica Qualification | 2026-06-07 | 0.96 / 0.04 | `missing_player_id` | player_a_id='R0HP', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07ratmaz) |
@@ -3781,6 +3788,10 @@ _Generated 2026-06-13T14:06:33+00:00_
 | Mark Ceban vs Zhizhen Zhang | nan | 2026-06-13 | 0.07 / 0.04 | `missing_player_id` | player_a_id=nan, player_b_id='Z371' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13zhaceb) |
 | James McCabe vs Lawlor | nan | 2026-06-13 | 0.96 / 0.94 | `missing_player_id` | player_a_id='M0OQ', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13lawmcc) |
 | Rhys Lawlor vs James McCabe | nan | 2026-06-13 | 0.08 / 0.06 | `missing_player_id` | player_a_id=nan, player_b_id='M0OQ' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13lawmcc) |
+| Zhizhen Zhang vs Ceban | nan | 2026-06-13 | 0.98 / 0.97 | `missing_player_id` | player_a_id='Z371', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13zhaceb) |
+| Mark Ceban vs Zhizhen Zhang | nan | 2026-06-13 | 0.03 / 0.02 | `missing_player_id` | player_a_id=nan, player_b_id='Z371' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13zhaceb) |
+| James McCabe vs Lawlor | nan | 2026-06-13 | 1.00 / 0.99 | `missing_player_id` | player_a_id='M0OQ', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13lawmcc) |
+| Rhys Lawlor vs James McCabe | nan | 2026-06-13 | 0.01 / 0.00 | `missing_player_id` | player_a_id=nan, player_b_id='M0OQ' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13lawmcc) |
 | Harry Wendelken vs James Watt | Birmingham | 2026-06-02 | 0.61 / 0.60 | `thin_player_history` | rank_ratio_a NaN (rank_a=226.0, rank_b=nan) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02watwen) |
 | James Watt vs Harry Wendelken | Birmingham | 2026-06-02 | 0.41 / 0.39 | `thin_player_history` | rank_ratio_a NaN (rank_a=226.0, rank_b=nan) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02watwen) |
 | Harry Wendelken vs James Watt | Birmingham | 2026-06-02 | 0.58 / 0.57 | `thin_player_history` | rank_ratio_a NaN (rank_a=226.0, rank_b=nan) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02watwen) |
@@ -4256,6 +4267,8 @@ _Generated 2026-06-13T14:06:33+00:00_
 | Juan Bautista Torres vs Carlos Maria Zarate | San Miguel de Tucuman | 2026-06-10 | 0.78 / 0.76 | `thin_tournament_history` | 'San Miguel de Tucuman' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun10torzar) |
 | Guido Ivan Justo vs Luciano Emanuel Ambrogi | San Miguel de Tucuman | 2026-06-13 | 0.61 / 0.60 | `thin_tournament_history` | 'San Miguel de Tucuman' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13jusamb) |
 | Luciano Emanuel Ambrogi vs Guido Ivan Justo | San Miguel de Tucuman | 2026-06-13 | 0.39 / 0.38 | `thin_tournament_history` | 'San Miguel de Tucuman' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13jusamb) |
+| Guido Ivan Justo vs Luciano Emanuel Ambrogi | San Miguel de Tucuman | 2026-06-13 | 0.69 / 0.68 | `thin_tournament_history` | 'San Miguel de Tucuman' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13jusamb) |
+| Luciano Emanuel Ambrogi vs Guido Ivan Justo | San Miguel de Tucuman | 2026-06-13 | 0.32 / 0.31 | `thin_tournament_history` | 'San Miguel de Tucuman' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13jusamb) |
 | Joel Schwaerzler vs Matej Dodig | Bad Rappenau | 2026-06-01 | 0.68 / 0.60 | `tournament_not_in_tml` | tournament='Bad Rappenau' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01schdod) |
 | Matej Dodig vs Joel Schwaerzler | Bad Rappenau | 2026-06-01 | 0.43 / 0.35 | `tournament_not_in_tml` | tournament='Bad Rappenau' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01schdod) |
 | Max Houkes vs Emilio Nava | Bad Rappenau | 2026-06-01 | 0.46 / 0.05 | `tournament_not_in_tml` | tournament='Bad Rappenau' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01hounav) |
@@ -4867,6 +4880,7 @@ _Generated 2026-06-13T14:06:33+00:00_
 | Liam Broady vs Raul Brancaccio | Cattolica | 2026-06-10 | 0.49 / 0.44 | `tournament_not_in_tml` | tournament='Cattolica' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun10brobra) |
 | Raul Brancaccio vs Liam Broady | Cattolica | 2026-06-10 | 0.52 / 0.50 | `tournament_not_in_tml` | tournament='Cattolica' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun10brobra) |
 | Roberto Carballes Baena vs Francesco Forti | Cattolica | 2026-06-13 | 0.68 / 0.66 | `tournament_not_in_tml` | tournament='Cattolica' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13carfor) |
+| Roberto Carballes Baena vs Francesco Forti | Cattolica | 2026-06-13 | 0.66 / 0.65 | `tournament_not_in_tml` | tournament='Cattolica' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13carfor) |
 | Miguel Tobon vs Peter Fajta | Cattolica Qualification | 2026-06-07 | 0.62 / 0.57 | `tournament_not_in_tml` | tournament='Cattolica Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07fajtob) |
 | Peter Fajta vs Miguel Tobon | Cattolica Qualification | 2026-06-07 | 0.43 / 0.35 | `tournament_not_in_tml` | tournament='Cattolica Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07fajtob) |
 | Lorenzo Rottoli vs Juan Cruz Martin Manzano | Cattolica Qualification | 2026-06-07 | 0.27 / 0.21 | `tournament_not_in_tml` | tournament='Cattolica Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07rotmar) |
@@ -5852,6 +5866,14 @@ _Generated 2026-06-13T14:06:33+00:00_
 | Remy Bertola vs William Jansen | nan | 2026-06-13 | 0.68 / 0.67 | `tournament_not_in_tml` | tournament=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13berjan) |
 | Giles Hussey vs Patrick Brady | nan | 2026-06-13 | 0.72 / 0.69 | `tournament_not_in_tml` | tournament=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13brahus) |
 | Patrick Brady vs Giles Hussey | nan | 2026-06-13 | 0.30 / 0.27 | `tournament_not_in_tml` | tournament=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13brahus) |
+| August Holmgren vs Max Basing | nan | 2026-06-13 | 0.74 / 0.73 | `tournament_not_in_tml` | tournament=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13holbas) |
+| Max Basing vs August Holmgren | nan | 2026-06-13 | 0.26 / 0.25 | `tournament_not_in_tml` | tournament=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13holbas) |
+| Daniel Masur vs Jay Clarke | nan | 2026-06-13 | 0.47 / 0.45 | `tournament_not_in_tml` | tournament=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13mascla) |
+| Jay Clarke vs Daniel Masur | nan | 2026-06-13 | 0.55 / 0.53 | `tournament_not_in_tml` | tournament=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13mascla) |
+| Alexander Blockx vs Hugo Grenier | nan | 2026-06-13 | 0.60 / 0.59 | `tournament_not_in_tml` | tournament=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13okogre) |
+| Hugo Grenier vs Alexander Blockx | nan | 2026-06-13 | 0.41 / 0.40 | `tournament_not_in_tml` | tournament=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13okogre) |
+| William Jansen vs Remy Bertola | nan | 2026-06-13 | 0.07 / 0.06 | `tournament_not_in_tml` | tournament=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13berjan) |
+| Remy Bertola vs William Jansen | nan | 2026-06-13 | 0.94 / 0.93 | `tournament_not_in_tml` | tournament=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13berjan) |
 | Emilio Nava vs Max Houkes | Bad Rappenau | 2026-06-01 | 0.83 / 0.04 | `wide_spread` | spread=0.79 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01hounav) |
 | Alejandro Moro Canas vs Max Schoenhaus | Bad Rappenau | 2026-06-03 | 0.93 / 0.42 | `wide_spread` | spread=0.51 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun03schmor) |
 | Matteo Martineau vs Jesper de Jong | Bad Rappenau Qualification | 2026-05-31 | 0.94 / 0.05 | `wide_spread` | spread=0.89 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31marjon) |
