@@ -1,12 +1,21 @@
-# Settled paper bets (312)
+# Settled paper bets (321)
 
-_Generated 2026-06-10T10:07:33+00:00_
+_Generated 2026-06-13T14:06:33+00:00_
 
-**Wins:** 99 / 312  (31.7%)  
-**Net PnL (per contract):** -17.292
+**Wins:** 101 / 321  (31.5%)  
+**Net PnL (per contract):** -18.421
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Marco Trungelliti (YES) vs Daniel Elahi Galan | Lyon | 2026-06-10 | YES Marco Trungelliti | 0.64 | 0.767 | ✗ | -0.656 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun10trugal) |
+| Matteo Martineau (YES) vs Tristan Boyer | Lyon | 2026-06-10 | YES Matteo Martineau | 0.30 | 0.357 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun10boymar) |
+| Alexander Donski (NO) vs Joao Lucas Reis Da Silva | Bratislava | 2026-06-10 | NO Alexander Donski | 0.24 | 0.372 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun10reidon) |
+| Kimmer Coppejans (YES) vs Alejandro Moro Canas | Lyon | 2026-06-10 | YES Kimmer Coppejans | 0.33 | 0.578 | ✓ | +0.655 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun10morcop) |
+| Jan Choinski (YES) vs Federico Cina | Bratislava | 2026-06-10 | YES Jan Choinski | 0.19 | 0.654 | ✗ | -0.201 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun10cincho) |
+| Andrej Martin (YES) vs Petr Brunclik | Bratislava | 2026-06-10 | YES Andrej Martin | 0.23 | 0.412 | ✗ | -0.242 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun10brumar) |
+| Florent Bax (YES) vs Thomas Faurel | Lyon | 2026-06-09 | YES Florent Bax | 0.39 | 0.583 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun09faubax) |
+| Michael Zheng (YES) vs Mark Lajal | Ilkley | 2026-06-09 | YES Michael Zheng | 0.42 | 0.525 | ✗ | -0.437 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun09lajzhe) |
+| Keegan Smith (YES) vs Alex Bolt | Ilkley | 2026-06-09 | YES Keegan Smith | 0.26 | 0.530 | ✓ | +0.727 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun09bolsmi) |
 | Alex Molcan (YES) vs Sebastian Baez | Prostejov | 2026-06-07 | YES Alex Molcan | 0.48 | 0.639 | ✗ | -0.497 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07baemol) |
 | Andrej Martin (YES) vs Daniel Michalski | Bratislava Qualification | 2026-06-07 | YES Andrej Martin | 0.43 | 0.549 | ✓ | +0.553 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07micmar) |
 | Andrea Pellegrino (YES) vs Daniel Merida | Perugia | 2026-06-06 | YES Andrea Pellegrino | 0.41 | 0.542 | ✗ | -0.427 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun06merpel) |
