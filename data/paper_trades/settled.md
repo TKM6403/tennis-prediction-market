@@ -1,12 +1,14 @@
-# Settled paper bets (331)
+# Settled paper bets (333)
 
-_Generated 2026-06-15T19:08:49+00:00_
+_Generated 2026-06-15T23:08:06+00:00_
 
-**Wins:** 106 / 331  (32.0%)  
-**Net PnL (per contract):** -16.947
+**Wins:** 108 / 333  (32.4%)  
+**Net PnL (per contract):** -15.627
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Buvaysar Gadamauri (NO) vs Damir Dzumhur | Parma | 2026-06-15 | NO Buvaysar Gadamauri | 0.40 | 0.556 | ✓ | +0.583 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15gaddzu) |
+| Mathys Erhard (YES) vs Norbert Gombos | Poznan Qualification | 2026-06-15 | YES Mathys Erhard | 0.25 | 0.543 | ✓ | +0.737 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15gomerh) |
 | Franco Roncadelli (YES) vs Facundo Diaz Acosta | Poznan | 2026-06-15 | YES Franco Roncadelli | 0.19 | 0.392 | ✗ | -0.201 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15diaron) |
 | Duje Ajdukovic (NO) vs Dalibor Svrcina | Poznan | 2026-06-15 | NO Duje Ajdukovic | 0.17 | 0.418 | ✗ | -0.180 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15ajdsvr) |
 | Tommy Paul (NO) vs Enrico Dalla Valle | Parma Qualification | 2026-06-15 | NO Tommy Paul | 0.38 | 0.867 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15dalpau) |
