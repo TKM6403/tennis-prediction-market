@@ -1,12 +1,18 @@
-# Settled paper bets (325)
+# Settled paper bets (331)
 
-_Generated 2026-06-15T12:20:40+00:00_
+_Generated 2026-06-15T19:08:49+00:00_
 
-**Wins:** 104 / 325  (32.0%)  
-**Net PnL (per contract):** -17.023
+**Wins:** 106 / 331  (32.0%)  
+**Net PnL (per contract):** -16.947
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Franco Roncadelli (YES) vs Facundo Diaz Acosta | Poznan | 2026-06-15 | YES Franco Roncadelli | 0.19 | 0.392 | ✗ | -0.201 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15diaron) |
+| Duje Ajdukovic (NO) vs Dalibor Svrcina | Poznan | 2026-06-15 | NO Duje Ajdukovic | 0.17 | 0.418 | ✗ | -0.180 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15ajdsvr) |
+| Tommy Paul (NO) vs Enrico Dalla Valle | Parma Qualification | 2026-06-15 | NO Tommy Paul | 0.38 | 0.867 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15dalpau) |
+| Stefano Napolitano (YES) vs Franco Agamenone | Parma | 2026-06-15 | YES Stefano Napolitano | 0.50 | 0.576 | ✓ | +0.482 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15aganap) |
+| Raul Brancaccio (NO) vs Sebastian Ofner | Parma | 2026-06-15 | NO Raul Brancaccio | 0.27 | 0.475 | ✗ | -0.284 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15ofnbra) |
+| Mathys Erhard (YES) vs Rudolf Molleker | Poznan Qualification | 2026-06-14 | YES Mathys Erhard | 0.33 | 0.668 | ✓ | +0.655 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14molerh) |
 | Yunchaokete Bu (YES) vs Jacob Fearnley | Ilkley | 2026-06-14 | YES Yunchaokete Bu | 0.56 | 0.698 | ✓ | +0.423 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14feayun) |
 | Dane Sweeny (YES) vs Yunchaokete Bu | Ilkley | 2026-06-13 | YES Dane Sweeny | 0.23 | 0.429 | ✗ | -0.242 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13sweyun) |
 | David Jorda Sanchis (YES) vs Tristan Boyer | Lyon | 2026-06-13 | YES David Jorda Sanchis | 0.35 | 0.537 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13jorboy) |
