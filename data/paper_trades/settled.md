@@ -1,12 +1,13 @@
-# Settled paper bets (324)
+# Settled paper bets (325)
 
-_Generated 2026-06-14T09:42:14+00:00_
+_Generated 2026-06-15T04:26:56+00:00_
 
-**Wins:** 103 / 324  (31.8%)  
-**Net PnL (per contract):** -17.446
+**Wins:** 104 / 325  (32.0%)  
+**Net PnL (per contract):** -17.023
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Yunchaokete Bu (YES) vs Jacob Fearnley | Ilkley | 2026-06-14 | YES Yunchaokete Bu | 0.56 | 0.698 | ✓ | +0.423 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14feayun) |
 | Dane Sweeny (YES) vs Yunchaokete Bu | Ilkley | 2026-06-13 | YES Dane Sweeny | 0.23 | 0.429 | ✗ | -0.242 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13sweyun) |
 | David Jorda Sanchis (YES) vs Tristan Boyer | Lyon | 2026-06-13 | YES David Jorda Sanchis | 0.35 | 0.537 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13jorboy) |
 | Taro Daniel (YES) vs Federico Cina | Bratislava | 2026-06-13 | YES Taro Daniel | 0.40 | 0.559 | ✓ | +0.583 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun13cindan) |
