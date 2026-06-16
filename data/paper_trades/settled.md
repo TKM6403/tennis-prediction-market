@@ -1,12 +1,13 @@
-# Settled paper bets (333)
+# Settled paper bets (334)
 
-_Generated 2026-06-15T23:08:06+00:00_
+_Generated 2026-06-16T04:17:50+00:00_
 
-**Wins:** 108 / 333  (32.4%)  
-**Net PnL (per contract):** -15.627
+**Wins:** 108 / 334  (32.3%)  
+**Net PnL (per contract):** -16.095
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Sumit Nagal (YES) vs Petr Brunclik | Poznan | 2026-06-15 | YES Sumit Nagal | 0.45 | 0.517 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15brunag) |
 | Buvaysar Gadamauri (NO) vs Damir Dzumhur | Parma | 2026-06-15 | NO Buvaysar Gadamauri | 0.40 | 0.556 | ✓ | +0.583 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15gaddzu) |
 | Mathys Erhard (YES) vs Norbert Gombos | Poznan Qualification | 2026-06-15 | YES Mathys Erhard | 0.25 | 0.543 | ✓ | +0.737 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15gomerh) |
 | Franco Roncadelli (YES) vs Facundo Diaz Acosta | Poznan | 2026-06-15 | YES Franco Roncadelli | 0.19 | 0.392 | ✗ | -0.201 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15diaron) |
