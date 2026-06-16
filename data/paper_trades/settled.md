@@ -1,12 +1,19 @@
-# Settled paper bets (336)
+# Settled paper bets (343)
 
-_Generated 2026-06-16T11:18:00+00:00_
+_Generated 2026-06-16T17:01:41+00:00_
 
-**Wins:** 109 / 336  (32.4%)  
-**Net PnL (per contract):** -16.269
+**Wins:** 111 / 343  (32.4%)  
+**Net PnL (per contract):** -16.703
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Lorenzo Giustino (YES) vs Maks Kasnikowski | Poznan | 2026-06-15 | YES Lorenzo Giustino | 0.36 | 0.585 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15kasgiu) |
+| Miguel Damas (NO) vs Roberto Carballes Baena | Parma | 2026-06-16 | NO Miguel Damas | 0.34 | 0.478 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16damcar) |
+| Petr Bar Biryukov (YES) vs Stefano Travaglia | Parma | 2026-06-16 | YES Petr Bar Biryukov | 0.14 | 0.336 | ✗ | -0.148 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16bartra) |
+| Daniel Rincon (NO) vs Pedro Martinez | Parma | 2026-06-16 | NO Daniel Rincon | 0.35 | 0.461 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16marrin) |
+| Milos Karol (NO) vs Joao Lucas Reis Da Silva | Poznan | 2026-06-16 | NO Milos Karol | 0.45 | 0.501 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16karrei) |
+| Akira Santillan (YES) vs Maxim Mrva | Poznan | 2026-06-16 | YES Akira Santillan | 0.26 | 0.544 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16mrvsan) |
+| Marco Cecchinato (YES) vs Carlo Alberto Caniato | Parma | 2026-06-16 | YES Marco Cecchinato | 0.43 | 0.558 | ✓ | +0.553 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16ceccan) |
 | Hynek Barton (YES) vs Kimmer Coppejans | Poznan | 2026-06-16 | YES Hynek Barton | 0.55 | 0.683 | ✓ | +0.433 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16barcop) |
 | Zsombor Piros (YES) vs Daniel Elahi Galan | Parma | 2026-06-16 | YES Zsombor Piros | 0.59 | 0.654 | ✗ | -0.607 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16galpir) |
 | Sumit Nagal (YES) vs Petr Brunclik | Poznan | 2026-06-15 | YES Sumit Nagal | 0.45 | 0.517 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15brunag) |
