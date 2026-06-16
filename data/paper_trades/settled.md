@@ -1,12 +1,14 @@
-# Settled paper bets (334)
+# Settled paper bets (336)
 
-_Generated 2026-06-16T04:17:50+00:00_
+_Generated 2026-06-16T11:18:00+00:00_
 
-**Wins:** 108 / 334  (32.3%)  
-**Net PnL (per contract):** -16.095
+**Wins:** 109 / 336  (32.4%)  
+**Net PnL (per contract):** -16.269
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Hynek Barton (YES) vs Kimmer Coppejans | Poznan | 2026-06-16 | YES Hynek Barton | 0.55 | 0.683 | ✓ | +0.433 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16barcop) |
+| Zsombor Piros (YES) vs Daniel Elahi Galan | Parma | 2026-06-16 | YES Zsombor Piros | 0.59 | 0.654 | ✗ | -0.607 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16galpir) |
 | Sumit Nagal (YES) vs Petr Brunclik | Poznan | 2026-06-15 | YES Sumit Nagal | 0.45 | 0.517 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15brunag) |
 | Buvaysar Gadamauri (NO) vs Damir Dzumhur | Parma | 2026-06-15 | NO Buvaysar Gadamauri | 0.40 | 0.556 | ✓ | +0.583 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15gaddzu) |
 | Mathys Erhard (YES) vs Norbert Gombos | Poznan Qualification | 2026-06-15 | YES Mathys Erhard | 0.25 | 0.543 | ✓ | +0.737 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15gomerh) |
