@@ -1,12 +1,15 @@
-# Settled paper bets (343)
+# Settled paper bets (346)
 
-_Generated 2026-06-16T17:01:41+00:00_
+_Generated 2026-06-16T20:58:01+00:00_
 
-**Wins:** 111 / 343  (32.4%)  
-**Net PnL (per contract):** -16.703
+**Wins:** 111 / 346  (32.1%)  
+**Net PnL (per contract):** -17.738
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Daniel Michalski (YES) vs Gustavo Heide | Poznan | 2026-06-16 | YES Daniel Michalski | 0.30 | 0.405 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16heimic) |
+| Mathys Erhard (NO) vs Frederico Ferreira Silva | Poznan | 2026-06-16 | NO Mathys Erhard | 0.45 | 0.508 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16erhfer) |
+| Ilia Simakin (YES) vs Jacopo Vasami | Parma | 2026-06-16 | YES Ilia Simakin | 0.24 | 0.436 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16simvas) |
 | Lorenzo Giustino (YES) vs Maks Kasnikowski | Poznan | 2026-06-15 | YES Lorenzo Giustino | 0.36 | 0.585 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15kasgiu) |
 | Miguel Damas (NO) vs Roberto Carballes Baena | Parma | 2026-06-16 | NO Miguel Damas | 0.34 | 0.478 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16damcar) |
 | Petr Bar Biryukov (YES) vs Stefano Travaglia | Parma | 2026-06-16 | YES Petr Bar Biryukov | 0.14 | 0.336 | ✗ | -0.148 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16bartra) |
