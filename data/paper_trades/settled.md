@@ -1,12 +1,21 @@
-# Settled paper bets (346)
+# Settled paper bets (355)
 
-_Generated 2026-06-16T22:57:49+00:00_
+_Generated 2026-06-17T15:37:55+00:00_
 
-**Wins:** 111 / 346  (32.1%)  
-**Net PnL (per contract):** -17.738
+**Wins:** 113 / 355  (31.8%)  
+**Net PnL (per contract):** -19.935
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Stefano Travaglia (NO) vs Roberto Carballes Baena | Parma | 2026-06-17 | NO Stefano Travaglia | 0.44 | 0.596 | ✗ | -0.457 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17cartra) |
+| Martin Krumich (NO) vs Joao Lucas Reis Da Silva | Poznan | 2026-06-17 | NO Martin Krumich | 0.52 | 0.580 | ✗ | -0.537 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17krurei) |
+| Hynek Barton (YES) vs Facundo Diaz Acosta | Poznan | 2026-06-17 | YES Hynek Barton | 0.39 | 0.520 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17diabar) |
+| Enrico Dalla Valle (YES) vs Sebastian Ofner | Parma | 2026-06-17 | YES Enrico Dalla Valle | 0.34 | 0.434 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17ofndal) |
+| Frederico Ferreira Silva (YES) vs Gonzalo Bueno | Poznan | 2026-06-17 | YES Frederico Ferreira Silva | 0.45 | 0.526 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17buefer) |
+| Marco Cecchinato (YES) vs Federico Bondioli | Parma | 2026-06-17 | YES Marco Cecchinato | 0.63 | 0.684 | ✓ | +0.354 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17cecbon) |
+| Jan Choinski (YES) vs Maks Kasnikowski | Poznan | 2026-06-17 | YES Jan Choinski | 0.58 | 0.689 | ✓ | +0.403 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17kascho) |
+| Norbert Gombos (NO) vs Dalibor Svrcina | Poznan | 2026-06-17 | NO Norbert Gombos | 0.21 | 0.489 | ✗ | -0.222 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17gomsvr) |
+| Genaro Alberto Olivieri (YES) vs Michele Ribecai | Poznan | 2026-06-17 | YES Genaro Alberto Olivieri | 0.49 | 0.593 | ✗ | -0.507 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17olirib) |
 | Daniel Michalski (YES) vs Gustavo Heide | Poznan | 2026-06-16 | YES Daniel Michalski | 0.30 | 0.405 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16heimic) |
 | Mathys Erhard (NO) vs Frederico Ferreira Silva | Poznan | 2026-06-16 | NO Mathys Erhard | 0.45 | 0.508 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16erhfer) |
 | Ilia Simakin (YES) vs Jacopo Vasami | Parma | 2026-06-16 | YES Ilia Simakin | 0.24 | 0.436 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16simvas) |
