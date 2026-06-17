@@ -1,12 +1,15 @@
-# Settled paper bets (355)
+# Settled paper bets (358)
 
-_Generated 2026-06-17T15:37:55+00:00_
+_Generated 2026-06-17T20:18:30+00:00_
 
-**Wins:** 113 / 355  (31.8%)  
-**Net PnL (per contract):** -19.935
+**Wins:** 113 / 358  (31.6%)  
+**Net PnL (per contract):** -20.818
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Stefano Napolitano (YES) vs Daniel Rincon | Parma | 2026-06-17 | YES Stefano Napolitano | 0.57 | 0.743 | ✗ | -0.587 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17rinnap) |
+| Daniel Elahi Galan (YES) vs Luca Van Assche | Parma | 2026-06-17 | YES Daniel Elahi Galan | 0.07 | 0.317 | ✗ | -0.075 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17galvan) |
+| Maxim Mrva (YES) vs Gustavo Heide | Poznan | 2026-06-17 | YES Maxim Mrva | 0.21 | 0.409 | ✗ | -0.222 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17heimrv) |
 | Stefano Travaglia (NO) vs Roberto Carballes Baena | Parma | 2026-06-17 | NO Stefano Travaglia | 0.44 | 0.596 | ✗ | -0.457 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17cartra) |
 | Martin Krumich (NO) vs Joao Lucas Reis Da Silva | Poznan | 2026-06-17 | NO Martin Krumich | 0.52 | 0.580 | ✗ | -0.537 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17krurei) |
 | Hynek Barton (YES) vs Facundo Diaz Acosta | Poznan | 2026-06-17 | YES Hynek Barton | 0.39 | 0.520 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17diabar) |

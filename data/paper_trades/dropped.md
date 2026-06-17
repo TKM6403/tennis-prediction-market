@@ -1,14 +1,14 @@
-# Dropped markets (6791)
+# Dropped markets (6797)
 
-_Generated 2026-06-17T15:37:55+00:00_
+_Generated 2026-06-17T20:18:30+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `tournament_not_in_tml` | 1831 |
+| `tournament_not_in_tml` | 1836 |
 | `duplicate_match` | 1340 |
-| `missing_player_id` | 1186 |
+| `missing_player_id` | 1187 |
 | `low_player_coverage` | 1137 |
 | `thin_tournament_history` | 533 |
 | `below_min_edge` | 394 |
@@ -3068,6 +3068,7 @@ _Generated 2026-06-17T15:37:55+00:00_
 | Gustavo Ribeiro De Almeida vs Aguilar Cardozo | Asuncion 2 | 2026-06-17 | 0.58 / 0.55 | `missing_player_id` | player_a_id='D0IP', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16agude) |
 | Joaquin Aguilar Cardozo vs de Almeida | Asuncion 2 | 2026-06-17 | 0.46 / 0.44 | `missing_player_id` | player_a_id='A0JW', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16agude) |
 | Gonzalo Villanueva vs Aguilar Cardozo | Asuncion 2 | 2026-06-17 | 0.56 / 0.55 | `missing_player_id` | player_a_id='V821', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17aguvil) |
+| Gonzalo Villanueva vs Aguilar Cardozo | Asuncion 2 | 2026-06-17 | 0.84 / 0.83 | `missing_player_id` | player_a_id='V821', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17aguvil) |
 | Ignacio Parisca Romera vs Alejandro Hayen | Asuncion 2 Qualification | 2026-06-14 | 0.92 / 0.88 | `missing_player_id` | player_a_id=nan, player_b_id='H0KQ' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14haypar) |
 | Alejandro Hayen vs Parisca Romera | Asuncion 2 Qualification | 2026-06-14 | 0.12 / 0.08 | `missing_player_id` | player_a_id='H0KQ', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14haypar) |
 | Conner Huertas del Pino vs de Almeida | Asuncion 2 Qualification | 2026-06-14 | 0.21 / 0.16 | `missing_player_id` | player_a_id='HG90', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14delde) |
@@ -4897,6 +4898,11 @@ _Generated 2026-06-17T15:37:55+00:00_
 | Juan Manuel La Serna vs Eduardo Ribeiro | Asuncion 2 | 2026-06-17 | 0.47 / 0.43 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17ribla) |
 | Guido Ivan Justo vs Emilio Gomez | Asuncion 2 | 2026-06-17 | 0.89 / 0.87 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17jusgom) |
 | Juan Sebastian Gomez vs Guido Ivan Justo | Asuncion 2 | 2026-06-17 | 0.12 / 0.10 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17jusgom) |
+| Joaquin Aguilar Cardozo vs Gonzalo Villanueva | Asuncion 2 | 2026-06-17 | 0.18 / 0.15 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17aguvil) |
+| Juan Estevez vs Hernan Casanova | Asuncion 2 | 2026-06-17 | 0.42 / 0.41 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17estcas) |
+| Hernan Casanova vs Juan Estevez | Asuncion 2 | 2026-06-17 | 0.60 / 0.59 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17estcas) |
+| Nicolas Kicker vs Conner Huertas del Pino | Asuncion 2 | 2026-06-17 | 0.41 / 0.37 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17kichue) |
+| Conner Huertas del Pino vs Nicolas Kicker | Asuncion 2 | 2026-06-17 | 0.65 / 0.62 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17kichue) |
 | Tomas Martinez vs Joao Victor Couto Loureiro | Asuncion 2 Qualification | 2026-06-14 | 0.69 / 0.64 | `tournament_not_in_tml` | tournament='Asuncion 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14marcou) |
 | Joao Victor Couto Loureiro vs Pedro Martinez | Asuncion 2 Qualification | 2026-06-14 | 0.36 / 0.31 | `tournament_not_in_tml` | tournament='Asuncion 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14marcou) |
 | Gustavo Ribeiro De Almeida vs Conner Huertas del Pino | Asuncion 2 Qualification | 2026-06-14 | 0.84 / 0.79 | `tournament_not_in_tml` | tournament='Asuncion 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14delde) |
