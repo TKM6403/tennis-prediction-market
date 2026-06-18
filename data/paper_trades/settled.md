@@ -1,12 +1,13 @@
-# Settled paper bets (363)
+# Settled paper bets (364)
 
-_Generated 2026-06-18T20:31:09+00:00_
+_Generated 2026-06-18T23:02:28+00:00_
 
-**Wins:** 114 / 363  (31.4%)  
-**Net PnL (per contract):** -21.709
+**Wins:** 114 / 364  (31.3%)  
+**Net PnL (per contract):** -22.266
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Buvaysar Gadamauri (YES) vs Daniel Rincon | Parma | 2026-06-18 | YES Buvaysar Gadamauri | 0.54 | 0.664 | ✗ | -0.557 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18ringad) |
 | Marco Cecchinato (YES) vs Luca Van Assche | Parma | 2026-06-18 | YES Marco Cecchinato | 0.34 | 0.442 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18cecvan) |
 | Jan Choinski (YES) vs Gustavo Heide | Poznan | 2026-06-18 | YES Jan Choinski | 0.40 | 0.544 | ✗ | -0.417 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18heicho) |
 | Gonzalo Bueno (YES) vs Dalibor Svrcina | Poznan | 2026-06-18 | YES Gonzalo Bueno | 0.34 | 0.457 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18buesvr) |

@@ -1,20 +1,20 @@
-# Dropped markets (6890)
+# Dropped markets (6896)
 
-_Generated 2026-06-18T20:31:09+00:00_
+_Generated 2026-06-18T23:02:28+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `tournament_not_in_tml` | 1868 |
+| `tournament_not_in_tml` | 1870 |
 | `duplicate_match` | 1350 |
 | `missing_player_id` | 1197 |
 | `low_player_coverage` | 1149 |
-| `thin_tournament_history` | 551 |
+| `thin_tournament_history` | 553 |
 | `below_min_edge` | 399 |
 | `wide_spread` | 158 |
 | `loose_mirror_sum` | 156 |
-| `thin_player_history` | 60 |
+| `thin_player_history` | 62 |
 | `yes_on_challenger` | 2 |
 
 ## Detail
@@ -4308,6 +4308,8 @@ _Generated 2026-06-18T20:31:09+00:00_
 | Raphael Perot vs Cosme Rolland De Ravel | Royan | 2026-06-18 | 0.55 / 0.53 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=409.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18rolper) |
 | Cosme Rolland De Ravel vs Raphael Perot | Royan | 2026-06-18 | 0.52 / 0.50 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=409.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18rolper) |
 | Raphael Perot vs Cosme Rolland De Ravel | Royan | 2026-06-18 | 0.47 / 0.46 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=409.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18rolper) |
+| Cosme Rolland De Ravel vs Lucio Ratti | Royan | 2026-06-19 | 0.51 / 0.50 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=468.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19rolrat) |
+| Lucio Ratti vs Cosme Rolland De Ravel | Royan | 2026-06-19 | 0.50 / 0.48 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=468.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19rolrat) |
 | Cosme Rolland De Ravel vs Yu Hsiou Hsu | Royan Qualification | 2026-06-14 | 0.95 / 0.91 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=212.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14hsurol) |
 | Yu Hsiou Hsu vs Cosme Rolland De Ravel | Royan Qualification | 2026-06-14 | 0.08 / 0.07 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=212.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14hsurol) |
 | Cosme Rolland De Ravel vs S D Prajwal Dev | Royan Qualification | 2026-06-15 | 0.75 / 0.72 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=634.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15devrol) |
@@ -4851,6 +4853,8 @@ _Generated 2026-06-18T20:31:09+00:00_
 | Benjamin Bonzi vs Christopher O'Connell | Nottingham 2 | 2026-06-18 | 0.69 / 0.68 | `thin_tournament_history` | 'Nottingham 2' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18ocobon) |
 | Shintaro Mochizuki vs Remy Bertola | Nottingham 2 | 2026-06-18 | 0.58 / 0.57 | `thin_tournament_history` | 'Nottingham 2' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18mocber) |
 | Remy Bertola vs Shintaro Mochizuki | Nottingham 2 | 2026-06-18 | 0.43 / 0.42 | `thin_tournament_history` | 'Nottingham 2' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18mocber) |
+| Christopher O'Connell vs Remy Bertola | Nottingham 2 | 2026-06-19 | 0.66 / 0.64 | `thin_tournament_history` | 'Nottingham 2' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19beroco) |
+| Remy Bertola vs Christopher O'Connell | Nottingham 2 | 2026-06-19 | 0.37 / 0.36 | `thin_tournament_history` | 'Nottingham 2' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19beroco) |
 | August Holmgren vs Jay Clarke | Nottingham 2 Qualification | 2026-06-14 | 0.68 / 0.67 | `thin_tournament_history` | 'Nottingham 2 Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14holcla) |
 | Jay Clarke vs August Holmgren | Nottingham 2 Qualification | 2026-06-14 | 0.32 / 0.30 | `thin_tournament_history` | 'Nottingham 2 Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14holcla) |
 | Zhizhen Zhang vs Alexander Blockx | Nottingham 2 Qualification | 2026-06-14 | 0.89 / 0.88 | `thin_tournament_history` | 'Nottingham 2 Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14zhaoko) |
@@ -6365,6 +6369,8 @@ _Generated 2026-06-18T20:31:09+00:00_
 | Grigor Dimitrov vs Kyrian Jacquet | Dublin | 2026-06-18 | 0.74 / 0.73 | `tournament_not_in_tml` | tournament='Dublin' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18dimjac) |
 | Henry Searle vs Alexis Galarneau | Dublin | 2026-06-18 | 0.59 / 0.58 | `tournament_not_in_tml` | tournament='Dublin' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18seagal) |
 | Alexis Galarneau vs Henry Searle | Dublin | 2026-06-18 | 0.43 / 0.41 | `tournament_not_in_tml` | tournament='Dublin' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18seagal) |
+| Henry Searle vs Kyrian Jacquet | Dublin | 2026-06-19 | 0.43 / 0.42 | `tournament_not_in_tml` | tournament='Dublin' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19jacsea) |
+| Kyrian Jacquet vs Henry Searle | Dublin | 2026-06-19 | 0.57 / 0.56 | `tournament_not_in_tml` | tournament='Dublin' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19jacsea) |
 | Filippo Romano vs Andrea Guerrieri | Dublin Qualification | 2026-06-14 | 0.71 / 0.68 | `tournament_not_in_tml` | tournament='Dublin Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14guerom) |
 | Andrea Guerrieri vs Filippo Romano | Dublin Qualification | 2026-06-14 | 0.32 / 0.30 | `tournament_not_in_tml` | tournament='Dublin Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14guerom) |
 | Hamish Stewart vs Keegan Smith | Dublin Qualification | 2026-06-14 | 0.54 / 0.49 | `tournament_not_in_tml` | tournament='Dublin Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14stesmi) |
