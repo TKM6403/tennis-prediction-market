@@ -1,12 +1,17 @@
-# Settled paper bets (358)
+# Settled paper bets (363)
 
-_Generated 2026-06-18T10:27:56+00:00_
+_Generated 2026-06-18T20:31:09+00:00_
 
-**Wins:** 113 / 358  (31.6%)  
-**Net PnL (per contract):** -20.818
+**Wins:** 114 / 363  (31.4%)  
+**Net PnL (per contract):** -21.709
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Marco Cecchinato (YES) vs Luca Van Assche | Parma | 2026-06-18 | YES Marco Cecchinato | 0.34 | 0.442 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18cecvan) |
+| Jan Choinski (YES) vs Gustavo Heide | Poznan | 2026-06-18 | YES Jan Choinski | 0.40 | 0.544 | ✗ | -0.417 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18heicho) |
+| Gonzalo Bueno (YES) vs Dalibor Svrcina | Poznan | 2026-06-18 | YES Gonzalo Bueno | 0.34 | 0.457 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18buesvr) |
+| Chun-Hsin Tseng (YES) vs Laslo Djere | Parma | 2026-06-18 | YES Chun-Hsin Tseng | 0.36 | 0.618 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18djetse) |
+| Michele Ribecai (NO) vs Joao Lucas Reis Da Silva | Poznan | 2026-06-18 | NO Michele Ribecai | 0.37 | 0.431 | ✓ | +0.614 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18ribrei) |
 | Stefano Napolitano (YES) vs Daniel Rincon | Parma | 2026-06-17 | YES Stefano Napolitano | 0.57 | 0.743 | ✗ | -0.587 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17rinnap) |
 | Daniel Elahi Galan (YES) vs Luca Van Assche | Parma | 2026-06-17 | YES Daniel Elahi Galan | 0.07 | 0.317 | ✗ | -0.075 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17galvan) |
 | Maxim Mrva (YES) vs Gustavo Heide | Poznan | 2026-06-17 | YES Maxim Mrva | 0.21 | 0.409 | ✗ | -0.222 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun17heimrv) |

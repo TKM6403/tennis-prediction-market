@@ -1,13 +1,13 @@
-# Dropped markets (6884)
+# Dropped markets (6890)
 
-_Generated 2026-06-18T10:27:56+00:00_
+_Generated 2026-06-18T20:31:09+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `tournament_not_in_tml` | 1864 |
-| `duplicate_match` | 1348 |
+| `tournament_not_in_tml` | 1868 |
+| `duplicate_match` | 1350 |
 | `missing_player_id` | 1197 |
 | `low_player_coverage` | 1149 |
 | `thin_tournament_history` | 551 |
@@ -957,6 +957,8 @@ _Generated 2026-06-18T10:27:56+00:00_
 | Marco Cecchinato vs Luca Van Assche | Parma | 2026-06-18 | 0.35 / 0.34 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN18CECVAN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18cecvan) |
 | Chun-Hsin Tseng vs Laslo Djere | Parma | 2026-06-18 | 0.36 / 0.35 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN18DJETSE | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18djetse) |
 | Laslo Djere vs Chun-Hsin Tseng | Parma | 2026-06-18 | 0.65 / 0.64 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN18DJETSE | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18djetse) |
+| Daniel Rincon vs Buvaysar Gadamauri | Parma | 2026-06-18 | 0.90 / 0.89 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN18RINGAD | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18ringad) |
+| Buvaysar Gadamauri vs Daniel Rincon | Parma | 2026-06-18 | 0.11 / 0.10 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN18RINGAD | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18ringad) |
 | Enrico Dalla Valle vs Tommy Paul | Parma Qualification | 2026-06-15 | 0.45 / 0.44 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN15DALPAU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15dalpau) |
 | Ilia Simakin vs Marco Cecchinato | Perugia | 2026-06-01 | 0.24 / 0.23 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN01CECSIM | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01cecsim) |
 | Marco Cecchinato vs Ilia Simakin | Perugia | 2026-06-01 | 0.77 / 0.76 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN01CECSIM | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01cecsim) |
@@ -4970,6 +4972,10 @@ _Generated 2026-06-18T10:27:56+00:00_
 | Luciano Emanuel Ambrogi vs Guido Ivan Justo | Asuncion 2 | 2026-06-18 | 0.42 / 0.41 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18jusamb) |
 | Matias Soto vs Nick Hardt | Asuncion 2 | 2026-06-18 | 0.38 / 0.36 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18harsot) |
 | Nick Hardt vs Matias Soto | Asuncion 2 | 2026-06-18 | 0.63 / 0.62 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18harsot) |
+| Gonzalo Villanueva vs Juan Estevez | Asuncion 2 | 2026-06-18 | 0.56 / 0.55 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18estvil) |
+| Juan Estevez vs Gonzalo Villanueva | Asuncion 2 | 2026-06-18 | 0.46 / 0.45 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18estvil) |
+| Juan Manuel La Serna vs Conner Huertas del Pino | Asuncion 2 | 2026-06-18 | 0.11 / 0.09 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18huela) |
+| Conner Huertas del Pino vs Juan Manuel La Serna | Asuncion 2 | 2026-06-18 | 0.90 / 0.89 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18huela) |
 | Tomas Martinez vs Joao Victor Couto Loureiro | Asuncion 2 Qualification | 2026-06-14 | 0.69 / 0.64 | `tournament_not_in_tml` | tournament='Asuncion 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14marcou) |
 | Joao Victor Couto Loureiro vs Pedro Martinez | Asuncion 2 Qualification | 2026-06-14 | 0.36 / 0.31 | `tournament_not_in_tml` | tournament='Asuncion 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14marcou) |
 | Gustavo Ribeiro De Almeida vs Conner Huertas del Pino | Asuncion 2 Qualification | 2026-06-14 | 0.84 / 0.79 | `tournament_not_in_tml` | tournament='Asuncion 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14delde) |
