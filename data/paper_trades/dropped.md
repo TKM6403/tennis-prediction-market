@@ -1,17 +1,17 @@
-# Dropped markets (6938)
+# Dropped markets (6948)
 
-_Generated 2026-06-19T10:32:06+00:00_
+_Generated 2026-06-19T15:25:10+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `tournament_not_in_tml` | 1882 |
-| `duplicate_match` | 1356 |
+| `tournament_not_in_tml` | 1888 |
+| `duplicate_match` | 1358 |
 | `missing_player_id` | 1197 |
 | `low_player_coverage` | 1149 |
 | `thin_tournament_history` | 565 |
-| `below_min_edge` | 407 |
+| `below_min_edge` | 409 |
 | `wide_spread` | 158 |
 | `loose_mirror_sum` | 156 |
 | `thin_player_history` | 66 |
@@ -229,6 +229,8 @@ _Generated 2026-06-19T10:32:06+00:00_
 | Daniel Rincon vs Luca Van Assche | Parma | 2026-06-19 | 0.32 / 0.28 | `below_min_edge` | best_edge=0.008 on YES @ theo=0.738 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19rinvan) |
 | Luca Van Assche vs Daniel Rincon | Parma | 2026-06-19 | 0.73 / 0.71 | `below_min_edge` | best_edge=0.012 on YES @ theo=0.302 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19rinvan) |
 | Daniel Rincon vs Luca Van Assche | Parma | 2026-06-19 | 0.29 / 0.28 | `below_min_edge` | best_edge=0.012 on YES @ theo=0.302 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19rinvan) |
+| Luca Van Assche vs Daniel Rincon | Parma | 2026-06-19 | 0.72 / 0.71 | `below_min_edge` | best_edge=0.018 on YES @ theo=0.738 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19rinvan) |
+| Daniel Rincon vs Luca Van Assche | Parma | 2026-06-19 | 0.30 / 0.28 | `below_min_edge` | best_edge=0.018 on YES @ theo=0.738 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19rinvan) |
 | Daniel Merida vs Gianluca Cadenasso | Perugia | 2026-06-01 | 0.61 / 0.57 | `below_min_edge` | best_edge=-0.005 on YES @ theo=0.425 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01cadmer) |
 | Gianluca Cadenasso vs Daniel Merida | Perugia | 2026-06-01 | 0.43 / 0.41 | `below_min_edge` | best_edge=-0.005 on YES @ theo=0.425 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01cadmer) |
 | Daniel Merida vs Gianluca Cadenasso | Perugia | 2026-06-01 | 0.61 / 0.60 | `below_min_edge` | best_edge=0.025 on YES @ theo=0.425 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01cadmer) |
@@ -969,6 +971,8 @@ _Generated 2026-06-19T10:32:06+00:00_
 | Buvaysar Gadamauri vs Daniel Rincon | Parma | 2026-06-18 | 0.11 / 0.10 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN18RINGAD | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18ringad) |
 | Sebastian Ofner vs Laslo Djere | Parma | 2026-06-19 | 0.49 / 0.48 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN19DJEOFN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19djeofn) |
 | Laslo Djere vs Sebastian Ofner | Parma | 2026-06-19 | 0.51 / 0.50 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN19DJEOFN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19djeofn) |
+| Sebastian Ofner vs Laslo Djere | Parma | 2026-06-19 | 0.69 / 0.68 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN19DJEOFN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19djeofn) |
+| Laslo Djere vs Sebastian Ofner | Parma | 2026-06-19 | 0.32 / 0.31 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN19DJEOFN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19djeofn) |
 | Enrico Dalla Valle vs Tommy Paul | Parma Qualification | 2026-06-15 | 0.45 / 0.44 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN15DALPAU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15dalpau) |
 | Ilia Simakin vs Marco Cecchinato | Perugia | 2026-06-01 | 0.24 / 0.23 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN01CECSIM | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01cecsim) |
 | Marco Cecchinato vs Ilia Simakin | Perugia | 2026-06-01 | 0.77 / 0.76 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN01CECSIM | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01cecsim) |
@@ -5014,6 +5018,10 @@ _Generated 2026-06-19T10:32:06+00:00_
 | Nick Hardt vs Guido Ivan Justo | Asuncion 2 | 2026-06-19 | 0.52 / 0.51 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19jushar) |
 | Conner Huertas del Pino vs Juan Estevez | Asuncion 2 | 2026-06-19 | 0.36 / 0.35 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19hueest) |
 | Juan Estevez vs Conner Huertas del Pino | Asuncion 2 | 2026-06-19 | 0.65 / 0.63 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19hueest) |
+| Guido Ivan Justo vs Nick Hardt | Asuncion 2 | 2026-06-19 | 0.49 / 0.46 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19jushar) |
+| Nick Hardt vs Guido Ivan Justo | Asuncion 2 | 2026-06-19 | 0.53 / 0.51 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19jushar) |
+| Conner Huertas del Pino vs Juan Estevez | Asuncion 2 | 2026-06-19 | 0.36 / 0.35 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19hueest) |
+| Juan Estevez vs Conner Huertas del Pino | Asuncion 2 | 2026-06-19 | 0.64 / 0.63 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19hueest) |
 | Tomas Martinez vs Joao Victor Couto Loureiro | Asuncion 2 Qualification | 2026-06-14 | 0.69 / 0.64 | `tournament_not_in_tml` | tournament='Asuncion 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14marcou) |
 | Joao Victor Couto Loureiro vs Pedro Martinez | Asuncion 2 Qualification | 2026-06-14 | 0.36 / 0.31 | `tournament_not_in_tml` | tournament='Asuncion 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14marcou) |
 | Gustavo Ribeiro De Almeida vs Conner Huertas del Pino | Asuncion 2 Qualification | 2026-06-14 | 0.84 / 0.79 | `tournament_not_in_tml` | tournament='Asuncion 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14delde) |
@@ -6413,6 +6421,8 @@ _Generated 2026-06-19T10:32:06+00:00_
 | Titouan Droguet vs Jurij Rodionov | Dublin | 2026-06-19 | 0.53 / 0.52 | `tournament_not_in_tml` | tournament='Dublin' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19drorod) |
 | Henry Searle vs Kyrian Jacquet | Dublin | 2026-06-19 | 0.44 / 0.43 | `tournament_not_in_tml` | tournament='Dublin' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19jacsea) |
 | Kyrian Jacquet vs Henry Searle | Dublin | 2026-06-19 | 0.57 / 0.56 | `tournament_not_in_tml` | tournament='Dublin' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19jacsea) |
+| Jurij Rodionov vs Titouan Droguet | Dublin | 2026-06-19 | 0.50 / 0.46 | `tournament_not_in_tml` | tournament='Dublin' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19drorod) |
+| Titouan Droguet vs Jurij Rodionov | Dublin | 2026-06-19 | 0.53 / 0.51 | `tournament_not_in_tml` | tournament='Dublin' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19drorod) |
 | Filippo Romano vs Andrea Guerrieri | Dublin Qualification | 2026-06-14 | 0.71 / 0.68 | `tournament_not_in_tml` | tournament='Dublin Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14guerom) |
 | Andrea Guerrieri vs Filippo Romano | Dublin Qualification | 2026-06-14 | 0.32 / 0.30 | `tournament_not_in_tml` | tournament='Dublin Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14guerom) |
 | Hamish Stewart vs Keegan Smith | Dublin Qualification | 2026-06-14 | 0.54 / 0.49 | `tournament_not_in_tml` | tournament='Dublin Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14stesmi) |
