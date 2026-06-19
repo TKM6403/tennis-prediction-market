@@ -1,12 +1,13 @@
-# Settled paper bets (365)
+# Settled paper bets (366)
 
-_Generated 2026-06-19T15:25:10+00:00_
+_Generated 2026-06-19T19:55:11+00:00_
 
-**Wins:** 114 / 365  (31.2%)  
-**Net PnL (per contract):** -22.519
+**Wins:** 115 / 366  (31.4%)  
+**Net PnL (per contract):** -22.016
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Sebastian Ofner (YES) vs Laslo Djere | Parma | 2026-06-19 | YES Sebastian Ofner | 0.48 | 0.576 | ✓ | +0.503 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19djeofn) |
 | Michele Ribecai (YES) vs Facundo Diaz Acosta | Poznan | 2026-06-19 | YES Michele Ribecai | 0.24 | 0.323 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19ribdia) |
 | Buvaysar Gadamauri (YES) vs Daniel Rincon | Parma | 2026-06-18 | YES Buvaysar Gadamauri | 0.54 | 0.664 | ✗ | -0.557 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18ringad) |
 | Marco Cecchinato (YES) vs Luca Van Assche | Parma | 2026-06-18 | YES Marco Cecchinato | 0.34 | 0.442 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun18cecvan) |
