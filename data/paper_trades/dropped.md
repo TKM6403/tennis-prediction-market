@@ -1,12 +1,12 @@
-# Dropped markets (6954)
+# Dropped markets (6958)
 
-_Generated 2026-06-19T19:55:11+00:00_
+_Generated 2026-06-19T22:09:26+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `tournament_not_in_tml` | 1894 |
+| `tournament_not_in_tml` | 1898 |
 | `duplicate_match` | 1358 |
 | `missing_player_id` | 1197 |
 | `low_player_coverage` | 1149 |
@@ -5026,6 +5026,8 @@ _Generated 2026-06-19T19:55:11+00:00_
 | Nick Hardt vs Guido Ivan Justo | Asuncion 2 | 2026-06-19 | 0.54 / 0.52 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19jushar) |
 | Conner Huertas del Pino vs Juan Estevez | Asuncion 2 | 2026-06-19 | 0.71 / 0.70 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19hueest) |
 | Juan Estevez vs Conner Huertas del Pino | Asuncion 2 | 2026-06-19 | 0.31 / 0.30 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19hueest) |
+| Guido Ivan Justo vs Nick Hardt | Asuncion 2 | 2026-06-19 | 0.38 / 0.37 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19jushar) |
+| Nick Hardt vs Guido Ivan Justo | Asuncion 2 | 2026-06-19 | 0.63 / 0.62 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19jushar) |
 | Tomas Martinez vs Joao Victor Couto Loureiro | Asuncion 2 Qualification | 2026-06-14 | 0.69 / 0.64 | `tournament_not_in_tml` | tournament='Asuncion 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14marcou) |
 | Joao Victor Couto Loureiro vs Pedro Martinez | Asuncion 2 Qualification | 2026-06-14 | 0.36 / 0.31 | `tournament_not_in_tml` | tournament='Asuncion 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14marcou) |
 | Gustavo Ribeiro De Almeida vs Conner Huertas del Pino | Asuncion 2 Qualification | 2026-06-14 | 0.84 / 0.79 | `tournament_not_in_tml` | tournament='Asuncion 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14delde) |
@@ -6429,6 +6431,8 @@ _Generated 2026-06-19T19:55:11+00:00_
 | Titouan Droguet vs Jurij Rodionov | Dublin | 2026-06-19 | 0.53 / 0.51 | `tournament_not_in_tml` | tournament='Dublin' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19drorod) |
 | Jurij Rodionov vs Titouan Droguet | Dublin | 2026-06-19 | 0.41 / 0.39 | `tournament_not_in_tml` | tournament='Dublin' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19drorod) |
 | Titouan Droguet vs Jurij Rodionov | Dublin | 2026-06-19 | 0.62 / 0.58 | `tournament_not_in_tml` | tournament='Dublin' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19drorod) |
+| Jurij Rodionov vs Titouan Droguet | Dublin | 2026-06-19 | 0.40 / 0.39 | `tournament_not_in_tml` | tournament='Dublin' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19drorod) |
+| Titouan Droguet vs Jurij Rodionov | Dublin | 2026-06-19 | 0.62 / 0.59 | `tournament_not_in_tml` | tournament='Dublin' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19drorod) |
 | Filippo Romano vs Andrea Guerrieri | Dublin Qualification | 2026-06-14 | 0.71 / 0.68 | `tournament_not_in_tml` | tournament='Dublin Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14guerom) |
 | Andrea Guerrieri vs Filippo Romano | Dublin Qualification | 2026-06-14 | 0.32 / 0.30 | `tournament_not_in_tml` | tournament='Dublin Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14guerom) |
 | Hamish Stewart vs Keegan Smith | Dublin Qualification | 2026-06-14 | 0.54 / 0.49 | `tournament_not_in_tml` | tournament='Dublin Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14stesmi) |
