@@ -1,12 +1,12 @@
-# Dropped markets (6992)
+# Dropped markets (6994)
 
-_Generated 2026-06-20T14:10:07+00:00_
+_Generated 2026-06-20T19:37:42+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `tournament_not_in_tml` | 1908 |
+| `tournament_not_in_tml` | 1910 |
 | `duplicate_match` | 1362 |
 | `missing_player_id` | 1197 |
 | `low_player_coverage` | 1149 |
@@ -5056,6 +5056,8 @@ _Generated 2026-06-20T14:10:07+00:00_
 | Juan Estevez vs Nick Hardt | Asuncion 2 | 2026-06-21 | 0.34 / 0.32 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20harest) |
 | Nick Hardt vs Juan Estevez | Asuncion 2 | 2026-06-21 | 0.68 / 0.67 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20harest) |
 | Juan Estevez vs Nick Hardt | Asuncion 2 | 2026-06-21 | 0.34 / 0.32 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20harest) |
+| Nick Hardt vs Juan Estevez | Asuncion 2 | 2026-06-21 | 0.69 / 0.68 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20harest) |
+| Juan Estevez vs Nick Hardt | Asuncion 2 | 2026-06-21 | 0.32 / 0.31 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20harest) |
 | Tomas Martinez vs Joao Victor Couto Loureiro | Asuncion 2 Qualification | 2026-06-14 | 0.69 / 0.64 | `tournament_not_in_tml` | tournament='Asuncion 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14marcou) |
 | Joao Victor Couto Loureiro vs Pedro Martinez | Asuncion 2 Qualification | 2026-06-14 | 0.36 / 0.31 | `tournament_not_in_tml` | tournament='Asuncion 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14marcou) |
 | Gustavo Ribeiro De Almeida vs Conner Huertas del Pino | Asuncion 2 Qualification | 2026-06-14 | 0.84 / 0.79 | `tournament_not_in_tml` | tournament='Asuncion 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14delde) |
