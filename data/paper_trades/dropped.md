@@ -1,20 +1,20 @@
-# Dropped markets (6984)
+# Dropped markets (6992)
 
-_Generated 2026-06-20T11:28:56+00:00_
+_Generated 2026-06-20T14:10:07+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `tournament_not_in_tml` | 1906 |
-| `duplicate_match` | 1360 |
+| `tournament_not_in_tml` | 1908 |
+| `duplicate_match` | 1362 |
 | `missing_player_id` | 1197 |
 | `low_player_coverage` | 1149 |
-| `thin_tournament_history` | 571 |
+| `thin_tournament_history` | 573 |
 | `below_min_edge` | 413 |
 | `wide_spread` | 158 |
 | `loose_mirror_sum` | 156 |
-| `thin_player_history` | 72 |
+| `thin_player_history` | 74 |
 | `yes_on_challenger` | 2 |
 
 ## Detail
@@ -977,6 +977,8 @@ _Generated 2026-06-20T11:28:56+00:00_
 | Laslo Djere vs Sebastian Ofner | Parma | 2026-06-19 | 0.51 / 0.50 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN19DJEOFN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19djeofn) |
 | Sebastian Ofner vs Laslo Djere | Parma | 2026-06-19 | 0.69 / 0.68 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN19DJEOFN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19djeofn) |
 | Laslo Djere vs Sebastian Ofner | Parma | 2026-06-19 | 0.32 / 0.31 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN19DJEOFN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19djeofn) |
+| Luca Van Assche vs Sebastian Ofner | Parma | 2026-06-20 | 0.52 / 0.51 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN20OFNVAN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20ofnvan) |
+| Sebastian Ofner vs Luca Van Assche | Parma | 2026-06-20 | 0.48 / 0.47 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN20OFNVAN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20ofnvan) |
 | Enrico Dalla Valle vs Tommy Paul | Parma Qualification | 2026-06-15 | 0.45 / 0.44 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN15DALPAU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15dalpau) |
 | Ilia Simakin vs Marco Cecchinato | Perugia | 2026-06-01 | 0.24 / 0.23 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN01CECSIM | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01cecsim) |
 | Marco Cecchinato vs Ilia Simakin | Perugia | 2026-06-01 | 0.77 / 0.76 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN01CECSIM | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01cecsim) |
@@ -4344,6 +4346,8 @@ _Generated 2026-06-20T11:28:56+00:00_
 | Max Alcala Gurri vs Cosme Rolland De Ravel | Royan | 2026-06-20 | 0.67 / 0.66 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=385.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20rolalc) |
 | Cosme Rolland De Ravel vs Max Alcala Gurri | Royan | 2026-06-20 | 0.33 / 0.32 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=385.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20rolalc) |
 | Max Alcala Gurri vs Cosme Rolland De Ravel | Royan | 2026-06-20 | 0.68 / 0.67 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=385.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20rolalc) |
+| Cosme Rolland De Ravel vs Max Alcala Gurri | Royan | 2026-06-20 | 0.01 / 0.00 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=385.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20rolalc) |
+| Max Alcala Gurri vs Cosme Rolland De Ravel | Royan | 2026-06-20 | 1.00 / 0.99 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=385.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20rolalc) |
 | Cosme Rolland De Ravel vs Yu Hsiou Hsu | Royan Qualification | 2026-06-14 | 0.95 / 0.91 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=212.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14hsurol) |
 | Yu Hsiou Hsu vs Cosme Rolland De Ravel | Royan Qualification | 2026-06-14 | 0.08 / 0.07 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=212.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14hsurol) |
 | Cosme Rolland De Ravel vs S D Prajwal Dev | Royan Qualification | 2026-06-15 | 0.75 / 0.72 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=634.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15devrol) |
@@ -4903,6 +4907,8 @@ _Generated 2026-06-20T11:28:56+00:00_
 | Christopher O'Connell vs Otto Virtanen | Nottingham 2 | 2026-06-20 | 0.34 / 0.33 | `thin_tournament_history` | 'Nottingham 2' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20viroco) |
 | Otto Virtanen vs Christopher O'Connell | Nottingham 2 | 2026-06-20 | 0.67 / 0.66 | `thin_tournament_history` | 'Nottingham 2' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20viroco) |
 | Christopher O'Connell vs Otto Virtanen | Nottingham 2 | 2026-06-20 | 0.34 / 0.33 | `thin_tournament_history` | 'Nottingham 2' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20viroco) |
+| Otto Virtanen vs Christopher O'Connell | Nottingham 2 | 2026-06-20 | 0.65 / 0.64 | `thin_tournament_history` | 'Nottingham 2' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20viroco) |
+| Christopher O'Connell vs Otto Virtanen | Nottingham 2 | 2026-06-20 | 0.36 / 0.34 | `thin_tournament_history` | 'Nottingham 2' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20viroco) |
 | August Holmgren vs Jay Clarke | Nottingham 2 Qualification | 2026-06-14 | 0.68 / 0.67 | `thin_tournament_history` | 'Nottingham 2 Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14holcla) |
 | Jay Clarke vs August Holmgren | Nottingham 2 Qualification | 2026-06-14 | 0.32 / 0.30 | `thin_tournament_history` | 'Nottingham 2 Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14holcla) |
 | Zhizhen Zhang vs Alexander Blockx | Nottingham 2 Qualification | 2026-06-14 | 0.89 / 0.88 | `thin_tournament_history` | 'Nottingham 2 Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14zhaoko) |
@@ -5046,6 +5052,8 @@ _Generated 2026-06-20T11:28:56+00:00_
 | Juan Estevez vs Conner Huertas del Pino | Asuncion 2 | 2026-06-19 | 0.31 / 0.30 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19hueest) |
 | Guido Ivan Justo vs Nick Hardt | Asuncion 2 | 2026-06-19 | 0.38 / 0.37 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19jushar) |
 | Nick Hardt vs Guido Ivan Justo | Asuncion 2 | 2026-06-19 | 0.63 / 0.62 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19jushar) |
+| Nick Hardt vs Juan Estevez | Asuncion 2 | 2026-06-21 | 0.68 / 0.67 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20harest) |
+| Juan Estevez vs Nick Hardt | Asuncion 2 | 2026-06-21 | 0.34 / 0.32 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20harest) |
 | Nick Hardt vs Juan Estevez | Asuncion 2 | 2026-06-21 | 0.68 / 0.67 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20harest) |
 | Juan Estevez vs Nick Hardt | Asuncion 2 | 2026-06-21 | 0.34 / 0.32 | `tournament_not_in_tml` | tournament='Asuncion 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20harest) |
 | Tomas Martinez vs Joao Victor Couto Loureiro | Asuncion 2 Qualification | 2026-06-14 | 0.69 / 0.64 | `tournament_not_in_tml` | tournament='Asuncion 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14marcou) |
