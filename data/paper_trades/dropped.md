@@ -1,6 +1,6 @@
-# Dropped markets (7186)
+# Dropped markets (7200)
 
-_Generated 2026-06-21T14:20:27+00:00_
+_Generated 2026-06-21T16:50:38+00:00_
 
 ## Summary by reason
 
@@ -8,13 +8,13 @@ _Generated 2026-06-21T14:20:27+00:00_
 |---|---|
 | `tournament_not_in_tml` | 1936 |
 | `duplicate_match` | 1362 |
-| `missing_player_id` | 1270 |
-| `low_player_coverage` | 1223 |
+| `missing_player_id` | 1273 |
+| `low_player_coverage` | 1233 |
 | `thin_tournament_history` | 573 |
 | `below_min_edge` | 413 |
 | `wide_spread` | 170 |
 | `loose_mirror_sum` | 156 |
-| `thin_player_history` | 81 |
+| `thin_player_history` | 82 |
 | `yes_on_challenger` | 2 |
 
 ## Detail
@@ -2671,6 +2671,16 @@ _Generated 2026-06-21T14:20:27+00:00_
 | Tomas Martinez vs Alejandro Hayen | Piracicaba Qualification | 2026-06-21 | 0.86 / 0.82 | `low_player_coverage` | cov_a=1 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21haymar) |
 | Alejandro Hayen vs Pedro Martinez | Piracicaba Qualification | 2026-06-21 | 0.18 / 0.15 | `low_player_coverage` | cov_a=1 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21haymar) |
 | Enzo Camargo Lima vs Wilson Leite | Piracicaba Qualification | 2026-06-21 | 0.05 / 0.04 | `low_player_coverage` | cov_a=1 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21leicam) |
+| Arklon Huertas Del Pino Cordova vs Victor Braga | Piracicaba Qualification | 2026-06-21 | 0.92 / 0.87 | `low_player_coverage` | cov_a=7 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21huebra) |
+| Victor Braga vs Arklon Huertas Del Pino Cordova | Piracicaba Qualification | 2026-06-21 | 0.13 / 0.09 | `low_player_coverage` | cov_a=7 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21huebra) |
+| Gonzalo Oliveira vs Segundo Goity Zapico | Piracicaba Qualification | 2026-06-21 | 0.80 / 0.75 | `low_player_coverage` | cov_a=0 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21goioli) |
+| Segundo Goity Zapico vs Gonzalo Oliveira | Piracicaba Qualification | 2026-06-21 | 0.24 / 0.20 | `low_player_coverage` | cov_a=0 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21goioli) |
+| Juan Bautista Otegui vs Joao Victor Couto Loureiro | Piracicaba Qualification | 2026-06-21 | 0.43 / 0.42 | `low_player_coverage` | cov_a=0 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21otecou) |
+| Joao Victor Couto Loureiro vs Juan Bautista Otegui | Piracicaba Qualification | 2026-06-21 | 0.57 / 0.56 | `low_player_coverage` | cov_a=0 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21otecou) |
+| Salvador Price vs Valentin Basel | Piracicaba Qualification | 2026-06-21 | 0.59 / 0.58 | `low_player_coverage` | cov_a=2 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21baspri) |
+| Valentin Basel vs Salvador Price | Piracicaba Qualification | 2026-06-21 | 0.42 / 0.41 | `low_player_coverage` | cov_a=2 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21baspri) |
+| Tomas Martinez vs Alejandro Hayen | Piracicaba Qualification | 2026-06-21 | 0.97 / 0.96 | `low_player_coverage` | cov_a=1 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21haymar) |
+| Alejandro Hayen vs Pedro Martinez | Piracicaba Qualification | 2026-06-21 | 0.04 / 0.03 | `low_player_coverage` | cov_a=1 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21haymar) |
 | Lukas Neumayer vs Florian Broska | Poznan | 2026-06-16 | 0.84 / 0.82 | `low_player_coverage` | cov_a=55 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16broneu) |
 | Florian Broska vs Lukas Neumayer | Poznan | 2026-06-16 | 0.18 / 0.17 | `low_player_coverage` | cov_a=55 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16broneu) |
 | Max Hans Rehberg vs Genaro Alberto Olivieri | Poznan | 2026-06-16 | 0.63 / 0.54 | `low_player_coverage` | cov_a=12 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16olireh) |
@@ -4156,6 +4166,9 @@ _Generated 2026-06-21T14:20:27+00:00_
 | Wilson Leite vs Camargo Lima | Piracicaba Qualification | 2026-06-21 | 0.96 / 0.95 | `missing_player_id` | player_a_id='LA54', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21leicam) |
 | Nicolas Zanellato vs Schenekenberg | Piracicaba Qualification | 2026-06-21 | 0.95 / 0.94 | `missing_player_id` | player_a_id='Z0BY', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21zansch) |
 | Gabriel Schenekenberg vs Nicolas Zanellato | Piracicaba Qualification | 2026-06-21 | 0.06 / 0.05 | `missing_player_id` | player_a_id=nan, player_b_id='Z0BY' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21zansch) |
+| Pedro Rodrigues Longobardi vs de Almeida | Piracicaba Qualification | 2026-06-21 | 0.09 / 0.05 | `missing_player_id` | player_a_id='R0LE', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21derod) |
+| Ignacio Parisca Romera vs Victor Braga | Piracicaba Qualification | 2026-06-21 | 0.95 / 0.93 | `missing_player_id` | player_a_id=nan, player_b_id='B0NA' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21parbra) |
+| Victor Braga vs Parisca Romera | Piracicaba Qualification | 2026-06-21 | 0.10 / 0.05 | `missing_player_id` | player_a_id='B0NA', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21parbra) |
 | Aleksandar Tolev vs S D Prajwal Dev | Plovdiv Qualification | 2026-06-21 | 0.95 / 0.04 | `missing_player_id` | player_a_id=nan, player_b_id='DH23' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21toldev) |
 | S D Prajwal Dev vs Tolev | Plovdiv Qualification | 2026-06-21 | 0.95 / 0.04 | `missing_player_id` | player_a_id='DH23', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21toldev) |
 | Imanol Lopez Morillo vs Borisov | Plovdiv Qualification | 2026-06-21 | 0.95 / 0.04 | `missing_player_id` | player_a_id='L0AT', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21lopbor) |
@@ -4472,6 +4485,7 @@ _Generated 2026-06-21T14:20:27+00:00_
 | Gustavo Ribeiro De Almeida vs Pedro Rodrigues Longobardi | Piracicaba Qualification | 2026-06-21 | 0.93 / 0.83 | `thin_player_history` | rank_ratio_a NaN (rank_a=970.0, rank_b=nan) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21derod) |
 | Gustavo Ribeiro De Almeida vs Pedro Rodrigues Longobardi | Piracicaba Qualification | 2026-06-21 | 0.93 / 0.89 | `thin_player_history` | rank_ratio_a NaN (rank_a=970.0, rank_b=nan) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21derod) |
 | Gustavo Ribeiro De Almeida vs Pedro Rodrigues Longobardi | Piracicaba Qualification | 2026-06-21 | 0.93 / 0.91 | `thin_player_history` | rank_ratio_a NaN (rank_a=970.0, rank_b=nan) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21derod) |
+| Gustavo Ribeiro De Almeida vs Pedro Rodrigues Longobardi | Piracicaba Qualification | 2026-06-21 | 0.96 / 0.88 | `thin_player_history` | rank_ratio_a NaN (rank_a=970.0, rank_b=nan) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21derod) |
 | Cosme Rolland De Ravel vs Geoffrey Blancaneaux | Royan | 2026-06-16 | 0.41 / 0.34 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=362.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16rolbla) |
 | Geoffrey Blancaneaux vs Cosme Rolland De Ravel | Royan | 2026-06-16 | 0.68 / 0.61 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=362.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16rolbla) |
 | Cosme Rolland De Ravel vs Geoffrey Blancaneaux | Royan | 2026-06-16 | 0.42 / 0.39 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=362.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun16rolbla) |
