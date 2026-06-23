@@ -1,12 +1,14 @@
-# Settled paper bets (368)
+# Settled paper bets (370)
 
-_Generated 2026-06-22T22:53:26+00:00_
+_Generated 2026-06-23T03:41:59+00:00_
 
-**Wins:** 116 / 368  (31.5%)  
-**Net PnL (per contract):** -22.151
+**Wins:** 117 / 370  (31.6%)  
+**Net PnL (per contract):** -21.973
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Luciano Emanuel Ambrogi (NO) vs Matheus Pucinelli De Almeida | Piracicaba | 2026-06-22 | NO Luciano Emanuel Ambrogi | 0.32 | 0.434 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun22pdaamb) |
+| Hernan Casanova (YES) vs Eduardo Ribeiro | Piracicaba | 2026-06-23 | YES Hernan Casanova | 0.47 | 0.538 | ✓ | +0.513 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun22casrib) |
 | Luca Van Assche (YES) vs Sebastian Ofner | Parma | 2026-06-20 | YES Luca Van Assche | 0.52 | 0.572 | ✓ | +0.463 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20ofnvan) |
 | Facundo Diaz Acosta (YES) vs Gustavo Heide | Poznan | 2026-06-20 | YES Facundo Diaz Acosta | 0.58 | 0.633 | ✗ | -0.597 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20diahei) |
 | Sebastian Ofner (YES) vs Laslo Djere | Parma | 2026-06-19 | YES Sebastian Ofner | 0.48 | 0.576 | ✓ | +0.503 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun19djeofn) |
