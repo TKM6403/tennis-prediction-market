@@ -1,12 +1,15 @@
-# Settled paper bets (370)
+# Settled paper bets (373)
 
-_Generated 2026-06-26T09:32:34+00:00_
+_Generated 2026-06-26T19:54:50+00:00_
 
-**Wins:** 117 / 370  (31.6%)  
-**Net PnL (per contract):** -21.973
+**Wins:** 119 / 373  (31.9%)  
+**Net PnL (per contract):** -20.958
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Valerio Aboian (YES) vs Hernan Casanova | Piracicaba | 2026-06-25 | YES Valerio Aboian | 0.30 | 0.373 | ✓ | +0.685 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun25abocas) |
+| Gonzalo Villanueva (YES) vs Matias Soto | Piracicaba | 2026-06-25 | YES Gonzalo Villanueva | 0.38 | 0.433 | ✓ | +0.604 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun25sotvil) |
+| Joao Lucas Reis Da Silva (YES) vs Thiago Seyboth Wild | Piracicaba | 2026-06-26 | YES Joao Lucas Reis Da Silva | 0.26 | 0.494 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun26andsey) |
 | Luciano Emanuel Ambrogi (NO) vs Matheus Pucinelli De Almeida | Piracicaba | 2026-06-22 | NO Luciano Emanuel Ambrogi | 0.32 | 0.434 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun22pdaamb) |
 | Hernan Casanova (YES) vs Eduardo Ribeiro | Piracicaba | 2026-06-23 | YES Hernan Casanova | 0.47 | 0.538 | ✓ | +0.513 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun22casrib) |
 | Luca Van Assche (YES) vs Sebastian Ofner | Parma | 2026-06-20 | YES Luca Van Assche | 0.52 | 0.572 | ✓ | +0.463 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun20ofnvan) |

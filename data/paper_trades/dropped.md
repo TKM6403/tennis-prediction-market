@@ -1,14 +1,14 @@
-# Dropped markets (8102)
+# Dropped markets (8106)
 
-_Generated 2026-06-26T09:32:34+00:00_
+_Generated 2026-06-26T19:54:50+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
 | `tournament_not_in_tml` | 2100 |
-| `low_player_coverage` | 1626 |
-| `missing_player_id` | 1457 |
+| `low_player_coverage` | 1628 |
+| `missing_player_id` | 1459 |
 | `duplicate_match` | 1381 |
 | `thin_tournament_history` | 684 |
 | `below_min_edge` | 429 |
@@ -2952,6 +2952,8 @@ _Generated 2026-06-26T09:32:34+00:00_
 | Wilson Leite vs Nick Hardt | Piracicaba | 2026-06-25 | 0.15 / 0.14 | `low_player_coverage` | cov_a=4 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun25harlei) |
 | Nick Hardt vs Wilson Leite | Piracicaba | 2026-06-25 | 0.86 / 0.85 | `low_player_coverage` | cov_a=4 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun25harlei) |
 | Joaquin Aguilar Cardozo vs Juan Bautista Torres | Piracicaba | 2026-06-25 | 0.36 / 0.34 | `low_player_coverage` | cov_a=12 cov_b=46 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun25toragu) |
+| Juan Manuel La Serna vs Nick Hardt | Piracicaba | 2026-06-26 | 0.30 / 0.28 | `low_player_coverage` | cov_a=38 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun26harla) |
+| Nick Hardt vs Juan Manuel La Serna | Piracicaba | 2026-06-26 | 0.70 / 0.69 | `low_player_coverage` | cov_a=38 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun26harla) |
 | Salvador Price vs Valentin Basel | Piracicaba Qualification | 2026-06-21 | 0.58 / 0.51 | `low_player_coverage` | cov_a=2 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21baspri) |
 | Valentin Basel vs Salvador Price | Piracicaba Qualification | 2026-06-21 | 0.48 / 0.42 | `low_player_coverage` | cov_a=2 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21baspri) |
 | Joao Lucas Reis Da Silva vs Victor Hugo Remondy Pagotto | Piracicaba Qualification | 2026-06-21 | 0.88 / 0.52 | `low_player_coverage` | cov_a=51 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21remand) |
@@ -4685,6 +4687,8 @@ _Generated 2026-06-26T09:32:34+00:00_
 | Paulo Andre Saraiva Dos Santos vs Pucinelli de Almeida | Piracicaba | 2026-06-25 | 0.14 / 0.13 | `missing_player_id` | player_a_id='S0IV', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun25sarpda) |
 | Matheus Pucinelli De Almeida vs Saraiva Dos Santos | Piracicaba | 2026-06-25 | 0.87 / 0.86 | `missing_player_id` | player_a_id='P0DF', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun25sarpda) |
 | Juan Bautista Torres vs Aguilar Cardozo | Piracicaba | 2026-06-25 | 0.66 / 0.64 | `missing_player_id` | player_a_id='T0DM', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun25toragu) |
+| Matheus Pucinelli De Almeida vs Aguilar Cardozo | Piracicaba | 2026-06-26 | 0.83 / 0.82 | `missing_player_id` | player_a_id='P0DF', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun26agupda) |
+| Joaquin Aguilar Cardozo vs Pucinelli de Almeida | Piracicaba | 2026-06-26 | 0.17 / 0.15 | `missing_player_id` | player_a_id='A0JW', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun26agupda) |
 | Pedro Rodrigues Longobardi vs de Almeida | Piracicaba Qualification | 2026-06-21 | 0.17 / 0.07 | `missing_player_id` | player_a_id='R0LE', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21derod) |
 | Ignacio Parisca Romera vs Victor Braga | Piracicaba Qualification | 2026-06-21 | 0.97 / 0.50 | `missing_player_id` | player_a_id=nan, player_b_id='B0NA' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21parbra) |
 | Victor Braga vs Parisca Romera | Piracicaba Qualification | 2026-06-21 | 0.47 / 0.02 | `missing_player_id` | player_a_id='B0NA', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21parbra) |
