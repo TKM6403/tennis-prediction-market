@@ -1,12 +1,14 @@
-# Settled paper bets (373)
+# Settled paper bets (375)
 
-_Generated 2026-06-26T19:54:50+00:00_
+_Generated 2026-06-26T22:18:10+00:00_
 
-**Wins:** 119 / 373  (31.9%)  
-**Net PnL (per contract):** -20.958
+**Wins:** 119 / 375  (31.7%)  
+**Net PnL (per contract):** -21.483
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Nicolas Kicker (YES) vs Thiago Seyboth Wild | Piracicaba | 2026-06-26 | YES Nicolas Kicker | 0.36 | 0.446 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun26kicsey) |
+| Valerio Aboian (YES) vs Gonzalo Villanueva | Piracicaba | 2026-06-26 | YES Valerio Aboian | 0.14 | 0.479 | ✗ | -0.148 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun26vilabo) |
 | Valerio Aboian (YES) vs Hernan Casanova | Piracicaba | 2026-06-25 | YES Valerio Aboian | 0.30 | 0.373 | ✓ | +0.685 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun25abocas) |
 | Gonzalo Villanueva (YES) vs Matias Soto | Piracicaba | 2026-06-25 | YES Gonzalo Villanueva | 0.38 | 0.433 | ✓ | +0.604 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun25sotvil) |
 | Joao Lucas Reis Da Silva (YES) vs Thiago Seyboth Wild | Piracicaba | 2026-06-26 | YES Joao Lucas Reis Da Silva | 0.26 | 0.494 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun26andsey) |
