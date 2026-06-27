@@ -1,20 +1,20 @@
-# Dropped markets (8139)
+# Dropped markets (8181)
 
-_Generated 2026-06-27T16:09:20+00:00_
+_Generated 2026-06-27T22:07:26+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
 | `tournament_not_in_tml` | 2105 |
-| `low_player_coverage` | 1636 |
-| `missing_player_id` | 1468 |
+| `low_player_coverage` | 1664 |
+| `missing_player_id` | 1480 |
 | `duplicate_match` | 1392 |
 | `thin_tournament_history` | 684 |
 | `below_min_edge` | 429 |
 | `wide_spread` | 181 |
 | `loose_mirror_sum` | 160 |
-| `thin_player_history` | 82 |
+| `thin_player_history` | 84 |
 | `yes_on_challenger` | 2 |
 
 ## Detail
@@ -2040,6 +2040,20 @@ _Generated 2026-06-27T16:09:20+00:00_
 | Alex Bogomolov Jr. vs James McCabe | Birmingham Qualification | 2026-06-01 | 0.71 / 0.70 | `low_player_coverage` | cov_a=43 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01dammcc) |
 | James McCabe vs Alex Bogomolov Jr. | Birmingham Qualification | 2026-06-01 | 1.00 / 0.99 | `low_player_coverage` | cov_a=43 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01dammcc) |
 | Alex Bogomolov Jr. vs James McCabe | Birmingham Qualification | 2026-06-01 | 0.01 / 0.00 | `low_player_coverage` | cov_a=43 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01dammcc) |
+| Olle Wallin vs Dragos Nicolae Cazacu | Brasov Qualification | 2026-06-28 | 0.74 / 0.70 | `low_player_coverage` | cov_a=18 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28cazwal) |
+| Dragos Nicolae Cazacu vs Olle Wallin | Brasov Qualification | 2026-06-28 | 0.31 / 0.26 | `low_player_coverage` | cov_a=18 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28cazwal) |
+| Sebastian Gima vs Stefan Adrian Andreescu | Brasov Qualification | 2026-06-28 | 0.65 / 0.61 | `low_player_coverage` | cov_a=14 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28andgim) |
+| Stefan Adrian Andreescu vs Sebastian Gima | Brasov Qualification | 2026-06-28 | 0.40 / 0.33 | `low_player_coverage` | cov_a=14 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28andgim) |
+| Nitin Kumar Sinha vs Dimitar Kuzmanov | Brasov Qualification | 2026-06-28 | 0.12 / 0.04 | `low_player_coverage` | cov_a=2 cov_b=48 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28kuzsin) |
+| Dimitar Kuzmanov vs Nitin Kumar Sinha | Brasov Qualification | 2026-06-28 | 0.96 / 0.92 | `low_player_coverage` | cov_a=2 cov_b=48 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28kuzsin) |
+| Gabriel Ghetu vs Luca Castelnuovo | Brasov Qualification | 2026-06-28 | 0.63 / 0.60 | `low_player_coverage` | cov_a=1 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28casghe) |
+| Luca Castelnuovo vs Gabriel Ghetu | Brasov Qualification | 2026-06-28 | 0.40 / 0.37 | `low_player_coverage` | cov_a=1 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28casghe) |
+| Peter Makk vs S D Prajwal Dev | Brasov Qualification | 2026-06-28 | 0.89 / 0.86 | `low_player_coverage` | cov_a=4 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28devmak) |
+| S D Prajwal Dev vs Peter Makk | Brasov Qualification | 2026-06-28 | 0.14 / 0.11 | `low_player_coverage` | cov_a=4 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28devmak) |
+| Radu David Turcanu vs Ilia Simakin | Brasov Qualification | 2026-06-28 | 0.44 / 0.41 | `low_player_coverage` | cov_a=1 cov_b=37 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28simtur) |
+| Ilia Simakin vs Radu David Turcanu | Brasov Qualification | 2026-06-28 | 0.58 / 0.56 | `low_player_coverage` | cov_a=1 cov_b=37 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28simtur) |
+| David Poljak vs Dominik Palan | Brasov Qualification | 2026-06-28 | 0.49 / 0.45 | `low_player_coverage` | cov_a=2 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28polpal) |
+| Dominik Palan vs David Poljak | Brasov Qualification | 2026-06-28 | 0.54 / 0.51 | `low_player_coverage` | cov_a=2 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28polpal) |
 | Vitaliy Sachko vs Thanasi Kokkinakis | Bratislava | 2026-06-10 | 0.35 / 0.34 | `low_player_coverage` | cov_a=37 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun10sackok) |
 | Thanasi Kokkinakis vs Vitaliy Sachko | Bratislava | 2026-06-10 | 0.66 / 0.64 | `low_player_coverage` | cov_a=37 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun10sackok) |
 | Lukas Pokorny vs Zdenek Kolar | Bratislava | 2026-06-10 | 0.28 / 0.26 | `low_player_coverage` | cov_a=8 cov_b=72 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun10kolpok) |
@@ -2550,6 +2564,10 @@ _Generated 2026-06-27T16:09:20+00:00_
 | Mariano Kestelboim vs Iliyan Radulov | Lyon Qualification | 2026-06-07 | 0.34 / 0.24 | `low_player_coverage` | cov_a=0 cov_b=15 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07kesrad) |
 | Lucas Poullain vs Loann Massard | Lyon Qualification | 2026-06-07 | 0.81 / 0.79 | `low_player_coverage` | cov_a=16 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07poumas) |
 | Loann Massard vs Lucas Poullain | Lyon Qualification | 2026-06-07 | 0.21 / 0.20 | `low_player_coverage` | cov_a=16 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07poumas) |
+| Alejo Sanchez Quilez vs Mili Poljicak | Milan Qualification | 2026-06-28 | 0.46 / 0.44 | `low_player_coverage` | cov_a=13 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28polsan) |
+| Mili Poljicak vs Alejo Sanchez Quilez | Milan Qualification | 2026-06-28 | 0.55 / 0.53 | `low_player_coverage` | cov_a=13 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28polsan) |
+| Luca Potenza vs Matthew William Donald | Milan Qualification | 2026-06-28 | 0.44 / 0.41 | `low_player_coverage` | cov_a=12 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28donpot) |
+| Matthew William Donald vs Luca Potenza | Milan Qualification | 2026-06-28 | 0.58 / 0.56 | `low_player_coverage` | cov_a=12 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28donpot) |
 | Zhizhen Zhang vs Ulises Blanch | Nottingham 2 | 2026-06-15 | 0.58 / 0.57 | `low_player_coverage` | cov_a=23 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15blazha) |
 | Darwin Blanch vs Zhizhen Zhang | Nottingham 2 | 2026-06-15 | 0.44 / 0.43 | `low_player_coverage` | cov_a=23 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15blazha) |
 | Anton Matusevich vs Arthur Gea | Nottingham 2 | 2026-06-14 | 0.40 / 0.33 | `low_player_coverage` | cov_a=9 cov_b=46 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun14matgea) |
@@ -3432,6 +3450,16 @@ _Generated 2026-06-27T16:09:20+00:00_
 | Radu Mihai Papoe vs John Sperle | Targu Mures Qualification | 2026-06-22 | 0.83 / 0.79 | `low_player_coverage` | cov_a=2 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun22papspe) |
 | Peter Makk vs Felix Balshaw | Targu Mures Qualification | 2026-06-22 | 0.12 / 0.10 | `low_player_coverage` | cov_a=4 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun22balmak) |
 | Felix Balshaw vs Peter Makk | Targu Mures Qualification | 2026-06-22 | 0.88 / 0.87 | `low_player_coverage` | cov_a=4 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun22balmak) |
+| Maxime Chazal vs Rodrigo Alujas | Troyes Qualification | 2026-06-28 | 0.87 / 0.80 | `low_player_coverage` | cov_a=8 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28chaalu) |
+| Rodrigo Alujas vs Maxime Chazal | Troyes Qualification | 2026-06-28 | 0.17 / 0.13 | `low_player_coverage` | cov_a=8 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28chaalu) |
+| Fryderyk Lechno-Wasiutynski vs Jake Delaney | Troyes Qualification | 2026-06-28 | 0.89 / 0.83 | `low_player_coverage` | cov_a=1 cov_b=11 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28dellec) |
+| Jesse Delaney vs Fryderyk Lechno-Wasiutynski | Troyes Qualification | 2026-06-28 | 0.13 / 0.09 | `low_player_coverage` | cov_a=1 cov_b=11 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28dellec) |
+| Amit Vales vs John Sperle | Troyes Qualification | 2026-06-28 | 0.33 / 0.30 | `low_player_coverage` | cov_a=2 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28speval) |
+| John Sperle vs Amit Vales | Troyes Qualification | 2026-06-28 | 0.73 / 0.69 | `low_player_coverage` | cov_a=2 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28speval) |
+| Alan Fernando Rubio Fierros vs Alexander Erler | Troyes Qualification | 2026-06-28 | 0.95 / 0.80 | `low_player_coverage` | cov_a=3 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28ruberl) |
+| Alexander Erler vs Alan Fernando Rubio Fierros | Troyes Qualification | 2026-06-28 | 0.20 / 0.04 | `low_player_coverage` | cov_a=3 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28ruberl) |
+| Kai Wehnelt vs Kenny De Schepper | Troyes Qualification | 2026-06-28 | 0.78 / 0.71 | `low_player_coverage` | cov_a=2 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28desweh) |
+| Kenny De Schepper vs Kai Wehnelt | Troyes Qualification | 2026-06-28 | 0.26 / 0.20 | `low_player_coverage` | cov_a=2 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28desweh) |
 | Tristan Boyer vs Ulises Blanch | Tunis | 2026-05-16 | 0.49 / 0.46 | `low_player_coverage` | cov_a=22 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16boybla) |
 | Dali Blanch vs Tristan Boyer | Tunis | 2026-05-16 | 0.54 / 0.51 | `low_player_coverage` | cov_a=22 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16boybla) |
 | Tristan Boyer vs Ulises Blanch | Tunis | 2026-05-16 | 0.51 / 0.50 | `low_player_coverage` | cov_a=22 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may16boybla) |
@@ -3937,6 +3965,10 @@ _Generated 2026-06-27T16:09:20+00:00_
 | James Beaven vs Charles Broom | Birmingham Qualification | 2026-05-31 | 0.03 / 0.02 | `missing_player_id` | player_a_id=nan, player_b_id='BV21' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31beabro) |
 | Hamish Stewart vs Hodkin | Birmingham Qualification | 2026-05-31 | 1.00 / 0.99 | `missing_player_id` | player_a_id='S0EX', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31hodste) |
 | Sean Hodkin vs Hamish Stewart | Birmingham Qualification | 2026-05-31 | 0.01 / 0.00 | `missing_player_id` | player_a_id=nan, player_b_id='S0EX' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31hodste) |
+| Akira Santillan vs Berge Nourescu | Brasov Qualification | 2026-06-28 | 0.92 / 0.83 | `missing_player_id` | player_a_id='SQ80', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28sanber) |
+| Alejandro Mateo Berge Nourescu vs Akira Santillan | Brasov Qualification | 2026-06-28 | 0.13 / 0.08 | `missing_player_id` | player_a_id=nan, player_b_id='SQ80' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28sanber) |
+| Denis Yevseyev vs Sinescu | Brasov Qualification | 2026-06-28 | 0.95 / 0.81 | `missing_player_id` | player_a_id='Y171', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28sinyev) |
+| Jan Patrick Sinescu vs Denis Yevseyev | Brasov Qualification | 2026-06-28 | 0.18 / 0.04 | `missing_player_id` | player_a_id=nan, player_b_id='Y171' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28sinyev) |
 | Alexander Donski vs Reis Da Silva | Bratislava | 2026-06-10 | 0.24 / 0.21 | `missing_player_id` | player_a_id='DH46', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun10reidon) |
 | Tomas Lanik vs Taro Daniel | Bratislava Qualification | 2026-06-07 | 0.93 / 0.08 | `missing_player_id` | player_a_id=nan, player_b_id='DA81' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07landan) |
 | Taro Daniel vs Lanik | Bratislava Qualification | 2026-06-07 | 0.96 / 0.82 | `missing_player_id` | player_a_id='DA81', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07landan) |
@@ -4498,6 +4530,12 @@ _Generated 2026-06-27T16:09:20+00:00_
 | Noah Karma vs Raphael Perot | Lyon Qualification | 2026-06-07 | 0.17 / 0.15 | `missing_player_id` | player_a_id=nan, player_b_id='P0MG' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07karper) |
 | Luca Staeheli vs Geoffrey Blancaneaux | Lyon Qualification | 2026-06-07 | 0.18 / 0.17 | `missing_player_id` | player_a_id=nan, player_b_id='BU54' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07blasta) |
 | Geoffrey Blancaneaux vs Staeheli | Lyon Qualification | 2026-06-07 | 0.84 / 0.81 | `missing_player_id` | player_a_id='BU54', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07blasta) |
+| Georgii Kravchenko vs Ciavarella | Milan Qualification | 2026-06-28 | 0.88 / 0.78 | `missing_player_id` | player_a_id='K0BJ', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28ciakra) |
+| Niccolo Ciavarella vs Georgii Kravchenko | Milan Qualification | 2026-06-28 | 0.20 / 0.12 | `missing_player_id` | player_a_id=nan, player_b_id='K0BJ' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28ciakra) |
+| Mathys Erhard vs Bilardo | Milan Qualification | 2026-06-28 | 0.78 / 0.75 | `missing_player_id` | player_a_id='E0AC', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28bilerh) |
+| Jacopo Bilardo vs Mathys Erhard | Milan Qualification | 2026-06-28 | 0.24 / 0.22 | `missing_player_id` | player_a_id=nan, player_b_id='E0AC' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28bilerh) |
+| Tommaso Compagnucci vs Colasanto | Milan Qualification | 2026-06-28 | 0.95 / 0.04 | `missing_player_id` | player_a_id='C0BB', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28comcol) |
+| Francesco Giuseppe Colasanto vs Tommaso Compagnucci | Milan Qualification | 2026-06-28 | 0.95 / 0.04 | `missing_player_id` | player_a_id=nan, player_b_id='C0BB' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28comcol) |
 | Benjamin Bonzi vs Barrios Vera | Nottingham 2 | 2026-06-15 | 0.75 / 0.71 | `missing_player_id` | player_a_id='BM95', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15barbon) |
 | Marcelo Tomas Barrios Vera vs Benjamin Bonzi | Nottingham 2 | 2026-06-15 | 0.28 / 0.25 | `missing_player_id` | player_a_id=nan, player_b_id='BM95' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15barbon) |
 | Benjamin Bonzi vs Barrios Vera | Nottingham 2 | 2026-06-15 | 0.72 / 0.70 | `missing_player_id` | player_a_id='BM95', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun15barbon) |
@@ -4951,6 +4989,8 @@ _Generated 2026-06-27T16:09:20+00:00_
 | Luca Potenza vs Varbanciu | Targu Mures Qualification | 2026-06-21 | 0.93 / 0.92 | `missing_player_id` | player_a_id='P0B2', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21potvar) |
 | Peter Makk vs Guna | Targu Mures Qualification | 2026-06-21 | 0.99 / 0.97 | `missing_player_id` | player_a_id='M0DY', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21gunmak) |
 | Robert Guna vs Peter Makk | Targu Mures Qualification | 2026-06-21 | 0.02 / 0.01 | `missing_player_id` | player_a_id=nan, player_b_id='M0DY' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21gunmak) |
+| Svyatoslav Gulin vs Damonte | Troyes Qualification | 2026-06-28 | 0.95 / 0.04 | `missing_player_id` | player_a_id='G0J9', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28guldam) |
+| Augustin Damonte vs Svyatoslav Gulin | Troyes Qualification | 2026-06-28 | 0.95 / 0.04 | `missing_player_id` | player_a_id=nan, player_b_id='G0J9' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28guldam) |
 | Alex Barrena vs Montes-de la Torre | Tunis | 2026-05-12 | 0.38 / 0.36 | `missing_player_id` | player_a_id='B0GY', player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12monbar) |
 | Alex Barrena vs Montes-de la Torre | Tunis | 2026-05-12 | 0.36 / 0.35 | `missing_player_id` | player_a_id='B0GY', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12monbar) |
 | Alex Barrena vs Montes-de la Torre | Tunis | 2026-05-12 | 0.36 / 0.33 | `missing_player_id` | player_a_id='B0GY', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12monbar) |
@@ -5122,6 +5162,8 @@ _Generated 2026-06-27T16:09:20+00:00_
 | August Holmgren vs James Watt | Birmingham Qualification | 2026-06-01 | 0.80 / 0.78 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=167.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01holwat) |
 | James Watt vs Daniel Evans | Ilkley Qualification | 2026-06-07 | 0.67 / 0.61 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=184.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07evawat) |
 | Daniel Evans vs James Watt | Ilkley Qualification | 2026-06-07 | 0.42 / 0.33 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=184.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07evawat) |
+| Manuel Mazza vs Norbert Gombos | Milan Qualification | 2026-06-28 | 0.42 / 0.36 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=373.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28gommaz) |
+| Norbert Gombos vs Manuel Mazza | Milan Qualification | 2026-06-28 | 0.64 / 0.60 | `thin_player_history` | rank_ratio_a NaN (rank_a=nan, rank_b=373.0) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28gommaz) |
 | Ioannis Xilas vs Manuel Mazza | Perugia Qualification | 2026-05-31 | 0.41 / 0.38 | `thin_player_history` | rank_ratio_a NaN (rank_a=357.0, rank_b=nan) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31xilmaz) |
 | Manuel Mazza vs Ioannis Xilas | Perugia Qualification | 2026-05-31 | 0.63 / 0.58 | `thin_player_history` | rank_ratio_a NaN (rank_a=357.0, rank_b=nan) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31xilmaz) |
 | Ioannis Xilas vs Manuel Mazza | Perugia Qualification | 2026-05-31 | 0.42 / 0.41 | `thin_player_history` | rank_ratio_a NaN (rank_a=357.0, rank_b=nan) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31xilmaz) |
