@@ -1,12 +1,13 @@
-# Settled paper bets (375)
+# Settled paper bets (376)
 
-_Generated 2026-06-27T13:51:22+00:00_
+_Generated 2026-06-27T16:09:20+00:00_
 
-**Wins:** 119 / 375  (31.7%)  
-**Net PnL (per contract):** -21.483
+**Wins:** 120 / 376  (31.9%)  
+**Net PnL (per contract):** -20.838
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Gonzalo Villanueva (NO) vs Matheus Pucinelli De Almeida | Piracicaba | 2026-06-27 | NO Gonzalo Villanueva | 0.34 | 0.395 | ✓ | +0.644 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27pdavil) |
 | Nicolas Kicker (YES) vs Thiago Seyboth Wild | Piracicaba | 2026-06-26 | YES Nicolas Kicker | 0.36 | 0.446 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun26kicsey) |
 | Valerio Aboian (YES) vs Gonzalo Villanueva | Piracicaba | 2026-06-26 | YES Valerio Aboian | 0.14 | 0.479 | ✗ | -0.148 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun26vilabo) |
 | Valerio Aboian (YES) vs Hernan Casanova | Piracicaba | 2026-06-25 | YES Valerio Aboian | 0.30 | 0.373 | ✓ | +0.685 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun25abocas) |
