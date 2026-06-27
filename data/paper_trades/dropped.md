@@ -1,15 +1,15 @@
-# Dropped markets (8119)
+# Dropped markets (8127)
 
-_Generated 2026-06-27T08:41:01+00:00_
+_Generated 2026-06-27T11:03:30+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `tournament_not_in_tml` | 2102 |
-| `low_player_coverage` | 1632 |
-| `missing_player_id` | 1463 |
-| `duplicate_match` | 1384 |
+| `tournament_not_in_tml` | 2103 |
+| `low_player_coverage` | 1634 |
+| `missing_player_id` | 1465 |
+| `duplicate_match` | 1387 |
 | `thin_tournament_history` | 684 |
 | `below_min_edge` | 429 |
 | `wide_spread` | 181 |
@@ -1069,6 +1069,9 @@ _Generated 2026-06-27T08:41:01+00:00_
 | Valerio Aboian vs Hernan Casanova | Piracicaba | 2026-06-25 | 0.28 / 0.26 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN25ABOCAS | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun25abocas) |
 | Gonzalo Villanueva vs Matias Soto | Piracicaba | 2026-06-25 | 0.38 / 0.36 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN25SOTVIL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun25sotvil) |
 | Matias Soto vs Gonzalo Villanueva | Piracicaba | 2026-06-25 | 0.64 / 0.62 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN25SOTVIL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun25sotvil) |
+| Thiago Seyboth Wild vs Juan Manuel La Serna | Piracicaba | 2026-06-27 | 0.72 / 0.71 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN27SEYLA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27seyla) |
+| Juan Manuel La Serna vs Thiago Seyboth Wild | Piracicaba | 2026-06-27 | 0.30 / 0.29 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN27SEYLA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27seyla) |
+| Matheus Pucinelli De Almeida vs Gonzalo Villanueva | Piracicaba | 2026-06-27 | 0.67 / 0.66 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN27PDAVIL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27pdavil) |
 | Thiago Seyboth Wild vs Juan Manuel La Serna | Piracicaba | 2026-06-27 | 0.72 / 0.71 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN27SEYLA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27seyla) |
 | Juan Manuel La Serna vs Thiago Seyboth Wild | Piracicaba | 2026-06-27 | 0.30 / 0.29 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN27SEYLA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27seyla) |
 | Matheus Pucinelli De Almeida vs Gonzalo Villanueva | Piracicaba | 2026-06-27 | 0.67 / 0.66 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUN27PDAVIL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27pdavil) |
@@ -3354,6 +3357,8 @@ _Generated 2026-06-27T08:41:01+00:00_
 | Felix Balshaw vs Sumit Nagal | Targu Mures | 2026-06-27 | 0.65 / 0.63 | `low_player_coverage` | cov_a=41 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27balnag) |
 | Sumit Nagal vs Felix Balshaw | Targu Mures | 2026-06-27 | 0.33 / 0.32 | `low_player_coverage` | cov_a=41 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27balnag) |
 | Felix Balshaw vs Sumit Nagal | Targu Mures | 2026-06-27 | 0.68 / 0.67 | `low_player_coverage` | cov_a=41 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27balnag) |
+| Sumit Nagal vs Felix Balshaw | Targu Mures | 2026-06-27 | 0.33 / 0.32 | `low_player_coverage` | cov_a=41 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27balnag) |
+| Felix Balshaw vs Sumit Nagal | Targu Mures | 2026-06-27 | 0.67 / 0.66 | `low_player_coverage` | cov_a=41 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27balnag) |
 | Adil Kalyanpur vs Sebastian Gima | Targu Mures Qualification | 2026-06-21 | 0.12 / 0.06 | `low_player_coverage` | cov_a=0 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21kalgim) |
 | Sebastian Gima vs Adil Kalyanpur | Targu Mures Qualification | 2026-06-21 | 0.93 / 0.88 | `low_player_coverage` | cov_a=0 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21kalgim) |
 | Daniel Uta vs Radu Mihai Papoe | Targu Mures Qualification | 2026-06-21 | 0.24 / 0.14 | `low_player_coverage` | cov_a=1 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21paputa) |
@@ -4698,6 +4703,7 @@ _Generated 2026-06-27T08:41:01+00:00_
 | Joaquin Aguilar Cardozo vs Pucinelli de Almeida | Piracicaba | 2026-06-26 | 0.17 / 0.15 | `missing_player_id` | player_a_id='A0JW', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun26agupda) |
 | Gonzalo Villanueva vs Pucinelli de Almeida | Piracicaba | 2026-06-27 | 0.34 / 0.31 | `missing_player_id` | player_a_id='V821', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27pdavil) |
 | Gonzalo Villanueva vs Pucinelli de Almeida | Piracicaba | 2026-06-27 | 0.35 / 0.34 | `missing_player_id` | player_a_id='V821', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27pdavil) |
+| Gonzalo Villanueva vs Pucinelli de Almeida | Piracicaba | 2026-06-27 | 0.34 / 0.33 | `missing_player_id` | player_a_id='V821', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27pdavil) |
 | Pedro Rodrigues Longobardi vs de Almeida | Piracicaba Qualification | 2026-06-21 | 0.17 / 0.07 | `missing_player_id` | player_a_id='R0LE', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21derod) |
 | Ignacio Parisca Romera vs Victor Braga | Piracicaba Qualification | 2026-06-21 | 0.97 / 0.50 | `missing_player_id` | player_a_id=nan, player_b_id='B0NA' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21parbra) |
 | Victor Braga vs Parisca Romera | Piracicaba Qualification | 2026-06-21 | 0.47 / 0.02 | `missing_player_id` | player_a_id='B0NA', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21parbra) |
@@ -4761,6 +4767,7 @@ _Generated 2026-06-27T08:41:01+00:00_
 | Andres Santamarta Roig vs Montes-de la Torre | Plovdiv | 2026-06-26 | 0.40 / 0.39 | `missing_player_id` | player_a_id='S0Y0', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun26sanmon) |
 | Sandro Kopp vs Montes-de la Torre | Plovdiv | 2026-06-27 | 0.32 / 0.30 | `missing_player_id` | player_a_id='K0CJ', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27monkop) |
 | Sandro Kopp vs Montes-de la Torre | Plovdiv | 2026-06-27 | 0.31 / 0.29 | `missing_player_id` | player_a_id='K0CJ', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27monkop) |
+| Sandro Kopp vs Montes-de la Torre | Plovdiv | 2026-06-27 | 0.31 / 0.30 | `missing_player_id` | player_a_id='K0CJ', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27monkop) |
 | Aleksandar Tolev vs S D Prajwal Dev | Plovdiv Qualification | 2026-06-21 | 0.95 / 0.04 | `missing_player_id` | player_a_id=nan, player_b_id='DH23' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21toldev) |
 | S D Prajwal Dev vs Tolev | Plovdiv Qualification | 2026-06-21 | 0.95 / 0.04 | `missing_player_id` | player_a_id='DH23', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21toldev) |
 | Imanol Lopez Morillo vs Borisov | Plovdiv Qualification | 2026-06-21 | 0.95 / 0.04 | `missing_player_id` | player_a_id='L0AT', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21lopbor) |
@@ -7813,6 +7820,7 @@ _Generated 2026-06-27T08:41:01+00:00_
 | Sandro Kopp vs Petr Nesterov | Plovdiv | 2026-06-26 | 0.59 / 0.58 | `tournament_not_in_tml` | tournament='Plovdiv' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun26kopnes) |
 | Inaki Montes-De La Torre vs Andres Santamarta Roig | Plovdiv | 2026-06-26 | 0.61 / 0.59 | `tournament_not_in_tml` | tournament='Plovdiv' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun26sanmon) |
 | Inaki Montes-De La Torre vs Sandro Kopp | Plovdiv | 2026-06-27 | 0.69 / 0.68 | `tournament_not_in_tml` | tournament='Plovdiv' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27monkop) |
+| Inaki Montes-De La Torre vs Sandro Kopp | Plovdiv | 2026-06-27 | 0.70 / 0.69 | `tournament_not_in_tml` | tournament='Plovdiv' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27monkop) |
 | Inaki Montes-De La Torre vs Sandro Kopp | Plovdiv | 2026-06-27 | 0.70 / 0.69 | `tournament_not_in_tml` | tournament='Plovdiv' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27monkop) |
 | Fares Zakaria vs Thomas Fancutt | Plovdiv Qualification | 2026-06-21 | 0.46 / 0.45 | `tournament_not_in_tml` | tournament='Plovdiv Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21zakfan) |
 | Thomas Fancutt vs Fares Zakaria | Plovdiv Qualification | 2026-06-21 | 0.54 / 0.53 | `tournament_not_in_tml` | tournament='Plovdiv Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun21zakfan) |
