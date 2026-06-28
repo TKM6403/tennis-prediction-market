@@ -1,12 +1,14 @@
-# Settled paper bets (377)
+# Settled paper bets (379)
 
-_Generated 2026-06-28T13:51:09+00:00_
+_Generated 2026-06-28T16:16:53+00:00_
 
-**Wins:** 120 / 377  (31.8%)  
-**Net PnL (per contract):** -21.143
+**Wins:** 120 / 379  (31.7%)  
+**Net PnL (per contract):** -21.823
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Gonzalo Villanueva (YES) vs Thiago Seyboth Wild | Piracicaba | 2026-06-28 | YES Gonzalo Villanueva | 0.29 | 0.393 | ✗ | -0.304 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27vilsey) |
+| Karl Poling (YES) vs Andrew Fenty | Cary Qualification | 2026-06-28 | YES Karl Poling | 0.36 | 0.554 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28fenpol) |
 | Juan Manuel La Serna (YES) vs Thiago Seyboth Wild | Piracicaba | 2026-06-27 | YES Juan Manuel La Serna | 0.29 | 0.520 | ✗ | -0.304 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27seyla) |
 | Gonzalo Villanueva (NO) vs Matheus Pucinelli De Almeida | Piracicaba | 2026-06-27 | NO Gonzalo Villanueva | 0.34 | 0.395 | ✓ | +0.644 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27pdavil) |
 | Nicolas Kicker (YES) vs Thiago Seyboth Wild | Piracicaba | 2026-06-26 | YES Nicolas Kicker | 0.36 | 0.446 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun26kicsey) |
