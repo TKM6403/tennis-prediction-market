@@ -1,12 +1,14 @@
-# Settled paper bets (379)
+# Settled paper bets (381)
 
-_Generated 2026-06-28T16:16:53+00:00_
+_Generated 2026-06-28T19:24:42+00:00_
 
-**Wins:** 120 / 379  (31.7%)  
-**Net PnL (per contract):** -21.823
+**Wins:** 121 / 381  (31.8%)  
+**Net PnL (per contract):** -21.339
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Andrej Martin (NO) vs Yuta Shimizu | Cary Qualification | 2026-06-28 | NO Andrej Martin | 0.21 | 0.508 | ✗ | -0.222 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28shimar) |
+| Hiroki Moriya (YES) vs Alex Rybakov | Cary Qualification | 2026-06-28 | YES Hiroki Moriya | 0.28 | 0.481 | ✓ | +0.706 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28rybmor) |
 | Gonzalo Villanueva (YES) vs Thiago Seyboth Wild | Piracicaba | 2026-06-28 | YES Gonzalo Villanueva | 0.29 | 0.393 | ✗ | -0.304 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27vilsey) |
 | Karl Poling (YES) vs Andrew Fenty | Cary Qualification | 2026-06-28 | YES Karl Poling | 0.36 | 0.554 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28fenpol) |
 | Juan Manuel La Serna (YES) vs Thiago Seyboth Wild | Piracicaba | 2026-06-27 | YES Juan Manuel La Serna | 0.29 | 0.520 | ✗ | -0.304 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun27seyla) |
