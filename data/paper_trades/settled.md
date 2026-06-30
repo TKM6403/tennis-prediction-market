@@ -1,12 +1,16 @@
-# Settled paper bets (382)
+# Settled paper bets (386)
 
-_Generated 2026-06-30T09:43:18+00:00_
+_Generated 2026-06-30T14:24:26+00:00_
 
-**Wins:** 121 / 382  (31.7%)  
-**Net PnL (per contract):** -21.602
+**Wins:** 123 / 386  (31.9%)  
+**Net PnL (per contract):** -20.691
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| David Jorda Sanchis (YES) vs Juan Carlos Prado Angelo | Milan | 2026-06-30 | YES David Jorda Sanchis | 0.44 | 0.625 | ✓ | +0.543 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30jorpra) |
+| Raul Brancaccio (YES) vs Nikoloz Basilashvili | Milan | 2026-06-30 | YES Raul Brancaccio | 0.35 | 0.612 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30brabas) |
+| Stefano Travaglia (NO) vs Enrico Dalla Valle | Milan | 2026-06-30 | NO Stefano Travaglia | 0.14 | 0.507 | ✗ | -0.148 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30daltra) |
+| Daniel Michalski (YES) vs Francesco Passaro | Milan | 2026-06-30 | YES Daniel Michalski | 0.11 | 0.433 | ✗ | -0.117 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30micpas) |
 | Cannon Kingsley (YES) vs James Trotter | Cary Qualification | 2026-06-28 | YES Cannon Kingsley | 0.25 | 0.540 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28kartro) |
 | Andrej Martin (NO) vs Yuta Shimizu | Cary Qualification | 2026-06-28 | NO Andrej Martin | 0.21 | 0.508 | ✗ | -0.222 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28shimar) |
 | Hiroki Moriya (YES) vs Alex Rybakov | Cary Qualification | 2026-06-28 | YES Hiroki Moriya | 0.28 | 0.481 | ✓ | +0.706 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun28rybmor) |
