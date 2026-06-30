@@ -1,12 +1,17 @@
-# Settled paper bets (386)
+# Settled paper bets (391)
 
-_Generated 2026-06-30T14:24:26+00:00_
+_Generated 2026-06-30T17:11:07+00:00_
 
-**Wins:** 123 / 386  (31.9%)  
-**Net PnL (per contract):** -20.691
+**Wins:** 124 / 391  (31.7%)  
+**Net PnL (per contract):** -21.446
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Norbert Gombos (YES) vs Elmer Moller | Milan | 2026-06-30 | YES Norbert Gombos | 0.35 | 0.538 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30molgom) |
+| Yuta Shimizu (YES) vs Michael Mmoh | Cary | 2026-06-30 | YES Yuta Shimizu | 0.36 | 0.462 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30shimmo) |
+| Federico Bondioli (NO) vs Inaki Montes-De La Torre | Troyes | 2026-06-30 | NO Federico Bondioli | 0.30 | 0.399 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30bonmon) |
+| Edward Winter (YES) vs Andrew Fenty | Cary | 2026-06-30 | YES Edward Winter | 0.46 | 0.667 | ✓ | +0.523 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30winfen) |
+| Filippo Romano (YES) vs Marco Cecchinato | Milan | 2026-06-30 | YES Filippo Romano | 0.21 | 0.376 | ✗ | -0.222 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30romcec) |
 | David Jorda Sanchis (YES) vs Juan Carlos Prado Angelo | Milan | 2026-06-30 | YES David Jorda Sanchis | 0.44 | 0.625 | ✓ | +0.543 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30jorpra) |
 | Raul Brancaccio (YES) vs Nikoloz Basilashvili | Milan | 2026-06-30 | YES Raul Brancaccio | 0.35 | 0.612 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30brabas) |
 | Stefano Travaglia (NO) vs Enrico Dalla Valle | Milan | 2026-06-30 | NO Stefano Travaglia | 0.14 | 0.507 | ✗ | -0.148 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30daltra) |
