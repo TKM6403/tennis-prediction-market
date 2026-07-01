@@ -1,12 +1,13 @@
-# Settled paper bets (391)
+# Settled paper bets (392)
 
-_Generated 2026-06-30T22:20:22+00:00_
+_Generated 2026-07-01T09:53:42+00:00_
 
-**Wins:** 124 / 391  (31.7%)  
-**Net PnL (per contract):** -21.446
+**Wins:** 125 / 392  (31.9%)  
+**Net PnL (per contract):** -20.924
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Blake Ellis (YES) vs Philip Sekulic | Cary | 2026-07-01 | YES Blake Ellis | 0.46 | 0.532 | ✓ | +0.523 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30ellsek) |
 | Norbert Gombos (YES) vs Elmer Moller | Milan | 2026-06-30 | YES Norbert Gombos | 0.35 | 0.538 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30molgom) |
 | Yuta Shimizu (YES) vs Michael Mmoh | Cary | 2026-06-30 | YES Yuta Shimizu | 0.36 | 0.462 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30shimmo) |
 | Federico Bondioli (NO) vs Inaki Montes-De La Torre | Troyes | 2026-06-30 | NO Federico Bondioli | 0.30 | 0.399 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30bonmon) |
