@@ -1,12 +1,13 @@
-# Settled paper bets (399)
+# Settled paper bets (400)
 
-_Generated 2026-07-02T03:44:12+00:00_
+_Generated 2026-07-02T09:01:23+00:00_
 
-**Wins:** 129 / 399  (32.3%)  
-**Net PnL (per contract):** -19.078
+**Wins:** 130 / 400  (32.5%)  
+**Net PnL (per contract):** -18.484
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Edward Winter (NO) vs Daniil Glinka | Cary | 2026-07-01 | NO Edward Winter | 0.39 | 0.477 | ✓ | +0.593 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul01gliwin) |
 | Pedro Martinez (NO) vs Rio Noguchi | Cary | 2026-06-30 | NO Pedro Martinez | 0.35 | 0.523 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30nogmar) |
 | Enrico Dalla Valle (YES) vs Francesco Passaro | Milan | 2026-07-01 | YES Enrico Dalla Valle | 0.45 | 0.654 | ✓ | +0.533 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul01pasdal) |
 | Alex Barrena (YES) vs Gustavo Heide | Milan | 2026-07-01 | YES Alex Barrena | 0.22 | 0.325 | ✗ | -0.232 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul01heibar) |
