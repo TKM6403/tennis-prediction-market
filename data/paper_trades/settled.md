@@ -1,12 +1,19 @@
-# Settled paper bets (392)
+# Settled paper bets (399)
 
-_Generated 2026-07-01T09:53:42+00:00_
+_Generated 2026-07-02T03:44:12+00:00_
 
-**Wins:** 125 / 392  (31.9%)  
-**Net PnL (per contract):** -20.924
+**Wins:** 129 / 399  (32.3%)  
+**Net PnL (per contract):** -19.078
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Pedro Martinez (NO) vs Rio Noguchi | Cary | 2026-06-30 | NO Pedro Martinez | 0.35 | 0.523 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30nogmar) |
+| Enrico Dalla Valle (YES) vs Francesco Passaro | Milan | 2026-07-01 | YES Enrico Dalla Valle | 0.45 | 0.654 | ✓ | +0.533 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul01pasdal) |
+| Alex Barrena (YES) vs Gustavo Heide | Milan | 2026-07-01 | YES Alex Barrena | 0.22 | 0.325 | ✗ | -0.232 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul01heibar) |
+| Marat Sharipov (YES) vs Dominic Stricker | Troyes | 2026-07-01 | YES Marat Sharipov | 0.44 | 0.556 | ✓ | +0.543 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul01shastr) |
+| Diego Dedura (YES) vs Francisco Comesana | Milan | 2026-07-01 | YES Diego Dedura | 0.32 | 0.551 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul01comded) |
+| Johannus Monday (YES) vs Michael Mmoh | Cary | 2026-07-01 | YES Johannus Monday | 0.22 | 0.585 | ✓ | +0.768 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul01manmmo) |
+| Marko Topo (NO) vs Lorenzo Giustino | Troyes | 2026-07-01 | NO Marko Topo | 0.06 | 0.499 | ✗ | -0.064 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul01giutop) |
 | Blake Ellis (YES) vs Philip Sekulic | Cary | 2026-07-01 | YES Blake Ellis | 0.46 | 0.532 | ✓ | +0.523 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30ellsek) |
 | Norbert Gombos (YES) vs Elmer Moller | Milan | 2026-06-30 | YES Norbert Gombos | 0.35 | 0.538 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30molgom) |
 | Yuta Shimizu (YES) vs Michael Mmoh | Cary | 2026-06-30 | YES Yuta Shimizu | 0.36 | 0.462 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30shimmo) |
