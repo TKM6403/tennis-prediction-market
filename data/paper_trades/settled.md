@@ -1,12 +1,14 @@
-# Settled paper bets (406)
+# Settled paper bets (408)
 
-_Generated 2026-07-07T03:31:23+00:00_
+_Generated 2026-07-07T09:47:53+00:00_
 
-**Wins:** 134 / 406  (33.0%)  
-**Net PnL (per contract):** -16.440
+**Wins:** 134 / 408  (32.8%)  
+**Net PnL (per contract):** -16.956
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Norbert Gombos (YES) vs Sebastian Ofner | Braunschweig | 2026-07-07 | YES Norbert Gombos | 0.22 | 0.342 | ✗ | -0.232 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07gomofn) |
+| Gonzalo Bueno (YES) vs Laslo Djere | Braunschweig | 2026-07-07 | YES Gonzalo Bueno | 0.27 | 0.437 | ✗ | -0.284 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07djebue) |
 | Garrett Johns (YES) vs Blake Ellis | Newport Qualification | 2026-07-05 | YES Garrett Johns | 0.35 | 0.472 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05elljoh) |
 | Franco Roncadelli (YES) vs Michele Ribecai | Trieste | 2026-07-05 | YES Franco Roncadelli | 0.39 | 0.494 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05ronrib) |
 | Stefan Kozlov (NO) vs Aidan Mayo | Newport Qualification | 2026-07-05 | NO Stefan Kozlov | 0.47 | 0.550 | ✓ | +0.513 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05kozmay) |
