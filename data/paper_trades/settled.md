@@ -1,12 +1,17 @@
-# Settled paper bets (401)
+# Settled paper bets (406)
 
-_Generated 2026-07-05T11:08:30+00:00_
+_Generated 2026-07-07T03:31:23+00:00_
 
-**Wins:** 130 / 401  (32.4%)  
-**Net PnL (per contract):** -18.643
+**Wins:** 134 / 406  (33.0%)  
+**Net PnL (per contract):** -16.440
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Garrett Johns (YES) vs Blake Ellis | Newport Qualification | 2026-07-05 | YES Garrett Johns | 0.35 | 0.472 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05elljoh) |
+| Franco Roncadelli (YES) vs Michele Ribecai | Trieste | 2026-07-05 | YES Franco Roncadelli | 0.39 | 0.494 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05ronrib) |
+| Stefan Kozlov (NO) vs Aidan Mayo | Newport Qualification | 2026-07-05 | NO Stefan Kozlov | 0.47 | 0.550 | ✓ | +0.513 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05kozmay) |
+| Alex Rybakov (YES) vs Tung-Lin Wu | Newport Qualification | 2026-07-05 | YES Alex Rybakov | 0.26 | 0.429 | ✓ | +0.727 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05rybtun) |
+| Facundo Diaz Acosta (YES) vs Marco Cecchinato | Milan | 2026-07-05 | YES Facundo Diaz Acosta | 0.25 | 0.585 | ✓ | +0.737 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05diacec) |
 | Ioannis Xilas (YES) vs Kilian Feldbausch | Troyes | 2026-07-02 | YES Ioannis Xilas | 0.15 | 0.339 | ✗ | -0.159 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul02felxil) |
 | Edward Winter (NO) vs Daniil Glinka | Cary | 2026-07-01 | NO Edward Winter | 0.39 | 0.477 | ✓ | +0.593 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul01gliwin) |
 | Pedro Martinez (NO) vs Rio Noguchi | Cary | 2026-06-30 | NO Pedro Martinez | 0.35 | 0.523 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30nogmar) |
