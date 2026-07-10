@@ -1,12 +1,32 @@
-# Settled paper bets (408)
+# Settled paper bets (428)
 
-_Generated 2026-07-07T09:47:53+00:00_
+_Generated 2026-07-10T09:40:15+00:00_
 
-**Wins:** 134 / 408  (32.8%)  
-**Net PnL (per contract):** -16.956
+**Wins:** 139 / 428  (32.5%)  
+**Net PnL (per contract):** -20.198
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Frederico Ferreira Silva (YES) vs Luka Pavlovic | Iasi | 2026-07-07 | YES Frederico Ferreira Silva | 0.38 | 0.592 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07ferpav) |
+| Keegan Smith (YES) vs Mackenzie McDonald | Braunschweig | 2026-07-07 | YES Keegan Smith | 0.45 | 0.710 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07mcdsmi) |
+| Daniel Rincon (YES) vs Tom Gentzsch | Braunschweig | 2026-07-07 | YES Daniel Rincon | 0.47 | 0.561 | ✓ | +0.513 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07ringen) |
+| Oleg Prihodko (YES) vs Alex Barrena | Trieste | 2026-07-07 | YES Oleg Prihodko | 0.41 | 0.482 | ✗ | -0.427 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07pribar) |
+| Juan Carlos Prado Angelo (NO) vs Adolfo Daniel Vallejo | Braunschweig | 2026-07-07 | NO Juan Carlos Prado Angelo | 0.27 | 0.382 | ✗ | -0.284 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07praval) |
+| Thiago Seyboth Wild (NO) vs Dalibor Svrcina | Braunschweig | 2026-07-07 | NO Thiago Seyboth Wild | 0.45 | 0.542 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07seysvr) |
+| Clement Tabur (YES) vs Diego Dedura | Braunschweig | 2026-07-07 | YES Clement Tabur | 0.47 | 0.590 | ✗ | -0.487 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07dedtab) |
+| Liam Broady (YES) vs Aleksandar Vukic | Newport | 2026-07-06 | YES Liam Broady | 0.50 | 0.723 | ✓ | +0.482 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul06vukbro) |
+| Daniil Glinka (YES) vs Yunchaokete Bu | Newport | 2026-07-06 | YES Daniil Glinka | 0.17 | 0.487 | ✗ | -0.180 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul06gliyun) |
+| August Holmgren (YES) vs Tristan Schoolkate | Newport | 2026-07-06 | YES August Holmgren | 0.46 | 0.555 | ✗ | -0.477 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul06holsch) |
+| Max Alcala Gurri (YES) vs Andrea Pellegrino | Trieste | 2026-07-05 | YES Max Alcala Gurri | 0.44 | 0.684 | ✗ | -0.457 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05pelalc) |
+| Braden Shick (YES) vs Bernard Tomic | Newport | 2026-07-07 | YES Braden Shick | 0.38 | 0.468 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07tomshi) |
+| Matheus Pucinelli De Almeida (YES) vs Dmitry Popko | Bogota | 2026-07-07 | YES Matheus Pucinelli De Almeida | 0.65 | 0.805 | ✓ | +0.334 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07poppda) |
+| Alex Hernandez (YES) vs Nick Hardt | Bogota | 2026-07-07 | YES Alex Hernandez | 0.19 | 0.288 | ✗ | -0.201 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07herhar) |
+| Mathys Erhard (YES) vs Titouan Droguet | Iasi | 2026-07-07 | YES Mathys Erhard | 0.25 | 0.341 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07droerh) |
+| Gonzalo Villanueva (YES) vs Maxim Mrva | Trieste | 2026-07-07 | YES Gonzalo Villanueva | 0.33 | 0.503 | ✗ | -0.345 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07mrvvil) |
+| Jan Choinski (YES) vs Dimitar Kuzmanov | Braunschweig | 2026-07-07 | YES Jan Choinski | 0.70 | 0.751 | ✓ | +0.285 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07chokuz) |
+| Adam Walton (YES) vs Mackenzie McDonald | Newport | 2026-07-06 | YES Adam Walton | 0.53 | 0.581 | ✓ | +0.453 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul06mcdwal) |
+| Andrej Nedic (YES) vs Lukas Neumayer | Trieste | 2026-07-05 | YES Andrej Nedic | 0.04 | 0.572 | ✗ | -0.043 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05neuned) |
+| Carlo Alberto Caniato (YES) vs Hugo Dellien | Trieste | 2026-07-05 | YES Carlo Alberto Caniato | 0.40 | 0.499 | ✗ | -0.417 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05candel) |
 | Norbert Gombos (YES) vs Sebastian Ofner | Braunschweig | 2026-07-07 | YES Norbert Gombos | 0.22 | 0.342 | ✗ | -0.232 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07gomofn) |
 | Gonzalo Bueno (YES) vs Laslo Djere | Braunschweig | 2026-07-07 | YES Gonzalo Bueno | 0.27 | 0.437 | ✗ | -0.284 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07djebue) |
 | Garrett Johns (YES) vs Blake Ellis | Newport Qualification | 2026-07-05 | YES Garrett Johns | 0.35 | 0.472 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05elljoh) |
