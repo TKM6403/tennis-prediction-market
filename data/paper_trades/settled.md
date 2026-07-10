@@ -1,12 +1,14 @@
-# Settled paper bets (428)
+# Settled paper bets (430)
 
-_Generated 2026-07-10T09:40:15+00:00_
+_Generated 2026-07-10T14:33:11+00:00_
 
-**Wins:** 139 / 428  (32.5%)  
-**Net PnL (per contract):** -20.198
+**Wins:** 141 / 430  (32.8%)  
+**Net PnL (per contract):** -19.120
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Henri Squire (YES) vs Lukas Neumayer | Trieste | 2026-07-10 | YES Henri Squire | 0.32 | 0.493 | ✓ | +0.665 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10neusqu) |
+| Jan Choinski (YES) vs Diego Dedura | Braunschweig | 2026-07-10 | YES Jan Choinski | 0.57 | 0.709 | ✓ | +0.413 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10choded) |
 | Frederico Ferreira Silva (YES) vs Luka Pavlovic | Iasi | 2026-07-07 | YES Frederico Ferreira Silva | 0.38 | 0.592 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07ferpav) |
 | Keegan Smith (YES) vs Mackenzie McDonald | Braunschweig | 2026-07-07 | YES Keegan Smith | 0.45 | 0.710 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07mcdsmi) |
 | Daniel Rincon (YES) vs Tom Gentzsch | Braunschweig | 2026-07-07 | YES Daniel Rincon | 0.47 | 0.561 | ✓ | +0.513 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07ringen) |
