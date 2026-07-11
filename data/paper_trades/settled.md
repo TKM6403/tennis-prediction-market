@@ -1,12 +1,21 @@
-# Settled paper bets (430)
+# Settled paper bets (439)
 
-_Generated 2026-07-10T14:33:11+00:00_
+_Generated 2026-07-11T19:13:39+00:00_
 
-**Wins:** 141 / 430  (32.8%)  
-**Net PnL (per contract):** -19.120
+**Wins:** 141 / 439  (32.1%)  
+**Net PnL (per contract):** -22.603
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Hernan Casanova (NO) vs Nicolas Mejia | Bogota | 2026-07-10 | NO Hernan Casanova | 0.41 | 0.582 | ✗ | -0.427 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10mejcas) |
+| Liam Broady (NO) vs Alex Michelsen | Newport | 2026-07-10 | NO Liam Broady | 0.17 | 0.562 | ✗ | -0.180 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10bromic) |
+| Taro Daniel (NO) vs Valentin Royer | Iasi | 2026-07-10 | NO Taro Daniel | 0.43 | 0.579 | ✗ | -0.447 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10roydan) |
+| Arthur Gea (YES) vs Adam Walton | Newport | 2026-07-10 | YES Arthur Gea | 0.38 | 0.499 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10geawal) |
+| Gustavo Heide (YES) vs Titouan Droguet | Iasi | 2026-07-10 | YES Gustavo Heide | 0.44 | 0.599 | ✗ | -0.457 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10drohei) |
+| Nikolas Sanchez Izquierdo (YES) vs Hugo Dellien | Trieste | 2026-07-10 | YES Nikolas Sanchez Izquierdo | 0.43 | 0.587 | ✗ | -0.447 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10saidel) |
+| Raul Brancaccio (YES) vs Matej Dodig | Trieste | 2026-07-10 | YES Raul Brancaccio | 0.44 | 0.545 | ✗ | -0.457 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10bradod) |
+| Marvin Moeller (NO) vs Hugo Gaston | Braunschweig | 2026-07-10 | NO Marvin Moeller | 0.31 | 0.586 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10gasmoe) |
+| Stefan Kozlov (YES) vs Jacob Fearnley | Newport | 2026-07-09 | YES Stefan Kozlov | 0.33 | 0.457 | ✗ | -0.345 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul09feakoz) |
 | Henri Squire (YES) vs Lukas Neumayer | Trieste | 2026-07-10 | YES Henri Squire | 0.32 | 0.493 | ✓ | +0.665 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10neusqu) |
 | Jan Choinski (YES) vs Diego Dedura | Braunschweig | 2026-07-10 | YES Jan Choinski | 0.57 | 0.709 | ✓ | +0.413 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10choded) |
 | Frederico Ferreira Silva (YES) vs Luka Pavlovic | Iasi | 2026-07-07 | YES Frederico Ferreira Silva | 0.38 | 0.592 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07ferpav) |
