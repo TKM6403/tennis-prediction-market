@@ -1,12 +1,16 @@
-# Settled paper bets (439)
+# Settled paper bets (443)
 
-_Generated 2026-07-11T19:13:39+00:00_
+_Generated 2026-07-12T16:10:46+00:00_
 
-**Wins:** 141 / 439  (32.1%)  
-**Net PnL (per contract):** -22.603
+**Wins:** 141 / 443  (31.8%)  
+**Net PnL (per contract):** -23.539
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Alexis Galarneau (YES) vs Jacob Fearnley | Newport | 2026-07-11 | YES Alexis Galarneau | 0.31 | 0.528 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul11galfea) |
+| Alex Michelsen (NO) vs Adam Walton | Newport | 2026-07-11 | NO Alex Michelsen | 0.21 | 0.513 | ✗ | -0.222 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul11walmic) |
+| Juan Pablo Varillas (YES) vs Nicolas Mejia | Bogota | 2026-07-11 | YES Juan Pablo Varillas | 0.27 | 0.435 | ✗ | -0.284 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul11mejvar) |
+| Valentin Royer (YES) vs Titouan Droguet | Iasi | 2026-07-11 | YES Valentin Royer | 0.10 | 0.391 | ✗ | -0.106 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul11roydro) |
 | Hernan Casanova (NO) vs Nicolas Mejia | Bogota | 2026-07-10 | NO Hernan Casanova | 0.41 | 0.582 | ✗ | -0.427 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10mejcas) |
 | Liam Broady (NO) vs Alex Michelsen | Newport | 2026-07-10 | NO Liam Broady | 0.17 | 0.562 | ✗ | -0.180 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10bromic) |
 | Taro Daniel (NO) vs Valentin Royer | Iasi | 2026-07-10 | NO Taro Daniel | 0.43 | 0.579 | ✗ | -0.447 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10roydan) |
