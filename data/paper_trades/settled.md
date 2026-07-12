@@ -1,12 +1,13 @@
-# Settled paper bets (445)
+# Settled paper bets (446)
 
-_Generated 2026-07-12T19:13:07+00:00_
+_Generated 2026-07-12T21:58:45+00:00_
 
-**Wins:** 142 / 445  (31.9%)  
-**Net PnL (per contract):** -23.312
+**Wins:** 142 / 446  (31.8%)  
+**Net PnL (per contract):** -23.839
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Adam Walton (YES) vs Jacob Fearnley | Newport | 2026-07-12 | YES Adam Walton | 0.51 | 0.604 | ✗ | -0.527 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12feawal) |
 | Zsombor Piros (YES) vs Titouan Droguet | Iasi | 2026-07-12 | YES Zsombor Piros | 0.42 | 0.493 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12dropir) |
 | Matias Soto (YES) vs Nicolas Mejia | Bogota | 2026-07-12 | YES Matias Soto | 0.32 | 0.445 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12mejsot) |
 | Alexis Galarneau (YES) vs Jacob Fearnley | Newport | 2026-07-11 | YES Alexis Galarneau | 0.31 | 0.528 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul11galfea) |
