@@ -1,12 +1,14 @@
-# Settled paper bets (443)
+# Settled paper bets (445)
 
-_Generated 2026-07-12T16:10:46+00:00_
+_Generated 2026-07-12T19:13:07+00:00_
 
-**Wins:** 141 / 443  (31.8%)  
-**Net PnL (per contract):** -23.539
+**Wins:** 142 / 445  (31.9%)  
+**Net PnL (per contract):** -23.312
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Zsombor Piros (YES) vs Titouan Droguet | Iasi | 2026-07-12 | YES Zsombor Piros | 0.42 | 0.493 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12dropir) |
+| Matias Soto (YES) vs Nicolas Mejia | Bogota | 2026-07-12 | YES Matias Soto | 0.32 | 0.445 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12mejsot) |
 | Alexis Galarneau (YES) vs Jacob Fearnley | Newport | 2026-07-11 | YES Alexis Galarneau | 0.31 | 0.528 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul11galfea) |
 | Alex Michelsen (NO) vs Adam Walton | Newport | 2026-07-11 | NO Alex Michelsen | 0.21 | 0.513 | ✗ | -0.222 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul11walmic) |
 | Juan Pablo Varillas (YES) vs Nicolas Mejia | Bogota | 2026-07-11 | YES Juan Pablo Varillas | 0.27 | 0.435 | ✗ | -0.284 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul11mejvar) |
