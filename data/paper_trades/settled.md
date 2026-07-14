@@ -1,12 +1,18 @@
-# Settled paper bets (447)
+# Settled paper bets (453)
 
-_Generated 2026-07-14T08:10:53+00:00_
+_Generated 2026-07-14T19:24:36+00:00_
 
-**Wins:** 143 / 447  (32.0%)  
-**Net PnL (per contract):** -23.174
+**Wins:** 145 / 453  (32.0%)  
+**Net PnL (per contract):** -23.700
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Kaichi Uchida (YES) vs Alexis Galarneau | Granby | 2026-07-14 | YES Kaichi Uchida | 0.18 | 0.399 | ✗ | -0.190 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14uchgal) |
+| Carlo Alberto Caniato (YES) vs Maxim Mrva | Cordenons | 2026-07-14 | YES Carlo Alberto Caniato | 0.43 | 0.536 | ✗ | -0.447 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14mrvcan) |
+| Lorenzo Giustino (YES) vs Franco Roncadelli | Cordenons | 2026-07-14 | YES Lorenzo Giustino | 0.54 | 0.597 | ✗ | -0.557 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14rongiu) |
+| Gonzalo Villanueva (YES) vs Michele Ribecai | Cordenons | 2026-07-14 | YES Gonzalo Villanueva | 0.41 | 0.473 | ✓ | +0.573 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14vilrib) |
+| Luca Castelnuovo (YES) vs Antoine Ghibaudo | Pozoblanco | 2026-07-14 | YES Luca Castelnuovo | 0.37 | 0.488 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14casghi) |
+| Sumit Nagal (YES) vs Cezar Cretu | Cordenons | 2026-07-14 | YES Sumit Nagal | 0.50 | 0.572 | ✓ | +0.482 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14nagcre) |
 | Stefano Napolitano (YES) vs Felix Balshaw | Cordenons | 2026-07-13 | YES Stefano Napolitano | 0.32 | 0.447 | ✓ | +0.665 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13napbal) |
 | Adam Walton (YES) vs Jacob Fearnley | Newport | 2026-07-12 | YES Adam Walton | 0.51 | 0.604 | ✗ | -0.527 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12feawal) |
 | Zsombor Piros (YES) vs Titouan Droguet | Iasi | 2026-07-12 | YES Zsombor Piros | 0.42 | 0.493 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12dropir) |
