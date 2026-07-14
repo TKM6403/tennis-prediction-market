@@ -1,12 +1,13 @@
-# Settled paper bets (446)
+# Settled paper bets (447)
 
-_Generated 2026-07-13T06:26:30+00:00_
+_Generated 2026-07-14T05:35:33+00:00_
 
-**Wins:** 142 / 446  (31.8%)  
-**Net PnL (per contract):** -23.839
+**Wins:** 143 / 447  (32.0%)  
+**Net PnL (per contract):** -23.174
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Stefano Napolitano (YES) vs Felix Balshaw | Cordenons | 2026-07-13 | YES Stefano Napolitano | 0.32 | 0.447 | ✓ | +0.665 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13napbal) |
 | Adam Walton (YES) vs Jacob Fearnley | Newport | 2026-07-12 | YES Adam Walton | 0.51 | 0.604 | ✗ | -0.527 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12feawal) |
 | Zsombor Piros (YES) vs Titouan Droguet | Iasi | 2026-07-12 | YES Zsombor Piros | 0.42 | 0.493 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12dropir) |
 | Matias Soto (YES) vs Nicolas Mejia | Bogota | 2026-07-12 | YES Matias Soto | 0.32 | 0.445 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12mejsot) |
