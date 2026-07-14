@@ -1,12 +1,14 @@
-# Settled paper bets (453)
+# Settled paper bets (455)
 
-_Generated 2026-07-14T19:24:36+00:00_
+_Generated 2026-07-14T22:02:23+00:00_
 
-**Wins:** 145 / 453  (32.0%)  
-**Net PnL (per contract):** -23.700
+**Wins:** 146 / 455  (32.1%)  
+**Net PnL (per contract):** -23.070
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Fajing Sun (YES) vs Arthur Gea | Granby | 2026-07-14 | YES Fajing Sun | 0.20 | 0.393 | ✗ | -0.211 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14sungea) |
+| Murphy Cassone (YES) vs Tristan Schoolkate | Granby | 2026-07-14 | YES Murphy Cassone | 0.15 | 0.437 | ✓ | +0.841 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14cassch) |
 | Kaichi Uchida (YES) vs Alexis Galarneau | Granby | 2026-07-14 | YES Kaichi Uchida | 0.18 | 0.399 | ✗ | -0.190 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14uchgal) |
 | Carlo Alberto Caniato (YES) vs Maxim Mrva | Cordenons | 2026-07-14 | YES Carlo Alberto Caniato | 0.43 | 0.536 | ✗ | -0.447 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14mrvcan) |
 | Lorenzo Giustino (YES) vs Franco Roncadelli | Cordenons | 2026-07-14 | YES Lorenzo Giustino | 0.54 | 0.597 | ✗ | -0.557 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14rongiu) |
