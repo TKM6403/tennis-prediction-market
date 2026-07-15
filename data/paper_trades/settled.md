@@ -1,12 +1,14 @@
-# Settled paper bets (458)
+# Settled paper bets (460)
 
-_Generated 2026-07-15T16:26:28+00:00_
+_Generated 2026-07-15T19:15:33+00:00_
 
-**Wins:** 146 / 458  (31.9%)  
-**Net PnL (per contract):** -24.294
+**Wins:** 147 / 460  (32.0%)  
+**Net PnL (per contract):** -23.994
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| James Trotter (YES) vs Liam Draxl | Granby | 2026-07-15 | YES James Trotter | 0.25 | 0.448 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14dratro) |
+| Justin Boulais (YES) vs Yuta Shimizu | Granby | 2026-07-15 | YES Justin Boulais | 0.42 | 0.475 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15shibou) |
 | Ioannis Xilas (YES) vs Hugo Dellien | Cordenons | 2026-07-14 | YES Ioannis Xilas | 0.18 | 0.323 | ✗ | -0.190 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14delxil) |
 | Guido Ivan Justo (YES) vs Federico Bondioli | Cordenons | 2026-07-15 | YES Guido Ivan Justo | 0.60 | 0.667 | ✗ | -0.617 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15bonjus) |
 | Andrej Nedic (NO) vs Enrico Dalla Valle | Cordenons | 2026-07-14 | NO Andrej Nedic | 0.40 | 0.494 | ✗ | -0.417 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14neddal) |
