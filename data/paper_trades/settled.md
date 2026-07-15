@@ -1,12 +1,15 @@
-# Settled paper bets (455)
+# Settled paper bets (458)
 
-_Generated 2026-07-15T10:56:20+00:00_
+_Generated 2026-07-15T13:49:51+00:00_
 
-**Wins:** 146 / 455  (32.1%)  
-**Net PnL (per contract):** -23.070
+**Wins:** 146 / 458  (31.9%)  
+**Net PnL (per contract):** -24.294
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Ioannis Xilas (YES) vs Hugo Dellien | Cordenons | 2026-07-14 | YES Ioannis Xilas | 0.18 | 0.323 | ✗ | -0.190 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14delxil) |
+| Guido Ivan Justo (YES) vs Federico Bondioli | Cordenons | 2026-07-15 | YES Guido Ivan Justo | 0.60 | 0.667 | ✗ | -0.617 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15bonjus) |
+| Andrej Nedic (NO) vs Enrico Dalla Valle | Cordenons | 2026-07-14 | NO Andrej Nedic | 0.40 | 0.494 | ✗ | -0.417 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14neddal) |
 | Fajing Sun (YES) vs Arthur Gea | Granby | 2026-07-14 | YES Fajing Sun | 0.20 | 0.393 | ✗ | -0.211 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14sungea) |
 | Murphy Cassone (YES) vs Tristan Schoolkate | Granby | 2026-07-14 | YES Murphy Cassone | 0.15 | 0.437 | ✓ | +0.841 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14cassch) |
 | Kaichi Uchida (YES) vs Alexis Galarneau | Granby | 2026-07-14 | YES Kaichi Uchida | 0.18 | 0.399 | ✗ | -0.190 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14uchgal) |
