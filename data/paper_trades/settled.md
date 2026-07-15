@@ -1,12 +1,13 @@
-# Settled paper bets (460)
+# Settled paper bets (461)
 
-_Generated 2026-07-15T19:15:33+00:00_
+_Generated 2026-07-15T22:05:29+00:00_
 
-**Wins:** 147 / 460  (32.0%)  
-**Net PnL (per contract):** -23.994
+**Wins:** 147 / 461  (31.9%)  
+**Net PnL (per contract):** -24.288
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Tyler Zink (YES) vs Alexis Galarneau | Granby | 2026-07-15 | YES Tyler Zink | 0.28 | 0.382 | ✗ | -0.294 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15zingal) |
 | James Trotter (YES) vs Liam Draxl | Granby | 2026-07-15 | YES James Trotter | 0.25 | 0.448 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14dratro) |
 | Justin Boulais (YES) vs Yuta Shimizu | Granby | 2026-07-15 | YES Justin Boulais | 0.42 | 0.475 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15shibou) |
 | Ioannis Xilas (YES) vs Hugo Dellien | Cordenons | 2026-07-14 | YES Ioannis Xilas | 0.18 | 0.323 | ✗ | -0.190 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14delxil) |
