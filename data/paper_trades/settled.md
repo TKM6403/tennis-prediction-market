@@ -1,12 +1,14 @@
-# Settled paper bets (464)
+# Settled paper bets (466)
 
-_Generated 2026-07-16T16:21:39+00:00_
+_Generated 2026-07-16T19:16:14+00:00_
 
-**Wins:** 149 / 464  (32.1%)  
-**Net PnL (per contract):** -23.554
+**Wins:** 149 / 466  (32.0%)  
+**Net PnL (per contract):** -24.296
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Enrico Dalla Valle (YES) vs Hugo Dellien | Cordenons | 2026-07-16 | YES Enrico Dalla Valle | 0.40 | 0.495 | ✗ | -0.417 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16deldal) |
+| Blaise Bicknell (YES) vs Murphy Cassone | Granby | 2026-07-16 | YES Blaise Bicknell | 0.31 | 0.446 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16biccas) |
 | Juan Bautista Torres (YES) vs Sumit Nagal | Cordenons | 2026-07-15 | YES Juan Bautista Torres | 0.20 | 0.426 | ✗ | -0.211 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15nagtor) |
 | Stefano Napolitano (YES) vs Alex Barrena | Cordenons | 2026-07-15 | YES Stefano Napolitano | 0.58 | 0.664 | ✓ | +0.403 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15napbar) |
 | Franco Roncadelli (YES) vs Maxim Mrva | Cordenons | 2026-07-16 | YES Franco Roncadelli | 0.44 | 0.586 | ✓ | +0.543 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16mrvron) |
