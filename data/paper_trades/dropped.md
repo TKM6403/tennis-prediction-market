@@ -1,19 +1,19 @@
-# Dropped markets (10559)
+# Dropped markets (10576)
 
-_Generated 2026-07-15T22:05:29+00:00_
+_Generated 2026-07-16T02:42:58+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `low_player_coverage` | 2737 |
-| `tournament_not_in_tml` | 2314 |
-| `missing_player_id` | 1980 |
-| `duplicate_match` | 1566 |
-| `thin_tournament_history` | 840 |
-| `below_min_edge` | 530 |
+| `low_player_coverage` | 2743 |
+| `tournament_not_in_tml` | 2316 |
+| `missing_player_id` | 1982 |
+| `duplicate_match` | 1568 |
+| `thin_tournament_history` | 841 |
+| `below_min_edge` | 532 |
 | `wide_spread` | 264 |
-| `loose_mirror_sum` | 214 |
+| `loose_mirror_sum` | 216 |
 | `thin_player_history` | 112 |
 | `yes_on_challenger` | 2 |
 
@@ -106,6 +106,8 @@ _Generated 2026-07-15T22:05:29+00:00_
 | Sumit Nagal vs Juan Bautista Torres | Cordenons | 2026-07-15 | 0.61 / 0.60 | `below_min_edge` | best_edge=0.026 on YES @ theo=0.426 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15nagtor) |
 | Juan Bautista Torres vs Sumit Nagal | Cordenons | 2026-07-15 | 0.40 / 0.38 | `below_min_edge` | best_edge=0.026 on YES @ theo=0.426 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15nagtor) |
 | Sumit Nagal vs Juan Bautista Torres | Cordenons | 2026-07-15 | 0.62 / 0.60 | `below_min_edge` | best_edge=0.026 on YES @ theo=0.426 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15nagtor) |
+| Juan Bautista Torres vs Sumit Nagal | Cordenons | 2026-07-15 | 0.41 / 0.39 | `below_min_edge` | best_edge=0.016 on YES @ theo=0.426 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15nagtor) |
+| Sumit Nagal vs Juan Bautista Torres | Cordenons | 2026-07-15 | 0.62 / 0.61 | `below_min_edge` | best_edge=0.016 on YES @ theo=0.426 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15nagtor) |
 | Santiago De La Fuente vs Hugo Dellien | Cordoba | 2026-05-11 | 0.25 / 0.24 | `below_min_edge` | best_edge=-0.004 on NO @ theo=0.756 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may11dlfdev) |
 | Murkel Dellien vs Santiago De La Fuente | Cordoba | 2026-05-11 | 0.77 / 0.75 | `below_min_edge` | best_edge=-0.004 on NO @ theo=0.756 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may11dlfdev) |
 | Lorenzo Joaquin Rodriguez vs Guido Ivan Justo | Cordoba | 2026-05-12 | 0.46 / 0.43 | `below_min_edge` | best_edge=0.012 on YES @ theo=0.472 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12jusrod) |
@@ -810,6 +812,8 @@ _Generated 2026-07-15T22:05:29+00:00_
 | Alex Barrena vs Stefano Napolitano | Cordenons | 2026-07-15 | 0.50 / 0.47 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL15NAPBAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15napbar) |
 | Stefano Napolitano vs Alex Barrena | Cordenons | 2026-07-15 | 0.52 / 0.50 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL15NAPBAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15napbar) |
 | Alex Barrena vs Stefano Napolitano | Cordenons | 2026-07-15 | 0.49 / 0.47 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL15NAPBAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15napbar) |
+| Stefano Napolitano vs Alex Barrena | Cordenons | 2026-07-15 | 0.54 / 0.52 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL15NAPBAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15napbar) |
+| Alex Barrena vs Stefano Napolitano | Cordenons | 2026-07-15 | 0.48 / 0.46 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL15NAPBAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15napbar) |
 | Pedro Sakamoto vs Franco Roncadelli | Cordoba | 2026-05-12 | 0.26 / 0.25 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12RONSAK | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12ronsak) |
 | Franco Roncadelli vs Pedro Sakamoto | Cordoba | 2026-05-12 | 0.77 / 0.74 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12RONSAK | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12ronsak) |
 | Juan Bautista Torres vs Bruno Fernandez | Cordoba | 2026-05-12 | 0.86 / 0.84 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12TORFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12torfer) |
@@ -2147,6 +2151,8 @@ _Generated 2026-07-15T22:05:29+00:00_
 | Justin Boulais vs Zhizhen Zhang | Granby | 2026-07-13 | 0.25 / 0.24 | `loose_mirror_sum` | yes_ask_a=0.78 + yes_ask_b=0.25 = 1.030 (dev 0.030 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13bouzha) |
 | Garrett Johns vs Daniil Glinka | Granby | 2026-07-14 | 0.39 / 0.38 | `loose_mirror_sum` | yes_ask_a=0.39 + yes_ask_b=0.65 = 1.040 (dev 0.040 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14glijoh) |
 | Daniil Glinka vs Garrett Johns | Granby | 2026-07-14 | 0.65 / 0.62 | `loose_mirror_sum` | yes_ask_a=0.39 + yes_ask_b=0.65 = 1.040 (dev 0.040 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14glijoh) |
+| Murphy Cassone vs Blaise Bicknell | Granby | 2026-07-16 | 0.71 / 0.68 | `loose_mirror_sum` | yes_ask_a=0.71 + yes_ask_b=0.32 = 1.030 (dev 0.030 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16biccas) |
+| Blaise Bicknell vs Murphy Cassone | Granby | 2026-07-16 | 0.32 / 0.30 | `loose_mirror_sum` | yes_ask_a=0.71 + yes_ask_b=0.32 = 1.030 (dev 0.030 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16biccas) |
 | Mathys Erhard vs Titouan Droguet | Iasi | 2026-07-07 | 0.23 / 0.20 | `loose_mirror_sum` | yes_ask_a=0.23 + yes_ask_b=0.80 = 1.030 (dev 0.030 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07droerh) |
 | Titouan Droguet vs Mathys Erhard | Iasi | 2026-07-07 | 0.80 / 0.77 | `loose_mirror_sum` | yes_ask_a=0.23 + yes_ask_b=0.80 = 1.030 (dev 0.030 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07droerh) |
 | Henrique Rocha vs Charles Broom | Ilkley | 2026-06-09 | 0.40 / 0.39 | `loose_mirror_sum` | yes_ask_a=0.40 + yes_ask_b=0.64 = 1.040 (dev 0.040 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun09rocbro) |
@@ -2616,6 +2622,10 @@ _Generated 2026-07-15T22:05:29+00:00_
 | Kimmer Coppejans vs Louis Wessels | Bunschoten | 2026-07-15 | 0.83 / 0.82 | `low_player_coverage` | cov_a=4 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15wescop) |
 | Louis Wessels vs Kimmer Coppejans | Bunschoten | 2026-07-15 | 0.18 / 0.17 | `low_player_coverage` | cov_a=4 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15wescop) |
 | Kimmer Coppejans vs Louis Wessels | Bunschoten | 2026-07-15 | 0.83 / 0.82 | `low_player_coverage` | cov_a=4 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15wescop) |
+| Niels Visker vs Ryan Nijboer | Bunschoten | 2026-07-16 | 0.42 / 0.41 | `low_player_coverage` | cov_a=16 cov_b=7 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16visnij) |
+| Ryan Nijboer vs Niels Visker | Bunschoten | 2026-07-16 | 0.59 / 0.58 | `low_player_coverage` | cov_a=16 cov_b=7 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16visnij) |
+| Jan Kumstat vs Florian Broska | Bunschoten | 2026-07-16 | 0.51 / 0.50 | `low_player_coverage` | cov_a=6 cov_b=12 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16kumbro) |
+| Florian Broska vs Jan Kumstat | Bunschoten | 2026-07-16 | 0.51 / 0.50 | `low_player_coverage` | cov_a=6 cov_b=12 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16kumbro) |
 | Alex Marti Pujolras vs Abel Forger | Bunschoten Qualification | 2026-07-12 | 0.01 / 0.00 | `low_player_coverage` | cov_a=4 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12marfor) |
 | Mika Petkovic vs Jesper de Jong | Bunschoten Qualification | 2026-07-13 | 0.58 / 0.53 | `low_player_coverage` | cov_a=4 cov_b=45 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13jonpet) |
 | Sander Jong vs Mika Petkovic | Bunschoten Qualification | 2026-07-13 | 0.46 / 0.42 | `low_player_coverage` | cov_a=4 cov_b=45 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13jonpet) |
@@ -2925,6 +2935,8 @@ _Generated 2026-07-15T22:05:29+00:00_
 | Peter Makk vs Thiago Seyboth Wild | Cordenons | 2026-07-14 | 0.30 / 0.27 | `low_player_coverage` | cov_a=30 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14maksey) |
 | Lorenzo Angelini vs Max Alcala Gurri | Cordenons | 2026-07-16 | 0.19 / 0.16 | `low_player_coverage` | cov_a=4 cov_b=27 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16alcang) |
 | Max Alcala Gurri vs Lorenzo Angelini | Cordenons | 2026-07-16 | 0.84 / 0.81 | `low_player_coverage` | cov_a=4 cov_b=27 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16alcang) |
+| Lorenzo Angelini vs Max Alcala Gurri | Cordenons | 2026-07-16 | 0.19 / 0.18 | `low_player_coverage` | cov_a=4 cov_b=27 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16alcang) |
+| Max Alcala Gurri vs Lorenzo Angelini | Cordenons | 2026-07-16 | 0.82 / 0.81 | `low_player_coverage` | cov_a=4 cov_b=27 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16alcang) |
 | Matyas Fuele vs Alexandr Binda | Cordenons Qualification | 2026-07-13 | 0.58 / 0.50 | `low_player_coverage` | cov_a=0 cov_b=23 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13binfue) |
 | Alexandr Binda vs Matyas Fuele | Cordenons Qualification | 2026-07-13 | 0.47 / 0.42 | `low_player_coverage` | cov_a=0 cov_b=23 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13binfue) |
 | Samuel Vincent Ruggeri vs Fausto Tabacco | Cordenons Qualification | 2026-07-13 | 0.50 / 0.45 | `low_player_coverage` | cov_a=0 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13tabvin) |
@@ -5472,6 +5484,7 @@ _Generated 2026-07-15T22:05:29+00:00_
 | Niels Visker vs Barrios Vera | Bunschoten | 2026-07-12 | 0.16 / 0.15 | `missing_player_id` | player_a_id='V0D0', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12barvis) |
 | Marcelo Tomas Barrios Vera vs Niels Visker | Bunschoten | 2026-07-12 | 0.85 / 0.84 | `missing_player_id` | player_a_id=nan, player_b_id='V0D0' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12barvis) |
 | Hynek Barton vs Reis Da Silva | Bunschoten | 2026-07-12 | 0.64 / 0.62 | `missing_player_id` | player_a_id='B0OU', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12barrei) |
+| Hynek Barton vs Den Ouden | Bunschoten | 2026-07-16 | 0.44 / 0.43 | `missing_player_id` | player_a_id='B0OU', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16denbar) |
 | Louis Wessels vs Paardekooper | Bunschoten Qualification | 2026-07-12 | 0.87 / 0.86 | `missing_player_id` | player_a_id='WB25', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12wespaa) |
 | Stijn Paardekooper vs Louis Wessels | Bunschoten Qualification | 2026-07-12 | 0.14 / 0.12 | `missing_player_id` | player_a_id=nan, player_b_id='WB25' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12wespaa) |
 | Abel Forger vs Marti Pujolras | Bunschoten Qualification | 2026-07-12 | 1.00 / 0.99 | `missing_player_id` | player_a_id='F0GS', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12marfor) |
@@ -5858,6 +5871,7 @@ _Generated 2026-07-15T22:05:29+00:00_
 | Andrej Nedic vs Dalla Valle | Cordenons | 2026-07-14 | 0.47 / 0.46 | `missing_player_id` | player_a_id='N0DB', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14neddal) |
 | Andrej Nedic vs Dalla Valle | Cordenons | 2026-07-14 | 0.47 / 0.46 | `missing_player_id` | player_a_id='N0DB', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14neddal) |
 | Andrej Nedic vs Dalla Valle | Cordenons | 2026-07-14 | 0.40 / 0.39 | `missing_player_id` | player_a_id='N0DB', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14neddal) |
+| Hugo Dellien vs Dalla Valle | Cordenons | 2026-07-16 | 0.62 / 0.61 | `missing_player_id` | player_a_id='DA31', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16deldal) |
 | Daniel Salazar Martinez vs Georgii Kravchenko | Cordenons Qualification | 2026-07-13 | 0.25 / 0.16 | `missing_player_id` | player_a_id=nan, player_b_id='K0BJ' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13krasal) |
 | Georgii Kravchenko vs Salazar Martinez | Cordenons Qualification | 2026-07-13 | 0.84 / 0.74 | `missing_player_id` | player_a_id='K0BJ', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13krasal) |
 | Oleg Prihodko vs Crivellaro | Cordenons Qualification | 2026-07-13 | 0.92 / 0.90 | `missing_player_id` | player_a_id='PL64', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13pricri) |
@@ -7574,6 +7588,7 @@ _Generated 2026-07-15T22:05:29+00:00_
 | Max Houkes vs Max Schoenhaus | Bunschoten | 2026-07-15 | 0.41 / 0.40 | `thin_tournament_history` | 'Bunschoten' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15schhou) |
 | Max Schoenhaus vs Max Houkes | Bunschoten | 2026-07-15 | 0.67 / 0.66 | `thin_tournament_history` | 'Bunschoten' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15schhou) |
 | Max Houkes vs Max Schoenhaus | Bunschoten | 2026-07-15 | 0.34 / 0.33 | `thin_tournament_history` | 'Bunschoten' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15schhou) |
+| Guy Den Ouden vs Hynek Barton | Bunschoten | 2026-07-16 | 0.57 / 0.56 | `thin_tournament_history` | 'Bunschoten' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16denbar) |
 | Luca Nardi vs Hugo Grenier | Chisinau | 2026-05-25 | 0.80 / 0.78 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25grenar) |
 | Hugo Grenier vs Luca Nardi | Chisinau | 2026-05-25 | 0.22 / 0.20 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25grenar) |
 | Elias Ymer vs Saba Purtseladze | Chisinau | 2026-05-25 | 0.85 / 0.81 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25ymepur) |
@@ -9983,6 +9998,8 @@ _Generated 2026-07-15T22:05:29+00:00_
 | Mitchell Krueger vs Mark Lajal | Lincoln (NE) | 2026-07-16 | 0.33 / 0.31 | `tournament_not_in_tml` | tournament='Lincoln (NE)' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15lajkru) |
 | Yunchaokete Bu vs Tung-Lin Wu | Lincoln (NE) | 2026-07-15 | 0.43 / 0.41 | `tournament_not_in_tml` | tournament='Lincoln (NE)' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15yibyun) |
 | Yibing Wu vs Yunchaokete Bu | Lincoln (NE) | 2026-07-15 | 0.58 / 0.57 | `tournament_not_in_tml` | tournament='Lincoln (NE)' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15yibyun) |
+| Yunchaokete Bu vs Tung-Lin Wu | Lincoln (NE) | 2026-07-15 | 0.43 / 0.41 | `tournament_not_in_tml` | tournament='Lincoln (NE)' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15yibyun) |
+| Yibing Wu vs Yunchaokete Bu | Lincoln (NE) | 2026-07-15 | 0.59 / 0.58 | `tournament_not_in_tml` | tournament='Lincoln (NE)' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15yibyun) |
 | Evan Zhu vs Ajeet Rai | Lincoln (NE) Qualification | 2026-07-13 | 0.59 / 0.49 | `tournament_not_in_tml` | tournament='Lincoln (NE) Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12raizhu) |
 | Ajeet Rai vs Evan Zhu | Lincoln (NE) Qualification | 2026-07-13 | 0.51 / 0.41 | `tournament_not_in_tml` | tournament='Lincoln (NE) Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12raizhu) |
 | Dhakshineswar Suresh vs Ronald Hohmann | Lincoln (NE) Qualification | 2026-07-12 | 0.86 / 0.85 | `tournament_not_in_tml` | tournament='Lincoln (NE) Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12hohsur) |
