@@ -1,12 +1,14 @@
-# Settled paper bets (461)
+# Settled paper bets (463)
 
-_Generated 2026-07-16T11:06:23+00:00_
+_Generated 2026-07-16T13:54:46+00:00_
 
-**Wins:** 147 / 461  (31.9%)  
-**Net PnL (per contract):** -24.288
+**Wins:** 149 / 463  (32.2%)  
+**Net PnL (per contract):** -23.343
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Stefano Napolitano (YES) vs Alex Barrena | Cordenons | 2026-07-15 | YES Stefano Napolitano | 0.58 | 0.664 | ✓ | +0.403 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15napbar) |
+| Franco Roncadelli (YES) vs Maxim Mrva | Cordenons | 2026-07-16 | YES Franco Roncadelli | 0.44 | 0.586 | ✓ | +0.543 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16mrvron) |
 | Tyler Zink (YES) vs Alexis Galarneau | Granby | 2026-07-15 | YES Tyler Zink | 0.28 | 0.382 | ✗ | -0.294 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15zingal) |
 | James Trotter (YES) vs Liam Draxl | Granby | 2026-07-15 | YES James Trotter | 0.25 | 0.448 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14dratro) |
 | Justin Boulais (YES) vs Yuta Shimizu | Granby | 2026-07-15 | YES Justin Boulais | 0.42 | 0.475 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15shibou) |
