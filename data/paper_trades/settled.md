@@ -1,12 +1,13 @@
-# Settled paper bets (463)
+# Settled paper bets (464)
 
-_Generated 2026-07-16T13:54:46+00:00_
+_Generated 2026-07-16T16:21:39+00:00_
 
-**Wins:** 149 / 463  (32.2%)  
-**Net PnL (per contract):** -23.343
+**Wins:** 149 / 464  (32.1%)  
+**Net PnL (per contract):** -23.554
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Juan Bautista Torres (YES) vs Sumit Nagal | Cordenons | 2026-07-15 | YES Juan Bautista Torres | 0.20 | 0.426 | ✗ | -0.211 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15nagtor) |
 | Stefano Napolitano (YES) vs Alex Barrena | Cordenons | 2026-07-15 | YES Stefano Napolitano | 0.58 | 0.664 | ✓ | +0.403 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15napbar) |
 | Franco Roncadelli (YES) vs Maxim Mrva | Cordenons | 2026-07-16 | YES Franco Roncadelli | 0.44 | 0.586 | ✓ | +0.543 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16mrvron) |
 | Tyler Zink (YES) vs Alexis Galarneau | Granby | 2026-07-15 | YES Tyler Zink | 0.28 | 0.382 | ✗ | -0.294 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15zingal) |
