@@ -1,12 +1,14 @@
-# Settled paper bets (466)
+# Settled paper bets (468)
 
-_Generated 2026-07-16T19:16:14+00:00_
+_Generated 2026-07-16T22:09:40+00:00_
 
-**Wins:** 149 / 466  (32.0%)  
-**Net PnL (per contract):** -24.296
+**Wins:** 149 / 468  (31.8%)  
+**Net PnL (per contract):** -25.319
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Daniil Glinka (YES) vs Philip Sekulic | Granby | 2026-07-16 | YES Daniil Glinka | 0.61 | 0.673 | ✗ | -0.627 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16glisek) |
+| Antoine Ghibaudo (YES) vs Dan Added | Pozoblanco | 2026-07-16 | YES Antoine Ghibaudo | 0.38 | 0.514 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16addghi) |
 | Enrico Dalla Valle (YES) vs Hugo Dellien | Cordenons | 2026-07-16 | YES Enrico Dalla Valle | 0.40 | 0.495 | ✗ | -0.417 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16deldal) |
 | Blaise Bicknell (YES) vs Murphy Cassone | Granby | 2026-07-16 | YES Blaise Bicknell | 0.31 | 0.446 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16biccas) |
 | Juan Bautista Torres (YES) vs Sumit Nagal | Cordenons | 2026-07-15 | YES Juan Bautista Torres | 0.20 | 0.426 | ✗ | -0.211 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15nagtor) |
