@@ -1,12 +1,13 @@
-# Settled paper bets (470)
+# Settled paper bets (471)
 
-_Generated 2026-07-17T13:43:58+00:00_
+_Generated 2026-07-17T16:20:24+00:00_
 
-**Wins:** 149 / 470  (31.7%)  
-**Net PnL (per contract):** -25.989
+**Wins:** 149 / 471  (31.6%)  
+**Net PnL (per contract):** -26.566
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Sumit Nagal (YES) vs Federico Bondioli | Cordenons | 2026-07-17 | YES Sumit Nagal | 0.56 | 0.614 | ✗ | -0.577 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17nagbon) |
 | Franco Roncadelli (YES) vs Max Alcala Gurri | Cordenons | 2026-07-17 | YES Franco Roncadelli | 0.31 | 0.393 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17alcron) |
 | Daniel Milavsky (NO) vs Liam Draxl | Granby | 2026-07-16 | NO Daniel Milavsky | 0.33 | 0.451 | ✗ | -0.345 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16dramil) |
 | Daniil Glinka (YES) vs Philip Sekulic | Granby | 2026-07-16 | YES Daniil Glinka | 0.61 | 0.673 | ✗ | -0.627 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16glisek) |
