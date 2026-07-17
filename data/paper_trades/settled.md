@@ -1,12 +1,13 @@
-# Settled paper bets (469)
+# Settled paper bets (470)
 
-_Generated 2026-07-17T10:53:01+00:00_
+_Generated 2026-07-17T13:43:58+00:00_
 
-**Wins:** 149 / 469  (31.8%)  
-**Net PnL (per contract):** -25.664
+**Wins:** 149 / 470  (31.7%)  
+**Net PnL (per contract):** -25.989
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Franco Roncadelli (YES) vs Max Alcala Gurri | Cordenons | 2026-07-17 | YES Franco Roncadelli | 0.31 | 0.393 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17alcron) |
 | Daniel Milavsky (NO) vs Liam Draxl | Granby | 2026-07-16 | NO Daniel Milavsky | 0.33 | 0.451 | ✗ | -0.345 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16dramil) |
 | Daniil Glinka (YES) vs Philip Sekulic | Granby | 2026-07-16 | YES Daniil Glinka | 0.61 | 0.673 | ✗ | -0.627 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16glisek) |
 | Antoine Ghibaudo (YES) vs Dan Added | Pozoblanco | 2026-07-16 | YES Antoine Ghibaudo | 0.38 | 0.514 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16addghi) |
