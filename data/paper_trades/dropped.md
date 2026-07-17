@@ -1,17 +1,17 @@
-# Dropped markets (10792)
+# Dropped markets (10808)
 
-_Generated 2026-07-17T02:44:15+00:00_
+_Generated 2026-07-17T05:48:58+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `low_player_coverage` | 2813 |
+| `low_player_coverage` | 2820 |
 | `tournament_not_in_tml` | 2364 |
-| `missing_player_id` | 1996 |
-| `duplicate_match` | 1615 |
-| `thin_tournament_history` | 848 |
-| `below_min_edge` | 562 |
+| `missing_player_id` | 1997 |
+| `duplicate_match` | 1617 |
+| `thin_tournament_history` | 852 |
+| `below_min_edge` | 564 |
 | `wide_spread` | 264 |
 | `loose_mirror_sum` | 216 |
 | `thin_player_history` | 112 |
@@ -118,6 +118,8 @@ _Generated 2026-07-17T02:44:15+00:00_
 | Stefano Napolitano vs Gonzalo Villanueva | Cordenons | 2026-07-17 | 0.60 / 0.59 | `below_min_edge` | best_edge=0.010 on YES @ theo=0.610 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17napvil) |
 | Sumit Nagal vs Federico Bondioli | Cordenons | 2026-07-17 | 0.57 / 0.56 | `below_min_edge` | best_edge=0.044 on YES @ theo=0.614 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17nagbon) |
 | Federico Bondioli vs Sumit Nagal | Cordenons | 2026-07-17 | 0.45 / 0.44 | `below_min_edge` | best_edge=0.044 on YES @ theo=0.614 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17nagbon) |
+| Gonzalo Villanueva vs Stefano Napolitano | Cordenons | 2026-07-17 | 0.41 / 0.39 | `below_min_edge` | best_edge=0.009 on YES @ theo=0.419 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17napvil) |
+| Stefano Napolitano vs Gonzalo Villanueva | Cordenons | 2026-07-17 | 0.61 / 0.59 | `below_min_edge` | best_edge=0.009 on YES @ theo=0.419 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17napvil) |
 | Santiago De La Fuente vs Hugo Dellien | Cordoba | 2026-05-11 | 0.25 / 0.24 | `below_min_edge` | best_edge=-0.004 on NO @ theo=0.756 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may11dlfdev) |
 | Murkel Dellien vs Santiago De La Fuente | Cordoba | 2026-05-11 | 0.77 / 0.75 | `below_min_edge` | best_edge=-0.004 on NO @ theo=0.756 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may11dlfdev) |
 | Lorenzo Joaquin Rodriguez vs Guido Ivan Justo | Cordoba | 2026-05-12 | 0.46 / 0.43 | `below_min_edge` | best_edge=0.012 on YES @ theo=0.472 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12jusrod) |
@@ -861,6 +863,8 @@ _Generated 2026-07-17T02:44:15+00:00_
 | Alex Barrena vs Stefano Napolitano | Cordenons | 2026-07-15 | 0.01 / 0.00 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL15NAPBAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul15napbar) |
 | Enrico Dalla Valle vs Hugo Dellien | Cordenons | 2026-07-16 | 0.42 / 0.41 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL16DELDAL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16deldal) |
 | Enrico Dalla Valle vs Hugo Dellien | Cordenons | 2026-07-16 | 0.31 / 0.30 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL16DELDAL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16deldal) |
+| Franco Roncadelli vs Max Alcala Gurri | Cordenons | 2026-07-17 | 0.31 / 0.29 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL17ALCRON | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17alcron) |
+| Max Alcala Gurri vs Franco Roncadelli | Cordenons | 2026-07-17 | 0.70 / 0.69 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL17ALCRON | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17alcron) |
 | Pedro Sakamoto vs Franco Roncadelli | Cordoba | 2026-05-12 | 0.26 / 0.25 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12RONSAK | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12ronsak) |
 | Franco Roncadelli vs Pedro Sakamoto | Cordoba | 2026-05-12 | 0.77 / 0.74 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12RONSAK | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12ronsak) |
 | Juan Bautista Torres vs Bruno Fernandez | Cordoba | 2026-05-12 | 0.86 / 0.84 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12TORFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12torfer) |
@@ -2725,6 +2729,9 @@ _Generated 2026-07-17T02:44:15+00:00_
 | Jan Kumstat vs Thijs Boogaard | Bunschoten | 2026-07-17 | 0.53 / 0.52 | `low_player_coverage` | cov_a=6 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17kumboo) |
 | Thijs Boogaard vs Jan Kumstat | Bunschoten | 2026-07-17 | 0.48 / 0.47 | `low_player_coverage` | cov_a=6 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17kumboo) |
 | Guy Den Ouden vs Ryan Nijboer | Bunschoten | 2026-07-17 | 0.78 / 0.77 | `low_player_coverage` | cov_a=34 cov_b=7 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17nijden) |
+| Jan Kumstat vs Thijs Boogaard | Bunschoten | 2026-07-17 | 0.54 / 0.53 | `low_player_coverage` | cov_a=6 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17kumboo) |
+| Thijs Boogaard vs Jan Kumstat | Bunschoten | 2026-07-17 | 0.48 / 0.47 | `low_player_coverage` | cov_a=6 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17kumboo) |
+| Guy Den Ouden vs Ryan Nijboer | Bunschoten | 2026-07-17 | 0.80 / 0.78 | `low_player_coverage` | cov_a=34 cov_b=7 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17nijden) |
 | Alex Marti Pujolras vs Abel Forger | Bunschoten Qualification | 2026-07-12 | 0.01 / 0.00 | `low_player_coverage` | cov_a=4 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12marfor) |
 | Mika Petkovic vs Jesper de Jong | Bunschoten Qualification | 2026-07-13 | 0.58 / 0.53 | `low_player_coverage` | cov_a=4 cov_b=45 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13jonpet) |
 | Sander Jong vs Mika Petkovic | Bunschoten Qualification | 2026-07-13 | 0.46 / 0.42 | `low_player_coverage` | cov_a=4 cov_b=45 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13jonpet) |
@@ -3052,6 +3059,8 @@ _Generated 2026-07-17T02:44:15+00:00_
 | Matyas Fuele vs Thiago Seyboth Wild | Cordenons | 2026-07-16 | 0.16 / 0.15 | `low_player_coverage` | cov_a=30 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16fuesey) |
 | Thiago Seyboth Wild vs Matyas Fuele | Cordenons | 2026-07-16 | 0.21 / 0.19 | `low_player_coverage` | cov_a=30 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16fuesey) |
 | Matyas Fuele vs Thiago Seyboth Wild | Cordenons | 2026-07-16 | 0.81 / 0.79 | `low_player_coverage` | cov_a=30 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16fuesey) |
+| Matyas Fuele vs Hugo Dellien | Cordenons | 2026-07-17 | 0.12 / 0.11 | `low_player_coverage` | cov_a=0 cov_b=42 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17delfue) |
+| Hugo Dellien vs Matyas Fuele | Cordenons | 2026-07-17 | 0.89 / 0.87 | `low_player_coverage` | cov_a=0 cov_b=42 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17delfue) |
 | Matyas Fuele vs Alexandr Binda | Cordenons Qualification | 2026-07-13 | 0.58 / 0.50 | `low_player_coverage` | cov_a=0 cov_b=23 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13binfue) |
 | Alexandr Binda vs Matyas Fuele | Cordenons Qualification | 2026-07-13 | 0.47 / 0.42 | `low_player_coverage` | cov_a=0 cov_b=23 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13binfue) |
 | Samuel Vincent Ruggeri vs Fausto Tabacco | Cordenons Qualification | 2026-07-13 | 0.50 / 0.45 | `low_player_coverage` | cov_a=0 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13tabvin) |
@@ -4413,6 +4422,8 @@ _Generated 2026-07-17T02:44:15+00:00_
 | Izan Almazan Valiente vs Dominik Palan | Pozoblanco | 2026-07-16 | 0.74 / 0.71 | `low_player_coverage` | cov_a=10 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16palalm) |
 | Dominik Palan vs Izan Almazan Valiente | Pozoblanco | 2026-07-16 | 0.35 / 0.34 | `low_player_coverage` | cov_a=10 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16palalm) |
 | Izan Almazan Valiente vs Dominik Palan | Pozoblanco | 2026-07-16 | 0.66 / 0.65 | `low_player_coverage` | cov_a=10 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16palalm) |
+| Alejo Sanchez Quilez vs Jose Pereira | Pozoblanco | 2026-07-17 | 0.59 / 0.57 | `low_player_coverage` | cov_a=13 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17persan) |
+| Tiago Pereira vs Alejo Sanchez Quilez | Pozoblanco | 2026-07-17 | 0.43 / 0.41 | `low_player_coverage` | cov_a=13 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17persan) |
 | Iliyan Radulov vs Sergio Callejon Hernando | Pozoblanco Qualification | 2026-07-12 | 0.42 / 0.40 | `low_player_coverage` | cov_a=1 cov_b=11 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12calrad) |
 | Sergio Callejon Hernando vs Iliyan Radulov | Pozoblanco Qualification | 2026-07-12 | 0.61 / 0.59 | `low_player_coverage` | cov_a=1 cov_b=11 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12calrad) |
 | Mitsuki Wei Kang Leong vs Arda Azkara | Pozoblanco Qualification | 2026-07-12 | 0.48 / 0.47 | `low_player_coverage` | cov_a=12 cov_b=9 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12azkleo) |
@@ -5641,6 +5652,7 @@ _Generated 2026-07-17T02:44:15+00:00_
 | Thijs Boogaard vs Campana Lee | Bunschoten | 2026-07-16 | 0.60 / 0.59 | `missing_player_id` | player_a_id='B0T6', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16camboo) |
 | Thijs Boogaard vs Campana Lee | Bunschoten | 2026-07-16 | 0.80 / 0.79 | `missing_player_id` | player_a_id='B0T6', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul16camboo) |
 | Ryan Nijboer vs Den Ouden | Bunschoten | 2026-07-17 | 0.24 / 0.22 | `missing_player_id` | player_a_id='N0B4', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17nijden) |
+| Ryan Nijboer vs Den Ouden | Bunschoten | 2026-07-17 | 0.22 / 0.21 | `missing_player_id` | player_a_id='N0B4', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17nijden) |
 | Louis Wessels vs Paardekooper | Bunschoten Qualification | 2026-07-12 | 0.87 / 0.86 | `missing_player_id` | player_a_id='WB25', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12wespaa) |
 | Stijn Paardekooper vs Louis Wessels | Bunschoten Qualification | 2026-07-12 | 0.14 / 0.12 | `missing_player_id` | player_a_id=nan, player_b_id='WB25' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12wespaa) |
 | Abel Forger vs Marti Pujolras | Bunschoten Qualification | 2026-07-12 | 1.00 / 0.99 | `missing_player_id` | player_a_id='F0GS', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12marfor) |
@@ -7757,6 +7769,10 @@ _Generated 2026-07-17T02:44:15+00:00_
 | Kimmer Coppejans vs Daniel Elahi Galan | Bunschoten | 2026-07-17 | 0.58 / 0.56 | `thin_tournament_history` | 'Bunschoten' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17galcop) |
 | Daniel Elahi Galan vs Kimmer Coppejans | Bunschoten | 2026-07-17 | 0.44 / 0.42 | `thin_tournament_history` | 'Bunschoten' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17galcop) |
 | Kimmer Coppejans vs Daniel Elahi Galan | Bunschoten | 2026-07-17 | 0.58 / 0.56 | `thin_tournament_history` | 'Bunschoten' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17galcop) |
+| Max Houkes vs Tom Gentzsch | Bunschoten | 2026-07-17 | 0.47 / 0.45 | `thin_tournament_history` | 'Bunschoten' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17genhou) |
+| Tom Gentzsch vs Max Houkes | Bunschoten | 2026-07-17 | 0.55 / 0.54 | `thin_tournament_history` | 'Bunschoten' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17genhou) |
+| Daniel Elahi Galan vs Kimmer Coppejans | Bunschoten | 2026-07-17 | 0.43 / 0.42 | `thin_tournament_history` | 'Bunschoten' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17galcop) |
+| Kimmer Coppejans vs Daniel Elahi Galan | Bunschoten | 2026-07-17 | 0.58 / 0.57 | `thin_tournament_history` | 'Bunschoten' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17galcop) |
 | Luca Nardi vs Hugo Grenier | Chisinau | 2026-05-25 | 0.80 / 0.78 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25grenar) |
 | Hugo Grenier vs Luca Nardi | Chisinau | 2026-05-25 | 0.22 / 0.20 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25grenar) |
 | Elias Ymer vs Saba Purtseladze | Chisinau | 2026-05-25 | 0.85 / 0.81 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25ymepur) |
