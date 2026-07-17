@@ -1,12 +1,14 @@
-# Settled paper bets (473)
+# Settled paper bets (475)
 
-_Generated 2026-07-17T19:13:50+00:00_
+_Generated 2026-07-17T22:00:35+00:00_
 
-**Wins:** 149 / 473  (31.5%)  
-**Net PnL (per contract):** -27.298
+**Wins:** 149 / 475  (31.4%)  
+**Net PnL (per contract):** -27.969
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Dan Added (NO) vs Ilya Ivashka | Pozoblanco | 2026-07-17 | NO Dan Added | 0.32 | 0.496 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17addiva) |
+| Oliver Crawford (YES) vs Chris Rodesch | Pozoblanco | 2026-07-17 | YES Oliver Crawford | 0.32 | 0.385 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17rodcra) |
 | Philip Sekulic (YES) vs Murphy Cassone | Granby | 2026-07-17 | YES Philip Sekulic | 0.39 | 0.448 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17sekcas) |
 | Stefano Napolitano (YES) vs Gonzalo Villanueva | Cordenons | 2026-07-17 | YES Stefano Napolitano | 0.31 | 0.610 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17napvil) |
 | Sumit Nagal (YES) vs Federico Bondioli | Cordenons | 2026-07-17 | YES Sumit Nagal | 0.56 | 0.614 | ✗ | -0.577 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17nagbon) |
