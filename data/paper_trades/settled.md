@@ -1,12 +1,13 @@
-# Settled paper bets (475)
+# Settled paper bets (476)
 
-_Generated 2026-07-18T16:03:36+00:00_
+_Generated 2026-07-18T19:08:46+00:00_
 
-**Wins:** 149 / 475  (31.4%)  
-**Net PnL (per contract):** -27.969
+**Wins:** 149 / 476  (31.3%)  
+**Net PnL (per contract):** -28.283
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Gonzalo Villanueva (YES) vs Max Alcala Gurri | Cordenons | 2026-07-18 | YES Gonzalo Villanueva | 0.30 | 0.365 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18alcvil) |
 | Dan Added (NO) vs Ilya Ivashka | Pozoblanco | 2026-07-17 | NO Dan Added | 0.32 | 0.496 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17addiva) |
 | Oliver Crawford (YES) vs Chris Rodesch | Pozoblanco | 2026-07-17 | YES Oliver Crawford | 0.32 | 0.385 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17rodcra) |
 | Philip Sekulic (YES) vs Murphy Cassone | Granby | 2026-07-17 | YES Philip Sekulic | 0.39 | 0.448 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17sekcas) |

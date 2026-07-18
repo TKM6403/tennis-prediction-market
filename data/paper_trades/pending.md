@@ -1,6 +1,6 @@
-# Pending paper bets (9)
+# Pending paper bets (8)
 
-_Generated 2026-07-18T16:03:36+00:00_
+_Generated 2026-07-18T19:08:46+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
@@ -12,4 +12,3 @@ _Generated 2026-07-18T16:03:36+00:00_
 | **August Holmgren** (YES) vs Aleksandar Vukic | Granby | 2026-07-18 | YES August Holmgren | 0.54 | 0.632 | +0.092 | 0.0174 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18vukhol) |
 | **Murphy Cassone** (YES) vs Arthur Gea | Granby | 2026-07-18 | YES Murphy Cassone | 0.33 | 0.404 | +0.074 | 0.0155 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18casgea) |
 | **Philip Sekulic** (YES) vs Mitchell Krueger | Little Rock | 2026-05-26 | YES Philip Sekulic | 0.38 | 0.450 | +0.070 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26sekkru) |
-| **Gonzalo Villanueva** (YES) vs Max Alcala Gurri | Cordenons | 2026-07-18 | YES Gonzalo Villanueva | 0.30 | 0.365 | +0.065 | 0.0147 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18alcvil) |
