@@ -1,12 +1,15 @@
-# Settled paper bets (476)
+# Settled paper bets (479)
 
-_Generated 2026-07-18T19:08:46+00:00_
+_Generated 2026-07-18T21:56:01+00:00_
 
-**Wins:** 149 / 476  (31.3%)  
-**Net PnL (per contract):** -28.283
+**Wins:** 150 / 479  (31.3%)  
+**Net PnL (per contract):** -28.586
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Ilya Ivashka (YES) vs Tiago Pereira | Pozoblanco | 2026-07-18 | YES Ilya Ivashka | 0.69 | 0.911 | ✓ | +0.295 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18periva) |
+| Akira Santillan (YES) vs Chris Rodesch | Pozoblanco | 2026-07-18 | YES Akira Santillan | 0.24 | 0.392 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18rodsan) |
+| Murphy Cassone (YES) vs Arthur Gea | Granby | 2026-07-18 | YES Murphy Cassone | 0.33 | 0.404 | ✗ | -0.345 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18casgea) |
 | Gonzalo Villanueva (YES) vs Max Alcala Gurri | Cordenons | 2026-07-18 | YES Gonzalo Villanueva | 0.30 | 0.365 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18alcvil) |
 | Dan Added (NO) vs Ilya Ivashka | Pozoblanco | 2026-07-17 | NO Dan Added | 0.32 | 0.496 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17addiva) |
 | Oliver Crawford (YES) vs Chris Rodesch | Pozoblanco | 2026-07-17 | YES Oliver Crawford | 0.32 | 0.385 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17rodcra) |
