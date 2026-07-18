@@ -1,16 +1,16 @@
-# Dropped markets (10962)
+# Dropped markets (10968)
 
-_Generated 2026-07-17T22:00:35+00:00_
+_Generated 2026-07-18T02:35:19+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `low_player_coverage` | 2858 |
-| `tournament_not_in_tml` | 2392 |
-| `missing_player_id` | 2003 |
+| `low_player_coverage` | 2860 |
+| `tournament_not_in_tml` | 2394 |
+| `missing_player_id` | 2004 |
 | `duplicate_match` | 1653 |
-| `thin_tournament_history` | 862 |
+| `thin_tournament_history` | 863 |
 | `below_min_edge` | 600 |
 | `wide_spread` | 264 |
 | `loose_mirror_sum` | 216 |
@@ -2812,6 +2812,8 @@ _Generated 2026-07-17T22:00:35+00:00_
 | Guy Den Ouden vs Ryan Nijboer | Bunschoten | 2026-07-17 | 0.83 / 0.82 | `low_player_coverage` | cov_a=34 cov_b=7 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17nijden) |
 | Jan Kumstat vs Thijs Boogaard | Bunschoten | 2026-07-17 | 0.88 / 0.87 | `low_player_coverage` | cov_a=6 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17kumboo) |
 | Thijs Boogaard vs Jan Kumstat | Bunschoten | 2026-07-17 | 0.13 / 0.12 | `low_player_coverage` | cov_a=6 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17kumboo) |
+| Jan Kumstat vs Tom Gentzsch | Bunschoten | 2026-07-18 | 0.45 / 0.44 | `low_player_coverage` | cov_a=6 cov_b=45 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18genkum) |
+| Tom Gentzsch vs Jan Kumstat | Bunschoten | 2026-07-18 | 0.56 / 0.55 | `low_player_coverage` | cov_a=6 cov_b=45 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18genkum) |
 | Alex Marti Pujolras vs Abel Forger | Bunschoten Qualification | 2026-07-12 | 0.01 / 0.00 | `low_player_coverage` | cov_a=4 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12marfor) |
 | Mika Petkovic vs Jesper de Jong | Bunschoten Qualification | 2026-07-13 | 0.58 / 0.53 | `low_player_coverage` | cov_a=4 cov_b=45 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13jonpet) |
 | Sander Jong vs Mika Petkovic | Bunschoten Qualification | 2026-07-13 | 0.46 / 0.42 | `low_player_coverage` | cov_a=4 cov_b=45 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13jonpet) |
@@ -5765,6 +5767,7 @@ _Generated 2026-07-17T22:00:35+00:00_
 | Ryan Nijboer vs Den Ouden | Bunschoten | 2026-07-17 | 0.22 / 0.21 | `missing_player_id` | player_a_id='N0B4', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17nijden) |
 | Ryan Nijboer vs Den Ouden | Bunschoten | 2026-07-17 | 0.21 / 0.20 | `missing_player_id` | player_a_id='N0B4', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17nijden) |
 | Ryan Nijboer vs Den Ouden | Bunschoten | 2026-07-17 | 0.19 / 0.18 | `missing_player_id` | player_a_id='N0B4', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17nijden) |
+| Kimmer Coppejans vs Den Ouden | Bunschoten | 2026-07-18 | 0.53 / 0.51 | `missing_player_id` | player_a_id='CG33', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18dencop) |
 | Louis Wessels vs Paardekooper | Bunschoten Qualification | 2026-07-12 | 0.87 / 0.86 | `missing_player_id` | player_a_id='WB25', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12wespaa) |
 | Stijn Paardekooper vs Louis Wessels | Bunschoten Qualification | 2026-07-12 | 0.14 / 0.12 | `missing_player_id` | player_a_id=nan, player_b_id='WB25' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12wespaa) |
 | Abel Forger vs Marti Pujolras | Bunschoten Qualification | 2026-07-12 | 1.00 / 0.99 | `missing_player_id` | player_a_id='F0GS', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12marfor) |
@@ -7899,6 +7902,7 @@ _Generated 2026-07-17T22:00:35+00:00_
 | Tom Gentzsch vs Max Houkes | Bunschoten | 2026-07-17 | 0.54 / 0.52 | `thin_tournament_history` | 'Bunschoten' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17genhou) |
 | Max Houkes vs Tom Gentzsch | Bunschoten | 2026-07-17 | 0.51 / 0.50 | `thin_tournament_history` | 'Bunschoten' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17genhou) |
 | Tom Gentzsch vs Max Houkes | Bunschoten | 2026-07-17 | 0.50 / 0.49 | `thin_tournament_history` | 'Bunschoten' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17genhou) |
+| Guy Den Ouden vs Kimmer Coppejans | Bunschoten | 2026-07-18 | 0.49 / 0.48 | `thin_tournament_history` | 'Bunschoten' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18dencop) |
 | Luca Nardi vs Hugo Grenier | Chisinau | 2026-05-25 | 0.80 / 0.78 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25grenar) |
 | Hugo Grenier vs Luca Nardi | Chisinau | 2026-05-25 | 0.22 / 0.20 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25grenar) |
 | Elias Ymer vs Saba Purtseladze | Chisinau | 2026-05-25 | 0.85 / 0.81 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25ymepur) |
@@ -10386,6 +10390,8 @@ _Generated 2026-07-17T22:00:35+00:00_
 | Mark Lajal vs Rio Noguchi | Lincoln (NE) | 2026-07-18 | 0.72 / 0.71 | `tournament_not_in_tml` | tournament='Lincoln (NE)' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17lajnog) |
 | Yunchaokete Bu vs Keegan Smith | Lincoln (NE) | 2026-07-18 | 0.64 / 0.63 | `tournament_not_in_tml` | tournament='Lincoln (NE)' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17smiyun) |
 | Colton Smith vs Yunchaokete Bu | Lincoln (NE) | 2026-07-18 | 0.38 / 0.37 | `tournament_not_in_tml` | tournament='Lincoln (NE)' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17smiyun) |
+| Bernard Tomic vs Matthew Forbes | Lincoln (NE) | 2026-07-18 | 0.65 / 0.64 | `tournament_not_in_tml` | tournament='Lincoln (NE)' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17fortom) |
+| Matthew Forbes vs Bernard Tomic | Lincoln (NE) | 2026-07-18 | 0.37 / 0.35 | `tournament_not_in_tml` | tournament='Lincoln (NE)' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul17fortom) |
 | Evan Zhu vs Ajeet Rai | Lincoln (NE) Qualification | 2026-07-13 | 0.59 / 0.49 | `tournament_not_in_tml` | tournament='Lincoln (NE) Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12raizhu) |
 | Ajeet Rai vs Evan Zhu | Lincoln (NE) Qualification | 2026-07-13 | 0.51 / 0.41 | `tournament_not_in_tml` | tournament='Lincoln (NE) Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12raizhu) |
 | Dhakshineswar Suresh vs Ronald Hohmann | Lincoln (NE) Qualification | 2026-07-12 | 0.86 / 0.85 | `tournament_not_in_tml` | tournament='Lincoln (NE) Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12hohsur) |
