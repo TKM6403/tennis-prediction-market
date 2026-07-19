@@ -1,12 +1,13 @@
-# Settled paper bets (479)
+# Settled paper bets (480)
 
-_Generated 2026-07-19T08:25:12+00:00_
+_Generated 2026-07-19T10:34:22+00:00_
 
-**Wins:** 150 / 479  (31.3%)  
-**Net PnL (per contract):** -28.586
+**Wins:** 151 / 480  (31.5%)  
+**Net PnL (per contract):** -27.860
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Alexander Donski (YES) vs Marko Topo | Zug Qualification | 2026-07-19 | YES Alexander Donski | 0.26 | 0.401 | ✓ | +0.727 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19dontop) |
 | Ilya Ivashka (YES) vs Tiago Pereira | Pozoblanco | 2026-07-18 | YES Ilya Ivashka | 0.69 | 0.911 | ✓ | +0.295 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18periva) |
 | Akira Santillan (YES) vs Chris Rodesch | Pozoblanco | 2026-07-18 | YES Akira Santillan | 0.24 | 0.392 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18rodsan) |
 | Murphy Cassone (YES) vs Arthur Gea | Granby | 2026-07-18 | YES Murphy Cassone | 0.33 | 0.404 | ✗ | -0.345 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18casgea) |
