@@ -1,12 +1,14 @@
-# Settled paper bets (482)
+# Settled paper bets (484)
 
-_Generated 2026-07-19T16:03:05+00:00_
+_Generated 2026-07-19T19:12:15+00:00_
 
-**Wins:** 152 / 482  (31.5%)  
-**Net PnL (per contract):** -27.703
+**Wins:** 152 / 484  (31.4%)  
+**Net PnL (per contract):** -28.687
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| August Holmgren (YES) vs Aleksandar Vukic | Granby | 2026-07-18 | YES August Holmgren | 0.54 | 0.632 | ✗ | -0.557 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18vukhol) |
+| Alexander Ritschard (YES) vs Norbert Gombos | Zug Qualification | 2026-07-19 | YES Alexander Ritschard | 0.41 | 0.534 | ✗ | -0.427 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19ritgom) |
 | Denis Yevseyev (YES) vs Dominic Stricker | Zug Qualification | 2026-07-19 | YES Denis Yevseyev | 0.13 | 0.457 | ✗ | -0.138 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19yevstr) |
 | Juan Pablo Varillas (YES) vs Gabi Adrian Boitan | Zug Qualification | 2026-07-19 | YES Juan Pablo Varillas | 0.69 | 0.758 | ✓ | +0.295 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19varboi) |
 | Alexander Donski (YES) vs Marko Topo | Zug Qualification | 2026-07-19 | YES Alexander Donski | 0.26 | 0.401 | ✓ | +0.727 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19dontop) |
