@@ -1,12 +1,13 @@
-# Settled paper bets (481)
+# Settled paper bets (482)
 
-_Generated 2026-07-19T13:22:41+00:00_
+_Generated 2026-07-19T16:03:05+00:00_
 
-**Wins:** 152 / 481  (31.6%)  
-**Net PnL (per contract):** -27.565
+**Wins:** 152 / 482  (31.5%)  
+**Net PnL (per contract):** -27.703
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Denis Yevseyev (YES) vs Dominic Stricker | Zug Qualification | 2026-07-19 | YES Denis Yevseyev | 0.13 | 0.457 | ✗ | -0.138 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19yevstr) |
 | Juan Pablo Varillas (YES) vs Gabi Adrian Boitan | Zug Qualification | 2026-07-19 | YES Juan Pablo Varillas | 0.69 | 0.758 | ✓ | +0.295 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19varboi) |
 | Alexander Donski (YES) vs Marko Topo | Zug Qualification | 2026-07-19 | YES Alexander Donski | 0.26 | 0.401 | ✓ | +0.727 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19dontop) |
 | Ilya Ivashka (YES) vs Tiago Pereira | Pozoblanco | 2026-07-18 | YES Ilya Ivashka | 0.69 | 0.911 | ✓ | +0.295 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18periva) |

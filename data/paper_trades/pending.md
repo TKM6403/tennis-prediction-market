@@ -1,10 +1,9 @@
-# Pending paper bets (8)
+# Pending paper bets (7)
 
-_Generated 2026-07-19T13:22:41+00:00_
+_Generated 2026-07-19T16:03:05+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
-| **Denis Yevseyev** (YES) vs Dominic Stricker | Zug Qualification | 2026-07-19 | YES Denis Yevseyev | 0.13 | 0.457 | +0.327 | 0.0079 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19yevstr) |
 | **Martin Krumich** (NO) vs Francisco Comesana | Braunschweig | 2026-07-07 | NO Martin Krumich | 0.26 | 0.540 | +0.280 | 0.0135 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07krucom) |
 | **Kaichi Uchida** (YES) vs James Trotter | Newport Qualification | 2026-07-05 | YES Kaichi Uchida | 0.31 | 0.511 | +0.201 | 0.0150 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05uchtro) |
 | **Alexander Ritschard** (YES) vs Norbert Gombos | Zug Qualification | 2026-07-19 | YES Alexander Ritschard | 0.41 | 0.534 | +0.124 | 0.0169 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19ritgom) |
