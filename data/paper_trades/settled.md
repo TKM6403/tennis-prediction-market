@@ -1,12 +1,14 @@
-# Settled paper bets (485)
+# Settled paper bets (487)
 
-_Generated 2026-07-20T06:28:20+00:00_
+_Generated 2026-07-20T11:51:30+00:00_
 
-**Wins:** 152 / 485  (31.3%)  
-**Net PnL (per contract):** -29.073
+**Wins:** 153 / 487  (31.4%)  
+**Net PnL (per contract):** -29.176
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Juan Pablo Varillas (YES) vs Alexander Donski | Zug Qualification | 2026-07-20 | YES Juan Pablo Varillas | 0.67 | 0.751 | ✗ | -0.685 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20vardon) |
+| Mika Brunold (YES) vs Mili Poljicak | Zug Qualification | 2026-07-20 | YES Mika Brunold | 0.40 | 0.474 | ✓ | +0.583 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20polbru) |
 | Ilya Ivashka (NO) vs Chris Rodesch | Pozoblanco | 2026-07-19 | NO Ilya Ivashka | 0.37 | 0.421 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19rodiva) |
 | August Holmgren (YES) vs Aleksandar Vukic | Granby | 2026-07-18 | YES August Holmgren | 0.54 | 0.632 | ✗ | -0.557 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18vukhol) |
 | Alexander Ritschard (YES) vs Norbert Gombos | Zug Qualification | 2026-07-19 | YES Alexander Ritschard | 0.41 | 0.534 | ✗ | -0.427 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19ritgom) |
