@@ -1,12 +1,14 @@
-# Settled paper bets (487)
+# Settled paper bets (489)
 
-_Generated 2026-07-20T11:51:30+00:00_
+_Generated 2026-07-20T14:10:48+00:00_
 
-**Wins:** 153 / 487  (31.4%)  
-**Net PnL (per contract):** -29.176
+**Wins:** 154 / 489  (31.5%)  
+**Net PnL (per contract):** -28.958
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Gilles Arnaud Bailly (YES) vs Daniel Elahi Galan | Tampere | 2026-07-20 | YES Gilles Arnaud Bailly | 0.40 | 0.609 | ✓ | +0.583 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20galarn) |
+| Juan Bautista Torres (YES) vs Dominic Stricker | Zug Qualification | 2026-07-20 | YES Juan Bautista Torres | 0.35 | 0.540 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20torstr) |
 | Juan Pablo Varillas (YES) vs Alexander Donski | Zug Qualification | 2026-07-20 | YES Juan Pablo Varillas | 0.67 | 0.751 | ✗ | -0.685 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20vardon) |
 | Mika Brunold (YES) vs Mili Poljicak | Zug Qualification | 2026-07-20 | YES Mika Brunold | 0.40 | 0.474 | ✓ | +0.583 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20polbru) |
 | Ilya Ivashka (NO) vs Chris Rodesch | Pozoblanco | 2026-07-19 | NO Ilya Ivashka | 0.37 | 0.421 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19rodiva) |
