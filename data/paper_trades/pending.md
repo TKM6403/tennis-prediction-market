@@ -1,6 +1,6 @@
-# Pending paper bets (13)
+# Pending paper bets (14)
 
-_Generated 2026-07-20T03:02:15+00:00_
+_Generated 2026-07-20T06:28:20+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
@@ -13,6 +13,7 @@ _Generated 2026-07-20T03:02:15+00:00_
 | **Stefano Napolitano** (YES) vs Zsombor Piros | Zug | 2026-07-20 | YES Stefano Napolitano | 0.22 | 0.394 | +0.174 | 0.0120 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20pirnap) |
 | **Inaki Montes-De La Torre** (YES) vs Hynek Barton | Tampere | 2026-07-20 | YES Inaki Montes-De La Torre | 0.46 | 0.582 | +0.122 | 0.0174 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20monbar) |
 | **Pablo Carreno Busta** (NO) vs Jaume Munar | Valencia | 2026-05-15 | NO Pablo Carreno Busta | 0.44 | 0.549 | +0.109 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15carmun) |
+| **Juan Pablo Ficovich** (YES) vs Mert Alkaya | Segovia | 2026-07-20 | YES Juan Pablo Ficovich | 0.47 | 0.569 | +0.099 | 0.0174 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20alkfic) |
 | **Juan Pablo Varillas** (YES) vs Alexander Donski | Zug Qualification | 2026-07-20 | YES Juan Pablo Varillas | 0.67 | 0.751 | +0.081 | 0.0155 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20vardon) |
 | **Mika Brunold** (YES) vs Mili Poljicak | Zug Qualification | 2026-07-20 | YES Mika Brunold | 0.40 | 0.474 | +0.074 | 0.0168 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20polbru) |
 | **Daniel Rincon** (YES) vs Thomas Faurel | Zug | 2026-07-20 | YES Daniel Rincon | 0.64 | 0.711 | +0.071 | 0.0161 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20faurin) |
