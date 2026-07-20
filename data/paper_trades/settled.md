@@ -1,12 +1,14 @@
-# Settled paper bets (494)
+# Settled paper bets (496)
 
-_Generated 2026-07-20T16:28:03+00:00_
+_Generated 2026-07-20T19:48:16+00:00_
 
-**Wins:** 154 / 494  (31.2%)  
-**Net PnL (per contract):** -30.785
+**Wins:** 155 / 496  (31.2%)  
+**Net PnL (per contract):** -30.693
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Daniel Rincon (YES) vs Thomas Faurel | Zug | 2026-07-20 | YES Daniel Rincon | 0.64 | 0.711 | ✓ | +0.344 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20faurin) |
+| Abdullah Shelbayh (YES) vs Michael Zheng | Bloomfield Hills | 2026-07-20 | YES Abdullah Shelbayh | 0.24 | 0.326 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20zheshe) |
 | Stefano Napolitano (YES) vs Zsombor Piros | Zug | 2026-07-20 | YES Stefano Napolitano | 0.22 | 0.394 | ✗ | -0.232 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20pirnap) |
 | Inaki Montes-De La Torre (YES) vs Hynek Barton | Tampere | 2026-07-20 | YES Inaki Montes-De La Torre | 0.46 | 0.582 | ✗ | -0.477 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20monbar) |
 | Duje Ajdukovic (YES) vs Gauthier Onclin | Tampere | 2026-07-20 | YES Duje Ajdukovic | 0.32 | 0.552 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20oncajd) |
