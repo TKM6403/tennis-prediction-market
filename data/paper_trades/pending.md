@@ -1,6 +1,6 @@
-# Pending paper bets (12)
+# Pending paper bets (10)
 
-_Generated 2026-07-20T19:48:16+00:00_
+_Generated 2026-07-20T22:04:39+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
@@ -8,11 +8,9 @@ _Generated 2026-07-20T19:48:16+00:00_
 | **Kaichi Uchida** (YES) vs James Trotter | Newport Qualification | 2026-07-05 | YES Kaichi Uchida | 0.31 | 0.511 | +0.201 | 0.0150 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05uchtro) |
 | **Cezar Cretu** (NO) vs Kimmer Coppejans | Zug | 2026-07-20 | NO Cezar Cretu | 0.38 | 0.561 | +0.181 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20crecop) |
 | **Tyler Zink** (YES) vs Zhizhen Zhang | Winnipeg | 2026-07-21 | YES Tyler Zink | 0.33 | 0.479 | +0.149 | 0.0155 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20zinzha) |
-| **Jay Clarke** (YES) vs Jerome Kym | Zug | 2026-07-20 | YES Jay Clarke | 0.26 | 0.400 | +0.140 | 0.0135 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20kymcla) |
-| **Blaise Bicknell** (YES) vs Adam Walton | Bloomfield Hills | 2026-07-20 | YES Blaise Bicknell | 0.16 | 0.281 | +0.121 | 0.0094 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20bicwal) |
+| **Alexander Donski** (YES) vs Max Hans Rehberg | Zug | 2026-07-21 | YES Alexander Donski | 0.22 | 0.367 | +0.147 | 0.0120 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21donreh) |
 | **Pablo Llamas Ruiz** (YES) vs Alexis Galarneau | Bloomfield Hills | 2026-07-20 | YES Pablo Llamas Ruiz | 0.46 | 0.579 | +0.119 | 0.0174 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20gallla) |
-| **Kokoro Isomura** (YES) vs James Trotter | Winnipeg Qualification | 2026-07-20 | YES Kokoro Isomura | 0.23 | 0.346 | +0.116 | 0.0124 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20troiso) |
+| **Akira Santillan** (YES) vs Alastair Gray | Segovia | 2026-07-21 | YES Akira Santillan | 0.35 | 0.464 | +0.114 | 0.0159 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21grasan) |
 | **Pablo Carreno Busta** (NO) vs Jaume Munar | Valencia | 2026-05-15 | NO Pablo Carreno Busta | 0.44 | 0.549 | +0.109 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15carmun) |
-| **Moez Echargui** (YES) vs Lloyd Harris | Bloomfield Hills | 2026-07-20 | YES Moez Echargui | 0.32 | 0.396 | +0.076 | 0.0152 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20echhar) |
 | **Philip Sekulic** (YES) vs Mitchell Krueger | Little Rock | 2026-05-26 | YES Philip Sekulic | 0.38 | 0.450 | +0.070 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26sekkru) |
 | **Andre Ilagan** (YES) vs Yosuke Watanuki | Winnipeg | 2026-07-20 | YES Andre Ilagan | 0.39 | 0.450 | +0.060 | 0.0167 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20watila) |

@@ -1,12 +1,16 @@
-# Settled paper bets (496)
+# Settled paper bets (500)
 
-_Generated 2026-07-20T19:48:16+00:00_
+_Generated 2026-07-20T22:04:39+00:00_
 
-**Wins:** 155 / 496  (31.2%)  
-**Net PnL (per contract):** -30.693
+**Wins:** 155 / 500  (31.0%)  
+**Net PnL (per contract):** -31.714
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Blaise Bicknell (YES) vs Adam Walton | Bloomfield Hills | 2026-07-20 | YES Blaise Bicknell | 0.16 | 0.281 | ✗ | -0.169 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20bicwal) |
+| Jay Clarke (YES) vs Jerome Kym | Zug | 2026-07-20 | YES Jay Clarke | 0.26 | 0.400 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20kymcla) |
+| Kokoro Isomura (YES) vs James Trotter | Winnipeg Qualification | 2026-07-20 | YES Kokoro Isomura | 0.23 | 0.346 | ✗ | -0.242 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20troiso) |
+| Moez Echargui (YES) vs Lloyd Harris | Bloomfield Hills | 2026-07-20 | YES Moez Echargui | 0.32 | 0.396 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20echhar) |
 | Daniel Rincon (YES) vs Thomas Faurel | Zug | 2026-07-20 | YES Daniel Rincon | 0.64 | 0.711 | ✓ | +0.344 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20faurin) |
 | Abdullah Shelbayh (YES) vs Michael Zheng | Bloomfield Hills | 2026-07-20 | YES Abdullah Shelbayh | 0.24 | 0.326 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20zheshe) |
 | Stefano Napolitano (YES) vs Zsombor Piros | Zug | 2026-07-20 | YES Stefano Napolitano | 0.22 | 0.394 | ✗ | -0.232 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20pirnap) |
