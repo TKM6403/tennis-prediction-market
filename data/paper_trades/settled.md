@@ -1,12 +1,13 @@
-# Settled paper bets (484)
+# Settled paper bets (485)
 
-_Generated 2026-07-19T21:58:56+00:00_
+_Generated 2026-07-20T03:02:15+00:00_
 
-**Wins:** 152 / 484  (31.4%)  
-**Net PnL (per contract):** -28.687
+**Wins:** 152 / 485  (31.3%)  
+**Net PnL (per contract):** -29.073
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Ilya Ivashka (NO) vs Chris Rodesch | Pozoblanco | 2026-07-19 | NO Ilya Ivashka | 0.37 | 0.421 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19rodiva) |
 | August Holmgren (YES) vs Aleksandar Vukic | Granby | 2026-07-18 | YES August Holmgren | 0.54 | 0.632 | ✗ | -0.557 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18vukhol) |
 | Alexander Ritschard (YES) vs Norbert Gombos | Zug Qualification | 2026-07-19 | YES Alexander Ritschard | 0.41 | 0.534 | ✗ | -0.427 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19ritgom) |
 | Denis Yevseyev (YES) vs Dominic Stricker | Zug Qualification | 2026-07-19 | YES Denis Yevseyev | 0.13 | 0.457 | ✗ | -0.138 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19yevstr) |
