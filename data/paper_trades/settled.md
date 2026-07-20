@@ -1,12 +1,17 @@
-# Settled paper bets (489)
+# Settled paper bets (494)
 
-_Generated 2026-07-20T14:10:48+00:00_
+_Generated 2026-07-20T16:28:03+00:00_
 
-**Wins:** 154 / 489  (31.5%)  
-**Net PnL (per contract):** -28.958
+**Wins:** 154 / 494  (31.2%)  
+**Net PnL (per contract):** -30.785
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Stefano Napolitano (YES) vs Zsombor Piros | Zug | 2026-07-20 | YES Stefano Napolitano | 0.22 | 0.394 | ✗ | -0.232 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20pirnap) |
+| Inaki Montes-De La Torre (YES) vs Hynek Barton | Tampere | 2026-07-20 | YES Inaki Montes-De La Torre | 0.46 | 0.582 | ✗ | -0.477 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20monbar) |
+| Duje Ajdukovic (YES) vs Gauthier Onclin | Tampere | 2026-07-20 | YES Duje Ajdukovic | 0.32 | 0.552 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20oncajd) |
+| Juan Pablo Ficovich (YES) vs Mert Alkaya | Segovia | 2026-07-20 | YES Juan Pablo Ficovich | 0.47 | 0.569 | ✗ | -0.487 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20alkfic) |
+| Michael Geerts (YES) vs Yi Zhou | Segovia | 2026-07-20 | YES Michael Geerts | 0.28 | 0.420 | ✗ | -0.294 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20zhogee) |
 | Gilles Arnaud Bailly (YES) vs Daniel Elahi Galan | Tampere | 2026-07-20 | YES Gilles Arnaud Bailly | 0.40 | 0.609 | ✓ | +0.583 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20galarn) |
 | Juan Bautista Torres (YES) vs Dominic Stricker | Zug Qualification | 2026-07-20 | YES Juan Bautista Torres | 0.35 | 0.540 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20torstr) |
 | Juan Pablo Varillas (YES) vs Alexander Donski | Zug Qualification | 2026-07-20 | YES Juan Pablo Varillas | 0.67 | 0.751 | ✗ | -0.685 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20vardon) |
