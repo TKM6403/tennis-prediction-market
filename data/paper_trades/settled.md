@@ -1,12 +1,16 @@
-# Settled paper bets (506)
+# Settled paper bets (510)
 
-_Generated 2026-07-21T11:13:31+00:00_
+_Generated 2026-07-21T13:55:03+00:00_
 
-**Wins:** 158 / 506  (31.2%)  
-**Net PnL (per contract):** -30.536
+**Wins:** 161 / 510  (31.6%)  
+**Net PnL (per contract):** -28.955
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Juan Bautista Torres (YES) vs Henry Bernet | Zug | 2026-07-21 | YES Juan Bautista Torres | 0.44 | 0.581 | ✓ | +0.543 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21torber) |
+| Andrej Nedic (YES) vs Sumit Nagal | Tampere | 2026-07-21 | YES Andrej Nedic | 0.47 | 0.526 | ✓ | +0.513 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21nagned) |
+| Philip Henning (YES) vs Thiago Monteiro | Zug | 2026-07-21 | YES Philip Henning | 0.30 | 0.578 | ✓ | +0.685 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21henmon) |
+| Joao Lucas Reis Da Silva (YES) vs Dimitar Kuzmanov | Tampere | 2026-07-21 | YES Joao Lucas Reis Da Silva | 0.15 | 0.525 | ✗ | -0.159 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21reikuz) |
 | Alexander Donski (YES) vs Max Hans Rehberg | Zug | 2026-07-21 | YES Alexander Donski | 0.22 | 0.367 | ✗ | -0.232 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21donreh) |
 | Akira Santillan (YES) vs Alastair Gray | Segovia | 2026-07-21 | YES Akira Santillan | 0.35 | 0.464 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21grasan) |
 | Niels Visker (YES) vs Alex Barrena | Tampere | 2026-07-21 | YES Niels Visker | 0.32 | 0.452 | ✓ | +0.665 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21barvis) |
