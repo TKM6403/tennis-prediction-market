@@ -1,12 +1,15 @@
-# Settled paper bets (523)
+# Settled paper bets (526)
 
-_Generated 2026-07-21T19:26:46+00:00_
+_Generated 2026-07-21T22:07:38+00:00_
 
-**Wins:** 165 / 523  (31.5%)  
-**Net PnL (per contract):** -29.732
+**Wins:** 165 / 526  (31.4%)  
+**Net PnL (per contract):** -30.779
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Tyler Zink (YES) vs Zhizhen Zhang | Winnipeg | 2026-07-21 | YES Tyler Zink | 0.33 | 0.479 | ✗ | -0.345 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20zinzha) |
+| Braden Shick (YES) vs Rio Noguchi | Winnipeg | 2026-07-20 | YES Braden Shick | 0.37 | 0.487 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20nogshi) |
+| Roberto Carballes Baena (YES) vs Marc-Andrea Huesler | Zug | 2026-07-21 | YES Roberto Carballes Baena | 0.30 | 0.546 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21carhue) |
 | Andre Ilagan (YES) vs Yosuke Watanuki | Winnipeg | 2026-07-20 | YES Andre Ilagan | 0.39 | 0.450 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20watila) |
 | Jay Friend (YES) vs Yu Hsiou Hsu | Winnipeg | 2026-07-20 | YES Jay Friend | 0.28 | 0.588 | ✗ | -0.294 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20hsuhar) |
 | Andrej Martin (NO) vs Dane Sweeny | Bloomfield Hills | 2026-07-21 | NO Andrej Martin | 0.34 | 0.458 | ✓ | +0.644 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21marswe) |
