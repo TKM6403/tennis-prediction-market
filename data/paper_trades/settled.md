@@ -1,12 +1,18 @@
-# Settled paper bets (510)
+# Settled paper bets (516)
 
-_Generated 2026-07-21T13:55:03+00:00_
+_Generated 2026-07-21T16:27:45+00:00_
 
-**Wins:** 161 / 510  (31.6%)  
-**Net PnL (per contract):** -28.955
+**Wins:** 164 / 516  (31.8%)  
+**Net PnL (per contract):** -28.346
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Gonzalo Villanueva (YES) vs Ilya Ivashka | Segovia | 2026-07-21 | YES Gonzalo Villanueva | 0.21 | 0.458 | ✓ | +0.778 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21viliva) |
+| Nicolas Kicker (YES) vs Diego Dedura | Tampere | 2026-07-21 | YES Nicolas Kicker | 0.25 | 0.448 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21kicded) |
+| Antoine Ghibaudo (YES) vs Alejo Sanchez Quilez | Segovia | 2026-07-21 | YES Antoine Ghibaudo | 0.41 | 0.542 | ✗ | -0.427 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21ghisan) |
+| Sascha Gueymard Wayenburg (YES) vs Nicolai Budkov Kjaer | Tampere | 2026-07-21 | YES Sascha Gueymard Wayenburg | 0.33 | 0.452 | ✓ | +0.655 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21budgue) |
+| Miguel Damas (YES) vs Mika Brunold | Zug | 2026-07-21 | YES Miguel Damas | 0.56 | 0.613 | ✗ | -0.577 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21dambru) |
+| Max Alcala Gurri (YES) vs Martin Krumich | Zug | 2026-07-21 | YES Max Alcala Gurri | 0.54 | 0.643 | ✓ | +0.443 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21alckru) |
 | Juan Bautista Torres (YES) vs Henry Bernet | Zug | 2026-07-21 | YES Juan Bautista Torres | 0.44 | 0.581 | ✓ | +0.543 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21torber) |
 | Andrej Nedic (YES) vs Sumit Nagal | Tampere | 2026-07-21 | YES Andrej Nedic | 0.47 | 0.526 | ✓ | +0.513 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21nagned) |
 | Philip Henning (YES) vs Thiago Monteiro | Zug | 2026-07-21 | YES Philip Henning | 0.30 | 0.578 | ✓ | +0.685 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21henmon) |
