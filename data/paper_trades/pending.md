@@ -1,12 +1,14 @@
-# Pending paper bets (25)
+# Pending paper bets (30)
 
-_Generated 2026-07-21T05:55:59+00:00_
+_Generated 2026-07-21T08:34:00+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
+| **Dan Added** (YES) vs Florent Bax | Segovia | 2026-07-21 | YES Dan Added | 0.29 | 0.601 | +0.311 | 0.0144 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21addbax) |
 | **Jay Friend** (YES) vs Yu Hsiou Hsu | Winnipeg | 2026-07-20 | YES Jay Friend | 0.28 | 0.588 | +0.308 | 0.0141 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20hsuhar) |
 | **Martin Krumich** (NO) vs Francisco Comesana | Braunschweig | 2026-07-07 | NO Martin Krumich | 0.26 | 0.540 | +0.280 | 0.0135 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07krucom) |
 | **Philip Henning** (YES) vs Thiago Monteiro | Zug | 2026-07-21 | YES Philip Henning | 0.30 | 0.578 | +0.278 | 0.0147 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21henmon) |
+| **Bernard Tomic** (YES) vs Tristan Boyer | Bloomfield Hills | 2026-07-21 | YES Bernard Tomic | 0.38 | 0.629 | +0.249 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21tomboy) |
 | **Gonzalo Villanueva** (YES) vs Ilya Ivashka | Segovia | 2026-07-21 | YES Gonzalo Villanueva | 0.21 | 0.458 | +0.248 | 0.0116 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21viliva) |
 | **Kaichi Uchida** (YES) vs James Trotter | Newport Qualification | 2026-07-05 | YES Kaichi Uchida | 0.31 | 0.511 | +0.201 | 0.0150 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05uchtro) |
 | **Nicolas Kicker** (YES) vs Diego Dedura | Tampere | 2026-07-21 | YES Nicolas Kicker | 0.25 | 0.448 | +0.198 | 0.0131 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21kicded) |
@@ -24,6 +26,9 @@ _Generated 2026-07-21T05:55:59+00:00_
 | **Braden Shick** (YES) vs Rio Noguchi | Winnipeg | 2026-07-20 | YES Braden Shick | 0.37 | 0.487 | +0.117 | 0.0163 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20nogshi) |
 | **Akira Santillan** (YES) vs Alastair Gray | Segovia | 2026-07-21 | YES Akira Santillan | 0.35 | 0.464 | +0.114 | 0.0159 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21grasan) |
 | **Pablo Carreno Busta** (NO) vs Jaume Munar | Valencia | 2026-05-15 | NO Pablo Carreno Busta | 0.44 | 0.549 | +0.109 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15carmun) |
+| **Hayato Matsuoka** (YES) vs Daniel Milavsky | Winnipeg | 2026-07-21 | YES Hayato Matsuoka | 0.43 | 0.526 | +0.096 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21matmil) |
+| **Harold Mayot** (YES) vs Raul Brancaccio | Zug | 2026-07-21 | YES Harold Mayot | 0.44 | 0.529 | +0.089 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21maybra) |
+| **James Trotter** (YES) vs Clement Chidekh | Winnipeg | 2026-07-21 | YES James Trotter | 0.32 | 0.407 | +0.087 | 0.0152 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21trochi) |
 | **Philip Sekulic** (YES) vs Mitchell Krueger | Little Rock | 2026-05-26 | YES Philip Sekulic | 0.38 | 0.450 | +0.070 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26sekkru) |
 | **Karan Singh** (NO) vs Keegan Smith | Segovia | 2026-07-21 | NO Karan Singh | 0.12 | 0.181 | +0.061 | 0.0074 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21sinsmi) |
 | **Andre Ilagan** (YES) vs Yosuke Watanuki | Winnipeg | 2026-07-20 | YES Andre Ilagan | 0.39 | 0.450 | +0.060 | 0.0167 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20watila) |
