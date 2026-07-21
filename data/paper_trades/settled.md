@@ -1,12 +1,18 @@
-# Settled paper bets (500)
+# Settled paper bets (506)
 
-_Generated 2026-07-21T08:34:00+00:00_
+_Generated 2026-07-21T11:13:31+00:00_
 
-**Wins:** 155 / 500  (31.0%)  
-**Net PnL (per contract):** -31.714
+**Wins:** 158 / 506  (31.2%)  
+**Net PnL (per contract):** -30.536
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Alexander Donski (YES) vs Max Hans Rehberg | Zug | 2026-07-21 | YES Alexander Donski | 0.22 | 0.367 | ✗ | -0.232 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21donreh) |
+| Akira Santillan (YES) vs Alastair Gray | Segovia | 2026-07-21 | YES Akira Santillan | 0.35 | 0.464 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21grasan) |
+| Niels Visker (YES) vs Alex Barrena | Tampere | 2026-07-21 | YES Niels Visker | 0.32 | 0.452 | ✓ | +0.665 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21barvis) |
+| Karan Singh (NO) vs Keegan Smith | Segovia | 2026-07-21 | NO Karan Singh | 0.12 | 0.181 | ✗ | -0.127 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21sinsmi) |
+| Harold Mayot (YES) vs Raul Brancaccio | Zug | 2026-07-21 | YES Harold Mayot | 0.44 | 0.529 | ✓ | +0.543 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21maybra) |
+| Dan Added (YES) vs Florent Bax | Segovia | 2026-07-21 | YES Dan Added | 0.29 | 0.601 | ✗ | -0.304 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21addbax) |
 | Blaise Bicknell (YES) vs Adam Walton | Bloomfield Hills | 2026-07-20 | YES Blaise Bicknell | 0.16 | 0.281 | ✗ | -0.169 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20bicwal) |
 | Jay Clarke (YES) vs Jerome Kym | Zug | 2026-07-20 | YES Jay Clarke | 0.26 | 0.400 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20kymcla) |
 | Kokoro Isomura (YES) vs James Trotter | Winnipeg Qualification | 2026-07-20 | YES Kokoro Isomura | 0.23 | 0.346 | ✗ | -0.242 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20troiso) |
