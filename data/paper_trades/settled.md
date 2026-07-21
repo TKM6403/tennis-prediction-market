@@ -1,12 +1,19 @@
-# Settled paper bets (516)
+# Settled paper bets (523)
 
-_Generated 2026-07-21T16:27:45+00:00_
+_Generated 2026-07-21T19:26:46+00:00_
 
-**Wins:** 164 / 516  (31.8%)  
-**Net PnL (per contract):** -28.346
+**Wins:** 165 / 523  (31.5%)  
+**Net PnL (per contract):** -29.732
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Andre Ilagan (YES) vs Yosuke Watanuki | Winnipeg | 2026-07-20 | YES Andre Ilagan | 0.39 | 0.450 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20watila) |
+| Jay Friend (YES) vs Yu Hsiou Hsu | Winnipeg | 2026-07-20 | YES Jay Friend | 0.28 | 0.588 | ✗ | -0.294 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20hsuhar) |
+| Andrej Martin (NO) vs Dane Sweeny | Bloomfield Hills | 2026-07-21 | NO Andrej Martin | 0.34 | 0.458 | ✓ | +0.644 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21marswe) |
+| Francesco Passaro (YES) vs Dominic Stricker | Zug | 2026-07-21 | YES Francesco Passaro | 0.43 | 0.587 | ✗ | -0.447 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21strpas) |
+| Remy Bertola (YES) vs Jacob Fearnley | Bloomfield Hills | 2026-07-21 | YES Remy Bertola | 0.27 | 0.422 | ✗ | -0.284 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21feaber) |
+| James Trotter (YES) vs Clement Chidekh | Winnipeg | 2026-07-21 | YES James Trotter | 0.32 | 0.407 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21trochi) |
+| Pedro Boscardin Dias (YES) vs Otto Virtanen | Tampere | 2026-07-21 | YES Pedro Boscardin Dias | 0.25 | 0.321 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21bosvir) |
 | Gonzalo Villanueva (YES) vs Ilya Ivashka | Segovia | 2026-07-21 | YES Gonzalo Villanueva | 0.21 | 0.458 | ✓ | +0.778 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21viliva) |
 | Nicolas Kicker (YES) vs Diego Dedura | Tampere | 2026-07-21 | YES Nicolas Kicker | 0.25 | 0.448 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21kicded) |
 | Antoine Ghibaudo (YES) vs Alejo Sanchez Quilez | Segovia | 2026-07-21 | YES Antoine Ghibaudo | 0.41 | 0.542 | ✗ | -0.427 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21ghisan) |
