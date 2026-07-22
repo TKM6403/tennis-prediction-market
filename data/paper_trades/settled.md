@@ -1,12 +1,14 @@
-# Settled paper bets (534)
+# Settled paper bets (536)
 
-_Generated 2026-07-22T11:16:27+00:00_
+_Generated 2026-07-22T13:58:41+00:00_
 
-**Wins:** 167 / 534  (31.3%)  
-**Net PnL (per contract):** -31.890
+**Wins:** 168 / 536  (31.3%)  
+**Net PnL (per contract):** -31.591
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Gilles Arnaud Bailly (YES) vs Hynek Barton | Tampere | 2026-07-22 | YES Gilles Arnaud Bailly | 0.37 | 0.471 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22bararn) |
+| Tom Gentzsch (YES) vs Andrej Nedic | Tampere | 2026-07-22 | YES Tom Gentzsch | 0.30 | 0.478 | ✓ | +0.685 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22nedgen) |
 | Yi Zhou (YES) vs Luka Pavlovic | Segovia | 2026-07-22 | YES Yi Zhou | 0.58 | 0.659 | ✗ | -0.597 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22zhopav) |
 | Niels Visker (NO) vs Gauthier Onclin | Tampere | 2026-07-22 | NO Niels Visker | 0.24 | 0.463 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22oncvis) |
 | Hayato Matsuoka (YES) vs Daniel Milavsky | Winnipeg | 2026-07-21 | YES Hayato Matsuoka | 0.43 | 0.526 | ✓ | +0.553 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21matmil) |
