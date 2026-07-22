@@ -1,19 +1,19 @@
-# Dropped markets (12823)
+# Dropped markets (12857)
 
-_Generated 2026-07-22T08:33:59+00:00_
+_Generated 2026-07-22T11:16:27+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `low_player_coverage` | 3741 |
+| `low_player_coverage` | 3758 |
 | `tournament_not_in_tml` | 2419 |
-| `missing_player_id` | 2251 |
-| `duplicate_match` | 2029 |
+| `missing_player_id` | 2252 |
+| `duplicate_match` | 2037 |
 | `thin_tournament_history` | 872 |
-| `below_min_edge` | 757 |
+| `below_min_edge` | 763 |
 | `wide_spread` | 336 |
-| `loose_mirror_sum` | 282 |
+| `loose_mirror_sum` | 284 |
 | `thin_player_history` | 134 |
 | `yes_on_challenger` | 2 |
 
@@ -35,6 +35,8 @@ _Generated 2026-07-22T08:33:59+00:00_
 | Billy Harris vs Dhakshineswar Suresh | Bloomfield Hills | 2026-07-21 | 0.59 / 0.58 | `below_min_edge` | best_edge=0.024 on NO @ theo=0.604 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21surhar) |
 | Pablo Llamas Ruiz vs Mark Lajal | Bloomfield Hills | 2026-07-22 | 0.44 / 0.43 | `below_min_edge` | best_edge=0.018 on YES @ theo=0.458 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22lajlla) |
 | Mark Lajal vs Pablo Llamas Ruiz | Bloomfield Hills | 2026-07-22 | 0.57 / 0.56 | `below_min_edge` | best_edge=0.018 on YES @ theo=0.458 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22lajlla) |
+| Pablo Llamas Ruiz vs Mark Lajal | Bloomfield Hills | 2026-07-22 | 0.46 / 0.45 | `below_min_edge` | best_edge=0.015 on YES @ theo=0.565 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22lajlla) |
+| Mark Lajal vs Pablo Llamas Ruiz | Bloomfield Hills | 2026-07-22 | 0.55 / 0.53 | `below_min_edge` | best_edge=0.015 on YES @ theo=0.565 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22lajlla) |
 | Facundo Mena vs Alafia Ayeni | Bogota | 2026-07-07 | 0.63 / 0.61 | `below_min_edge` | best_edge=0.044 on NO @ theo=0.434 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07menave) |
 | Alafia Ayeni vs Facundo Mena | Bogota | 2026-07-07 | 0.42 / 0.39 | `below_min_edge` | best_edge=0.044 on NO @ theo=0.434 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07menave) |
 | Matheus Pucinelli De Almeida vs Juan Pablo Varillas | Bogota | 2026-07-10 | 0.65 / 0.63 | `below_min_edge` | best_edge=0.002 on NO @ theo=0.372 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10varpda) |
@@ -778,6 +780,10 @@ _Generated 2026-07-22T08:33:59+00:00_
 | Daniel Rincon vs Thiago Seyboth Wild | Zug | 2026-07-22 | 0.44 / 0.43 | `below_min_edge` | best_edge=0.029 on YES @ theo=0.469 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22rinsey) |
 | Max Hans Rehberg vs Zsombor Piros | Zug | 2026-07-22 | 0.32 / 0.31 | `below_min_edge` | best_edge=0.026 on YES @ theo=0.346 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22pirreh) |
 | Zsombor Piros vs Max Hans Rehberg | Zug | 2026-07-22 | 0.70 / 0.69 | `below_min_edge` | best_edge=0.026 on YES @ theo=0.346 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22pirreh) |
+| Thiago Seyboth Wild vs Daniel Rincon | Zug | 2026-07-22 | 0.56 / 0.55 | `below_min_edge` | best_edge=0.019 on YES @ theo=0.469 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22rinsey) |
+| Daniel Rincon vs Thiago Seyboth Wild | Zug | 2026-07-22 | 0.45 / 0.44 | `below_min_edge` | best_edge=0.019 on YES @ theo=0.469 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22rinsey) |
+| Max Hans Rehberg vs Zsombor Piros | Zug | 2026-07-22 | 0.32 / 0.31 | `below_min_edge` | best_edge=0.026 on YES @ theo=0.346 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22pirreh) |
+| Zsombor Piros vs Max Hans Rehberg | Zug | 2026-07-22 | 0.69 / 0.68 | `below_min_edge` | best_edge=0.026 on YES @ theo=0.346 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22pirreh) |
 | Pablo Llamas Ruiz vs Alexis Galarneau | Bloomfield Hills | 2026-07-20 | 0.45 / 0.44 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL20GALLLA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20gallla) |
 | Alexis Galarneau vs Pablo Llamas Ruiz | Bloomfield Hills | 2026-07-20 | 0.56 / 0.55 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL20GALLLA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20gallla) |
 | Adam Walton vs Blaise Bicknell | Bloomfield Hills | 2026-07-20 | 0.85 / 0.84 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL20BICWAL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20bicwal) |
@@ -836,6 +842,8 @@ _Generated 2026-07-22T08:33:59+00:00_
 | Aidan Mayo vs Alex Michelsen | Bloomfield Hills | 2026-07-22 | 0.10 / 0.08 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL21MICMAY | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21micmay) |
 | Alex Michelsen vs Aidan Mayo | Bloomfield Hills | 2026-07-22 | 0.92 / 0.90 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL21MICMAY | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21micmay) |
 | Aidan Mayo vs Alex Michelsen | Bloomfield Hills | 2026-07-22 | 0.10 / 0.07 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL21MICMAY | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21micmay) |
+| Alex Michelsen vs Aidan Mayo | Bloomfield Hills | 2026-07-22 | 0.92 / 0.90 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL21MICMAY | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21micmay) |
+| Aidan Mayo vs Alex Michelsen | Bloomfield Hills | 2026-07-22 | 0.10 / 0.09 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL21MICMAY | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21micmay) |
 | Nicolas Mejia vs Hernan Casanova | Bogota | 2026-07-10 | 0.61 / 0.60 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL10MEJCAS | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10mejcas) |
 | Hernan Casanova vs Nicolas Mejia | Bogota | 2026-07-10 | 0.40 / 0.39 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL10MEJCAS | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10mejcas) |
 | Sho Shimabukuro vs Quentin Halys | Bordeaux | 2026-05-12 | 0.27 / 0.26 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY12SHIHAL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may12shihal) |
@@ -1948,6 +1956,8 @@ _Generated 2026-07-22T08:33:59+00:00_
 | Gilles Arnaud Bailly vs Hynek Barton | Tampere | 2026-07-22 | 0.36 / 0.35 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL22BARARN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22bararn) |
 | Niels Visker vs Gauthier Onclin | Tampere | 2026-07-22 | 0.22 / 0.21 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL22ONCVIS | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22oncvis) |
 | Gauthier Onclin vs Niels Visker | Tampere | 2026-07-22 | 0.79 / 0.77 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL22ONCVIS | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22oncvis) |
+| Hynek Barton vs Gilles Arnaud Bailly | Tampere | 2026-07-22 | 0.85 / 0.83 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL22BARARN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22bararn) |
+| Gilles Arnaud Bailly vs Hynek Barton | Tampere | 2026-07-22 | 0.17 / 0.15 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL22BARARN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22bararn) |
 | Oleg Prihodko vs Alex Barrena | Trieste | 2026-07-07 | 0.41 / 0.40 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL07PRIBAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07pribar) |
 | Alex Barrena vs Oleg Prihodko | Trieste | 2026-07-07 | 0.60 / 0.59 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL07PRIBAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07pribar) |
 | Andrea Pellegrino vs Max Alcala Gurri | Trieste | 2026-07-05 | 0.59 / 0.57 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL05PELALC | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05pelalc) |
@@ -2457,6 +2467,8 @@ _Generated 2026-07-22T08:33:59+00:00_
 | Hayato Matsuoka vs Daniel Milavsky | Winnipeg | 2026-07-21 | 0.47 / 0.45 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL21MATMIL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21matmil) |
 | Johannus Monday vs Justin Boulais | Winnipeg | 2026-07-21 | 0.89 / 0.88 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL21BOUMON | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21boumon) |
 | Justin Boulais vs Johannus Monday | Winnipeg | 2026-07-21 | 0.12 / 0.11 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL21BOUMON | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21boumon) |
+| Zhizhen Zhang vs Charles Broom | Winnipeg | 2026-07-22 | 0.66 / 0.65 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL22BROZHA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22brozha) |
+| Charles Broom vs Zhizhen Zhang | Winnipeg | 2026-07-22 | 0.34 / 0.32 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL22BROZHA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22brozha) |
 | James Trotter vs Kokoro Isomura | Winnipeg Qualification | 2026-07-20 | 0.78 / 0.77 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL20TROISO | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20troiso) |
 | Kokoro Isomura vs James Trotter | Winnipeg Qualification | 2026-07-20 | 0.23 / 0.22 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL20TROISO | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20troiso) |
 | James Trotter vs Kokoro Isomura | Winnipeg Qualification | 2026-07-20 | 0.78 / 0.77 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL20TROISO | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20troiso) |
@@ -2783,6 +2795,8 @@ _Generated 2026-07-22T08:33:59+00:00_
 | Mika Brunold vs Miguel Damas | Zug | 2026-07-21 | 0.84 / 0.83 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL21DAMBRU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21dambru) |
 | Dominic Stricker vs Francesco Passaro | Zug | 2026-07-21 | 0.67 / 0.55 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL21STRPAS | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21strpas) |
 | Francesco Passaro vs Dominic Stricker | Zug | 2026-07-21 | 0.43 / 0.34 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL21STRPAS | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21strpas) |
+| Jerome Kym vs Philip Henning | Zug | 2026-07-22 | 0.81 / 0.79 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL22KYMHEN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22kymhen) |
+| Philip Henning vs Jerome Kym | Zug | 2026-07-22 | 0.21 / 0.19 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL22KYMHEN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22kymhen) |
 | Denis Yevseyev vs Dominic Stricker | Zug Qualification | 2026-07-19 | 0.13 / 0.12 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL19YEVSTR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19yevstr) |
 | Dominic Stricker vs Denis Yevseyev | Zug Qualification | 2026-07-19 | 0.88 / 0.87 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL19YEVSTR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19yevstr) |
 | Marko Topo vs Alexander Donski | Zug Qualification | 2026-07-19 | 0.75 / 0.73 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL19DONTOP | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19dontop) |
@@ -3063,6 +3077,8 @@ _Generated 2026-07-22T08:33:59+00:00_
 | Justin Boulais vs Johannus Monday | Winnipeg | 2026-07-21 | 0.44 / 0.41 | `loose_mirror_sum` | yes_ask_a=0.59 + yes_ask_b=0.44 = 1.030 (dev 0.030 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21boumon) |
 | Zhizhen Zhang vs Charles Broom | Winnipeg | 2026-07-22 | 0.66 / 0.61 | `loose_mirror_sum` | yes_ask_a=0.66 + yes_ask_b=0.41 = 1.070 (dev 0.070 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22brozha) |
 | Charles Broom vs Zhizhen Zhang | Winnipeg | 2026-07-22 | 0.41 / 0.35 | `loose_mirror_sum` | yes_ask_a=0.66 + yes_ask_b=0.41 = 1.070 (dev 0.070 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22brozha) |
+| Yosuke Watanuki vs Toby Samuel | Winnipeg | 2026-07-23 | 0.30 / 0.24 | `loose_mirror_sum` | yes_ask_a=0.30 + yes_ask_b=0.76 = 1.060 (dev 0.060 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22watsam) |
+| Toby Samuel vs Yosuke Watanuki | Winnipeg | 2026-07-23 | 0.76 / 0.70 | `loose_mirror_sum` | yes_ask_a=0.30 + yes_ask_b=0.76 = 1.060 (dev 0.060 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22watsam) |
 | James Trotter vs Kokoro Isomura | Winnipeg Qualification | 2026-07-20 | 0.79 / 0.76 | `loose_mirror_sum` | yes_ask_a=0.79 + yes_ask_b=0.24 = 1.030 (dev 0.030 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20troiso) |
 | Kokoro Isomura vs James Trotter | Winnipeg Qualification | 2026-07-20 | 0.24 / 0.21 | `loose_mirror_sum` | yes_ask_a=0.79 + yes_ask_b=0.24 = 1.030 (dev 0.030 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20troiso) |
 | Zsombor Piros vs Jan Choinski | Zagreb | 2026-05-17 | 0.71 / 0.54 | `loose_mirror_sum` | yes_ask_a=0.71 + yes_ask_b=0.49 = 1.200 (dev 0.200 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may17chopir) |
@@ -3227,6 +3243,10 @@ _Generated 2026-07-22T08:33:59+00:00_
 | Thanasi Kokkinakis vs Adam Walton | Bloomfield Hills | 2026-07-22 | 0.54 / 0.52 | `low_player_coverage` | cov_a=60 cov_b=9 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22kokwal) |
 | Michael Zheng vs Alan Magadan | Bloomfield Hills | 2026-07-22 | 0.91 / 0.90 | `low_player_coverage` | cov_a=38 cov_b=11 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22zhemag) |
 | Alan Magadan vs Michael Zheng | Bloomfield Hills | 2026-07-22 | 0.10 / 0.09 | `low_player_coverage` | cov_a=38 cov_b=11 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22zhemag) |
+| Adam Walton vs Thanasi Kokkinakis | Bloomfield Hills | 2026-07-22 | 0.49 / 0.47 | `low_player_coverage` | cov_a=60 cov_b=9 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22kokwal) |
+| Thanasi Kokkinakis vs Adam Walton | Bloomfield Hills | 2026-07-22 | 0.53 / 0.52 | `low_player_coverage` | cov_a=60 cov_b=9 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22kokwal) |
+| Michael Zheng vs Alan Magadan | Bloomfield Hills | 2026-07-22 | 0.92 / 0.91 | `low_player_coverage` | cov_a=38 cov_b=11 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22zhemag) |
+| Alan Magadan vs Michael Zheng | Bloomfield Hills | 2026-07-22 | 0.09 / 0.08 | `low_player_coverage` | cov_a=38 cov_b=11 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22zhemag) |
 | Leo Vithoontien vs Stefan Kozlov | Bloomfield Hills Qualification | 2026-07-19 | 0.15 / 0.12 | `low_player_coverage` | cov_a=7 cov_b=37 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19kozvit) |
 | Stefan Kozlov vs Leo Vithoontien | Bloomfield Hills Qualification | 2026-07-19 | 0.88 / 0.81 | `low_player_coverage` | cov_a=7 cov_b=37 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19kozvit) |
 | Evan Zhu vs Samir Banerjee | Bloomfield Hills Qualification | 2026-07-19 | 0.34 / 0.29 | `low_player_coverage` | cov_a=3 cov_b=12 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19banzhu) |
@@ -5791,6 +5811,11 @@ _Generated 2026-07-22T08:33:59+00:00_
 | Florent Bax vs Paul Inchauspe | Segovia | 2026-07-22 | 0.41 / 0.40 | `low_player_coverage` | cov_a=2 cov_b=23 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22baxinc) |
 | Alejandro Moro Canas vs Ivan Marrero Curbelo | Segovia | 2026-07-22 | 0.75 / 0.72 | `low_player_coverage` | cov_a=55 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22mormar) |
 | Ivan Marrero Curbelo vs Alejandro Moro Canas | Segovia | 2026-07-22 | 0.28 / 0.25 | `low_player_coverage` | cov_a=55 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22mormar) |
+| Mario Gonzalez Fernandez vs Keegan Smith | Segovia | 2026-07-22 | 0.21 / 0.19 | `low_player_coverage` | cov_a=3 cov_b=38 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22gonsmi) |
+| Paul Inchauspe vs Florent Bax | Segovia | 2026-07-22 | 0.58 / 0.57 | `low_player_coverage` | cov_a=2 cov_b=23 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22baxinc) |
+| Florent Bax vs Paul Inchauspe | Segovia | 2026-07-22 | 0.43 / 0.42 | `low_player_coverage` | cov_a=2 cov_b=23 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22baxinc) |
+| Alejandro Moro Canas vs Ivan Marrero Curbelo | Segovia | 2026-07-22 | 0.75 / 0.72 | `low_player_coverage` | cov_a=55 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22mormar) |
+| Ivan Marrero Curbelo vs Alejandro Moro Canas | Segovia | 2026-07-22 | 0.28 / 0.25 | `low_player_coverage` | cov_a=55 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22mormar) |
 | Mitsuki Wei Kang Leong vs Alberto Barroso Campos | Segovia Qualification | 2026-07-19 | 0.57 / 0.54 | `low_player_coverage` | cov_a=13 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19barleo) |
 | Alberto Barroso Campos vs Mitsuki Wei Kang Leong | Segovia Qualification | 2026-07-19 | 0.46 / 0.43 | `low_player_coverage` | cov_a=13 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19barleo) |
 | Aziz Ouakaa vs Maxwell Mckennon | Segovia Qualification | 2026-07-19 | 0.38 / 0.34 | `low_player_coverage` | cov_a=7 cov_b=6 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19mckoua) |
@@ -5927,6 +5952,8 @@ _Generated 2026-07-22T08:33:59+00:00_
 | Maks Kasnikowski vs Eero Vasa | Tampere | 2026-07-22 | 0.88 / 0.85 | `low_player_coverage` | cov_a=14 cov_b=38 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22vaskas) |
 | Eero Vasa vs Maks Kasnikowski | Tampere | 2026-07-22 | 0.14 / 0.13 | `low_player_coverage` | cov_a=14 cov_b=38 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22vaskas) |
 | Maks Kasnikowski vs Eero Vasa | Tampere | 2026-07-22 | 0.87 / 0.85 | `low_player_coverage` | cov_a=14 cov_b=38 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22vaskas) |
+| Eero Vasa vs Maks Kasnikowski | Tampere | 2026-07-22 | 0.14 / 0.13 | `low_player_coverage` | cov_a=14 cov_b=38 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22vaskas) |
+| Maks Kasnikowski vs Eero Vasa | Tampere | 2026-07-22 | 0.86 / 0.85 | `low_player_coverage` | cov_a=14 cov_b=38 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22vaskas) |
 | Eero Vasa vs Maks Kasnikowski | Tampere | 2026-07-22 | 0.14 / 0.13 | `low_player_coverage` | cov_a=14 cov_b=38 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22vaskas) |
 | Maks Kasnikowski vs Eero Vasa | Tampere | 2026-07-22 | 0.86 / 0.85 | `low_player_coverage` | cov_a=14 cov_b=38 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22vaskas) |
 | Louis Wessels vs William Rejchtman Vinciguerra | Tampere Qualification | 2026-07-19 | 0.83 / 0.79 | `low_player_coverage` | cov_a=4 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19rejwes) |
@@ -6605,6 +6632,10 @@ _Generated 2026-07-22T08:33:59+00:00_
 | Yu Hsiou Hsu vs Mees Rottgering | Winnipeg | 2026-07-22 | 0.56 / 0.54 | `low_player_coverage` | cov_a=9 cov_b=46 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22hsurot) |
 | Mees Rottgering vs Yu Hsiou Hsu | Winnipeg | 2026-07-22 | 0.44 / 0.42 | `low_player_coverage` | cov_a=9 cov_b=46 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22hsurot) |
 | Yu Hsiou Hsu vs Mees Rottgering | Winnipeg | 2026-07-22 | 0.58 / 0.56 | `low_player_coverage` | cov_a=9 cov_b=46 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22hsurot) |
+| Keegan Rice vs Rio Noguchi | Winnipeg | 2026-07-23 | 0.40 / 0.34 | `low_player_coverage` | cov_a=4 cov_b=52 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22nogric) |
+| Rio Noguchi vs Keegan Rice | Winnipeg | 2026-07-23 | 0.66 / 0.57 | `low_player_coverage` | cov_a=4 cov_b=52 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22nogric) |
+| Mees Rottgering vs Yu Hsiou Hsu | Winnipeg | 2026-07-22 | 0.43 / 0.41 | `low_player_coverage` | cov_a=9 cov_b=46 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22hsurot) |
+| Yu Hsiou Hsu vs Mees Rottgering | Winnipeg | 2026-07-22 | 0.59 / 0.58 | `low_player_coverage` | cov_a=9 cov_b=46 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22hsurot) |
 | Millen Hurrion vs Kaylan Bigun | Winnipeg Qualification | 2026-07-19 | 0.56 / 0.46 | `low_player_coverage` | cov_a=4 cov_b=7 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19hurbig) |
 | Kaylan Bigun vs Millen Hurrion | Winnipeg Qualification | 2026-07-19 | 0.54 / 0.44 | `low_player_coverage` | cov_a=4 cov_b=7 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19hurbig) |
 | James Trotter vs Guillaume Dalmasso | Winnipeg Qualification | 2026-07-19 | 0.77 / 0.67 | `low_player_coverage` | cov_a=21 cov_b=6 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19trodal) |
@@ -6770,6 +6801,8 @@ _Generated 2026-07-22T08:33:59+00:00_
 | Alvaro Guillen Meza vs Anton Matusevich | Zug | 2026-07-22 | 0.53 / 0.51 | `low_player_coverage` | cov_a=6 cov_b=58 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22guimat) |
 | Anton Matusevich vs Alvaro Guillen Meza | Zug | 2026-07-22 | 0.49 / 0.48 | `low_player_coverage` | cov_a=6 cov_b=58 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22guimat) |
 | Alvaro Guillen Meza vs Anton Matusevich | Zug | 2026-07-22 | 0.52 / 0.51 | `low_player_coverage` | cov_a=6 cov_b=58 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22guimat) |
+| Anton Matusevich vs Alvaro Guillen Meza | Zug | 2026-07-22 | 0.94 / 0.93 | `low_player_coverage` | cov_a=6 cov_b=58 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22guimat) |
+| Alvaro Guillen Meza vs Anton Matusevich | Zug | 2026-07-22 | 0.07 / 0.06 | `low_player_coverage` | cov_a=6 cov_b=58 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22guimat) |
 | Samuele Pieri vs Petr Nesterov | Zug Qualification | 2026-07-19 | 0.54 / 0.44 | `low_player_coverage` | cov_a=12 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19pienes) |
 | Petr Nesterov vs Samuele Pieri | Zug Qualification | 2026-07-19 | 0.56 / 0.46 | `low_player_coverage` | cov_a=12 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19pienes) |
 | Danny Thomas vs Thiago Monteiro | Zug Qualification | 2026-07-19 | 0.17 / 0.08 | `low_player_coverage` | cov_a=0 cov_b=34 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19montho) |
@@ -8664,6 +8697,7 @@ _Generated 2026-07-22T08:33:59+00:00_
 | Oliver Crawford vs Marti Pujolras | Segovia | 2026-07-21 | 0.89 / 0.88 | `missing_player_id` | player_a_id='C0AK', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21marcra) |
 | Oliver Crawford vs Marti Pujolras | Segovia | 2026-07-21 | 0.96 / 0.92 | `missing_player_id` | player_a_id='C0AK', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21marcra) |
 | Keegan Smith vs Gonzalez Fernandez | Segovia | 2026-07-22 | 0.82 / 0.79 | `missing_player_id` | player_a_id='S0DQ', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22gonsmi) |
+| Keegan Smith vs Gonzalez Fernandez | Segovia | 2026-07-22 | 0.82 / 0.80 | `missing_player_id` | player_a_id='S0DQ', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22gonsmi) |
 | Keegan Smith vs Gonzalez Fernandez | Segovia | 2026-07-22 | 0.82 / 0.80 | `missing_player_id` | player_a_id='S0DQ', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22gonsmi) |
 | Ivan Marrero Curbelo vs Collar | Segovia Qualification | 2026-07-19 | 0.95 / 0.05 | `missing_player_id` | player_a_id='M09M', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19marcol) |
 | Enrique Collar vs Ivan Marrero Curbelo | Segovia Qualification | 2026-07-19 | 0.95 / 0.05 | `missing_player_id` | player_a_id=nan, player_b_id='M09M' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19marcol) |

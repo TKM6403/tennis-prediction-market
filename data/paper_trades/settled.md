@@ -1,12 +1,14 @@
-# Settled paper bets (532)
+# Settled paper bets (534)
 
-_Generated 2026-07-22T08:33:59+00:00_
+_Generated 2026-07-22T11:16:27+00:00_
 
-**Wins:** 167 / 532  (31.4%)  
-**Net PnL (per contract):** -31.040
+**Wins:** 167 / 534  (31.3%)  
+**Net PnL (per contract):** -31.890
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Yi Zhou (YES) vs Luka Pavlovic | Segovia | 2026-07-22 | YES Yi Zhou | 0.58 | 0.659 | ✗ | -0.597 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22zhopav) |
+| Niels Visker (NO) vs Gauthier Onclin | Tampere | 2026-07-22 | NO Niels Visker | 0.24 | 0.463 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22oncvis) |
 | Hayato Matsuoka (YES) vs Daniel Milavsky | Winnipeg | 2026-07-21 | YES Hayato Matsuoka | 0.43 | 0.526 | ✓ | +0.553 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21matmil) |
 | Bernard Tomic (YES) vs Tristan Boyer | Bloomfield Hills | 2026-07-21 | YES Bernard Tomic | 0.38 | 0.629 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21tomboy) |
 | Garrett Johns (YES) vs August Holmgren | Winnipeg | 2026-07-22 | YES Garrett Johns | 0.26 | 0.338 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21holjoh) |
