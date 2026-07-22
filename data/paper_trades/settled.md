@@ -1,12 +1,14 @@
-# Settled paper bets (536)
+# Settled paper bets (538)
 
-_Generated 2026-07-22T16:25:37+00:00_
+_Generated 2026-07-22T19:25:09+00:00_
 
-**Wins:** 168 / 536  (31.3%)  
-**Net PnL (per contract):** -31.591
+**Wins:** 169 / 538  (31.4%)  
+**Net PnL (per contract):** -31.215
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Aidan Mayo (NO) vs Alex Michelsen | Bloomfield Hills | 2026-07-22 | NO Aidan Mayo | 0.11 | 0.376 | ✗ | -0.117 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21micmay) |
+| Thiago Seyboth Wild (YES) vs Daniel Rincon | Zug | 2026-07-22 | YES Thiago Seyboth Wild | 0.49 | 0.555 | ✓ | +0.493 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22rinsey) |
 | Gilles Arnaud Bailly (YES) vs Hynek Barton | Tampere | 2026-07-22 | YES Gilles Arnaud Bailly | 0.37 | 0.471 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22bararn) |
 | Tom Gentzsch (YES) vs Andrej Nedic | Tampere | 2026-07-22 | YES Tom Gentzsch | 0.30 | 0.478 | ✓ | +0.685 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22nedgen) |
 | Yi Zhou (YES) vs Luka Pavlovic | Segovia | 2026-07-22 | YES Yi Zhou | 0.58 | 0.659 | ✗ | -0.597 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22zhopav) |
