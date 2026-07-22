@@ -1,12 +1,18 @@
-# Settled paper bets (526)
+# Settled paper bets (532)
 
-_Generated 2026-07-21T22:07:38+00:00_
+_Generated 2026-07-22T02:44:30+00:00_
 
-**Wins:** 165 / 526  (31.4%)  
-**Net PnL (per contract):** -30.779
+**Wins:** 167 / 532  (31.4%)  
+**Net PnL (per contract):** -31.040
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Hayato Matsuoka (YES) vs Daniel Milavsky | Winnipeg | 2026-07-21 | YES Hayato Matsuoka | 0.43 | 0.526 | ✓ | +0.553 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21matmil) |
+| Bernard Tomic (YES) vs Tristan Boyer | Bloomfield Hills | 2026-07-21 | YES Bernard Tomic | 0.38 | 0.629 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21tomboy) |
+| Garrett Johns (YES) vs August Holmgren | Winnipeg | 2026-07-22 | YES Garrett Johns | 0.26 | 0.338 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21holjoh) |
+| Philip Sekulic (YES) vs Shintaro Mochizuki | Winnipeg | 2026-07-22 | YES Philip Sekulic | 0.27 | 0.502 | ✗ | -0.284 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21mocsek) |
+| Johannus Monday (YES) vs Justin Boulais | Winnipeg | 2026-07-21 | YES Johannus Monday | 0.58 | 0.659 | ✓ | +0.403 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21boumon) |
+| Lloyd Harris (NO) vs Dhakshineswar Suresh | Bloomfield Hills | 2026-07-21 | NO Lloyd Harris | 0.25 | 0.604 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21surhar) |
 | Tyler Zink (YES) vs Zhizhen Zhang | Winnipeg | 2026-07-21 | YES Tyler Zink | 0.33 | 0.479 | ✗ | -0.345 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20zinzha) |
 | Braden Shick (YES) vs Rio Noguchi | Winnipeg | 2026-07-20 | YES Braden Shick | 0.37 | 0.487 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20nogshi) |
 | Roberto Carballes Baena (YES) vs Marc-Andrea Huesler | Zug | 2026-07-21 | YES Roberto Carballes Baena | 0.30 | 0.546 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21carhue) |
