@@ -1,12 +1,14 @@
-# Settled paper bets (538)
+# Settled paper bets (540)
 
-_Generated 2026-07-22T19:25:09+00:00_
+_Generated 2026-07-22T22:09:32+00:00_
 
-**Wins:** 169 / 538  (31.4%)  
-**Net PnL (per contract):** -31.215
+**Wins:** 171 / 540  (31.7%)  
+**Net PnL (per contract):** -29.803
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Philip Henning (YES) vs Jerome Kym | Zug | 2026-07-22 | YES Philip Henning | 0.22 | 0.419 | ✓ | +0.768 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22kymhen) |
+| Charles Broom (YES) vs Zhizhen Zhang | Winnipeg | 2026-07-22 | YES Charles Broom | 0.34 | 0.520 | ✓ | +0.644 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22brozha) |
 | Aidan Mayo (NO) vs Alex Michelsen | Bloomfield Hills | 2026-07-22 | NO Aidan Mayo | 0.11 | 0.376 | ✗ | -0.117 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21micmay) |
 | Thiago Seyboth Wild (YES) vs Daniel Rincon | Zug | 2026-07-22 | YES Thiago Seyboth Wild | 0.49 | 0.555 | ✓ | +0.493 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22rinsey) |
 | Gilles Arnaud Bailly (YES) vs Hynek Barton | Tampere | 2026-07-22 | YES Gilles Arnaud Bailly | 0.37 | 0.471 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22bararn) |
