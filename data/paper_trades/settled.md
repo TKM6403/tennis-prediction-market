@@ -1,12 +1,14 @@
-# Settled paper bets (544)
+# Settled paper bets (546)
 
-_Generated 2026-07-23T11:15:40+00:00_
+_Generated 2026-07-23T14:04:47+00:00_
 
-**Wins:** 171 / 544  (31.4%)  
-**Net PnL (per contract):** -31.203
+**Wins:** 171 / 546  (31.3%)  
+**Net PnL (per contract):** -31.956
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Juan Bautista Torres (YES) vs Marc-Andrea Huesler | Zug | 2026-07-23 | YES Juan Bautista Torres | 0.35 | 0.553 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23huetor) |
+| Franco Roncadelli (YES) vs Henri Squire | Tampere | 2026-07-23 | YES Franco Roncadelli | 0.37 | 0.493 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23squron) |
 | Gonzalo Villanueva (YES) vs Matteo Martineau | Segovia | 2026-07-23 | YES Gonzalo Villanueva | 0.44 | 0.584 | ✗ | -0.457 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23marvil) |
 | Guido Ivan Justo (YES) vs Diego Dedura | Tampere | 2026-07-23 | YES Guido Ivan Justo | 0.37 | 0.605 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23dedjus) |
 | Yosuke Watanuki (YES) vs Toby Samuel | Winnipeg | 2026-07-23 | YES Yosuke Watanuki | 0.29 | 0.365 | ✗ | -0.304 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22watsam) |
