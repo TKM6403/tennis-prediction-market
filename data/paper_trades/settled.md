@@ -1,12 +1,14 @@
-# Settled paper bets (542)
+# Settled paper bets (544)
 
-_Generated 2026-07-23T08:34:36+00:00_
+_Generated 2026-07-23T11:15:40+00:00_
 
-**Wins:** 171 / 542  (31.5%)  
-**Net PnL (per contract):** -30.360
+**Wins:** 171 / 544  (31.4%)  
+**Net PnL (per contract):** -31.203
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Gonzalo Villanueva (YES) vs Matteo Martineau | Segovia | 2026-07-23 | YES Gonzalo Villanueva | 0.44 | 0.584 | ✗ | -0.457 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23marvil) |
+| Guido Ivan Justo (YES) vs Diego Dedura | Tampere | 2026-07-23 | YES Guido Ivan Justo | 0.37 | 0.605 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23dedjus) |
 | Yosuke Watanuki (YES) vs Toby Samuel | Winnipeg | 2026-07-23 | YES Yosuke Watanuki | 0.29 | 0.365 | ✗ | -0.304 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22watsam) |
 | Pablo Llamas Ruiz (YES) vs Mark Lajal | Bloomfield Hills | 2026-07-22 | YES Pablo Llamas Ruiz | 0.24 | 0.458 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22lajlla) |
 | Philip Henning (YES) vs Jerome Kym | Zug | 2026-07-22 | YES Philip Henning | 0.22 | 0.419 | ✓ | +0.768 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22kymhen) |
