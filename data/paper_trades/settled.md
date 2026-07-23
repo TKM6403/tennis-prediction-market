@@ -1,12 +1,13 @@
-# Settled paper bets (550)
+# Settled paper bets (551)
 
-_Generated 2026-07-23T19:23:15+00:00_
+_Generated 2026-07-23T22:07:32+00:00_
 
-**Wins:** 173 / 550  (31.5%)  
-**Net PnL (per contract):** -31.781
+**Wins:** 174 / 551  (31.6%)  
+**Net PnL (per contract):** -31.116
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Dhakshineswar Suresh (YES) vs Borna Gojo | Bloomfield Hills | 2026-07-23 | YES Dhakshineswar Suresh | 0.32 | 0.376 | ✓ | +0.665 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23gojsur) |
 | Tristan Boyer (YES) vs Jacob Fearnley | Bloomfield Hills | 2026-07-23 | YES Tristan Boyer | 0.34 | 0.473 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23feaboy) |
 | Oliver Crawford (YES) vs Alejo Sanchez Quilez | Segovia | 2026-07-23 | YES Oliver Crawford | 0.54 | 0.597 | ✓ | +0.443 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23sancra) |
 | Norbert Gombos (YES) vs Dominic Stricker | Zug | 2026-07-23 | YES Norbert Gombos | 0.32 | 0.445 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23gomstr) |
