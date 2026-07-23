@@ -1,12 +1,15 @@
-# Settled paper bets (547)
+# Settled paper bets (550)
 
-_Generated 2026-07-23T16:30:29+00:00_
+_Generated 2026-07-23T19:23:15+00:00_
 
-**Wins:** 172 / 547  (31.4%)  
-**Net PnL (per contract):** -31.533
+**Wins:** 173 / 550  (31.5%)  
+**Net PnL (per contract):** -31.781
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Tristan Boyer (YES) vs Jacob Fearnley | Bloomfield Hills | 2026-07-23 | YES Tristan Boyer | 0.34 | 0.473 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23feaboy) |
+| Oliver Crawford (YES) vs Alejo Sanchez Quilez | Segovia | 2026-07-23 | YES Oliver Crawford | 0.54 | 0.597 | ✓ | +0.443 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23sancra) |
+| Norbert Gombos (YES) vs Dominic Stricker | Zug | 2026-07-23 | YES Norbert Gombos | 0.32 | 0.445 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23gomstr) |
 | Harold Mayot (YES) vs Mika Brunold | Zug | 2026-07-23 | YES Harold Mayot | 0.56 | 0.639 | ✓ | +0.423 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23maybru) |
 | Juan Bautista Torres (YES) vs Marc-Andrea Huesler | Zug | 2026-07-23 | YES Juan Bautista Torres | 0.35 | 0.553 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23huetor) |
 | Franco Roncadelli (YES) vs Henri Squire | Tampere | 2026-07-23 | YES Franco Roncadelli | 0.37 | 0.493 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23squron) |
