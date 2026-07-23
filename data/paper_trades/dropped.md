@@ -1,19 +1,19 @@
-# Dropped markets (12935)
+# Dropped markets (12951)
 
-_Generated 2026-07-22T22:09:32+00:00_
+_Generated 2026-07-23T02:50:32+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `low_player_coverage` | 3798 |
+| `low_player_coverage` | 3804 |
 | `tournament_not_in_tml` | 2419 |
-| `missing_player_id` | 2255 |
-| `duplicate_match` | 2059 |
+| `missing_player_id` | 2256 |
+| `duplicate_match` | 2061 |
 | `thin_tournament_history` | 872 |
-| `below_min_edge` | 772 |
+| `below_min_edge` | 775 |
 | `wide_spread` | 338 |
-| `loose_mirror_sum` | 286 |
+| `loose_mirror_sum` | 290 |
 | `thin_player_history` | 134 |
 | `yes_on_challenger` | 2 |
 
@@ -553,6 +553,9 @@ _Generated 2026-07-22T22:09:32+00:00_
 | Tom Gentzsch vs Andrej Nedic | Tampere | 2026-07-22 | 0.49 / 0.47 | `below_min_edge` | best_edge=0.016 on YES @ theo=0.546 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22nedgen) |
 | Andrej Nedic vs Tom Gentzsch | Tampere | 2026-07-22 | 0.55 / 0.54 | `below_min_edge` | best_edge=0.008 on YES @ theo=0.478 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22nedgen) |
 | Tom Gentzsch vs Andrej Nedic | Tampere | 2026-07-22 | 0.47 / 0.45 | `below_min_edge` | best_edge=0.008 on YES @ theo=0.478 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22nedgen) |
+| Sascha Gueymard Wayenburg vs Igor Marcondes | Tampere | 2026-07-23 | 0.55 / 0.53 | `below_min_edge` | best_edge=0.009 on NO @ theo=0.479 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23guemar) |
+| Otto Virtanen vs Dimitar Kuzmanov | Tampere | 2026-07-23 | 0.69 / 0.67 | `below_min_edge` | best_edge=0.045 on YES @ theo=0.365 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23kuzvir) |
+| Dimitar Kuzmanov vs Otto Virtanen | Tampere | 2026-07-23 | 0.32 / 0.31 | `below_min_edge` | best_edge=0.045 on YES @ theo=0.365 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23kuzvir) |
 | Sascha Gueymard Wayenburg vs Igor Marcondes | Tampere | 2026-07-23 | 0.55 / 0.53 | `below_min_edge` | best_edge=0.009 on NO @ theo=0.479 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23guemar) |
 | Alvaro Guillen Meza vs Henri Squire | Trieste | 2026-07-05 | 0.49 / 0.08 | `below_min_edge` | best_edge=0.039 on YES @ theo=0.529 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05squgui) |
 | Ioannis Xilas vs Manas Dhamne | Troyes | 2026-06-30 | 0.44 / 0.42 | `below_min_edge` | best_edge=0.043 on YES @ theo=0.643 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30dhaxil) |
@@ -1924,6 +1927,8 @@ _Generated 2026-07-22T22:09:32+00:00_
 | Luka Pavlovic vs Yi Zhou | Segovia | 2026-07-22 | 0.42 / 0.40 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL22ZHOPAV | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22zhopav) |
 | Yi Zhou vs Luka Pavlovic | Segovia | 2026-07-22 | 0.65 / 0.64 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL22ZHOPAV | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22zhopav) |
 | Luka Pavlovic vs Yi Zhou | Segovia | 2026-07-22 | 0.36 / 0.35 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL22ZHOPAV | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22zhopav) |
+| Gonzalo Villanueva vs Matteo Martineau | Segovia | 2026-07-23 | 0.44 / 0.43 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL23MARVIL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23marvil) |
+| Matteo Martineau vs Gonzalo Villanueva | Segovia | 2026-07-23 | 0.58 / 0.57 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL23MARVIL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23marvil) |
 | Inaki Montes-De La Torre vs Hynek Barton | Tampere | 2026-07-20 | 0.45 / 0.44 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL20MONBAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20monbar) |
 | Gauthier Onclin vs Duje Ajdukovic | Tampere | 2026-07-20 | 0.70 / 0.69 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL20ONCAJD | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20oncajd) |
 | Duje Ajdukovic vs Gauthier Onclin | Tampere | 2026-07-20 | 0.32 / 0.31 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL20ONCAJD | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20oncajd) |
@@ -3126,6 +3131,10 @@ _Generated 2026-07-22T22:09:32+00:00_
 | Raul Brancaccio vs Harold Mayot | Zug | 2026-07-21 | 0.61 / 0.58 | `loose_mirror_sum` | yes_ask_a=0.44 + yes_ask_b=0.61 = 1.050 (dev 0.050 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21maybra) |
 | Harold Mayot vs Raul Brancaccio | Zug | 2026-07-21 | 0.43 / 0.41 | `loose_mirror_sum` | yes_ask_a=0.43 + yes_ask_b=0.60 = 1.030 (dev 0.030 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21maybra) |
 | Raul Brancaccio vs Harold Mayot | Zug | 2026-07-21 | 0.60 / 0.57 | `loose_mirror_sum` | yes_ask_a=0.43 + yes_ask_b=0.60 = 1.030 (dev 0.030 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21maybra) |
+| Harold Mayot vs Mika Brunold | Zug | 2026-07-23 | 0.56 / 0.51 | `loose_mirror_sum` | yes_ask_a=0.56 + yes_ask_b=0.48 = 1.040 (dev 0.040 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23maybru) |
+| Mika Brunold vs Harold Mayot | Zug | 2026-07-23 | 0.48 / 0.45 | `loose_mirror_sum` | yes_ask_a=0.56 + yes_ask_b=0.48 = 1.040 (dev 0.040 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23maybru) |
+| Thiago Seyboth Wild vs Zdenek Kolar | Zug | 2026-07-23 | 0.89 / 0.66 | `loose_mirror_sum` | yes_ask_a=0.89 + yes_ask_b=0.32 = 1.210 (dev 0.210 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23seykol) |
+| Zdenek Kolar vs Thiago Seyboth Wild | Zug | 2026-07-23 | 0.32 / 0.10 | `loose_mirror_sum` | yes_ask_a=0.89 + yes_ask_b=0.32 = 1.210 (dev 0.210 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23seykol) |
 | Denis Yevseyev vs Dominic Stricker | Zug Qualification | 2026-07-19 | 0.24 / 0.14 | `loose_mirror_sum` | yes_ask_a=0.24 + yes_ask_b=0.86 = 1.100 (dev 0.100 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19yevstr) |
 | Dominic Stricker vs Denis Yevseyev | Zug Qualification | 2026-07-19 | 0.86 / 0.76 | `loose_mirror_sum` | yes_ask_a=0.24 + yes_ask_b=0.86 = 1.100 (dev 0.100 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19yevstr) |
 | Juan Pablo Varillas vs Gabi Adrian Boitan | Zug Qualification | 2026-07-19 | 0.70 / 0.66 | `loose_mirror_sum` | yes_ask_a=0.70 + yes_ask_b=0.35 = 1.050 (dev 0.050 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19varboi) |
@@ -5873,6 +5882,10 @@ _Generated 2026-07-22T22:09:32+00:00_
 | Ivan Marrero Curbelo vs Alejandro Moro Canas | Segovia | 2026-07-22 | 0.23 / 0.22 | `low_player_coverage` | cov_a=55 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22mormar) |
 | Alejandro Moro Canas vs Ivan Marrero Curbelo | Segovia | 2026-07-22 | 0.78 / 0.77 | `low_player_coverage` | cov_a=55 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22mormar) |
 | Ivan Marrero Curbelo vs Alejandro Moro Canas | Segovia | 2026-07-22 | 0.23 / 0.22 | `low_player_coverage` | cov_a=55 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22mormar) |
+| Dominik Palan vs Yanki Erel | Segovia | 2026-07-23 | 0.25 / 0.24 | `low_player_coverage` | cov_a=12 cov_b=7 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23erepal) |
+| Yanki Erel vs Dominik Palan | Segovia | 2026-07-23 | 0.76 / 0.75 | `low_player_coverage` | cov_a=12 cov_b=7 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23erepal) |
+| Alejandro Moro Canas vs Ivan Marrero Curbelo | Segovia | 2026-07-22 | 0.78 / 0.77 | `low_player_coverage` | cov_a=55 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22mormar) |
+| Ivan Marrero Curbelo vs Alejandro Moro Canas | Segovia | 2026-07-22 | 0.23 / 0.22 | `low_player_coverage` | cov_a=55 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22mormar) |
 | Mitsuki Wei Kang Leong vs Alberto Barroso Campos | Segovia Qualification | 2026-07-19 | 0.57 / 0.54 | `low_player_coverage` | cov_a=13 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19barleo) |
 | Alberto Barroso Campos vs Mitsuki Wei Kang Leong | Segovia Qualification | 2026-07-19 | 0.46 / 0.43 | `low_player_coverage` | cov_a=13 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19barleo) |
 | Aziz Ouakaa vs Maxwell Mckennon | Segovia Qualification | 2026-07-19 | 0.38 / 0.34 | `low_player_coverage` | cov_a=7 cov_b=6 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19mckoua) |
@@ -6876,6 +6889,8 @@ _Generated 2026-07-22T22:09:32+00:00_
 | Alvaro Guillen Meza vs Anton Matusevich | Zug | 2026-07-22 | 0.07 / 0.06 | `low_player_coverage` | cov_a=6 cov_b=58 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22guimat) |
 | Dylan Dietrich vs Max Alcala Gurri | Zug | 2026-07-23 | 0.56 / 0.53 | `low_player_coverage` | cov_a=4 cov_b=32 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23alcdie) |
 | Max Alcala Gurri vs Dylan Dietrich | Zug | 2026-07-23 | 0.47 / 0.44 | `low_player_coverage` | cov_a=4 cov_b=32 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23alcdie) |
+| Dylan Dietrich vs Max Alcala Gurri | Zug | 2026-07-23 | 0.58 / 0.57 | `low_player_coverage` | cov_a=4 cov_b=32 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23alcdie) |
+| Max Alcala Gurri vs Dylan Dietrich | Zug | 2026-07-23 | 0.44 / 0.43 | `low_player_coverage` | cov_a=4 cov_b=32 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23alcdie) |
 | Samuele Pieri vs Petr Nesterov | Zug Qualification | 2026-07-19 | 0.54 / 0.44 | `low_player_coverage` | cov_a=12 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19pienes) |
 | Petr Nesterov vs Samuele Pieri | Zug Qualification | 2026-07-19 | 0.56 / 0.46 | `low_player_coverage` | cov_a=12 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19pienes) |
 | Danny Thomas vs Thiago Monteiro | Zug Qualification | 2026-07-19 | 0.17 / 0.08 | `low_player_coverage` | cov_a=0 cov_b=34 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19montho) |
@@ -8837,6 +8852,7 @@ _Generated 2026-07-22T22:09:32+00:00_
 | Nicolai Budkov Kjaer vs Gueymard Wayenburg | Tampere | 2026-07-21 | 0.69 / 0.68 | `missing_player_id` | player_a_id='B0U4', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21budgue) |
 | Igor Marcondes vs Lagerbohm | Tampere | 2026-07-21 | 0.80 / 0.79 | `missing_player_id` | player_a_id='RD48', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21marlag) |
 | Linus Lagerbohm vs Igor Marcondes | Tampere | 2026-07-21 | 0.21 / 0.20 | `missing_player_id` | player_a_id=nan, player_b_id='RD48' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21marlag) |
+| Igor Marcondes vs Gueymard Wayenburg | Tampere | 2026-07-23 | 0.47 / 0.46 | `missing_player_id` | player_a_id='RD48', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23guemar) |
 | Igor Marcondes vs Gueymard Wayenburg | Tampere | 2026-07-23 | 0.47 / 0.46 | `missing_player_id` | player_a_id='RD48', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23guemar) |
 | Mika Petkovic vs Alopaeus | Tampere Qualification | 2026-07-19 | 0.93 / 0.89 | `missing_player_id` | player_a_id='P0O9', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19petalo) |
 | Felix Alopaeus vs Mika Petkovic | Tampere Qualification | 2026-07-19 | 0.14 / 0.07 | `missing_player_id` | player_a_id=nan, player_b_id='P0O9' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19petalo) |

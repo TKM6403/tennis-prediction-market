@@ -1,12 +1,14 @@
-# Settled paper bets (540)
+# Settled paper bets (542)
 
-_Generated 2026-07-22T22:09:32+00:00_
+_Generated 2026-07-23T02:50:32+00:00_
 
-**Wins:** 171 / 540  (31.7%)  
-**Net PnL (per contract):** -29.803
+**Wins:** 171 / 542  (31.5%)  
+**Net PnL (per contract):** -30.360
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Yosuke Watanuki (YES) vs Toby Samuel | Winnipeg | 2026-07-23 | YES Yosuke Watanuki | 0.29 | 0.365 | ✗ | -0.304 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22watsam) |
+| Pablo Llamas Ruiz (YES) vs Mark Lajal | Bloomfield Hills | 2026-07-22 | YES Pablo Llamas Ruiz | 0.24 | 0.458 | ✗ | -0.253 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22lajlla) |
 | Philip Henning (YES) vs Jerome Kym | Zug | 2026-07-22 | YES Philip Henning | 0.22 | 0.419 | ✓ | +0.768 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22kymhen) |
 | Charles Broom (YES) vs Zhizhen Zhang | Winnipeg | 2026-07-22 | YES Charles Broom | 0.34 | 0.520 | ✓ | +0.644 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul22brozha) |
 | Aidan Mayo (NO) vs Alex Michelsen | Bloomfield Hills | 2026-07-22 | NO Aidan Mayo | 0.11 | 0.376 | ✗ | -0.117 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21micmay) |
