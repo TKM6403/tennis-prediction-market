@@ -1,12 +1,13 @@
-# Settled paper bets (546)
+# Settled paper bets (547)
 
-_Generated 2026-07-23T14:04:47+00:00_
+_Generated 2026-07-23T16:30:29+00:00_
 
-**Wins:** 171 / 546  (31.3%)  
-**Net PnL (per contract):** -31.956
+**Wins:** 172 / 547  (31.4%)  
+**Net PnL (per contract):** -31.533
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Harold Mayot (YES) vs Mika Brunold | Zug | 2026-07-23 | YES Harold Mayot | 0.56 | 0.639 | ✓ | +0.423 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23maybru) |
 | Juan Bautista Torres (YES) vs Marc-Andrea Huesler | Zug | 2026-07-23 | YES Juan Bautista Torres | 0.35 | 0.553 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23huetor) |
 | Franco Roncadelli (YES) vs Henri Squire | Tampere | 2026-07-23 | YES Franco Roncadelli | 0.37 | 0.493 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23squron) |
 | Gonzalo Villanueva (YES) vs Matteo Martineau | Segovia | 2026-07-23 | YES Gonzalo Villanueva | 0.44 | 0.584 | ✗ | -0.457 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23marvil) |
