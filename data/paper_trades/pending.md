@@ -1,13 +1,15 @@
-# Pending paper bets (14)
+# Pending paper bets (16)
 
-_Generated 2026-07-24T05:56:30+00:00_
+_Generated 2026-07-24T08:33:40+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
 | **Martin Krumich** (NO) vs Francisco Comesana | Braunschweig | 2026-07-07 | NO Martin Krumich | 0.26 | 0.540 | +0.280 | 0.0135 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07krucom) |
 | **Arthur Gea** (NO) vs Alex Michelsen | Bloomfield Hills | 2026-07-22 | NO Arthur Gea | 0.28 | 0.507 | +0.227 | 0.0141 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21micgea) |
 | **Kaichi Uchida** (YES) vs James Trotter | Newport Qualification | 2026-07-05 | YES Kaichi Uchida | 0.31 | 0.511 | +0.201 | 0.0150 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05uchtro) |
+| **Mark Lajal** (NO) vs Alex Michelsen | Bloomfield Hills | 2026-07-24 | NO Mark Lajal | 0.29 | 0.489 | +0.199 | 0.0144 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24miclaj) |
 | **Cezar Cretu** (NO) vs Kimmer Coppejans | Zug | 2026-07-20 | NO Cezar Cretu | 0.38 | 0.561 | +0.181 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20crecop) |
+| **Yu Hsiou Hsu** (YES) vs Toby Samuel | Winnipeg | 2026-07-24 | YES Yu Hsiou Hsu | 0.18 | 0.334 | +0.154 | 0.0103 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24hsusam) |
 | **Igor Marcondes** (YES) vs Diego Dedura | Tampere | 2026-07-24 | YES Igor Marcondes | 0.39 | 0.512 | +0.122 | 0.0167 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24marded) |
 | **Philip Henning** (YES) vs Thiago Seyboth Wild | Zug | 2026-07-24 | YES Philip Henning | 0.35 | 0.471 | +0.121 | 0.0159 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24hensey) |
 | **Pablo Llamas Ruiz** (YES) vs Alexis Galarneau | Bloomfield Hills | 2026-07-20 | YES Pablo Llamas Ruiz | 0.46 | 0.579 | +0.119 | 0.0174 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20gallla) |
