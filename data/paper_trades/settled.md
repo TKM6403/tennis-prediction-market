@@ -1,12 +1,15 @@
-# Settled paper bets (559)
+# Settled paper bets (562)
 
-_Generated 2026-07-24T13:50:11+00:00_
+_Generated 2026-07-24T16:48:13+00:00_
 
-**Wins:** 175 / 559  (31.3%)  
-**Net PnL (per contract):** -33.555
+**Wins:** 177 / 562  (31.5%)  
+**Net PnL (per contract):** -32.906
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Henri Squire (YES) vs Otto Virtanen | Tampere | 2026-07-24 | YES Henri Squire | 0.36 | 0.470 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24squvir) |
+| Oliver Crawford (YES) vs Alejandro Moro Canas | Segovia | 2026-07-24 | YES Oliver Crawford | 0.45 | 0.553 | ✓ | +0.533 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24morcra) |
+| Maks Kasnikowski (YES) vs Hynek Barton | Tampere | 2026-07-24 | YES Maks Kasnikowski | 0.49 | 0.541 | ✓ | +0.493 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24kasbar) |
 | Philip Henning (YES) vs Thiago Seyboth Wild | Zug | 2026-07-24 | YES Philip Henning | 0.35 | 0.471 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24hensey) |
 | Igor Marcondes (YES) vs Diego Dedura | Tampere | 2026-07-24 | YES Igor Marcondes | 0.39 | 0.512 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24marded) |
 | Tom Gentzsch (YES) vs Gauthier Onclin | Tampere | 2026-07-24 | YES Tom Gentzsch | 0.54 | 0.643 | ✗ | -0.557 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24oncgen) |
