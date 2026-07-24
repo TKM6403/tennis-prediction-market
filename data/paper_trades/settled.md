@@ -1,12 +1,16 @@
-# Settled paper bets (551)
+# Settled paper bets (555)
 
-_Generated 2026-07-23T22:07:32+00:00_
+_Generated 2026-07-24T02:47:12+00:00_
 
-**Wins:** 174 / 551  (31.6%)  
-**Net PnL (per contract):** -31.116
+**Wins:** 175 / 555  (31.5%)  
+**Net PnL (per contract):** -31.698
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Johannus Monday (YES) vs Yuta Shimizu | Winnipeg | 2026-07-23 | YES Johannus Monday | 0.54 | 0.648 | ✓ | +0.443 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23monshi) |
+| August Holmgren (YES) vs Liam Draxl | Winnipeg | 2026-07-24 | YES August Holmgren | 0.47 | 0.623 | ✗ | -0.487 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23holdra) |
+| Hayato Matsuoka (YES) vs Clement Chidekh | Winnipeg | 2026-07-24 | YES Hayato Matsuoka | 0.26 | 0.408 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23matchi) |
+| Lloyd Harris (NO) vs Alex Michelsen | Bloomfield Hills | 2026-07-23 | NO Lloyd Harris | 0.25 | 0.449 | ✗ | -0.263 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23michar) |
 | Dhakshineswar Suresh (YES) vs Borna Gojo | Bloomfield Hills | 2026-07-23 | YES Dhakshineswar Suresh | 0.32 | 0.376 | ✓ | +0.665 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23gojsur) |
 | Tristan Boyer (YES) vs Jacob Fearnley | Bloomfield Hills | 2026-07-23 | YES Tristan Boyer | 0.34 | 0.473 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23feaboy) |
 | Oliver Crawford (YES) vs Alejo Sanchez Quilez | Segovia | 2026-07-23 | YES Oliver Crawford | 0.54 | 0.597 | ✓ | +0.443 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23sancra) |
