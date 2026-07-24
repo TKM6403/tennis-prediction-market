@@ -1,6 +1,6 @@
-# Dropped markets (13245)
+# Dropped markets (13251)
 
-_Generated 2026-07-24T19:29:27+00:00_
+_Generated 2026-07-24T22:08:56+00:00_
 
 ## Summary by reason
 
@@ -9,7 +9,7 @@ _Generated 2026-07-24T19:29:27+00:00_
 | `low_player_coverage` | 3894 |
 | `tournament_not_in_tml` | 2419 |
 | `missing_player_id` | 2259 |
-| `duplicate_match` | 2185 |
+| `duplicate_match` | 2191 |
 | `thin_tournament_history` | 872 |
 | `below_min_edge` | 828 |
 | `wide_spread` | 338 |
@@ -933,6 +933,8 @@ _Generated 2026-07-24T19:29:27+00:00_
 | Mark Lajal vs Alex Michelsen | Bloomfield Hills | 2026-07-24 | 0.27 / 0.26 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL24MICLAJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24miclaj) |
 | Alex Michelsen vs Mark Lajal | Bloomfield Hills | 2026-07-24 | 0.75 / 0.74 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL24MICLAJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24miclaj) |
 | Mark Lajal vs Alex Michelsen | Bloomfield Hills | 2026-07-24 | 0.26 / 0.25 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL24MICLAJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24miclaj) |
+| Alex Michelsen vs Mark Lajal | Bloomfield Hills | 2026-07-24 | 0.75 / 0.74 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL24MICLAJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24miclaj) |
+| Mark Lajal vs Alex Michelsen | Bloomfield Hills | 2026-07-24 | 0.27 / 0.26 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL24MICLAJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24miclaj) |
 | Alex Michelsen vs Mark Lajal | Bloomfield Hills | 2026-07-24 | 0.75 / 0.74 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL24MICLAJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24miclaj) |
 | Mark Lajal vs Alex Michelsen | Bloomfield Hills | 2026-07-24 | 0.27 / 0.26 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL24MICLAJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24miclaj) |
 | Nicolas Mejia vs Hernan Casanova | Bogota | 2026-07-10 | 0.61 / 0.60 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL10MEJCAS | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10mejcas) |
@@ -2656,6 +2658,10 @@ _Generated 2026-07-24T19:29:27+00:00_
 | Shintaro Mochizuki vs Johannus Monday | Winnipeg | 2026-07-25 | 0.63 / 0.62 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL24MOCMON | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24mocmon) |
 | Toby Samuel vs Yu Hsiou Hsu | Winnipeg | 2026-07-24 | 0.87 / 0.86 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL24HSUSAM | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24hsusam) |
 | Yu Hsiou Hsu vs Toby Samuel | Winnipeg | 2026-07-24 | 0.14 / 0.13 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL24HSUSAM | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24hsusam) |
+| Liam Draxl vs Clement Chidekh | Winnipeg | 2026-07-25 | 0.55 / 0.54 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL24DRACHI | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24drachi) |
+| Clement Chidekh vs Liam Draxl | Winnipeg | 2026-07-25 | 0.47 / 0.45 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL24DRACHI | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24drachi) |
+| Johannus Monday vs Shintaro Mochizuki | Winnipeg | 2026-07-25 | 0.37 / 0.36 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL24MOCMON | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24mocmon) |
+| Shintaro Mochizuki vs Johannus Monday | Winnipeg | 2026-07-25 | 0.64 / 0.63 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL24MOCMON | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24mocmon) |
 | James Trotter vs Kokoro Isomura | Winnipeg Qualification | 2026-07-20 | 0.78 / 0.77 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL20TROISO | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20troiso) |
 | Kokoro Isomura vs James Trotter | Winnipeg Qualification | 2026-07-20 | 0.23 / 0.22 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL20TROISO | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20troiso) |
 | James Trotter vs Kokoro Isomura | Winnipeg Qualification | 2026-07-20 | 0.78 / 0.77 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL20TROISO | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20troiso) |
