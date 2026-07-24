@@ -1,10 +1,9 @@
-# Pending paper bets (12)
+# Pending paper bets (11)
 
-_Generated 2026-07-24T16:48:13+00:00_
+_Generated 2026-07-24T19:29:27+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
-| **Michael Zheng** (YES) vs Adam Walton | Bloomfield Hills | 2026-07-24 | YES Michael Zheng | 0.14 | 0.528 | +0.388 | 0.0084 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24zhewal) |
 | **Martin Krumich** (NO) vs Francisco Comesana | Braunschweig | 2026-07-07 | NO Martin Krumich | 0.26 | 0.540 | +0.280 | 0.0135 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07krucom) |
 | **Arthur Gea** (NO) vs Alex Michelsen | Bloomfield Hills | 2026-07-22 | NO Arthur Gea | 0.28 | 0.507 | +0.227 | 0.0141 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21micgea) |
 | **Kaichi Uchida** (YES) vs James Trotter | Newport Qualification | 2026-07-05 | YES Kaichi Uchida | 0.31 | 0.511 | +0.201 | 0.0150 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05uchtro) |

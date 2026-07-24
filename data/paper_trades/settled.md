@@ -1,12 +1,13 @@
-# Settled paper bets (562)
+# Settled paper bets (563)
 
-_Generated 2026-07-24T16:48:13+00:00_
+_Generated 2026-07-24T19:29:27+00:00_
 
-**Wins:** 177 / 562  (31.5%)  
-**Net PnL (per contract):** -32.906
+**Wins:** 178 / 563  (31.6%)  
+**Net PnL (per contract):** -32.055
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Michael Zheng (YES) vs Adam Walton | Bloomfield Hills | 2026-07-24 | YES Michael Zheng | 0.14 | 0.528 | ✓ | +0.852 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24zhewal) |
 | Henri Squire (YES) vs Otto Virtanen | Tampere | 2026-07-24 | YES Henri Squire | 0.36 | 0.470 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24squvir) |
 | Oliver Crawford (YES) vs Alejandro Moro Canas | Segovia | 2026-07-24 | YES Oliver Crawford | 0.45 | 0.553 | ✓ | +0.533 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24morcra) |
 | Maks Kasnikowski (YES) vs Hynek Barton | Tampere | 2026-07-24 | YES Maks Kasnikowski | 0.49 | 0.541 | ✓ | +0.493 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24kasbar) |
