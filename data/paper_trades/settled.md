@@ -1,12 +1,16 @@
-# Settled paper bets (555)
+# Settled paper bets (559)
 
-_Generated 2026-07-24T08:33:40+00:00_
+_Generated 2026-07-24T13:50:11+00:00_
 
-**Wins:** 175 / 555  (31.5%)  
-**Net PnL (per contract):** -31.698
+**Wins:** 175 / 559  (31.3%)  
+**Net PnL (per contract):** -33.555
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Philip Henning (YES) vs Thiago Seyboth Wild | Zug | 2026-07-24 | YES Philip Henning | 0.35 | 0.471 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24hensey) |
+| Igor Marcondes (YES) vs Diego Dedura | Tampere | 2026-07-24 | YES Igor Marcondes | 0.39 | 0.512 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24marded) |
+| Tom Gentzsch (YES) vs Gauthier Onclin | Tampere | 2026-07-24 | YES Tom Gentzsch | 0.54 | 0.643 | ✗ | -0.557 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24oncgen) |
+| Mert Alkaya (YES) vs Luka Pavlovic | Segovia | 2026-07-24 | YES Mert Alkaya | 0.51 | 0.582 | ✗ | -0.527 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24pavalk) |
 | Johannus Monday (YES) vs Yuta Shimizu | Winnipeg | 2026-07-23 | YES Johannus Monday | 0.54 | 0.648 | ✓ | +0.443 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23monshi) |
 | August Holmgren (YES) vs Liam Draxl | Winnipeg | 2026-07-24 | YES August Holmgren | 0.47 | 0.623 | ✗ | -0.487 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23holdra) |
 | Hayato Matsuoka (YES) vs Clement Chidekh | Winnipeg | 2026-07-24 | YES Hayato Matsuoka | 0.26 | 0.408 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul23matchi) |
