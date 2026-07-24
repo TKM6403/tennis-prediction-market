@@ -1,6 +1,6 @@
 # Settled paper bets (555)
 
-_Generated 2026-07-24T02:47:12+00:00_
+_Generated 2026-07-24T05:56:30+00:00_
 
 **Wins:** 175 / 555  (31.5%)  
 **Net PnL (per contract):** -31.698

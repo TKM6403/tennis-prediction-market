@@ -1,6 +1,6 @@
-# Pending paper bets (12)
+# Pending paper bets (14)
 
-_Generated 2026-07-24T02:47:12+00:00_
+_Generated 2026-07-24T05:56:30+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
@@ -13,6 +13,8 @@ _Generated 2026-07-24T02:47:12+00:00_
 | **Pablo Llamas Ruiz** (YES) vs Alexis Galarneau | Bloomfield Hills | 2026-07-20 | YES Pablo Llamas Ruiz | 0.46 | 0.579 | +0.119 | 0.0174 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20gallla) |
 | **Henri Squire** (YES) vs Otto Virtanen | Tampere | 2026-07-24 | YES Henri Squire | 0.36 | 0.470 | +0.110 | 0.0161 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24squvir) |
 | **Pablo Carreno Busta** (NO) vs Jaume Munar | Valencia | 2026-05-15 | NO Pablo Carreno Busta | 0.44 | 0.549 | +0.109 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15carmun) |
+| **Oliver Crawford** (YES) vs Alejandro Moro Canas | Segovia | 2026-07-24 | YES Oliver Crawford | 0.45 | 0.553 | +0.103 | 0.0173 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24morcra) |
 | **Tom Gentzsch** (YES) vs Gauthier Onclin | Tampere | 2026-07-24 | YES Tom Gentzsch | 0.54 | 0.643 | +0.103 | 0.0174 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24oncgen) |
 | **Mert Alkaya** (YES) vs Luka Pavlovic | Segovia | 2026-07-24 | YES Mert Alkaya | 0.51 | 0.582 | +0.072 | 0.0175 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24pavalk) |
 | **Philip Sekulic** (YES) vs Mitchell Krueger | Little Rock | 2026-05-26 | YES Philip Sekulic | 0.38 | 0.450 | +0.070 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26sekkru) |
+| **Maks Kasnikowski** (YES) vs Hynek Barton | Tampere | 2026-07-24 | YES Maks Kasnikowski | 0.49 | 0.541 | +0.051 | 0.0175 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24kasbar) |
