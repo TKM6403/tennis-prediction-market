@@ -1,12 +1,17 @@
-# Settled paper bets (572)
+# Settled paper bets (577)
 
-_Generated 2026-07-25T19:10:59+00:00_
+_Generated 2026-07-25T22:01:10+00:00_
 
-**Wins:** 179 / 572  (31.3%)  
-**Net PnL (per contract):** -34.769
+**Wins:** 181 / 577  (31.4%)  
+**Net PnL (per contract):** -34.600
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Michael Zheng (YES) vs Jacob Fearnley | Bloomfield Hills | 2026-07-25 | YES Michael Zheng | 0.59 | 0.654 | ✗ | -0.607 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25feazhe) |
+| Dhakshineswar Suresh (NO) vs Alex Michelsen | Bloomfield Hills | 2026-07-25 | NO Dhakshineswar Suresh | 0.15 | 0.390 | ✗ | -0.159 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25micsur) |
+| Charles Broom (YES) vs Toby Samuel | Winnipeg | 2026-07-25 | YES Charles Broom | 0.23 | 0.374 | ✗ | -0.242 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25brosam) |
+| Matteo Martineau (YES) vs Oliver Crawford | Segovia | 2026-07-25 | YES Matteo Martineau | 0.32 | 0.425 | ✓ | +0.665 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25marcra) |
+| Liam Draxl (YES) vs Shintaro Mochizuki | Winnipeg | 2026-07-25 | YES Liam Draxl | 0.47 | 0.532 | ✓ | +0.513 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25mocdra) |
 | Max Hans Rehberg (YES) vs Marc-Andrea Huesler | Zug | 2026-07-25 | YES Max Hans Rehberg | 0.46 | 0.621 | ✗ | -0.477 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25rehhue) |
 | Keegan Smith (YES) vs Luka Pavlovic | Segovia | 2026-07-25 | YES Keegan Smith | 0.55 | 0.690 | ✗ | -0.567 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25pavsmi) |
 | Maks Kasnikowski (YES) vs Otto Virtanen | Tampere | 2026-07-25 | YES Maks Kasnikowski | 0.38 | 0.449 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25kasvir) |
