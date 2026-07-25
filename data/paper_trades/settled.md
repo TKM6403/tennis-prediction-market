@@ -1,12 +1,13 @@
-# Settled paper bets (568)
+# Settled paper bets (569)
 
-_Generated 2026-07-25T10:33:33+00:00_
+_Generated 2026-07-25T13:31:57+00:00_
 
-**Wins:** 179 / 568  (31.5%)  
-**Net PnL (per contract):** -32.931
+**Wins:** 179 / 569  (31.5%)  
+**Net PnL (per contract):** -33.327
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Gauthier Onclin (YES) vs Diego Dedura | Tampere | 2026-07-25 | YES Gauthier Onclin | 0.38 | 0.450 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25dedonc) |
 | Mark Lajal (NO) vs Alex Michelsen | Bloomfield Hills | 2026-07-24 | NO Mark Lajal | 0.29 | 0.489 | ✗ | -0.304 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24miclaj) |
 | Clement Chidekh (YES) vs Liam Draxl | Winnipeg | 2026-07-25 | YES Clement Chidekh | 0.48 | 0.579 | ✗ | -0.497 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24drachi) |
 | Johannus Monday (YES) vs Shintaro Mochizuki | Winnipeg | 2026-07-25 | YES Johannus Monday | 0.39 | 0.575 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24mocmon) |
