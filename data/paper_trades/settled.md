@@ -1,12 +1,14 @@
-# Settled paper bets (570)
+# Settled paper bets (572)
 
-_Generated 2026-07-25T16:08:18+00:00_
+_Generated 2026-07-25T19:10:59+00:00_
 
-**Wins:** 179 / 570  (31.4%)  
-**Net PnL (per contract):** -33.724
+**Wins:** 179 / 572  (31.3%)  
+**Net PnL (per contract):** -34.769
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Max Hans Rehberg (YES) vs Marc-Andrea Huesler | Zug | 2026-07-25 | YES Max Hans Rehberg | 0.46 | 0.621 | ✗ | -0.477 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25rehhue) |
+| Keegan Smith (YES) vs Luka Pavlovic | Segovia | 2026-07-25 | YES Keegan Smith | 0.55 | 0.690 | ✗ | -0.567 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25pavsmi) |
 | Maks Kasnikowski (YES) vs Otto Virtanen | Tampere | 2026-07-25 | YES Maks Kasnikowski | 0.38 | 0.449 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25kasvir) |
 | Gauthier Onclin (YES) vs Diego Dedura | Tampere | 2026-07-25 | YES Gauthier Onclin | 0.38 | 0.450 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25dedonc) |
 | Mark Lajal (NO) vs Alex Michelsen | Bloomfield Hills | 2026-07-24 | NO Mark Lajal | 0.29 | 0.489 | ✗ | -0.304 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24miclaj) |
