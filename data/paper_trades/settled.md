@@ -1,12 +1,16 @@
-# Settled paper bets (564)
+# Settled paper bets (568)
 
-_Generated 2026-07-24T22:08:56+00:00_
+_Generated 2026-07-25T02:45:31+00:00_
 
-**Wins:** 178 / 564  (31.6%)  
-**Net PnL (per contract):** -32.245
+**Wins:** 179 / 568  (31.5%)  
+**Net PnL (per contract):** -32.931
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Mark Lajal (NO) vs Alex Michelsen | Bloomfield Hills | 2026-07-24 | NO Mark Lajal | 0.29 | 0.489 | ✗ | -0.304 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24miclaj) |
+| Clement Chidekh (YES) vs Liam Draxl | Winnipeg | 2026-07-25 | YES Clement Chidekh | 0.48 | 0.579 | ✗ | -0.497 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24drachi) |
+| Johannus Monday (YES) vs Shintaro Mochizuki | Winnipeg | 2026-07-25 | YES Johannus Monday | 0.39 | 0.575 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24mocmon) |
+| Dhakshineswar Suresh (YES) vs Andrej Martin | Bloomfield Hills | 2026-07-24 | YES Dhakshineswar Suresh | 0.46 | 0.577 | ✓ | +0.523 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24surmar) |
 | Yu Hsiou Hsu (YES) vs Toby Samuel | Winnipeg | 2026-07-24 | YES Yu Hsiou Hsu | 0.18 | 0.334 | ✗ | -0.190 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24hsusam) |
 | Michael Zheng (YES) vs Adam Walton | Bloomfield Hills | 2026-07-24 | YES Michael Zheng | 0.14 | 0.528 | ✓ | +0.852 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24zhewal) |
 | Henri Squire (YES) vs Otto Virtanen | Tampere | 2026-07-24 | YES Henri Squire | 0.36 | 0.470 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24squvir) |

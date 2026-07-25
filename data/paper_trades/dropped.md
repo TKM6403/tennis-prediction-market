@@ -1,12 +1,12 @@
-# Dropped markets (13251)
+# Dropped markets (13253)
 
-_Generated 2026-07-24T22:08:56+00:00_
+_Generated 2026-07-25T02:45:31+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `low_player_coverage` | 3894 |
+| `low_player_coverage` | 3896 |
 | `tournament_not_in_tml` | 2419 |
 | `missing_player_id` | 2259 |
 | `duplicate_match` | 2191 |
@@ -7188,6 +7188,8 @@ _Generated 2026-07-24T22:08:56+00:00_
 | Dylan Dietrich vs Harold Mayot | Zug | 2026-07-24 | 0.94 / 0.93 | `low_player_coverage` | cov_a=39 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24maydie) |
 | Max Hans Rehberg vs Anton Matusevich | Zug | 2026-07-24 | 0.66 / 0.63 | `low_player_coverage` | cov_a=17 cov_b=6 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24rehmat) |
 | Anton Matusevich vs Max Hans Rehberg | Zug | 2026-07-24 | 0.36 / 0.33 | `low_player_coverage` | cov_a=17 cov_b=6 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul24rehmat) |
+| Thiago Seyboth Wild vs Dylan Dietrich | Zug | 2026-07-25 | 0.41 / 0.40 | `low_player_coverage` | cov_a=29 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25seydie) |
+| Dylan Dietrich vs Thiago Seyboth Wild | Zug | 2026-07-25 | 0.60 / 0.59 | `low_player_coverage` | cov_a=29 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25seydie) |
 | Samuele Pieri vs Petr Nesterov | Zug Qualification | 2026-07-19 | 0.54 / 0.44 | `low_player_coverage` | cov_a=12 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19pienes) |
 | Petr Nesterov vs Samuele Pieri | Zug Qualification | 2026-07-19 | 0.56 / 0.46 | `low_player_coverage` | cov_a=12 cov_b=13 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19pienes) |
 | Danny Thomas vs Thiago Monteiro | Zug Qualification | 2026-07-19 | 0.17 / 0.08 | `low_player_coverage` | cov_a=0 cov_b=34 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19montho) |
