@@ -1,6 +1,6 @@
-# Pending paper bets (15)
+# Pending paper bets (14)
 
-_Generated 2026-07-25T13:31:57+00:00_
+_Generated 2026-07-25T16:08:18+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
@@ -16,6 +16,5 @@ _Generated 2026-07-25T13:31:57+00:00_
 | **Pablo Carreno Busta** (NO) vs Jaume Munar | Valencia | 2026-05-15 | NO Pablo Carreno Busta | 0.44 | 0.549 | +0.109 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15carmun) |
 | **Matteo Martineau** (YES) vs Oliver Crawford | Segovia | 2026-07-25 | YES Matteo Martineau | 0.32 | 0.425 | +0.105 | 0.0152 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25marcra) |
 | **Philip Sekulic** (YES) vs Mitchell Krueger | Little Rock | 2026-05-26 | YES Philip Sekulic | 0.38 | 0.450 | +0.070 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26sekkru) |
-| **Maks Kasnikowski** (YES) vs Otto Virtanen | Tampere | 2026-07-25 | YES Maks Kasnikowski | 0.38 | 0.449 | +0.069 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25kasvir) |
 | **Michael Zheng** (YES) vs Jacob Fearnley | Bloomfield Hills | 2026-07-25 | YES Michael Zheng | 0.59 | 0.654 | +0.064 | 0.0169 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25feazhe) |
 | **Liam Draxl** (YES) vs Shintaro Mochizuki | Winnipeg | 2026-07-25 | YES Liam Draxl | 0.47 | 0.532 | +0.062 | 0.0174 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25mocdra) |
