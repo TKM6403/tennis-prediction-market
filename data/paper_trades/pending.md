@@ -1,6 +1,6 @@
-# Pending paper bets (9)
+# Pending paper bets (10)
 
-_Generated 2026-07-26T02:53:16+00:00_
+_Generated 2026-07-26T06:11:11+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
@@ -13,3 +13,4 @@ _Generated 2026-07-26T02:53:16+00:00_
 | **Pablo Carreno Busta** (NO) vs Jaume Munar | Valencia | 2026-05-15 | NO Pablo Carreno Busta | 0.44 | 0.549 | +0.109 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15carmun) |
 | **Thiago Seyboth Wild** (YES) vs Marc-Andrea Huesler | Zug | 2026-07-26 | YES Thiago Seyboth Wild | 0.56 | 0.664 | +0.104 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26huesey) |
 | **Philip Sekulic** (YES) vs Mitchell Krueger | Little Rock | 2026-05-26 | YES Philip Sekulic | 0.38 | 0.450 | +0.070 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26sekkru) |
+| **Diego Dedura** (YES) vs Otto Virtanen | Tampere | 2026-07-26 | YES Diego Dedura | 0.36 | 0.417 | +0.057 | 0.0161 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26dedvir) |
