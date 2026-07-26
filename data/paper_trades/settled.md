@@ -1,12 +1,13 @@
-# Settled paper bets (578)
+# Settled paper bets (579)
 
-_Generated 2026-07-26T13:28:47+00:00_
+_Generated 2026-07-26T16:06:41+00:00_
 
-**Wins:** 182 / 578  (31.5%)  
-**Net PnL (per contract):** -33.976
+**Wins:** 183 / 579  (31.6%)  
+**Net PnL (per contract):** -33.553
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Thiago Seyboth Wild (YES) vs Marc-Andrea Huesler | Zug | 2026-07-26 | YES Thiago Seyboth Wild | 0.56 | 0.664 | ✓ | +0.423 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26huesey) |
 | Diego Dedura (YES) vs Otto Virtanen | Tampere | 2026-07-26 | YES Diego Dedura | 0.36 | 0.417 | ✓ | +0.624 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26dedvir) |
 | Michael Zheng (YES) vs Jacob Fearnley | Bloomfield Hills | 2026-07-25 | YES Michael Zheng | 0.59 | 0.654 | ✗ | -0.607 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25feazhe) |
 | Dhakshineswar Suresh (NO) vs Alex Michelsen | Bloomfield Hills | 2026-07-25 | NO Dhakshineswar Suresh | 0.15 | 0.390 | ✗ | -0.159 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25micsur) |
