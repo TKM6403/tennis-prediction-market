@@ -1,12 +1,13 @@
-# Settled paper bets (577)
+# Settled paper bets (578)
 
-_Generated 2026-07-26T06:11:11+00:00_
+_Generated 2026-07-26T10:49:22+00:00_
 
-**Wins:** 181 / 577  (31.4%)  
-**Net PnL (per contract):** -34.600
+**Wins:** 182 / 578  (31.5%)  
+**Net PnL (per contract):** -33.976
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Diego Dedura (YES) vs Otto Virtanen | Tampere | 2026-07-26 | YES Diego Dedura | 0.36 | 0.417 | ✓ | +0.624 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26dedvir) |
 | Michael Zheng (YES) vs Jacob Fearnley | Bloomfield Hills | 2026-07-25 | YES Michael Zheng | 0.59 | 0.654 | ✗ | -0.607 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25feazhe) |
 | Dhakshineswar Suresh (NO) vs Alex Michelsen | Bloomfield Hills | 2026-07-25 | NO Dhakshineswar Suresh | 0.15 | 0.390 | ✗ | -0.159 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25micsur) |
 | Charles Broom (YES) vs Toby Samuel | Winnipeg | 2026-07-25 | YES Charles Broom | 0.23 | 0.374 | ✗ | -0.242 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul25brosam) |
