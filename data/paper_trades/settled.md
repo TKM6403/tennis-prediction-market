@@ -1,12 +1,18 @@
-# Settled paper bets (580)
+# Settled paper bets (586)
 
-_Generated 2026-07-27T12:29:37+00:00_
+_Generated 2026-07-27T17:03:39+00:00_
 
-**Wins:** 183 / 580  (31.6%)  
-**Net PnL (per contract):** -33.929
+**Wins:** 186 / 586  (31.7%)  
+**Net PnL (per contract):** -34.032
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Enrico Dalla Valle (YES) vs Mika Brunold | San Marino Qualification | 2026-07-27 | YES Enrico Dalla Valle | 0.59 | 0.710 | ✓ | +0.393 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27dalbru) |
+| Juan Pablo Varillas (YES) vs Francesco Forti | San Marino Qualification | 2026-07-27 | YES Juan Pablo Varillas | 0.54 | 0.652 | ✓ | +0.443 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27varfor) |
+| Sumit Nagal (NO) vs Inaki Montes-De La Torre | Liberec | 2026-07-27 | NO Sumit Nagal | 0.47 | 0.537 | ✓ | +0.513 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27monnag) |
+| Daniel Rincon (YES) vs Juan Carlos Prado Angelo | San Marino | 2026-07-27 | YES Daniel Rincon | 0.55 | 0.605 | ✗ | -0.567 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27rinpra) |
+| Stefano Napolitano (YES) vs Alexandre Muller | San Marino | 2026-07-27 | YES Stefano Napolitano | 0.39 | 0.693 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27mulnap) |
+| Luciano Emanuel Ambrogi (YES) vs Nicolas Kicker | Liberec | 2026-07-27 | YES Luciano Emanuel Ambrogi | 0.46 | 0.525 | ✗ | -0.477 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27ambkic) |
 | Matteo Martineau (YES) vs Luka Pavlovic | Segovia | 2026-07-26 | YES Matteo Martineau | 0.36 | 0.507 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26marpav) |
 | Thiago Seyboth Wild (YES) vs Marc-Andrea Huesler | Zug | 2026-07-26 | YES Thiago Seyboth Wild | 0.56 | 0.664 | ✓ | +0.423 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26huesey) |
 | Diego Dedura (YES) vs Otto Virtanen | Tampere | 2026-07-26 | YES Diego Dedura | 0.36 | 0.417 | ✓ | +0.624 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26dedvir) |
