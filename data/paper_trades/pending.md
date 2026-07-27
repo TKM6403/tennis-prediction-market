@@ -1,6 +1,6 @@
-# Pending paper bets (9)
+# Pending paper bets (12)
 
-_Generated 2026-07-26T22:04:41+00:00_
+_Generated 2026-07-27T03:00:33+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
@@ -12,4 +12,7 @@ _Generated 2026-07-26T22:04:41+00:00_
 | **Pablo Llamas Ruiz** (YES) vs Alexis Galarneau | Bloomfield Hills | 2026-07-20 | YES Pablo Llamas Ruiz | 0.46 | 0.579 | +0.119 | 0.0174 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20gallla) |
 | **Juan Pablo Varillas** (YES) vs Francesco Forti | San Marino Qualification | 2026-07-27 | YES Juan Pablo Varillas | 0.54 | 0.652 | +0.112 | 0.0174 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27varfor) |
 | **Pablo Carreno Busta** (NO) vs Jaume Munar | Valencia | 2026-05-15 | NO Pablo Carreno Busta | 0.44 | 0.549 | +0.109 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15carmun) |
+| **Nikoloz Basilashvili** (YES) vs Laslo Djere | San Marino | 2026-07-27 | YES Nikoloz Basilashvili | 0.34 | 0.421 | +0.081 | 0.0157 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27djebas) |
 | **Philip Sekulic** (YES) vs Mitchell Krueger | Little Rock | 2026-05-26 | YES Philip Sekulic | 0.38 | 0.450 | +0.070 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26sekkru) |
+| **Sumit Nagal** (NO) vs Inaki Montes-De La Torre | Liberec | 2026-07-27 | NO Sumit Nagal | 0.47 | 0.537 | +0.067 | 0.0174 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27monnag) |
+| **Daniel Rincon** (YES) vs Juan Carlos Prado Angelo | San Marino | 2026-07-27 | YES Daniel Rincon | 0.55 | 0.605 | +0.055 | 0.0173 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27rinpra) |
