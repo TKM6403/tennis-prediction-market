@@ -1,12 +1,19 @@
-# Settled paper bets (594)
+# Settled paper bets (601)
 
-_Generated 2026-07-28T14:11:17+00:00_
+_Generated 2026-07-28T16:44:55+00:00_
 
-**Wins:** 190 / 594  (32.0%)  
-**Net PnL (per contract):** -33.071
+**Wins:** 192 / 601  (31.9%)  
+**Net PnL (per contract):** -33.205
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Francesco Maestrelli (YES) vs Lukas Neumayer | San Marino | 2026-07-28 | YES Francesco Maestrelli | 0.33 | 0.428 | ✓ | +0.655 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28maeneu) |
+| Juan Pablo Varillas (YES) vs Jacopo Vasami | San Marino | 2026-07-28 | YES Juan Pablo Varillas | 0.42 | 0.684 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28vasvar) |
+| Raphael Collignon (YES) vs Gonzalo Bueno | Liberec | 2026-07-28 | YES Raphael Collignon | 0.30 | 0.775 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28marbue) |
+| Harold Mayot (YES) vs Kilian Feldbausch | Liberec | 2026-07-28 | YES Harold Mayot | 0.30 | 0.418 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28felmay) |
+| Luka Pavlovic (YES) vs Vilius Gaubas | San Marino | 2026-07-28 | YES Luka Pavlovic | 0.37 | 0.491 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28gaupav) |
+| Franco Agamenone (YES) vs Marco Cecchinato | San Marino | 2026-07-28 | YES Franco Agamenone | 0.31 | 0.438 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28cecaga) |
+| Carlos Taberner (YES) vs Genaro Alberto Olivieri | San Marino | 2026-07-28 | YES Carlos Taberner | 0.01 | 0.466 | ✗ | -0.011 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28olitab) |
 | Joel Schwaerzler (YES) vs Maxim Mrva | Liberec | 2026-07-28 | YES Joel Schwaerzler | 0.54 | 0.613 | ✓ | +0.443 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28schmrv) |
 | Hugo Dellien (YES) vs Pedro Martinez | San Marino | 2026-07-28 | YES Hugo Dellien | 0.56 | 0.709 | ✓ | +0.423 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28mardel) |
 | Andrej Martin (YES) vs Thiago Seyboth Wild | Liberec | 2026-07-28 | YES Andrej Martin | 0.20 | 0.342 | ✗ | -0.211 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28marsey) |
