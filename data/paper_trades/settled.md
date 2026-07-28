@@ -1,12 +1,17 @@
-# Settled paper bets (589)
+# Settled paper bets (594)
 
-_Generated 2026-07-28T11:22:29+00:00_
+_Generated 2026-07-28T14:11:17+00:00_
 
-**Wins:** 188 / 589  (31.9%)  
-**Net PnL (per contract):** -33.220
+**Wins:** 190 / 594  (32.0%)  
+**Net PnL (per contract):** -33.071
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Joel Schwaerzler (YES) vs Maxim Mrva | Liberec | 2026-07-28 | YES Joel Schwaerzler | 0.54 | 0.613 | ✓ | +0.443 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28schmrv) |
+| Hugo Dellien (YES) vs Pedro Martinez | San Marino | 2026-07-28 | YES Hugo Dellien | 0.56 | 0.709 | ✓ | +0.423 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28mardel) |
+| Andrej Martin (YES) vs Thiago Seyboth Wild | Liberec | 2026-07-28 | YES Andrej Martin | 0.20 | 0.342 | ✗ | -0.211 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28marsey) |
+| Sascha Gueymard Wayenburg (YES) vs Guido Ivan Justo | Liberec | 2026-07-28 | YES Sascha Gueymard Wayenburg | 0.32 | 0.422 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28jusgue) |
+| Enrico Dalla Valle (YES) vs Mili Poljicak | San Marino | 2026-07-28 | YES Enrico Dalla Valle | 0.16 | 0.659 | ✗ | -0.169 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28poldal) |
 | Philip Henning (YES) vs Martin Krumich | Liberec | 2026-07-28 | YES Philip Henning | 0.34 | 0.543 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28kruhen) |
 | Frederico Ferreira Silva (YES) vs Maks Kasnikowski | Liberec | 2026-07-28 | YES Frederico Ferreira Silva | 0.31 | 0.393 | ✓ | +0.675 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28kasfer) |
 | Juan Bautista Torres (YES) vs Michele Ribecai | Liberec | 2026-07-28 | YES Juan Bautista Torres | 0.49 | 0.546 | ✓ | +0.493 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28ribtor) |
