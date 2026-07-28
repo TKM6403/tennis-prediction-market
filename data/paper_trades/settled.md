@@ -1,12 +1,13 @@
-# Settled paper bets (604)
+# Settled paper bets (605)
 
-_Generated 2026-07-28T19:28:34+00:00_
+_Generated 2026-07-28T22:09:33+00:00_
 
-**Wins:** 193 / 604  (32.0%)  
-**Net PnL (per contract):** -33.594
+**Wins:** 193 / 605  (31.9%)  
+**Net PnL (per contract):** -33.909
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Carlo Alberto Caniato (NO) vs Andrea Pellegrino | San Marino | 2026-07-28 | NO Carlo Alberto Caniato | 0.30 | 0.427 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28canpel) |
 | David Jorda Sanchis (YES) vs Thiago Monteiro | San Marino | 2026-07-28 | YES David Jorda Sanchis | 0.36 | 0.575 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28monjor) |
 | Andrej Nedic (YES) vs Hynek Barton | Liberec | 2026-07-28 | YES Andrej Nedic | 0.39 | 0.520 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28barned) |
 | Otto Virtanen (YES) vs Filippo Romano | San Marino | 2026-07-28 | YES Otto Virtanen | 0.59 | 0.752 | ✓ | +0.393 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28romvir) |
