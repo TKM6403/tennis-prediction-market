@@ -1,12 +1,15 @@
-# Settled paper bets (601)
+# Settled paper bets (604)
 
-_Generated 2026-07-28T16:44:55+00:00_
+_Generated 2026-07-28T19:28:34+00:00_
 
-**Wins:** 192 / 601  (31.9%)  
-**Net PnL (per contract):** -33.205
+**Wins:** 193 / 604  (32.0%)  
+**Net PnL (per contract):** -33.594
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| David Jorda Sanchis (YES) vs Thiago Monteiro | San Marino | 2026-07-28 | YES David Jorda Sanchis | 0.36 | 0.575 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28monjor) |
+| Andrej Nedic (YES) vs Hynek Barton | Liberec | 2026-07-28 | YES Andrej Nedic | 0.39 | 0.520 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28barned) |
+| Otto Virtanen (YES) vs Filippo Romano | San Marino | 2026-07-28 | YES Otto Virtanen | 0.59 | 0.752 | ✓ | +0.393 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28romvir) |
 | Francesco Maestrelli (YES) vs Lukas Neumayer | San Marino | 2026-07-28 | YES Francesco Maestrelli | 0.33 | 0.428 | ✓ | +0.655 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28maeneu) |
 | Juan Pablo Varillas (YES) vs Jacopo Vasami | San Marino | 2026-07-28 | YES Juan Pablo Varillas | 0.42 | 0.684 | ✓ | +0.563 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28vasvar) |
 | Raphael Collignon (YES) vs Gonzalo Bueno | Liberec | 2026-07-28 | YES Raphael Collignon | 0.30 | 0.775 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28marbue) |
