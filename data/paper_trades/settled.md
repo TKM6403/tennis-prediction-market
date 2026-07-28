@@ -1,12 +1,15 @@
-# Settled paper bets (586)
+# Settled paper bets (589)
 
-_Generated 2026-07-28T08:39:00+00:00_
+_Generated 2026-07-28T11:22:29+00:00_
 
-**Wins:** 186 / 586  (31.7%)  
-**Net PnL (per contract):** -34.032
+**Wins:** 188 / 589  (31.9%)  
+**Net PnL (per contract):** -33.220
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Philip Henning (YES) vs Martin Krumich | Liberec | 2026-07-28 | YES Philip Henning | 0.34 | 0.543 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28kruhen) |
+| Frederico Ferreira Silva (YES) vs Maks Kasnikowski | Liberec | 2026-07-28 | YES Frederico Ferreira Silva | 0.31 | 0.393 | ✓ | +0.675 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28kasfer) |
+| Juan Bautista Torres (YES) vs Michele Ribecai | Liberec | 2026-07-28 | YES Juan Bautista Torres | 0.49 | 0.546 | ✓ | +0.493 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28ribtor) |
 | Enrico Dalla Valle (YES) vs Mika Brunold | San Marino Qualification | 2026-07-27 | YES Enrico Dalla Valle | 0.59 | 0.710 | ✓ | +0.393 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27dalbru) |
 | Juan Pablo Varillas (YES) vs Francesco Forti | San Marino Qualification | 2026-07-27 | YES Juan Pablo Varillas | 0.54 | 0.652 | ✓ | +0.443 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27varfor) |
 | Sumit Nagal (NO) vs Inaki Montes-De La Torre | Liberec | 2026-07-27 | NO Sumit Nagal | 0.47 | 0.537 | ✓ | +0.513 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27monnag) |
