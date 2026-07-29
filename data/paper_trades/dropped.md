@@ -1,17 +1,17 @@
-# Dropped markets (15138)
+# Dropped markets (15182)
 
-_Generated 2026-07-29T08:45:21+00:00_
+_Generated 2026-07-29T11:31:35+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `low_player_coverage` | 4540 |
-| `tournament_not_in_tml` | 2629 |
-| `missing_player_id` | 2594 |
-| `duplicate_match` | 2399 |
-| `thin_tournament_history` | 1207 |
-| `below_min_edge` | 888 |
+| `low_player_coverage` | 4548 |
+| `tournament_not_in_tml` | 2637 |
+| `missing_player_id` | 2595 |
+| `duplicate_match` | 2410 |
+| `thin_tournament_history` | 1221 |
+| `below_min_edge` | 890 |
 | `wide_spread` | 375 |
 | `loose_mirror_sum` | 342 |
 | `thin_player_history` | 162 |
@@ -358,6 +358,8 @@ _Generated 2026-07-29T08:45:21+00:00_
 | Petr Brunclik vs Sumit Nagal | Liberec | 2026-07-29 | 0.56 / 0.54 | `below_min_edge` | best_edge=0.044 on YES @ theo=0.504 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29brunag) |
 | Sumit Nagal vs Petr Brunclik | Liberec | 2026-07-29 | 0.46 / 0.45 | `below_min_edge` | best_edge=0.044 on YES @ theo=0.504 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29brunag) |
 | Petr Brunclik vs Sumit Nagal | Liberec | 2026-07-29 | 0.56 / 0.54 | `below_min_edge` | best_edge=0.044 on YES @ theo=0.504 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29brunag) |
+| Sumit Nagal vs Petr Brunclik | Liberec | 2026-07-29 | 0.49 / 0.48 | `below_min_edge` | best_edge=0.014 on YES @ theo=0.504 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29brunag) |
+| Petr Brunclik vs Sumit Nagal | Liberec | 2026-07-29 | 0.53 / 0.52 | `below_min_edge` | best_edge=0.014 on YES @ theo=0.504 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29brunag) |
 | Yasutaka Uchiyama vs Andre Ilagan | Little Rock | 2026-05-25 | 0.58 / 0.52 | `below_min_edge` | best_edge=0.048 on YES @ theo=0.518 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25ilauch) |
 | Andre Ilagan vs Yasutaka Uchiyama | Little Rock | 2026-05-25 | 0.47 / 0.42 | `below_min_edge` | best_edge=0.048 on YES @ theo=0.518 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25ilauch) |
 | Yuta Shimizu vs Andrej Martin | Little Rock | 2026-05-25 | 0.52 / 0.45 | `below_min_edge` | best_edge=-0.007 on YES @ theo=0.513 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25marshi) |
@@ -1655,6 +1657,9 @@ _Generated 2026-07-29T08:45:21+00:00_
 | Joel Schwaerzler vs Martin Krumich | Liberec | 2026-07-29 | 0.60 / 0.59 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL29SCHKRU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29schkru) |
 | Martin Krumich vs Joel Schwaerzler | Liberec | 2026-07-29 | 0.42 / 0.41 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL29SCHKRU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29schkru) |
 | Frederico Ferreira Silva vs Nicolas Kicker | Liberec | 2026-07-29 | 0.57 / 0.56 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL29KICFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29kicfer) |
+| Joel Schwaerzler vs Martin Krumich | Liberec | 2026-07-29 | 0.06 / 0.05 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL29SCHKRU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29schkru) |
+| Martin Krumich vs Joel Schwaerzler | Liberec | 2026-07-29 | 0.95 / 0.93 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL29SCHKRU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29schkru) |
+| Frederico Ferreira Silva vs Nicolas Kicker | Liberec | 2026-07-29 | 1.00 / 0.99 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL29KICFER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29kicfer) |
 | Michael Mmoh vs Hayato Matsuoka | Little Rock | 2026-05-26 | 0.75 / 0.73 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY25MMOMAT | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25mmomat) |
 | Hayato Matsuoka vs Michael Mmoh | Little Rock | 2026-05-26 | 0.26 / 0.25 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY25MMOMAT | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25mmomat) |
 | Yuta Shimizu vs Andrej Martin | Little Rock | 2026-05-25 | 0.46 / 0.45 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26MAY25MARSHI | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25marshi) |
@@ -2157,6 +2162,14 @@ _Generated 2026-07-29T08:45:21+00:00_
 | Mili Poljicak vs Nikoloz Basilashvili | San Marino | 2026-07-29 | 0.39 / 0.38 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL29POLBAS | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29polbas) |
 | Nikoloz Basilashvili vs Mili Poljicak | San Marino | 2026-07-29 | 0.62 / 0.60 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL29POLBAS | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29polbas) |
 | Juan Carlos Prado Angelo vs Hugo Dellien | San Marino | 2026-07-29 | 0.33 / 0.32 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL29PRADEL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29pradel) |
+| Hugo Dellien vs Juan Carlos Prado Angelo | San Marino | 2026-07-29 | 0.67 / 0.66 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL29PRADEL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29pradel) |
+| Francesco Forti vs Facundo Diaz Acosta | San Marino | 2026-07-29 | 0.15 / 0.14 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL29DIAFOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29diafor) |
+| Facundo Diaz Acosta vs Francesco Forti | San Marino | 2026-07-29 | 0.86 / 0.85 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL29DIAFOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29diafor) |
+| Alexandre Muller vs Marco Cecchinato | San Marino | 2026-07-29 | 0.52 / 0.51 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL29MULCEC | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29mulcec) |
+| Marco Cecchinato vs Alexandre Muller | San Marino | 2026-07-29 | 0.48 / 0.47 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL29MULCEC | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29mulcec) |
+| Mili Poljicak vs Nikoloz Basilashvili | San Marino | 2026-07-29 | 0.39 / 0.38 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL29POLBAS | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29polbas) |
+| Nikoloz Basilashvili vs Mili Poljicak | San Marino | 2026-07-29 | 0.62 / 0.61 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL29POLBAS | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29polbas) |
+| Juan Carlos Prado Angelo vs Hugo Dellien | San Marino | 2026-07-29 | 0.34 / 0.33 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL29PRADEL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29pradel) |
 | Hugo Dellien vs Juan Carlos Prado Angelo | San Marino | 2026-07-29 | 0.67 / 0.66 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL29PRADEL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29pradel) |
 | Enrico Dalla Valle vs Mika Brunold | San Marino Qualification | 2026-07-27 | 0.58 / 0.57 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL27DALBRU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27dalbru) |
 | Juan Pablo Varillas vs Francesco Forti | San Marino Qualification | 2026-07-27 | 0.53 / 0.52 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL27VARFOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27varfor) |
@@ -4063,6 +4076,8 @@ _Generated 2026-07-29T08:45:21+00:00_
 | Elmer Moller vs Jamie Mackenzie | Bonn | 2026-07-29 | 0.70 / 0.67 | `low_player_coverage` | cov_a=36 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29molmac) |
 | Jamie Mackenzie vs Elmer Moller | Bonn | 2026-07-29 | 0.32 / 0.30 | `low_player_coverage` | cov_a=36 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29molmac) |
 | Elmer Moller vs Jamie Mackenzie | Bonn | 2026-07-29 | 0.69 / 0.68 | `low_player_coverage` | cov_a=36 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29molmac) |
+| Jamie Mackenzie vs Elmer Moller | Bonn | 2026-07-29 | 0.31 / 0.30 | `low_player_coverage` | cov_a=36 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29molmac) |
+| Elmer Moller vs Jamie Mackenzie | Bonn | 2026-07-29 | 0.70 / 0.69 | `low_player_coverage` | cov_a=36 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29molmac) |
 | Jamie Mackenzie vs Elmer Moller | Bonn | 2026-07-29 | 0.31 / 0.30 | `low_player_coverage` | cov_a=36 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29molmac) |
 | Mika Petkovic vs Adrian Oetzbach | Bonn Qualification | 2026-07-26 | 0.72 / 0.70 | `low_player_coverage` | cov_a=7 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26oetpet) |
 | Adrian Oetzbach vs Mika Petkovic | Bonn Qualification | 2026-07-26 | 0.31 / 0.28 | `low_player_coverage` | cov_a=7 cov_b=1 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26oetpet) |
@@ -7523,6 +7538,12 @@ _Generated 2026-07-29T08:45:21+00:00_
 | Mark Lajal vs Evan Zhu | Vancouver | 2026-07-29 | 0.86 / 0.85 | `low_player_coverage` | cov_a=5 cov_b=58 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29lajzhu) |
 | Zhizhen Zhang vs J.J. Wolf | Vancouver | 2026-07-28 | 0.56 / 0.52 | `low_player_coverage` | cov_a=33 cov_b=9 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27wolzha) |
 | J.J. Wolf vs Zhizhen Zhang | Vancouver | 2026-07-28 | 0.46 / 0.45 | `low_player_coverage` | cov_a=33 cov_b=9 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27wolzha) |
+| Harry Wendelken vs Keegan Rice | Vancouver | 2026-07-29 | 0.60 / 0.57 | `low_player_coverage` | cov_a=46 cov_b=6 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29wenric) |
+| Keegan Rice vs Harry Wendelken | Vancouver | 2026-07-29 | 0.43 / 0.40 | `low_player_coverage` | cov_a=46 cov_b=6 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29wenric) |
+| Evan Zhu vs Mark Lajal | Vancouver | 2026-07-29 | 0.15 / 0.14 | `low_player_coverage` | cov_a=5 cov_b=58 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29lajzhu) |
+| Mark Lajal vs Evan Zhu | Vancouver | 2026-07-29 | 0.86 / 0.85 | `low_player_coverage` | cov_a=5 cov_b=58 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29lajzhu) |
+| Zhizhen Zhang vs J.J. Wolf | Vancouver | 2026-07-28 | 0.50 / 0.49 | `low_player_coverage` | cov_a=33 cov_b=9 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27wolzha) |
+| J.J. Wolf vs Zhizhen Zhang | Vancouver | 2026-07-28 | 0.51 / 0.50 | `low_player_coverage` | cov_a=33 cov_b=9 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27wolzha) |
 | Braden Shick vs Benjamin Thomas George | Vancouver Qualification | 2026-07-26 | 0.92 / 0.78 | `low_player_coverage` | cov_a=18 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26shigeo) |
 | Benjamin Thomas George vs Braden Shick | Vancouver Qualification | 2026-07-26 | 0.12 / 0.07 | `low_player_coverage` | cov_a=18 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26shigeo) |
 | Renta Tokuda vs Joshua Sheehy | Vancouver Qualification | 2026-07-26 | 0.64 / 0.51 | `low_player_coverage` | cov_a=19 cov_b=7 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26shetok) |
@@ -9343,6 +9364,7 @@ _Generated 2026-07-29T08:45:21+00:00_
 | Nicolas Kicker vs Ferreira Silva | Liberec | 2026-07-29 | 0.47 / 0.46 | `missing_player_id` | player_a_id='KC29', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29kicfer) |
 | Nicolas Kicker vs Ferreira Silva | Liberec | 2026-07-29 | 0.47 / 0.45 | `missing_player_id` | player_a_id='KC29', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29kicfer) |
 | Nicolas Kicker vs Ferreira Silva | Liberec | 2026-07-29 | 0.44 / 0.43 | `missing_player_id` | player_a_id='KC29', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29kicfer) |
+| Nicolas Kicker vs Ferreira Silva | Liberec | 2026-07-29 | 0.01 / 0.00 | `missing_player_id` | player_a_id='KC29', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29kicfer) |
 | Norbert Gombos vs Hamza Reguig | Liberec Qualification | 2026-07-26 | 0.91 / 0.82 | `missing_player_id` | player_a_id='GB93', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26gomham) |
 | Jakub Vrba vs Rudolf Molleker | Liberec Qualification | 2026-07-26 | 0.24 / 0.17 | `missing_player_id` | player_a_id=nan, player_b_id='M0AC' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26molvrb) |
 | Rudolf Molleker vs Vrba | Liberec Qualification | 2026-07-26 | 0.83 / 0.74 | `missing_player_id` | player_a_id='M0AC', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26molvrb) |
@@ -11319,6 +11341,8 @@ _Generated 2026-07-29T08:45:21+00:00_
 | Jan Choinski vs Alex Barrena | Bonn | 2026-07-29 | 0.81 / 0.80 | `thin_tournament_history` | 'Bonn' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29chobar) |
 | Alex Barrena vs Jan Choinski | Bonn | 2026-07-29 | 0.19 / 0.18 | `thin_tournament_history` | 'Bonn' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29chobar) |
 | Roberto Carballes Baena vs Olle Wallin | Bonn | 2026-07-29 | 0.67 / 0.66 | `thin_tournament_history` | 'Bonn' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29walcar) |
+| Jurij Rodionov vs Mackenzie McDonald | Bonn | 2026-07-29 | 0.70 / 0.69 | `thin_tournament_history` | 'Bonn' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29mcdrod) |
+| Niels McDonald vs Jurij Rodionov | Bonn | 2026-07-29 | 0.31 / 0.30 | `thin_tournament_history` | 'Bonn' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29mcdrod) |
 | Marko Topo vs Valerio Aboian | Bonn Qualification | 2026-07-27 | 0.72 / 0.71 | `thin_tournament_history` | 'Bonn Qualification' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27topabo) |
 | Valerio Aboian vs Marko Topo | Bonn Qualification | 2026-07-27 | 0.29 / 0.27 | `thin_tournament_history` | 'Bonn Qualification' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27topabo) |
 | Marko Topo vs Valerio Aboian | Bonn Qualification | 2026-07-27 | 0.73 / 0.71 | `thin_tournament_history` | 'Bonn Qualification' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27topabo) |
@@ -12093,6 +12117,18 @@ _Generated 2026-07-29T08:45:21+00:00_
 | Daniel Milavsky vs Yi Zhou | Vancouver | 2026-07-29 | 0.34 / 0.32 | `thin_tournament_history` | 'Vancouver' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29milzho) |
 | Braden Shick vs August Holmgren | Vancouver | 2026-07-29 | 0.33 / 0.31 | `thin_tournament_history` | 'Vancouver' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28holshi) |
 | August Holmgren vs Braden Shick | Vancouver | 2026-07-29 | 0.69 / 0.68 | `thin_tournament_history` | 'Vancouver' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28holshi) |
+| Michael Mmoh vs Benjamin Bonzi | Vancouver | 2026-07-29 | 0.40 / 0.39 | `thin_tournament_history` | 'Vancouver' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29bonmmo) |
+| Benjamin Bonzi vs Michael Mmoh | Vancouver | 2026-07-29 | 0.59 / 0.58 | `thin_tournament_history` | 'Vancouver' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29bonmmo) |
+| Tyler Zink vs James Trotter | Vancouver | 2026-07-29 | 0.53 / 0.52 | `thin_tournament_history` | 'Vancouver' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29trozin) |
+| James Trotter vs Tyler Zink | Vancouver | 2026-07-29 | 0.47 / 0.46 | `thin_tournament_history` | 'Vancouver' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29trozin) |
+| Jay Friend vs Liam Broady | Vancouver | 2026-07-29 | 0.44 / 0.43 | `thin_tournament_history` | 'Vancouver' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29brohar) |
+| Liam Broady vs Jay Friend | Vancouver | 2026-07-29 | 0.59 / 0.58 | `thin_tournament_history` | 'Vancouver' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29brohar) |
+| Yosuke Watanuki vs Hayato Matsuoka | Vancouver | 2026-07-29 | 0.69 / 0.67 | `thin_tournament_history` | 'Vancouver' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29watmat) |
+| Hayato Matsuoka vs Yosuke Watanuki | Vancouver | 2026-07-29 | 0.32 / 0.31 | `thin_tournament_history` | 'Vancouver' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29watmat) |
+| Yi Zhou vs Daniel Milavsky | Vancouver | 2026-07-29 | 0.65 / 0.64 | `thin_tournament_history` | 'Vancouver' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29milzho) |
+| Daniel Milavsky vs Yi Zhou | Vancouver | 2026-07-29 | 0.35 / 0.34 | `thin_tournament_history` | 'Vancouver' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29milzho) |
+| Braden Shick vs August Holmgren | Vancouver | 2026-07-29 | 0.33 / 0.31 | `thin_tournament_history` | 'Vancouver' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28holshi) |
+| August Holmgren vs Braden Shick | Vancouver | 2026-07-29 | 0.69 / 0.67 | `thin_tournament_history` | 'Vancouver' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28holshi) |
 | Karl Poling vs Kokoro Isomura | Vancouver Qualification | 2026-07-27 | 0.64 / 0.58 | `thin_tournament_history` | 'Vancouver Qualification' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26isopol) |
 | Kokoro Isomura vs Karl Poling | Vancouver Qualification | 2026-07-27 | 0.38 / 0.30 | `thin_tournament_history` | 'Vancouver Qualification' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26isopol) |
 | Hiroki Moriya vs Jay Friend | Vancouver Qualification | 2026-07-26 | 0.24 / 0.16 | `thin_tournament_history` | 'Vancouver Qualification' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26harmor) |
@@ -14611,6 +14647,14 @@ _Generated 2026-07-29T08:45:21+00:00_
 | Koki Matsuda vs Colin Sinclair | Samsun | 2026-07-29 | 0.56 / 0.55 | `tournament_not_in_tml` | tournament='Samsun' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29sinmat) |
 | Gabriel Debru vs Florent Bax | Samsun | 2026-07-29 | 0.58 / 0.57 | `tournament_not_in_tml` | tournament='Samsun' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29debbax) |
 | Florent Bax vs Gabriel Debru | Samsun | 2026-07-29 | 0.45 / 0.44 | `tournament_not_in_tml` | tournament='Samsun' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29debbax) |
+| Yanki Erel vs Radu Albot | Samsun | 2026-07-29 | 0.60 / 0.58 | `tournament_not_in_tml` | tournament='Samsun' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29albere) |
+| Radu Albot vs Yanki Erel | Samsun | 2026-07-29 | 0.40 / 0.39 | `tournament_not_in_tml` | tournament='Samsun' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29albere) |
+| Dimitar Kuzmanov vs Paul Inchauspe | Samsun | 2026-07-29 | 0.45 / 0.44 | `tournament_not_in_tml` | tournament='Samsun' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29kuzinc) |
+| Paul Inchauspe vs Dimitar Kuzmanov | Samsun | 2026-07-29 | 0.56 / 0.55 | `tournament_not_in_tml` | tournament='Samsun' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29kuzinc) |
+| Colin Sinclair vs Ryuki Matsuda | Samsun | 2026-07-29 | 0.06 / 0.05 | `tournament_not_in_tml` | tournament='Samsun' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29sinmat) |
+| Koki Matsuda vs Colin Sinclair | Samsun | 2026-07-29 | 0.95 / 0.94 | `tournament_not_in_tml` | tournament='Samsun' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29sinmat) |
+| Gabriel Debru vs Florent Bax | Samsun | 2026-07-29 | 0.59 / 0.57 | `tournament_not_in_tml` | tournament='Samsun' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29debbax) |
+| Florent Bax vs Gabriel Debru | Samsun | 2026-07-29 | 0.43 / 0.39 | `tournament_not_in_tml` | tournament='Samsun' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29debbax) |
 | Kerem Yilmaz vs Constantin Bittoun Kouzmine | Samsun Qualification | 2026-07-26 | 0.26 / 0.22 | `tournament_not_in_tml` | tournament='Samsun Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26bityil) |
 | Constantin Bittoun Kouzmine vs Kerem Yilmaz | Samsun Qualification | 2026-07-26 | 0.77 / 0.74 | `tournament_not_in_tml` | tournament='Samsun Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26bityil) |
 | Digvijaypratap Singh vs Sergey Betov | Samsun Qualification | 2026-07-26 | 0.88 / 0.85 | `tournament_not_in_tml` | tournament='Samsun Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26sinbet) |
