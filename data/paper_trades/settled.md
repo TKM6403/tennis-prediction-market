@@ -1,12 +1,14 @@
-# Settled paper bets (609)
+# Settled paper bets (611)
 
-_Generated 2026-07-29T19:22:43+00:00_
+_Generated 2026-07-29T22:05:53+00:00_
 
-**Wins:** 196 / 609  (32.2%)  
-**Net PnL (per contract):** -33.046
+**Wins:** 196 / 611  (32.1%)  
+**Net PnL (per contract):** -33.713
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Francesco Forti (YES) vs Facundo Diaz Acosta | San Marino | 2026-07-29 | YES Francesco Forti | 0.16 | 0.242 | ✗ | -0.169 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29diafor) |
+| Marco Cecchinato (YES) vs Alexandre Muller | San Marino | 2026-07-29 | YES Marco Cecchinato | 0.48 | 0.736 | ✗ | -0.497 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29mulcec) |
 | Mili Poljicak (NO) vs Nikoloz Basilashvili | San Marino | 2026-07-29 | NO Mili Poljicak | 0.40 | 0.507 | ✓ | +0.583 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29polbas) |
 | Hugo Dellien (YES) vs Juan Carlos Prado Angelo | San Marino | 2026-07-29 | YES Hugo Dellien | 0.67 | 0.721 | ✗ | -0.685 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29pradel) |
 | Frederico Ferreira Silva (YES) vs Nicolas Kicker | Liberec | 2026-07-29 | YES Frederico Ferreira Silva | 0.57 | 0.644 | ✓ | +0.413 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29kicfer) |
