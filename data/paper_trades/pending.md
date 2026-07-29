@@ -1,6 +1,6 @@
-# Pending paper bets (9)
+# Pending paper bets (11)
 
-_Generated 2026-07-28T22:09:33+00:00_
+_Generated 2026-07-29T02:42:47+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
@@ -13,3 +13,5 @@ _Generated 2026-07-28T22:09:33+00:00_
 | **Nikoloz Basilashvili** (YES) vs Laslo Djere | San Marino | 2026-07-27 | YES Nikoloz Basilashvili | 0.34 | 0.421 | +0.081 | 0.0157 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27djebas) |
 | **Frederico Ferreira Silva** (YES) vs Nicolas Kicker | Liberec | 2026-07-29 | YES Frederico Ferreira Silva | 0.57 | 0.644 | +0.074 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29kicfer) |
 | **Philip Sekulic** (YES) vs Mitchell Krueger | Little Rock | 2026-05-26 | YES Philip Sekulic | 0.38 | 0.450 | +0.070 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26sekkru) |
+| **Martin Krumich** (YES) vs Joel Schwaerzler | Liberec | 2026-07-29 | YES Martin Krumich | 0.43 | 0.499 | +0.069 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29schkru) |
+| **Hugo Dellien** (YES) vs Juan Carlos Prado Angelo | San Marino | 2026-07-29 | YES Hugo Dellien | 0.67 | 0.721 | +0.051 | 0.0155 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29pradel) |
