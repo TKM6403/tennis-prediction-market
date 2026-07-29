@@ -1,12 +1,14 @@
-# Settled paper bets (605)
+# Settled paper bets (607)
 
-_Generated 2026-07-29T11:31:35+00:00_
+_Generated 2026-07-29T14:14:40+00:00_
 
-**Wins:** 193 / 605  (31.9%)  
-**Net PnL (per contract):** -33.909
+**Wins:** 195 / 607  (32.1%)  
+**Net PnL (per contract):** -32.943
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Frederico Ferreira Silva (YES) vs Nicolas Kicker | Liberec | 2026-07-29 | YES Frederico Ferreira Silva | 0.57 | 0.644 | ✓ | +0.413 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29kicfer) |
+| Martin Krumich (YES) vs Joel Schwaerzler | Liberec | 2026-07-29 | YES Martin Krumich | 0.43 | 0.499 | ✓ | +0.553 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29schkru) |
 | Carlo Alberto Caniato (NO) vs Andrea Pellegrino | San Marino | 2026-07-28 | NO Carlo Alberto Caniato | 0.30 | 0.427 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28canpel) |
 | David Jorda Sanchis (YES) vs Thiago Monteiro | San Marino | 2026-07-28 | YES David Jorda Sanchis | 0.36 | 0.575 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28monjor) |
 | Andrej Nedic (YES) vs Hynek Barton | Liberec | 2026-07-28 | YES Andrej Nedic | 0.39 | 0.520 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28barned) |

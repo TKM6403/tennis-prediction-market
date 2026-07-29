@@ -1,6 +1,6 @@
-# Pending paper bets (14)
+# Pending paper bets (12)
 
-_Generated 2026-07-29T11:31:35+00:00_
+_Generated 2026-07-29T14:14:40+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
@@ -14,7 +14,5 @@ _Generated 2026-07-29T11:31:35+00:00_
 | **Mili Poljicak** (NO) vs Nikoloz Basilashvili | San Marino | 2026-07-29 | NO Mili Poljicak | 0.40 | 0.507 | +0.107 | 0.0168 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29polbas) |
 | **Francesco Forti** (YES) vs Facundo Diaz Acosta | San Marino | 2026-07-29 | YES Francesco Forti | 0.16 | 0.242 | +0.082 | 0.0094 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29diafor) |
 | **Nikoloz Basilashvili** (YES) vs Laslo Djere | San Marino | 2026-07-27 | YES Nikoloz Basilashvili | 0.34 | 0.421 | +0.081 | 0.0157 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27djebas) |
-| **Frederico Ferreira Silva** (YES) vs Nicolas Kicker | Liberec | 2026-07-29 | YES Frederico Ferreira Silva | 0.57 | 0.644 | +0.074 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29kicfer) |
 | **Philip Sekulic** (YES) vs Mitchell Krueger | Little Rock | 2026-05-26 | YES Philip Sekulic | 0.38 | 0.450 | +0.070 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26sekkru) |
-| **Martin Krumich** (YES) vs Joel Schwaerzler | Liberec | 2026-07-29 | YES Martin Krumich | 0.43 | 0.499 | +0.069 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29schkru) |
 | **Hugo Dellien** (YES) vs Juan Carlos Prado Angelo | San Marino | 2026-07-29 | YES Hugo Dellien | 0.67 | 0.721 | +0.051 | 0.0155 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29pradel) |
