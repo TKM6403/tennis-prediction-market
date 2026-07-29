@@ -1,6 +1,6 @@
-# Pending paper bets (12)
+# Pending paper bets (11)
 
-_Generated 2026-07-29T14:14:40+00:00_
+_Generated 2026-07-29T16:26:16+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
@@ -15,4 +15,3 @@ _Generated 2026-07-29T14:14:40+00:00_
 | **Francesco Forti** (YES) vs Facundo Diaz Acosta | San Marino | 2026-07-29 | YES Francesco Forti | 0.16 | 0.242 | +0.082 | 0.0094 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29diafor) |
 | **Nikoloz Basilashvili** (YES) vs Laslo Djere | San Marino | 2026-07-27 | YES Nikoloz Basilashvili | 0.34 | 0.421 | +0.081 | 0.0157 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27djebas) |
 | **Philip Sekulic** (YES) vs Mitchell Krueger | Little Rock | 2026-05-26 | YES Philip Sekulic | 0.38 | 0.450 | +0.070 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26sekkru) |
-| **Hugo Dellien** (YES) vs Juan Carlos Prado Angelo | San Marino | 2026-07-29 | YES Hugo Dellien | 0.67 | 0.721 | +0.051 | 0.0155 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29pradel) |

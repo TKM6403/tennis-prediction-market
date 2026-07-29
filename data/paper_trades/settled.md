@@ -1,12 +1,13 @@
-# Settled paper bets (607)
+# Settled paper bets (608)
 
-_Generated 2026-07-29T14:14:40+00:00_
+_Generated 2026-07-29T16:26:16+00:00_
 
-**Wins:** 195 / 607  (32.1%)  
-**Net PnL (per contract):** -32.943
+**Wins:** 195 / 608  (32.1%)  
+**Net PnL (per contract):** -33.629
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Hugo Dellien (YES) vs Juan Carlos Prado Angelo | San Marino | 2026-07-29 | YES Hugo Dellien | 0.67 | 0.721 | ✗ | -0.685 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29pradel) |
 | Frederico Ferreira Silva (YES) vs Nicolas Kicker | Liberec | 2026-07-29 | YES Frederico Ferreira Silva | 0.57 | 0.644 | ✓ | +0.413 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29kicfer) |
 | Martin Krumich (YES) vs Joel Schwaerzler | Liberec | 2026-07-29 | YES Martin Krumich | 0.43 | 0.499 | ✓ | +0.553 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29schkru) |
 | Carlo Alberto Caniato (NO) vs Andrea Pellegrino | San Marino | 2026-07-28 | NO Carlo Alberto Caniato | 0.30 | 0.427 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul28canpel) |
