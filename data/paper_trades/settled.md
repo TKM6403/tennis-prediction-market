@@ -1,12 +1,13 @@
-# Settled paper bets (615)
+# Settled paper bets (616)
 
-_Generated 2026-07-30T16:31:20+00:00_
+_Generated 2026-07-30T19:31:08+00:00_
 
-**Wins:** 196 / 615  (31.9%)  
-**Net PnL (per contract):** -35.633
+**Wins:** 196 / 616  (31.8%)  
+**Net PnL (per contract):** -35.937
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Genaro Alberto Olivieri (YES) vs Vilius Gaubas | San Marino | 2026-07-30 | YES Genaro Alberto Olivieri | 0.29 | 0.464 | ✗ | -0.304 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul30gauoli) |
 | Duje Ajdukovic (YES) vs Kilian Feldbausch | Liberec | 2026-07-30 | YES Duje Ajdukovic | 0.15 | 0.340 | ✗ | -0.159 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul30ajdfel) |
 | Otto Virtanen (YES) vs Timofey Skatov | San Marino | 2026-07-30 | YES Otto Virtanen | 0.61 | 0.678 | ✗ | -0.627 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul30skavir) |
 | Guido Ivan Justo (YES) vs Juan Bautista Torres | Liberec | 2026-07-30 | YES Guido Ivan Justo | 0.59 | 0.689 | ✗ | -0.607 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul30justor) |
