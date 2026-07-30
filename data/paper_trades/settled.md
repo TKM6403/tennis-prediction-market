@@ -1,12 +1,14 @@
-# Settled paper bets (611)
+# Settled paper bets (613)
 
-_Generated 2026-07-30T11:13:20+00:00_
+_Generated 2026-07-30T14:06:51+00:00_
 
-**Wins:** 196 / 611  (32.1%)  
-**Net PnL (per contract):** -33.713
+**Wins:** 196 / 613  (32.0%)  
+**Net PnL (per contract):** -34.847
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Guido Ivan Justo (YES) vs Juan Bautista Torres | Liberec | 2026-07-30 | YES Guido Ivan Justo | 0.59 | 0.689 | ✗ | -0.607 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul30justor) |
+| Franco Roncadelli (YES) vs Norbert Gombos | Liberec | 2026-07-30 | YES Franco Roncadelli | 0.51 | 0.691 | ✗ | -0.527 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul30rongom) |
 | Francesco Forti (YES) vs Facundo Diaz Acosta | San Marino | 2026-07-29 | YES Francesco Forti | 0.16 | 0.242 | ✗ | -0.169 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29diafor) |
 | Marco Cecchinato (YES) vs Alexandre Muller | San Marino | 2026-07-29 | YES Marco Cecchinato | 0.48 | 0.736 | ✗ | -0.497 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29mulcec) |
 | Mili Poljicak (NO) vs Nikoloz Basilashvili | San Marino | 2026-07-29 | NO Mili Poljicak | 0.40 | 0.507 | ✓ | +0.583 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29polbas) |
