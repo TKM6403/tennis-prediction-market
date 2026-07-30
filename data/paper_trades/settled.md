@@ -1,12 +1,14 @@
-# Settled paper bets (616)
+# Settled paper bets (618)
 
-_Generated 2026-07-30T19:31:08+00:00_
+_Generated 2026-07-30T22:11:31+00:00_
 
-**Wins:** 196 / 616  (31.8%)  
-**Net PnL (per contract):** -35.937
+**Wins:** 198 / 618  (32.0%)  
+**Net PnL (per contract):** -34.781
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Juan Pablo Varillas (YES) vs Francesco Maestrelli | San Marino | 2026-07-30 | YES Juan Pablo Varillas | 0.44 | 0.569 | ✓ | +0.543 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul30maevar) |
+| Thiago Monteiro (YES) vs Andrea Pellegrino | San Marino | 2026-07-30 | YES Thiago Monteiro | 0.37 | 0.460 | ✓ | +0.614 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul30monpel) |
 | Genaro Alberto Olivieri (YES) vs Vilius Gaubas | San Marino | 2026-07-30 | YES Genaro Alberto Olivieri | 0.29 | 0.464 | ✗ | -0.304 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul30gauoli) |
 | Duje Ajdukovic (YES) vs Kilian Feldbausch | Liberec | 2026-07-30 | YES Duje Ajdukovic | 0.15 | 0.340 | ✗ | -0.159 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul30ajdfel) |
 | Otto Virtanen (YES) vs Timofey Skatov | San Marino | 2026-07-30 | YES Otto Virtanen | 0.61 | 0.678 | ✗ | -0.627 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul30skavir) |
