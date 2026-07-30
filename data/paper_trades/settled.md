@@ -1,12 +1,14 @@
-# Settled paper bets (613)
+# Settled paper bets (615)
 
-_Generated 2026-07-30T14:06:51+00:00_
+_Generated 2026-07-30T16:31:20+00:00_
 
-**Wins:** 196 / 613  (32.0%)  
-**Net PnL (per contract):** -34.847
+**Wins:** 196 / 615  (31.9%)  
+**Net PnL (per contract):** -35.633
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Duje Ajdukovic (YES) vs Kilian Feldbausch | Liberec | 2026-07-30 | YES Duje Ajdukovic | 0.15 | 0.340 | ✗ | -0.159 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul30ajdfel) |
+| Otto Virtanen (YES) vs Timofey Skatov | San Marino | 2026-07-30 | YES Otto Virtanen | 0.61 | 0.678 | ✗ | -0.627 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul30skavir) |
 | Guido Ivan Justo (YES) vs Juan Bautista Torres | Liberec | 2026-07-30 | YES Guido Ivan Justo | 0.59 | 0.689 | ✗ | -0.607 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul30justor) |
 | Franco Roncadelli (YES) vs Norbert Gombos | Liberec | 2026-07-30 | YES Franco Roncadelli | 0.51 | 0.691 | ✗ | -0.527 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul30rongom) |
 | Francesco Forti (YES) vs Facundo Diaz Acosta | San Marino | 2026-07-29 | YES Francesco Forti | 0.16 | 0.242 | ✗ | -0.169 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul29diafor) |
