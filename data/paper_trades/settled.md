@@ -1,12 +1,13 @@
-# Settled paper bets (623)
+# Settled paper bets (624)
 
-_Generated 2026-07-31T19:31:18+00:00_
+_Generated 2026-07-31T22:11:23+00:00_
 
-**Wins:** 202 / 623  (32.4%)  
-**Net PnL (per contract):** -32.904
+**Wins:** 202 / 624  (32.4%)  
+**Net PnL (per contract):** -33.341
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Thiago Monteiro (NO) vs Vilius Gaubas | San Marino | 2026-07-31 | NO Thiago Monteiro | 0.42 | 0.508 | ✗ | -0.437 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31gaumon) |
 | Facundo Diaz Acosta (YES) vs Juan Carlos Prado Angelo | San Marino | 2026-07-31 | YES Facundo Diaz Acosta | 0.75 | 0.814 | ✓ | +0.237 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31diapra) |
 | Mili Poljicak (YES) vs Alexandre Muller | San Marino | 2026-07-31 | YES Mili Poljicak | 0.33 | 0.565 | ✓ | +0.655 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31mulpol) |
 | Juan Pablo Varillas (NO) vs Timofey Skatov | San Marino | 2026-07-31 | NO Juan Pablo Varillas | 0.34 | 0.533 | ✓ | +0.644 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31varska) |
