@@ -1,6 +1,6 @@
-# Pending paper bets (14)
+# Pending paper bets (13)
 
-_Generated 2026-07-31T11:34:40+00:00_
+_Generated 2026-07-31T14:12:05+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
@@ -10,7 +10,6 @@ _Generated 2026-07-31T11:34:40+00:00_
 | **Kaichi Uchida** (YES) vs James Trotter | Newport Qualification | 2026-07-05 | YES Kaichi Uchida | 0.31 | 0.511 | +0.201 | 0.0150 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05uchtro) |
 | **Juan Pablo Varillas** (NO) vs Timofey Skatov | San Marino | 2026-07-31 | NO Juan Pablo Varillas | 0.34 | 0.533 | +0.193 | 0.0157 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31varska) |
 | **Cezar Cretu** (NO) vs Kimmer Coppejans | Zug | 2026-07-20 | NO Cezar Cretu | 0.38 | 0.561 | +0.181 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20crecop) |
-| **Juan Bautista Torres** (YES) vs Gonzalo Bueno | Liberec | 2026-07-31 | YES Juan Bautista Torres | 0.42 | 0.545 | +0.125 | 0.0171 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31torbue) |
 | **Pablo Llamas Ruiz** (YES) vs Alexis Galarneau | Bloomfield Hills | 2026-07-20 | YES Pablo Llamas Ruiz | 0.46 | 0.579 | +0.119 | 0.0174 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20gallla) |
 | **Norbert Gombos** (YES) vs Kilian Feldbausch | Liberec | 2026-07-31 | YES Norbert Gombos | 0.21 | 0.319 | +0.109 | 0.0116 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31gomfel) |
 | **Pablo Carreno Busta** (NO) vs Jaume Munar | Valencia | 2026-05-15 | NO Pablo Carreno Busta | 0.44 | 0.549 | +0.109 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15carmun) |

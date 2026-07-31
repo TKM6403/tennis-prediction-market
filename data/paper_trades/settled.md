@@ -1,12 +1,13 @@
-# Settled paper bets (618)
+# Settled paper bets (619)
 
-_Generated 2026-07-31T11:34:40+00:00_
+_Generated 2026-07-31T14:12:05+00:00_
 
-**Wins:** 198 / 618  (32.0%)  
-**Net PnL (per contract):** -34.781
+**Wins:** 198 / 619  (32.0%)  
+**Net PnL (per contract):** -35.218
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Juan Bautista Torres (YES) vs Gonzalo Bueno | Liberec | 2026-07-31 | YES Juan Bautista Torres | 0.42 | 0.545 | ✗ | -0.437 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31torbue) |
 | Juan Pablo Varillas (YES) vs Francesco Maestrelli | San Marino | 2026-07-30 | YES Juan Pablo Varillas | 0.44 | 0.569 | ✓ | +0.543 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul30maevar) |
 | Thiago Monteiro (YES) vs Andrea Pellegrino | San Marino | 2026-07-30 | YES Thiago Monteiro | 0.37 | 0.460 | ✓ | +0.614 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul30monpel) |
 | Genaro Alberto Olivieri (YES) vs Vilius Gaubas | San Marino | 2026-07-30 | YES Genaro Alberto Olivieri | 0.29 | 0.464 | ✗ | -0.304 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul30gauoli) |
