@@ -1,12 +1,14 @@
-# Settled paper bets (619)
+# Settled paper bets (621)
 
-_Generated 2026-07-31T14:12:05+00:00_
+_Generated 2026-07-31T16:51:55+00:00_
 
-**Wins:** 198 / 619  (32.0%)  
-**Net PnL (per contract):** -35.218
+**Wins:** 200 / 621  (32.2%)  
+**Net PnL (per contract):** -33.795
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Juan Pablo Varillas (NO) vs Timofey Skatov | San Marino | 2026-07-31 | NO Juan Pablo Varillas | 0.34 | 0.533 | ✓ | +0.644 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31varska) |
+| Norbert Gombos (YES) vs Kilian Feldbausch | Liberec | 2026-07-31 | YES Norbert Gombos | 0.21 | 0.319 | ✓ | +0.778 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31gomfel) |
 | Juan Bautista Torres (YES) vs Gonzalo Bueno | Liberec | 2026-07-31 | YES Juan Bautista Torres | 0.42 | 0.545 | ✗ | -0.437 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31torbue) |
 | Juan Pablo Varillas (YES) vs Francesco Maestrelli | San Marino | 2026-07-30 | YES Juan Pablo Varillas | 0.44 | 0.569 | ✓ | +0.543 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul30maevar) |
 | Thiago Monteiro (YES) vs Andrea Pellegrino | San Marino | 2026-07-30 | YES Thiago Monteiro | 0.37 | 0.460 | ✓ | +0.614 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul30monpel) |
