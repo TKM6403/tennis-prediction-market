@@ -1,15 +1,15 @@
-# Dropped markets (15578)
+# Dropped markets (15584)
 
-_Generated 2026-07-31T16:51:55+00:00_
+_Generated 2026-07-31T19:31:18+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `low_player_coverage` | 4620 |
+| `low_player_coverage` | 4624 |
 | `tournament_not_in_tml` | 2703 |
 | `missing_player_id` | 2612 |
-| `duplicate_match` | 2506 |
+| `duplicate_match` | 2508 |
 | `thin_tournament_history` | 1316 |
 | `below_min_edge` | 908 |
 | `wide_spread` | 383 |
@@ -2285,6 +2285,8 @@ _Generated 2026-07-31T16:51:55+00:00_
 | Facundo Diaz Acosta vs Juan Carlos Prado Angelo | San Marino | 2026-07-31 | 0.74 / 0.73 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL31DIAPRA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31diapra) |
 | Mili Poljicak vs Alexandre Muller | San Marino | 2026-07-31 | 0.68 / 0.67 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL31MULPOL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31mulpol) |
 | Alexandre Muller vs Mili Poljicak | San Marino | 2026-07-31 | 0.33 / 0.32 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL31MULPOL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31mulpol) |
+| Thiago Monteiro vs Vilius Gaubas | San Marino | 2026-07-31 | 0.46 / 0.44 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL31GAUMON | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31gaumon) |
+| Vilius Gaubas vs Thiago Monteiro | San Marino | 2026-07-31 | 0.56 / 0.52 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL31GAUMON | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31gaumon) |
 | Enrico Dalla Valle vs Mika Brunold | San Marino Qualification | 2026-07-27 | 0.58 / 0.57 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL27DALBRU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27dalbru) |
 | Juan Pablo Varillas vs Francesco Forti | San Marino Qualification | 2026-07-27 | 0.53 / 0.52 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL27VARFOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27varfor) |
 | Francesco Forti vs Juan Pablo Varillas | San Marino Qualification | 2026-07-27 | 0.47 / 0.45 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL27VARFOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27varfor) |
@@ -7733,6 +7735,10 @@ _Generated 2026-07-31T16:51:55+00:00_
 | Keegan Rice vs Mark Lajal | Vancouver | 2026-08-01 | 0.24 / 0.23 | `low_player_coverage` | cov_a=6 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31riclaj) |
 | Mark Lajal vs Keegan Rice | Vancouver | 2026-08-01 | 0.77 / 0.76 | `low_player_coverage` | cov_a=6 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31riclaj) |
 | J.J. Wolf vs Jay Friend | Vancouver | 2026-08-01 | 0.60 / 0.59 | `low_player_coverage` | cov_a=9 cov_b=21 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31harwol) |
+| Jay Friend vs J.J. Wolf | Vancouver | 2026-08-01 | 0.41 / 0.40 | `low_player_coverage` | cov_a=9 cov_b=21 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31harwol) |
+| Keegan Rice vs Mark Lajal | Vancouver | 2026-08-01 | 0.24 / 0.23 | `low_player_coverage` | cov_a=6 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31riclaj) |
+| Mark Lajal vs Keegan Rice | Vancouver | 2026-08-01 | 0.77 / 0.76 | `low_player_coverage` | cov_a=6 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31riclaj) |
+| J.J. Wolf vs Jay Friend | Vancouver | 2026-08-01 | 0.59 / 0.58 | `low_player_coverage` | cov_a=9 cov_b=21 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31harwol) |
 | Jay Friend vs J.J. Wolf | Vancouver | 2026-08-01 | 0.41 / 0.40 | `low_player_coverage` | cov_a=9 cov_b=21 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31harwol) |
 | Keegan Rice vs Mark Lajal | Vancouver | 2026-08-01 | 0.24 / 0.23 | `low_player_coverage` | cov_a=6 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31riclaj) |
 | Mark Lajal vs Keegan Rice | Vancouver | 2026-08-01 | 0.77 / 0.76 | `low_player_coverage` | cov_a=6 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31riclaj) |

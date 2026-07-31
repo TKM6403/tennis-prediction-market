@@ -1,12 +1,14 @@
-# Settled paper bets (621)
+# Settled paper bets (623)
 
-_Generated 2026-07-31T16:51:55+00:00_
+_Generated 2026-07-31T19:31:18+00:00_
 
-**Wins:** 200 / 621  (32.2%)  
-**Net PnL (per contract):** -33.795
+**Wins:** 202 / 623  (32.4%)  
+**Net PnL (per contract):** -32.904
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Facundo Diaz Acosta (YES) vs Juan Carlos Prado Angelo | San Marino | 2026-07-31 | YES Facundo Diaz Acosta | 0.75 | 0.814 | ✓ | +0.237 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31diapra) |
+| Mili Poljicak (YES) vs Alexandre Muller | San Marino | 2026-07-31 | YES Mili Poljicak | 0.33 | 0.565 | ✓ | +0.655 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31mulpol) |
 | Juan Pablo Varillas (NO) vs Timofey Skatov | San Marino | 2026-07-31 | NO Juan Pablo Varillas | 0.34 | 0.533 | ✓ | +0.644 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31varska) |
 | Norbert Gombos (YES) vs Kilian Feldbausch | Liberec | 2026-07-31 | YES Norbert Gombos | 0.21 | 0.319 | ✓ | +0.778 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31gomfel) |
 | Juan Bautista Torres (YES) vs Gonzalo Bueno | Liberec | 2026-07-31 | YES Juan Bautista Torres | 0.42 | 0.545 | ✗ | -0.437 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31torbue) |
