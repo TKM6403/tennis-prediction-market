@@ -1,20 +1,20 @@
-# Dropped markets (15632)
+# Dropped markets (15650)
 
-_Generated 2026-08-01T08:27:00+00:00_
+_Generated 2026-08-01T10:45:30+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `low_player_coverage` | 4636 |
-| `tournament_not_in_tml` | 2713 |
-| `missing_player_id` | 2616 |
-| `duplicate_match` | 2512 |
-| `thin_tournament_history` | 1322 |
-| `below_min_edge` | 914 |
+| `low_player_coverage` | 4640 |
+| `tournament_not_in_tml` | 2716 |
+| `missing_player_id` | 2617 |
+| `duplicate_match` | 2516 |
+| `thin_tournament_history` | 1324 |
+| `below_min_edge` | 916 |
 | `wide_spread` | 383 |
 | `loose_mirror_sum` | 348 |
-| `thin_player_history` | 186 |
+| `thin_player_history` | 188 |
 | `yes_on_challenger` | 2 |
 
 ## Detail
@@ -376,6 +376,8 @@ _Generated 2026-08-01T08:27:00+00:00_
 | Gonzalo Bueno vs Norbert Gombos | Liberec | 2026-08-01 | 0.62 / 0.61 | `below_min_edge` | best_edge=0.020 on YES @ theo=0.410 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01gombue) |
 | Norbert Gombos vs Gonzalo Bueno | Liberec | 2026-08-01 | 0.39 / 0.38 | `below_min_edge` | best_edge=0.020 on YES @ theo=0.410 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01gombue) |
 | Gonzalo Bueno vs Norbert Gombos | Liberec | 2026-08-01 | 0.62 / 0.61 | `below_min_edge` | best_edge=0.020 on YES @ theo=0.410 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01gombue) |
+| Norbert Gombos vs Gonzalo Bueno | Liberec | 2026-08-01 | 0.38 / 0.37 | `below_min_edge` | best_edge=0.030 on YES @ theo=0.410 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01gombue) |
+| Gonzalo Bueno vs Norbert Gombos | Liberec | 2026-08-01 | 0.63 / 0.62 | `below_min_edge` | best_edge=0.030 on YES @ theo=0.410 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01gombue) |
 | Norbert Gombos vs Gonzalo Bueno | Liberec | 2026-08-01 | 0.38 / 0.37 | `below_min_edge` | best_edge=0.030 on YES @ theo=0.410 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01gombue) |
 | Gonzalo Bueno vs Norbert Gombos | Liberec | 2026-08-01 | 0.63 / 0.62 | `below_min_edge` | best_edge=0.030 on YES @ theo=0.410 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01gombue) |
 | Yasutaka Uchiyama vs Andre Ilagan | Little Rock | 2026-05-25 | 0.58 / 0.52 | `below_min_edge` | best_edge=0.048 on YES @ theo=0.518 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25ilauch) |
@@ -2293,6 +2295,10 @@ _Generated 2026-08-01T08:27:00+00:00_
 | Alexandre Muller vs Mili Poljicak | San Marino | 2026-07-31 | 0.33 / 0.32 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL31MULPOL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31mulpol) |
 | Thiago Monteiro vs Vilius Gaubas | San Marino | 2026-07-31 | 0.46 / 0.44 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL31GAUMON | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31gaumon) |
 | Vilius Gaubas vs Thiago Monteiro | San Marino | 2026-07-31 | 0.56 / 0.52 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL31GAUMON | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31gaumon) |
+| Vilius Gaubas vs Facundo Diaz Acosta | San Marino | 2026-08-01 | 0.33 / 0.32 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG01DIAGAU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01diagau) |
+| Facundo Diaz Acosta vs Vilius Gaubas | San Marino | 2026-08-01 | 0.67 / 0.66 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG01DIAGAU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01diagau) |
+| Juan Pablo Varillas vs Mili Poljicak | San Marino | 2026-08-01 | 0.45 / 0.44 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG01POLVAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01polvar) |
+| Mili Poljicak vs Juan Pablo Varillas | San Marino | 2026-08-01 | 0.56 / 0.55 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG01POLVAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01polvar) |
 | Vilius Gaubas vs Facundo Diaz Acosta | San Marino | 2026-08-01 | 0.33 / 0.32 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG01DIAGAU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01diagau) |
 | Facundo Diaz Acosta vs Vilius Gaubas | San Marino | 2026-08-01 | 0.67 / 0.66 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG01DIAGAU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01diagau) |
 | Juan Pablo Varillas vs Mili Poljicak | San Marino | 2026-08-01 | 0.45 / 0.44 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG01POLVAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01polvar) |
@@ -5278,6 +5284,8 @@ _Generated 2026-08-01T08:27:00+00:00_
 | Jan Kumstat vs Sumit Nagal | Liberec | 2026-08-01 | 0.53 / 0.52 | `low_player_coverage` | cov_a=41 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01kumnag) |
 | Sumit Nagal vs Jan Kumstat | Liberec | 2026-08-01 | 0.47 / 0.46 | `low_player_coverage` | cov_a=41 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01kumnag) |
 | Jan Kumstat vs Sumit Nagal | Liberec | 2026-08-01 | 0.54 / 0.53 | `low_player_coverage` | cov_a=41 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01kumnag) |
+| Sumit Nagal vs Jan Kumstat | Liberec | 2026-08-01 | 0.38 / 0.37 | `low_player_coverage` | cov_a=41 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01kumnag) |
+| Jan Kumstat vs Sumit Nagal | Liberec | 2026-08-01 | 0.64 / 0.61 | `low_player_coverage` | cov_a=41 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01kumnag) |
 | Samir Hamza Reguig vs Norbert Gombos | Liberec Qualification | 2026-07-26 | 0.17 / 0.08 | `low_player_coverage` | cov_a=3 cov_b=33 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26gomham) |
 | William Rejchtman Vinciguerra vs S D Prajwal Dev | Liberec Qualification | 2026-07-26 | 0.49 / 0.42 | `low_player_coverage` | cov_a=0 cov_b=6 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26rejdev) |
 | S D Prajwal Dev vs William Rejchtman Vinciguerra | Liberec Qualification | 2026-07-26 | 0.57 / 0.49 | `low_player_coverage` | cov_a=0 cov_b=6 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26rejdev) |
@@ -7764,6 +7772,8 @@ _Generated 2026-08-01T08:27:00+00:00_
 | Jay Friend vs J.J. Wolf | Vancouver | 2026-08-01 | 0.42 / 0.41 | `low_player_coverage` | cov_a=9 cov_b=21 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31harwol) |
 | Keegan Rice vs Mark Lajal | Vancouver | 2026-08-01 | 0.24 / 0.23 | `low_player_coverage` | cov_a=6 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31riclaj) |
 | Mark Lajal vs Keegan Rice | Vancouver | 2026-08-01 | 0.77 / 0.76 | `low_player_coverage` | cov_a=6 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31riclaj) |
+| J.J. Wolf vs Mark Lajal | Vancouver | 2026-08-02 | 0.52 / 0.44 | `low_player_coverage` | cov_a=9 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01wollaj) |
+| Mark Lajal vs J.J. Wolf | Vancouver | 2026-08-02 | 0.56 / 0.48 | `low_player_coverage` | cov_a=9 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01wollaj) |
 | Braden Shick vs Benjamin Thomas George | Vancouver Qualification | 2026-07-26 | 0.92 / 0.78 | `low_player_coverage` | cov_a=18 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26shigeo) |
 | Benjamin Thomas George vs Braden Shick | Vancouver Qualification | 2026-07-26 | 0.12 / 0.07 | `low_player_coverage` | cov_a=18 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26shigeo) |
 | Renta Tokuda vs Joshua Sheehy | Vancouver Qualification | 2026-07-26 | 0.64 / 0.51 | `low_player_coverage` | cov_a=19 cov_b=7 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26shetok) |
@@ -10412,6 +10422,7 @@ _Generated 2026-08-01T08:27:00+00:00_
 | Kenta Miyoshi (b. 2004) vs Constantin Bittoun Kouzmine | Samsun | 2026-08-01 | 0.79 / 0.78 | `missing_player_id` | player_a_id=nan, player_b_id='BU53' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01miybit) |
 | Kenta Miyoshi (b. 2004) vs Constantin Bittoun Kouzmine | Samsun | 2026-08-01 | 0.78 / 0.76 | `missing_player_id` | player_a_id=nan, player_b_id='BU53' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01miybit) |
 | Kenta Miyoshi (b. 2004) vs Constantin Bittoun Kouzmine | Samsun | 2026-08-01 | 0.82 / 0.81 | `missing_player_id` | player_a_id=nan, player_b_id='BU53' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01miybit) |
+| Kenta Miyoshi (b. 2004) vs Constantin Bittoun Kouzmine | Samsun | 2026-08-01 | 0.19 / 0.16 | `missing_player_id` | player_a_id=nan, player_b_id='BU53' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01miybit) |
 | Gokberk Saritas vs Sahtali | Samsun Qualification | 2026-07-26 | 0.18 / 0.06 | `missing_player_id` | player_a_id='S0NY', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26sahsar) |
 | Toufik Sahtali vs Gokberk Saritas | Samsun Qualification | 2026-07-26 | 0.94 / 0.83 | `missing_player_id` | player_a_id=nan, player_b_id='S0NY' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26sahsar) |
 | S Mert Ozdemir vs Mirza Basic | Samsun Qualification | 2026-07-26 | 0.22 / 0.09 | `missing_player_id` | player_a_id=nan, player_b_id='BE67' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26basozd) |
@@ -11109,6 +11120,8 @@ _Generated 2026-08-01T08:27:00+00:00_
 | Max Dahlin vs Jamie Mackenzie | Bonn | 2026-08-01 | 0.50 / 0.49 | `thin_player_history` | rank_ratio_a NaN (rank_a=1089.0, rank_b=nan) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01macdah) |
 | Jamie Mackenzie vs Max Dahlin | Bonn | 2026-08-01 | 0.50 / 0.49 | `thin_player_history` | rank_ratio_a NaN (rank_a=1089.0, rank_b=nan) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01macdah) |
 | Max Dahlin vs Jamie Mackenzie | Bonn | 2026-08-01 | 0.51 / 0.50 | `thin_player_history` | rank_ratio_a NaN (rank_a=1089.0, rank_b=nan) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01macdah) |
+| Jamie Mackenzie vs Max Dahlin | Bonn | 2026-08-01 | 0.49 / 0.48 | `thin_player_history` | rank_ratio_a NaN (rank_a=1089.0, rank_b=nan) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01macdah) |
+| Max Dahlin vs Jamie Mackenzie | Bonn | 2026-08-01 | 0.51 / 0.50 | `thin_player_history` | rank_ratio_a NaN (rank_a=1089.0, rank_b=nan) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01macdah) |
 | Michael Geerts vs Mateusz Lange | Bunschoten | 2026-07-12 | 0.61 / 0.55 | `thin_player_history` | rank_ratio_a NaN (rank_a=305.0, rank_b=nan) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12degee) |
 | Mateusz Lange vs Michael Geerts | Bunschoten | 2026-07-12 | 0.44 / 0.38 | `thin_player_history` | rank_ratio_a NaN (rank_a=305.0, rank_b=nan) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12degee) |
 | Michael Geerts vs Mateusz Lange | Bunschoten | 2026-07-12 | 0.62 / 0.58 | `thin_player_history` | rank_ratio_a NaN (rank_a=305.0, rank_b=nan) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12degee) |
@@ -11632,6 +11645,8 @@ _Generated 2026-08-01T08:27:00+00:00_
 | Jan Choinski vs Olle Wallin | Bonn | 2026-07-31 | 0.80 / 0.78 | `thin_tournament_history` | 'Bonn' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31chowal) |
 | Olle Wallin vs Jan Choinski | Bonn | 2026-07-31 | 0.21 / 0.20 | `thin_tournament_history` | 'Bonn' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31chowal) |
 | Jan Choinski vs Olle Wallin | Bonn | 2026-07-31 | 0.80 / 0.79 | `thin_tournament_history` | 'Bonn' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul31chowal) |
+| Federico Agustin Gomez vs Jan Choinski | Bonn | 2026-08-01 | 0.29 / 0.28 | `thin_tournament_history` | 'Bonn' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01chogom) |
+| Jan Choinski vs Emilio Gomez | Bonn | 2026-08-01 | 0.72 / 0.71 | `thin_tournament_history` | 'Bonn' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01chogom) |
 | Federico Agustin Gomez vs Jan Choinski | Bonn | 2026-08-01 | 0.29 / 0.28 | `thin_tournament_history` | 'Bonn' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01chogom) |
 | Jan Choinski vs Emilio Gomez | Bonn | 2026-08-01 | 0.72 / 0.71 | `thin_tournament_history` | 'Bonn' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01chogom) |
 | Federico Agustin Gomez vs Jan Choinski | Bonn | 2026-08-01 | 0.29 / 0.28 | `thin_tournament_history` | 'Bonn' has 2 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01chogom) |
@@ -15097,6 +15112,9 @@ _Generated 2026-08-01T08:27:00+00:00_
 | Paul Inchauspe vs Gabriel Debru | Samsun | 2026-08-01 | 0.58 / 0.57 | `tournament_not_in_tml` | tournament='Samsun' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01incdeb) |
 | Gabriel Debru vs Paul Inchauspe | Samsun | 2026-08-01 | 0.43 / 0.42 | `tournament_not_in_tml` | tournament='Samsun' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01incdeb) |
 | Constantin Bittoun Kouzmine vs Kenta Miyoshi | Samsun | 2026-08-01 | 0.19 / 0.18 | `tournament_not_in_tml` | tournament='Samsun' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01miybit) |
+| Paul Inchauspe vs Gabriel Debru | Samsun | 2026-08-01 | 0.59 / 0.58 | `tournament_not_in_tml` | tournament='Samsun' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01incdeb) |
+| Gabriel Debru vs Paul Inchauspe | Samsun | 2026-08-01 | 0.43 / 0.42 | `tournament_not_in_tml` | tournament='Samsun' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01incdeb) |
+| Constantin Bittoun Kouzmine vs Kenta Miyoshi | Samsun | 2026-08-01 | 0.82 / 0.81 | `tournament_not_in_tml` | tournament='Samsun' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01miybit) |
 | Kerem Yilmaz vs Constantin Bittoun Kouzmine | Samsun Qualification | 2026-07-26 | 0.26 / 0.22 | `tournament_not_in_tml` | tournament='Samsun Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26bityil) |
 | Constantin Bittoun Kouzmine vs Kerem Yilmaz | Samsun Qualification | 2026-07-26 | 0.77 / 0.74 | `tournament_not_in_tml` | tournament='Samsun Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26bityil) |
 | Digvijaypratap Singh vs Sergey Betov | Samsun Qualification | 2026-07-26 | 0.88 / 0.85 | `tournament_not_in_tml` | tournament='Samsun Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26sinbet) |
