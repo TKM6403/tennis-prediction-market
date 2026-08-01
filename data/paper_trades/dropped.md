@@ -1,14 +1,14 @@
-# Dropped markets (15672)
+# Dropped markets (15688)
 
-_Generated 2026-08-01T19:13:16+00:00_
+_Generated 2026-08-01T22:00:36+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `low_player_coverage` | 4646 |
+| `low_player_coverage` | 4656 |
 | `tournament_not_in_tml` | 2716 |
-| `missing_player_id` | 2617 |
+| `missing_player_id` | 2623 |
 | `duplicate_match` | 2526 |
 | `thin_tournament_history` | 1326 |
 | `below_min_edge` | 916 |
@@ -5027,6 +5027,12 @@ _Generated 2026-08-01T19:13:16+00:00_
 | Cesar Bouchelaghem vs Adhithya Ganesan | Granby Qualification | 2026-07-13 | 0.64 / 0.60 | `low_player_coverage` | cov_a=3 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13bougan) |
 | Adhithya Ganesan vs Cesar Bouchelaghem | Granby Qualification | 2026-07-13 | 0.39 / 0.36 | `low_player_coverage` | cov_a=3 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13bougan) |
 | Cesar Bouchelaghem vs Adhithya Ganesan | Granby Qualification | 2026-07-13 | 0.62 / 0.61 | `low_player_coverage` | cov_a=3 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13bougan) |
+| Leo Raquillet vs Oskari Paldanius | Grodzisk Mazowiecki Qualification | 2026-08-02 | 0.59 / 0.55 | `low_player_coverage` | cov_a=7 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02palraq) |
+| Oskari Paldanius vs Leo Raquillet | Grodzisk Mazowiecki Qualification | 2026-08-02 | 0.45 / 0.42 | `low_player_coverage` | cov_a=7 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02palraq) |
+| Tommaso Compagnucci vs Aleksandr Braynin | Hagen Qualification | 2026-08-02 | 0.81 / 0.73 | `low_player_coverage` | cov_a=12 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02bracom) |
+| Aleksandr Braynin vs Tommaso Compagnucci | Hagen Qualification | 2026-08-02 | 0.22 / 0.20 | `low_player_coverage` | cov_a=12 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02bracom) |
+| Daniel Siniakov vs Tim Handel | Hagen Qualification | 2026-08-02 | 0.81 / 0.73 | `low_player_coverage` | cov_a=1 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02hansin) |
+| Tim Handel vs Daniel Siniakov | Hagen Qualification | 2026-08-02 | 0.22 / 0.19 | `low_player_coverage` | cov_a=1 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02hansin) |
 | Alex Marti Pujolras vs Cezar Cretu | Iasi | 2026-07-07 | 0.36 / 0.27 | `low_player_coverage` | cov_a=4 cov_b=24 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07marcre) |
 | Samir Hamza Reguig vs Olle Wallin | Iasi | 2026-07-07 | 0.15 / 0.13 | `low_player_coverage` | cov_a=2 cov_b=20 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07hamwal) |
 | Sascha Gueymard Wayenburg vs Alexander Donski | Iasi | 2026-07-07 | 0.71 / 0.69 | `low_player_coverage` | cov_a=48 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07guedon) |
@@ -5296,6 +5302,8 @@ _Generated 2026-08-01T19:13:16+00:00_
 | Jan Kumstat vs Sumit Nagal | Liberec | 2026-08-01 | 0.54 / 0.53 | `low_player_coverage` | cov_a=41 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01kumnag) |
 | Sumit Nagal vs Jan Kumstat | Liberec | 2026-08-01 | 0.38 / 0.37 | `low_player_coverage` | cov_a=41 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01kumnag) |
 | Jan Kumstat vs Sumit Nagal | Liberec | 2026-08-01 | 0.64 / 0.61 | `low_player_coverage` | cov_a=41 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01kumnag) |
+| Jan Kumstat vs Gonzalo Bueno | Liberec | 2026-08-02 | 0.54 / 0.53 | `low_player_coverage` | cov_a=10 cov_b=64 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02kumbue) |
+| Gonzalo Bueno vs Jan Kumstat | Liberec | 2026-08-02 | 0.47 / 0.46 | `low_player_coverage` | cov_a=10 cov_b=64 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02kumbue) |
 | Samir Hamza Reguig vs Norbert Gombos | Liberec Qualification | 2026-07-26 | 0.17 / 0.08 | `low_player_coverage` | cov_a=3 cov_b=33 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26gomham) |
 | William Rejchtman Vinciguerra vs S D Prajwal Dev | Liberec Qualification | 2026-07-26 | 0.49 / 0.42 | `low_player_coverage` | cov_a=0 cov_b=6 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26rejdev) |
 | S D Prajwal Dev vs William Rejchtman Vinciguerra | Liberec Qualification | 2026-07-26 | 0.57 / 0.49 | `low_player_coverage` | cov_a=0 cov_b=6 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26rejdev) |
@@ -7790,6 +7798,8 @@ _Generated 2026-08-01T19:13:16+00:00_
 | Mark Lajal vs J.J. Wolf | Vancouver | 2026-08-02 | 0.56 / 0.55 | `low_player_coverage` | cov_a=9 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01wollaj) |
 | J.J. Wolf vs Mark Lajal | Vancouver | 2026-08-02 | 0.45 / 0.44 | `low_player_coverage` | cov_a=9 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01wollaj) |
 | Mark Lajal vs J.J. Wolf | Vancouver | 2026-08-02 | 0.55 / 0.54 | `low_player_coverage` | cov_a=9 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01wollaj) |
+| J.J. Wolf vs Mark Lajal | Vancouver | 2026-08-02 | 0.46 / 0.45 | `low_player_coverage` | cov_a=9 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01wollaj) |
+| Mark Lajal vs J.J. Wolf | Vancouver | 2026-08-02 | 0.56 / 0.55 | `low_player_coverage` | cov_a=9 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01wollaj) |
 | Braden Shick vs Benjamin Thomas George | Vancouver Qualification | 2026-07-26 | 0.92 / 0.78 | `low_player_coverage` | cov_a=18 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26shigeo) |
 | Benjamin Thomas George vs Braden Shick | Vancouver Qualification | 2026-07-26 | 0.12 / 0.07 | `low_player_coverage` | cov_a=18 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26shigeo) |
 | Renta Tokuda vs Joshua Sheehy | Vancouver Qualification | 2026-07-26 | 0.64 / 0.51 | `low_player_coverage` | cov_a=19 cov_b=7 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26shetok) |
@@ -9458,6 +9468,12 @@ _Generated 2026-08-01T19:13:16+00:00_
 | Kenta Miyoshi (b. 2004) vs Bruno Kuzuhara | Granby Qualification | 2026-07-13 | 0.65 / 0.63 | `missing_player_id` | player_a_id=nan, player_b_id='K0HN' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12miykuz) |
 | Kenta Miyoshi (b. 2004) vs Bruno Kuzuhara | Granby Qualification | 2026-07-13 | 0.71 / 0.69 | `missing_player_id` | player_a_id=nan, player_b_id='K0HN' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12miykuz) |
 | Kenta Miyoshi (b. 2004) vs Kenta Miyoshi | Granby Qualification | 2026-07-13 | 0.95 / 0.05 | `missing_player_id` | player_a_id=nan, player_b_id='M0RX' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13polmiy) |
+| Kacper Szymkowiak vs Ergi Kirkin | Grodzisk Mazowiecki Qualification | 2026-08-02 | 0.40 / 0.37 | `missing_player_id` | player_a_id=nan, player_b_id='KI48' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02kirszy) |
+| Ergi Kirkin vs Szymkowiak | Grodzisk Mazowiecki Qualification | 2026-08-02 | 0.64 / 0.58 | `missing_player_id` | player_a_id='KI48', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02kirszy) |
+| Amit Vales vs Tamm | Grodzisk Mazowiecki Qualification | 2026-08-02 | 0.79 / 0.74 | `missing_player_id` | player_a_id='V0G2', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02tamval) |
+| Kristjan Tamm vs Amit Vales | Grodzisk Mazowiecki Qualification | 2026-08-02 | 0.23 / 0.20 | `missing_player_id` | player_a_id=nan, player_b_id='V0G2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02tamval) |
+| Filippo Romano vs Recek | Hagen Qualification | 2026-08-02 | 0.74 / 0.66 | `missing_player_id` | player_a_id='R0HK', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02romrec) |
+| Dominik Recek vs Filippo Romano | Hagen Qualification | 2026-08-02 | 0.29 / 0.26 | `missing_player_id` | player_a_id=nan, player_b_id='R0HK' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02romrec) |
 | Cezar Cretu (b. 2001) vs Cezar Cretu | Iasi | 2026-07-07 | 0.72 / 0.63 | `missing_player_id` | player_a_id=nan, player_b_id='C0B2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07marcre) |
 | Luka Pavlovic vs Ferreira Silva | Iasi | 2026-07-07 | 0.65 / 0.64 | `missing_player_id` | player_a_id='P0AY', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07ferpav) |
 | Olle Wallin vs Hamza Reguig | Iasi | 2026-07-07 | 0.87 / 0.85 | `missing_player_id` | player_a_id='W0BU', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07hamwal) |
