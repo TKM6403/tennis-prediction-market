@@ -1,15 +1,15 @@
-# Dropped markets (15668)
+# Dropped markets (15672)
 
-_Generated 2026-08-01T16:05:00+00:00_
+_Generated 2026-08-01T19:13:16+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `low_player_coverage` | 4644 |
+| `low_player_coverage` | 4646 |
 | `tournament_not_in_tml` | 2716 |
 | `missing_player_id` | 2617 |
-| `duplicate_match` | 2524 |
+| `duplicate_match` | 2526 |
 | `thin_tournament_history` | 1326 |
 | `below_min_edge` | 916 |
 | `wide_spread` | 383 |
@@ -2311,6 +2311,8 @@ _Generated 2026-08-01T16:05:00+00:00_
 | Facundo Diaz Acosta vs Vilius Gaubas | San Marino | 2026-08-01 | 0.65 / 0.64 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG01DIAGAU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01diagau) |
 | Juan Pablo Varillas vs Mili Poljicak | San Marino | 2026-08-01 | 0.46 / 0.45 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG01POLVAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01polvar) |
 | Mili Poljicak vs Juan Pablo Varillas | San Marino | 2026-08-01 | 0.57 / 0.55 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG01POLVAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01polvar) |
+| Vilius Gaubas vs Facundo Diaz Acosta | San Marino | 2026-08-01 | 0.13 / 0.12 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG01DIAGAU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01diagau) |
+| Facundo Diaz Acosta vs Vilius Gaubas | San Marino | 2026-08-01 | 0.88 / 0.87 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG01DIAGAU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01diagau) |
 | Enrico Dalla Valle vs Mika Brunold | San Marino Qualification | 2026-07-27 | 0.58 / 0.57 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL27DALBRU | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27dalbru) |
 | Juan Pablo Varillas vs Francesco Forti | San Marino Qualification | 2026-07-27 | 0.53 / 0.52 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL27VARFOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27varfor) |
 | Francesco Forti vs Juan Pablo Varillas | San Marino Qualification | 2026-07-27 | 0.47 / 0.45 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL27VARFOR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27varfor) |
@@ -7786,6 +7788,8 @@ _Generated 2026-08-01T16:05:00+00:00_
 | Mark Lajal vs J.J. Wolf | Vancouver | 2026-08-02 | 0.56 / 0.55 | `low_player_coverage` | cov_a=9 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01wollaj) |
 | J.J. Wolf vs Mark Lajal | Vancouver | 2026-08-02 | 0.45 / 0.44 | `low_player_coverage` | cov_a=9 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01wollaj) |
 | Mark Lajal vs J.J. Wolf | Vancouver | 2026-08-02 | 0.56 / 0.55 | `low_player_coverage` | cov_a=9 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01wollaj) |
+| J.J. Wolf vs Mark Lajal | Vancouver | 2026-08-02 | 0.45 / 0.44 | `low_player_coverage` | cov_a=9 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01wollaj) |
+| Mark Lajal vs J.J. Wolf | Vancouver | 2026-08-02 | 0.55 / 0.54 | `low_player_coverage` | cov_a=9 cov_b=56 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01wollaj) |
 | Braden Shick vs Benjamin Thomas George | Vancouver Qualification | 2026-07-26 | 0.92 / 0.78 | `low_player_coverage` | cov_a=18 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26shigeo) |
 | Benjamin Thomas George vs Braden Shick | Vancouver Qualification | 2026-07-26 | 0.12 / 0.07 | `low_player_coverage` | cov_a=18 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26shigeo) |
 | Renta Tokuda vs Joshua Sheehy | Vancouver Qualification | 2026-07-26 | 0.64 / 0.51 | `low_player_coverage` | cov_a=19 cov_b=7 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul26shetok) |
