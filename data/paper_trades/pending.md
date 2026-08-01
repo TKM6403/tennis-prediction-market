@@ -1,6 +1,6 @@
-# Pending paper bets (8)
+# Pending paper bets (10)
 
-_Generated 2026-08-01T02:54:20+00:00_
+_Generated 2026-08-01T05:59:11+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
@@ -8,6 +8,8 @@ _Generated 2026-08-01T02:54:20+00:00_
 | **Arthur Gea** (NO) vs Alex Michelsen | Bloomfield Hills | 2026-07-22 | NO Arthur Gea | 0.28 | 0.507 | +0.227 | 0.0141 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21micgea) |
 | **Kaichi Uchida** (YES) vs James Trotter | Newport Qualification | 2026-07-05 | YES Kaichi Uchida | 0.31 | 0.511 | +0.201 | 0.0150 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05uchtro) |
 | **Cezar Cretu** (NO) vs Kimmer Coppejans | Zug | 2026-07-20 | NO Cezar Cretu | 0.38 | 0.561 | +0.181 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20crecop) |
+| **Juan Pablo Varillas** (YES) vs Mili Poljicak | San Marino | 2026-08-01 | YES Juan Pablo Varillas | 0.45 | 0.605 | +0.155 | 0.0173 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01polvar) |
+| **Facundo Diaz Acosta** (YES) vs Vilius Gaubas | San Marino | 2026-08-01 | YES Facundo Diaz Acosta | 0.68 | 0.814 | +0.134 | 0.0152 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01diagau) |
 | **Pablo Llamas Ruiz** (YES) vs Alexis Galarneau | Bloomfield Hills | 2026-07-20 | YES Pablo Llamas Ruiz | 0.46 | 0.579 | +0.119 | 0.0174 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul20gallla) |
 | **Pablo Carreno Busta** (NO) vs Jaume Munar | Valencia | 2026-05-15 | NO Pablo Carreno Busta | 0.44 | 0.549 | +0.109 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15carmun) |
 | **Nikoloz Basilashvili** (YES) vs Laslo Djere | San Marino | 2026-07-27 | YES Nikoloz Basilashvili | 0.34 | 0.421 | +0.081 | 0.0157 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27djebas) |
