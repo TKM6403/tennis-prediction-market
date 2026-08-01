@@ -1,10 +1,9 @@
-# Pending paper bets (11)
+# Pending paper bets (10)
 
-_Generated 2026-08-01T13:25:37+00:00_
+_Generated 2026-08-01T16:05:00+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
-| **Norbert Gombos** (YES) vs Gonzalo Bueno | Liberec | 2026-08-01 | YES Norbert Gombos | 0.04 | 0.410 | +0.370 | 0.0027 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01gombue) |
 | **Martin Krumich** (NO) vs Francisco Comesana | Braunschweig | 2026-07-07 | NO Martin Krumich | 0.26 | 0.540 | +0.280 | 0.0135 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07krucom) |
 | **Arthur Gea** (NO) vs Alex Michelsen | Bloomfield Hills | 2026-07-22 | NO Arthur Gea | 0.28 | 0.507 | +0.227 | 0.0141 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21micgea) |
 | **Kaichi Uchida** (YES) vs James Trotter | Newport Qualification | 2026-07-05 | YES Kaichi Uchida | 0.31 | 0.511 | +0.201 | 0.0150 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05uchtro) |
