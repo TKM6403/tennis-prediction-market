@@ -1,12 +1,13 @@
-# Settled paper bets (627)
+# Settled paper bets (628)
 
-_Generated 2026-08-03T17:19:31+00:00_
+_Generated 2026-08-03T19:42:50+00:00_
 
-**Wins:** 203 / 627  (32.4%)  
-**Net PnL (per contract):** -33.546
+**Wins:** 204 / 628  (32.5%)  
+**Net PnL (per contract):** -32.912
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Andrej Martin (NO) vs Trevor Svajda | Lexington Qualification | 2026-08-03 | NO Andrej Martin | 0.35 | 0.495 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03marsva) |
 | Facundo Diaz Acosta (YES) vs Vilius Gaubas | San Marino | 2026-08-01 | YES Facundo Diaz Acosta | 0.68 | 0.814 | ✓ | +0.305 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01diagau) |
 | Juan Pablo Varillas (YES) vs Mili Poljicak | San Marino | 2026-08-01 | YES Juan Pablo Varillas | 0.45 | 0.605 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01polvar) |
 | Norbert Gombos (YES) vs Gonzalo Bueno | Liberec | 2026-08-01 | YES Norbert Gombos | 0.04 | 0.410 | ✗ | -0.043 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug01gombue) |
