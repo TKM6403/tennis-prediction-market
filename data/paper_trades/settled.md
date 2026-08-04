@@ -1,12 +1,18 @@
-# Settled paper bets (636)
+# Settled paper bets (642)
 
-_Generated 2026-08-04T16:56:54+00:00_
+_Generated 2026-08-04T19:43:30+00:00_
 
-**Wins:** 205 / 636  (32.2%)  
-**Net PnL (per contract):** -35.067
+**Wins:** 206 / 642  (32.1%)  
+**Net PnL (per contract):** -36.587
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Philip Henning (YES) vs Maks Kasnikowski | Grodzisk Mazowiecki | 2026-08-04 | YES Philip Henning | 0.36 | 0.486 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04henkas) |
+| Tristan Schoolkate (YES) vs Soonwoo Kwon | Lexington | 2026-08-04 | YES Tristan Schoolkate | 0.33 | 0.410 | ✗ | -0.345 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04schkwon) |
+| Alex Bolt (YES) vs Abdullah Shelbayh | Lexington | 2026-08-04 | YES Alex Bolt | 0.45 | 0.709 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04bolshe) |
+| Harry Wendelken (YES) vs Michael Mmoh | Lexington | 2026-08-04 | YES Harry Wendelken | 0.40 | 0.492 | ✗ | -0.417 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04wenmmo) |
+| Edas Butvilas (YES) vs Tristan Boyer | Lexington | 2026-08-04 | YES Edas Butvilas | 0.41 | 0.509 | ✓ | +0.573 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04butboy) |
+| James McCabe (YES) vs Dusan Lajovic | Lexington | 2026-08-04 | YES James McCabe | 0.47 | 0.534 | ✗ | -0.487 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04mcclaj) |
 | Michael Geerts (YES) vs Viktor Durasovic | Grodzisk Mazowiecki | 2026-08-04 | YES Michael Geerts | 0.45 | 0.641 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04durgee) |
 | Geoffrey Blancaneaux (YES) vs Damir Dzumhur | Grodzisk Mazowiecki | 2026-08-04 | YES Geoffrey Blancaneaux | 0.26 | 0.321 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04dzubla) |
 | Olle Wallin (YES) vs Andrea Guerrieri | Grodzisk Mazowiecki | 2026-08-04 | YES Olle Wallin | 0.41 | 0.498 | ✗ | -0.427 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04walgue) |
