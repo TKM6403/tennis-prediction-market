@@ -1,17 +1,17 @@
-# Dropped markets (16176)
+# Dropped markets (16264)
 
-_Generated 2026-08-03T22:15:08+00:00_
+_Generated 2026-08-04T02:38:25+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `low_player_coverage` | 4824 |
-| `tournament_not_in_tml` | 2839 |
-| `missing_player_id` | 2762 |
-| `duplicate_match` | 2548 |
-| `thin_tournament_history` | 1346 |
-| `below_min_edge` | 924 |
+| `low_player_coverage` | 4846 |
+| `tournament_not_in_tml` | 2874 |
+| `missing_player_id` | 2771 |
+| `duplicate_match` | 2552 |
+| `thin_tournament_history` | 1362 |
+| `below_min_edge` | 926 |
 | `wide_spread` | 389 |
 | `loose_mirror_sum` | 350 |
 | `thin_player_history` | 192 |
@@ -306,6 +306,8 @@ _Generated 2026-08-03T22:15:08+00:00_
 | Murphy Cassone vs Arthur Gea | Granby | 2026-07-18 | 0.36 / 0.35 | `below_min_edge` | best_edge=0.044 on YES @ theo=0.404 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18casgea) |
 | Aleksandar Vukic vs Arthur Gea | Granby | 2026-07-19 | 0.35 / 0.32 | `below_min_edge` | best_edge=0.040 on YES @ theo=0.390 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19vukgea) |
 | Arthur Gea vs Aleksandar Vukic | Granby | 2026-07-19 | 0.68 / 0.67 | `below_min_edge` | best_edge=0.040 on YES @ theo=0.390 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19vukgea) |
+| Olle Wallin vs Andrea Guerrieri | Grodzisk Mazowiecki | 2026-08-04 | 0.47 / 0.45 | `below_min_edge` | best_edge=0.028 on YES @ theo=0.498 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04walgue) |
+| Andrea Guerrieri vs Olle Wallin | Grodzisk Mazowiecki | 2026-08-04 | 0.55 / 0.53 | `below_min_edge` | best_edge=0.028 on YES @ theo=0.498 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04walgue) |
 | Zsombor Piros vs Lautaro Midon | Iasi | 2026-07-10 | 0.69 / 0.68 | `below_min_edge` | best_edge=0.041 on YES @ theo=0.371 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10midpir) |
 | Lautaro Midon vs Zsombor Piros | Iasi | 2026-07-10 | 0.33 / 0.32 | `below_min_edge` | best_edge=0.041 on YES @ theo=0.371 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10midpir) |
 | Jerome Kym vs Maks Kasnikowski | Iasi | 2026-07-10 | 0.56 / 0.55 | `below_min_edge` | best_edge=0.017 on YES @ theo=0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10kaskym) |
@@ -1539,6 +1541,10 @@ _Generated 2026-08-03T22:15:08+00:00_
 | August Holmgren vs Aleksandar Vukic | Granby | 2026-07-18 | 0.34 / 0.33 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL18VUKHOL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18vukhol) |
 | Aleksandar Vukic vs August Holmgren | Granby | 2026-07-18 | 0.60 / 0.59 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL18VUKHOL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18vukhol) |
 | August Holmgren vs Aleksandar Vukic | Granby | 2026-07-18 | 0.42 / 0.41 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL18VUKHOL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul18vukhol) |
+| Michael Geerts vs Viktor Durasovic | Grodzisk Mazowiecki | 2026-08-04 | 0.44 / 0.43 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG04DURGEE | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04durgee) |
+| Viktor Durasovic vs Michael Geerts | Grodzisk Mazowiecki | 2026-08-04 | 0.57 / 0.55 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG04DURGEE | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04durgee) |
+| Alejandro Moro Canas vs Robin Bertrand | Grodzisk Mazowiecki | 2026-08-04 | 0.78 / 0.76 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG04MORBER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04morber) |
+| Robin Bertrand vs Alejandro Moro Canas | Grodzisk Mazowiecki | 2026-08-04 | 0.24 / 0.22 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG04MORBER | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04morber) |
 | Frederico Ferreira Silva vs Luka Pavlovic | Iasi | 2026-07-07 | 0.40 / 0.38 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL07FERPAV | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07ferpav) |
 | Valentin Royer vs Taro Daniel | Iasi | 2026-07-10 | 0.58 / 0.57 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL10ROYDAN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10roydan) |
 | Taro Daniel vs Valentin Royer | Iasi | 2026-07-10 | 0.43 / 0.42 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL10ROYDAN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10roydan) |
@@ -5077,6 +5083,20 @@ _Generated 2026-08-03T22:15:08+00:00_
 | Daniil Glinka vs Fares Zakaria | Grodzisk Mazowiecki | 2026-08-03 | 0.95 / 0.94 | `low_player_coverage` | cov_a=5 cov_b=61 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03zakgli) |
 | Filip Pieczonka vs Harold Mayot | Grodzisk Mazowiecki | 2026-08-04 | 0.16 / 0.13 | `low_player_coverage` | cov_a=4 cov_b=39 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04piemay) |
 | Harold Mayot vs Filip Pieczonka | Grodzisk Mazowiecki | 2026-08-04 | 0.87 / 0.84 | `low_player_coverage` | cov_a=4 cov_b=39 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04piemay) |
+| Aziz Dougaz vs Mirza Basic | Grodzisk Mazowiecki | 2026-08-04 | 0.79 / 0.75 | `low_player_coverage` | cov_a=7 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04doubas) |
+| Mirza Basic vs Aziz Dougaz | Grodzisk Mazowiecki | 2026-08-04 | 0.22 / 0.20 | `low_player_coverage` | cov_a=7 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04doubas) |
+| Filip Peliwo vs Ivan Marrero Curbelo | Grodzisk Mazowiecki | 2026-08-04 | 0.17 / 0.15 | `low_player_coverage` | cov_a=7 cov_b=15 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04pelmar) |
+| Ivan Marrero Curbelo vs Filip Peliwo | Grodzisk Mazowiecki | 2026-08-04 | 0.84 / 0.77 | `low_player_coverage` | cov_a=7 cov_b=15 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04pelmar) |
+| Ergi Kirkin vs Ilya Ivashka | Grodzisk Mazowiecki | 2026-08-04 | 0.17 / 0.16 | `low_player_coverage` | cov_a=5 cov_b=27 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04kiriva) |
+| Ilya Ivashka vs Ergi Kirkin | Grodzisk Mazowiecki | 2026-08-04 | 0.84 / 0.82 | `low_player_coverage` | cov_a=5 cov_b=27 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04kiriva) |
+| Amit Vales vs Pedro Martinez | Grodzisk Mazowiecki | 2026-08-04 | 0.37 / 0.35 | `low_player_coverage` | cov_a=4 cov_b=46 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04marval) |
+| Alex Martinez vs Amit Vales | Grodzisk Mazowiecki | 2026-08-04 | 0.64 / 0.63 | `low_player_coverage` | cov_a=4 cov_b=46 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04marval) |
+| Olaf Pieczkowski vs Mathys Erhard | Grodzisk Mazowiecki | 2026-08-04 | 0.34 / 0.32 | `low_player_coverage` | cov_a=7 cov_b=40 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04erhpie) |
+| Mathys Erhard vs Olaf Pieczkowski | Grodzisk Mazowiecki | 2026-08-04 | 0.66 / 0.65 | `low_player_coverage` | cov_a=7 cov_b=40 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04erhpie) |
+| Takuya Kumasaka vs Alexander Donski | Grodzisk Mazowiecki | 2026-08-04 | 0.42 / 0.41 | `low_player_coverage` | cov_a=9 cov_b=15 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04donkum) |
+| Alexander Donski vs Takuya Kumasaka | Grodzisk Mazowiecki | 2026-08-04 | 0.59 / 0.58 | `low_player_coverage` | cov_a=9 cov_b=15 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04donkum) |
+| Filip Pieczonka vs Harold Mayot | Grodzisk Mazowiecki | 2026-08-04 | 0.15 / 0.14 | `low_player_coverage` | cov_a=4 cov_b=39 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04piemay) |
+| Harold Mayot vs Filip Pieczonka | Grodzisk Mazowiecki | 2026-08-04 | 0.86 / 0.85 | `low_player_coverage` | cov_a=4 cov_b=39 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04piemay) |
 | Leo Raquillet vs Oskari Paldanius | Grodzisk Mazowiecki Qualification | 2026-08-02 | 0.59 / 0.55 | `low_player_coverage` | cov_a=7 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02palraq) |
 | Oskari Paldanius vs Leo Raquillet | Grodzisk Mazowiecki Qualification | 2026-08-02 | 0.45 / 0.42 | `low_player_coverage` | cov_a=7 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02palraq) |
 | Oscar Weightman vs Kamil Majchrzak | Grodzisk Mazowiecki Qualification | 2026-08-02 | 0.77 / 0.76 | `low_player_coverage` | cov_a=4 cov_b=47 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02majwei) |
@@ -5121,6 +5141,14 @@ _Generated 2026-08-03T22:15:08+00:00_
 | Rudolf Molleker vs Maxim Mrva | Hagen | 2026-08-04 | 0.35 / 0.30 | `low_player_coverage` | cov_a=52 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04molmrv) |
 | Henri Squire vs Emilio Gomez | Hagen | 2026-08-04 | 0.52 / 0.50 | `low_player_coverage` | cov_a=55 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04gomsqu) |
 | Federico Agustin Gomez vs Henri Squire | Hagen | 2026-08-04 | 0.50 / 0.48 | `low_player_coverage` | cov_a=55 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04gomsqu) |
+| Niels McDonald vs Jerome Kym | Hagen | 2026-08-04 | 0.31 / 0.30 | `low_player_coverage` | cov_a=14 cov_b=27 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04mcdkym) |
+| Jerome Kym vs Mackenzie McDonald | Hagen | 2026-08-04 | 0.70 / 0.68 | `low_player_coverage` | cov_a=14 cov_b=27 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04mcdkym) |
+| Elmer Moller vs Jamie Mackenzie | Hagen | 2026-08-04 | 0.64 / 0.63 | `low_player_coverage` | cov_a=38 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04molmac) |
+| Jamie Mackenzie vs Elmer Moller | Hagen | 2026-08-04 | 0.37 / 0.35 | `low_player_coverage` | cov_a=38 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04molmac) |
+| Maxim Mrva vs Rudolf Molleker | Hagen | 2026-08-04 | 0.63 / 0.62 | `low_player_coverage` | cov_a=52 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04molmrv) |
+| Rudolf Molleker vs Maxim Mrva | Hagen | 2026-08-04 | 0.38 / 0.37 | `low_player_coverage` | cov_a=52 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04molmrv) |
+| Henri Squire vs Emilio Gomez | Hagen | 2026-08-04 | 0.52 / 0.50 | `low_player_coverage` | cov_a=55 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04gomsqu) |
+| Federico Agustin Gomez vs Henri Squire | Hagen | 2026-08-04 | 0.49 / 0.48 | `low_player_coverage` | cov_a=55 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04gomsqu) |
 | Tommaso Compagnucci vs Aleksandr Braynin | Hagen Qualification | 2026-08-02 | 0.81 / 0.73 | `low_player_coverage` | cov_a=12 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02bracom) |
 | Aleksandr Braynin vs Tommaso Compagnucci | Hagen Qualification | 2026-08-02 | 0.22 / 0.20 | `low_player_coverage` | cov_a=12 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02bracom) |
 | Daniel Siniakov vs Tim Handel | Hagen Qualification | 2026-08-02 | 0.81 / 0.73 | `low_player_coverage` | cov_a=1 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02hansin) |
@@ -9668,6 +9696,8 @@ _Generated 2026-08-03T22:15:08+00:00_
 | Kenta Miyoshi (b. 2004) vs Bruno Kuzuhara | Granby Qualification | 2026-07-13 | 0.65 / 0.63 | `missing_player_id` | player_a_id=nan, player_b_id='K0HN' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12miykuz) |
 | Kenta Miyoshi (b. 2004) vs Bruno Kuzuhara | Granby Qualification | 2026-07-13 | 0.71 / 0.69 | `missing_player_id` | player_a_id=nan, player_b_id='K0HN' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul12miykuz) |
 | Kenta Miyoshi (b. 2004) vs Kenta Miyoshi | Granby Qualification | 2026-07-13 | 0.95 / 0.05 | `missing_player_id` | player_a_id=nan, player_b_id='M0RX' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13polmiy) |
+| Joel Schwaerzler vs Cizek | Grodzisk Mazowiecki | 2026-08-04 | 0.89 / 0.85 | `missing_player_id` | player_a_id='S0WT', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04schciz) |
+| Jiri Cizek vs Joel Schwaerzler | Grodzisk Mazowiecki | 2026-08-04 | 0.15 / 0.11 | `missing_player_id` | player_a_id=nan, player_b_id='S0WT' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04schciz) |
 | Kacper Szymkowiak vs Ergi Kirkin | Grodzisk Mazowiecki Qualification | 2026-08-02 | 0.40 / 0.37 | `missing_player_id` | player_a_id=nan, player_b_id='KI48' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02kirszy) |
 | Ergi Kirkin vs Szymkowiak | Grodzisk Mazowiecki Qualification | 2026-08-02 | 0.64 / 0.58 | `missing_player_id` | player_a_id='KI48', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02kirszy) |
 | Amit Vales vs Tamm | Grodzisk Mazowiecki Qualification | 2026-08-02 | 0.79 / 0.74 | `missing_player_id` | player_a_id='V0G2', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02tamval) |
@@ -9704,6 +9734,8 @@ _Generated 2026-08-03T22:15:08+00:00_
 | Mirza Basic vs Cizek | Grodzisk Mazowiecki Qualification | 2026-08-03 | 0.81 / 0.80 | `missing_player_id` | player_a_id='BE67', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03basciz) |
 | Alexandre Muller vs Den Ouden | Hagen | 2026-08-03 | 0.48 / 0.47 | `missing_player_id` | player_a_id='MP20', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03denmul) |
 | Alexandre Muller vs Den Ouden | Hagen | 2026-08-03 | 0.48 / 0.47 | `missing_player_id` | player_a_id='MP20', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03denmul) |
+| Dominik Recek vs Diego Dedura | Hagen | 2026-08-04 | 0.13 / 0.12 | `missing_player_id` | player_a_id=nan, player_b_id='D0LJ' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04recded) |
+| Diego Dedura vs Recek | Hagen | 2026-08-04 | 0.88 / 0.87 | `missing_player_id` | player_a_id='D0LJ', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04recded) |
 | Dominik Recek vs Diego Dedura | Hagen | 2026-08-04 | 0.13 / 0.12 | `missing_player_id` | player_a_id=nan, player_b_id='D0LJ' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04recded) |
 | Diego Dedura vs Recek | Hagen | 2026-08-04 | 0.88 / 0.87 | `missing_player_id` | player_a_id='D0LJ', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04recded) |
 | Filippo Romano vs Recek | Hagen Qualification | 2026-08-02 | 0.74 / 0.66 | `missing_player_id` | player_a_id='R0HK', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02romrec) |
@@ -9779,6 +9811,7 @@ _Generated 2026-08-03T22:15:08+00:00_
 | Kerem Yilmaz vs Anton Matusevich | Istanbul | 2026-05-19 | 0.18 / 0.16 | `missing_player_id` | player_a_id=nan, player_b_id='M0FA' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19yilmat) |
 | Anton Matusevich vs Yilmaz | Istanbul | 2026-05-19 | 0.83 / 0.82 | `missing_player_id` | player_a_id='M0FA', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19yilmat) |
 | Denis Yevseyev vs Saraiva Dos Santos | Istanbul | 2026-05-19 | 0.63 / 0.62 | `missing_player_id` | player_a_id='Y171', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19saryev) |
+| Kenta Miyoshi (b. 2004) vs Arda Azkara | Istanbul 2 | 2026-08-04 | 0.76 / 0.73 | `missing_player_id` | player_a_id=nan, player_b_id='A0DV' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04miyazk) |
 | Kenta Miyoshi (b. 2004) vs Kenta Miyoshi | Istanbul 2 Qualification | 2026-08-02 | 0.78 / 0.77 | `missing_player_id` | player_a_id=nan, player_b_id='M0RX' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02arumiy) |
 | Samim Filiz vs Alec Deckers | Istanbul 2 Qualification | 2026-08-02 | 0.09 / 0.08 | `missing_player_id` | player_a_id=nan, player_b_id='D0D2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02fildec) |
 | Alec Deckers vs Filiz | Istanbul 2 Qualification | 2026-08-02 | 0.91 / 0.90 | `missing_player_id` | player_a_id='D0D2', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02fildec) |
@@ -10497,6 +10530,10 @@ _Generated 2026-08-03T22:15:08+00:00_
 | Valerio Aboian vs Sanchez Jover | Plovdiv 2 | 2026-08-03 | 0.38 / 0.35 | `missing_player_id` | player_a_id='A0G7', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03abosan) |
 | Valerio Aboian vs Sanchez Jover | Plovdiv 2 | 2026-08-03 | 0.38 / 0.37 | `missing_player_id` | player_a_id='A0G7', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03abosan) |
 | Valerio Aboian vs Sanchez Jover | Plovdiv 2 | 2026-08-03 | 0.31 / 0.30 | `missing_player_id` | player_a_id='A0G7', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03abosan) |
+| Pietro Marino vs Campana Lee | Plovdiv 2 | 2026-08-04 | 0.21 / 0.17 | `missing_player_id` | player_a_id=nan, player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04cammar) |
+| Gerard Campana Lee vs Marino | Plovdiv 2 | 2026-08-04 | 0.82 / 0.75 | `missing_player_id` | player_a_id='C0MH', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04cammar) |
+| Georgi Georgiev vs Daniel Elahi Galan | Plovdiv 2 | 2026-08-04 | 0.07 / 0.06 | `missing_player_id` | player_a_id=nan, player_b_id='GE33' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04galgeo) |
+| Daniel Elahi Galan vs Georgiev | Plovdiv 2 | 2026-08-04 | 0.94 / 0.93 | `missing_player_id` | player_a_id='GE33', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04galgeo) |
 | Aleksandar Tolev vs Dragos Nicolae Cazacu | Plovdiv 2 Qualification | 2026-08-02 | 0.10 / 0.09 | `missing_player_id` | player_a_id=nan, player_b_id='C0MX' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02tolcaz) |
 | Dragos Nicolae Cazacu vs Tolev | Plovdiv 2 Qualification | 2026-08-02 | 0.91 / 0.90 | `missing_player_id` | player_a_id='C0MX', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02tolcaz) |
 | Vladislav Melnic vs Campana Lee | Plovdiv 2 Qualification | 2026-08-02 | 0.13 / 0.12 | `missing_player_id` | player_a_id='M0DQ', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02cammel) |
@@ -12332,6 +12369,22 @@ _Generated 2026-08-03T22:15:08+00:00_
 | Zdenek Kolar vs Raul Brancaccio | Hagen | 2026-08-04 | 0.57 / 0.41 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04kolbra) |
 | Raul Brancaccio vs Zdenek Kolar | Hagen | 2026-08-04 | 0.47 / 0.34 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04kolbra) |
 | Daniel Rincon vs Zsombor Piros | Hagen | 2026-08-04 | 0.35 / 0.33 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04pirrin) |
+| Zsombor Piros vs Daniel Rincon | Hagen | 2026-08-04 | 0.66 / 0.65 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04pirrin) |
+| Juan Bautista Torres vs Carlos Taberner | Hagen | 2026-08-04 | 0.65 / 0.62 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04tabtor) |
+| Carlos Taberner vs Juan Bautista Torres | Hagen | 2026-08-04 | 0.38 / 0.34 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04tabtor) |
+| Stefano Travaglia vs Matej Dodig | Hagen | 2026-08-04 | 0.54 / 0.49 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04tradod) |
+| Matej Dodig vs Stefano Travaglia | Hagen | 2026-08-04 | 0.50 / 0.45 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04tradod) |
+| Max Houkes vs Vilius Gaubas | Hagen | 2026-08-04 | 0.37 / 0.36 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04hougau) |
+| Vilius Gaubas vs Max Houkes | Hagen | 2026-08-04 | 0.64 / 0.62 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04hougau) |
+| Chun-Hsin Tseng vs Alex Molcan | Hagen | 2026-08-04 | 0.23 / 0.22 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04moltse) |
+| Alex Molcan vs Chun-Hsin Tseng | Hagen | 2026-08-04 | 0.78 / 0.77 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04moltse) |
+| Vitaliy Sachko vs Lorenzo Giustino | Hagen | 2026-08-04 | 0.62 / 0.60 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04giusac) |
+| Lorenzo Giustino vs Vitaliy Sachko | Hagen | 2026-08-04 | 0.39 / 0.38 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04giusac) |
+| Thiago Monteiro vs Tom Gentzsch | Hagen | 2026-08-04 | 0.52 / 0.50 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04mongen) |
+| Tom Gentzsch vs Thiago Monteiro | Hagen | 2026-08-04 | 0.50 / 0.49 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04mongen) |
+| Zdenek Kolar vs Raul Brancaccio | Hagen | 2026-08-04 | 0.58 / 0.55 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04kolbra) |
+| Raul Brancaccio vs Zdenek Kolar | Hagen | 2026-08-04 | 0.44 / 0.42 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04kolbra) |
+| Daniel Rincon vs Zsombor Piros | Hagen | 2026-08-04 | 0.35 / 0.34 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04pirrin) |
 | Zsombor Piros vs Daniel Rincon | Hagen | 2026-08-04 | 0.66 / 0.65 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04pirrin) |
 | Thiago Monteiro vs Ivan Gakhov | Hagen Qualification | 2026-08-02 | 0.84 / 0.83 | `thin_tournament_history` | 'Hagen Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02mongak) |
 | Ivan Gakhov vs Thiago Monteiro | Hagen Qualification | 2026-08-02 | 0.17 / 0.15 | `thin_tournament_history` | 'Hagen Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02mongak) |
@@ -14549,6 +14602,27 @@ _Generated 2026-08-03T22:15:08+00:00_
 | Tuncay Duran vs Antoine Ghibaudo | Istanbul 2 | 2026-08-03 | 0.17 / 0.16 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03durghi) |
 | Fajing Sun vs Semen Pankin | Istanbul 2 | 2026-08-03 | 0.55 / 0.54 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03sunpan) |
 | Semen Pankin vs Fajing Sun | Istanbul 2 | 2026-08-03 | 0.46 / 0.45 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03sunpan) |
+| Kerem Yilmaz vs Ryuki Matsuda | Istanbul 2 | 2026-08-04 | 0.31 / 0.27 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04matyil) |
+| Koki Matsuda vs Kerem Yilmaz | Istanbul 2 | 2026-08-04 | 0.73 / 0.66 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04matyil) |
+| Denis Yevseyev vs Yanki Erel | Istanbul 2 | 2026-08-04 | 0.26 / 0.24 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04yevere) |
+| Yanki Erel vs Denis Yevseyev | Istanbul 2 | 2026-08-04 | 0.76 / 0.74 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04yevere) |
+| Arda Azkara vs Kenta Miyoshi | Istanbul 2 | 2026-08-04 | 0.27 / 0.24 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04miyazk) |
+| Lucas Poullain vs Dan Added | Istanbul 2 | 2026-08-04 | 0.41 / 0.40 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04addpou) |
+| Dan Added vs Lucas Poullain | Istanbul 2 | 2026-08-04 | 0.60 / 0.59 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04addpou) |
+| Manas Dhamne vs Gijs Brouwer | Istanbul 2 | 2026-08-04 | 0.82 / 0.81 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04brodha) |
+| Gijs Brouwer vs Manas Dhamne | Istanbul 2 | 2026-08-04 | 0.19 / 0.17 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04brodha) |
+| Mert Naci Turker vs Alexandr Binda | Istanbul 2 | 2026-08-04 | 0.35 / 0.33 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04bintur) |
+| Alexandr Binda vs Mert Naci Turker | Istanbul 2 | 2026-08-04 | 0.66 / 0.65 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04bintur) |
+| Digvijaypratap Singh vs Akira Santillan | Istanbul 2 | 2026-08-04 | 0.32 / 0.30 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04sansin) |
+| Akira Santillan vs Karan Singh | Istanbul 2 | 2026-08-04 | 0.69 / 0.68 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04sansin) |
+| Daniil Ostapenkov vs Constantin Bittoun Kouzmine | Istanbul 2 | 2026-08-04 | 0.64 / 0.63 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04bitost) |
+| Constantin Bittoun Kouzmine vs Daniil Ostapenkov | Istanbul 2 | 2026-08-04 | 0.37 / 0.35 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04bitost) |
+| Paul Inchauspe vs Petr Bar Biryukov | Istanbul 2 | 2026-08-04 | 0.65 / 0.64 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04barinc) |
+| Petr Bar Biryukov vs Paul Inchauspe | Istanbul 2 | 2026-08-04 | 0.35 / 0.34 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04barinc) |
+| Vadym Ursu vs Jose Pereira | Istanbul 2 | 2026-08-04 | 0.27 / 0.23 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04ursper) |
+| Tiago Pereira vs Vadym Ursu | Istanbul 2 | 2026-08-04 | 0.77 / 0.73 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04ursper) |
+| Arthur Weber vs Florent Bax | Istanbul 2 | 2026-08-04 | 0.26 / 0.24 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04webbax) |
+| Florent Bax vs Arthur Weber | Istanbul 2 | 2026-08-04 | 0.76 / 0.75 | `tournament_not_in_tml` | tournament='Istanbul 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04webbax) |
 | Koki Matsuda vs Cem Ilkel | Istanbul 2 Qualification | 2026-08-02 | 0.74 / 0.73 | `tournament_not_in_tml` | tournament='Istanbul 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02matilk) |
 | Cem Ilkel vs Ryuki Matsuda | Istanbul 2 Qualification | 2026-08-02 | 0.26 / 0.25 | `tournament_not_in_tml` | tournament='Istanbul 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02matilk) |
 | Aziz Ouakaa vs Hunter Heck | Istanbul 2 Qualification | 2026-08-02 | 0.51 / 0.50 | `tournament_not_in_tml` | tournament='Istanbul 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02ouahec) |
@@ -15330,6 +15404,20 @@ _Generated 2026-08-03T22:15:08+00:00_
 | Yanaki Milev vs Oriol Roca Batalla | Plovdiv 2 | 2026-08-03 | 0.67 / 0.66 | `tournament_not_in_tml` | tournament='Plovdiv 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03milroc) |
 | Alexander Vasilev vs Emilien Demanet | Plovdiv 2 | 2026-08-03 | 0.33 / 0.32 | `tournament_not_in_tml` | tournament='Plovdiv 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03demvas) |
 | Emilien Demanet vs Alexander Vasilev | Plovdiv 2 | 2026-08-03 | 0.67 / 0.66 | `tournament_not_in_tml` | tournament='Plovdiv 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03demvas) |
+| Franco Ribero vs Radu Mihai Papoe | Plovdiv 2 | 2026-08-04 | 0.16 / 0.07 | `tournament_not_in_tml` | tournament='Plovdiv 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04ribpap) |
+| Radu Mihai Papoe vs Franco Ribero | Plovdiv 2 | 2026-08-04 | 0.92 / 0.84 | `tournament_not_in_tml` | tournament='Plovdiv 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04ribpap) |
+| Samuele Pieri vs Pedro Boscardin Dias | Plovdiv 2 | 2026-08-04 | 0.46 / 0.40 | `tournament_not_in_tml` | tournament='Plovdiv 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04bospie) |
+| Pedro Boscardin Dias vs Samuele Pieri | Plovdiv 2 | 2026-08-04 | 0.62 / 0.54 | `tournament_not_in_tml` | tournament='Plovdiv 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04bospie) |
+| Petr Nesterov vs Lorenzo Angelini | Plovdiv 2 | 2026-08-04 | 0.71 / 0.63 | `tournament_not_in_tml` | tournament='Plovdiv 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04angnes) |
+| Lorenzo Angelini vs Petr Nesterov | Plovdiv 2 | 2026-08-04 | 0.36 / 0.30 | `tournament_not_in_tml` | tournament='Plovdiv 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04angnes) |
+| Eduardo Ribeiro vs Alexandar Lazarov | Plovdiv 2 | 2026-08-04 | 0.74 / 0.67 | `tournament_not_in_tml` | tournament='Plovdiv 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04riblaz) |
+| Alexandar Lazarov vs Eduardo Ribeiro | Plovdiv 2 | 2026-08-04 | 0.30 / 0.25 | `tournament_not_in_tml` | tournament='Plovdiv 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04riblaz) |
+| Murkel Dellien vs Adrian Andreev | Plovdiv 2 | 2026-08-04 | 0.33 / 0.28 | `tournament_not_in_tml` | tournament='Plovdiv 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04devand) |
+| Adrian Andreev vs Hugo Dellien | Plovdiv 2 | 2026-08-04 | 0.71 / 0.65 | `tournament_not_in_tml` | tournament='Plovdiv 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04devand) |
+| Hernan Casanova vs Yannick Theodor Alexandrescou | Plovdiv 2 | 2026-08-04 | 0.62 / 0.61 | `tournament_not_in_tml` | tournament='Plovdiv 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04casale) |
+| Yannick Theodor Alexandrescou vs Hernan Casanova | Plovdiv 2 | 2026-08-04 | 0.38 / 0.37 | `tournament_not_in_tml` | tournament='Plovdiv 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04casale) |
+| Lorenzo Carboni vs Petr Brunclik | Plovdiv 2 | 2026-08-04 | 0.33 / 0.32 | `tournament_not_in_tml` | tournament='Plovdiv 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04brucar) |
+| Petr Brunclik vs Lorenzo Carboni | Plovdiv 2 | 2026-08-04 | 0.68 / 0.67 | `tournament_not_in_tml` | tournament='Plovdiv 2' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04brucar) |
 | Franco Ribero vs William Rejchtman Vinciguerra | Plovdiv 2 Qualification | 2026-08-02 | 0.52 / 0.48 | `tournament_not_in_tml` | tournament='Plovdiv 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02ribrej) |
 | William Rejchtman Vinciguerra vs Franco Ribero | Plovdiv 2 Qualification | 2026-08-02 | 0.53 / 0.47 | `tournament_not_in_tml` | tournament='Plovdiv 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02ribrej) |
 | Cosme Rolland De Ravel vs Adrian Andreev | Plovdiv 2 Qualification | 2026-08-02 | 0.43 / 0.41 | `tournament_not_in_tml` | tournament='Plovdiv 2 Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02roland) |

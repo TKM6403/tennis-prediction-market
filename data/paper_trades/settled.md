@@ -1,12 +1,13 @@
-# Settled paper bets (631)
+# Settled paper bets (632)
 
-_Generated 2026-08-03T22:15:08+00:00_
+_Generated 2026-08-04T02:38:25+00:00_
 
-**Wins:** 205 / 631  (32.5%)  
-**Net PnL (per contract):** -33.169
+**Wins:** 205 / 632  (32.4%)  
+**Net PnL (per contract):** -33.646
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Henry Searle (YES) vs Lloyd Harris | Lexington | 2026-08-04 | YES Henry Searle | 0.46 | 0.525 | ✗ | -0.477 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03seahar) |
 | Elias Ymer (YES) vs Federico Cina | Lexington | 2026-08-03 | YES Elias Ymer | 0.32 | 0.439 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03cinyme) |
 | Andre Ilagan (YES) vs Andres Andrade | Lexington | 2026-08-03 | YES Andre Ilagan | 0.58 | 0.647 | ✓ | +0.403 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03andila) |
 | Felix Gill (YES) vs Borna Gojo | Lexington | 2026-08-03 | YES Felix Gill | 0.31 | 0.363 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03gilgoj) |

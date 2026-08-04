@@ -1,6 +1,6 @@
 # Pending paper bets (11)
 
-_Generated 2026-08-03T22:15:08+00:00_
+_Generated 2026-08-04T02:38:25+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
@@ -14,4 +14,4 @@ _Generated 2026-08-03T22:15:08+00:00_
 | **Robin Bertrand** (YES) vs Alejandro Moro Canas | Grodzisk Mazowiecki | 2026-08-04 | YES Robin Bertrand | 0.24 | 0.348 | +0.108 | 0.0128 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04morber) |
 | **Nikoloz Basilashvili** (YES) vs Laslo Djere | San Marino | 2026-07-27 | YES Nikoloz Basilashvili | 0.34 | 0.421 | +0.081 | 0.0157 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27djebas) |
 | **Philip Sekulic** (YES) vs Mitchell Krueger | Little Rock | 2026-05-26 | YES Philip Sekulic | 0.38 | 0.450 | +0.070 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26sekkru) |
-| **Henry Searle** (YES) vs Lloyd Harris | Lexington | 2026-08-04 | YES Henry Searle | 0.46 | 0.525 | +0.065 | 0.0174 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03seahar) |
+| **Geoffrey Blancaneaux** (YES) vs Damir Dzumhur | Grodzisk Mazowiecki | 2026-08-04 | YES Geoffrey Blancaneaux | 0.26 | 0.321 | +0.061 | 0.0135 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04dzubla) |
