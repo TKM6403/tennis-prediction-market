@@ -1,12 +1,13 @@
-# Settled paper bets (642)
+# Settled paper bets (643)
 
-_Generated 2026-08-04T22:16:12+00:00_
+_Generated 2026-08-05T02:36:10+00:00_
 
-**Wins:** 206 / 642  (32.1%)  
-**Net PnL (per contract):** -36.587
+**Wins:** 207 / 643  (32.2%)  
+**Net PnL (per contract):** -36.044
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Jay Friend (NO) vs Colton Smith | Lexington | 2026-08-04 | NO Jay Friend | 0.44 | 0.520 | ✓ | +0.543 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04harsmi) |
 | Philip Henning (YES) vs Maks Kasnikowski | Grodzisk Mazowiecki | 2026-08-04 | YES Philip Henning | 0.36 | 0.486 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04henkas) |
 | Tristan Schoolkate (YES) vs Soonwoo Kwon | Lexington | 2026-08-04 | YES Tristan Schoolkate | 0.33 | 0.410 | ✗ | -0.345 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04schkwon) |
 | Alex Bolt (YES) vs Abdullah Shelbayh | Lexington | 2026-08-04 | YES Alex Bolt | 0.45 | 0.709 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04bolshe) |
