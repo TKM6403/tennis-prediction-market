@@ -1,18 +1,18 @@
-# Dropped markets (16932)
+# Dropped markets (16944)
 
-_Generated 2026-08-05T19:38:50+00:00_
+_Generated 2026-08-05T22:17:17+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `low_player_coverage` | 4994 |
+| `low_player_coverage` | 4996 |
 | `tournament_not_in_tml` | 3121 |
 | `missing_player_id` | 2819 |
-| `duplicate_match` | 2634 |
-| `thin_tournament_history` | 1456 |
+| `duplicate_match` | 2640 |
+| `thin_tournament_history` | 1458 |
 | `below_min_edge` | 942 |
-| `wide_spread` | 404 |
+| `wide_spread` | 406 |
 | `loose_mirror_sum` | 368 |
 | `thin_player_history` | 192 |
 | `yes_on_challenger` | 2 |
@@ -1760,6 +1760,12 @@ _Generated 2026-08-05T19:38:50+00:00_
 | Andre Ilagan vs Soonwoo Kwon | Lexington | 2026-08-06 | 0.20 / 0.19 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG05KWONILA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05kwonila) |
 | Dusan Lajovic vs Lloyd Harris | Lexington | 2026-08-05 | 0.42 / 0.41 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG05HARLAJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05harlaj) |
 | Lloyd Harris vs Dusan Lajovic | Lexington | 2026-08-05 | 0.59 / 0.57 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG05HARLAJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05harlaj) |
+| Soonwoo Kwon vs Andre Ilagan | Lexington | 2026-08-06 | 0.80 / 0.79 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG05KWONILA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05kwonila) |
+| Andre Ilagan vs Soonwoo Kwon | Lexington | 2026-08-06 | 0.20 / 0.19 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG05KWONILA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05kwonila) |
+| Dusan Lajovic vs Lloyd Harris | Lexington | 2026-08-05 | 0.21 / 0.18 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG05HARLAJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05harlaj) |
+| Lloyd Harris vs Dusan Lajovic | Lexington | 2026-08-05 | 0.81 / 0.80 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG05HARLAJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05harlaj) |
+| Abdullah Shelbayh vs Federico Cina | Lexington | 2026-08-05 | 0.92 / 0.91 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG05SHECIN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05shecin) |
+| Federico Cina vs Abdullah Shelbayh | Lexington | 2026-08-05 | 0.09 / 0.08 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG05SHECIN | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05shecin) |
 | Trevor Svajda vs Andrej Martin | Lexington Qualification | 2026-08-03 | 0.71 / 0.69 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG03MARSVA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03marsva) |
 | Andres Martin vs Zachary Svajda | Lexington Qualification | 2026-08-03 | 0.30 / 0.29 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG03MARSVA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03marsva) |
 | Trevor Svajda vs Andrej Martin | Lexington Qualification | 2026-08-03 | 0.06 / 0.05 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG03MARSVA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03marsva) |
@@ -5662,6 +5668,8 @@ _Generated 2026-08-05T19:38:50+00:00_
 | Borna Gojo vs Sebastian Gorzny | Lexington | 2026-08-06 | 0.73 / 0.71 | `low_player_coverage` | cov_a=4 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05gorgoj) |
 | Sebastian Gorzny vs Borna Gojo | Lexington | 2026-08-06 | 0.29 / 0.27 | `low_player_coverage` | cov_a=4 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05gorgoj) |
 | Borna Gojo vs Sebastian Gorzny | Lexington | 2026-08-06 | 0.73 / 0.71 | `low_player_coverage` | cov_a=4 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05gorgoj) |
+| Sebastian Gorzny vs Borna Gojo | Lexington | 2026-08-06 | 0.28 / 0.27 | `low_player_coverage` | cov_a=4 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05gorgoj) |
+| Borna Gojo vs Sebastian Gorzny | Lexington | 2026-08-06 | 0.73 / 0.72 | `low_player_coverage` | cov_a=4 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05gorgoj) |
 | Sebastian Gorzny vs Borna Gojo | Lexington | 2026-08-06 | 0.28 / 0.27 | `low_player_coverage` | cov_a=4 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05gorgoj) |
 | Borna Gojo vs Sebastian Gorzny | Lexington | 2026-08-06 | 0.73 / 0.72 | `low_player_coverage` | cov_a=4 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05gorgoj) |
 | Tyler Zink vs Strong Kirchheimer | Lexington Qualification | 2026-08-02 | 0.78 / 0.75 | `low_player_coverage` | cov_a=36 cov_b=6 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02zinkir) |
@@ -12792,6 +12800,8 @@ _Generated 2026-08-05T19:38:50+00:00_
 | Guy Den Ouden vs Maxim Mrva | Hagen | 2026-08-05 | 0.78 / 0.77 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05mrvden) |
 | Chun-Hsin Tseng vs Tom Gentzsch | Hagen | 2026-08-05 | 0.41 / 0.40 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05tsegen) |
 | Tom Gentzsch vs Chun-Hsin Tseng | Hagen | 2026-08-05 | 0.60 / 0.59 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05tsegen) |
+| Lorenzo Giustino vs Matej Dodig | Hagen | 2026-08-06 | 0.34 / 0.32 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug06dodgiu) |
+| Matej Dodig vs Lorenzo Giustino | Hagen | 2026-08-06 | 0.68 / 0.67 | `thin_tournament_history` | 'Hagen' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug06dodgiu) |
 | Thiago Monteiro vs Ivan Gakhov | Hagen Qualification | 2026-08-02 | 0.84 / 0.83 | `thin_tournament_history` | 'Hagen Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02mongak) |
 | Ivan Gakhov vs Thiago Monteiro | Hagen Qualification | 2026-08-02 | 0.17 / 0.15 | `thin_tournament_history` | 'Hagen Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02mongak) |
 | Thiago Monteiro vs Ivan Gakhov | Hagen Qualification | 2026-08-02 | 0.88 / 0.83 | `thin_tournament_history` | 'Hagen Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02mongak) |
@@ -16654,6 +16664,8 @@ _Generated 2026-08-05T19:38:50+00:00_
 | Benjamin Thomas George vs James Trotter | Granby Qualification | 2026-07-13 | 0.95 / 0.05 | `wide_spread` | spread=0.90 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13trogeo) |
 | Guillaume Dalmasso vs Nicolas Arseneault | Granby Qualification | 2026-07-13 | 0.95 / 0.05 | `wide_spread` | spread=0.90 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13arsdal) |
 | Mikael Arseneault vs Guillaume Dalmasso | Granby Qualification | 2026-07-13 | 0.95 / 0.05 | `wide_spread` | spread=0.90 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul13arsdal) |
+| Mathys Erhard vs Damir Dzumhur | Grodzisk Mazowiecki | 2026-08-06 | 0.85 / 0.15 | `wide_spread` | spread=0.70 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug06dzuerh) |
+| Damir Dzumhur vs Mathys Erhard | Grodzisk Mazowiecki | 2026-08-06 | 0.86 / 0.16 | `wide_spread` | spread=0.70 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug06dzuerh) |
 | Alejo Sanchez Quilez vs Thiago Monteiro | Istanbul | 2026-05-19 | 0.92 / 0.27 | `wide_spread` | spread=0.65 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19monsan) |
 | Mert Naci Turker vs Alafia Ayeni | Istanbul | 2026-05-19 | 0.92 / 0.11 | `wide_spread` | spread=0.81 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may19turave) |
 | David Jorda Sanchis vs Nikolas Sanchez Izquierdo | Istanbul | 2026-05-21 | 0.95 / 0.41 | `wide_spread` | spread=0.54 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may21jorsai) |
