@@ -1,15 +1,15 @@
-# Dropped markets (16926)
+# Dropped markets (16932)
 
-_Generated 2026-08-05T16:46:41+00:00_
+_Generated 2026-08-05T19:38:50+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `low_player_coverage` | 4992 |
+| `low_player_coverage` | 4994 |
 | `tournament_not_in_tml` | 3121 |
 | `missing_player_id` | 2819 |
-| `duplicate_match` | 2630 |
+| `duplicate_match` | 2634 |
 | `thin_tournament_history` | 1456 |
 | `below_min_edge` | 942 |
 | `wide_spread` | 404 |
@@ -1756,6 +1756,10 @@ _Generated 2026-08-05T16:46:41+00:00_
 | Andre Ilagan vs Soonwoo Kwon | Lexington | 2026-08-06 | 0.20 / 0.19 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG05KWONILA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05kwonila) |
 | Dusan Lajovic vs Lloyd Harris | Lexington | 2026-08-05 | 0.42 / 0.41 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG05HARLAJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05harlaj) |
 | Lloyd Harris vs Dusan Lajovic | Lexington | 2026-08-05 | 0.59 / 0.58 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG05HARLAJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05harlaj) |
+| Soonwoo Kwon vs Andre Ilagan | Lexington | 2026-08-06 | 0.81 / 0.80 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG05KWONILA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05kwonila) |
+| Andre Ilagan vs Soonwoo Kwon | Lexington | 2026-08-06 | 0.20 / 0.19 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG05KWONILA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05kwonila) |
+| Dusan Lajovic vs Lloyd Harris | Lexington | 2026-08-05 | 0.42 / 0.41 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG05HARLAJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05harlaj) |
+| Lloyd Harris vs Dusan Lajovic | Lexington | 2026-08-05 | 0.59 / 0.57 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG05HARLAJ | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05harlaj) |
 | Trevor Svajda vs Andrej Martin | Lexington Qualification | 2026-08-03 | 0.71 / 0.69 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG03MARSVA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03marsva) |
 | Andres Martin vs Zachary Svajda | Lexington Qualification | 2026-08-03 | 0.30 / 0.29 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG03MARSVA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03marsva) |
 | Trevor Svajda vs Andrej Martin | Lexington Qualification | 2026-08-03 | 0.06 / 0.05 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG03MARSVA | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug03marsva) |
@@ -5658,6 +5662,8 @@ _Generated 2026-08-05T16:46:41+00:00_
 | Borna Gojo vs Sebastian Gorzny | Lexington | 2026-08-06 | 0.73 / 0.71 | `low_player_coverage` | cov_a=4 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05gorgoj) |
 | Sebastian Gorzny vs Borna Gojo | Lexington | 2026-08-06 | 0.29 / 0.27 | `low_player_coverage` | cov_a=4 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05gorgoj) |
 | Borna Gojo vs Sebastian Gorzny | Lexington | 2026-08-06 | 0.73 / 0.71 | `low_player_coverage` | cov_a=4 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05gorgoj) |
+| Sebastian Gorzny vs Borna Gojo | Lexington | 2026-08-06 | 0.28 / 0.27 | `low_player_coverage` | cov_a=4 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05gorgoj) |
+| Borna Gojo vs Sebastian Gorzny | Lexington | 2026-08-06 | 0.73 / 0.72 | `low_player_coverage` | cov_a=4 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05gorgoj) |
 | Tyler Zink vs Strong Kirchheimer | Lexington Qualification | 2026-08-02 | 0.78 / 0.75 | `low_player_coverage` | cov_a=36 cov_b=6 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02zinkir) |
 | Strong Kirchheimer vs Tyler Zink | Lexington Qualification | 2026-08-02 | 0.25 / 0.22 | `low_player_coverage` | cov_a=36 cov_b=6 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02zinkir) |
 | Millen Hurrion vs Alex Hernandez | Lexington Qualification | 2026-08-02 | 0.51 / 0.48 | `low_player_coverage` | cov_a=5 cov_b=24 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02hurher) |
