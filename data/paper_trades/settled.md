@@ -1,12 +1,15 @@
-# Settled paper bets (645)
+# Settled paper bets (648)
 
-_Generated 2026-08-05T22:17:17+00:00_
+_Generated 2026-08-06T02:38:41+00:00_
 
-**Wins:** 208 / 645  (32.2%)  
-**Net PnL (per contract):** -35.601
+**Wins:** 210 / 648  (32.4%)  
+**Net PnL (per contract):** -34.610
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Lloyd Harris (YES) vs Dusan Lajovic | Lexington | 2026-08-05 | YES Lloyd Harris | 0.59 | 0.650 | ✗ | -0.607 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05harlaj) |
+| Andre Ilagan (YES) vs Soonwoo Kwon | Lexington | 2026-08-06 | YES Andre Ilagan | 0.19 | 0.370 | ✓ | +0.799 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05kwonila) |
+| Abdullah Shelbayh (YES) vs Federico Cina | Lexington | 2026-08-05 | YES Abdullah Shelbayh | 0.19 | 0.397 | ✓ | +0.799 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05shecin) |
 | Viktor Durasovic (YES) vs Andrea Guerrieri | Grodzisk Mazowiecki | 2026-08-05 | YES Viktor Durasovic | 0.28 | 0.401 | ✗ | -0.294 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05durgue) |
 | Alexander Donski (YES) vs Alejandro Moro Canas | Grodzisk Mazowiecki | 2026-08-05 | YES Alexander Donski | 0.25 | 0.368 | ✓ | +0.737 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05mordon) |
 | Jay Friend (NO) vs Colton Smith | Lexington | 2026-08-04 | NO Jay Friend | 0.44 | 0.520 | ✓ | +0.543 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04harsmi) |
