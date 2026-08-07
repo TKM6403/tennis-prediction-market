@@ -1,12 +1,14 @@
-# Settled paper bets (648)
+# Settled paper bets (650)
 
-_Generated 2026-08-06T14:13:59+00:00_
+_Generated 2026-08-07T00:03:52+00:00_
 
-**Wins:** 210 / 648  (32.4%)  
-**Net PnL (per contract):** -34.610
+**Wins:** 212 / 650  (32.6%)  
+**Net PnL (per contract):** -33.012
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Mathys Erhard (NO) vs Damir Dzumhur | Grodzisk Mazowiecki | 2026-08-06 | NO Mathys Erhard | 0.20 | 0.404 | ✓ | +0.789 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug06dzuerh) |
+| Ivan Marrero Curbelo (YES) vs Maks Kasnikowski | Grodzisk Mazowiecki | 2026-08-06 | YES Ivan Marrero Curbelo | 0.18 | 0.407 | ✓ | +0.810 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug06markas) |
 | Lloyd Harris (YES) vs Dusan Lajovic | Lexington | 2026-08-05 | YES Lloyd Harris | 0.59 | 0.650 | ✗ | -0.607 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05harlaj) |
 | Andre Ilagan (YES) vs Soonwoo Kwon | Lexington | 2026-08-06 | YES Andre Ilagan | 0.19 | 0.370 | ✓ | +0.799 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05kwonila) |
 | Abdullah Shelbayh (YES) vs Federico Cina | Lexington | 2026-08-05 | YES Abdullah Shelbayh | 0.19 | 0.397 | ✓ | +0.799 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05shecin) |

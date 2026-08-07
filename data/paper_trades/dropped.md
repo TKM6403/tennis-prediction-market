@@ -1,17 +1,17 @@
-# Dropped markets (17102)
+# Dropped markets (17108)
 
-_Generated 2026-08-06T14:13:59+00:00_
+_Generated 2026-08-07T00:03:52+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `low_player_coverage` | 5022 |
+| `low_player_coverage` | 5024 |
 | `tournament_not_in_tml` | 3188 |
 | `missing_player_id` | 2828 |
 | `duplicate_match` | 2654 |
 | `thin_tournament_history` | 1492 |
-| `below_min_edge` | 950 |
+| `below_min_edge` | 954 |
 | `wide_spread` | 406 |
 | `loose_mirror_sum` | 368 |
 | `thin_player_history` | 192 |
@@ -308,6 +308,10 @@ _Generated 2026-08-06T14:13:59+00:00_
 | Arthur Gea vs Aleksandar Vukic | Granby | 2026-07-19 | 0.68 / 0.67 | `below_min_edge` | best_edge=0.040 on YES @ theo=0.390 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul19vukgea) |
 | Olle Wallin vs Andrea Guerrieri | Grodzisk Mazowiecki | 2026-08-04 | 0.47 / 0.45 | `below_min_edge` | best_edge=0.028 on YES @ theo=0.498 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04walgue) |
 | Andrea Guerrieri vs Olle Wallin | Grodzisk Mazowiecki | 2026-08-04 | 0.55 / 0.53 | `below_min_edge` | best_edge=0.028 on YES @ theo=0.498 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug04walgue) |
+| Joel Schwaerzler vs Ilya Ivashka | Grodzisk Mazowiecki | 2026-08-07 | 0.42 / 0.41 | `below_min_edge` | best_edge=0.002 on YES @ theo=0.592 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug07schiva) |
+| Ilya Ivashka vs Joel Schwaerzler | Grodzisk Mazowiecki | 2026-08-07 | 0.59 / 0.57 | `below_min_edge` | best_edge=0.002 on YES @ theo=0.592 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug07schiva) |
+| Daniil Glinka vs Alexander Donski | Grodzisk Mazowiecki | 2026-08-07 | 0.66 / 0.65 | `below_min_edge` | best_edge=0.020 on YES @ theo=0.680 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug07dongli) |
+| Alexander Donski vs Daniil Glinka | Grodzisk Mazowiecki | 2026-08-07 | 0.36 / 0.34 | `below_min_edge` | best_edge=0.020 on YES @ theo=0.680 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug07dongli) |
 | Zsombor Piros vs Lautaro Midon | Iasi | 2026-07-10 | 0.69 / 0.68 | `below_min_edge` | best_edge=0.041 on YES @ theo=0.371 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10midpir) |
 | Lautaro Midon vs Zsombor Piros | Iasi | 2026-07-10 | 0.33 / 0.32 | `below_min_edge` | best_edge=0.041 on YES @ theo=0.371 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10midpir) |
 | Jerome Kym vs Maks Kasnikowski | Iasi | 2026-07-10 | 0.56 / 0.55 | `below_min_edge` | best_edge=0.017 on YES @ theo=0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul10kaskym) |
@@ -5720,6 +5724,8 @@ _Generated 2026-08-06T14:13:59+00:00_
 | Jay Friend vs Steve Johnson | Lexington | 2026-08-07 | 0.49 / 0.48 | `low_player_coverage` | cov_a=5 cov_b=25 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug06johhar) |
 | Edas Butvilas vs Ozan Baris | Lexington | 2026-08-06 | 0.57 / 0.56 | `low_player_coverage` | cov_a=49 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug06barbut) |
 | Ozan Baris vs Edas Butvilas | Lexington | 2026-08-06 | 0.44 / 0.43 | `low_player_coverage` | cov_a=49 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug06barbut) |
+| Andres Martin vs Millen Hurrion | Lexington | 2026-08-07 | 0.70 / 0.69 | `low_player_coverage` | cov_a=42 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug06marhur) |
+| Millen Hurrion vs Andrej Martin | Lexington | 2026-08-07 | 0.30 / 0.29 | `low_player_coverage` | cov_a=42 cov_b=5 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug06marhur) |
 | Tyler Zink vs Strong Kirchheimer | Lexington Qualification | 2026-08-02 | 0.78 / 0.75 | `low_player_coverage` | cov_a=36 cov_b=6 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02zinkir) |
 | Strong Kirchheimer vs Tyler Zink | Lexington Qualification | 2026-08-02 | 0.25 / 0.22 | `low_player_coverage` | cov_a=36 cov_b=6 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02zinkir) |
 | Millen Hurrion vs Alex Hernandez | Lexington Qualification | 2026-08-02 | 0.51 / 0.48 | `low_player_coverage` | cov_a=5 cov_b=24 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02hurher) |
