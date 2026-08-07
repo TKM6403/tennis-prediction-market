@@ -1,12 +1,13 @@
-# Settled paper bets (650)
+# Settled paper bets (651)
 
-_Generated 2026-08-07T10:06:13+00:00_
+_Generated 2026-08-07T13:07:54+00:00_
 
-**Wins:** 212 / 650  (32.6%)  
-**Net PnL (per contract):** -33.012
+**Wins:** 212 / 651  (32.6%)  
+**Net PnL (per contract):** -33.418
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Michele Ribecai (YES) vs Andrea Guerrieri | Grodzisk Mazowiecki | 2026-08-07 | YES Michele Ribecai | 0.39 | 0.508 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug07ribgue) |
 | Mathys Erhard (NO) vs Damir Dzumhur | Grodzisk Mazowiecki | 2026-08-06 | NO Mathys Erhard | 0.20 | 0.404 | ✓ | +0.789 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug06dzuerh) |
 | Ivan Marrero Curbelo (YES) vs Maks Kasnikowski | Grodzisk Mazowiecki | 2026-08-06 | YES Ivan Marrero Curbelo | 0.18 | 0.407 | ✓ | +0.810 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug06markas) |
 | Lloyd Harris (YES) vs Dusan Lajovic | Lexington | 2026-08-05 | YES Lloyd Harris | 0.59 | 0.650 | ✗ | -0.607 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug05harlaj) |
