@@ -1,12 +1,14 @@
-# Settled paper bets (652)
+# Settled paper bets (654)
 
-_Generated 2026-08-07T16:00:24+00:00_
+_Generated 2026-08-07T19:02:50+00:00_
 
-**Wins:** 213 / 652  (32.7%)  
-**Net PnL (per contract):** -32.764
+**Wins:** 214 / 654  (32.7%)  
+**Net PnL (per contract):** -32.677
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Dusan Lajovic (YES) vs Abdullah Shelbayh | Lexington | 2026-08-07 | YES Dusan Lajovic | 0.54 | 0.611 | ✓ | +0.443 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug07shelaj) |
+| Ivan Marrero Curbelo (YES) vs Mathys Erhard | Grodzisk Mazowiecki | 2026-08-07 | YES Ivan Marrero Curbelo | 0.34 | 0.585 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug07erhmar) |
 | Joel Schwaerzler (YES) vs Ilya Ivashka | Grodzisk Mazowiecki | 2026-08-07 | YES Joel Schwaerzler | 0.33 | 0.416 | ✓ | +0.655 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug07schiva) |
 | Michele Ribecai (YES) vs Andrea Guerrieri | Grodzisk Mazowiecki | 2026-08-07 | YES Michele Ribecai | 0.39 | 0.508 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug07ribgue) |
 | Mathys Erhard (NO) vs Damir Dzumhur | Grodzisk Mazowiecki | 2026-08-06 | NO Mathys Erhard | 0.20 | 0.404 | ✓ | +0.789 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug06dzuerh) |

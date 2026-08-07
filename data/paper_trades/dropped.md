@@ -1,12 +1,12 @@
-# Dropped markets (17270)
+# Dropped markets (17274)
 
-_Generated 2026-08-07T16:00:24+00:00_
+_Generated 2026-08-07T19:02:50+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `low_player_coverage` | 5040 |
+| `low_player_coverage` | 5044 |
 | `tournament_not_in_tml` | 3245 |
 | `missing_player_id` | 2845 |
 | `duplicate_match` | 2672 |
@@ -5782,6 +5782,10 @@ _Generated 2026-08-07T16:00:24+00:00_
 | Spencer Johnson vs Andrej Martin | Lexington | 2026-08-07 | 0.62 / 0.61 | `low_player_coverage` | cov_a=42 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug07johmar) |
 | Andre Ilagan vs Sebastian Gorzny | Lexington | 2026-08-07 | 0.58 / 0.57 | `low_player_coverage` | cov_a=51 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug07ilagor) |
 | Sebastian Gorzny vs Andre Ilagan | Lexington | 2026-08-07 | 0.43 / 0.42 | `low_player_coverage` | cov_a=51 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug07ilagor) |
+| Andres Martin vs Steve Johnson | Lexington | 2026-08-07 | 0.40 / 0.39 | `low_player_coverage` | cov_a=42 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug07johmar) |
+| Spencer Johnson vs Andrej Martin | Lexington | 2026-08-07 | 0.61 / 0.60 | `low_player_coverage` | cov_a=42 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug07johmar) |
+| Andre Ilagan vs Sebastian Gorzny | Lexington | 2026-08-07 | 0.50 / 0.49 | `low_player_coverage` | cov_a=51 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug07ilagor) |
+| Sebastian Gorzny vs Andre Ilagan | Lexington | 2026-08-07 | 0.51 / 0.50 | `low_player_coverage` | cov_a=51 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug07ilagor) |
 | Tyler Zink vs Strong Kirchheimer | Lexington Qualification | 2026-08-02 | 0.78 / 0.75 | `low_player_coverage` | cov_a=36 cov_b=6 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02zinkir) |
 | Strong Kirchheimer vs Tyler Zink | Lexington Qualification | 2026-08-02 | 0.25 / 0.22 | `low_player_coverage` | cov_a=36 cov_b=6 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02zinkir) |
 | Millen Hurrion vs Alex Hernandez | Lexington Qualification | 2026-08-02 | 0.51 / 0.48 | `low_player_coverage` | cov_a=5 cov_b=24 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug02hurher) |
