@@ -1,6 +1,6 @@
-# Pending paper bets (9)
+# Pending paper bets (10)
 
-_Generated 2026-08-07T21:43:02+00:00_
+_Generated 2026-08-08T01:45:50+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
@@ -13,3 +13,4 @@ _Generated 2026-08-07T21:43:02+00:00_
 | **Pablo Carreno Busta** (NO) vs Jaume Munar | Valencia | 2026-05-15 | NO Pablo Carreno Busta | 0.44 | 0.549 | +0.109 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15carmun) |
 | **Nikoloz Basilashvili** (YES) vs Laslo Djere | San Marino | 2026-07-27 | YES Nikoloz Basilashvili | 0.34 | 0.421 | +0.081 | 0.0157 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27djebas) |
 | **Philip Sekulic** (YES) vs Mitchell Krueger | Little Rock | 2026-05-26 | YES Philip Sekulic | 0.38 | 0.450 | +0.070 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26sekkru) |
+| **Joel Schwaerzler** (YES) vs Mathys Erhard | Grodzisk Mazowiecki | 2026-08-08 | YES Joel Schwaerzler | 0.58 | 0.633 | +0.053 | 0.0171 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug08erhsch) |
