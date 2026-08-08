@@ -1,12 +1,13 @@
-# Settled paper bets (655)
+# Settled paper bets (656)
 
-_Generated 2026-08-08T12:52:42+00:00_
+_Generated 2026-08-08T15:35:13+00:00_
 
-**Wins:** 214 / 655  (32.7%)  
-**Net PnL (per contract):** -33.174
+**Wins:** 215 / 656  (32.8%)  
+**Net PnL (per contract):** -32.771
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Joel Schwaerzler (YES) vs Mathys Erhard | Grodzisk Mazowiecki | 2026-08-08 | YES Joel Schwaerzler | 0.58 | 0.633 | ✓ | +0.403 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug08erhsch) |
 | Daniil Glinka (YES) vs Andrea Guerrieri | Grodzisk Mazowiecki | 2026-08-08 | YES Daniil Glinka | 0.48 | 0.659 | ✗ | -0.497 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug08guegli) |
 | Dusan Lajovic (YES) vs Abdullah Shelbayh | Lexington | 2026-08-07 | YES Dusan Lajovic | 0.54 | 0.611 | ✓ | +0.443 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug07shelaj) |
 | Ivan Marrero Curbelo (YES) vs Mathys Erhard | Grodzisk Mazowiecki | 2026-08-07 | YES Ivan Marrero Curbelo | 0.34 | 0.585 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug07erhmar) |
