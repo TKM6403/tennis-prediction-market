@@ -1,12 +1,13 @@
-# Settled paper bets (658)
+# Settled paper bets (659)
 
-_Generated 2026-08-09T18:46:23+00:00_
+_Generated 2026-08-09T21:36:18+00:00_
 
-**Wins:** 216 / 658  (32.8%)  
-**Net PnL (per contract):** -32.826
+**Wins:** 216 / 659  (32.8%)  
+**Net PnL (per contract):** -33.202
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Andre Ilagan (YES) vs Edas Butvilas | Lexington | 2026-08-09 | YES Andre Ilagan | 0.36 | 0.555 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09ilabut) |
 | Joel Schwaerzler (YES) vs Andrea Guerrieri | Grodzisk Mazowiecki | 2026-08-09 | YES Joel Schwaerzler | 0.55 | 0.636 | ✓ | +0.433 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09schgue) |
 | Dusan Lajovic (YES) vs Edas Butvilas | Lexington | 2026-08-08 | YES Dusan Lajovic | 0.47 | 0.537 | ✗ | -0.487 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug08butlaj) |
 | Joel Schwaerzler (YES) vs Mathys Erhard | Grodzisk Mazowiecki | 2026-08-08 | YES Joel Schwaerzler | 0.58 | 0.633 | ✓ | +0.403 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug08erhsch) |
