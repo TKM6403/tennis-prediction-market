@@ -1,12 +1,17 @@
-# Settled paper bets (659)
+# Settled paper bets (664)
 
-_Generated 2026-08-10T07:53:56+00:00_
+_Generated 2026-08-10T19:02:12+00:00_
 
-**Wins:** 216 / 659  (32.8%)  
-**Net PnL (per contract):** -33.202
+**Wins:** 218 / 664  (32.8%)  
+**Net PnL (per contract):** -32.964
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Hugo Dellien (NO) vs Daniel Elahi Galan | Todi | 2026-08-10 | NO Hugo Dellien | 0.23 | 0.547 | ✗ | -0.242 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug10devgal) |
+| Eduardo Ribeiro (YES) vs Max Alcala Gurri | Hamburg | 2026-08-10 | YES Eduardo Ribeiro | 0.19 | 0.316 | ✓ | +0.799 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug10ribalc) |
+| Nick Hardt (YES) vs Marco Cecchinato | Todi | 2026-08-10 | YES Nick Hardt | 0.31 | 0.426 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug10cechar) |
+| Filip Cristian Jianu (YES) vs Raul Brancaccio | Hamburg | 2026-08-10 | YES Filip Cristian Jianu | 0.38 | 0.462 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug10brajia) |
+| Denis Yevseyev (YES) vs Saba Purtseladze | Hamburg Qualification | 2026-08-10 | YES Denis Yevseyev | 0.58 | 0.825 | ✓ | +0.403 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug10yevpur) |
 | Andre Ilagan (YES) vs Edas Butvilas | Lexington | 2026-08-09 | YES Andre Ilagan | 0.36 | 0.555 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09ilabut) |
 | Joel Schwaerzler (YES) vs Andrea Guerrieri | Grodzisk Mazowiecki | 2026-08-09 | YES Joel Schwaerzler | 0.55 | 0.636 | ✓ | +0.433 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09schgue) |
 | Dusan Lajovic (YES) vs Edas Butvilas | Lexington | 2026-08-08 | YES Dusan Lajovic | 0.47 | 0.537 | ✗ | -0.487 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug08butlaj) |
