@@ -1,12 +1,21 @@
-# Settled paper bets (665)
+# Settled paper bets (674)
 
-_Generated 2026-08-11T07:20:45+00:00_
+_Generated 2026-08-11T21:53:33+00:00_
 
-**Wins:** 218 / 665  (32.8%)  
-**Net PnL (per contract):** -33.289
+**Wins:** 224 / 674  (33.2%)  
+**Net PnL (per contract):** -30.604
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Olle Wallin (YES) vs Carlos Taberner | Hamburg | 2026-08-11 | YES Olle Wallin | 0.42 | 0.473 | ✗ | -0.437 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11waltab) |
+| Facundo Mena (YES) vs Thomas Faurel | Todi | 2026-08-11 | YES Facundo Mena | 0.34 | 0.634 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11menfau) |
+| Max Hans Rehberg (YES) vs Diego Dedura | Hamburg | 2026-08-11 | YES Max Hans Rehberg | 0.50 | 0.611 | ✓ | +0.482 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11dedreh) |
+| Denis Yevseyev (YES) vs Matej Dodig | Hamburg | 2026-08-11 | YES Denis Yevseyev | 0.14 | 0.421 | ✗ | -0.148 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11yevdod) |
+| Rudolf Molleker (NO) vs Elmer Moller | Hamburg | 2026-08-11 | NO Rudolf Molleker | 0.28 | 0.467 | ✓ | +0.706 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11molmol2) |
+| Max Schoenhaus (YES) vs Zsombor Piros | Hamburg | 2026-08-11 | YES Max Schoenhaus | 0.32 | 0.385 | ✓ | +0.665 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11pirsch) |
+| Juan Bautista Torres (NO) vs Enrico Dalla Valle | Todi | 2026-08-11 | NO Juan Bautista Torres | 0.38 | 0.490 | ✓ | +0.604 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11daltor) |
+| Daniel Michalski (YES) vs Lorenzo Carboni | Todi | 2026-08-11 | YES Daniel Michalski | 0.55 | 0.653 | ✓ | +0.433 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11miccar) |
+| Nicolas Kicker (YES) vs Stefano Travaglia | Todi | 2026-08-11 | YES Nicolas Kicker | 0.25 | 0.326 | ✓ | +0.737 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11trakic) |
 | Vadym Ursu (YES) vs Manas Dhamne | Astana | 2026-08-11 | YES Vadym Ursu | 0.31 | 0.421 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11ursdha) |
 | Hugo Dellien (NO) vs Daniel Elahi Galan | Todi | 2026-08-10 | NO Hugo Dellien | 0.23 | 0.547 | ✗ | -0.242 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug10devgal) |
 | Eduardo Ribeiro (YES) vs Max Alcala Gurri | Hamburg | 2026-08-10 | YES Eduardo Ribeiro | 0.19 | 0.316 | ✓ | +0.799 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug10ribalc) |
