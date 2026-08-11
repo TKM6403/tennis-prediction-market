@@ -1,12 +1,13 @@
-# Settled paper bets (664)
+# Settled paper bets (665)
 
-_Generated 2026-08-11T04:29:32+00:00_
+_Generated 2026-08-11T07:20:45+00:00_
 
-**Wins:** 218 / 664  (32.8%)  
-**Net PnL (per contract):** -32.964
+**Wins:** 218 / 665  (32.8%)  
+**Net PnL (per contract):** -33.289
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Vadym Ursu (YES) vs Manas Dhamne | Astana | 2026-08-11 | YES Vadym Ursu | 0.31 | 0.421 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11ursdha) |
 | Hugo Dellien (NO) vs Daniel Elahi Galan | Todi | 2026-08-10 | NO Hugo Dellien | 0.23 | 0.547 | ✗ | -0.242 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug10devgal) |
 | Eduardo Ribeiro (YES) vs Max Alcala Gurri | Hamburg | 2026-08-10 | YES Eduardo Ribeiro | 0.19 | 0.316 | ✓ | +0.799 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug10ribalc) |
 | Nick Hardt (YES) vs Marco Cecchinato | Todi | 2026-08-10 | YES Nick Hardt | 0.31 | 0.426 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug10cechar) |
