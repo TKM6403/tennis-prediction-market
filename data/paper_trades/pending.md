@@ -1,6 +1,6 @@
-# Pending paper bets (16)
+# Pending paper bets (17)
 
-_Generated 2026-08-11T01:49:23+00:00_
+_Generated 2026-08-11T04:29:32+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
@@ -16,6 +16,7 @@ _Generated 2026-08-11T01:49:23+00:00_
 | **Vadym Ursu** (YES) vs Manas Dhamne | Astana | 2026-08-11 | YES Vadym Ursu | 0.31 | 0.421 | +0.111 | 0.0150 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11ursdha) |
 | **Juan Bautista Torres** (NO) vs Enrico Dalla Valle | Todi | 2026-08-11 | NO Juan Bautista Torres | 0.38 | 0.490 | +0.110 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11daltor) |
 | **Pablo Carreno Busta** (NO) vs Jaume Munar | Valencia | 2026-05-15 | NO Pablo Carreno Busta | 0.44 | 0.549 | +0.109 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15carmun) |
+| **Daniel Michalski** (YES) vs Lorenzo Carboni | Todi | 2026-08-11 | YES Daniel Michalski | 0.55 | 0.653 | +0.103 | 0.0173 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11miccar) |
 | **Nikoloz Basilashvili** (YES) vs Laslo Djere | San Marino | 2026-07-27 | YES Nikoloz Basilashvili | 0.34 | 0.421 | +0.081 | 0.0157 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27djebas) |
 | **Philip Sekulic** (YES) vs Mitchell Krueger | Little Rock | 2026-05-26 | YES Philip Sekulic | 0.38 | 0.450 | +0.070 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26sekkru) |
 | **Max Schoenhaus** (YES) vs Zsombor Piros | Hamburg | 2026-08-11 | YES Max Schoenhaus | 0.32 | 0.385 | +0.065 | 0.0152 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11pirsch) |
