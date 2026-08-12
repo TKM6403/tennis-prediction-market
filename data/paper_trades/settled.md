@@ -1,12 +1,19 @@
-# Settled paper bets (674)
+# Settled paper bets (681)
 
-_Generated 2026-08-12T13:22:12+00:00_
+_Generated 2026-08-12T21:49:53+00:00_
 
-**Wins:** 224 / 674  (33.2%)  
-**Net PnL (per contract):** -30.604
+**Wins:** 227 / 681  (33.3%)  
+**Net PnL (per contract):** -30.991
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Matheus Pucinelli De Almeida (YES) vs Max Schoenhaus | Hamburg | 2026-08-12 | YES Matheus Pucinelli De Almeida | 0.53 | 0.588 | ✓ | +0.453 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12schpda) |
+| Francesco Forti (YES) vs Marco Cecchinato | Todi | 2026-08-12 | YES Francesco Forti | 0.30 | 0.392 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12cecfor) |
+| Juan Bautista Torres (YES) vs Filippo Romano | Todi | 2026-08-12 | YES Juan Bautista Torres | 0.55 | 0.616 | ✓ | +0.433 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12romtor) |
+| Raul Brancaccio (YES) vs Marvin Moeller | Hamburg | 2026-08-12 | YES Raul Brancaccio | 0.43 | 0.566 | ✗ | -0.447 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12bramoe) |
+| Mert Alkaya (YES) vs Beibit Zhukayev | Astana | 2026-08-12 | YES Mert Alkaya | 0.62 | 0.714 | ✓ | +0.364 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12zhualk) |
+| Eduardo Ribeiro (YES) vs Mackenzie McDonald | Hamburg | 2026-08-12 | YES Eduardo Ribeiro | 0.41 | 0.482 | ✗ | -0.427 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12mcdrib) |
+| Daniel Elahi Galan (YES) vs Federico Agustin Gomez | Todi | 2026-08-12 | YES Daniel Elahi Galan | 0.43 | 0.502 | ✗ | -0.447 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12galgom) |
 | Olle Wallin (YES) vs Carlos Taberner | Hamburg | 2026-08-11 | YES Olle Wallin | 0.42 | 0.473 | ✗ | -0.437 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11waltab) |
 | Facundo Mena (YES) vs Thomas Faurel | Todi | 2026-08-11 | YES Facundo Mena | 0.34 | 0.634 | ✗ | -0.356 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11menfau) |
 | Max Hans Rehberg (YES) vs Diego Dedura | Hamburg | 2026-08-11 | YES Max Hans Rehberg | 0.50 | 0.611 | ✓ | +0.482 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11dedreh) |
