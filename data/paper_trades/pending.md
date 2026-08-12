@@ -1,6 +1,6 @@
-# Pending paper bets (14)
+# Pending paper bets (15)
 
-_Generated 2026-08-12T04:55:49+00:00_
+_Generated 2026-08-12T07:31:21+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
@@ -14,6 +14,7 @@ _Generated 2026-08-12T04:55:49+00:00_
 | **Mert Alkaya** (YES) vs Beibit Zhukayev | Astana | 2026-08-12 | YES Mert Alkaya | 0.62 | 0.714 | +0.094 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12zhualk) |
 | **Francesco Forti** (YES) vs Marco Cecchinato | Todi | 2026-08-12 | YES Francesco Forti | 0.30 | 0.392 | +0.092 | 0.0147 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12cecfor) |
 | **Nikoloz Basilashvili** (YES) vs Laslo Djere | San Marino | 2026-07-27 | YES Nikoloz Basilashvili | 0.34 | 0.421 | +0.081 | 0.0157 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27djebas) |
+| **Daniel Elahi Galan** (YES) vs Federico Agustin Gomez | Todi | 2026-08-12 | YES Daniel Elahi Galan | 0.43 | 0.502 | +0.072 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12galgom) |
 | **Eduardo Ribeiro** (YES) vs Mackenzie McDonald | Hamburg | 2026-08-12 | YES Eduardo Ribeiro | 0.41 | 0.482 | +0.072 | 0.0169 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12mcdrib) |
 | **Philip Sekulic** (YES) vs Mitchell Krueger | Little Rock | 2026-05-26 | YES Philip Sekulic | 0.38 | 0.450 | +0.070 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26sekkru) |
 | **Juan Bautista Torres** (YES) vs Filippo Romano | Todi | 2026-08-12 | YES Juan Bautista Torres | 0.55 | 0.616 | +0.066 | 0.0173 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12romtor) |
