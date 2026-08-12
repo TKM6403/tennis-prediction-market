@@ -1,14 +1,14 @@
-# Dropped markets (18421)
+# Dropped markets (18452)
 
-_Generated 2026-08-11T21:53:33+00:00_
+_Generated 2026-08-12T02:02:18+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `low_player_coverage` | 5481 |
-| `tournament_not_in_tml` | 3468 |
-| `missing_player_id` | 3125 |
+| `low_player_coverage` | 5489 |
+| `tournament_not_in_tml` | 3490 |
+| `missing_player_id` | 3126 |
 | `duplicate_match` | 2754 |
 | `thin_tournament_history` | 1556 |
 | `below_min_edge` | 1017 |
@@ -4262,6 +4262,12 @@ _Generated 2026-08-11T21:53:33+00:00_
 | Takuya Kumasaka vs Hayato Matsuoka | Astana | 2026-08-12 | 0.25 / 0.24 | `low_player_coverage` | cov_a=37 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12kummat) |
 | Khumoyun Sultanov vs Lucio Ratti | Astana | 2026-08-12 | 0.67 / 0.66 | `low_player_coverage` | cov_a=5 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12ratsul) |
 | Lucio Ratti vs Khumoyun Sultanov | Astana | 2026-08-12 | 0.34 / 0.33 | `low_player_coverage` | cov_a=5 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12ratsul) |
+| Fajing Sun vs Semen Pankin | Astana | 2026-08-12 | 0.59 / 0.58 | `low_player_coverage` | cov_a=43 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12sunpan) |
+| Semen Pankin vs Fajing Sun | Astana | 2026-08-12 | 0.42 / 0.41 | `low_player_coverage` | cov_a=43 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12sunpan) |
+| Hayato Matsuoka vs Takuya Kumasaka | Astana | 2026-08-12 | 0.76 / 0.75 | `low_player_coverage` | cov_a=37 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12kummat) |
+| Takuya Kumasaka vs Hayato Matsuoka | Astana | 2026-08-12 | 0.25 / 0.24 | `low_player_coverage` | cov_a=37 cov_b=10 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12kummat) |
+| Khumoyun Sultanov vs Lucio Ratti | Astana | 2026-08-12 | 0.65 / 0.64 | `low_player_coverage` | cov_a=5 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12ratsul) |
+| Lucio Ratti vs Khumoyun Sultanov | Astana | 2026-08-12 | 0.34 / 0.33 | `low_player_coverage` | cov_a=5 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12ratsul) |
 | Daniil Ostapenkov vs Egor Agafonov | Astana Qualification | 2026-08-09 | 0.83 / 0.71 | `low_player_coverage` | cov_a=6 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09ostaga) |
 | Uisung Park vs Kokoro Isomura | Astana Qualification | 2026-08-09 | 0.57 / 0.56 | `low_player_coverage` | cov_a=4 cov_b=15 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09isopar) |
 | Kokoro Isomura vs Uisung Park | Astana Qualification | 2026-08-09 | 0.42 / 0.41 | `low_player_coverage` | cov_a=4 cov_b=15 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09isopar) |
@@ -5838,6 +5844,8 @@ _Generated 2026-08-11T21:53:33+00:00_
 | Matheus Pucinelli De Almeida vs Florian Broska | Hamburg | 2026-08-11 | 0.64 / 0.63 | `low_player_coverage` | cov_a=40 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11pdabro) |
 | Vitaliy Sachko vs Dylan Dietrich | Hamburg | 2026-08-12 | 0.37 / 0.36 | `low_player_coverage` | cov_a=38 cov_b=8 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12diesac) |
 | Dylan Dietrich vs Vitaliy Sachko | Hamburg | 2026-08-12 | 0.63 / 0.62 | `low_player_coverage` | cov_a=38 cov_b=8 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12diesac) |
+| Vitaliy Sachko vs Dylan Dietrich | Hamburg | 2026-08-12 | 0.37 / 0.36 | `low_player_coverage` | cov_a=38 cov_b=8 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12diesac) |
+| Dylan Dietrich vs Vitaliy Sachko | Hamburg | 2026-08-12 | 0.63 / 0.61 | `low_player_coverage` | cov_a=38 cov_b=8 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12diesac) |
 | Fryderyk Lechno-Wasiutynski vs Diego Dedura | Hamburg Qualification | 2026-08-09 | 0.55 / 0.53 | `low_player_coverage` | cov_a=2 cov_b=40 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09dedlec) |
 | Diego Dedura vs Fryderyk Lechno-Wasiutynski | Hamburg Qualification | 2026-08-09 | 0.46 / 0.44 | `low_player_coverage` | cov_a=2 cov_b=40 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09dedlec) |
 | Samuele Pieri vs Horacio Zeballos | Hamburg Qualification | 2026-08-09 | 0.89 / 0.41 | `low_player_coverage` | cov_a=14 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09piezeb) |
@@ -10838,6 +10846,7 @@ _Generated 2026-08-11T21:53:33+00:00_
 | Florian Broska vs Pucinelli de Almeida | Hamburg | 2026-08-11 | 0.32 / 0.31 | `missing_player_id` | player_a_id='B0C5', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11pdabro) |
 | Florian Broska vs Pucinelli de Almeida | Hamburg | 2026-08-11 | 0.34 / 0.33 | `missing_player_id` | player_a_id='B0C5', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11pdabro) |
 | Florian Broska vs Pucinelli de Almeida | Hamburg | 2026-08-11 | 0.37 / 0.36 | `missing_player_id` | player_a_id='B0C5', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11pdabro) |
+| Max Schoenhaus vs Pucinelli de Almeida | Hamburg | 2026-08-12 | 0.50 / 0.47 | `missing_player_id` | player_a_id='S0VU', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12schpda) |
 | Niklas Guttau vs Nikolai Barsukov | Hamburg Qualification | 2026-08-09 | 0.95 / 0.04 | `missing_player_id` | player_a_id=nan, player_b_id='B0W9' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09gutbar) |
 | Nikolai Barsukov vs Guttau | Hamburg Qualification | 2026-08-09 | 0.94 / 0.05 | `missing_player_id` | player_a_id='B0W9', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09gutbar) |
 | Denis Yevseyev vs Larwig | Hamburg Qualification | 2026-08-09 | 0.94 / 0.05 | `missing_player_id` | player_a_id='Y171', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09yevlar) |
@@ -15346,6 +15355,28 @@ _Generated 2026-08-11T21:53:33+00:00_
 | Tyler Zink vs Gauthier Onclin | Brownsburg | 2026-08-11 | 0.25 / 0.24 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11onczin) |
 | Gauthier Onclin vs Tyler Zink | Brownsburg | 2026-08-11 | 0.76 / 0.73 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11onczin) |
 | Colton Smith vs Felix Gill | Brownsburg | 2026-08-11 | 0.60 / 0.58 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug10smigil) |
+| Felix Gill vs Keegan Smith | Brownsburg | 2026-08-11 | 0.42 / 0.41 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug10smigil) |
+| Rei Sakamoto vs Ugo Blanchet | Brownsburg | 2026-08-11 | 0.38 / 0.37 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug10blasak) |
+| Ugo Blanchet vs Pedro Sakamoto | Brownsburg | 2026-08-11 | 0.63 / 0.62 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug10blasak) |
+| Joel Schwaerzler vs Andres Andrade | Brownsburg | 2026-08-11 | 0.61 / 0.60 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11schand) |
+| Andres Andrade vs Joel Schwaerzler | Brownsburg | 2026-08-11 | 0.40 / 0.39 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11schand) |
+| Quinn Vandecasteele vs Abdullah Shelbayh | Brownsburg | 2026-08-11 | 0.32 / 0.31 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11vanshe) |
+| Abdullah Shelbayh vs Quinn Vandecasteele | Brownsburg | 2026-08-11 | 0.69 / 0.68 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11vanshe) |
+| Lloyd Harris vs Andrew Fenty | Brownsburg | 2026-08-11 | 0.78 / 0.77 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11harfen) |
+| Andrew Fenty vs Lloyd Harris | Brownsburg | 2026-08-11 | 0.23 / 0.22 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11harfen) |
+| Edward Winter vs Bernard Tomic | Brownsburg | 2026-08-11 | 0.38 / 0.37 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11tomwin) |
+| Bernard Tomic vs Edward Winter | Brownsburg | 2026-08-11 | 0.63 / 0.62 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11tomwin) |
+| Henry Searle vs Mees Rottgering | Brownsburg | 2026-08-11 | 0.66 / 0.65 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11searot) |
+| Mees Rottgering vs Henry Searle | Brownsburg | 2026-08-11 | 0.34 / 0.33 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11searot) |
+| Tristan Schoolkate vs Federico Cina | Brownsburg | 2026-08-11 | 0.37 / 0.36 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11schcin) |
+| Federico Cina vs Tristan Schoolkate | Brownsburg | 2026-08-11 | 0.63 / 0.62 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11schcin) |
+| Dhakshineswar Suresh vs Liam Broady | Brownsburg | 2026-08-11 | 0.48 / 0.46 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11brosur) |
+| Liam Broady vs Dhakshineswar Suresh | Brownsburg | 2026-08-11 | 0.53 / 0.52 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11brosur) |
+| Aidan Mayo vs Stefan Kozlov | Brownsburg | 2026-08-11 | 0.65 / 0.64 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11kozmay) |
+| Stefan Kozlov vs Aidan Mayo | Brownsburg | 2026-08-11 | 0.35 / 0.34 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11kozmay) |
+| Tyler Zink vs Gauthier Onclin | Brownsburg | 2026-08-11 | 0.26 / 0.24 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11onczin) |
+| Gauthier Onclin vs Tyler Zink | Brownsburg | 2026-08-11 | 0.75 / 0.73 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11onczin) |
+| Colton Smith vs Felix Gill | Brownsburg | 2026-08-11 | 0.59 / 0.57 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug10smigil) |
 | Felix Gill vs Keegan Smith | Brownsburg | 2026-08-11 | 0.42 / 0.41 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug10smigil) |
 | Rei Sakamoto vs Ugo Blanchet | Brownsburg | 2026-08-11 | 0.38 / 0.37 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug10blasak) |
 | Ugo Blanchet vs Pedro Sakamoto | Brownsburg | 2026-08-11 | 0.63 / 0.62 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug10blasak) |
