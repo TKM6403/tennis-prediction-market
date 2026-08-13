@@ -1,17 +1,17 @@
-# Dropped markets (18702)
+# Dropped markets (18716)
 
-_Generated 2026-08-13T13:20:52+00:00_
+_Generated 2026-08-13T19:16:49+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
 | `low_player_coverage` | 5523 |
-| `tournament_not_in_tml` | 3622 |
-| `missing_player_id` | 3132 |
+| `tournament_not_in_tml` | 3633 |
+| `missing_player_id` | 3133 |
 | `duplicate_match` | 2811 |
 | `thin_tournament_history` | 1556 |
-| `below_min_edge` | 1037 |
+| `below_min_edge` | 1039 |
 | `wide_spread` | 439 |
 | `loose_mirror_sum` | 374 |
 | `thin_player_history` | 206 |
@@ -37,6 +37,8 @@ _Generated 2026-08-13T13:20:52+00:00_
 | Sergey Fomin vs Kasidit Samrej | Astana | 2026-08-13 | 0.60 / 0.59 | `below_min_edge` | best_edge=0.039 on YES @ theo=0.449 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13fomsam) |
 | Kasidit Samrej vs Sergey Fomin | Astana | 2026-08-13 | 0.41 / 0.40 | `below_min_edge` | best_edge=0.039 on YES @ theo=0.449 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13fomsam) |
 | Sergey Fomin vs Kasidit Samrej | Astana | 2026-08-13 | 0.61 / 0.60 | `below_min_edge` | best_edge=0.039 on YES @ theo=0.449 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13fomsam) |
+| Masamichi Imamura vs Sergey Fomin | Astana | 2026-08-14 | 0.45 / 0.44 | `below_min_edge` | best_edge=0.041 on YES @ theo=0.491 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug14fomima) |
+| Sergey Fomin vs Masamichi Imamura | Astana | 2026-08-14 | 0.56 / 0.55 | `below_min_edge` | best_edge=0.041 on YES @ theo=0.491 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug14fomima) |
 | Dhakshineswar Suresh vs Lloyd Harris | Bloomfield Hills | 2026-07-21 | 0.46 / 0.41 | `below_min_edge` | best_edge=0.014 on NO @ theo=0.604 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21surhar) |
 | Billy Harris vs Dhakshineswar Suresh | Bloomfield Hills | 2026-07-21 | 0.59 / 0.52 | `below_min_edge` | best_edge=0.014 on NO @ theo=0.604 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21surhar) |
 | Dhakshineswar Suresh vs Lloyd Harris | Bloomfield Hills | 2026-07-21 | 0.45 / 0.42 | `below_min_edge` | best_edge=0.024 on NO @ theo=0.604 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21surhar) |
@@ -10321,6 +10323,7 @@ _Generated 2026-08-13T13:20:52+00:00_
 | Felix Gill vs Pinnington Jones | Brownsburg | 2026-08-13 | 0.95 / 0.04 | `missing_player_id` | player_a_id='G0EU', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13gilpin) |
 | Felix Gill vs Pinnington Jones | Brownsburg | 2026-08-13 | 0.46 / 0.40 | `missing_player_id` | player_a_id='G0EU', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13gilpin) |
 | Felix Gill vs Pinnington Jones | Brownsburg | 2026-08-13 | 0.41 / 0.40 | `missing_player_id` | player_a_id='G0EU', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13gilpin) |
+| Felix Gill vs Pinnington Jones | Brownsburg | 2026-08-13 | 0.38 / 0.37 | `missing_player_id` | player_a_id='G0EU', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13gilpin) |
 | Andrew Fenty vs Dieveney | Brownsburg Qualification | 2026-08-09 | 0.95 / 0.75 | `missing_player_id` | player_a_id='F0CK', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09diefen) |
 | Eli Dieveney vs Andrew Fenty | Brownsburg Qualification | 2026-08-09 | 0.88 / 0.06 | `missing_player_id` | player_a_id=nan, player_b_id='F0CK' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09diefen) |
 | Edward Winter vs Mosejczuk | Brownsburg Qualification | 2026-08-09 | 0.85 / 0.72 | `missing_player_id` | player_a_id='W0C4', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09winmos) |
@@ -15629,6 +15632,17 @@ _Generated 2026-08-13T13:20:52+00:00_
 | Abdullah Shelbayh vs Quinn Vandecasteele | Brownsburg | 2026-08-11 | 0.70 / 0.68 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11vanshe) |
 | Tristan Schoolkate vs Federico Cina | Brownsburg | 2026-08-11 | 0.38 / 0.37 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11schcin) |
 | Federico Cina vs Tristan Schoolkate | Brownsburg | 2026-08-11 | 0.64 / 0.63 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug11schcin) |
+| Gauthier Onclin vs Andres Andrade | Brownsburg | 2026-08-13 | 0.74 / 0.54 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13oncand) |
+| Andres Andrade vs Gauthier Onclin | Brownsburg | 2026-08-13 | 0.25 / 0.06 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13oncand) |
+| Quinn Vandecasteele vs Tristan Schoolkate | Brownsburg | 2026-08-13 | 0.35 / 0.34 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13vansch) |
+| Tristan Schoolkate vs Quinn Vandecasteele | Brownsburg | 2026-08-13 | 0.66 / 0.65 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13vansch) |
+| Bernard Tomic vs Andre Ilagan | Brownsburg | 2026-08-13 | 0.61 / 0.60 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13tomila) |
+| Andre Ilagan vs Bernard Tomic | Brownsburg | 2026-08-13 | 0.40 / 0.39 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13tomila) |
+| Jack Pinnington Jones vs Felix Gill | Brownsburg | 2026-08-13 | 0.63 / 0.62 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13gilpin) |
+| Harry Wendelken vs Stefan Kozlov | Brownsburg | 2026-08-13 | 0.77 / 0.76 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13kozwen) |
+| Stefan Kozlov vs Harry Wendelken | Brownsburg | 2026-08-13 | 0.24 / 0.23 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13kozwen) |
+| Mees Rottgering vs Lloyd Harris | Brownsburg | 2026-08-13 | 0.35 / 0.34 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12harrot) |
+| Lloyd Harris vs Mees Rottgering | Brownsburg | 2026-08-13 | 0.66 / 0.65 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12harrot) |
 | Ajeet Rai vs Paul Jubb | Brownsburg Qualification | 2026-08-09 | 0.14 / 0.13 | `tournament_not_in_tml` | tournament='Brownsburg Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09jubrai) |
 | Paul Jubb vs Ajeet Rai | Brownsburg Qualification | 2026-08-09 | 0.87 / 0.85 | `tournament_not_in_tml` | tournament='Brownsburg Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09jubrai) |
 | Garrett Johns vs Anirudh Chandrasekar | Brownsburg Qualification | 2026-08-09 | 0.90 / 0.87 | `tournament_not_in_tml` | tournament='Brownsburg Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09johcha) |

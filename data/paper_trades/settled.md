@@ -1,12 +1,15 @@
-# Settled paper bets (685)
+# Settled paper bets (688)
 
-_Generated 2026-08-13T13:20:52+00:00_
+_Generated 2026-08-13T19:16:49+00:00_
 
-**Wins:** 229 / 685  (33.4%)  
-**Net PnL (per contract):** -30.245
+**Wins:** 230 / 688  (33.4%)  
+**Net PnL (per contract):** -30.576
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Luciano Emanuel Ambrogi (YES) vs Alex Barrena | Todi | 2026-08-13 | YES Luciano Emanuel Ambrogi | 0.39 | 0.451 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13baramb) |
+| Nicolas Kicker (YES) vs Thomas Faurel | Todi | 2026-08-13 | YES Nicolas Kicker | 0.39 | 0.586 | ✓ | +0.593 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13kicfau) |
+| Andrej Nedic (YES) vs Carlos Taberner | Hamburg | 2026-08-13 | YES Andrej Nedic | 0.50 | 0.561 | ✗ | -0.517 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13nedtab) |
 | Saba Purtseladze (YES) vs Max Hans Rehberg | Hamburg | 2026-08-13 | YES Saba Purtseladze | 0.08 | 0.214 | ✓ | +0.915 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13rehpur) |
 | Jie Cui (YES) vs Petr Bar Biryukov | Astana | 2026-08-13 | YES Jie Cui | 0.43 | 0.511 | ✓ | +0.553 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13barcui) |
 | Rudolf Molleker (YES) vs Matej Dodig | Hamburg | 2026-08-13 | YES Rudolf Molleker | 0.32 | 0.388 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13dodmol) |
