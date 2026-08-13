@@ -1,12 +1,16 @@
-# Settled paper bets (681)
+# Settled paper bets (685)
 
-_Generated 2026-08-13T07:31:26+00:00_
+_Generated 2026-08-13T13:20:52+00:00_
 
-**Wins:** 227 / 681  (33.3%)  
-**Net PnL (per contract):** -30.991
+**Wins:** 229 / 685  (33.4%)  
+**Net PnL (per contract):** -30.245
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Saba Purtseladze (YES) vs Max Hans Rehberg | Hamburg | 2026-08-13 | YES Saba Purtseladze | 0.08 | 0.214 | ✓ | +0.915 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13rehpur) |
+| Jie Cui (YES) vs Petr Bar Biryukov | Astana | 2026-08-13 | YES Jie Cui | 0.43 | 0.511 | ✓ | +0.553 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13barcui) |
+| Rudolf Molleker (YES) vs Matej Dodig | Hamburg | 2026-08-13 | YES Rudolf Molleker | 0.32 | 0.388 | ✗ | -0.335 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13dodmol) |
+| Kasidit Samrej (YES) vs Sergey Fomin | Astana | 2026-08-13 | YES Kasidit Samrej | 0.37 | 0.449 | ✗ | -0.386 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13fomsam) |
 | Matheus Pucinelli De Almeida (YES) vs Max Schoenhaus | Hamburg | 2026-08-12 | YES Matheus Pucinelli De Almeida | 0.53 | 0.588 | ✓ | +0.453 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12schpda) |
 | Francesco Forti (YES) vs Marco Cecchinato | Todi | 2026-08-12 | YES Francesco Forti | 0.30 | 0.392 | ✗ | -0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12cecfor) |
 | Juan Bautista Torres (YES) vs Filippo Romano | Todi | 2026-08-12 | YES Juan Bautista Torres | 0.55 | 0.616 | ✓ | +0.433 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug12romtor) |
