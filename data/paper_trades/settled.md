@@ -1,12 +1,15 @@
-# Settled paper bets (691)
+# Settled paper bets (694)
 
-_Generated 2026-08-14T13:11:14+00:00_
+_Generated 2026-08-14T15:56:35+00:00_
 
-**Wins:** 231 / 691  (33.4%)  
-**Net PnL (per contract):** -31.067
+**Wins:** 233 / 694  (33.6%)  
+**Net PnL (per contract):** -30.176
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Saba Purtseladze (YES) vs Matej Dodig | Hamburg | 2026-08-14 | YES Saba Purtseladze | 0.11 | 0.251 | ✗ | -0.117 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug14purdod) |
+| Jan Kumstat (YES) vs Carlos Taberner | Hamburg | 2026-08-14 | YES Jan Kumstat | 0.61 | 0.673 | ✓ | +0.373 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug14tabkum) |
+| Alex Barrena (YES) vs Lukas Neumayer | Todi | 2026-08-14 | YES Alex Barrena | 0.35 | 0.435 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug14barneu) |
 | Mackenzie McDonald (NO) vs Marvin Moeller | Hamburg | 2026-08-14 | NO Mackenzie McDonald | 0.44 | 0.504 | ✗ | -0.457 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug14moemcd) |
 | Fajing Sun (YES) vs Hayato Matsuoka | Astana | 2026-08-14 | YES Fajing Sun | 0.42 | 0.540 | ✗ | -0.437 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug14sunmat) |
 | Lukas Neumayer (YES) vs Daniel Michalski | Todi | 2026-08-13 | YES Lukas Neumayer | 0.58 | 0.656 | ✓ | +0.403 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13micneu) |
