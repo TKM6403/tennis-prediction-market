@@ -1,12 +1,13 @@
-# Settled paper bets (689)
+# Settled paper bets (690)
 
-_Generated 2026-08-14T07:28:36+00:00_
+_Generated 2026-08-14T10:08:13+00:00_
 
-**Wins:** 231 / 689  (33.5%)  
-**Net PnL (per contract):** -30.173
+**Wins:** 231 / 690  (33.5%)  
+**Net PnL (per contract):** -30.610
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Fajing Sun (YES) vs Hayato Matsuoka | Astana | 2026-08-14 | YES Fajing Sun | 0.42 | 0.540 | ✗ | -0.437 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug14sunmat) |
 | Lukas Neumayer (YES) vs Daniel Michalski | Todi | 2026-08-13 | YES Lukas Neumayer | 0.58 | 0.656 | ✓ | +0.403 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13micneu) |
 | Luciano Emanuel Ambrogi (YES) vs Alex Barrena | Todi | 2026-08-13 | YES Luciano Emanuel Ambrogi | 0.39 | 0.451 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13baramb) |
 | Nicolas Kicker (YES) vs Thomas Faurel | Todi | 2026-08-13 | YES Nicolas Kicker | 0.39 | 0.586 | ✓ | +0.593 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13kicfau) |
