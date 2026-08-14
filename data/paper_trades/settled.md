@@ -1,12 +1,13 @@
-# Settled paper bets (694)
+# Settled paper bets (695)
 
-_Generated 2026-08-14T15:56:35+00:00_
+_Generated 2026-08-14T18:59:34+00:00_
 
-**Wins:** 233 / 694  (33.6%)  
-**Net PnL (per contract):** -30.176
+**Wins:** 233 / 695  (33.5%)  
+**Net PnL (per contract):** -30.471
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Juan Bautista Torres (YES) vs Marco Cecchinato | Todi | 2026-08-14 | YES Juan Bautista Torres | 0.28 | 0.485 | ✗ | -0.294 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug14cector) |
 | Saba Purtseladze (YES) vs Matej Dodig | Hamburg | 2026-08-14 | YES Saba Purtseladze | 0.11 | 0.251 | ✗ | -0.117 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug14purdod) |
 | Jan Kumstat (YES) vs Carlos Taberner | Hamburg | 2026-08-14 | YES Jan Kumstat | 0.61 | 0.673 | ✓ | +0.373 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug14tabkum) |
 | Alex Barrena (YES) vs Lukas Neumayer | Todi | 2026-08-14 | YES Alex Barrena | 0.35 | 0.435 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug14barneu) |
