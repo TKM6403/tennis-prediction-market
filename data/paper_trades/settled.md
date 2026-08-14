@@ -1,12 +1,13 @@
-# Settled paper bets (688)
+# Settled paper bets (689)
 
-_Generated 2026-08-13T19:16:49+00:00_
+_Generated 2026-08-14T02:03:07+00:00_
 
-**Wins:** 230 / 688  (33.4%)  
-**Net PnL (per contract):** -30.576
+**Wins:** 231 / 689  (33.5%)  
+**Net PnL (per contract):** -30.173
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Lukas Neumayer (YES) vs Daniel Michalski | Todi | 2026-08-13 | YES Lukas Neumayer | 0.58 | 0.656 | ✓ | +0.403 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13micneu) |
 | Luciano Emanuel Ambrogi (YES) vs Alex Barrena | Todi | 2026-08-13 | YES Luciano Emanuel Ambrogi | 0.39 | 0.451 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13baramb) |
 | Nicolas Kicker (YES) vs Thomas Faurel | Todi | 2026-08-13 | YES Nicolas Kicker | 0.39 | 0.586 | ✓ | +0.593 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13kicfau) |
 | Andrej Nedic (YES) vs Carlos Taberner | Hamburg | 2026-08-13 | YES Andrej Nedic | 0.50 | 0.561 | ✗ | -0.517 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug13nedtab) |
