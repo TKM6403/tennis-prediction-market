@@ -1,6 +1,6 @@
-# Pending paper bets (14)
+# Pending paper bets (13)
 
-_Generated 2026-08-14T10:08:13+00:00_
+_Generated 2026-08-14T13:11:14+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
@@ -16,5 +16,4 @@ _Generated 2026-08-14T10:08:13+00:00_
 | **Alex Barrena** (YES) vs Lukas Neumayer | Todi | 2026-08-14 | YES Alex Barrena | 0.35 | 0.435 | +0.085 | 0.0159 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug14barneu) |
 | **Nikoloz Basilashvili** (YES) vs Laslo Djere | San Marino | 2026-07-27 | YES Nikoloz Basilashvili | 0.34 | 0.421 | +0.081 | 0.0157 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27djebas) |
 | **Philip Sekulic** (YES) vs Mitchell Krueger | Little Rock | 2026-05-26 | YES Philip Sekulic | 0.38 | 0.450 | +0.070 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26sekkru) |
-| **Mackenzie McDonald** (NO) vs Marvin Moeller | Hamburg | 2026-08-14 | NO Mackenzie McDonald | 0.44 | 0.504 | +0.064 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug14moemcd) |
 | **Jan Kumstat** (YES) vs Carlos Taberner | Hamburg | 2026-08-14 | YES Jan Kumstat | 0.61 | 0.673 | +0.063 | 0.0167 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug14tabkum) |
