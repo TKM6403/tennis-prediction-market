@@ -1,12 +1,13 @@
-# Settled paper bets (699)
+# Settled paper bets (700)
 
-_Generated 2026-08-15T18:32:40+00:00_
+_Generated 2026-08-15T21:25:26+00:00_
 
-**Wins:** 235 / 699  (33.6%)  
-**Net PnL (per contract):** -29.892
+**Wins:** 236 / 700  (33.7%)  
+**Net PnL (per contract):** -29.186
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Nicolas Kicker (YES) vs Marco Cecchinato | Todi | 2026-08-15 | YES Nicolas Kicker | 0.28 | 0.418 | ✓ | +0.706 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15kiccec) |
 | Alex Barrena (YES) vs Maxim Mrva | Todi | 2026-08-15 | YES Alex Barrena | 0.45 | 0.562 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15mrvbar) |
 | Marvin Moeller (YES) vs Matej Dodig | Hamburg | 2026-08-15 | YES Marvin Moeller | 0.32 | 0.444 | ✓ | +0.665 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15dodmoe) |
 | Matheus Pucinelli De Almeida (YES) vs Jan Kumstat | Hamburg | 2026-08-15 | YES Matheus Pucinelli De Almeida | 0.33 | 0.458 | ✗ | -0.345 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15pdakum) |
