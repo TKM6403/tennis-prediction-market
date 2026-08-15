@@ -1,15 +1,15 @@
-# Dropped markets (18915)
+# Dropped markets (18925)
 
-_Generated 2026-08-15T12:40:25+00:00_
+_Generated 2026-08-15T15:25:29+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
 | `low_player_coverage` | 5572 |
-| `tournament_not_in_tml` | 3686 |
-| `missing_player_id` | 3153 |
-| `duplicate_match` | 2873 |
+| `tournament_not_in_tml` | 3689 |
+| `missing_player_id` | 3154 |
+| `duplicate_match` | 2879 |
 | `thin_tournament_history` | 1556 |
 | `below_min_edge` | 1052 |
 | `wide_spread` | 441 |
@@ -1858,6 +1858,8 @@ _Generated 2026-08-15T12:40:25+00:00_
 | Marvin Moeller vs Matej Dodig | Hamburg | 2026-08-15 | 0.39 / 0.38 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG15DODMOE | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15dodmoe) |
 | Matej Dodig vs Marvin Moeller | Hamburg | 2026-08-15 | 0.62 / 0.61 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG15DODMOE | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15dodmoe) |
 | Matheus Pucinelli De Almeida vs Jan Kumstat | Hamburg | 2026-08-15 | 0.44 / 0.43 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG15PDAKUM | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15pdakum) |
+| Marvin Moeller vs Matej Dodig | Hamburg | 2026-08-15 | 0.74 / 0.73 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG15DODMOE | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15dodmoe) |
+| Matej Dodig vs Marvin Moeller | Hamburg | 2026-08-15 | 0.27 / 0.26 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG15DODMOE | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15dodmoe) |
 | Denis Yevseyev vs Saba Purtseladze | Hamburg Qualification | 2026-08-10 | 0.59 / 0.57 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG10YEVPUR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug10yevpur) |
 | Saba Purtseladze vs Denis Yevseyev | Hamburg Qualification | 2026-08-10 | 0.42 / 0.40 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG10YEVPUR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug10yevpur) |
 | Frederico Ferreira Silva vs Luka Pavlovic | Iasi | 2026-07-07 | 0.40 / 0.38 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL07FERPAV | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07ferpav) |
@@ -2979,6 +2981,10 @@ _Generated 2026-08-15T12:40:25+00:00_
 | Marco Cecchinato vs Nicolas Kicker | Todi | 2026-08-15 | 0.73 / 0.72 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG15KICCEC | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15kiccec) |
 | Maxim Mrva vs Alex Barrena | Todi | 2026-08-15 | 0.58 / 0.57 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG15MRVBAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15mrvbar) |
 | Alex Barrena vs Maxim Mrva | Todi | 2026-08-15 | 0.44 / 0.42 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG15MRVBAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15mrvbar) |
+| Nicolas Kicker vs Marco Cecchinato | Todi | 2026-08-15 | 0.28 / 0.27 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG15KICCEC | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15kiccec) |
+| Marco Cecchinato vs Nicolas Kicker | Todi | 2026-08-15 | 0.73 / 0.72 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG15KICCEC | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15kiccec) |
+| Maxim Mrva vs Alex Barrena | Todi | 2026-08-15 | 0.58 / 0.57 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG15MRVBAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15mrvbar) |
+| Alex Barrena vs Maxim Mrva | Todi | 2026-08-15 | 0.44 / 0.43 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG15MRVBAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15mrvbar) |
 | Oleg Prihodko vs Alex Barrena | Trieste | 2026-07-07 | 0.41 / 0.40 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL07PRIBAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07pribar) |
 | Alex Barrena vs Oleg Prihodko | Trieste | 2026-07-07 | 0.60 / 0.59 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL07PRIBAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07pribar) |
 | Andrea Pellegrino vs Max Alcala Gurri | Trieste | 2026-07-05 | 0.59 / 0.57 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL05PELALC | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul05pelalc) |
@@ -10457,6 +10463,7 @@ _Generated 2026-08-15T12:40:25+00:00_
 | Andres Andrade vs Pinnington Jones | Brownsburg | 2026-08-14 | 0.78 / 0.77 | `missing_player_id` | player_a_id='AG08', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug14andpin) |
 | Andre Ilagan vs Pinnington Jones | Brownsburg | 2026-08-16 | 0.44 / 0.42 | `missing_player_id` | player_a_id='I0B0', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15ilapin) |
 | Andre Ilagan vs Pinnington Jones | Brownsburg | 2026-08-16 | 0.43 / 0.42 | `missing_player_id` | player_a_id='I0B0', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15ilapin) |
+| Andre Ilagan vs Pinnington Jones | Brownsburg | 2026-08-16 | 0.43 / 0.42 | `missing_player_id` | player_a_id='I0B0', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15ilapin) |
 | Andrew Fenty vs Dieveney | Brownsburg Qualification | 2026-08-09 | 0.95 / 0.75 | `missing_player_id` | player_a_id='F0CK', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09diefen) |
 | Eli Dieveney vs Andrew Fenty | Brownsburg Qualification | 2026-08-09 | 0.88 / 0.06 | `missing_player_id` | player_a_id=nan, player_b_id='F0CK' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09diefen) |
 | Edward Winter vs Mosejczuk | Brownsburg Qualification | 2026-08-09 | 0.85 / 0.72 | `missing_player_id` | player_a_id='W0C4', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09winmos) |
@@ -15838,6 +15845,9 @@ _Generated 2026-08-15T12:40:25+00:00_
 | Daniel Milavsky vs Lloyd Harris | Brownsburg | 2026-08-15 | 0.36 / 0.35 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15milhar) |
 | Lloyd Harris vs Daniel Milavsky | Brownsburg | 2026-08-15 | 0.66 / 0.65 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15milhar) |
 | Jack Pinnington Jones vs Andre Ilagan | Brownsburg | 2026-08-16 | 0.58 / 0.56 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15ilapin) |
+| Daniel Milavsky vs Lloyd Harris | Brownsburg | 2026-08-15 | 0.36 / 0.35 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15milhar) |
+| Lloyd Harris vs Daniel Milavsky | Brownsburg | 2026-08-15 | 0.66 / 0.65 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15milhar) |
+| Jack Pinnington Jones vs Andre Ilagan | Brownsburg | 2026-08-16 | 0.57 / 0.56 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15ilapin) |
 | Daniel Milavsky vs Lloyd Harris | Brownsburg | 2026-08-15 | 0.36 / 0.35 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15milhar) |
 | Lloyd Harris vs Daniel Milavsky | Brownsburg | 2026-08-15 | 0.66 / 0.65 | `tournament_not_in_tml` | tournament='Brownsburg' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15milhar) |
 | Ajeet Rai vs Paul Jubb | Brownsburg Qualification | 2026-08-09 | 0.14 / 0.13 | `tournament_not_in_tml` | tournament='Brownsburg Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09jubrai) |
