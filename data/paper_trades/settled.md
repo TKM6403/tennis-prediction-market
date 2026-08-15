@@ -1,12 +1,14 @@
-# Settled paper bets (697)
+# Settled paper bets (699)
 
-_Generated 2026-08-15T15:25:29+00:00_
+_Generated 2026-08-15T18:32:40+00:00_
 
-**Wins:** 234 / 697  (33.6%)  
-**Net PnL (per contract):** -30.089
+**Wins:** 235 / 699  (33.6%)  
+**Net PnL (per contract):** -29.892
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Alex Barrena (YES) vs Maxim Mrva | Todi | 2026-08-15 | YES Alex Barrena | 0.45 | 0.562 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15mrvbar) |
+| Marvin Moeller (YES) vs Matej Dodig | Hamburg | 2026-08-15 | YES Marvin Moeller | 0.32 | 0.444 | ✓ | +0.665 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15dodmoe) |
 | Matheus Pucinelli De Almeida (YES) vs Jan Kumstat | Hamburg | 2026-08-15 | YES Matheus Pucinelli De Almeida | 0.33 | 0.458 | ✗ | -0.345 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15pdakum) |
 | Nicolas Kicker (YES) vs Francesco Passaro | Todi | 2026-08-14 | YES Nicolas Kicker | 0.26 | 0.477 | ✓ | +0.727 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug14kicpas) |
 | Juan Bautista Torres (YES) vs Marco Cecchinato | Todi | 2026-08-14 | YES Juan Bautista Torres | 0.28 | 0.485 | ✗ | -0.294 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug14cector) |
