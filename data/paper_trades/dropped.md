@@ -1,15 +1,15 @@
-# Dropped markets (19435)
+# Dropped markets (19455)
 
-_Generated 2026-08-16T15:25:37+00:00_
+_Generated 2026-08-16T18:32:28+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
 | `low_player_coverage` | 5659 |
-| `tournament_not_in_tml` | 3866 |
-| `missing_player_id` | 3366 |
-| `duplicate_match` | 2889 |
+| `tournament_not_in_tml` | 3877 |
+| `missing_player_id` | 3373 |
+| `duplicate_match` | 2891 |
 | `thin_tournament_history` | 1556 |
 | `below_min_edge` | 1060 |
 | `wide_spread` | 457 |
@@ -3002,6 +3002,8 @@ _Generated 2026-08-16T15:25:37+00:00_
 | Maxim Mrva vs Nicolas Kicker | Todi | 2026-08-16 | 0.64 / 0.63 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG16KICMRV | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16kicmrv) |
 | Nicolas Kicker vs Maxim Mrva | Todi | 2026-08-16 | 0.36 / 0.35 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG16KICMRV | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16kicmrv) |
 | Maxim Mrva vs Nicolas Kicker | Todi | 2026-08-16 | 0.64 / 0.63 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG16KICMRV | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16kicmrv) |
+| Nicolas Kicker vs Maxim Mrva | Todi | 2026-08-16 | 0.36 / 0.35 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG16KICMRV | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16kicmrv) |
+| Maxim Mrva vs Nicolas Kicker | Todi | 2026-08-16 | 0.65 / 0.64 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG16KICMRV | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16kicmrv) |
 | Nicolas Kicker vs Maxim Mrva | Todi | 2026-08-16 | 0.36 / 0.35 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG16KICMRV | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16kicmrv) |
 | Oleg Prihodko vs Alex Barrena | Trieste | 2026-07-07 | 0.41 / 0.40 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL07PRIBAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07pribar) |
 | Alex Barrena vs Oleg Prihodko | Trieste | 2026-07-07 | 0.60 / 0.59 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26JUL07PRIBAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07pribar) |
@@ -11471,6 +11473,13 @@ _Generated 2026-08-16T15:25:37+00:00_
 | Pietro Fellin vs Andrade Da Silva | Kingston Qualification | 2026-08-16 | 0.31 / 0.28 | `missing_player_id` | player_a_id='F0BP', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16andfel) |
 | Richard Mallory vs Cheong-Eui Kim | Kingston Qualification | 2026-08-16 | 0.03 / 0.01 | `missing_player_id` | player_a_id=nan, player_b_id='K863' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16malkim) |
 | Aidan Kim vs Mallory | Kingston Qualification | 2026-08-16 | 0.98 / 0.97 | `missing_player_id` | player_a_id='K0HZ', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16malkim) |
+| Kenta Miyoshi (b. 2004) vs Arklon Huertas Del Pino Cordova | Kingston Qualification | 2026-08-16 | 0.87 / 0.84 | `missing_player_id` | player_a_id=nan, player_b_id='H0C9' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16miyhue) |
+| Matt Kuhar vs Saraiva Dos Santos | Kingston Qualification | 2026-08-16 | 0.32 / 0.30 | `missing_player_id` | player_a_id='K0EM', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16kuhsar) |
+| Roger Pascual Ferra vs Gonzalez Fernandez | Kingston Qualification | 2026-08-16 | 0.75 / 0.74 | `missing_player_id` | player_a_id='P0K3', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16pasgon) |
+| Edward Winter vs Christie | Kingston Qualification | 2026-08-16 | 0.99 / 0.98 | `missing_player_id` | player_a_id='W0C4', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16winchr) |
+| Steven Christie vs Edward Winter | Kingston Qualification | 2026-08-16 | 0.02 / 0.01 | `missing_player_id` | player_a_id=nan, player_b_id='W0C4' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16winchr) |
+| Evan Zhu vs Browning | Kingston Qualification | 2026-08-16 | 0.95 / 0.94 | `missing_player_id` | player_a_id='Z09K', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16brozhu) |
+| Tauheed Browning vs Evan Zhu | Kingston Qualification | 2026-08-16 | 0.07 / 0.04 | `missing_player_id` | player_a_id=nan, player_b_id='Z09K' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16brozhu) |
 | Peter Fajta vs Saraiva Dos Santos | Kosice | 2026-05-26 | 0.56 / 0.53 | `missing_player_id` | player_a_id='F0DP', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26fajsar) |
 | Peter Fajta vs Saraiva Dos Santos | Kosice | 2026-05-26 | 0.55 / 0.52 | `missing_player_id` | player_a_id='F0DP', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26fajsar) |
 | Tomasz Berkieta vs Bekeni | Kosice Qualification | 2026-05-24 | 0.94 / 0.70 | `missing_player_id` | player_a_id='B0P4', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may24berbek) |
@@ -17427,6 +17436,17 @@ _Generated 2026-08-16T15:25:37+00:00_
 | Hunter Heck vs Andrew Fenty | Kingston Qualification | 2026-08-16 | 0.31 / 0.30 | `tournament_not_in_tml` | tournament='Kingston Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16fenhec) |
 | Andrew Fenty vs Hunter Heck | Kingston Qualification | 2026-08-16 | 0.69 / 0.68 | `tournament_not_in_tml` | tournament='Kingston Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16fenhec) |
 | Lucas Andrade Da Silva vs Pietro Fellin | Kingston Qualification | 2026-08-16 | 0.72 / 0.69 | `tournament_not_in_tml` | tournament='Kingston Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16andfel) |
+| Arklon Huertas Del Pino Cordova vs Kenta Miyoshi | Kingston Qualification | 2026-08-16 | 0.15 / 0.13 | `tournament_not_in_tml` | tournament='Kingston Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16miyhue) |
+| Miguel Tobon vs Lorenzo Claverie | Kingston Qualification | 2026-08-16 | 0.59 / 0.58 | `tournament_not_in_tml` | tournament='Kingston Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16tobcla) |
+| Lorenzo Claverie vs Miguel Tobon | Kingston Qualification | 2026-08-16 | 0.42 / 0.41 | `tournament_not_in_tml` | tournament='Kingston Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16tobcla) |
+| Paulo Andre Saraiva Dos Santos vs Matt Kuhar | Kingston Qualification | 2026-08-16 | 0.70 / 0.68 | `tournament_not_in_tml` | tournament='Kingston Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16kuhsar) |
+| Garrett Johns vs Guillaume Dalmasso | Kingston Qualification | 2026-08-16 | 0.75 / 0.74 | `tournament_not_in_tml` | tournament='Kingston Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16johdal) |
+| Guillaume Dalmasso vs Garrett Johns | Kingston Qualification | 2026-08-16 | 0.26 / 0.25 | `tournament_not_in_tml` | tournament='Kingston Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16johdal) |
+| Aidan Mayo vs Timo Legout | Kingston Qualification | 2026-08-16 | 0.51 / 0.50 | `tournament_not_in_tml` | tournament='Kingston Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16mayleg) |
+| Timo Legout vs Aidan Mayo | Kingston Qualification | 2026-08-16 | 0.49 / 0.47 | `tournament_not_in_tml` | tournament='Kingston Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16mayleg) |
+| Mario Gonzalez Fernandez vs Roger Pascual Ferra | Kingston Qualification | 2026-08-16 | 0.27 / 0.25 | `tournament_not_in_tml` | tournament='Kingston Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16pasgon) |
+| Hunter Heck vs Andrew Fenty | Kingston Qualification | 2026-08-16 | 0.45 / 0.44 | `tournament_not_in_tml` | tournament='Kingston Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16fenhec) |
+| Andrew Fenty vs Hunter Heck | Kingston Qualification | 2026-08-16 | 0.57 / 0.55 | `tournament_not_in_tml` | tournament='Kingston Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16fenhec) |
 | Lukas Pokorny vs Tom Paris | Kosice | 2026-05-25 | 0.55 / 0.52 | `tournament_not_in_tml` | tournament='Kosice' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25pokpar) |
 | Tom Paris vs Lukas Pokorny | Kosice | 2026-05-25 | 0.47 / 0.45 | `tournament_not_in_tml` | tournament='Kosice' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25pokpar) |
 | Dominic Stricker vs Martin Krumich | Kosice | 2026-05-25 | 0.56 / 0.54 | `tournament_not_in_tml` | tournament='Kosice' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25strkru) |
