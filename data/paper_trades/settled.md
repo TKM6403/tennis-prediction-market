@@ -1,12 +1,13 @@
-# Settled paper bets (700)
+# Settled paper bets (701)
 
-_Generated 2026-08-16T12:42:38+00:00_
+_Generated 2026-08-16T15:25:37+00:00_
 
-**Wins:** 236 / 700  (33.7%)  
-**Net PnL (per contract):** -29.186
+**Wins:** 237 / 701  (33.8%)  
+**Net PnL (per contract):** -28.552
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Jan Kumstat (YES) vs Marvin Moeller | Hamburg | 2026-08-16 | YES Jan Kumstat | 0.35 | 0.667 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16kummoe) |
 | Nicolas Kicker (YES) vs Marco Cecchinato | Todi | 2026-08-15 | YES Nicolas Kicker | 0.28 | 0.418 | ✓ | +0.706 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15kiccec) |
 | Alex Barrena (YES) vs Maxim Mrva | Todi | 2026-08-15 | YES Alex Barrena | 0.45 | 0.562 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15mrvbar) |
 | Marvin Moeller (YES) vs Matej Dodig | Hamburg | 2026-08-15 | YES Marvin Moeller | 0.32 | 0.444 | ✓ | +0.665 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15dodmoe) |

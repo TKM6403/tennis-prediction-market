@@ -1,10 +1,9 @@
-# Pending paper bets (11)
+# Pending paper bets (10)
 
-_Generated 2026-08-16T12:42:38+00:00_
+_Generated 2026-08-16T15:25:37+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
-| **Jan Kumstat** (YES) vs Marvin Moeller | Hamburg | 2026-08-16 | YES Jan Kumstat | 0.35 | 0.667 | +0.317 | 0.0159 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16kummoe) |
 | **Martin Krumich** (NO) vs Francisco Comesana | Braunschweig | 2026-07-07 | NO Martin Krumich | 0.26 | 0.540 | +0.280 | 0.0135 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul07krucom) |
 | **Arthur Gea** (NO) vs Alex Michelsen | Bloomfield Hills | 2026-07-22 | NO Arthur Gea | 0.28 | 0.507 | +0.227 | 0.0141 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul21micgea) |
 | **Nicolas Kicker** (YES) vs Maxim Mrva | Todi | 2026-08-16 | YES Nicolas Kicker | 0.36 | 0.566 | +0.206 | 0.0161 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16kicmrv) |
