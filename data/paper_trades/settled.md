@@ -1,12 +1,13 @@
-# Settled paper bets (702)
+# Settled paper bets (703)
 
-_Generated 2026-08-17T12:49:39+00:00_
+_Generated 2026-08-17T15:30:43+00:00_
 
-**Wins:** 237 / 702  (33.8%)  
-**Net PnL (per contract):** -28.928
+**Wins:** 237 / 703  (33.7%)  
+**Net PnL (per contract):** -29.202
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Eduardo Ribeiro (YES) vs Sumit Nagal | Prague | 2026-08-17 | YES Eduardo Ribeiro | 0.26 | 0.398 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17ribnag) |
 | Nicolas Kicker (YES) vs Maxim Mrva | Todi | 2026-08-16 | YES Nicolas Kicker | 0.36 | 0.566 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16kicmrv) |
 | Jan Kumstat (YES) vs Marvin Moeller | Hamburg | 2026-08-16 | YES Jan Kumstat | 0.35 | 0.667 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16kummoe) |
 | Nicolas Kicker (YES) vs Marco Cecchinato | Todi | 2026-08-15 | YES Nicolas Kicker | 0.28 | 0.418 | ✓ | +0.706 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug15kiccec) |
