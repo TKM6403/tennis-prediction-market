@@ -1,12 +1,15 @@
-# Settled paper bets (703)
+# Settled paper bets (706)
 
-_Generated 2026-08-17T15:30:43+00:00_
+_Generated 2026-08-17T18:43:53+00:00_
 
-**Wins:** 237 / 703  (33.7%)  
-**Net PnL (per contract):** -29.202
+**Wins:** 238 / 706  (33.7%)  
+**Net PnL (per contract):** -29.255
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Marek Gengel (YES) vs Juan Bautista Torres | Prague | 2026-08-17 | YES Marek Gengel | 0.20 | 0.396 | ✗ | -0.211 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17gentor) |
+| Miguel Damas (YES) vs Kimmer Coppejans | Prague | 2026-08-17 | YES Miguel Damas | 0.31 | 0.408 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17damcop) |
+| Cezar Cretu (NO) vs Thomas Faurel | Prague | 2026-08-17 | NO Cezar Cretu | 0.50 | 0.568 | ✓ | +0.482 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17crefau) |
 | Eduardo Ribeiro (YES) vs Sumit Nagal | Prague | 2026-08-17 | YES Eduardo Ribeiro | 0.26 | 0.398 | ✗ | -0.273 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17ribnag) |
 | Nicolas Kicker (YES) vs Maxim Mrva | Todi | 2026-08-16 | YES Nicolas Kicker | 0.36 | 0.566 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16kicmrv) |
 | Jan Kumstat (YES) vs Marvin Moeller | Hamburg | 2026-08-16 | YES Jan Kumstat | 0.35 | 0.667 | ✓ | +0.634 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16kummoe) |
