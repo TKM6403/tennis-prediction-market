@@ -1,19 +1,19 @@
-# Dropped markets (20148)
+# Dropped markets (20232)
 
-_Generated 2026-08-18T01:17:26+00:00_
+_Generated 2026-08-18T03:49:59+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `low_player_coverage` | 5752 |
-| `tournament_not_in_tml` | 4320 |
-| `missing_player_id` | 3457 |
-| `duplicate_match` | 2916 |
-| `thin_tournament_history` | 1588 |
-| `below_min_edge` | 1070 |
-| `wide_spread` | 461 |
-| `loose_mirror_sum` | 376 |
+| `low_player_coverage` | 5762 |
+| `tournament_not_in_tml` | 4373 |
+| `missing_player_id` | 3462 |
+| `duplicate_match` | 2922 |
+| `thin_tournament_history` | 1590 |
+| `below_min_edge` | 1074 |
+| `wide_spread` | 463 |
+| `loose_mirror_sum` | 378 |
 | `thin_player_history` | 206 |
 | `yes_on_challenger` | 2 |
 
@@ -691,6 +691,10 @@ _Generated 2026-08-18T01:17:26+00:00_
 | Hynek Barton vs Chun-Hsin Tseng | Prague | 2026-08-18 | 0.74 / 0.53 | `below_min_edge` | best_edge=0.016 on NO @ theo=0.576 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18tsebar) |
 | Jan Kumstat vs Petr Brunclik | Prague | 2026-08-18 | 0.56 / 0.54 | `below_min_edge` | best_edge=0.006 on YES @ theo=0.566 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18brukum) |
 | Petr Brunclik vs Jan Kumstat | Prague | 2026-08-18 | 0.45 / 0.44 | `below_min_edge` | best_edge=0.006 on YES @ theo=0.566 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18brukum) |
+| Norbert Gombos vs Gilles Arnaud Bailly | Prague | 2026-08-18 | 0.55 / 0.54 | `below_min_edge` | best_edge=0.035 on YES @ theo=0.495 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18arngom) |
+| Gilles Arnaud Bailly vs Norbert Gombos | Prague | 2026-08-18 | 0.46 / 0.45 | `below_min_edge` | best_edge=0.035 on YES @ theo=0.495 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18arngom) |
+| Jan Kumstat vs Petr Brunclik | Prague | 2026-08-18 | 0.55 / 0.53 | `below_min_edge` | best_edge=0.016 on YES @ theo=0.566 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18brukum) |
+| Petr Brunclik vs Jan Kumstat | Prague | 2026-08-18 | 0.46 / 0.45 | `below_min_edge` | best_edge=0.016 on YES @ theo=0.566 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18brukum) |
 | Norbert Gombos vs Gilles Arnaud Bailly | Prague | 2026-08-18 | 0.55 / 0.54 | `below_min_edge` | best_edge=0.035 on YES @ theo=0.495 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18arngom) |
 | Gilles Arnaud Bailly vs Norbert Gombos | Prague | 2026-08-18 | 0.46 / 0.45 | `below_min_edge` | best_edge=0.035 on YES @ theo=0.495 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18arngom) |
 | Zsombor Piros vs Alex Molcan | Prostejov | 2026-06-02 | 0.42 / 0.41 | `below_min_edge` | best_edge=0.044 on YES @ theo=0.464 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun02molpir) |
@@ -2567,6 +2571,12 @@ _Generated 2026-08-18T01:17:26+00:00_
 | Kimmer Coppejans vs Miguel Damas | Prague | 2026-08-17 | 0.70 / 0.69 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG17DAMCOP | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17damcop) |
 | Matias Soto vs Rudolf Molleker | Prague | 2026-08-18 | 0.37 / 0.36 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG18SOTMOL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18sotmol) |
 | Rudolf Molleker vs Matias Soto | Prague | 2026-08-18 | 0.63 / 0.62 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG18SOTMOL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18sotmol) |
+| Andrej Martin vs Filip Cristian Jianu | Prague | 2026-08-18 | 0.45 / 0.44 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG18JIAMAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18jiamar) |
+| Filip Cristian Jianu vs Andrej Martin | Prague | 2026-08-18 | 0.56 / 0.55 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG18JIAMAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18jiamar) |
+| Chun-Hsin Tseng vs Hynek Barton | Prague | 2026-08-18 | 0.42 / 0.41 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG18TSEBAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18tsebar) |
+| Hynek Barton vs Chun-Hsin Tseng | Prague | 2026-08-18 | 0.59 / 0.58 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG18TSEBAR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18tsebar) |
+| Matias Soto vs Rudolf Molleker | Prague | 2026-08-18 | 0.35 / 0.34 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG18SOTMOL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18sotmol) |
+| Rudolf Molleker vs Matias Soto | Prague | 2026-08-18 | 0.65 / 0.64 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG18SOTMOL | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18sotmol) |
 | Saba Purtseladze vs Andrej Martin | Prague Qualification | 2026-08-16 | 0.20 / 0.19 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG16MARPUR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16marpur) |
 | Andrej Martin vs Saba Purtseladze | Prague Qualification | 2026-08-16 | 0.81 / 0.79 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG16MARPUR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16marpur) |
 | Saba Purtseladze vs Andrej Martin | Prague Qualification | 2026-08-16 | 0.20 / 0.19 | `duplicate_match` | match_key=KXATPCHALLENGERMATCH-26AUG16MARPUR | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16marpur) |
@@ -4188,6 +4198,8 @@ _Generated 2026-08-18T01:17:26+00:00_
 | Yi Zhou vs Stefan Kozlov | Pozoblanco | 2026-07-14 | 0.25 / 0.20 | `loose_mirror_sum` | yes_ask_a=0.25 + yes_ask_b=0.80 = 1.050 (dev 0.050 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14zhokoz) |
 | Stefan Kozlov vs Yi Zhou | Pozoblanco | 2026-07-14 | 0.80 / 0.77 | `loose_mirror_sum` | yes_ask_a=0.25 + yes_ask_b=0.80 = 1.050 (dev 0.050 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul14zhokoz) |
 | Maxim Mrva vs Nerman Fatic | Prague | 2026-08-18 | 0.66 / 0.64 | `loose_mirror_sum` | yes_ask_a=0.66 + yes_ask_b=0.38 = 1.040 (dev 0.040 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18mrvfat) |
+| Nerman Fatic vs Maxim Mrva | Prague | 2026-08-18 | 0.38 / 0.37 | `loose_mirror_sum` | yes_ask_a=0.66 + yes_ask_b=0.38 = 1.040 (dev 0.040 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18mrvfat) |
+| Maxim Mrva vs Nerman Fatic | Prague | 2026-08-18 | 0.66 / 0.65 | `loose_mirror_sum` | yes_ask_a=0.66 + yes_ask_b=0.38 = 1.040 (dev 0.040 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18mrvfat) |
 | Nerman Fatic vs Maxim Mrva | Prague | 2026-08-18 | 0.38 / 0.37 | `loose_mirror_sum` | yes_ask_a=0.66 + yes_ask_b=0.38 = 1.040 (dev 0.040 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18mrvfat) |
 | Alexander Shevchenko vs Raul Brancaccio | Prostejov | 2026-06-01 | 0.76 / 0.75 | `loose_mirror_sum` | yes_ask_a=0.76 + yes_ask_b=0.28 = 1.040 (dev 0.040 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01shebra) |
 | Raul Brancaccio vs Alexander Shevchenko | Prostejov | 2026-06-01 | 0.28 / 0.24 | `loose_mirror_sum` | yes_ask_a=0.76 + yes_ask_b=0.28 = 1.040 (dev 0.040 > 0.03) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01shebra) |
@@ -7911,6 +7923,16 @@ _Generated 2026-08-18T01:17:26+00:00_
 | Oleksii Krutykh vs Daniel Siniakov | Prague | 2026-08-18 | 0.62 / 0.61 | `low_player_coverage` | cov_a=1 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18krusin) |
 | Sean Cuenin vs Florian Broska | Prague | 2026-08-18 | 0.61 / 0.60 | `low_player_coverage` | cov_a=6 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18brocue) |
 | Florian Broska vs Sean Cuenin | Prague | 2026-08-18 | 0.40 / 0.39 | `low_player_coverage` | cov_a=6 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18brocue) |
+| Oriol Roca Batalla vs Radu Mihai Papoe | Prague | 2026-08-18 | 0.39 / 0.38 | `low_player_coverage` | cov_a=13 cov_b=8 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18rocpap) |
+| Radu Mihai Papoe vs Oriol Roca Batalla | Prague | 2026-08-18 | 0.62 / 0.61 | `low_player_coverage` | cov_a=13 cov_b=8 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18rocpap) |
+| Max Hans Rehberg vs Jakub Nicod | Prague | 2026-08-18 | 0.69 / 0.68 | `low_player_coverage` | cov_a=23 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18rehnic) |
+| Jakub Nicod vs Max Hans Rehberg | Prague | 2026-08-18 | 0.32 / 0.31 | `low_player_coverage` | cov_a=23 cov_b=4 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18rehnic) |
+| Martin Krumich vs Javier Barranco Cosano | Prague | 2026-08-18 | 0.67 / 0.66 | `low_player_coverage` | cov_a=40 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18barkru) |
+| Javier Barranco Cosano vs Martin Krumich | Prague | 2026-08-18 | 0.34 / 0.33 | `low_player_coverage` | cov_a=40 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18barkru) |
+| Daniel Siniakov vs Oleksii Krutykh | Prague | 2026-08-18 | 0.38 / 0.37 | `low_player_coverage` | cov_a=1 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18krusin) |
+| Oleksii Krutykh vs Daniel Siniakov | Prague | 2026-08-18 | 0.62 / 0.61 | `low_player_coverage` | cov_a=1 cov_b=3 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18krusin) |
+| Sean Cuenin vs Florian Broska | Prague | 2026-08-18 | 0.61 / 0.60 | `low_player_coverage` | cov_a=6 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18brocue) |
+| Florian Broska vs Sean Cuenin | Prague | 2026-08-18 | 0.40 / 0.39 | `low_player_coverage` | cov_a=6 cov_b=14 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18brocue) |
 | Svyatoslav Gulin vs Marek Gengel | Prague Qualification | 2026-08-16 | 0.74 / 0.66 | `low_player_coverage` | cov_a=14 cov_b=26 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16gengul) |
 | Marek Gengel vs Svyatoslav Gulin | Prague Qualification | 2026-08-16 | 0.29 / 0.26 | `low_player_coverage` | cov_a=14 cov_b=26 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16gengul) |
 | Rudolf Molleker vs Aleksandr Braynin | Prague Qualification | 2026-08-16 | 0.83 / 0.76 | `low_player_coverage` | cov_a=15 cov_b=2 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16bramol) |
@@ -10826,6 +10848,8 @@ _Generated 2026-08-18T01:17:26+00:00_
 | Luka Pavlovic vs Meligeni Alves | Cancun Qualification | 2026-08-17 | 0.55 / 0.54 | `missing_player_id` | player_a_id='P0AY', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17melpav) |
 | Rio Noguchi vs Alvarez Valdes | Cancun Qualification | 2026-08-18 | 0.69 / 0.68 | `missing_player_id` | player_a_id='N09U', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17alvanog) |
 | Luis Carlos Alvarez Valdes vs Rio Noguchi | Cancun Qualification | 2026-08-18 | 0.32 / 0.31 | `missing_player_id` | player_a_id=nan, player_b_id='N09U' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17alvanog) |
+| Rio Noguchi vs Alvarez Valdes | Cancun Qualification | 2026-08-18 | 0.70 / 0.69 | `missing_player_id` | player_a_id='N09U', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17alvanog) |
+| Luis Carlos Alvarez Valdes vs Rio Noguchi | Cancun Qualification | 2026-08-18 | 0.33 / 0.32 | `missing_player_id` | player_a_id=nan, player_b_id='N09U' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17alvanog) |
 | Rei Sakamoto vs Leroux | Cary | 2026-07-01 | 0.94 / 0.91 | `missing_player_id` | player_a_id='S0UV', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30sakler) |
 | Jules Leroux vs Pedro Sakamoto | Cary | 2026-07-01 | 0.09 / 0.06 | `missing_player_id` | player_a_id=nan, player_b_id='SL94' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30sakler) |
 | Rei Sakamoto vs Leroux | Cary | 2026-07-01 | 0.92 / 0.91 | `missing_player_id` | player_a_id='S0UV', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30sakler) |
@@ -12647,6 +12671,9 @@ _Generated 2026-08-18T01:17:26+00:00_
 | Mark Ceban vs Anton Shepp | Roehampton | 2026-08-17 | 0.46 / 0.45 | `missing_player_id` | player_a_id=nan, player_b_id='S0NT' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17sheceb) |
 | Michael Geerts vs Blaydes | Roehampton | 2026-08-18 | 0.61 / 0.58 | `missing_player_id` | player_a_id='GG65', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18geebla) |
 | Billy Blaydes vs Michael Geerts | Roehampton | 2026-08-18 | 0.42 / 0.40 | `missing_player_id` | player_a_id=nan, player_b_id='GG65' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18geebla) |
+| Peter Makk vs Pucinelli de Almeida | Roehampton | 2026-08-18 | 0.41 / 0.37 | `missing_player_id` | player_a_id='M0DY', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18pdamak) |
+| Michael Geerts vs Blaydes | Roehampton | 2026-08-18 | 0.59 / 0.58 | `missing_player_id` | player_a_id='GG65', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18geebla) |
+| Billy Blaydes vs Michael Geerts | Roehampton | 2026-08-18 | 0.43 / 0.41 | `missing_player_id` | player_a_id=nan, player_b_id='GG65' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18geebla) |
 | Leonardo Rossi vs Gusic Wan | Roehampton Qualification | 2026-08-16 | 0.81 / 0.78 | `missing_player_id` | player_a_id='R0H6', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16gusros) |
 | Benjamin Gusic Wan vs Marco De Rossi | Roehampton Qualification | 2026-08-16 | 0.21 / 0.19 | `missing_player_id` | player_a_id=nan, player_b_id='DC25' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16gusros) |
 | Viktor Frydrych vs Radu Albot | Roehampton Qualification | 2026-08-16 | 0.39 / 0.07 | `missing_player_id` | player_a_id=nan, player_b_id='A829' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16albfry) |
@@ -14400,6 +14427,8 @@ _Generated 2026-08-18T01:17:26+00:00_
 | Lloyd Harris vs Abdullah Shelbayh | Cancun Qualification | 2026-08-18 | 0.63 / 0.62 | `thin_tournament_history` | 'Cancun Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17harshe) |
 | Alejandro Moro Canas vs Felix Balshaw | Cancun Qualification | 2026-08-18 | 0.73 / 0.72 | `thin_tournament_history` | 'Cancun Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17balmor) |
 | Felix Balshaw vs Alejandro Moro Canas | Cancun Qualification | 2026-08-18 | 0.28 / 0.27 | `thin_tournament_history` | 'Cancun Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17balmor) |
+| Lloyd Harris vs Laslo Djere | Cancun Qualification | 2026-08-18 | 0.94 / 0.61 | `thin_tournament_history` | 'Cancun Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18hardje) |
+| Gauthier Onclin vs Alejandro Moro Canas | Cancun Qualification | 2026-08-18 | 0.92 / 0.49 | `thin_tournament_history` | 'Cancun Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18oncmor) |
 | Luca Nardi vs Hugo Grenier | Chisinau | 2026-05-25 | 0.80 / 0.78 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25grenar) |
 | Hugo Grenier vs Luca Nardi | Chisinau | 2026-05-25 | 0.22 / 0.20 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25grenar) |
 | Elias Ymer vs Saba Purtseladze | Chisinau | 2026-05-25 | 0.85 / 0.81 | `thin_tournament_history` | 'Chisinau' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may25ymepur) |
@@ -17693,6 +17722,12 @@ _Generated 2026-08-18T01:17:26+00:00_
 | Dan Martin vs Lautaro Midon | Kingston | 2026-08-17 | 0.32 / 0.31 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17marmid) |
 | Elias Ymer vs Paul Jubb | Kingston | 2026-08-17 | 0.52 / 0.51 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17ymejub) |
 | Paul Jubb vs Elias Ymer | Kingston | 2026-08-17 | 0.49 / 0.48 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17ymejub) |
+| Juan Carlos Prado Angelo vs Juan Pablo Ficovich | Kingston | 2026-08-18 | 0.63 / 0.60 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18prafic) |
+| Juan Pablo Ficovich vs Juan Carlos Prado Angelo | Kingston | 2026-08-18 | 0.39 / 0.37 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18prafic) |
+| Liam Draxl vs Andres Andrade | Kingston | 2026-08-18 | 0.71 / 0.66 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18draand) |
+| Andres Andrade vs Liam Draxl | Kingston | 2026-08-18 | 0.33 / 0.29 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18draand) |
+| Daniil Glinka vs Florent Bax | Kingston | 2026-08-18 | 0.60 / 0.58 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18glibax) |
+| Florent Bax vs Daniil Glinka | Kingston | 2026-08-18 | 0.43 / 0.40 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18glibax) |
 | Lorenzo Claverie vs Miguel Tobon | Kingston Qualification | 2026-08-16 | 0.38 / 0.21 | `tournament_not_in_tml` | tournament='Kingston Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16tobcla) |
 | Garrett Johns vs Guillaume Dalmasso | Kingston Qualification | 2026-08-16 | 0.76 / 0.73 | `tournament_not_in_tml` | tournament='Kingston Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16johdal) |
 | Guillaume Dalmasso vs Garrett Johns | Kingston Qualification | 2026-08-16 | 0.27 / 0.25 | `tournament_not_in_tml` | tournament='Kingston Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16johdal) |
@@ -18913,6 +18948,10 @@ _Generated 2026-08-18T01:17:26+00:00_
 | Tristan Boyer vs James Watt | Quebec City Qualification | 2026-08-17 | 0.71 / 0.70 | `tournament_not_in_tml` | tournament='Quebec City Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17boywat) |
 | Stefanos Sakellaridis vs Karl Poling | Quebec City Qualification | 2026-08-17 | 0.87 / 0.86 | `tournament_not_in_tml` | tournament='Quebec City Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17sakpol) |
 | Karl Poling vs Stefanos Sakellaridis | Quebec City Qualification | 2026-08-17 | 0.13 / 0.12 | `tournament_not_in_tml` | tournament='Quebec City Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17sakpol) |
+| James Watt vs Ugo Blanchet | Quebec City Qualification | 2026-08-18 | 0.35 / 0.34 | `tournament_not_in_tml` | tournament='Quebec City Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18watbla) |
+| Ugo Blanchet vs James Watt | Quebec City Qualification | 2026-08-18 | 0.67 / 0.65 | `tournament_not_in_tml` | tournament='Quebec City Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18watbla) |
+| Soonwoo Kwon vs Andrea Guerrieri | Quebec City Qualification | 2026-08-18 | 0.78 / 0.75 | `tournament_not_in_tml` | tournament='Quebec City Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18kwongue) |
+| Andrea Guerrieri vs Soonwoo Kwon | Quebec City Qualification | 2026-08-18 | 0.25 / 0.22 | `tournament_not_in_tml` | tournament='Quebec City Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18kwongue) |
 | Emile Hudd vs Alastair Gray | Roehampton | 2026-08-17 | 0.29 / 0.28 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17hudgra) |
 | Alastair Gray vs Emile Hudd | Roehampton | 2026-08-17 | 0.72 / 0.70 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17hudgra) |
 | Viktor Durasovic vs Manas Dhamne | Roehampton | 2026-08-17 | 0.43 / 0.42 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17durdha) |
@@ -18969,6 +19008,23 @@ _Generated 2026-08-18T01:17:26+00:00_
 | Ivan Ivanov vs Elmer Moller | Roehampton | 2026-08-18 | 0.29 / 0.28 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18moliva) |
 | Alec Deckers vs Patrick Brady | Roehampton | 2026-08-18 | 0.41 / 0.39 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18decbra) |
 | Patrick Brady vs Alec Deckers | Roehampton | 2026-08-18 | 0.61 / 0.58 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18decbra) |
+| Yuta Shimizu vs Anton Matusevich | Roehampton | 2026-08-18 | 0.46 / 0.45 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18shimat) |
+| Anton Matusevich vs Yuta Shimizu | Roehampton | 2026-08-18 | 0.56 / 0.55 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18shimat) |
+| Filip Peliwo vs Charles Broom | Roehampton | 2026-08-18 | 0.10 / 0.09 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18pelbro) |
+| Charles Broom vs Filip Peliwo | Roehampton | 2026-08-18 | 0.90 / 0.89 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18pelbro) |
+| Fares Zakaria vs Alex Rybakov | Roehampton | 2026-08-18 | 0.22 / 0.20 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18zakryb) |
+| Alex Rybakov vs Fares Zakaria | Roehampton | 2026-08-18 | 0.80 / 0.77 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18zakryb) |
+| Lui Maxted vs Matteo Martineau | Roehampton | 2026-08-18 | 0.52 / 0.51 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18marmax) |
+| Matteo Martineau vs Lui Maxted | Roehampton | 2026-08-18 | 0.48 / 0.47 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18marmax) |
+| Matheus Pucinelli De Almeida vs Peter Makk | Roehampton | 2026-08-18 | 0.60 / 0.58 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18pdamak) |
+| Oliver Tarvet vs John Echeverria | Roehampton | 2026-08-18 | 0.89 / 0.86 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18echtar) |
+| John Echeverria vs Oliver Tarvet | Roehampton | 2026-08-18 | 0.12 / 0.11 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18echtar) |
+| Constantin Bittoun Kouzmine vs Radu Albot | Roehampton | 2026-08-18 | 0.44 / 0.41 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18albbit) |
+| Radu Albot vs Constantin Bittoun Kouzmine | Roehampton | 2026-08-18 | 0.59 / 0.56 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18albbit) |
+| Elmer Moller vs Ivan Ivanov | Roehampton | 2026-08-18 | 0.72 / 0.71 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18moliva) |
+| Ivan Ivanov vs Elmer Moller | Roehampton | 2026-08-18 | 0.29 / 0.28 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18moliva) |
+| Alec Deckers vs Patrick Brady | Roehampton | 2026-08-18 | 0.41 / 0.39 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18decbra) |
+| Patrick Brady vs Alec Deckers | Roehampton | 2026-08-18 | 0.61 / 0.59 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18decbra) |
 | Yuta Shimizu vs Anton Matusevich | Roehampton | 2026-08-18 | 0.46 / 0.45 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18shimat) |
 | Anton Matusevich vs Yuta Shimizu | Roehampton | 2026-08-18 | 0.56 / 0.55 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18shimat) |
 | Filip Peliwo vs Charles Broom | Roehampton | 2026-08-18 | 0.10 / 0.09 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18pelbro) |
@@ -19470,6 +19526,30 @@ _Generated 2026-08-18T01:17:26+00:00_
 | Murkel Dellien vs Ryan Nijboer | Sion | 2026-08-17 | 0.45 / 0.44 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17devnij) |
 | Max Dahlin vs Tommaso Compagnucci | Sion | 2026-08-17 | 0.59 / 0.58 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17comdah) |
 | Tommaso Compagnucci vs Max Dahlin | Sion | 2026-08-17 | 0.43 / 0.42 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17comdah) |
+| Jeffrey Von Der Schulenburg vs Georgii Kravchenko | Sion | 2026-08-18 | 0.32 / 0.31 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18kravon) |
+| Georgii Kravchenko vs Jeffrey Von Der Schulenburg | Sion | 2026-08-18 | 0.68 / 0.67 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18kravon) |
+| Marvin Moeller vs Dimitar Kuzmanov | Sion | 2026-08-18 | 0.58 / 0.57 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18kuzmoe) |
+| Dimitar Kuzmanov vs Marvin Moeller | Sion | 2026-08-18 | 0.43 / 0.42 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18kuzmoe) |
+| Patrick Zahraj vs Mika Brunold | Sion | 2026-08-18 | 0.30 / 0.29 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18bruzah) |
+| Mika Brunold vs Patrick Zahraj | Sion | 2026-08-18 | 0.72 / 0.70 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18bruzah) |
+| Dominic Stricker vs Raphael Perot | Sion | 2026-08-18 | 0.67 / 0.66 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18strper) |
+| Raphael Perot vs Dominic Stricker | Sion | 2026-08-18 | 0.34 / 0.33 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18strper) |
+| Luca Staeheli vs Andrey Chepelev | Sion | 2026-08-18 | 0.53 / 0.52 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18stache) |
+| Andrey Chepelev vs Luca Staeheli | Sion | 2026-08-18 | 0.48 / 0.47 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18stache) |
+| Juan Estevez vs Geoffrey Blancaneaux | Sion | 2026-08-17 | 0.38 / 0.36 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17blaest) |
+| Geoffrey Blancaneaux vs Juan Estevez | Sion | 2026-08-17 | 0.63 / 0.62 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17blaest) |
+| Johan Nikles vs Henry Bernet | Sion | 2026-08-17 | 0.30 / 0.29 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17nikber) |
+| Henry Bernet vs Johan Nikles | Sion | 2026-08-17 | 0.71 / 0.70 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17nikber) |
+| Lucio Ratti vs Ognjen Milic | Sion | 2026-08-17 | 0.52 / 0.50 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17milrat) |
+| Ognjen Milic vs Lucio Ratti | Sion | 2026-08-17 | 0.50 / 0.48 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17milrat) |
+| Facundo Mena vs Juan Manuel La Serna | Sion | 2026-08-17 | 0.56 / 0.54 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17menla) |
+| Juan Manuel La Serna vs Facundo Mena | Sion | 2026-08-17 | 0.46 / 0.44 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17menla) |
+| Petr Nesterov vs Calvin Hemery | Sion | 2026-08-17 | 0.56 / 0.55 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17neshem) |
+| Calvin Hemery vs Petr Nesterov | Sion | 2026-08-17 | 0.45 / 0.44 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17neshem) |
+| Ryan Nijboer vs Hugo Dellien | Sion | 2026-08-17 | 0.56 / 0.55 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17devnij) |
+| Murkel Dellien vs Ryan Nijboer | Sion | 2026-08-17 | 0.45 / 0.44 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17devnij) |
+| Max Dahlin vs Tommaso Compagnucci | Sion | 2026-08-17 | 0.55 / 0.54 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17comdah) |
+| Tommaso Compagnucci vs Max Dahlin | Sion | 2026-08-17 | 0.46 / 0.45 | `tournament_not_in_tml` | tournament='Sion' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17comdah) |
 | Gerard Campana Lee vs Franco Ribero | Sion Qualification | 2026-08-16 | 0.82 / 0.62 | `tournament_not_in_tml` | tournament='Sion Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16camrib) |
 | Christopher Papa vs Nino Ehrenschneider | Sion Qualification | 2026-08-16 | 0.24 / 0.22 | `tournament_not_in_tml` | tournament='Sion Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16ehrpap) |
 | Nino Ehrenschneider vs Christopher Papa | Sion Qualification | 2026-08-16 | 0.78 / 0.76 | `tournament_not_in_tml` | tournament='Sion Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16ehrpap) |
@@ -19591,6 +19671,8 @@ _Generated 2026-08-18T01:17:26+00:00_
 | Gerard Campana Lee vs Theo Papamalamis | Sion Qualification | 2026-08-17 | 0.99 / 0.98 | `tournament_not_in_tml` | tournament='Sion Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17campap) |
 | Kai Wehnelt vs Nino Ehrenschneider | Sion Qualification | 2026-08-17 | 0.59 / 0.58 | `tournament_not_in_tml` | tournament='Sion Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17ehrweh) |
 | Nino Ehrenschneider vs Kai Wehnelt | Sion Qualification | 2026-08-17 | 0.42 / 0.41 | `tournament_not_in_tml` | tournament='Sion Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17ehrweh) |
+| Kai Wehnelt vs Nino Ehrenschneider | Sion Qualification | 2026-08-17 | 0.59 / 0.58 | `tournament_not_in_tml` | tournament='Sion Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17ehrweh) |
+| Nino Ehrenschneider vs Kai Wehnelt | Sion Qualification | 2026-08-17 | 0.42 / 0.40 | `tournament_not_in_tml` | tournament='Sion Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17ehrweh) |
 | Kai Wehnelt vs Nino Ehrenschneider | Sion Qualification | 2026-08-17 | 0.59 / 0.58 | `tournament_not_in_tml` | tournament='Sion Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17ehrweh) |
 | Nino Ehrenschneider vs Kai Wehnelt | Sion Qualification | 2026-08-17 | 0.42 / 0.40 | `tournament_not_in_tml` | tournament='Sion Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17ehrweh) |
 | Braden Shick vs Andrej Martin | nan | 2026-05-31 | 0.78 / 0.60 | `tournament_not_in_tml` | tournament=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may31shimar) |
@@ -19772,6 +19854,8 @@ _Generated 2026-08-18T01:17:26+00:00_
 | Evan King vs Tyler Zink | Brownsburg Qualification | 2026-08-09 | 0.64 / 0.06 | `wide_spread` | spread=0.58 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug09zinkin) |
 | Hugo Grenier vs Moez Echargui | Cancun Qualification | 2026-08-18 | 0.95 / 0.05 | `wide_spread` | spread=0.90 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17echgre) |
 | Moez Echargui vs Hugo Grenier | Cancun Qualification | 2026-08-18 | 0.95 / 0.05 | `wide_spread` | spread=0.90 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17echgre) |
+| Laslo Djere vs Lloyd Harris | Cancun Qualification | 2026-08-18 | 0.92 / 0.17 | `wide_spread` | spread=0.75 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18hardje) |
+| Alejandro Moro Canas vs Gauthier Onclin | Cancun Qualification | 2026-08-18 | 0.92 / 0.37 | `wide_spread` | spread=0.55 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18oncmor) |
 | Manuel Mazza vs Lorenzo Carboni | Cattolica Qualification | 2026-06-07 | 0.96 / 0.04 | `wide_spread` | spread=0.92 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07mazcar) |
 | Lorenzo Carboni vs Manuel Mazza | Cattolica Qualification | 2026-06-07 | 0.96 / 0.04 | `wide_spread` | spread=0.92 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07mazcar) |
 | Petr Nesterov vs Michele Mecarelli | Cattolica Qualification | 2026-06-07 | 0.95 / 0.04 | `wide_spread` | spread=0.91 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun07nesmec) |
