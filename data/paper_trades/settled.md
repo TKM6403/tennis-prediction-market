@@ -1,12 +1,13 @@
-# Settled paper bets (706)
+# Settled paper bets (707)
 
-_Generated 2026-08-18T06:47:56+00:00_
+_Generated 2026-08-18T09:38:38+00:00_
 
-**Wins:** 238 / 706  (33.7%)  
-**Net PnL (per contract):** -29.255
+**Wins:** 238 / 707  (33.7%)  
+**Net PnL (per contract):** -29.662
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Matias Soto (YES) vs Rudolf Molleker | Prague | 2026-08-18 | YES Matias Soto | 0.39 | 0.546 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18sotmol) |
 | Marek Gengel (YES) vs Juan Bautista Torres | Prague | 2026-08-17 | YES Marek Gengel | 0.20 | 0.396 | ✗ | -0.211 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17gentor) |
 | Miguel Damas (YES) vs Kimmer Coppejans | Prague | 2026-08-17 | YES Miguel Damas | 0.31 | 0.408 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17damcop) |
 | Cezar Cretu (NO) vs Thomas Faurel | Prague | 2026-08-17 | NO Cezar Cretu | 0.50 | 0.568 | ✓ | +0.482 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17crefau) |
