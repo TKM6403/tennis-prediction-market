@@ -1,6 +1,6 @@
-# Pending paper bets (10)
+# Pending paper bets (12)
 
-_Generated 2026-08-17T21:30:40+00:00_
+_Generated 2026-08-18T01:17:26+00:00_
 
 | Match | Tournament | Date | Bet | Cost | Theo | Edge | Fee | Market |
 |---|---|---|---|---|---|---|---|---|
@@ -13,4 +13,6 @@ _Generated 2026-08-17T21:30:40+00:00_
 | **Pablo Carreno Busta** (NO) vs Jaume Munar | Valencia | 2026-05-15 | NO Pablo Carreno Busta | 0.44 | 0.549 | +0.109 | 0.0172 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may15carmun) |
 | **Saba Purtseladze** (YES) vs Andrej Martin | Prague Qualification | 2026-08-16 | YES Saba Purtseladze | 0.20 | 0.285 | +0.085 | 0.0112 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16marpur) |
 | **Nikoloz Basilashvili** (YES) vs Laslo Djere | San Marino | 2026-07-27 | YES Nikoloz Basilashvili | 0.34 | 0.421 | +0.081 | 0.0157 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jul27djebas) |
+| **Andrej Martin** (YES) vs Filip Cristian Jianu | Prague | 2026-08-18 | YES Andrej Martin | 0.45 | 0.526 | +0.076 | 0.0173 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18jiamar) |
 | **Philip Sekulic** (YES) vs Mitchell Krueger | Little Rock | 2026-05-26 | YES Philip Sekulic | 0.38 | 0.450 | +0.070 | 0.0165 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26may26sekkru) |
+| **Hynek Barton** (YES) vs Chun-Hsin Tseng | Prague | 2026-08-18 | YES Hynek Barton | 0.55 | 0.609 | +0.059 | 0.0173 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18tsebar) |
