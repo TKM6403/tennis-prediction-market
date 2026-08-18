@@ -1,16 +1,16 @@
-# Dropped markets (20622)
+# Dropped markets (20670)
 
-_Generated 2026-08-18T15:35:57+00:00_
+_Generated 2026-08-18T18:45:01+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `low_player_coverage` | 5791 |
-| `tournament_not_in_tml` | 4629 |
-| `missing_player_id` | 3504 |
+| `low_player_coverage` | 5794 |
+| `tournament_not_in_tml` | 4655 |
+| `missing_player_id` | 3513 |
 | `duplicate_match` | 2940 |
-| `thin_tournament_history` | 1620 |
+| `thin_tournament_history` | 1630 |
 | `below_min_edge` | 1084 |
 | `wide_spread` | 468 |
 | `loose_mirror_sum` | 378 |
@@ -5472,6 +5472,8 @@ _Generated 2026-08-18T15:35:57+00:00_
 | Seongchan Hong vs Henrique Rocha | Cancun | 2026-08-19 | 0.26 / 0.24 | `low_player_coverage` | cov_a=51 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18rochon) |
 | Henrique Rocha vs Seongchan Hong | Cancun | 2026-08-19 | 0.76 / 0.74 | `low_player_coverage` | cov_a=51 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18rochon) |
 | Seongchan Hong vs Henrique Rocha | Cancun | 2026-08-19 | 0.25 / 0.24 | `low_player_coverage` | cov_a=51 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18rochon) |
+| Henrique Rocha vs Seongchan Hong | Cancun | 2026-08-19 | 0.76 / 0.74 | `low_player_coverage` | cov_a=51 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18rochon) |
+| Seongchan Hong vs Henrique Rocha | Cancun | 2026-08-19 | 0.25 / 0.24 | `low_player_coverage` | cov_a=51 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18rochon) |
 | Samuel Heredia vs Laslo Djere | Cancun Qualification | 2026-08-18 | 0.10 / 0.07 | `low_player_coverage` | cov_a=10 cov_b=34 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17herdje) |
 | Laslo Djere vs Samuel Heredia | Cancun Qualification | 2026-08-18 | 0.93 / 0.88 | `low_player_coverage` | cov_a=10 cov_b=34 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17herdje) |
 | Alan Magadan vs David Jorda Sanchis | Cancun Qualification | 2026-08-18 | 0.56 / 0.52 | `low_player_coverage` | cov_a=13 cov_b=41 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17jormag) |
@@ -5503,6 +5505,7 @@ _Generated 2026-08-18T15:35:57+00:00_
 | David Jorda Sanchis vs Alan Magadan | Cancun Qualification | 2026-08-18 | 0.36 / 0.35 | `low_player_coverage` | cov_a=13 cov_b=41 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17jormag) |
 | Felipe Meligeni Alves vs Ulises Blanch | Cancun Qualification | 2026-08-18 | 0.62 / 0.58 | `low_player_coverage` | cov_a=14 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18blamel) |
 | Felipe Meligeni Alves vs Ulises Blanch | Cancun Qualification | 2026-08-18 | 0.61 / 0.59 | `low_player_coverage` | cov_a=14 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18blamel) |
+| Felipe Meligeni Alves vs Ulises Blanch | Cancun Qualification | 2026-08-18 | 0.61 / 0.60 | `low_player_coverage` | cov_a=14 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18blamel) |
 | Felipe Meligeni Alves vs Ulises Blanch | Cancun Qualification | 2026-08-18 | 0.61 / 0.60 | `low_player_coverage` | cov_a=14 cov_b=0 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18blamel) |
 | Timo Legout vs Blaise Bicknell | Cary | 2026-07-01 | 0.50 / 0.46 | `low_player_coverage` | cov_a=5 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30legbic) |
 | Blaise Bicknell vs Timo Legout | Cary | 2026-07-01 | 0.54 / 0.50 | `low_player_coverage` | cov_a=5 cov_b=31 (min 15) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30legbic) |
@@ -10918,6 +10921,9 @@ _Generated 2026-08-18T15:35:57+00:00_
 | Dali Blanch vs Meligeni Alves | Cancun Qualification | 2026-08-18 | 0.40 / 0.39 | `missing_player_id` | player_a_id='B0JP', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18blamel) |
 | Rio Noguchi vs Alvarez Valdes | Cancun Qualification | 2026-08-18 | 0.65 / 0.64 | `missing_player_id` | player_a_id='N09U', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17alvanog) |
 | Luis Carlos Alvarez Valdes vs Rio Noguchi | Cancun Qualification | 2026-08-18 | 0.37 / 0.35 | `missing_player_id` | player_a_id=nan, player_b_id='N09U' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17alvanog) |
+| Dali Blanch vs Meligeni Alves | Cancun Qualification | 2026-08-18 | 0.40 / 0.39 | `missing_player_id` | player_a_id='B0JP', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18blamel) |
+| Rio Noguchi vs Alvarez Valdes | Cancun Qualification | 2026-08-18 | 0.65 / 0.63 | `missing_player_id` | player_a_id='N09U', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17alvanog) |
+| Luis Carlos Alvarez Valdes vs Rio Noguchi | Cancun Qualification | 2026-08-18 | 0.37 / 0.35 | `missing_player_id` | player_a_id=nan, player_b_id='N09U' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17alvanog) |
 | Rei Sakamoto vs Leroux | Cary | 2026-07-01 | 0.94 / 0.91 | `missing_player_id` | player_a_id='S0UV', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30sakler) |
 | Jules Leroux vs Pedro Sakamoto | Cary | 2026-07-01 | 0.09 / 0.06 | `missing_player_id` | player_a_id=nan, player_b_id='SL94' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30sakler) |
 | Rei Sakamoto vs Leroux | Cary | 2026-07-01 | 0.92 / 0.91 | `missing_player_id` | player_a_id='S0UV', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun30sakler) |
@@ -11673,6 +11679,11 @@ _Generated 2026-08-18T15:35:57+00:00_
 | Kenta Miyoshi (b. 2004) vs Kenta Miyoshi | Kingston | 2026-08-18 | 0.53 / 0.52 | `missing_player_id` | player_a_id=nan, player_b_id='M0RX' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18schmiy) |
 | Tyler Zink vs Andrade Da Silva | Kingston | 2026-08-18 | 0.50 / 0.49 | `missing_player_id` | player_a_id='Z0AK', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18andzin) |
 | Garrett Johns vs Saraiva Dos Santos | Kingston | 2026-08-18 | 0.68 / 0.67 | `missing_player_id` | player_a_id='J0B5', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18johsar) |
+| Edward Winter vs Chin | Kingston | 2026-08-19 | 0.95 / 0.92 | `missing_player_id` | player_a_id='W0C4', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18chiwin) |
+| John Chin vs Edward Winter | Kingston | 2026-08-19 | 0.08 / 0.05 | `missing_player_id` | player_a_id=nan, player_b_id='W0C4' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18chiwin) |
+| Kenta Miyoshi (b. 2004) vs Kenta Miyoshi | Kingston | 2026-08-18 | 0.54 / 0.53 | `missing_player_id` | player_a_id=nan, player_b_id='M0RX' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18schmiy) |
+| Tyler Zink vs Andrade Da Silva | Kingston | 2026-08-18 | 0.52 / 0.50 | `missing_player_id` | player_a_id='Z0AK', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18andzin) |
+| Garrett Johns vs Saraiva Dos Santos | Kingston | 2026-08-18 | 0.77 / 0.76 | `missing_player_id` | player_a_id='J0B5', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18johsar) |
 | Lev Seidman vs Ivan Marrero Curbelo | Kingston Qualification | 2026-08-16 | 0.95 / 0.05 | `missing_player_id` | player_a_id=nan, player_b_id='M09M' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16marsei) |
 | Ivan Marrero Curbelo vs Seidman | Kingston Qualification | 2026-08-16 | 0.95 / 0.05 | `missing_player_id` | player_a_id='M09M', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16marsei) |
 | Pietro Fellin vs Andrade Da Silva | Kingston Qualification | 2026-08-16 | 0.95 / 0.05 | `missing_player_id` | player_a_id='F0BP', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16andfel) |
@@ -12661,6 +12672,7 @@ _Generated 2026-08-18T15:35:57+00:00_
 | Andrej Martin vs Dutra Da Silva | Prostejov Qualification | 2026-06-01 | 0.58 / 0.55 | `missing_player_id` | player_a_id='MF35', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01dutmar) |
 | Andrej Martin vs Dutra Da Silva | Prostejov Qualification | 2026-06-01 | 0.56 / 0.54 | `missing_player_id` | player_a_id='MF35', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01dutmar) |
 | Dane Sweeny vs De Jong | Quebec City | 2026-08-18 | 0.36 / 0.35 | `missing_player_id` | player_a_id='S0IA', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18dejswe) |
+| Dane Sweeny vs De Jong | Quebec City | 2026-08-18 | 0.35 / 0.34 | `missing_player_id` | player_a_id='S0IA', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18dejswe) |
 | Dane Sweeny vs De Jong | Quebec City | 2026-08-18 | 0.35 / 0.34 | `missing_player_id` | player_a_id='S0IA', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18dejswe) |
 | Dane Sweeny vs De Jong | Quebec City | 2026-08-18 | 0.35 / 0.34 | `missing_player_id` | player_a_id='S0IA', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18dejswe) |
 | Maxime St-Hilaire vs Taro Daniel | Quebec City Qualification | 2026-08-17 | 0.06 / 0.04 | `missing_player_id` | player_a_id=nan, player_b_id='DA81' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17stdan) |
@@ -14508,6 +14520,12 @@ _Generated 2026-08-18T15:35:57+00:00_
 | Dalibor Svrcina vs Stan Wawrinka | Cancun | 2026-08-19 | 0.66 / 0.65 | `thin_tournament_history` | 'Cancun' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18svrwaw) |
 | Roman Safiullin vs Sebastian Ofner | Cancun | 2026-08-18 | 0.59 / 0.58 | `thin_tournament_history` | 'Cancun' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18safofn) |
 | Sebastian Ofner vs Roman Safiullin | Cancun | 2026-08-18 | 0.42 / 0.41 | `thin_tournament_history` | 'Cancun' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18safofn) |
+| Pablo Llamas Ruiz vs Francisco Comesana | Cancun | 2026-08-19 | 0.52 / 0.50 | `thin_tournament_history` | 'Cancun' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18llacom) |
+| Francisco Comesana vs Pablo Llamas Ruiz | Cancun | 2026-08-19 | 0.50 / 0.48 | `thin_tournament_history` | 'Cancun' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18llacom) |
+| Stan Wawrinka vs Dalibor Svrcina | Cancun | 2026-08-19 | 0.35 / 0.34 | `thin_tournament_history` | 'Cancun' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18svrwaw) |
+| Dalibor Svrcina vs Stan Wawrinka | Cancun | 2026-08-19 | 0.66 / 0.65 | `thin_tournament_history` | 'Cancun' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18svrwaw) |
+| Roman Safiullin vs Sebastian Ofner | Cancun | 2026-08-18 | 0.58 / 0.57 | `thin_tournament_history` | 'Cancun' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18safofn) |
+| Sebastian Ofner vs Roman Safiullin | Cancun | 2026-08-18 | 0.43 / 0.42 | `thin_tournament_history` | 'Cancun' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18safofn) |
 | Alejandro Moro Canas vs Felix Balshaw | Cancun Qualification | 2026-08-18 | 0.56 / 0.50 | `thin_tournament_history` | 'Cancun Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17balmor) |
 | Felix Balshaw vs Alejandro Moro Canas | Cancun Qualification | 2026-08-18 | 0.47 / 0.42 | `thin_tournament_history` | 'Cancun Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17balmor) |
 | Gauthier Onclin vs James McCabe | Cancun Qualification | 2026-08-17 | 0.67 / 0.64 | `thin_tournament_history` | 'Cancun Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17oncmcc) |
@@ -14555,6 +14573,10 @@ _Generated 2026-08-18T15:35:57+00:00_
 | Gauthier Onclin vs Alejandro Moro Canas | Cancun Qualification | 2026-08-18 | 0.66 / 0.65 | `thin_tournament_history` | 'Cancun Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18oncmor) |
 | Alejandro Moro Canas vs Gauthier Onclin | Cancun Qualification | 2026-08-18 | 0.35 / 0.34 | `thin_tournament_history` | 'Cancun Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18oncmor) |
 | Lloyd Harris vs Laslo Djere | Cancun Qualification | 2026-08-18 | 0.62 / 0.61 | `thin_tournament_history` | 'Cancun Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18hardje) |
+| Laslo Djere vs Lloyd Harris | Cancun Qualification | 2026-08-18 | 0.37 / 0.36 | `thin_tournament_history` | 'Cancun Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18hardje) |
+| Gauthier Onclin vs Alejandro Moro Canas | Cancun Qualification | 2026-08-18 | 0.61 / 0.60 | `thin_tournament_history` | 'Cancun Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18oncmor) |
+| Alejandro Moro Canas vs Gauthier Onclin | Cancun Qualification | 2026-08-18 | 0.39 / 0.38 | `thin_tournament_history` | 'Cancun Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18oncmor) |
+| Lloyd Harris vs Laslo Djere | Cancun Qualification | 2026-08-18 | 0.63 / 0.62 | `thin_tournament_history` | 'Cancun Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18hardje) |
 | Laslo Djere vs Lloyd Harris | Cancun Qualification | 2026-08-18 | 0.37 / 0.36 | `thin_tournament_history` | 'Cancun Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18hardje) |
 | Gauthier Onclin vs Alejandro Moro Canas | Cancun Qualification | 2026-08-18 | 0.61 / 0.60 | `thin_tournament_history` | 'Cancun Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18oncmor) |
 | Alejandro Moro Canas vs Gauthier Onclin | Cancun Qualification | 2026-08-18 | 0.39 / 0.38 | `thin_tournament_history` | 'Cancun Qualification' has 1 years in TML (need 3) | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18oncmor) |
@@ -17924,6 +17946,17 @@ _Generated 2026-08-18T15:35:57+00:00_
 | Andres Andrade vs Liam Draxl | Kingston | 2026-08-18 | 0.58 / 0.57 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18draand) |
 | Daniil Glinka vs Florent Bax | Kingston | 2026-08-18 | 0.48 / 0.43 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18glibax) |
 | Florent Bax vs Daniil Glinka | Kingston | 2026-08-18 | 0.56 / 0.52 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18glibax) |
+| Joel Schwaerzler vs Kenta Miyoshi | Kingston | 2026-08-18 | 0.47 / 0.46 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18schmiy) |
+| Lucas Andrade Da Silva vs Tyler Zink | Kingston | 2026-08-18 | 0.50 / 0.48 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18andzin) |
+| Benjamin Willwerth vs Gonzalo Bueno | Kingston | 2026-08-18 | 0.28 / 0.27 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18wilbue) |
+| Gonzalo Bueno vs Benjamin Willwerth | Kingston | 2026-08-18 | 0.73 / 0.72 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18wilbue) |
+| Jay Clarke vs Clement Chidekh | Kingston | 2026-08-18 | 0.33 / 0.31 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18clachi) |
+| Clement Chidekh vs Jay Clarke | Kingston | 2026-08-18 | 0.69 / 0.68 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18clachi) |
+| Paulo Andre Saraiva Dos Santos vs Garrett Johns | Kingston | 2026-08-18 | 0.24 / 0.23 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18johsar) |
+| Evan Zhu vs Pedro Martinez | Kingston | 2026-08-18 | 0.26 / 0.25 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18zhumar) |
+| Pedro Martinez vs Evan Zhu | Kingston | 2026-08-18 | 0.75 / 0.74 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18zhumar) |
+| Valentin Royer vs Luis "Guto" Miguel | Kingston | 2026-08-18 | 0.99 / 0.98 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18roymig) |
+| Luis "Guto" Miguel vs Valentin Royer | Kingston | 2026-08-18 | 0.04 / 0.02 | `tournament_not_in_tml` | tournament='Kingston' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18roymig) |
 | Lorenzo Claverie vs Miguel Tobon | Kingston Qualification | 2026-08-16 | 0.38 / 0.21 | `tournament_not_in_tml` | tournament='Kingston Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16tobcla) |
 | Garrett Johns vs Guillaume Dalmasso | Kingston Qualification | 2026-08-16 | 0.76 / 0.73 | `tournament_not_in_tml` | tournament='Kingston Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16johdal) |
 | Guillaume Dalmasso vs Garrett Johns | Kingston Qualification | 2026-08-16 | 0.27 / 0.25 | `tournament_not_in_tml` | tournament='Kingston Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16johdal) |
@@ -19104,6 +19137,17 @@ _Generated 2026-08-18T15:35:57+00:00_
 | Jurij Rodionov vs Pedro Sakamoto | Quebec City | 2026-08-18 | 0.45 / 0.44 | `tournament_not_in_tml` | tournament='Quebec City' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18rodsak) |
 | Andrea Pellegrino vs Nishesh Basavareddy | Quebec City | 2026-08-18 | 0.27 / 0.26 | `tournament_not_in_tml` | tournament='Quebec City' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18pelbas) |
 | Nishesh Basavareddy vs Andrea Pellegrino | Quebec City | 2026-08-18 | 0.74 / 0.73 | `tournament_not_in_tml` | tournament='Quebec City' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18pelbas) |
+| Justin Boulais vs Benjamin Bonzi | Quebec City | 2026-08-19 | 0.22 / 0.21 | `tournament_not_in_tml` | tournament='Quebec City' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18bonbou) |
+| Benjamin Bonzi vs Justin Boulais | Quebec City | 2026-08-19 | 0.79 / 0.78 | `tournament_not_in_tml` | tournament='Quebec City' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18bonbou) |
+| Alexei Popyrin vs Francesco Maestrelli | Quebec City | 2026-08-19 | 0.71 / 0.70 | `tournament_not_in_tml` | tournament='Quebec City' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18maepop) |
+| Francesco Maestrelli vs Alexei Popyrin | Quebec City | 2026-08-19 | 0.30 / 0.29 | `tournament_not_in_tml` | tournament='Quebec City' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18maepop) |
+| Jesper de Jong vs Dane Sweeny | Quebec City | 2026-08-18 | 0.66 / 0.65 | `tournament_not_in_tml` | tournament='Quebec City' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18dejswe) |
+| Yunchaokete Bu vs Yunchaokete Bu | Quebec City | 2026-08-18 | 0.63 / 0.62 | `tournament_not_in_tml` | tournament='Quebec City' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18budyun) |
+| Nicolai Budkov Kjaer vs Yunchaokete Bu | Quebec City | 2026-08-18 | 0.39 / 0.37 | `tournament_not_in_tml` | tournament='Quebec City' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18budyun) |
+| Rei Sakamoto vs Jurij Rodionov | Quebec City | 2026-08-18 | 0.55 / 0.54 | `tournament_not_in_tml` | tournament='Quebec City' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18rodsak) |
+| Jurij Rodionov vs Pedro Sakamoto | Quebec City | 2026-08-18 | 0.46 / 0.45 | `tournament_not_in_tml` | tournament='Quebec City' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18rodsak) |
+| Andrea Pellegrino vs Nishesh Basavareddy | Quebec City | 2026-08-18 | 0.26 / 0.25 | `tournament_not_in_tml` | tournament='Quebec City' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18pelbas) |
+| Nishesh Basavareddy vs Andrea Pellegrino | Quebec City | 2026-08-18 | 0.75 / 0.74 | `tournament_not_in_tml` | tournament='Quebec City' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18pelbas) |
 | Keegan Smith vs Soonwoo Kwon | Quebec City Qualification | 2026-08-17 | 0.28 / 0.14 | `tournament_not_in_tml` | tournament='Quebec City Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17kwonsmi) |
 | Andrea Guerrieri vs Alexander Donski | Quebec City Qualification | 2026-08-17 | 0.72 / 0.33 | `tournament_not_in_tml` | tournament='Quebec City Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17dongue) |
 | Alexander Donski vs Andrea Guerrieri | Quebec City Qualification | 2026-08-17 | 0.32 / 0.14 | `tournament_not_in_tml` | tournament='Quebec City Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17dongue) |
@@ -19211,6 +19255,10 @@ _Generated 2026-08-18T15:35:57+00:00_
 | Ugo Blanchet vs James Watt | Quebec City Qualification | 2026-08-18 | 0.37 / 0.35 | `tournament_not_in_tml` | tournament='Quebec City Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18watbla) |
 | Soonwoo Kwon vs Andrea Guerrieri | Quebec City Qualification | 2026-08-18 | 0.88 / 0.87 | `tournament_not_in_tml` | tournament='Quebec City Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18kwongue) |
 | Andrea Guerrieri vs Soonwoo Kwon | Quebec City Qualification | 2026-08-18 | 0.13 / 0.12 | `tournament_not_in_tml` | tournament='Quebec City Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18kwongue) |
+| Tristan Schoolkate vs Stefanos Sakellaridis | Quebec City Qualification | 2026-08-18 | 0.45 / 0.44 | `tournament_not_in_tml` | tournament='Quebec City Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18saksch) |
+| Stefanos Sakellaridis vs Tristan Schoolkate | Quebec City Qualification | 2026-08-18 | 0.56 / 0.55 | `tournament_not_in_tml` | tournament='Quebec City Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18saksch) |
+| Dusan Lajovic vs Taro Daniel | Quebec City Qualification | 2026-08-18 | 0.71 / 0.70 | `tournament_not_in_tml` | tournament='Quebec City Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18lajdan) |
+| Taro Daniel vs Dusan Lajovic | Quebec City Qualification | 2026-08-18 | 0.30 / 0.29 | `tournament_not_in_tml` | tournament='Quebec City Qualification' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18lajdan) |
 | Emile Hudd vs Alastair Gray | Roehampton | 2026-08-17 | 0.29 / 0.28 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17hudgra) |
 | Alastair Gray vs Emile Hudd | Roehampton | 2026-08-17 | 0.72 / 0.70 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17hudgra) |
 | Viktor Durasovic vs Manas Dhamne | Roehampton | 2026-08-17 | 0.43 / 0.42 | `tournament_not_in_tml` | tournament='Roehampton' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17durdha) |

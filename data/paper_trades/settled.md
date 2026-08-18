@@ -1,12 +1,13 @@
-# Settled paper bets (709)
+# Settled paper bets (710)
 
-_Generated 2026-08-18T15:35:57+00:00_
+_Generated 2026-08-18T18:45:01+00:00_
 
-**Wins:** 238 / 709  (33.6%)  
-**Net PnL (per contract):** -30.697
+**Wins:** 238 / 710  (33.5%)  
+**Net PnL (per contract):** -31.073
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Nerman Fatic (YES) vs Maxim Mrva | Prague | 2026-08-18 | YES Nerman Fatic | 0.36 | 0.547 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18mrvfat) |
 | Andrej Martin (YES) vs Filip Cristian Jianu | Prague | 2026-08-18 | YES Andrej Martin | 0.45 | 0.526 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18jiamar) |
 | Hynek Barton (YES) vs Chun-Hsin Tseng | Prague | 2026-08-18 | YES Hynek Barton | 0.55 | 0.609 | ✗ | -0.567 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18tsebar) |
 | Matias Soto (YES) vs Rudolf Molleker | Prague | 2026-08-18 | YES Matias Soto | 0.39 | 0.546 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18sotmol) |
