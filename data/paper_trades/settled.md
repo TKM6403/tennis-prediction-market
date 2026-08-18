@@ -1,12 +1,13 @@
-# Settled paper bets (707)
+# Settled paper bets (708)
 
-_Generated 2026-08-18T09:38:38+00:00_
+_Generated 2026-08-18T12:49:44+00:00_
 
-**Wins:** 238 / 707  (33.7%)  
-**Net PnL (per contract):** -29.662
+**Wins:** 238 / 708  (33.6%)  
+**Net PnL (per contract):** -30.229
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Hynek Barton (YES) vs Chun-Hsin Tseng | Prague | 2026-08-18 | YES Hynek Barton | 0.55 | 0.609 | ✗ | -0.567 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18tsebar) |
 | Matias Soto (YES) vs Rudolf Molleker | Prague | 2026-08-18 | YES Matias Soto | 0.39 | 0.546 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18sotmol) |
 | Marek Gengel (YES) vs Juan Bautista Torres | Prague | 2026-08-17 | YES Marek Gengel | 0.20 | 0.396 | ✗ | -0.211 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17gentor) |
 | Miguel Damas (YES) vs Kimmer Coppejans | Prague | 2026-08-17 | YES Miguel Damas | 0.31 | 0.408 | ✗ | -0.325 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17damcop) |
