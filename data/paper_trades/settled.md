@@ -1,12 +1,13 @@
-# Settled paper bets (708)
+# Settled paper bets (709)
 
-_Generated 2026-08-18T12:49:44+00:00_
+_Generated 2026-08-18T15:35:57+00:00_
 
-**Wins:** 238 / 708  (33.6%)  
-**Net PnL (per contract):** -30.229
+**Wins:** 238 / 709  (33.6%)  
+**Net PnL (per contract):** -30.697
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Andrej Martin (YES) vs Filip Cristian Jianu | Prague | 2026-08-18 | YES Andrej Martin | 0.45 | 0.526 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18jiamar) |
 | Hynek Barton (YES) vs Chun-Hsin Tseng | Prague | 2026-08-18 | YES Hynek Barton | 0.55 | 0.609 | ✗ | -0.567 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18tsebar) |
 | Matias Soto (YES) vs Rudolf Molleker | Prague | 2026-08-18 | YES Matias Soto | 0.39 | 0.546 | ✗ | -0.407 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18sotmol) |
 | Marek Gengel (YES) vs Juan Bautista Torres | Prague | 2026-08-17 | YES Marek Gengel | 0.20 | 0.396 | ✗ | -0.211 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17gentor) |
