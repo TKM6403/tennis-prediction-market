@@ -1,12 +1,14 @@
-# Settled paper bets (710)
+# Settled paper bets (712)
 
-_Generated 2026-08-19T06:47:24+00:00_
+_Generated 2026-08-19T12:51:00+00:00_
 
-**Wins:** 238 / 710  (33.5%)  
-**Net PnL (per contract):** -31.073
+**Wins:** 239 / 712  (33.6%)  
+**Net PnL (per contract):** -31.124
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Juan Bautista Torres (YES) vs Chun-Hsin Tseng | Prague | 2026-08-19 | YES Juan Bautista Torres | 0.35 | 0.542 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug19tortse) |
+| Jan Kumstat (YES) vs Sumit Nagal | Prague | 2026-08-19 | YES Jan Kumstat | 0.67 | 0.753 | ✓ | +0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug19kumnag) |
 | Nerman Fatic (YES) vs Maxim Mrva | Prague | 2026-08-18 | YES Nerman Fatic | 0.36 | 0.547 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18mrvfat) |
 | Andrej Martin (YES) vs Filip Cristian Jianu | Prague | 2026-08-18 | YES Andrej Martin | 0.45 | 0.526 | ✗ | -0.467 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18jiamar) |
 | Hynek Barton (YES) vs Chun-Hsin Tseng | Prague | 2026-08-18 | YES Hynek Barton | 0.55 | 0.609 | ✗ | -0.567 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18tsebar) |
