@@ -1,12 +1,15 @@
-# Settled paper bets (712)
+# Settled paper bets (715)
 
-_Generated 2026-08-19T12:51:00+00:00_
+_Generated 2026-08-19T21:29:18+00:00_
 
-**Wins:** 239 / 712  (33.6%)  
-**Net PnL (per contract):** -31.124
+**Wins:** 241 / 715  (33.7%)  
+**Net PnL (per contract):** -30.605
 
 | Match | Tournament | Date | Bet | Cost | Theo | Won? | Net PnL | Market |
 |---|---|---|---|---|---|---|---|---|
+| Cezar Cretu (NO) vs Maxim Mrva | Prague | 2026-08-19 | NO Cezar Cretu | 0.38 | 0.551 | ✗ | -0.396 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug19cremrv) |
+| Filip Cristian Jianu (YES) vs Rudolf Molleker | Prague | 2026-08-19 | YES Filip Cristian Jianu | 0.48 | 0.602 | ✓ | +0.503 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug19moljia) |
+| Max Hans Rehberg (YES) vs Kimmer Coppejans | Prague | 2026-08-19 | YES Max Hans Rehberg | 0.57 | 0.650 | ✓ | +0.413 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug19rehcop) |
 | Juan Bautista Torres (YES) vs Chun-Hsin Tseng | Prague | 2026-08-19 | YES Juan Bautista Torres | 0.35 | 0.542 | ✗ | -0.366 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug19tortse) |
 | Jan Kumstat (YES) vs Sumit Nagal | Prague | 2026-08-19 | YES Jan Kumstat | 0.67 | 0.753 | ✓ | +0.315 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug19kumnag) |
 | Nerman Fatic (YES) vs Maxim Mrva | Prague | 2026-08-18 | YES Nerman Fatic | 0.36 | 0.547 | ✗ | -0.376 | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug18mrvfat) |
