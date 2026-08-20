@@ -1,6 +1,6 @@
-# Dropped markets (21045)
+# Dropped markets (21097)
 
-_Generated 2026-08-20T06:49:12+00:00_
+_Generated 2026-08-20T09:40:45+00:00_
 
 ## Summary by reason
 
@@ -8,7 +8,7 @@ _Generated 2026-08-20T06:49:12+00:00_
 |---|---|
 | `low_player_coverage` | 5831 |
 | `tournament_not_in_tml` | 4840 |
-| `missing_player_id` | 3596 |
+| `missing_player_id` | 3648 |
 | `duplicate_match` | 2959 |
 | `thin_tournament_history` | 1668 |
 | `below_min_edge` | 1089 |
@@ -10960,6 +10960,14 @@ _Generated 2026-08-20T06:49:12+00:00_
 | Moise Kouame vs Meligeni Alves | Cancun | 2026-08-20 | 0.55 / 0.54 | `missing_player_id` | player_a_id='K0O4', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug19melkou) |
 | Rodrigo Pacheco Mendez vs Barrios Vera | Cancun | 2026-08-20 | 0.64 / 0.63 | `missing_player_id` | player_a_id='P0J1', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug19pacbar) |
 | Marcelo Tomas Barrios Vera vs Rodrigo Pacheco Mendez | Cancun | 2026-08-20 | 0.37 / 0.36 | `missing_player_id` | player_a_id=nan, player_b_id='P0J1' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug19pacbar) |
+| nan vs nan | Cancun | 2026-08-21 | 0.97 / 0.02 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20harlla) |
+| nan vs nan | Cancun | 2026-08-21 | 0.97 / 0.02 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20harlla) |
+| nan vs nan | Cancun | 2026-08-21 | 0.81 / 0.79 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20magwon) |
+| nan vs nan | Cancun | 2026-08-21 | 0.21 / 0.19 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20magwon) |
+| nan vs nan | Cancun | 2026-08-20 | 0.20 / 0.17 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20rochur) |
+| nan vs nan | Cancun | 2026-08-20 | 0.83 / 0.80 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20rochur) |
+| nan vs nan | Cancun | 2026-08-20 | 0.45 / 0.42 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20koponc) |
+| nan vs nan | Cancun | 2026-08-20 | 0.58 / 0.55 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20koponc) |
 | Luka Pavlovic vs Meligeni Alves | Cancun Qualification | 2026-08-17 | 0.61 / 0.55 | `missing_player_id` | player_a_id='P0AY', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17melpav) |
 | Rio Noguchi vs Alvarez Valdes | Cancun Qualification | 2026-08-18 | 0.65 / 0.63 | `missing_player_id` | player_a_id='N09U', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17alvanog) |
 | Luis Carlos Alvarez Valdes vs Rio Noguchi | Cancun Qualification | 2026-08-18 | 0.38 / 0.35 | `missing_player_id` | player_a_id=nan, player_b_id='N09U' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17alvanog) |
@@ -11770,6 +11778,14 @@ _Generated 2026-08-20T06:49:12+00:00_
 | nan vs nan | Kingston | 2026-08-20 | 0.82 / 0.80 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20roybue) |
 | nan vs nan | Kingston | 2026-08-20 | 0.20 / 0.18 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20roybue) |
 | nan vs nan | Kingston | 2026-08-20 | 0.60 / 0.59 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20glimay) |
+| nan vs nan | Kingston | 2026-08-20 | 0.41 / 0.40 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20glimay) |
+| nan vs nan | Kingston | 2026-08-20 | 0.34 / 0.33 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20chimid) |
+| nan vs nan | Kingston | 2026-08-20 | 0.67 / 0.66 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20chimid) |
+| nan vs nan | Kingston | 2026-08-20 | 0.37 / 0.35 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20pramar) |
+| nan vs nan | Kingston | 2026-08-20 | 0.65 / 0.63 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20pramar) |
+| nan vs nan | Kingston | 2026-08-20 | 0.82 / 0.80 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20roybue) |
+| nan vs nan | Kingston | 2026-08-20 | 0.20 / 0.18 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20roybue) |
+| nan vs nan | Kingston | 2026-08-20 | 0.61 / 0.59 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20glimay) |
 | nan vs nan | Kingston | 2026-08-20 | 0.41 / 0.40 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20glimay) |
 | Lev Seidman vs Ivan Marrero Curbelo | Kingston Qualification | 2026-08-16 | 0.95 / 0.05 | `missing_player_id` | player_a_id=nan, player_b_id='M09M' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16marsei) |
 | Ivan Marrero Curbelo vs Seidman | Kingston Qualification | 2026-08-16 | 0.95 / 0.05 | `missing_player_id` | player_a_id='M09M', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16marsei) |
@@ -12728,6 +12744,14 @@ _Generated 2026-08-20T06:49:12+00:00_
 | nan vs nan | Prague | 2026-08-20 | 0.36 / 0.35 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20krutse) |
 | nan vs nan | Prague | 2026-08-20 | 0.69 / 0.68 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20jiareh) |
 | nan vs nan | Prague | 2026-08-20 | 0.31 / 0.30 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20jiareh) |
+| nan vs nan | Prague | 2026-08-20 | 0.61 / 0.60 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20gompap) |
+| nan vs nan | Prague | 2026-08-20 | 0.41 / 0.40 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20gompap) |
+| nan vs nan | Prague | 2026-08-20 | 0.47 / 0.46 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20mrvkum) |
+| nan vs nan | Prague | 2026-08-20 | 0.55 / 0.54 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20mrvkum) |
+| nan vs nan | Prague | 2026-08-20 | 0.64 / 0.62 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20krutse) |
+| nan vs nan | Prague | 2026-08-20 | 0.38 / 0.37 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20krutse) |
+| nan vs nan | Prague | 2026-08-20 | 0.70 / 0.69 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20jiareh) |
+| nan vs nan | Prague | 2026-08-20 | 0.31 / 0.30 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20jiareh) |
 | Matyas Kozlovsky vs Javier Barranco Cosano | Prague Qualification | 2026-08-16 | 0.13 / 0.09 | `missing_player_id` | player_a_id=nan, player_b_id='BV25' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16kozbar) |
 | Javier Barranco Cosano vs Kozlovsky | Prague Qualification | 2026-08-16 | 0.91 / 0.82 | `missing_player_id` | player_a_id='BV25', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16kozbar) |
 | Vojtech Mares vs Luciano Emanuel Ambrogi | Prague Qualification | 2026-08-16 | 0.07 / 0.04 | `missing_player_id` | player_a_id=nan, player_b_id='A0IK' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16ambmar) |
@@ -12785,6 +12809,18 @@ _Generated 2026-08-20T06:49:12+00:00_
 | nan vs nan | Quebec City | 2026-08-20 | 0.42 / 0.39 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20dejbud) |
 | nan vs nan | Quebec City | 2026-08-20 | 0.61 / 0.59 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20sakvan) |
 | nan vs nan | Quebec City | 2026-08-20 | 0.40 / 0.37 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20sakvan) |
+| nan vs nan | Quebec City | 2026-08-20 | 0.46 / 0.44 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20chodan) |
+| nan vs nan | Quebec City | 2026-08-20 | 0.56 / 0.54 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20chodan) |
+| nan vs nan | Quebec City | 2026-08-20 | 0.54 / 0.52 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20bonkwon) |
+| nan vs nan | Quebec City | 2026-08-20 | 0.48 / 0.46 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20bonkwon) |
+| nan vs nan | Quebec City | 2026-08-20 | 0.61 / 0.59 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20sakvuk) |
+| nan vs nan | Quebec City | 2026-08-20 | 0.41 / 0.39 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20sakvuk) |
+| nan vs nan | Quebec City | 2026-08-20 | 0.68 / 0.66 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20popgas) |
+| nan vs nan | Quebec City | 2026-08-20 | 0.34 / 0.32 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20popgas) |
+| nan vs nan | Quebec City | 2026-08-20 | 0.52 / 0.50 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20dejbud) |
+| nan vs nan | Quebec City | 2026-08-20 | 0.49 / 0.48 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20dejbud) |
+| nan vs nan | Quebec City | 2026-08-20 | 0.59 / 0.58 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20sakvan) |
+| nan vs nan | Quebec City | 2026-08-20 | 0.43 / 0.41 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20sakvan) |
 | Maxime St-Hilaire vs Taro Daniel | Quebec City Qualification | 2026-08-17 | 0.06 / 0.04 | `missing_player_id` | player_a_id=nan, player_b_id='DA81' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17stdan) |
 | Taro Daniel vs St-Hilaire | Quebec City Qualification | 2026-08-17 | 0.95 / 0.94 | `missing_player_id` | player_a_id='DA81', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17stdan) |
 | Maxime St-Hilaire vs Taro Daniel | Quebec City Qualification | 2026-08-17 | 0.01 / 0.00 | `missing_player_id` | player_a_id=nan, player_b_id='DA81' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug17stdan) |
@@ -12913,6 +12949,14 @@ _Generated 2026-08-20T06:49:12+00:00_
 | nan vs nan | Roehampton | 2026-08-20 | 0.40 / 0.39 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20tarbro) |
 | nan vs nan | Roehampton | 2026-08-20 | 0.61 / 0.60 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20maxboi) |
 | nan vs nan | Roehampton | 2026-08-20 | 0.39 / 0.38 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20maxboi) |
+| nan vs nan | Roehampton | 2026-08-20 | 0.75 / 0.74 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20matceb) |
+| nan vs nan | Roehampton | 2026-08-20 | 0.26 / 0.25 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20matceb) |
+| nan vs nan | Roehampton | 2026-08-20 | 0.53 / 0.52 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20geepou) |
+| nan vs nan | Roehampton | 2026-08-20 | 0.48 / 0.47 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20geepou) |
+| nan vs nan | Roehampton | 2026-08-20 | 0.61 / 0.60 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20tarbro) |
+| nan vs nan | Roehampton | 2026-08-20 | 0.42 / 0.41 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20tarbro) |
+| nan vs nan | Roehampton | 2026-08-20 | 0.61 / 0.59 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20maxboi) |
+| nan vs nan | Roehampton | 2026-08-20 | 0.41 / 0.40 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20maxboi) |
 | Leonardo Rossi vs Gusic Wan | Roehampton Qualification | 2026-08-16 | 0.81 / 0.78 | `missing_player_id` | player_a_id='R0H6', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16gusros) |
 | Benjamin Gusic Wan vs Marco De Rossi | Roehampton Qualification | 2026-08-16 | 0.21 / 0.19 | `missing_player_id` | player_a_id=nan, player_b_id='DC25' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16gusros) |
 | Viktor Frydrych vs Radu Albot | Roehampton Qualification | 2026-08-16 | 0.39 / 0.07 | `missing_player_id` | player_a_id=nan, player_b_id='A829' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16albfry) |
@@ -13264,6 +13308,14 @@ _Generated 2026-08-20T06:49:12+00:00_
 | nan vs nan | Sion | 2026-08-20 | 0.31 / 0.30 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20strbru) |
 | nan vs nan | Sion | 2026-08-20 | 0.44 / 0.43 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20comla) |
 | nan vs nan | Sion | 2026-08-20 | 0.57 / 0.56 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20comla) |
+| nan vs nan | Sion | 2026-08-20 | 0.56 / 0.54 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20giukuz) |
+| nan vs nan | Sion | 2026-08-20 | 0.46 / 0.44 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20giukuz) |
+| nan vs nan | Sion | 2026-08-20 | 0.46 / 0.45 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20hasbla) |
+| nan vs nan | Sion | 2026-08-20 | 0.55 / 0.54 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20hasbla) |
+| nan vs nan | Sion | 2026-08-20 | 0.69 / 0.68 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20strbru) |
+| nan vs nan | Sion | 2026-08-20 | 0.32 / 0.31 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20strbru) |
+| nan vs nan | Sion | 2026-08-20 | 0.24 / 0.23 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20comla) |
+| nan vs nan | Sion | 2026-08-20 | 0.77 / 0.76 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug20comla) |
 | Maximilian Neuchrist vs Marti Pujolras | Sion Qualification | 2026-08-16 | 0.92 / 0.04 | `missing_player_id` | player_a_id='N663', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16marneu) |
 | Luca Wiedenmann vs Gaillard | Sion Qualification | 2026-08-16 | 0.94 / 0.05 | `missing_player_id` | player_a_id='W09T', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16wiegai) |
 | Timeo Gaillard vs Luca Wiedenmann | Sion Qualification | 2026-08-16 | 0.92 / 0.04 | `missing_player_id` | player_a_id=nan, player_b_id='W09T' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16wiegai) |
