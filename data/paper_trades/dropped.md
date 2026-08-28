@@ -1,6 +1,6 @@
-# Dropped markets (21261)
+# Dropped markets (21267)
 
-_Generated 2026-08-27T13:55:49+00:00_
+_Generated 2026-08-28T15:08:48+00:00_
 
 ## Summary by reason
 
@@ -8,7 +8,7 @@ _Generated 2026-08-27T13:55:49+00:00_
 |---|---|
 | `low_player_coverage` | 5831 |
 | `tournament_not_in_tml` | 4840 |
-| `missing_player_id` | 3812 |
+| `missing_player_id` | 3818 |
 | `duplicate_match` | 2959 |
 | `thin_tournament_history` | 1668 |
 | `below_min_edge` | 1089 |
@@ -10383,6 +10383,8 @@ _Generated 2026-08-27T13:55:49+00:00_
 | nan vs nan | Augsburg | 2026-08-25 | 0.67 / 0.65 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug25brumas) |
 | nan vs nan | Augsburg | 2026-08-27 | 0.60 / 0.59 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug27cremoe) |
 | nan vs nan | Augsburg | 2026-08-27 | 0.41 / 0.40 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug27cremoe) |
+| nan vs nan | Augsburg | 2026-08-28 | 0.35 / 0.34 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug28crekop) |
+| nan vs nan | Augsburg | 2026-08-28 | 0.66 / 0.65 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug28crekop) |
 | Pedro Martinez vs Ferreira Silva | Bad Rappenau | 2026-06-01 | 0.65 / 0.64 | `missing_player_id` | player_a_id='MO44', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01fermar) |
 | Pavel Kotov vs Den Ouden | Bad Rappenau | 2026-06-01 | 0.53 / 0.50 | `missing_player_id` | player_a_id='K09F', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01kotden) |
 | Pedro Martinez vs Ferreira Silva | Bad Rappenau | 2026-06-01 | 0.64 / 0.63 | `missing_player_id` | player_a_id='MO44', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26jun01fermar) |
@@ -11877,6 +11879,10 @@ _Generated 2026-08-27T13:55:49+00:00_
 | nan vs nan | Kingston 2 | 2026-08-27 | 0.31 / 0.30 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug27purand) |
 | nan vs nan | Kingston 2 | 2026-08-27 | 0.51 / 0.50 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug27maymar) |
 | nan vs nan | Kingston 2 | 2026-08-27 | 0.50 / 0.49 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug27maymar) |
+| nan vs nan | Kingston 2 | 2026-08-29 | 0.53 / 0.51 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug28maymig) |
+| nan vs nan | Kingston 2 | 2026-08-29 | 0.49 / 0.47 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug28maymig) |
+| nan vs nan | Kingston 2 | 2026-08-28 | 0.63 / 0.62 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug28pacand) |
+| nan vs nan | Kingston 2 | 2026-08-28 | 0.37 / 0.36 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug28pacand) |
 | Lev Seidman vs Ivan Marrero Curbelo | Kingston Qualification | 2026-08-16 | 0.95 / 0.05 | `missing_player_id` | player_a_id=nan, player_b_id='M09M' | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16marsei) |
 | Ivan Marrero Curbelo vs Seidman | Kingston Qualification | 2026-08-16 | 0.95 / 0.05 | `missing_player_id` | player_a_id='M09M', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16marsei) |
 | Pietro Fellin vs Andrade Da Silva | Kingston Qualification | 2026-08-16 | 0.95 / 0.05 | `missing_player_id` | player_a_id='F0BP', player_b_id=nan | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26aug16andfel) |
