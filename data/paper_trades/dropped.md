@@ -1,12 +1,12 @@
-# Dropped markets (27187)
+# Dropped markets (27191)
 
-_Generated 2026-10-02T17:33:47+00:00_
+_Generated 2026-10-02T21:54:13+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `missing_player_id` | 9738 |
+| `missing_player_id` | 9742 |
 | `low_player_coverage` | 5831 |
 | `tournament_not_in_tml` | 4840 |
 | `duplicate_match` | 2959 |
@@ -14357,6 +14357,10 @@ _Generated 2026-10-02T17:33:47+00:00_
 | nan vs nan | Jingshan | 2026-10-02 | 0.39 / 0.38 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct02erecin) |
 | nan vs nan | Jingshan | 2026-10-03 | 0.85 / 0.84 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct02harbol) |
 | nan vs nan | Jingshan | 2026-10-03 | 0.16 / 0.15 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct02harbol) |
+| nan vs nan | Jingshan | 2026-10-03 | 0.23 / 0.22 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct03erebel) |
+| nan vs nan | Jingshan | 2026-10-03 | 0.79 / 0.77 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct03erebel) |
+| nan vs nan | Jingshan | 2026-10-03 | 0.84 / 0.83 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct02harbol) |
+| nan vs nan | Jingshan | 2026-10-03 | 0.17 / 0.16 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct02harbol) |
 | nan vs nan | Jingshan Qualification | 2026-09-28 | 0.06 / 0.05 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26sep27atmpal) |
 | nan vs nan | Jingshan Qualification | 2026-09-28 | 0.95 / 0.86 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26sep27atmpal) |
 | nan vs nan | Jingshan Qualification | 2026-09-28 | 0.14 / 0.05 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26sep27dinagu) |
