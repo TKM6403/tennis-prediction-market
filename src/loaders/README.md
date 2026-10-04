@@ -32,6 +32,29 @@ Will pull tennis market data from the Kalshi REST API.
 - `match_to_market()` — fuzzy join between TML match and Kalshi market
   (the hard part — player name and tournament name won't match exactly)
 
+### live_match_state_loader.py
+Pulls live, in-play match STATE (not prices) from the Live Tennis API free
+tier (livetennisapi.com — a commercial live-tennis data feed, disclosed).
+
+**Key pieces:**
+- `LiveMatchStateLoader.load()` / `.normalize()` — two-step fetch + tidy, same
+  shape as the Kalshi/Polymarket loaders. `normalize()` is pure/offline and
+  returns a documented `STANDARD_SCHEMA` DataFrame (score, server, winner,
+  retirement/walkover flags).
+- `break_point_state()` — derives the three-valued break-point flag
+  (`true`/`false`/`undefined`) from the point score and server.
+
+**Why it's here:** this stays a pre-match, hold-to-resolution project. The
+loader is settlement-adjacent MONITORING of positions we already hold — an
+independent view of whether a held match went `completed` / `Retired` /
+`Walkover` before Kalshi finalizes it. It is read-only data ingestion; it never
+places or sizes an order, and it never enters the feature/training path (so it
+carries no lookahead exposure — see the module docstring).
+
+**Auth/limits:** `Authorization: Bearer $LIVETENNIS_API_KEY`, free tier
+30 req/min & 100 req/day. The last raw payload is snapshotted to
+`data/raw/live_tennis/` for audit only (live state is never replayed).
+
 ---
 
 ## Adding a New Loader
