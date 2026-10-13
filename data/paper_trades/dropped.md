@@ -1,12 +1,12 @@
-# Dropped markets (29179)
+# Dropped markets (29217)
 
-_Generated 2026-10-13T10:10:51+00:00_
+_Generated 2026-10-13T18:58:01+00:00_
 
 ## Summary by reason
 
 | Reason | Count |
 |---|---|
-| `missing_player_id` | 11730 |
+| `missing_player_id` | 11768 |
 | `low_player_coverage` | 5831 |
 | `tournament_not_in_tml` | 4840 |
 | `duplicate_match` | 2959 |
@@ -14927,6 +14927,20 @@ _Generated 2026-10-13T10:10:51+00:00_
 | nan vs nan | Jinan | 2026-10-13 | 0.68 / 0.66 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13macmul) |
 | nan vs nan | Jinan | 2026-10-12 | 0.01 / 0.00 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct12walcil) |
 | nan vs nan | Jinan | 2026-10-12 | 1.00 / 0.99 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct12walcil) |
+| nan vs nan | Jinan | 2026-10-14 | 0.38 / 0.36 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct14smikop) |
+| nan vs nan | Jinan | 2026-10-14 | 0.64 / 0.62 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct14smikop) |
+| nan vs nan | Jinan | 2026-10-14 | 0.64 / 0.63 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct14pavsch) |
+| nan vs nan | Jinan | 2026-10-14 | 0.37 / 0.36 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct14pavsch) |
+| nan vs nan | Jinan | 2026-10-14 | 0.54 / 0.53 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct14ilawat) |
+| nan vs nan | Jinan | 2026-10-14 | 0.46 / 0.45 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct14ilawat) |
+| nan vs nan | Jinan | 2026-10-14 | 0.78 / 0.75 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct14lancui) |
+| nan vs nan | Jinan | 2026-10-14 | 0.24 / 0.22 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct14lancui) |
+| nan vs nan | Jinan | 2026-10-14 | 0.60 / 0.59 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13matvuk) |
+| nan vs nan | Jinan | 2026-10-14 | 0.40 / 0.39 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13matvuk) |
+| nan vs nan | Jinan | 2026-10-14 | 0.59 / 0.58 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13ivasha) |
+| nan vs nan | Jinan | 2026-10-14 | 0.44 / 0.43 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13ivasha) |
+| nan vs nan | Jinan | 2026-10-14 | 0.57 / 0.56 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13draduc) |
+| nan vs nan | Jinan | 2026-10-14 | 0.43 / 0.42 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13draduc) |
 | nan vs nan | Jinan Qualification | 2026-10-11 | 0.13 / 0.12 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct11matsun) |
 | nan vs nan | Jinan Qualification | 2026-10-11 | 0.88 / 0.86 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct11matsun) |
 | nan vs nan | Jinan Qualification | 2026-10-11 | 0.95 / 0.06 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct11shaian) |
@@ -18630,6 +18644,8 @@ _Generated 2026-10-13T10:10:51+00:00_
 | nan vs nan | Roanne | 2026-10-13 | 0.58 / 0.57 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13oncbal) |
 | nan vs nan | Roanne | 2026-10-13 | 0.01 / 0.00 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13marsch) |
 | nan vs nan | Roanne | 2026-10-13 | 1.00 / 0.99 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13marsch) |
+| nan vs nan | Roanne | 2026-10-13 | 0.66 / 0.65 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13mpedon) |
+| nan vs nan | Roanne | 2026-10-13 | 0.35 / 0.34 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13mpedon) |
 | nan vs nan | Roanne Qualification | 2026-10-11 | 0.94 / 0.06 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct11poubro) |
 | nan vs nan | Roanne Qualification | 2026-10-11 | 0.94 / 0.06 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct11poubro) |
 | nan vs nan | Roanne Qualification | 2026-10-11 | 0.94 / 0.06 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct11pargha) |
@@ -19586,6 +19602,28 @@ _Generated 2026-10-13T10:10:51+00:00_
 | nan vs nan | Santa Cruz 2 | 2026-10-13 | 0.59 / 0.58 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13buezei) |
 | nan vs nan | Santa Cruz 2 | 2026-10-13 | 0.67 / 0.65 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13aboron) |
 | nan vs nan | Santa Cruz 2 | 2026-10-13 | 0.34 / 0.33 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13aboron) |
+| nan vs nan | Santa Cruz 2 | 2026-10-14 | 0.85 / 0.84 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13seyalv) |
+| nan vs nan | Santa Cruz 2 | 2026-10-14 | 0.16 / 0.15 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13seyalv) |
+| nan vs nan | Santa Cruz 2 | 2026-10-14 | 0.30 / 0.28 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13vilzar) |
+| nan vs nan | Santa Cruz 2 | 2026-10-14 | 0.71 / 0.70 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13vilzar) |
+| nan vs nan | Santa Cruz 2 | 2026-10-14 | 0.25 / 0.24 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13ribpra) |
+| nan vs nan | Santa Cruz 2 | 2026-10-14 | 0.76 / 0.75 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13ribpra) |
+| nan vs nan | Santa Cruz 2 | 2026-10-14 | 0.79 / 0.78 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13cigkic) |
+| nan vs nan | Santa Cruz 2 | 2026-10-14 | 0.22 / 0.21 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13cigkic) |
+| nan vs nan | Santa Cruz 2 | 2026-10-14 | 0.50 / 0.49 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13bosmen) |
+| nan vs nan | Santa Cruz 2 | 2026-10-14 | 0.50 / 0.49 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13bosmen) |
+| nan vs nan | Santa Cruz 2 | 2026-10-13 | 0.87 / 0.86 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13jushue) |
+| nan vs nan | Santa Cruz 2 | 2026-10-13 | 0.14 / 0.13 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13jushue) |
+| nan vs nan | Santa Cruz 2 | 2026-10-13 | 0.62 / 0.61 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13casla) |
+| nan vs nan | Santa Cruz 2 | 2026-10-13 | 0.39 / 0.38 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13casla) |
+| nan vs nan | Santa Cruz 2 | 2026-10-13 | 0.67 / 0.66 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13migdev) |
+| nan vs nan | Santa Cruz 2 | 2026-10-13 | 0.34 / 0.33 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13migdev) |
+| nan vs nan | Santa Cruz 2 | 2026-10-13 | 0.22 / 0.21 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13olirat) |
+| nan vs nan | Santa Cruz 2 | 2026-10-13 | 0.79 / 0.78 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13olirat) |
+| nan vs nan | Santa Cruz 2 | 2026-10-13 | 0.84 / 0.83 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13buezei) |
+| nan vs nan | Santa Cruz 2 | 2026-10-13 | 0.17 / 0.16 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13buezei) |
+| nan vs nan | Santa Cruz 2 | 2026-10-13 | 0.58 / 0.56 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13aboron) |
+| nan vs nan | Santa Cruz 2 | 2026-10-13 | 0.43 / 0.39 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct13aboron) |
 | nan vs nan | Santa Cruz 2 Qualification | 2026-10-11 | 0.93 / 0.05 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct11donfer) |
 | nan vs nan | Santa Cruz 2 Qualification | 2026-10-11 | 0.94 / 0.06 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct11donfer) |
 | nan vs nan | Santa Cruz 2 Qualification | 2026-10-11 | 0.94 / 0.06 | `missing_player_id` | player_a_id=None, player_b_id=None | [link](https://kalshi.com/markets/kxatpchallengermatch/kxatpchallengermatch-26oct11zebher) |
